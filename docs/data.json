@@ -1,31 +1,68 @@
 {
-  "generated": "31. March 2026, 10:44 UTC",
+  "generated": "31. March 2026, 11:58 UTC",
   "categories": {
     "austria": {
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "Österreich setzt verstärkt auf innovative Lärmschutzmaßnahmen und",
+      "items": [
+        {
+          "title": "Energiewende: Die Lärmschutzwand, die drei Probleme löst - Kurier",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcjZaY2xUZEFDWHQ4NjA0cTdteTBDcE9JdjlndlFmemRJNkNXc0hjeE9rTjd2NWlzQ1l1ZFowbXE1U3RNWklELTJWLXQ5T2xjcVcwSkRSTUpmSDNBT0REem1YQWo4VFlPSXJONFd1aFE5cUtYbGdaQlRtLTlGUEhwS0lpdVAtOFVHVzVTS240Q09lX3oyVHc?oc=5",
+          "date": "9. Dec 2025",
+          "source": "Kurier"
+        },
+        {
+          "title": "Zu laut! Auf diesen beliebten Strecken dürfen bestimmte Motorräder nicht fahren - ADAC",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA0dmRPNTdyVi0wWGZoblZxRTBCQnlsbENUUEttTkJqdHcxaEFaOE5nd3FVeVc3b2Q2THgxSHVTLWlJNEJ4VWRJT0NwczVpN2x1TFZPUjJsdnFoMHRBR0xxS3JLQWhzUQ?oc=5",
+          "date": "26. Jan 2026",
+          "source": "ADAC"
+        },
+        {
+          "title": "Bis zu 5000 Euro Strafe: Lärm-Blitzer straft jetzt zu laute Autofahrer! - Kleine Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPb2Jha185LXFHVll3MzFmZVVzeUZFYmlpdXdydnk3d29IMGo0dnkwTDMtLWE4TUs5c1pFQXNyREItQXZDLWVnZTZfZk1LTDg0ZmlYMUJTVHFTMFZza0hZMklNZ3ctMG9FV1RSZG44UFY5am8xVDZ2b0lfcmUxa2MwaGxlTXIwZ3lKblUtVE9xN191TWVtVDNkc0g5RWdzNjlXM2JvcFNDN19MLWNXcmdTTng3MEw3SzFKbGVqMg?oc=5",
+          "date": "22. Aug 2025",
+          "source": "Kleine Zeitung"
+        },
+        {
+          "title": "Dank Lärmradar werden Lautfahrer bald sichtbarer - Der Standard",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVFdqY3c2Vm4zVUxsOUtXZkE4bWlXRjUxU0o0VXN0YmVENnllTlNSN0ZoREo3VDVOSE5GTmFORnN2NnM3NzNaa2UxWnhPOW5DenN4SzNFenh0ZS1FWEpON2JvSURiRmtvVHhzd0gyN1ZXNWRWSnJjV29YemdncVNEc1pFSTRxZFJMTXRwT1RITFA2cEZlUEc1c1VwV0Y?oc=5",
+          "date": "12. Dec 2025",
+          "source": "Der Standard"
+        },
+        {
+          "title": "Erster Gürtel-Lärmschutzlauf: Wienerinnen laufen für leisere Nächte - 5 Minuten",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNams1WlRzU2tjSzFLZU5nbjVCbDZhQ1AyMlBid0RGc3hrakVvV1hScktlRndSeGkxOW1EYnpKdW9oZEJ2eFIyOFd1SE4zRk9wYnhwTllHLXl5cTl4emptZ05jYmw2bmptV3dwSmt1NEJ0ODBDWjZrN2JWUEN1X1B5S2R3Y0xhTmwzWFlCM2dMdzRZMHQ2dnRwaHN5Wmthb1N1bkoteHNFeUI1bUdTbE00?oc=5",
+          "date": "19. Oct 2025",
+          "source": "5 Minuten"
+        },
+        {
+          "title": "Kritik an Tempo 80 trotz Lärmschutzwand - noe.ORF.at",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBsTFVtWUFnanNoSndLSFRkWjY5M0tLdWtjU1pnQzVUZFlnbVJMVzgzNHEtWFNxN0NWMEFfM29jZkd1aHpJSmd3WlkyYw?oc=5",
+          "date": "21. May 2025",
+          "source": "noe.ORF.at"
+        },
+        {
+          "title": "Schallleistungspegel für Schienenverkehrslärm - Bundesministerium für Innovation, Mobilität und Infrastruktur (BMIMI)",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMXJhOF9vbHBES3IyUW44cC1Gc21SNU13cFlsLTJ1bEZ5ZmhBQ2dUanVvSnBPNmxLWFdkQ1Q4LXZfdVN0ZHpyUnNSc0lSelotTHZwS0Q2RkdxekNhOXI2aEJNNWRMdzNBZmIxU01kdy10VUxUQnBBNGZJY09QU0ZNN2xVT3ByYm1ERXhGZTlLbXk0NFU?oc=5",
+          "date": "10. Apr 2025",
+          "source": "Bundesministerium für Innovation, Mobilität und Infrastruktur (BMIMI)"
+        },
+        {
+          "title": "Archivmeldung: Innovation beim Lärmschutz: Meidlings neue Lärmschutzwand vereint Natur und Technologie - Presseservice der Stadt Wien",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVFhHNzYwQnNBMmVLc2ZSOV84cE10TGh0WEsycjNpWGw1ZjFLclNSTFJVcFFlT3VHb2htWDBoRUFteW9kd2ZrZlJMRXNpMVFYWnY4d3NEeS1GZ09ESXVSeGVGbjgzMUd2R2F3TzhYdGU0MDhWVFFINU1ZWDlQVVVEcXoxbHBnR2ZWMlVOLVJqVnAyTkV0TnlRak9pa2djNGhxSmxXdjlJTGdSWHpJdXoxYWtOV2xPb1ZOVzlGVlJ2S0MzMThya2hOMDVmV28?oc=5",
+          "date": "14. Feb 2025",
+          "source": "Presseservice der Stadt Wien"
+        }
+      ]
     },
     "europe": {
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Zusammenfassung konnte nicht erstellt werden.",
+      "summary": "Recent European news highlights a widespread concern over noise pollution, with",
       "items": [
-        {
-          "title": "Slovenia introduces air pollution, noise fee for trucks - Balkan Green Energy News",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRmNTS1RNUzlOWnJtaGdYTDdhR3hnLVkzaVlnNS1NbjJzSXRZaFNKZGxtYi1QYVg1bnBjbVY1eDFBYm1BOFRldFBKR09ZblRxdkZQLW1HYkZZQjJfcUVEUHZXVDJyWElfWGdrbExHU2RxTFY2VE1FTm9KTVkzMHZTalFXYnpCTmFodmd0TFpqTGtfRkk?oc=5",
-          "date": "16. Feb 2026",
-          "source": "Balkan Green Energy News"
-        },
-        {
-          "title": "Ghent Takes Action to Reduce Tourism Noise and Protect Its Historic Charm: Everything You Need to Know Before Visiting - Travel And Tour World",
-          "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPeHlCWjNJTGx2d3BLMHFHRlFGNGFfbC1TZHp6T1JZSzdKb3lSU2hEOVRDd1lGUG9nSlFDa19ISkFSY0owS2FiLXNOUUhWVGpCSHdOQ3FCSWtsUVU5WFpGdHE5ZjMxa1RRX3hoOHBBNlp0N2V2S3dnQURGeE1hYTVtYndPaHp5MVNqQkh4N0I4bll0UGIzQmxBWldUWVF5WTYwTm1zMVA5SGtpWVJuR0tnZ2Zsek1SSWdZQmdDRDREQklEa3VMMUVFQ2ZnN0Nxb1FBdUxaZmpabGU3TXpvbWs4XzdsQ09JN1Y4eFV4NTJ3d2ozSy1nbWRBRGVB?oc=5",
-          "date": "3. Feb 2026",
-          "source": "Travel And Tour World"
-        },
         {
           "title": "More than 20% of Europeans exposed to harmful noise pollution levels - European Environment Agency (EEA)",
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQmFoQ19lY1dnWlh2N1FEMHl4TUtBMWo5OW1lVktXdmJ1VHNDcEV2SU9MUzFjUm1RVk5NSS0xZ29BUXByWkJQLXkzSnN4dFdsQUh6eUZwTTcxeXBmVnd5ZnRqcUFwTmhteG5HYkZfa2JBVGhWSEVmdjFEZC1zSVh6RjY1TkMyUUN6NjdLb1kyY3l1aENSeTN6RVpB?oc=5",
@@ -39,10 +76,22 @@
           "source": "European Newsroom"
         },
         {
-          "title": "Noise pollution directive: a far cry from effective - euronews.com",
+          "title": "Slovenia introduces air pollution, noise fee for trucks - Balkan Green Energy News",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRmNTS1RNUzlOWnJtaGdYTDdhR3hnLVkzaVlnNS1NbjJzSXRZaFNKZGxtYi1QYVg1bnBjbVY1eDFBYm1BOFRldFBKR09ZblRxdkZQLW1HYkZZQjJfcUVEUHZXVDJyWElfWGdrbExHU2RxTFY2VE1FTm9KTVkzMHZTalFXYnpCTmFodmd0TFpqTGtfRkk?oc=5",
+          "date": "16. Feb 2026",
+          "source": "Balkan Green Energy News"
+        },
+        {
+          "title": "Noise pollution directive: a far cry from effective - Euronews.com",
           "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQ0FVejQwMXJZb18xTlZ6UUlxMWNPM25uaHoybWdJZkh4WXVGUkVtWEJCN20tNnJoQl9GaHVmdTlzbWxfV2l4ZS0wWXpGTjdLUlBtY0phNWEtWUxWVTI2dTkxdnhfaTFUcHhMX096NTFJRW5WY2hmbDVNelIzYzc5YWxSSWdONExBa2Rwa1VGVTNQdzRicFd0SEs1U0E?oc=5",
           "date": "25. Feb 2025",
-          "source": "euronews.com"
+          "source": "Euronews.com"
+        },
+        {
+          "title": "Noise Control System Market Size & Forecast 2025-2035 - Future Market Insights",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1xc3hnZTlZYm9SMXU1OVFrMEdvWmVfdWczcGFfRTNHUklObE9LOWtNaXhJa2I2RWJhb1FJeEpfNU5wSmJ5eFdGaTlhbGZhMl83c1ROaTVIQ1NOdHFTTW5CU182dzI3dE1KNkJtVmZyWTc2SHpHa0x5aWRsT3I?oc=5",
+          "date": "31. May 2025",
+          "source": "Future Market Insights"
         },
         {
           "title": "Historical EU mandatory limits on underwater noise pollution - International Fund for Animal Welfare | IFAW",
@@ -51,16 +100,16 @@
           "source": "International Fund for Animal Welfare | IFAW"
         },
         {
-          "title": "Europe struggles to turn down volume on deadly traffic noise - politico.eu",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSUJQSmpMWEpnRHA1eFdZajV0Zm9lSzhVQ3J2M3RDXzl5ckNJa0hJeFN6Z0VhVVpxNlgyNWZlSGd6OVd4OWFRcUFUSVItLWplRDgxX21GaU14Sm1FMExhbTdCRFFRZUV5aVp1NkZ1bmd6MGItUnA2cmsyMl81VU9IOTM5LVl0TkUxbGxQUGduaUt3NVRDX2QyZjYzaHVpVkJJOW82bHpoN1o1RnNYTm1ONldTNW9rRFU?oc=5",
-          "date": "7. Sep 2022",
-          "source": "politico.eu"
+          "title": "Install police-monitored sound limiters in venues, European report says - Times of Malta",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSnlRcGtYbHl2NDNORFN1azQtaWRkTHppTmhGMjVJTllpNlpOaUFXcmdXUjc1VERyQW94TC1QOTgtRXphQ29NUDN3aXhvVWR3M0ZBNFZpNUVCUk01Mm54S2RSNURTLTlWT1gxY2dkWS0tZHNBeEFDT3hjeGdOemszZDgtc3JLWERscHlISFNTdUNhQ2wtQzBXeC14Y092dVVDVVIxd0syMmMxRlU?oc=5",
+          "date": "24. Feb 2026",
+          "source": "Times of Malta"
         },
         {
-          "title": "MEP Peter Agius Calls for Enforcement of EU Noise Pollution Rules on Rest Times and Legal Noise Limits - EPP Group in the European Parliament",
-          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQV01HNGI0WXNLb2ZLMGE4ejUwNmpiZy1Jajh5ZWczVENZVlVmMHI1RG5TSzUzUTV5Q0txRDRUMmt3RGxVUy1INXdMRGpLMHlKRmRObW5RMTdDVi1ZSmgyZ1BxYnctWDhEOWJPbGlrV0pObU9XaENZc2dGU2dnbWZaV1hScWprYWFJNGVKTmxMWndOYk00UU9hSUdkZW1xWXE0eThtRkJ6SDk0djNjZjl2WlJCYjRRdW5GQWRoR3VfZnBPcGF1amQwYUQwMFNQdzhRWXJDa2ZFQ1R2TkpUbnVYajdKOXRRbFl2TWFHMWl2b011c0U?oc=5",
-          "date": "1. Feb 2025",
-          "source": "EPP Group in the European Parliament"
+          "title": "Ghent Takes Action to Reduce Tourism Noise and Protect Its Historic Charm: Everything You Need to Know Before Visiting - Travel And Tour World",
+          "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPeHlCWjNJTGx2d3BLMHFHRlFGNGFfbC1TZHp6T1JZSzdKb3lSU2hEOVRDd1lGUG9nSlFDa19ISkFSY0owS2FiLXNOUUhWVGpCSHdOQ3FCSWtsUVU5WFpGdHE5ZjMxa1RRX3hoOHBBNlp0N2V2S3dnQURGeE1hYTVtYndPaHp5MVNqQkh4N0I4bll0UGIzQmxBWldUWVF5WTYwTm1zMVA5SGtpWVJuR0tnZ2Zsek1SSWdZQmdDRDREQklEa3VMMUVFQ2ZnN0Nxb1FBdUxaZmpabGU3TXpvbWs4XzdsQ09JN1Y4eFV4NTJ3d2ozSy1nbWRBRGVB?oc=5",
+          "date": "3. Feb 2026",
+          "source": "Travel And Tour World"
         }
       ]
     },
@@ -68,7 +117,7 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Zusammenfassung konnte nicht erstellt werden.",
+      "summary": "Recent advancements in noise control research offer promising tools for engineers",
       "items": [
         {
           "title": "Dual-actuator-type active noise control in vibro-acoustic systems with openings - Nature",
