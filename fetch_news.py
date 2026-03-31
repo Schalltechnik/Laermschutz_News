@@ -103,8 +103,13 @@ def fetch_rss(url: str) -> list[dict]:
             if title:
                 items.append({"title": title, "link": link, "date": pub, "source": source})
     except Exception as e:
-        print(f"  Warning: could not fetch {url}: {e}")
-    return items
+        import traceback
+        print(f"  Gemini error: {e}")
+        try:
+            print(f"  Gemini response body: {e.read().decode()}")
+        except:
+            pass
+        return "Zusammenfassung konnte nicht erstellt werden."
 
 
 def deduplicate(items: list[dict]) -> list[dict]:
