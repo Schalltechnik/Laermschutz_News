@@ -144,7 +144,17 @@ def summarize_with_gemini(titles: list[str], prompt: str) -> str:
     import urllib.request, json as _json
     body = _json.dumps({
         "contents": [{"parts": [{"text": full_prompt}]}],
-        "generationConfig": {"maxOutputTokens": 1000, "temperature": 0.3},
+        "generationConfig": {
+            "maxOutputTokens": 1000, 
+            "temperature": 0.3
+        },
+        # HIER DIE ERGÄNZUNG:
+        "safetySettings": [
+            {"category": "HARM_CATEGORY_HARASSMENT", "threshold": "BLOCK_NONE"},
+            {"category": "HARM_CATEGORY_HATE_SPEECH", "threshold": "BLOCK_NONE"},
+            {"category": "HARM_CATEGORY_SEXUALLY_EXPLICIT", "threshold": "BLOCK_NONE"},
+            {"category": "HARM_CATEGORY_DANGEROUS_CONTENT", "threshold": "BLOCK_NONE"}
+        ]
     }).encode()
 
     req = Request(
@@ -154,15 +164,19 @@ def summarize_with_gemini(titles: list[str], prompt: str) -> str:
         method="POST",
     )
     try:
-        with urlopen(req, timeout=30) as resp:
-            data = _json.loads(resp.read())
+    with urlopen(req, timeout=30) as resp:
+        data = _json.loads(resp.read())
+
+    # Sicherer Zugriff:
+    if "candidates" in data and data["candidates"][0].get("content"):
         full_text = data["candidates"][0]["content"]["parts"][0]["text"].strip()
-        print(f"  Full summary length: {len(full_text)} chars")
-        print(f"  Finish reason: {data['candidates'][0].get('finishReason', 'unknown')}")
         return full_text
+    else:
+        print(f"  Gemini blocked or empty: {data.get('promptFeedback', 'No feedback')}")
+        return "Zusammenfassung aufgrund von Sicherheitsfiltern nicht möglich."
     except Exception as e:
         print(f"  Gemini error: {e}")
-        return "Zusammenfassung konnte nicht erstellt werden."
+        return "Fehler bei der Kommunikation mit Gemini."
 
 
 # ── Main ───────────────────────────────────────────────────────────────────────
