@@ -1,11 +1,11 @@
 {
-  "generated": "31. March 2026, 13:14 UTC",
+  "generated": "31. March 2026, 13:19 UTC",
   "categories": {
     "austria": {
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Zusammenfassung konnte nicht erstellt werden.",
+      "summary": "Österreich setzt verstärkt auf innovative Lärmschutzlösungen, darunter multifunktionale Wände, die Natur und Technologie vereinen, sowie auf die Entwicklung im Schallschutz im Holzbau und bei Schienenverkehrslärm. Gleichzeitig werden Maßnahmen gegen laute Fahrzeuge intensiviert, etwa durch Fahrverbote für bestimmte Motorräder auf sensiblen Strecken und den Einsatz von Lärmradaren zur besseren Überwachung. Trotz dieser Bemühungen und bestehender Lärmschutzwände stößt die Wirksamkeit von Tempolimits wie Tempo 80 auf Autobahnen weiterhin auf öffentliche Kritik und den Wunsch nach noch leiseren Nächten, wie Bürgerinitiativen zeigen.",
       "items": [
         {
           "title": "Energiewende: Die Lärmschutzwand, die drei Probleme löst - Kurier",
@@ -26,10 +26,10 @@
           "source": "Der Standard"
         },
         {
-          "title": "Erster Gürtel-Lärmschutzlauf: Wienerinnen laufen für leisere Nächte - 5 Minuten",
+          "title": "Erster Gürtel-Lärmschutzlauf: Wienerinnen laufen für leisere Nächte - 5min.at",
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNams1WlRzU2tjSzFLZU5nbjVCbDZhQ1AyMlBid0RGc3hrakVvV1hScktlRndSeGkxOW1EYnpKdW9oZEJ2eFIyOFd1SE4zRk9wYnhwTllHLXl5cTl4emptZ05jYmw2bmptV3dwSmt1NEJ0ODBDWjZrN2JWUEN1X1B5S2R3Y0xhTmwzWFlCM2dMdzRZMHQ2dnRwaHN5Wmthb1N1bkoteHNFeUI1bUdTbE00?oc=5",
           "date": "19. Oct 2025",
-          "source": "5 Minuten"
+          "source": "5min.at"
         },
         {
           "title": "Kritik an Tempo 80 trotz Lärmschutzwand - noe.ORF.at",
@@ -38,10 +38,10 @@
           "source": "noe.ORF.at"
         },
         {
-          "title": "Schallleistungspegel für Schienenverkehrslärm - bmimi.gv.at",
+          "title": "Schallleistungspegel für Schienenverkehrslärm - Bundesministerium für Innovation, Mobilität und Infrastruktur",
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMXJhOF9vbHBES3IyUW44cC1Gc21SNU13cFlsLTJ1bEZ5ZmhBQ2dUanVvSnBPNmxLWFdkQ1Q4LXZfdVN0ZHpyUnNSc0lSelotTHZwS0Q2RkdxekNhOXI2aEJNNWRMdzNBZmIxU01kdy10VUxUQnBBNGZJY09QU0ZNN2xVT3ByYm1ERXhGZTlLbXk0NFU?oc=5",
           "date": "10. Apr 2025",
-          "source": "bmimi.gv.at"
+          "source": "Bundesministerium für Innovation, Mobilität und Infrastruktur"
         },
         {
           "title": "Archivmeldung: Innovation beim Lärmschutz: Meidlings neue Lärmschutzwand vereint Natur und Technologie - Presseservice der Stadt Wien",
@@ -56,16 +56,16 @@
           "source": "Landeshauptstadt – St. Pölten"
         },
         {
-          "title": "Tempo 80 trotz Lärmschutz – Tempolimit auf A2 sorgt für Kritik - 5 Minuten",
+          "title": "Tempo 80 trotz Lärmschutz – Tempolimit auf A2 sorgt für Kritik - 5min.at",
           "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYTJNdnlRcXN0cWxOdDV1UkF0ZGozNm9sTXJvRjdBR2NXWGtmdjJrbUpqSE5RN205ZTJSV214WUt4RUNvVzBESHRjVDh2NGFGTVJfdGpmNGVhX3VEMDJqR1RNakpGX09hVXFtUy1oQzBEVGNOdVBmQ1VfTjdfSVJKRHRDZncxb1VuZlZvcWxiR1Bab2IxMVFV?oc=5",
           "date": "21. May 2025",
-          "source": "5 Minuten"
+          "source": "5min.at"
         },
         {
-          "title": "Schallschutz im Holzbau: Neues aus Normung und Forschung - holzbau austria",
+          "title": "Schallschutz im Holzbau: Neues aus Normung und Forschung - holzbauaustria.at",
           "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVTdTOTBPa29qWm5rYkdrNk1kOWdWdVItX0VwMkRtcnBLeHhpWHFCYXE5QXZzblNYcEhmcWRDc2JtNGNGMmM0WTBXOEJyS2w5VGh1eEpNNTNET2ZfQ01WXzlqNDZzT1Ztc00yZVFlUHVabWh3aUdSTlVLRkJIRVFLNm5nS3ZQdnByNFJZN0FPX29HQ1JUTUhzVXRYSlJzcW9MTUQ3MGpsRVlJX3dqc2pvQndFalJoUks5dVJDakNScC13VzlIVm5SYjhRNUdvV20yQ1FUdWxR?oc=5",
           "date": "13. Aug 2021",
-          "source": "holzbau austria"
+          "source": "holzbauaustria.at"
         }
       ]
     },
@@ -73,7 +73,7 @@
       "label": "DACH – Umgebungslärm",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Die Reduktion von Verkehrslärm ist in der DACH-Region ein zentrales Thema, wobei sowohl die individuelle Verantwortung durch bewusstes Fahren als auch strengere Maßnahmen wie hohe Bußgelder für laute Fahrzeuge diskutiert werden. Innovative regionale Entwicklungen zeigen sich in der Schweiz, wo in Zürich Lärmschutzwände an Autobahnen zu Solarkraftwerken umfunktioniert werden, ein Ansatz, der auch für die B17 in Augsburg angedacht ist. Gleichzeitig gibt es grenzüberschreitende Herausforderungen, wie die Kritik aus Österreich an einer Lärmschutzmauer im schweizerischen Rheineck verdeutlicht. Eine allgemeine Debatte über die Angemessenheit von Lärmschutzmaßnahmen und die Frage nach einem \"Lärmkorsett\" prägt die Diskussion.",
+      "summary": "Zusammenfassung konnte nicht erstellt werden.",
       "items": [
         {
           "title": "Leserbrief: Welches Lärmkorsett? - VOL.AT",
@@ -106,34 +106,34 @@
           "source": "CHIP"
         },
         {
-          "title": "Österreicher kritisieren Rheinecker Lärmschutz-Mauer - tagblatt.ch",
+          "title": "Österreicher kritisieren Rheinecker Lärmschutz-Mauer - St. Galler Tagblatt",
           "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQLXBTbEdGb0lVdHRnSzdEUTlvakZ4NXh0Zkk4UWxRamh1QjJPSlMwd2ExWHNVUWRHOFRLOFRFems2XzJyaGxfXzBoeC1KTHRhS2hPNG9ZUjk1aW1pS1lhZWF6dnN3bHBDaHUtR2NlRUhfRXJ2UGN5Q3ItT3NQTV9MWGRLVzA4cmw0YkMzRXR3?oc=5",
           "date": "29. Dec 2018",
-          "source": "tagblatt.ch"
+          "source": "St. Galler Tagblatt"
         },
         {
-          "title": "Winterrisiko im Straßenverkehr: Eisplatten auf dem Lkw-Dach - Eurotransport",
+          "title": "Winterrisiko im Straßenverkehr: Eisplatten auf dem Lkw-Dach - eurotransport.de",
           "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUGxlUmlVdkhkMTRNM0VHMU1famEzbmVUWEFDZU52ejZTZWd3cENqQV9Qdk5FSEw2MmtHYXBEdFdMVkRpTThEWWR4a0lfVHhYTWxFRk11TzkxWnlHcVJpRDd5T1RGdHNuZUoxcl9OSVZsNnk4cnJVWWFZZFYwdWdyUmwzaGhQeGtuM0hiT1FycjVWazVKanZ6cWFNN1pOWXc5WUpRYlFTdGc?oc=5",
           "date": "19. Jan 2026",
-          "source": "Eurotransport"
+          "source": "eurotransport.de"
         },
         {
-          "title": "Straßenverkehr: Diese Bußgelder gibt es im Winter! - MDR",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9DY2x3XzhDWnV5RW9GSVEyOXdJWWhOWUtwaUZ3YnV6NmJtNThaczNfTk12QjR0NUNCQlRnUDcyVVczeVNaaVJzN2ZiUWduODRMYm1kLU9ja0RpVDd1TlJoOE9FWkNod0FkTDVHUlpEY9IBdEFVX3lxTFBxSjJUMUI0Nlh2dlI5U0R1RjZtSnpQd1RpOWRjRmIwZ0EyN3FydXZzUnotT01PZlBPT1VHS2xfOXZLZjNLQ0dtRVlyRVhvMlFManRvUC1fdDRyMFF3XzNva1FYajY2VHFqbzN5elRZcXM5c2NX?oc=5",
-          "date": "23. Feb 2026",
-          "source": "MDR"
-        },
-        {
-          "title": "B17: Augsburger ÖDP will Photovoltaik-Dach - Augsburger Allgemeine",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYWNYYmg3ZVdBNUFZMExhVUw4WlNzbmtBYzJsVnpxbkVOelZ2ckx3WVQxUXA5Qm9DdThmTDVYeG9DZFpad1BUemY5ZE9kejNSLU9Tcy0xd1EyUWk2NUswSG13SmNQa0gyUHNlUHJNcnN6UEdMSU43eFdOX2I3VHdQd2hHMWp1UlVUSXpmTVJWdy1yS0h2eTZkcWlXR1JmUUtFWWlBd3owR2hrMk0?oc=5",
-          "date": "15. Aug 2025",
-          "source": "Augsburger Allgemeine"
+          "title": "Osram Night Breaker Autolampe: LED-Innovationen für bessere Sichtbarkeit im Straßenverkehr - ad-hoc-news.de",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdnZQYXNWLU93QVIydjlOalBrWjNBY25CbFFFZEFsaTdENHRZUWNKbG1XU0k3WHFKYVh3UlhObkdlQXJDS2RPMFZQVi1ROU53Y205bkhtQnd5d0ZndlZDdF9vcE1LWXlWVlNfZlJLZ2dTeXhhUi1rRlZacXdNU3FfRnpCUUpfSGZmUXJ0WmZIN2ZoUktlMjc0d0hmSkk5NERLQXN1YTFyOW5rS2UySW0wR3djYkxtMm1xMFhkNXZUWnBYSXBr?oc=5",
+          "date": "21. Mar 2026",
+          "source": "ad-hoc-news.de"
         },
         {
           "title": "Schadstoffwerte im VW Grand California: KBA sieht aktuell kein Verkehrsrisiko - Promobil",
           "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVzlfaTFMU1cwbUo1UFFTbXJRUHNjYXBsczZabjlRNGRHWllxdENJRHZOSUZ6bHFTTUhjdDZVZlpQOWxvcjNqaktpemZmNHlnbmNmMXJhVndEVWtsSDRyQ2swV2tlOVZpM2cxZUVoWUZoU0ZQTnB3aHpfWHluYmdvVHAxYWdXQ0pnZF9pQzhuUF9DVndKNW95dmlFVmdqckVTLTdyal9EclFMdTVDYWcyQQ?oc=5",
           "date": "10. Feb 2026",
           "source": "Promobil"
+        },
+        {
+          "title": "B17: Augsburger ÖDP will Photovoltaik-Dach - Augsburger Allgemeine",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYWNYYmg3ZVdBNUFZMExhVUw4WlNzbmtBYzJsVnpxbkVOelZ2ckx3WVQxUXA5Qm9DdThmTDVYeG9DZFpad1BUemY5ZE9kejNSLU9Tcy0xd1EyUWk2NUswSG13SmNQa0gyUHNlUHJNcnN6UEdMSU43eFdOX2I3VHdQd2hHMWp1UlVUSXpmTVJWdy1yS0h2eTZkcWlXR1JmUUtFWWlBd3owR2hrMk0?oc=5",
+          "date": "15. Aug 2025",
+          "source": "Augsburger Allgemeine"
         }
       ]
     },
@@ -254,10 +254,10 @@
           "source": "Oregon Public Broadcasting - OPB"
         },
         {
-          "title": "Noisy neighbours: how building sites are keeping quiet - MODUS | RICS",
+          "title": "Noisy neighbours: how building sites are keeping quiet - ww3.rics.org",
           "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNX00wY0txelpYbld4QnF1VTZWRzVybEdQYm1qVmpRSUdCRHhuWDdXWl93bGZNVFZKNHlFNWZNUWJsWjJCTWtMa0J2VkkxajZHcTJzTHhESVN6UTE0QU9jR1VIYU85NEszeEhLMElkckt1RWR0ZHBOV1RtalRJRUZtbVRPaWdqZklVVGp1cnpTZVp2NmRJeUphaGdoWjMwSjc4TzJoV0tvRmpSQ1p4UDBKUWpUdUJTeVpsd1BLNWlvSXo?oc=5",
           "date": "23. May 2022",
-          "source": "MODUS | RICS"
+          "source": "ww3.rics.org"
         },
         {
           "title": "Reducing noise pollution with acoustic walls and rubberised roads - research-and-innovation.ec.europa.eu",
