@@ -9,7 +9,6 @@ import re
 import time
 from datetime import datetime, timezone
 from urllib.request import urlopen, Request
-from urllib.error import URLError
 from urllib.parse import quote
 import xml.etree.ElementTree as ET
 
@@ -18,7 +17,7 @@ import xml.etree.ElementTree as ET
 GEMINI_API_KEY = os.environ["GEMINI_API_KEY"]
 GEMINI_URL = (
     "https://generativelanguage.googleapis.com/v1beta/models/"
-    "gemini-3.1-flash:generateContent?key=" + GEMINI_API_KEY
+    "gemini-2.5-flash:generateContent?key=" + GEMINI_API_KEY
 )
 
 CATEGORIES = {
@@ -27,7 +26,6 @@ CATEGORIES = {
         "icon": "🇦🇹",
         "color": "#c8102e",
         "feeds": [
-            # Google News RSS – Austrian sources, German keywords
             "https://news.google.com/rss/search?q=L%C3%A4rmschutz+%C3%96sterreich&hl=de&gl=AT&ceid=AT:de",
             "https://news.google.com/rss/search?q=L%C3%A4rmschutzwand+Austria&hl=de&gl=AT&ceid=AT:de",
             "https://news.google.com/rss/search?q=L%C3%A4rm+%C3%96sterreich+Verordnung&hl=de&gl=AT&ceid=AT:de",
@@ -77,8 +75,8 @@ CATEGORIES = {
     },
 }
 
-MAX_ITEMS_PER_CATEGORY = 10  # articles shown on website
-MAX_TITLES_FOR_SUMMARY = 15  # titles sent to Gemini
+MAX_ITEMS_PER_CATEGORY = 10
+MAX_TITLES_FOR_SUMMARY = 15
 
 
 # ── RSS Fetching ───────────────────────────────────────────────────────────────
@@ -145,16 +143,9 @@ def summarize_with_gemini(titles: list[str], prompt: str) -> str:
     body = _json.dumps({
         "contents": [{"parts": [{"text": full_prompt}]}],
         "generationConfig": {
-            "maxOutputTokens": 1000, 
+            "maxOutputTokens": 2000,
             "temperature": 0.3
         },
-        # HIER DIE ERGÄNZUNG:
-        "safetySettings": [
-            {"category": "HARM_CATEGORY_HARASSMENT", "threshold": "BLOCK_NONE"},
-            {"category": "HARM_CATEGORY_HATE_SPEECH", "threshold": "BLOCK_NONE"},
-            {"category": "HARM_CATEGORY_SEXUALLY_EXPLICIT", "threshold": "BLOCK_NONE"},
-            {"category": "HARM_CATEGORY_DANGEROUS_CONTENT", "threshold": "BLOCK_NONE"}
-        ]
     }).encode()
 
     req = Request(
@@ -164,19 +155,15 @@ def summarize_with_gemini(titles: list[str], prompt: str) -> str:
         method="POST",
     )
     try:
-    with urlopen(req, timeout=30) as resp:
-        data = _json.loads(resp.read())
-
-    # Sicherer Zugriff:
-    if "candidates" in data and data["candidates"][0].get("content"):
+        with urlopen(req, timeout=30) as resp:
+            data = _json.loads(resp.read())
+        finish_reason = data["candidates"][0].get("finishReason", "unknown")
+        print(f"  Finish reason: {finish_reason}")
         full_text = data["candidates"][0]["content"]["parts"][0]["text"].strip()
         return full_text
-    else:
-        print(f"  Gemini blocked or empty: {data.get('promptFeedback', 'No feedback')}")
-        return "Zusammenfassung aufgrund von Sicherheitsfiltern nicht möglich."
     except Exception as e:
         print(f"  Gemini error: {e}")
-        return "Fehler bei der Kommunikation mit Gemini."
+        return "Zusammenfassung konnte nicht erstellt werden."
 
 
 # ── Main ───────────────────────────────────────────────────────────────────────
@@ -209,7 +196,7 @@ def main():
         titles_for_summary = [i["title"] for i in items[:MAX_TITLES_FOR_SUMMARY]]
         summary = summarize_with_gemini(titles_for_summary, cat["summary_prompt"])
         print(f"  Summary: {summary[:80]}…")
-        time.sleep(5)  # kurze Pause zwischen Kategorien
+        time.sleep(5)  # Pause between categories
 
         output["categories"][cat_id] = {
             "label": cat["label"],
@@ -219,7 +206,7 @@ def main():
             "items": items,
         }
 
-    # Save to docs/data.json (served by GitHub Pages)
+    # Save to docs/data.json
     os.makedirs("docs", exist_ok=True)
     with open("docs/data.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
