@@ -1,17 +1,17 @@
 {
-  "generated": "31. March 2026, 12:58 UTC",
+  "generated": "31. March 2026, 13:10 UTC",
   "categories": {
     "austria": {
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Österreich intensiviert seine Bemühungen im Lärmschutz durch den Einsatz innovativer Technologien wie multifunktionale Lärmschutzwände, die Natur und Technik vereinen. Eine wichtige Entwicklung ist die Einführung von \"Lärm-Blitzern\" und Lärmradaren, die zu laute Fahrzeuge identifizieren und mit empfindlichen Strafen belegen, ergänzt durch Fahrverbote für bestimmte Motorräder auf sensiblen Strecken. Neben der Präzisierung von Schallleistungspegeln für den Schienenverkehr wird auch die öffentliche Sensibilisierung durch Aktionen wie Lärmschutzläufe gefördert. Diese Maßnahmen zeigen einen klaren Trend zur aktiven Bekämpfung von Lärmbelästigung und zur Verbesserung der Lebensqualität, auch wenn die Effektivität mancher bestehender Schutzmaßnahmen weiterhin diskutiert wird.",
+      "summary": "Österreich intensiviert seinen Lärmschutz durch den Einsatz innovativer Technologien wie Lärm-Blitzer und Lärmradare zur Identifizierung und Bestrafung von Lautfahrern, was eine wichtige Entwicklung in der aktiven Lärmbekämpfung darstellt. Parallel dazu werden gezielte Fahrverbote für laute Motorräder auf bestimmten Strecken verhängt und multifunktionale Lärmschutzwände entwickelt, die Natur und Technologie verbinden oder sogar zur Energiegewinnung beitragen. Trotz dieser Fortschritte bleibt die öffentliche Diskussion lebhaft, mit Bürgerinitiativen für leisere Nächte und anhaltender Kritik an der Wirksamkeit bestehender Tempolimits und Lärmschutzwände. Die behördliche Festlegung von Schallleistungspegeln für Schienenverkehrslärm unterstreicht zudem den umfassenden Ansatz auf verschiedenen Ebenen.",
       "items": [
         {
-          "title": "Energiewende: Die Lärmschutzwand, die drei Probleme löst - kurier.at",
+          "title": "Energiewende: Die Lärmschutzwand, die drei Probleme löst - Kurier",
           "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcjZaY2xUZEFDWHQ4NjA0cTdteTBDcE9JdjlndlFmemRJNkNXc0hjeE9rTjd2NWlzQ1l1ZFowbXE1U3RNWklELTJWLXQ5T2xjcVcwSkRSTUpmSDNBT0REem1YQWo4VFlPSXJONFd1aFE5cUtYbGdaQlRtLTlGUEhwS0lpdVAtOFVHVzVTS240Q09lX3oyVHc?oc=5",
           "date": "9. Dec 2025",
-          "source": "kurier.at"
+          "source": "Kurier"
         },
         {
           "title": "Zu laut! Auf diesen beliebten Strecken dürfen bestimmte Motorräder nicht fahren - ADAC",
@@ -32,10 +32,10 @@
           "source": "Der Standard"
         },
         {
-          "title": "Erster Gürtel-Lärmschutzlauf: Wienerinnen laufen für leisere Nächte - 5 Minuten",
+          "title": "Erster Gürtel-Lärmschutzlauf: Wienerinnen laufen für leisere Nächte - 5min.at",
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNams1WlRzU2tjSzFLZU5nbjVCbDZhQ1AyMlBid0RGc3hrakVvV1hScktlRndSeGkxOW1EYnpKdW9oZEJ2eFIyOFd1SE4zRk9wYnhwTllHLXl5cTl4emptZ05jYmw2bmptV3dwSmt1NEJ0ODBDWjZrN2JWUEN1X1B5S2R3Y0xhTmwzWFlCM2dMdzRZMHQ2dnRwaHN5Wmthb1N1bkoteHNFeUI1bUdTbE00?oc=5",
           "date": "19. Oct 2025",
-          "source": "5 Minuten"
+          "source": "5min.at"
         },
         {
           "title": "Kritik an Tempo 80 trotz Lärmschutzwand - noe.ORF.at",
@@ -44,10 +44,10 @@
           "source": "noe.ORF.at"
         },
         {
-          "title": "Schallleistungspegel für Schienenverkehrslärm - bmimi.gv.at",
+          "title": "Schallleistungspegel für Schienenverkehrslärm - Bundesministerium für Innovation, Mobilität und Infrastruktur",
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMXJhOF9vbHBES3IyUW44cC1Gc21SNU13cFlsLTJ1bEZ5ZmhBQ2dUanVvSnBPNmxLWFdkQ1Q4LXZfdVN0ZHpyUnNSc0lSelotTHZwS0Q2RkdxekNhOXI2aEJNNWRMdzNBZmIxU01kdy10VUxUQnBBNGZJY09QU0ZNN2xVT3ByYm1ERXhGZTlLbXk0NFU?oc=5",
           "date": "10. Apr 2025",
-          "source": "bmimi.gv.at"
+          "source": "Bundesministerium für Innovation, Mobilität und Infrastruktur"
         },
         {
           "title": "Archivmeldung: Innovation beim Lärmschutz: Meidlings neue Lärmschutzwand vereint Natur und Technologie - Presseservice der Stadt Wien",
@@ -56,16 +56,84 @@
           "source": "Presseservice der Stadt Wien"
         },
         {
-          "title": "Neue Technologie aus Berndorf schützt Satelliten vor Lärm - kurier.at",
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOcEZPekE0OWpnUVRkbVp5NUVKbElFckwxNmNLbHBMeEc4Mm9xZ013WkYza1Y1QWR4eHN6aG5XYWRrWTV0Sm5LSW85Zndjb3lybnZkMkl3Z09ZSnBDZ1NNeE02cl9vRzhiMWUyYWdSVk9jbzR6c2s1b242RVlKd2tsMVVlVG1GY1phV1ZkS3JZYlB3Ym9ZSG9ZX1kxVnhFa1MzNzNULUxPaHFVNmNaZFNldVdka2RpQk1wRFNTUTh5NTd2QUxZS0NJcXFKOVVkb3RqTEs0?oc=5",
-          "date": "10. Jul 2025",
-          "source": "kurier.at"
-        },
-        {
           "title": "Lärm - Landeshauptstadt – St. Pölten",
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdkExazRQa240VFdGYnlRbmdLalM3TUd1cEwwTjhtT0JQNGlmUVVDbjlFM0hWcXJYSlo1aExrLXpFSWlEX196YXgxZDgwWTBZZVZrVU1tSk9obnJodXRERGhKaWxOUnNORlRHVGFlRHdXY2hnZDdiMnZ6THBZSDdkdA?oc=5",
           "date": "1. Jun 2022",
           "source": "Landeshauptstadt – St. Pölten"
+        },
+        {
+          "title": "Tempo 80 trotz Lärmschutz – Tempolimit auf A2 sorgt für Kritik - 5min.at",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYTJNdnlRcXN0cWxOdDV1UkF0ZGozNm9sTXJvRjdBR2NXWGtmdjJrbUpqSE5RN205ZTJSV214WUt4RUNvVzBESHRjVDh2NGFGTVJfdGpmNGVhX3VEMDJqR1RNakpGX09hVXFtUy1oQzBEVGNOdVBmQ1VfTjdfSVJKRHRDZncxb1VuZlZvcWxiR1Bab2IxMVFV?oc=5",
+          "date": "21. May 2025",
+          "source": "5min.at"
+        }
+      ]
+    },
+    "dach": {
+      "label": "DACH – Umgebungslärm",
+      "icon": "🏔️",
+      "color": "#5a5a5a",
+      "summary": "Die Debatte um die Reduktion von Verkehrslärm in der DACH-Region ist aktuell, wobei bewusstes Fahren und die Einführung von Tempo 30 als wirksame Maßnahmen zur Lärmminderung diskutiert werden. Regional zeigen sich innovative Ansätze, wie in Zürich, wo Lärmschutzwände an Autobahnen zu Solarkraftwerken umfunktioniert werden. Gleichzeitig gibt es grenzüberschreitende Herausforderungen, etwa die Kritik von Österreichern an einer Lärmschutzmauer bei Rheineck. Die Forderung nach einem \"Lärmkorsett\" und die Einführung hoher Bußgelder für zu laute Fahrzeuge in einem Nachbarland unterstreichen den dringenden Handlungsbedarf zur Verbesserung der Lärmsituation.",
+      "items": [
+        {
+          "title": "Leserbrief: Welches Lärmkorsett? - VOL.AT",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9WM1lpUzhjdUtYNFhkY05WUzlwc05QekdkMGFTY1JVRGpuMmk2NTQ5cXlqYUVBT2g0djExZkJaemZtMEhHRmJabmdNbU9MU2tXckwyU0ltSkltbVY5OExvSlJlbV9tbXkwZE1B?oc=5",
+          "date": "4. Mar 2026",
+          "source": "VOL.AT"
+        },
+        {
+          "title": "Verkehrslärm muss reduziert werden: So kann jeder beitragen - CHIP",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQY3NmQlF2ZHR6bXY1MnhTY1JPUFVkcTdrdVlrLVF1MWVPdDFjYkxRRVlhNzJNZng5QjBXVGtiSF8wcUpPYUxOUllPMzNmMzdWSEhoMk0tcEs0RDZZc1gtNkVMWWNYWWRHWTNlMDNHcGtlZ1FMSWFwUU5tOUZ1TEdNMHJwR1hGZTdtbXBfNzhyREl4eGtGOXE3TXJWLXNRYUZFcDVyVEhERG9Hbk04QjMwWHg0bVZtN2VHSmktS0FYRnJQR1huWkliUmNXNWx0dlVkLUhJ?oc=5",
+          "date": "22. Sep 2025",
+          "source": "CHIP"
+        },
+        {
+          "title": "Verkehrslärm reduzieren durch bewusstes Fahren - smart up news",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPeGM5WnV1WmdQaHl4R2xzcGxLdTUwYWlBWl9IRGsyNExvZEttdHRqRmcwUnlEUndMNGJhOUFYMEx6b3VLYzR4RVZaODFyUU5ZSXowbVUza1NOYTdqVEJ0aHN1Y3NJdHR4Z21TYnY4ODFMVTIwS0pfZnREZExKTVI1aVJ1YjVuZw?oc=5",
+          "date": "18. Sep 2025",
+          "source": "smart up news"
+        },
+        {
+          "title": "Das bringt Tempo 30 wirklich - Blick",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWjZEcXp3dXFzMzZydFNuR2RlSWRZRHZHMGtrWkVqRjVTSXJVNGxhVTREUE13MGd4QllnNTUwcFV3QlJCLVU1QkZ1TFB5bUtyZzlHWHVLVFRiR0paSS1IeGpBcER6MnNFTkdfdkRqSGpmckIwQVUtUno3TnJaa2JVd2ZnQ0p2NWF1Ym9WQ1FrUTJOZ1NkQ000VmcxS3NPdzZGQ1lMYg?oc=5",
+          "date": "16. May 2023",
+          "source": "Blick"
+        },
+        {
+          "title": "Zürich: Lärmschutzwände an Autobahnen werden zu Solarkraftwerken - NZZ – Neue Zürcher Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbHJRZzRZNHlhb2ppby0tZUhZVHFneWxnamxiclZkMkIxQ0lDVjZrRWo0bEFtTG42RmVTbVJfR1NiQWFNMGhxODd4OFNDWU5GUF9zZmV0LVVGblNjd3pza0thQ1dIZFFnRkdJVEltVVc1V1RTNHdMRDB0TkFic1BXQUJQY2hCakZTMkk2WDczYjQ4YjhmVHN6XzVKTWg0U2tQcFZzR1k3RQ?oc=5",
+          "date": "4. Aug 2023",
+          "source": "NZZ – Neue Zürcher Zeitung"
+        },
+        {
+          "title": "Bußgeld für zu laute Autos: Nachbarland verlangt jetzt bis zu 10.000 Euro - CHIP",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYkliLXU5bWI4TkJUVWJqTWVOLUxzN1J3N0FkLWY4SHcwVG9aTVh2NHhydGU0NlZqSU16Z3J6OXdJd2IxWjZrOWQ3Mmlyc0tYUXFPSDdIY05qalBsWEgyYTZ3cmdEeVBQbXJBdTJfbzV3b3ZZWmxFVVNNaE5SVC13Vi1kYkV2OGlrTF9oRzNTMGRfa0FNcm12RjZvMG9tb0R5Q1dKa3hRS0ZfQmpqMVcwZ3FOWnU?oc=5",
+          "date": "6. Feb 2025",
+          "source": "CHIP"
+        },
+        {
+          "title": "Österreicher kritisieren Rheinecker Lärmschutz-Mauer - St. Galler Tagblatt",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQLXBTbEdGb0lVdHRnSzdEUTlvakZ4NXh0Zkk4UWxRamh1QjJPSlMwd2ExWHNVUWRHOFRLOFRFems2XzJyaGxfXzBoeC1KTHRhS2hPNG9ZUjk1aW1pS1lhZWF6dnN3bHBDaHUtR2NlRUhfRXJ2UGN5Q3ItT3NQTV9MWGRLVzA4cmw0YkMzRXR3?oc=5",
+          "date": "29. Dec 2018",
+          "source": "St. Galler Tagblatt"
+        },
+        {
+          "title": "Winterrisiko im Straßenverkehr: Eisplatten auf dem Lkw-Dach - eurotransport.de",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUGxlUmlVdkhkMTRNM0VHMU1famEzbmVUWEFDZU52ejZTZWd3cENqQV9Qdk5FSEw2MmtHYXBEdFdMVkRpTThEWWR4a0lfVHhYTWxFRk11TzkxWnlHcVJpRDd5T1RGdHNuZUoxcl9OSVZsNnk4cnJVWWFZZFYwdWdyUmwzaGhQeGtuM0hiT1FycjVWazVKanZ6cWFNN1pOWXc5WUpRYlFTdGc?oc=5",
+          "date": "19. Jan 2026",
+          "source": "eurotransport.de"
+        },
+        {
+          "title": "Osram Night Breaker Autolampe: LED-Innovationen für bessere Sichtbarkeit im Straßenverkehr - ad-hoc-news.de",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdnZQYXNWLU93QVIydjlOalBrWjNBY25CbFFFZEFsaTdENHRZUWNKbG1XU0k3WHFKYVh3UlhObkdlQXJDS2RPMFZQVi1ROU53Y205bkhtQnd5d0ZndlZDdF9vcE1LWXlWVlNfZlJLZ2dTeXhhUi1rRlZacXdNU3FfRnpCUUpfSGZmUXJ0WmZIN2ZoUktlMjc0d0hmSkk5NERLQXN1YTFyOW5rS2UySW0wR3djYkxtMm1xMFhkNXZUWnBYSXBr?oc=5",
+          "date": "21. Mar 2026",
+          "source": "ad-hoc-news.de"
+        },
+        {
+          "title": "Schadstoffwerte im VW Grand California: KBA sieht aktuell kein Verkehrsrisiko - Promobil",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVzlfaTFMU1cwbUo1UFFTbXJRUHNjYXBsczZabjlRNGRHWllxdENJRHZOSUZ6bHFTTUhjdDZVZlpQOWxvcjNqaktpemZmNHlnbmNmMXJhVndEVWtsSDRyQ2swV2tlOVZpM2cxZUVoWUZoU0ZQTnB3aHpfWHluYmdvVHAxYWdXQ0pnZF9pQzhuUF9DVndKNW95dmlFVmdqckVTLTdyal9EclFMdTVDYWcyQQ?oc=5",
+          "date": "10. Feb 2026",
+          "source": "Promobil"
         }
       ]
     },
@@ -73,8 +141,14 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Recent European news underscores the widespread recognition of noise as a significant pollution hazard across the EU, with reports criticizing existing directives as largely ineffective. There is a strong call for more robust EU-level action, aligning with the \"Zero Pollution\" ambition, to tackle harmful noise, particularly from pervasive sources like traffic, where Europe struggles to implement solutions. Efforts are also focused on establishing common approaches to reduce rail noise pollution and ensuring better enforcement of current EU rules, alongside historical mandatory limits on underwater noise.",
+      "summary": "Recent European headlines underscore the pervasive and harmful impact of noise pollution, with over 20% of Europeans exposed to dangerous levels, prompting widespread calls for action across the continent. Despite an existing directive, current EU efforts are deemed largely ineffective, leading to new reports from the European Commission and other bodies advocating for significantly stronger and more comprehensive noise control policies. Significant developments include the introduction of historical EU mandatory limits on underwater noise pollution, marking an expansion of regulatory scope, alongside national initiatives like Slovenia's noise fees for trucks, addressing cross-border transport impacts. Furthermore, a European report suggests implementing police-monitored sound limiters in venues, while the continent continues to grapple with the persistent challenge of reducing deadly traffic noise.",
       "items": [
+        {
+          "title": "More than 20% of Europeans exposed to harmful noise pollution levels - European Environment Agency (EEA)",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQmFoQ19lY1dnWlh2N1FEMHl4TUtBMWo5OW1lVktXdmJ1VHNDcEV2SU9MUzFjUm1RVk5NSS0xZ29BUXByWkJQLXkzSnN4dFdsQUh6eUZwTTcxeXBmVnd5ZnRqcUFwTmhteG5HYkZfa2JBVGhWSEVmdjFEZC1zSVh6RjY1TkMyUUN6NjdLb1kyY3l1aENSeTN6RVpB?oc=5",
+          "date": "23. Jun 2025",
+          "source": "European Environment Agency (EEA)"
+        },
         {
           "title": "Noise: the pollution hazard people in the EU need to hear about - European Newsroom",
           "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeFdCUDNDcUVnTHdEaHJ3aUNVdmZmcGVJSUhWT1B6eWVLN3NPb2l5bjlqUVZ2UnlPMktBYjdFcTFSX2Z2RDc2M0VqUW1CdURnbXZvYzNIY1d4Wm1jaElObldqZXlvMWJudldlUzNVT1kxb2FnRnhvb0JYbWtBNVc5dVBqdm5rRU9SeTVQYi0xaURIUVhsVzRV?oc=5",
@@ -94,16 +168,16 @@
           "source": "Euronews.com"
         },
         {
-          "title": "Zero pollution: New EU report calls for stronger action to reduce harmful noise pollution - environment.ec.europa.eu",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNFN4V2RPeDFMemgxX2FtenN1YnVsdXNZcWt4Y1YtVzZ4ejBjTnZ1cHpwdXpkODhMQmp6X2pBVFVMSEkzMGQ3U2FsaE1oOGJIM2xBZ2JWM2lsRDRQeXk1WGY1OC1JaE1zNGVsTVhSbTRjV0hIemQ0SV8tTkc2THFaSXc3TTU1bXY4c05fZERwTVZJZERfUFpRYnpJZGxja3Y3VFBPSDNUejRuak1SWHRXQk5uOFBiNEs5cVRzYnpTaXQ1YjM3SzlzenNWcUp5dw?oc=5",
-          "date": "20. Mar 2023",
-          "source": "environment.ec.europa.eu"
-        },
-        {
           "title": "Noise Control System Market Size & Forecast 2025-2035 - Future Market Insights",
           "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1xc3hnZTlZYm9SMXU1OVFrMEdvWmVfdWczcGFfRTNHUklObE9LOWtNaXhJa2I2RWJhb1FJeEpfNU5wSmJ5eFdGaTlhbGZhMl83c1ROaTVIQ1NOdHFTTW5CU182dzI3dE1KNkJtVmZyWTc2SHpHa0x5aWRsT3I?oc=5",
           "date": "31. May 2025",
           "source": "Future Market Insights"
+        },
+        {
+          "title": "Install police-monitored sound limiters in venues, European report says - Times of Malta",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSnlRcGtYbHl2NDNORFN1azQtaWRkTHppTmhGMjVJTllpNlpOaUFXcmdXUjc1VERyQW94TC1QOTgtRXphQ29NUDN3aXhvVWR3M0ZBNFZpNUVCUk01Mm54S2RSNURTLTlWT1gxY2dkWS0tZHNBeEFDT3hjeGdOemszZDgtc3JLWERscHlISFNTdUNhQ2wtQzBXeC14Y092dVVDVVIxd0syMmMxRlU?oc=5",
+          "date": "24. Feb 2026",
+          "source": "Times of Malta"
         },
         {
           "title": "Historical EU mandatory limits on underwater noise pollution - International Fund for Animal Welfare | IFAW",
@@ -112,28 +186,22 @@
           "source": "International Fund for Animal Welfare | IFAW"
         },
         {
-          "title": "Europe struggles to turn down volume on deadly traffic noise - politico.eu",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSUJQSmpMWEpnRHA1eFdZajV0Zm9lSzhVQ3J2M3RDXzl5ckNJa0hJeFN6Z0VhVVpxNlgyNWZlSGd6OVd4OWFRcUFUSVItLWplRDgxX21GaU14Sm1FMExhbTdCRFFRZUV5aVp1NkZ1bmd6MGItUnA2cmsyMl81VU9IOTM5LVl0TkUxbGxQUGduaUt3NVRDX2QyZjYzaHVpVkJJOW82bHpoN1o1RnNYTm1ONldTNW9rRFU?oc=5",
-          "date": "7. Sep 2022",
-          "source": "politico.eu"
-        },
-        {
-          "title": "MEP Peter Agius Calls for Enforcement of EU Noise Pollution Rules on Rest Times and Legal Noise Limits - EPP Group in the European Parliament",
-          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQV01HNGI0WXNLb2ZLMGE4ejUwNmpiZy1Jajh5ZWczVENZVlVmMHI1RG5TSzUzUTV5Q0txRDRUMmt3RGxVUy1INXdMRGpLMHlKRmRObW5RMTdDVi1ZSmgyZ1BxYnctWDhEOWJPbGlrV0pObU9XaENZc2dGU2dnbWZaV1hScWprYWFJNGVKTmxMWndOYk00UU9hSUdkZW1xWXE0eThtRkJ6SDk0djNjZjl2WlJCYjRRdW5GQWRoR3VfZnBPcGF1amQwYUQwMFNQdzhRWXJDa2ZFQ1R2TkpUbnVYajdKOXRRbFl2TWFHMWl2b011c0U?oc=5",
-          "date": "1. Feb 2025",
-          "source": "EPP Group in the European Parliament"
-        },
-        {
           "title": "Ghent Takes Action to Reduce Tourism Noise and Protect Its Historic Charm: Everything You Need to Know Before Visiting - Travel And Tour World",
           "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPeHlCWjNJTGx2d3BLMHFHRlFGNGFfbC1TZHp6T1JZSzdKb3lSU2hEOVRDd1lGUG9nSlFDa19ISkFSY0owS2FiLXNOUUhWVGpCSHdOQ3FCSWtsUVU5WFpGdHE5ZjMxa1RRX3hoOHBBNlp0N2V2S3dnQURGeE1hYTVtYndPaHp5MVNqQkh4N0I4bll0UGIzQmxBWldUWVF5WTYwTm1zMVA5SGtpWVJuR0tnZ2Zsek1SSWdZQmdDRDREQklEa3VMMUVFQ2ZnN0Nxb1FBdUxaZmpabGU3TXpvbWs4XzdsQ09JN1Y4eFV4NTJ3d2ozSy1nbWRBRGVB?oc=5",
           "date": "3. Feb 2026",
           "source": "Travel And Tour World"
         },
         {
-          "title": "Setting a common approach to reducing rail noise pollution - Global Railway Review",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWkN6UFEyVDBlVkdxZ0szWW5SeHhCeFphSHFKY3ZxTmNDM3Y3TzFJSVpGWlVWUlRJMk5sVDVnNGpsMjBzeXNia296S3NTNVpMMklFTS1idnNMTERDVHJkVFBiYTBFWHFVVUNLenRDZUItR3oyQVoxejB5VVliaEV0c3pzbkFLRE9CbGlHMFlpQnNjcVpMVFotREdMZEhmSUNk?oc=5",
-          "date": "4. Feb 2020",
-          "source": "Global Railway Review"
+          "title": "Europe struggles to turn down volume on deadly traffic noise - politico.eu",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSUJQSmpMWEpnRHA1eFdZajV0Zm9lSzhVQ3J2M3RDXzl5ckNJa0hJeFN6Z0VhVVpxNlgyNWZlSGd6OVd4OWFRcUFUSVItLWplRDgxX21GaU14Sm1FMExhbTdCRFFRZUV5aVp1NkZ1bmd6MGItUnA2cmsyMl81VU9IOTM5LVl0TkUxbGxQUGduaUt3NVRDX2QyZjYzaHVpVkJJOW82bHpoN1o1RnNYTm1ONldTNW9rRFU?oc=5",
+          "date": "7. Sep 2022",
+          "source": "politico.eu"
+        },
+        {
+          "title": "New EU report calls for stronger action on noise pollution - environment.ec.europa.eu",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQW1pRFJOdzJPQUNtdjFqeHI2dXJ5bFo3VHFIRVdjV191cTQxYU05X3d3a3k0cDVjcmZUVTM3OENibC05cW5zUDRMbE50UmNtajNpeGY1dDJ2TmVMNFdNN2h4bFlpWGNocHEzWlE5Rk5vbVh3T0NDV25tWjVubDF0d2FZcWp6cEFOOHVGWXJJaVdGd1U4MVhZekpQNHdIZTdScjh0VkpR?oc=5",
+          "date": "21. Apr 2023",
+          "source": "environment.ec.europa.eu"
         }
       ]
     },
@@ -141,13 +209,13 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Recent research highlights a multi-faceted approach to noise control, emphasizing both advanced materials and sophisticated engineering solutions. Engineers can anticipate deploying novel bio-inspired metamaterials, ultra-thin all-weather absorbers, and even sound-suppressing silk for diverse applications, from traffic and construction noise to enhancing privacy. Significant advancements in active noise control for complex vibro-acoustic systems with openings, alongside optimized passive barriers and acoustic walls for high-speed trains and urban environments, offer more effective mitigation strategies. Furthermore, studies on retrofitting shipping vessels and utilizing rubberized roads underscore the importance of addressing noise from existing infrastructure, while noise mapping provides crucial data for targeted interventions. This collective effort points towards a future with more adaptable, durable, and application-specific noise reduction technologies.",
+      "summary": "Zusammenfassung konnte nicht erstellt werden.",
       "items": [
         {
-          "title": "Dual-actuator-type active noise control in vibro-acoustic systems with openings - nature.com",
+          "title": "Dual-actuator-type active noise control in vibro-acoustic systems with openings - Nature",
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBEQnpWdnU2UlJidUZVS2h4MkIyVk81ODJERFVCbnlObzhvYVNFTFpnZTJreDFCQm9VS3ZIMXNpTjRIaExDaV9DUmpUNUNHcVNyRkVUamRub0Z2RDNha0JJ?oc=5",
           "date": "2. Sep 2025",
-          "source": "nature.com"
+          "source": "Nature"
         },
         {
           "title": "Study on the noise reduction effect of sound barriers on the aerodynamic noise of high-speed trains - Frontiers",
@@ -156,10 +224,10 @@
           "source": "Frontiers"
         },
         {
-          "title": "Bio-inspired acoustic metamaterials for traffic noise control: bridging the gap with machine learning - nature.com",
+          "title": "Bio-inspired acoustic metamaterials for traffic noise control: bridging the gap with machine learning - Nature",
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9FMDBxTUdVcU9XZjZDbFo3RFpFWUs4WF9tdmVXSlMtdGs3OUFSek8xSENfWERyRlJNRUxNQzNqSXc2X3pKZ2ZNUVpSLUJoOUF4cVFrcHJ1anIwYWtXYzhF?oc=5",
           "date": "29. Jul 2025",
-          "source": "nature.com"
+          "source": "Nature"
         },
         {
           "title": "Noise 2050 - Department of Mechanical, Manufacturing & Biomedical Engineering - Trinity College Dublin",
@@ -186,10 +254,10 @@
           "source": "Oregon Public Broadcasting - OPB"
         },
         {
-          "title": "Noisy neighbours: how building sites are keeping quiet - MODUS | RICS",
+          "title": "Noisy neighbours: how building sites are keeping quiet - ww3.rics.org",
           "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNX00wY0txelpYbld4QnF1VTZWRzVybEdQYm1qVmpRSUdCRHhuWDdXWl93bGZNVFZKNHlFNWZNUWJsWjJCTWtMa0J2VkkxajZHcTJzTHhESVN6UTE0QU9jR1VIYU85NEszeEhLMElkckt1RWR0ZHBOV1RtalRJRUZtbVRPaWdqZklVVGp1cnpTZVp2NmRJeUphaGdoWjMwSjc4TzJoV0tvRmpSQ1p4UDBKUWpUdUJTeVpsd1BLNWlvSXo?oc=5",
           "date": "23. May 2022",
-          "source": "MODUS | RICS"
+          "source": "ww3.rics.org"
         },
         {
           "title": "Reducing noise pollution with acoustic walls and rubberised roads - research-and-innovation.ec.europa.eu",
