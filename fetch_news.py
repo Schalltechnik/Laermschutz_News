@@ -17,7 +17,7 @@ import xml.etree.ElementTree as ET
 GEMINI_API_KEY = os.environ["GEMINI_API_KEY"]
 GEMINI_URL = (
     "https://generativelanguage.googleapis.com/v1beta/models/"
-    "gemini-1.5-flash:generateContent?key=" + GEMINI_API_KEY
+    "gemini-2.0-flash:generateContent?key=" + GEMINI_API_KEY
 )
 
 CATEGORIES = {
@@ -27,10 +27,10 @@ CATEGORIES = {
         "color": "#c8102e",
         "feeds": [
             # Google News RSS – Austrian sources, German keywords
-            "https://news.google.com/rss/search?q=Lärmschutz+Österreich&hl=de&gl=AT&ceid=AT:de",
-            "https://news.google.com/rss/search?q=Lärmschutzwand+Austria&hl=de&gl=AT&ceid=AT:de",
-            "https://news.google.com/rss/search?q=Lärm+Österreich+Verordnung&hl=de&gl=AT&ceid=AT:de",
-            "https://news.google.com/rss/search?q=Verkehrslärm+Österreich&hl=de&gl=AT&ceid=AT:de",
+            "https://news.google.com/rss/search?q=L%C3%A4rmschutz+%C3%96sterreich&hl=de&gl=AT&ceid=AT:de",
+            "https://news.google.com/rss/search?q=L%C3%A4rmschutzwand+Austria&hl=de&gl=AT&ceid=AT:de",
+            "https://news.google.com/rss/search?q=L%C3%A4rm+%C3%96sterreich+Verordnung&hl=de&gl=AT&ceid=AT:de",
+            "https://news.google.com/rss/search?q=Verkehrsl%C3%A4rm+%C3%96sterreich&hl=de&gl=AT&ceid=AT:de",
         ],
         "summary_prompt": (
             "Du bist Experte für Lärmschutz in Österreich. "
@@ -47,7 +47,7 @@ CATEGORIES = {
         "feeds": [
             "https://news.google.com/rss/search?q=noise+control+EU+directive&hl=en&gl=GB&ceid=GB:en",
             "https://news.google.com/rss/search?q=environmental+noise+Europe+regulation&hl=en&gl=GB&ceid=GB:en",
-            "https://news.google.com/rss/search?q=Lärmschutz+Europa+EU&hl=de&gl=DE&ceid=DE:de",
+            "https://news.google.com/rss/search?q=L%C3%A4rmschutz+Europa+EU&hl=de&gl=DE&ceid=DE:de",
         ],
         "summary_prompt": (
             "You are an expert on European noise control policy. "
