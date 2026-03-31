@@ -1,11 +1,11 @@
 {
-  "generated": "31. March 2026, 12:20 UTC",
+  "generated": "31. March 2026, 12:36 UTC",
   "categories": {
     "austria": {
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Zusammenfassung konnte nicht erstellt werden.",
+      "summary": "Österreich intensiviert seine Bemühungen im Lärmschutz durch innovative Technologien und strengere Maßnahmen. Fortschritte zeigen sich in der Einführung von Lärm-Blitzern und -Radaren zur Ahndung lauter Autofahrer sowie in Fahrverboten für lärmintensive Motorräder auf bestimmten Strecken. Gleichzeitig werden multifunktionale Lärmschutzwände entwickelt, die Natur und Technologie verbinden und sogar zur Energiegewinnung beitragen. Diese Entwicklungen, ergänzt durch regulatorische Anpassungen für den Schienenverkehr und bürgerschaftliche Initiativen, spiegeln einen umfassenden Ansatz wider, um die Lärmbelästigung zu reduzieren und die Lebensqualität zu verbessern.",
       "items": [
         {
           "title": "Energiewende: Die Lärmschutzwand, die drei Probleme löst - Kurier",
@@ -73,8 +73,14 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Zusammenfassung konnte nicht erstellt werden.",
+      "summary": "Recent headlines highlight that over 20% of Europeans are exposed to harmful noise pollution, underscoring a widespread public health hazard across the continent. There is growing consensus that existing EU noise pollution directives, including those on environmental and underwater noise, are proving largely ineffective or poorly enforced. This has led to calls from MEPs and new EU reports for stronger action, better enforcement of legal limits, and more robust policy to address critical issues like deadly traffic noise. The struggle to turn down the volume on this cross-border problem indicates a significant gap between current regulations and their practical impact on European citizens.",
       "items": [
+        {
+          "title": "More than 20% of Europeans exposed to harmful noise pollution levels - eea.europa.eu",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQmFoQ19lY1dnWlh2N1FEMHl4TUtBMWo5OW1lVktXdmJ1VHNDcEV2SU9MUzFjUm1RVk5NSS0xZ29BUXByWkJQLXkzSnN4dFdsQUh6eUZwTTcxeXBmVnd5ZnRqcUFwTmhteG5HYkZfa2JBVGhWSEVmdjFEZC1zSVh6RjY1TkMyUUN6NjdLb1kyY3l1aENSeTN6RVpB?oc=5",
+          "date": "23. Jun 2025",
+          "source": "eea.europa.eu"
+        },
         {
           "title": "Noise: the pollution hazard people in the EU need to hear about - European Newsroom",
           "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeFdCUDNDcUVnTHdEaHJ3aUNVdmZmcGVJSUhWT1B6eWVLN3NPb2l5bjlqUVZ2UnlPMktBYjdFcTFSX2Z2RDc2M0VqUW1CdURnbXZvYzNIY1d4Wm1jaElObldqZXlvMWJudldlUzNVT1kxb2FnRnhvb0JYbWtBNVc5dVBqdm5rRU9SeTVQYi0xaURIUVhsVzRV?oc=5",
@@ -92,12 +98,6 @@
           "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQ0FVejQwMXJZb18xTlZ6UUlxMWNPM25uaHoybWdJZkh4WXVGUkVtWEJCN20tNnJoQl9GaHVmdTlzbWxfV2l4ZS0wWXpGTjdLUlBtY0phNWEtWUxWVTI2dTkxdnhfaTFUcHhMX096NTFJRW5WY2hmbDVNelIzYzc5YWxSSWdONExBa2Rwa1VGVTNQdzRicFd0SEs1U0E?oc=5",
           "date": "25. Feb 2025",
           "source": "Euronews.com"
-        },
-        {
-          "title": "Zero pollution: New EU report calls for stronger action to reduce harmful noise pollution - environment.ec.europa.eu",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNFN4V2RPeDFMemgxX2FtenN1YnVsdXNZcWt4Y1YtVzZ4ejBjTnZ1cHpwdXpkODhMQmp6X2pBVFVMSEkzMGQ3U2FsaE1oOGJIM2xBZ2JWM2lsRDRQeXk1WGY1OC1JaE1zNGVsTVhSbTRjV0hIemQ0SV8tTkc2THFaSXc3TTU1bXY4c05fZERwTVZJZERfUFpRYnpJZGxja3Y3VFBPSDNUejRuak1SWHRXQk5uOFBiNEs5cVRzYnpTaXQ1YjM3SzlzenNWcUp5dw?oc=5",
-          "date": "20. Mar 2023",
-          "source": "environment.ec.europa.eu"
         },
         {
           "title": "Noise Control System Market Size & Forecast 2025-2035 - Future Market Insights",
@@ -130,10 +130,10 @@
           "source": "EPP Group in the European Parliament"
         },
         {
-          "title": "Setting a common approach to reducing rail noise pollution - Global Railway Review",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWkN6UFEyVDBlVkdxZ0szWW5SeHhCeFphSHFKY3ZxTmNDM3Y3TzFJSVpGWlVWUlRJMk5sVDVnNGpsMjBzeXNia296S3NTNVpMMklFTS1idnNMTERDVHJkVFBiYTBFWHFVVUNLenRDZUItR3oyQVoxejB5VVliaEV0c3pzbkFLRE9CbGlHMFlpQnNjcVpMVFotREdMZEhmSUNk?oc=5",
-          "date": "4. Feb 2020",
-          "source": "Global Railway Review"
+          "title": "New EU report calls for stronger action on noise pollution - environment.ec.europa.eu",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQW1pRFJOdzJPQUNtdjFqeHI2dXJ5bFo3VHFIRVdjV191cTQxYU05X3d3a3k0cDVjcmZUVTM3OENibC05cW5zUDRMbE50UmNtajNpeGY1dDJ2TmVMNFdNN2h4bFlpWGNocHEzWlE5Rk5vbVh3T0NDV25tWjVubDF0d2FZcWp6cEFOOHVGWXJJaVdGd1U4MVhZekpQNHdIZTdScjh0VkpR?oc=5",
+          "date": "21. Apr 2023",
+          "source": "environment.ec.europa.eu"
         }
       ]
     },
@@ -141,7 +141,7 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Zusammenfassung konnte nicht erstellt werden.",
+      "summary": "Acoustics research is yielding diverse practical solutions for noise control engineers, from advanced dual-actuator active noise control for complex systems with openings to novel bio-inspired and ultra-thin acoustic metamaterials designed for all-weather performance and efficient traffic noise reduction. Engineers can also apply optimized passive measures, including improved sound barriers for high-speed trains, integrated acoustic walls with rubberized roads, and specific strategies for quieter construction sites and retrofitted shipping vessels. These innovations, coupled with data-driven approaches like noise mapping and machine learning for material design, provide a comprehensive toolkit for more effective and targeted noise mitigation across various environments.",
       "items": [
         {
           "title": "Dual-actuator-type active noise control in vibro-acoustic systems with openings - nature.com",
