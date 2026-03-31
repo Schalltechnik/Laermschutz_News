@@ -1,0 +1,26 @@
+{
+  "generated": "Noch nicht aktualisiert – bitte GitHub Action manuell starten",
+  "categories": {
+    "austria": {
+      "label": "Österreich",
+      "icon": "🇦🇹",
+      "color": "#c8102e",
+      "summary": "Die erste automatische Zusammenfassung wird nach dem ersten Lauf der GitHub Action erscheinen.",
+      "items": []
+    },
+    "europe": {
+      "label": "Europa",
+      "icon": "🇪🇺",
+      "color": "#003399",
+      "summary": "The first AI summary will appear after the GitHub Action runs for the first time.",
+      "items": []
+    },
+    "science": {
+      "label": "Wissenschaft",
+      "icon": "🔬",
+      "color": "#1a6b3c",
+      "summary": "The first scientific summary will appear after the GitHub Action runs for the first time.",
+      "items": []
+    }
+  }
+}

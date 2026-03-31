@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lärmschutz News Monitor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #f4f4f0;
+      --card-bg: #ffffff;
+      --text: #1a1a1a;
+      --muted: #777;
+      --border: #e2e2e2;
+      --radius: 10px;
+    }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 0 0 60px;
+    }
+
+    /* ── Header ── */
+    header {
+      background: #1a1a1a;
+      color: #fff;
+      padding: 32px 24px 28px;
+      text-align: center;
+    }
+    header .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 50px;
+      padding: 5px 16px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+    header h1 {
+      font-family: 'DM Serif Display', serif;
+      font-weight: 400;
+      font-size: clamp(24px, 5vw, 38px);
+      letter-spacing: -0.5px;
+      margin-bottom: 10px;
+    }
+    header .meta {
+      font-size: 13px;
+      color: rgba(255,255,255,0.5);
+    }
+    header .meta span {
+      color: rgba(255,255,255,0.8);
+      font-weight: 600;
+    }
+
+    /* ── Layout ── */
+    main {
+      max-width: 1100px;
+      margin: 36px auto 0;
+      padding: 0 16px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 24px;
+    }
+
+    /* ── Category Card ── */
+    .category {
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .cat-header {
+      padding: 18px 20px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .cat-icon { font-size: 26px; }
+    .cat-title { font-size: 18px; font-weight: 700; color: #fff; }
+    .cat-sub   { font-size: 11px; color: rgba(255,255,255,0.65); margin-top: 2px; }
+
+    /* ── AI Summary ── */
+    .summary-box {
+      margin: 16px 16px 8px;
+      background: #f8f8f6;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 14px 16px;
+    }
+    .summary-label {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 7px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .summary-text {
+      font-size: 13px;
+      line-height: 1.65;
+      color: #333;
+    }
+
+    /* ── News Items ── */
+    .news-list {
+      padding: 8px 16px 16px;
+      flex: 1;
+    }
+    .news-item {
+      border-top: 1px solid var(--border);
+      padding: 12px 0;
+    }
+    .news-item:first-child { border-top: none; }
+
+    .news-title {
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 1.4;
+      color: var(--text);
+      text-decoration: none;
+      display: block;
+      margin-bottom: 4px;
+      transition: opacity 0.15s;
+    }
+    .news-title:hover { opacity: 0.7; }
+
+    .news-meta {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .news-source {
+      font-size: 11px;
+      color: var(--muted);
+      font-weight: 500;
+    }
+    .news-date {
+      font-size: 11px;
+      color: #bbb;
+    }
+
+    /* ── Empty / Error states ── */
+    .empty {
+      text-align: center;
+      padding: 30px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 12px;
+      color: #bbb;
+    }
+    footer a { color: #999; }
+
+    /* ── Loading skeleton ── */
+    .skeleton {
+      background: linear-gradient(90deg, #eee 25%, #f5f5f5 50%, #eee 75%);
+      background-size: 200% 100%;
+      animation: shimmer 1.5s infinite;
+      border-radius: 4px;
+      height: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes shimmer { to { background-position: -200% 0; } }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="badge">🔊 Lärmschutz News Monitor</div>
+  <h1>Ihr täglicher Nachrichtenradar</h1>
+  <p class="meta">Automatisch aktualisiert · Zuletzt: <span id="generated">wird geladen…</span></p>
+</header>
+
+<main id="main">
+  <!-- Skeleton placeholders while loading -->
+  <div class="category" id="skel-1" style="opacity:0.4">
+    <div class="cat-header" style="background:#c8102e"><span class="cat-icon">🇦🇹</span><div><div class="cat-title">Österreich</div></div></div>
+    <div class="summary-box"><div class="skeleton"></div><div class="skeleton" style="width:80%"></div></div>
+    <div class="news-list"><div class="skeleton"></div><div class="skeleton" style="width:70%"></div><div class="skeleton"></div></div>
+  </div>
+  <div class="category" id="skel-2" style="opacity:0.4">
+    <div class="cat-header" style="background:#003399"><span class="cat-icon">🇪🇺</span><div><div class="cat-title">Europa</div></div></div>
+    <div class="summary-box"><div class="skeleton"></div><div class="skeleton" style="width:80%"></div></div>
+    <div class="news-list"><div class="skeleton"></div><div class="skeleton" style="width:70%"></div><div class="skeleton"></div></div>
+  </div>
+  <div class="category" id="skel-3" style="opacity:0.4">
+    <div class="cat-header" style="background:#1a6b3c"><span class="cat-icon">🔬</span><div><div class="cat-title">Wissenschaft</div></div></div>
+    <div class="summary-box"><div class="skeleton"></div><div class="skeleton" style="width:80%"></div></div>
+    <div class="news-list"><div class="skeleton"></div><div class="skeleton" style="width:70%"></div><div class="skeleton"></div></div>
+  </div>
+</main>
+
+<footer>
+  Powered by <a href="https://ai.google.dev" target="_blank">Google Gemini</a> &amp; GitHub Actions ·
+  <a href="https://github.com" target="_blank">Source on GitHub</a>
+</footer>
+
+<script>
+  const CAT_ORDER = ["austria", "europe", "science"];
+  const CAT_SUBS  = { austria: "Lokale & nationale Meldungen", europe: "EU & europäische Politik", science: "Forschung & Technik" };
+
+  async function load() {
+    try {
+      const res  = await fetch("data.json?v=" + Date.now());
+      if (!res.ok) throw new Error("data.json not found");
+      const data = await res.json();
+
+      document.getElementById("generated").textContent = data.generated || "unbekannt";
+
+      const main = document.getElementById("main");
+      main.innerHTML = "";
+
+      for (const catId of CAT_ORDER) {
+        const cat = data.categories[catId];
+        if (!cat) continue;
+
+        const card = document.createElement("div");
+        card.className = "category";
+
+        // Header
+        const header = document.createElement("div");
+        header.className = "cat-header";
+        header.style.background = cat.color;
+        header.innerHTML = `
+          <span class="cat-icon">${cat.icon}</span>
+          <div>
+            <div class="cat-title">${cat.label}</div>
+            <div class="cat-sub">${CAT_SUBS[catId] || ""}</div>
+          </div>`;
+        card.appendChild(header);
+
+        // Summary
+        if (cat.summary) {
+          const box = document.createElement("div");
+          box.className = "summary-box";
+          box.innerHTML = `
+            <div class="summary-label">✦ KI-Zusammenfassung</div>
+            <div class="summary-text">${escHtml(cat.summary)}</div>`;
+          card.appendChild(box);
+        }
+
+        // News items
+        const list = document.createElement("div");
+        list.className = "news-list";
+
+        if (!cat.items || cat.items.length === 0) {
+          list.innerHTML = `<div class="empty">Keine Meldungen gefunden.</div>`;
+        } else {
+          cat.items.forEach(item => {
+            const el = document.createElement("div");
+            el.className = "news-item";
+            const titleHtml = item.link
+              ? `<a class="news-title" href="${escHtml(item.link)}" target="_blank" rel="noopener">${escHtml(item.title)}</a>`
+              : `<span class="news-title">${escHtml(item.title)}</span>`;
+            el.innerHTML = titleHtml + `
+              <div class="news-meta">
+                ${item.source ? `<span class="news-source">${escHtml(item.source)}</span>` : ""}
+                ${item.date   ? `<span class="news-date">${escHtml(item.date)}</span>`     : ""}
+              </div>`;
+            list.appendChild(el);
+          });
+        }
+        card.appendChild(list);
+        main.appendChild(card);
+      }
+
+    } catch (err) {
+      document.getElementById("main").innerHTML =
+        `<div class="empty" style="grid-column:1/-1;padding:60px">
+          ⚠️ Daten konnten nicht geladen werden.<br>
+          <small style="color:#bbb;margin-top:8px;display:block">${err.message}</small>
+        </div>`;
+    }
+  }
+
+  function escHtml(str) {
+    return String(str)
+      .replace(/&/g,"&amp;").replace(/</g,"&lt;")
+      .replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+  }
+
+  load();
+</script>
+</body>
+</html>
