@@ -36,7 +36,7 @@ CATEGORIES = {
         "summary_prompt": (
             "Du bist Experte für Lärmschutz in Österreich. "
             "Fasse die folgenden Nachrichtentitel aus Österreich zum Thema Lärmschutz "
-            "in 3–4 prägnanten deutschen Sätzen zusammen. "
+            "in 3–5 prägnanten deutschen Sätzen zusammen. "
             "Hebe die wichtigsten Entwicklungen hervor. "
             "Antworte NUR mit dem Fließtext, keine Aufzählungen, keine Überschriften."
         ),
@@ -53,7 +53,7 @@ CATEGORIES = {
         "summary_prompt": (
             "You are an expert on European noise control policy. "
             "Summarize the following European news headlines about noise control "
-            "in 3–4 concise sentences in English. "
+            "in 3–5 concise sentences in English. "
             "Focus on significant EU-level or cross-border developments. "
             "Reply ONLY with flowing prose, no bullet points, no headings."
         ),
@@ -70,15 +70,15 @@ CATEGORIES = {
         "summary_prompt": (
             "You are an acoustics researcher. "
             "Summarize the following scientific news headlines about noise control research "
-            "in 3–4 concise sentences in English. "
+            "in 3–5 concise sentences in English. "
             "Focus on practical implications for noise control engineers. "
             "Reply ONLY with flowing prose, no bullet points, no headings."
         ),
     },
 }
 
-MAX_ITEMS_PER_CATEGORY = 8  # articles shown on website
-MAX_TITLES_FOR_SUMMARY = 12  # titles sent to Gemini
+MAX_ITEMS_PER_CATEGORY = 10  # articles shown on website
+MAX_TITLES_FOR_SUMMARY = 15  # titles sent to Gemini
 
 
 # ── RSS Fetching ───────────────────────────────────────────────────────────────
@@ -144,7 +144,7 @@ def summarize_with_gemini(titles: list[str], prompt: str) -> str:
     import urllib.request, json as _json
     body = _json.dumps({
         "contents": [{"parts": [{"text": full_prompt}]}],
-        "generationConfig": {"maxOutputTokens": 300, "temperature": 0.3},
+        "generationConfig": {"maxOutputTokens": 1000, "temperature": 0.3},
     }).encode()
 
     req = Request(
