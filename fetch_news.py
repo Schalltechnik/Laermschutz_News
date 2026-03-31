@@ -156,7 +156,10 @@ def summarize_with_gemini(titles: list[str], prompt: str) -> str:
     try:
         with urlopen(req, timeout=30) as resp:
             data = _json.loads(resp.read())
-        return data["candidates"][0]["content"]["parts"][0]["text"].strip()
+        full_text = data["candidates"][0]["content"]["parts"][0]["text"].strip()
+        print(f"  Full summary length: {len(full_text)} chars")
+        print(f"  Finish reason: {data['candidates'][0].get('finishReason', 'unknown')}")
+        return full_text
     except Exception as e:
         print(f"  Gemini error: {e}")
         return "Zusammenfassung konnte nicht erstellt werden."
