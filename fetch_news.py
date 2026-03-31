@@ -18,7 +18,7 @@ import xml.etree.ElementTree as ET
 GEMINI_API_KEY = os.environ["GEMINI_API_KEY"]
 GEMINI_URL = (
     "https://generativelanguage.googleapis.com/v1beta/models/"
-    "gemini-2.0-flash:generateContent?key=" + GEMINI_API_KEY
+    "gemini-2.5-flash:generateContent?key=" + GEMINI_API_KEY
 )
 
 CATEGORIES = {
@@ -103,13 +103,8 @@ def fetch_rss(url: str) -> list[dict]:
             if title:
                 items.append({"title": title, "link": link, "date": pub, "source": source})
     except Exception as e:
-        import traceback
-        print(f"  Gemini error: {e}")
-        try:
-            print(f"  Gemini response body: {e.read().decode()}")
-        except:
-            pass
-        return "Zusammenfassung konnte nicht erstellt werden."
+        print(f"  Warning: could not fetch {url}: {e}")
+    return items
 
 
 def deduplicate(items: list[dict]) -> list[dict]:
