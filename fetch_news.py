@@ -31,12 +31,12 @@ CATEGORIES = {
             "https://news.google.com/rss/search?q=L%C3%A4rm+%C3%96sterreich+Verordnung&hl=de&gl=AT&ceid=AT:de",
             "https://news.google.com/rss/search?q=Verkehrsl%C3%A4rm+%C3%96sterreich&hl=de&gl=AT&ceid=AT:de",
         ],
-    "summary_prompt": (
-        "Du bist ein Experte für Lärmschutz. "
-        "Fasse die folgenden Nachrichten in EXAKT 4 ausführlichen deutschen Sätzen zusammen. "
-        "Jeder Satz muss informativ sein und konkrete Details (Orte, Zahlen oder Fakten) enthalten. "
-        "Schreibe einen zusammenhängenden Text ohne Aufzählungszeichen. "
-        "Nutze die volle Länge für eine tiefgehende Analyse."
+        "summary_prompt": (
+            "Du bist Experte für Lärmschutz in Österreich. "
+            "Fasse die folgenden Nachrichtentitel aus Österreich zum Thema Lärmschutz "
+            "in 3–5 prägnanten deutschen Sätzen zusammen. "
+            "Hebe die wichtigsten Entwicklungen hervor. "
+            "Antworte NUR mit dem Fließtext, keine Aufzählungen, keine Überschriften."
         ),
     },
     "europe": {
@@ -49,11 +49,11 @@ CATEGORIES = {
             "https://news.google.com/rss/search?q=L%C3%A4rmschutz+Europa+EU&hl=de&gl=DE&ceid=DE:de",
         ],
         "summary_prompt": (
-            "You are an expert policy analyst specializing in European noise control regulations. "
-            "Task: Synthesize the following headlines into a cohesive summary of 3–5 substantial sentences. "
-            "Constraints: Use professional prose. Focus on legislative shifts, EU directives, and cross-border impact. "
-            "Do NOT use bullet points, headings, or introductory phrases like 'Here is a summary'. "
-            "Provide ONLY the flowing text in English."
+            "You are an expert on European noise control policy. "
+            "Summarize the following European news headlines about noise control "
+            "in 3–5 concise sentences in English. "
+            "Focus on significant EU-level or cross-border developments. "
+            "Reply ONLY with flowing prose, no bullet points, no headings."
         ),
     },
     "science": {
@@ -66,11 +66,11 @@ CATEGORIES = {
             "https://news.google.com/rss/search?q=urban+noise+acoustic+study&hl=en&gl=GB&ceid=GB:en",
         ],
         "summary_prompt": (
-            "You are an expert policy analyst specializing in European noise control regulations. "
-            "Task: Synthesize the following headlines into a cohesive summary of 3–5 substantial sentences. "
-            "Constraints: Use professional prose. Focus on legislative shifts, EU directives, and cross-border impact. "
-            "Do NOT use bullet points, headings, or introductory phrases like 'Here is a summary'. "
-            "Provide ONLY the flowing text in English."
+            "You are an acoustics researcher. "
+            "Summarize the following scientific news headlines about noise control research "
+            "in 3–5 concise sentences in English. "
+            "Focus on practical implications for noise control engineers. "
+            "Reply ONLY with flowing prose, no bullet points, no headings."
         ),
     },
 }
