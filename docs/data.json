@@ -1,26 +1,124 @@
 {
-  "generated": "Noch nicht aktualisiert – bitte GitHub Action manuell starten",
+  "generated": "31. March 2026, 10:44 UTC",
   "categories": {
     "austria": {
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Die erste automatische Zusammenfassung wird nach dem ersten Lauf der GitHub Action erscheinen.",
+      "summary": "Keine aktuellen Meldungen gefunden.",
       "items": []
     },
     "europe": {
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "The first AI summary will appear after the GitHub Action runs for the first time.",
-      "items": []
+      "summary": "Zusammenfassung konnte nicht erstellt werden.",
+      "items": [
+        {
+          "title": "Slovenia introduces air pollution, noise fee for trucks - Balkan Green Energy News",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRmNTS1RNUzlOWnJtaGdYTDdhR3hnLVkzaVlnNS1NbjJzSXRZaFNKZGxtYi1QYVg1bnBjbVY1eDFBYm1BOFRldFBKR09ZblRxdkZQLW1HYkZZQjJfcUVEUHZXVDJyWElfWGdrbExHU2RxTFY2VE1FTm9KTVkzMHZTalFXYnpCTmFodmd0TFpqTGtfRkk?oc=5",
+          "date": "16. Feb 2026",
+          "source": "Balkan Green Energy News"
+        },
+        {
+          "title": "Ghent Takes Action to Reduce Tourism Noise and Protect Its Historic Charm: Everything You Need to Know Before Visiting - Travel And Tour World",
+          "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPeHlCWjNJTGx2d3BLMHFHRlFGNGFfbC1TZHp6T1JZSzdKb3lSU2hEOVRDd1lGUG9nSlFDa19ISkFSY0owS2FiLXNOUUhWVGpCSHdOQ3FCSWtsUVU5WFpGdHE5ZjMxa1RRX3hoOHBBNlp0N2V2S3dnQURGeE1hYTVtYndPaHp5MVNqQkh4N0I4bll0UGIzQmxBWldUWVF5WTYwTm1zMVA5SGtpWVJuR0tnZ2Zsek1SSWdZQmdDRDREQklEa3VMMUVFQ2ZnN0Nxb1FBdUxaZmpabGU3TXpvbWs4XzdsQ09JN1Y4eFV4NTJ3d2ozSy1nbWRBRGVB?oc=5",
+          "date": "3. Feb 2026",
+          "source": "Travel And Tour World"
+        },
+        {
+          "title": "More than 20% of Europeans exposed to harmful noise pollution levels - European Environment Agency (EEA)",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQmFoQ19lY1dnWlh2N1FEMHl4TUtBMWo5OW1lVktXdmJ1VHNDcEV2SU9MUzFjUm1RVk5NSS0xZ29BUXByWkJQLXkzSnN4dFdsQUh6eUZwTTcxeXBmVnd5ZnRqcUFwTmhteG5HYkZfa2JBVGhWSEVmdjFEZC1zSVh6RjY1TkMyUUN6NjdLb1kyY3l1aENSeTN6RVpB?oc=5",
+          "date": "23. Jun 2025",
+          "source": "European Environment Agency (EEA)"
+        },
+        {
+          "title": "Noise: the pollution hazard people in the EU need to hear about - European Newsroom",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeFdCUDNDcUVnTHdEaHJ3aUNVdmZmcGVJSUhWT1B6eWVLN3NPb2l5bjlqUVZ2UnlPMktBYjdFcTFSX2Z2RDc2M0VqUW1CdURnbXZvYzNIY1d4Wm1jaElObldqZXlvMWJudldlUzNVT1kxb2FnRnhvb0JYbWtBNVc5dVBqdm5rRU9SeTVQYi0xaURIUVhsVzRV?oc=5",
+          "date": "16. Jul 2025",
+          "source": "European Newsroom"
+        },
+        {
+          "title": "Noise pollution directive: a far cry from effective - euronews.com",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQ0FVejQwMXJZb18xTlZ6UUlxMWNPM25uaHoybWdJZkh4WXVGUkVtWEJCN20tNnJoQl9GaHVmdTlzbWxfV2l4ZS0wWXpGTjdLUlBtY0phNWEtWUxWVTI2dTkxdnhfaTFUcHhMX096NTFJRW5WY2hmbDVNelIzYzc5YWxSSWdONExBa2Rwa1VGVTNQdzRicFd0SEs1U0E?oc=5",
+          "date": "25. Feb 2025",
+          "source": "euronews.com"
+        },
+        {
+          "title": "Historical EU mandatory limits on underwater noise pollution - International Fund for Animal Welfare | IFAW",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbENCTXJTb1d3VlFqSjNKdW9DVG5ZQUh5VXhMTmo3eXZEcHVoRTBFdEdDbXdtdEZ3M1VlZVliTmhqY2Y3S2paNTdFZlBIck1NT0xHWUdTc2U3SkotS2FIOS12OFJPdDJob3NDaFV2MEUyTmVfZzUwYWRINDdZZjRaZkw0eXN3Z2oyQ2tHQ0RMakwxWjctd1RBQ2tYcmlNTlkzYzVMRnVrRzFpdw?oc=5",
+          "date": "11. Mar 2024",
+          "source": "International Fund for Animal Welfare | IFAW"
+        },
+        {
+          "title": "Europe struggles to turn down volume on deadly traffic noise - politico.eu",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSUJQSmpMWEpnRHA1eFdZajV0Zm9lSzhVQ3J2M3RDXzl5ckNJa0hJeFN6Z0VhVVpxNlgyNWZlSGd6OVd4OWFRcUFUSVItLWplRDgxX21GaU14Sm1FMExhbTdCRFFRZUV5aVp1NkZ1bmd6MGItUnA2cmsyMl81VU9IOTM5LVl0TkUxbGxQUGduaUt3NVRDX2QyZjYzaHVpVkJJOW82bHpoN1o1RnNYTm1ONldTNW9rRFU?oc=5",
+          "date": "7. Sep 2022",
+          "source": "politico.eu"
+        },
+        {
+          "title": "MEP Peter Agius Calls for Enforcement of EU Noise Pollution Rules on Rest Times and Legal Noise Limits - EPP Group in the European Parliament",
+          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQV01HNGI0WXNLb2ZLMGE4ejUwNmpiZy1Jajh5ZWczVENZVlVmMHI1RG5TSzUzUTV5Q0txRDRUMmt3RGxVUy1INXdMRGpLMHlKRmRObW5RMTdDVi1ZSmgyZ1BxYnctWDhEOWJPbGlrV0pObU9XaENZc2dGU2dnbWZaV1hScWprYWFJNGVKTmxMWndOYk00UU9hSUdkZW1xWXE0eThtRkJ6SDk0djNjZjl2WlJCYjRRdW5GQWRoR3VfZnBPcGF1amQwYUQwMFNQdzhRWXJDa2ZFQ1R2TkpUbnVYajdKOXRRbFl2TWFHMWl2b011c0U?oc=5",
+          "date": "1. Feb 2025",
+          "source": "EPP Group in the European Parliament"
+        }
+      ]
     },
     "science": {
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "The first scientific summary will appear after the GitHub Action runs for the first time.",
-      "items": []
+      "summary": "Zusammenfassung konnte nicht erstellt werden.",
+      "items": [
+        {
+          "title": "Dual-actuator-type active noise control in vibro-acoustic systems with openings - Nature",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBEQnpWdnU2UlJidUZVS2h4MkIyVk81ODJERFVCbnlObzhvYVNFTFpnZTJreDFCQm9VS3ZIMXNpTjRIaExDaV9DUmpUNUNHcVNyRkVUamRub0Z2RDNha0JJ?oc=5",
+          "date": "2. Sep 2025",
+          "source": "Nature"
+        },
+        {
+          "title": "Study on the noise reduction effect of sound barriers on the aerodynamic noise of high-speed trains - Frontiers",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVXdrSFVsMGFZa1I4Z0hPYzZCb0E4MTU2LXhKVXRuVjdETmJFR241NVdScnNHbUZjOXdsQkpNRGExc1lOenNFdWhjUnlkODBZVG1EdFZPaEVuQnJIUDd2Q28xMXF0NDhGZ0dadjBXUWlxb2NMamY4RXFZRlBra1loaEFwQnI1bENSVjJOMkZXeVM?oc=5",
+          "date": "6. Jul 2025",
+          "source": "Frontiers"
+        },
+        {
+          "title": "Bio-inspired acoustic metamaterials for traffic noise control: bridging the gap with machine learning - Nature",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9FMDBxTUdVcU9XZjZDbFo3RFpFWUs4WF9tdmVXSlMtdGs3OUFSek8xSENfWERyRlJNRUxNQzNqSXc2X3pKZ2ZNUVpSLUJoOUF4cVFrcHJ1anIwYWtXYzhF?oc=5",
+          "date": "29. Jul 2025",
+          "source": "Nature"
+        },
+        {
+          "title": "Noise 2050 - Department of Mechanical, Manufacturing & Biomedical Engineering - Trinity College Dublin",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSjVSeG90U0tiN05qTkJvNjIySnpiNnpIY1NMaUh5Skh4RVdpVTNmWkVBU1ZVSzEyN3V3YmFQdVZVM3RKSlFycmR0aHEtRVkwTWszVFpZc1JKeEVVOVhTWllnRVlmUjhYdC16aUlhX1ExNkF2QnNKV1dzejVDNHhRQTlHTVNvdkEydF9YSVJnUC01Skw3Wkl2amMzU2ZWbTZZTXp6Z3BfZ0I?oc=5",
+          "date": "4. Jun 2025",
+          "source": "Trinity College Dublin"
+        },
+        {
+          "title": "Ultra-thin yet strong against noise : A filigree sound absorber for all weathers - Eidgenössisches Departement für Wirtschaft, Bildung und Forschung WBF",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1RaUNic2xtZHVXLTBVSEhBRjRSYUVzTFRZek9KeWV0eE5GSWNfS05lbXZUdW5IdXl0SmtSdHBkTEVDbDZLWnhaTElIV19Uci05bGlBZWdSSDhpc2NaZWJLUFNwN3NqRDQ?oc=5",
+          "date": "24. Jul 2025",
+          "source": "Eidgenössisches Departement für Wirtschaft, Bildung und Forschung WBF"
+        },
+        {
+          "title": "Could MIT’s sound-suppressing silk fight noise pollution – and foil eavesdroppers? - Institution of Mechanical Engineers - IMechE",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYWZuVndCdjFpeUNZT29OZUdNRFFSVXV0SUVMc1hWeDNkODFzS0tLZVlvNG5CZ2hFZTZCeGlKUFpzbUtHVDAybG5nMFFMVHpDcmtMOVZRZHFfX09tOXpoMlRNTFNSTjkycXV3WjhRZFB0R0liMzVLRm1SMG9yZnhhQ2t5b1BoT0lWMk1YS2UxVGE0VzFzQVpMYU4ydy1aWEVCUU9waFdaaTFfOHkyYjZDcUk3X2pHOGpjdkx1cg?oc=5",
+          "date": "17. May 2024",
+          "source": "Institution of Mechanical Engineers - IMechE"
+        },
+        {
+          "title": "Oregon State University study maps noise pollution in Portland - Oregon Public Broadcasting - OPB",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVm1CVy1MWFhMUWdBV1R6Q25HQW9HV1pmMGNTMmxwVERicWE1QnlmSThkWnVhTG8xV1ZTSDVEclZDWWhaVWFvTFo3UHJFYXhNMmp3aDVuRDQyNV9CV2RoRFpvWl9LUzBGVk04TFNMc1M3Y3ZhNm9TQzhkWXhtTUVGNEtfR3hzUG9sOU05U2Q1VkxHOXJkTGdVWmN4MzVheEtTZGtNWjIzREdwTlRzUkM5SzB3NjE?oc=5",
+          "date": "13. Aug 2025",
+          "source": "Oregon Public Broadcasting - OPB"
+        },
+        {
+          "title": "Noisy neighbours: how building sites are keeping quiet - MODUS | RICS",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNX00wY0txelpYbld4QnF1VTZWRzVybEdQYm1qVmpRSUdCRHhuWDdXWl93bGZNVFZKNHlFNWZNUWJsWjJCTWtMa0J2VkkxajZHcTJzTHhESVN6UTE0QU9jR1VIYU85NEszeEhLMElkckt1RWR0ZHBOV1RtalRJRUZtbVRPaWdqZklVVGp1cnpTZVp2NmRJeUphaGdoWjMwSjc4TzJoV0tvRmpSQ1p4UDBKUWpUdUJTeVpsd1BLNWlvSXo?oc=5",
+          "date": "23. May 2022",
+          "source": "MODUS | RICS"
+        }
+      ]
     }
   }
 }
