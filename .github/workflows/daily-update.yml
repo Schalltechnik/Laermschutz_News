@@ -2,20 +2,20 @@ name: Daily News Update
 
 on:
   schedule:
-    # Every day at 06:00 UTC (= 07:00 CET / 08:00 CEST)
     - cron: "0 6 * * *"
-  workflow_dispatch:  # allows manual trigger from GitHub UI
-
-permissions:
-  contents: write  # needed to commit data.json back to repo
+  workflow_dispatch:
 
 jobs:
   fetch-and-publish:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
