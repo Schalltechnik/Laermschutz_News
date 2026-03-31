@@ -6,6 +6,7 @@ Fetches RSS feeds, summarizes with Gemini, saves to docs/data.json
 import json
 import os
 import re
+import time
 from datetime import datetime, timezone
 from urllib.request import urlopen, Request
 from urllib.error import URLError
@@ -191,6 +192,7 @@ def main():
         titles_for_summary = [i["title"] for i in items[:MAX_TITLES_FOR_SUMMARY]]
         summary = summarize_with_gemini(titles_for_summary, cat["summary_prompt"])
         print(f"  Summary: {summary[:80]}…")
+        time.sleep(5)  # kurze Pause zwischen Kategorien
 
         output["categories"][cat_id] = {
             "label": cat["label"],
