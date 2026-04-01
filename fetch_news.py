@@ -20,19 +20,37 @@ GEMINI_URL = (
     "gemini-2.5-flash:generateContent?key=" + GEMINI_API_KEY
 )
 
-# Set WEEKLY_SUMMARY=true in the workflow env to generate summary.html
 GENERATE_SUMMARY = os.environ.get("WEEKLY_SUMMARY", "false").lower() == "true"
 
 CATEGORIES = {
+    "steiermark": {
+        "label": "Steiermark",
+        "icon": "🏞️",
+        "color": "#2e7d32",
+        "feeds": [
+            "https://news.google.com/rss/search?q=L%C3%A4rmschutz+Steiermark&hl=de&gl=AT&ceid=AT:de&when=7d",
+            "https://news.google.com/rss/search?q=Verkehrsl%C3%A4rm+Steiermark&hl=de&gl=AT&ceid=AT:de&when=7d",
+            "https://news.google.com/rss/search?q=Umgebungsl%C3%A4rm+Steiermark&hl=de&gl=AT&ceid=AT:de&when=7d",
+            "https://news.google.com/rss/search?q=Flugl%C3%A4rm+Graz&hl=de&gl=AT&ceid=AT:de&when=7d",
+            "https://news.google.com/rss/search?q=L%C3%A4rm+Graz+Steiermark&hl=de&gl=AT&ceid=AT:de&when=7d",
+        ],
+        "summary_prompt": (
+            "Du bist Experte für Lärmschutz in der Steiermark und Graz. "
+            "Fasse die folgenden Nachrichtentitel aus der Steiermark zum Thema Lärm und Lärmschutz "
+            "in 3–5 prägnanten deutschen Sätzen zusammen. "
+            "Hebe die wichtigsten lokalen Entwicklungen hervor. "
+            "Antworte NUR mit dem Fließtext, keine Aufzählungen, keine Überschriften."
+        ),
+    },
     "austria": {
         "label": "Österreich",
         "icon": "🇦🇹",
         "color": "#c8102e",
         "feeds": [
-            "https://news.google.com/rss/search?q=L%C3%A4rmschutz+%C3%96sterreich&hl=de&gl=AT&ceid=AT:de",
-            "https://news.google.com/rss/search?q=L%C3%A4rmschutzwand+Austria&hl=de&gl=AT&ceid=AT:de",
-            "https://news.google.com/rss/search?q=L%C3%A4rm+%C3%96sterreich+Verordnung&hl=de&gl=AT&ceid=AT:de",
-            "https://news.google.com/rss/search?q=Verkehrsl%C3%A4rm+%C3%96sterreich&hl=de&gl=AT&ceid=AT:de",
+            "https://news.google.com/rss/search?q=L%C3%A4rmschutz+%C3%96sterreich&hl=de&gl=AT&ceid=AT:de&when=7d",
+            "https://news.google.com/rss/search?q=L%C3%A4rmschutzwand+%C3%96sterreich&hl=de&gl=AT&ceid=AT:de&when=7d",
+            "https://news.google.com/rss/search?q=L%C3%A4rm+%C3%96sterreich+Verordnung&hl=de&gl=AT&ceid=AT:de&when=7d",
+            "https://news.google.com/rss/search?q=Verkehrsl%C3%A4rm+%C3%96sterreich&hl=de&gl=AT&ceid=AT:de&when=7d",
         ],
         "summary_prompt": (
             "Du bist Experte für Lärmschutz in Österreich. "
@@ -47,18 +65,12 @@ CATEGORIES = {
         "icon": "🏔️",
         "color": "#5a5a5a",
         "feeds": [
-            # Verkehrslärm
-            "https://news.google.com/rss/search?q=Verkehrsl%C3%A4rm+Deutschland+%C3%96sterreich+Schweiz&hl=de&gl=DE&ceid=DE:de",
-            "https://news.google.com/rss/search?q=Stra%C3%9Fenl%C3%A4rm+DACH&hl=de&gl=DE&ceid=DE:de",
-            # Fluglärm
-            "https://news.google.com/rss/search?q=Flugl%C3%A4rm+Deutschland&hl=de&gl=DE&ceid=DE:de",
-            "https://news.google.com/rss/search?q=Flugl%C3%A4rm+%C3%96sterreich+Schweiz&hl=de&gl=AT&ceid=AT:de",
-            # Schienenlärm
-            "https://news.google.com/rss/search?q=Schienenl%C3%A4rm+Bahn+DACH&hl=de&gl=DE&ceid=DE:de",
-            # Industrielärm
-            "https://news.google.com/rss/search?q=Industriel%C3%A4rm+Umgebungsl%C3%A4rm+DACH&hl=de&gl=DE&ceid=DE:de",
-            # Umgebungslärm allgemein
-            "https://news.google.com/rss/search?q=Umgebungsl%C3%A4rm+L%C3%A4rmkarte+L%C3%A4rmbericht&hl=de&gl=DE&ceid=DE:de",
+            "https://news.google.com/rss/search?q=Verkehrsl%C3%A4rm+Deutschland+%C3%96sterreich+Schweiz&hl=de&gl=DE&ceid=DE:de&when=7d",
+            "https://news.google.com/rss/search?q=Flugl%C3%A4rm+Deutschland&hl=de&gl=DE&ceid=DE:de&when=7d",
+            "https://news.google.com/rss/search?q=Flugl%C3%A4rm+%C3%96sterreich+Schweiz&hl=de&gl=AT&ceid=AT:de&when=7d",
+            "https://news.google.com/rss/search?q=Schienenl%C3%A4rm+Bahn+Deutschland&hl=de&gl=DE&ceid=DE:de&when=7d",
+            "https://news.google.com/rss/search?q=Industriel%C3%A4rm+Umgebungsl%C3%A4rm&hl=de&gl=DE&ceid=DE:de&when=7d",
+            "https://news.google.com/rss/search?q=Umgebungsl%C3%A4rm+L%C3%A4rmkarte+L%C3%A4rmbericht&hl=de&gl=DE&ceid=DE:de&when=7d",
         ],
         "summary_prompt": (
             "Du bist Experte für Umgebungslärm in der DACH-Region (Deutschland, Österreich, Schweiz). "
@@ -73,9 +85,9 @@ CATEGORIES = {
         "icon": "🇪🇺",
         "color": "#003399",
         "feeds": [
-            "https://news.google.com/rss/search?q=noise+control+EU+directive&hl=en&gl=GB&ceid=GB:en",
-            "https://news.google.com/rss/search?q=environmental+noise+Europe+regulation&hl=en&gl=GB&ceid=GB:en",
-            "https://news.google.com/rss/search?q=L%C3%A4rmschutz+Europa+EU&hl=de&gl=DE&ceid=DE:de",
+            "https://news.google.com/rss/search?q=noise+control+EU+directive&hl=en&gl=GB&ceid=GB:en&when=7d",
+            "https://news.google.com/rss/search?q=environmental+noise+Europe+regulation&hl=en&gl=GB&ceid=GB:en&when=7d",
+            "https://news.google.com/rss/search?q=L%C3%A4rmschutz+Europa+EU&hl=de&gl=DE&ceid=DE:de&when=7d",
         ],
         "summary_prompt": (
             "You are an expert on European noise control policy. "
@@ -90,9 +102,9 @@ CATEGORIES = {
         "icon": "🔬",
         "color": "#1a6b3c",
         "feeds": [
-            "https://news.google.com/rss/search?q=acoustics+noise+control+research&hl=en&gl=GB&ceid=GB:en",
-            "https://news.google.com/rss/search?q=noise+barrier+material+research&hl=en&gl=GB&ceid=GB:en",
-            "https://news.google.com/rss/search?q=urban+noise+acoustic+study&hl=en&gl=GB&ceid=GB:en",
+            "https://news.google.com/rss/search?q=acoustics+noise+control+research&hl=en&gl=GB&ceid=GB:en&when=7d",
+            "https://news.google.com/rss/search?q=noise+barrier+material+research&hl=en&gl=GB&ceid=GB:en&when=7d",
+            "https://news.google.com/rss/search?q=urban+noise+acoustic+study&hl=en&gl=GB&ceid=GB:en&when=7d",
         ],
         "summary_prompt": (
             "You are an acoustics researcher. "
@@ -155,7 +167,7 @@ def format_date(raw: str) -> str:
         return raw[:16]
 
 
-# ── Gemini Summarization ───────────────────────────────────────────────────────
+# ── Gemini ─────────────────────────────────────────────────────────────────────
 
 def call_gemini(prompt: str, max_tokens: int = 2000) -> str:
     import json as _json
@@ -163,12 +175,7 @@ def call_gemini(prompt: str, max_tokens: int = 2000) -> str:
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {"maxOutputTokens": max_tokens, "temperature": 0.3},
     }).encode()
-    req = Request(
-        GEMINI_URL,
-        data=body,
-        headers={"Content-Type": "application/json"},
-        method="POST",
-    )
+    req = Request(GEMINI_URL, data=body, headers={"Content-Type": "application/json"}, method="POST")
     try:
         with urlopen(req, timeout=30) as resp:
             data = _json.loads(resp.read())
@@ -184,17 +191,13 @@ def summarize_with_gemini(titles: list[str], prompt: str) -> str:
     if not titles:
         return "Keine aktuellen Meldungen gefunden."
     numbered = "\n".join(f"{i+1}. {t}" for i, t in enumerate(titles))
-    full_prompt = prompt + "\n\nNachrichtentitel:\n" + numbered
-    return call_gemini(full_prompt, max_tokens=2000)
+    return call_gemini(prompt + "\n\nNachrichtentitel:\n" + numbered, max_tokens=2000)
 
 
 # ── Weekly Executive Summary ───────────────────────────────────────────────────
 
 def generate_weekly_summary(categories_data: dict, generated: str) -> None:
-    """Generate a weekly executive summary HTML page."""
     print("\n── Generating Weekly Executive Summary ──")
-
-    # Build the combined prompt
     sections = []
     for cat_id, cat in categories_data.items():
         summary = cat.get("summary", "")
@@ -202,16 +205,13 @@ def generate_weekly_summary(categories_data: dict, generated: str) -> None:
         titles = "\n".join(f"- {i['title']}" for i in items[:8])
         sections.append(
             f"## {cat['icon']} {cat['label']}\n"
-            f"Zusammenfassung: {summary}\n\n"
-            f"Schlagzeilen:\n{titles}"
+            f"Zusammenfassung: {summary}\n\nSchlagzeilen:\n{titles}"
         )
-
-    combined = "\n\n".join(sections)
 
     exec_prompt = (
         "Du bist ein Experte für Lärmschutz und Umgebungslärm. "
         "Erstelle einen wöchentlichen Executive Summary auf Deutsch basierend auf den folgenden "
-        "Nachrichtenzusammenfassungen aus vier Kategorien: Österreich, DACH-Region, Europa und Wissenschaft.\n\n"
+        "Nachrichtenzusammenfassungen aus fünf Kategorien: Steiermark, Österreich, DACH-Region, Europa und Wissenschaft.\n\n"
         "Der Executive Summary soll:\n"
         "- Etwa eine A4-Seite lang sein (400–500 Wörter)\n"
         "- Mit einem kurzen Gesamtüberblick (2–3 Sätze) beginnen\n"
@@ -219,18 +219,16 @@ def generate_weekly_summary(categories_data: dict, generated: str) -> None:
         "- Die wichtigsten Trends und Entwicklungen der Woche hervorheben\n"
         "- Professionell und prägnant formuliert sein\n"
         "- NUR Fließtext, keine Aufzählungen, keine Markdown-Formatierung\n\n"
-        "Hier sind die Daten:\n\n" + combined
+        "Hier sind die Daten:\n\n" + "\n\n".join(sections)
     )
 
     print("  Calling Gemini for executive summary…")
     exec_text = call_gemini(exec_prompt, max_tokens=3000)
     time.sleep(5)
 
-    # Format into paragraphs for HTML
     paragraphs = [p.strip() for p in exec_text.split("\n") if p.strip()]
     html_paragraphs = "\n".join(f"    <p>{p}</p>" for p in paragraphs)
 
-    # Current week info
     now = datetime.now(timezone.utc)
     week_str = now.strftime("KW %W / %Y")
     date_str = now.strftime("%d. %B %Y")
@@ -241,101 +239,23 @@ def generate_weekly_summary(categories_data: dict, generated: str) -> None:
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Executive Summary – {week_str}</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after {{ box-sizing: border-box; margin: 0; padding: 0; }}
-    body {{
-      font-family: 'DM Sans', sans-serif;
-      background: #f4f4f0;
-      color: #1a1a1a;
-      padding: 40px 20px 80px;
-    }}
-    .page {{
-      max-width: 740px;
-      margin: 0 auto;
-      background: #fff;
-      border: 1px solid #e0e0e0;
-      border-radius: 10px;
-      padding: 52px 60px;
-      box-shadow: 0 2px 20px rgba(0,0,0,0.06);
-    }}
-    .back {{
-      display: inline-block;
-      margin-bottom: 32px;
-      font-size: 13px;
-      color: #888;
-      text-decoration: none;
-    }}
+    body {{ font-family: 'DM Sans', sans-serif; background: #f4f4f0; color: #1a1a1a; padding: 40px 20px 80px; }}
+    .page {{ max-width: 740px; margin: 0 auto; background: #fff; border: 1px solid #e0e0e0; border-radius: 10px; padding: 52px 60px; box-shadow: 0 2px 20px rgba(0,0,0,0.06); }}
+    .back {{ display: inline-block; margin-bottom: 32px; font-size: 13px; color: #888; text-decoration: none; }}
     .back:hover {{ color: #333; }}
-    .kw {{
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: 1.5px;
-      text-transform: uppercase;
-      color: #c8102e;
-      margin-bottom: 10px;
-    }}
-    h1 {{
-      font-family: 'DM Serif Display', serif;
-      font-weight: 400;
-      font-size: 28px;
-      line-height: 1.3;
-      margin-bottom: 6px;
-      color: #1a1a1a;
-    }}
-    .meta {{
-      font-size: 13px;
-      color: #999;
-      margin-bottom: 36px;
-      padding-bottom: 24px;
-      border-bottom: 2px solid #1a1a1a;
-    }}
-    p {{
-      font-size: 15px;
-      line-height: 1.75;
-      color: #2a2a2a;
-      margin-bottom: 18px;
-    }}
-    p:first-of-type::first-letter {{
-      font-family: 'DM Serif Display', serif;
-      font-size: 52px;
-      line-height: 0.85;
-      float: left;
-      margin-right: 8px;
-      margin-top: 6px;
-      color: #c8102e;
-    }}
-    .categories {{
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-      margin-top: 36px;
-      padding-top: 24px;
-      border-top: 1px solid #e0e0e0;
-    }}
-    .cat-tag {{
-      font-size: 11px;
-      font-weight: 600;
-      padding: 4px 10px;
-      border-radius: 20px;
-      color: #fff;
-    }}
-    .footer {{
-      margin-top: 32px;
-      font-size: 11px;
-      color: #bbb;
-      text-align: center;
-    }}
-    @media (max-width: 600px) {{
-      .page {{ padding: 32px 24px; }}
-      h1 {{ font-size: 22px; }}
-    }}
-    @media print {{
-      body {{ background: #fff; padding: 0; }}
-      .page {{ box-shadow: none; border: none; border-radius: 0; }}
-      .back {{ display: none; }}
-    }}
+    .kw {{ font-size: 11px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #c8102e; margin-bottom: 10px; }}
+    h1 {{ font-family: 'DM Serif Display', serif; font-weight: 400; font-size: 28px; line-height: 1.3; margin-bottom: 6px; }}
+    .meta {{ font-size: 13px; color: #999; margin-bottom: 36px; padding-bottom: 24px; border-bottom: 2px solid #1a1a1a; }}
+    p {{ font-size: 15px; line-height: 1.75; color: #2a2a2a; margin-bottom: 18px; }}
+    p:first-of-type::first-letter {{ font-family: 'DM Serif Display', serif; font-size: 52px; line-height: 0.85; float: left; margin-right: 8px; margin-top: 6px; color: #c8102e; }}
+    .tags {{ display: flex; gap: 8px; flex-wrap: wrap; margin-top: 36px; padding-top: 24px; border-top: 1px solid #e0e0e0; }}
+    .tag {{ font-size: 11px; font-weight: 600; padding: 4px 10px; border-radius: 20px; color: #fff; }}
+    .footer {{ margin-top: 32px; font-size: 11px; color: #bbb; text-align: center; }}
+    @media (max-width: 600px) {{ .page {{ padding: 32px 24px; }} h1 {{ font-size: 22px; }} }}
+    @media print {{ body {{ background: #fff; padding: 0; }} .page {{ box-shadow: none; border: none; }} .back {{ display: none; }} }}
   </style>
 </head>
 <body>
@@ -343,15 +263,14 @@ def generate_weekly_summary(categories_data: dict, generated: str) -> None:
     <a class="back" href="index.html">← Zurück zur Übersicht</a>
     <div class="kw">Wöchentlicher Executive Summary · {week_str}</div>
     <h1>Lärmschutz & Umgebungslärm<br>im Überblick</h1>
-    <div class="meta">Erstellt am {date_str} · Basierend auf aktuellen Meldungen aus 4 Kategorien</div>
-
+    <div class="meta">Erstellt am {date_str} · Basierend auf aktuellen Meldungen aus 5 Kategorien</div>
 {html_paragraphs}
-
-    <div class="categories">
-      <span class="cat-tag" style="background:#c8102e">🇦🇹 Österreich</span>
-      <span class="cat-tag" style="background:#5a5a5a">🏔️ DACH</span>
-      <span class="cat-tag" style="background:#003399">🇪🇺 Europa</span>
-      <span class="cat-tag" style="background:#1a6b3c">🔬 Wissenschaft</span>
+    <div class="tags">
+      <span class="tag" style="background:#2e7d32">🏞️ Steiermark</span>
+      <span class="tag" style="background:#c8102e">🇦🇹 Österreich</span>
+      <span class="tag" style="background:#5a5a5a">🏔️ DACH</span>
+      <span class="tag" style="background:#003399">🇪🇺 Europa</span>
+      <span class="tag" style="background:#1a6b3c">🔬 Wissenschaft</span>
     </div>
     <div class="footer">Automatisch generiert von Gemini AI · Lärmschutz News Monitor</div>
   </div>
@@ -374,7 +293,6 @@ def main():
 
     for cat_id, cat in CATEGORIES.items():
         print(f"\n── {cat['label']} ──")
-
         all_items = []
         for feed_url in cat["feeds"]:
             print(f"  Fetching: {feed_url[:80]}…")
