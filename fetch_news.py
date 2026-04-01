@@ -22,11 +22,25 @@ GEMINI_URL = (
 
 GENERATE_SUMMARY = os.environ.get("WEEKLY_SUMMARY", "false").lower() == "true"
 
+from datetime import datetime, timedelta
+
+# Berechnet das Datum von vor 7 Tagen im Format YYYY-MM-DD
+date_filter = (datetime.now() - timedelta(days=7)).strftime('%Y-%m-%d')
+
 CATEGORIES = {
     "steiermark": {
         "label": "Steiermark",
         "icon": "🏞️",
         "color": "#2e7d32",
+        "feeds": [
+        f"https://news.google.com/rss/search?q=L%C3%A4rmschutz+Steiermark+after:{date_filter}&hl=de&gl=AT&ceid=AT:de",
+        f"https://news.google.com/rss/search?q=Verkehrsl%C3%A4rm+Steiermark+after:{date_filter}&hl=de&gl=AT&ceid=AT:de",
+        f"https://news.google.com/rss/search?q=Umgebungsl%C3%A4rm+Steiermark+after:{date_filter}&hl=de&gl=AT&ceid=AT:de",
+        f"https://news.google.com/rss/search?q=Flugl%C3%A4rm+Graz+after:{date_filter}&hl=de&gl=AT&ceid=AT:de",
+        f"https://news.google.com/rss/search?q=L%C3%A4rm+Graz+Steiermark+after:{date_filter}&hl=de&gl=AT&ceid=AT:de",
+        ],
+        
+        
         "feeds": [
             "https://news.google.com/rss/search?q=L%C3%A4rmschutz+Steiermark+when:7d&hl=de&gl=AT&ceid=AT:de",
             "https://news.google.com/rss/search?q=Verkehrsl%C3%A4rm+Steiermark+when:7d&hl=de&gl=AT&ceid=AT:de",
