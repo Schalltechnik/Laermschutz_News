@@ -28,11 +28,11 @@ CATEGORIES = {
         "icon": "🏞️",
         "color": "#2e7d32",
         "feeds": [
-            "https://news.google.com/rss/search?q=L%C3%A4rmschutz+Steiermark&hl=de&gl=AT&ceid=AT:de&when=7d",
-            "https://news.google.com/rss/search?q=Verkehrsl%C3%A4rm+Steiermark&hl=de&gl=AT&ceid=AT:de&when=7d",
-            "https://news.google.com/rss/search?q=Umgebungsl%C3%A4rm+Steiermark&hl=de&gl=AT&ceid=AT:de&when=7d",
-            "https://news.google.com/rss/search?q=Flugl%C3%A4rm+Graz&hl=de&gl=AT&ceid=AT:de&when=7d",
-            "https://news.google.com/rss/search?q=L%C3%A4rm+Graz+Steiermark&hl=de&gl=AT&ceid=AT:de&when=7d",
+            "https://news.google.com/rss/search?q=L%C3%A4rmschutz+Steiermark+when:7d&hl=de&gl=AT&ceid=AT:de",
+            "https://news.google.com/rss/search?q=Verkehrsl%C3%A4rm+Steiermark+when:7d&hl=de&gl=AT&ceid=AT:de",
+            "https://news.google.com/rss/search?q=Umgebungsl%C3%A4rm+Steiermark&hl+when:7d&hl=de&gl=AT&ceid=AT:de",
+            "https://news.google.com/rss/search?q=Flugl%C3%A4rm+Graz&hl=de&gl+when:7d&hl=de&gl=AT&ceid=AT:de",
+            "https://news.google.com/rss/search?q=L%C3%A4rm+Graz+Steiermark&hl+when:7d&hl=de&gl=AT&ceid=AT:de",
         ],
         "summary_prompt": (
             "Du bist Experte für Lärmschutz in der Steiermark und Graz. "
