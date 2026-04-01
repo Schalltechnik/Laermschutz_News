@@ -30,7 +30,7 @@
     header {
       background: #1a1a1a;
       color: #fff;
-      padding: 32px 24px 28px;
+      padding: 28px 24px 24px;
       text-align: center;
     }
     header .badge {
@@ -45,61 +45,121 @@
       font-weight: 600;
       letter-spacing: 1.2px;
       text-transform: uppercase;
-      margin-bottom: 16px;
+      margin-bottom: 12px;
     }
     header h1 {
       font-family: 'DM Serif Display', serif;
       font-weight: 400;
-      font-size: clamp(24px, 5vw, 38px);
-      letter-spacing: -0.5px;
-      margin-bottom: 10px;
+      font-size: clamp(20px, 4vw, 32px);
+      margin-bottom: 8px;
     }
     header .meta {
+      font-size: 12px;
+      color: rgba(255,255,255,0.45);
+    }
+    header .meta span { color: rgba(255,255,255,0.75); font-weight: 600; }
+
+    /* ── Summary Link ── */
+    .summary-link-bar {
+      text-align: center;
+      padding: 12px 16px 0;
+    }
+    .summary-link-bar a {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      background: #1a1a1a;
+      color: #fff;
+      text-decoration: none;
+      padding: 8px 20px;
+      border-radius: 6px;
       font-size: 13px;
-      color: rgba(255,255,255,0.5);
-    }
-    header .meta span {
-      color: rgba(255,255,255,0.8);
       font-weight: 600;
+      transition: background 0.15s;
     }
+    .summary-link-bar a:hover { background: #333; }
 
-    /* ── Layout ── */
-    main {
-      max-width: 1100px;
-      margin: 36px auto 0;
-      padding: 0 16px;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-      gap: 24px;
-    }
-
-    /* ── Category Card ── */
-    .category {
-      background: var(--card-bg);
-      border-radius: var(--radius);
-      border: 1px solid var(--border);
-      overflow: hidden;
+    /* ── Tab Bar ── */
+    .tab-bar {
       display: flex;
-      flex-direction: column;
+      overflow-x: auto;
+      gap: 0;
+      padding: 20px 16px 0;
+      max-width: 900px;
+      margin: 0 auto;
+      scrollbar-width: none;
+    }
+    .tab-bar::-webkit-scrollbar { display: none; }
+
+    .tab-btn {
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      padding: 10px 18px;
+      border: 1px solid var(--border);
+      border-bottom: none;
+      border-radius: 8px 8px 0 0;
+      background: #e8e8e4;
+      color: #666;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s;
+      margin-right: 4px;
+      white-space: nowrap;
+    }
+    .tab-btn:hover { background: #ddd; color: #333; }
+    .tab-btn.active {
+      background: #fff;
+      color: #1a1a1a;
+      border-bottom-color: #fff;
+      position: relative;
+      z-index: 2;
+    }
+    .tab-btn .tab-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0;
     }
 
-    .cat-header {
-      padding: 18px 20px;
+    /* ── Tab Content ── */
+    .tab-content-wrapper {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 16px 0;
+    }
+    .tab-panel {
+      display: none;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 0 8px 8px 8px;
+      padding: 24px;
+    }
+    .tab-panel.active { display: block; }
+
+    /* ── Category Header inside panel ── */
+    .panel-header {
       display: flex;
       align-items: center;
       gap: 12px;
+      margin-bottom: 20px;
+      padding-bottom: 16px;
+      border-bottom: 2px solid var(--border);
     }
-    .cat-icon { font-size: 26px; }
-    .cat-title { font-size: 18px; font-weight: 700; color: #fff; }
-    .cat-sub   { font-size: 11px; color: rgba(255,255,255,0.65); margin-top: 2px; }
+    .panel-icon { font-size: 28px; }
+    .panel-title { font-size: 20px; font-weight: 700; color: var(--text); }
+    .panel-sub { font-size: 12px; color: var(--muted); margin-top: 2px; }
 
     /* ── AI Summary ── */
     .summary-box {
-      margin: 16px 16px 8px;
       background: #f8f8f6;
       border: 1px solid var(--border);
       border-radius: 8px;
-      padding: 14px 16px;
+      padding: 14px 18px;
+      margin-bottom: 20px;
     }
     .summary-label {
       font-size: 10px;
@@ -108,29 +168,21 @@
       text-transform: uppercase;
       color: var(--muted);
       margin-bottom: 7px;
-      display: flex;
-      align-items: center;
-      gap: 6px;
     }
     .summary-text {
-      font-size: 13px;
-      line-height: 1.65;
+      font-size: 14px;
+      line-height: 1.7;
       color: #333;
     }
 
     /* ── News Items ── */
-    .news-list {
-      padding: 8px 16px 16px;
-      flex: 1;
-    }
     .news-item {
       border-top: 1px solid var(--border);
-      padding: 12px 0;
+      padding: 13px 0;
     }
     .news-item:first-child { border-top: none; }
-
     .news-title {
-      font-size: 13px;
+      font-size: 14px;
       font-weight: 600;
       line-height: 1.4;
       color: var(--text);
@@ -139,50 +191,20 @@
       margin-bottom: 4px;
       transition: opacity 0.15s;
     }
-    .news-title:hover { opacity: 0.7; }
+    .news-title:hover { opacity: 0.65; }
+    .news-meta { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+    .news-source { font-size: 11px; color: var(--muted); font-weight: 500; }
+    .news-date { font-size: 11px; color: #bbb; }
 
-    .news-meta {
-      display: flex;
-      gap: 10px;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-    .news-source {
-      font-size: 11px;
-      color: var(--muted);
-      font-weight: 500;
-    }
-    .news-date {
-      font-size: 11px;
-      color: #bbb;
-    }
-
-    /* ── Empty / Error states ── */
-    .empty {
-      text-align: center;
-      padding: 30px;
-      color: var(--muted);
-      font-size: 13px;
-    }
+    .empty { text-align: center; padding: 40px; color: var(--muted); font-size: 13px; }
 
     footer {
       text-align: center;
-      margin-top: 40px;
+      margin-top: 28px;
       font-size: 12px;
       color: #bbb;
     }
     footer a { color: #999; }
-
-    /* ── Loading skeleton ── */
-    .skeleton {
-      background: linear-gradient(90deg, #eee 25%, #f5f5f5 50%, #eee 75%);
-      background-size: 200% 100%;
-      animation: shimmer 1.5s infinite;
-      border-radius: 4px;
-      height: 14px;
-      margin-bottom: 8px;
-    }
-    @keyframes shimmer { to { background-position: -200% 0; } }
   </style>
 </head>
 <body>
@@ -192,51 +214,45 @@
   <h1>Ihr täglicher Nachrichtenradar</h1>
   <p class="meta">Automatisch aktualisiert · Zuletzt: <span id="generated">wird geladen…</span></p>
 </header>
-<div style="text-align:center; margin: 20px auto 0; max-width:1100px; padding: 0 16px;">
-  <a href="summary.html" style="
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    background: #1a1a1a;
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 22px;
-    border-radius: 6px;
-    font-size: 13px;
-    font-weight: 600;
-    font-family: 'DM Sans', sans-serif;
-  ">
-    📄 Wöchentlicher Executive Summary
-  </a>
+
+<div class="summary-link-bar">
+  <a href="summary.html">📄 Wöchentlicher Executive Summary</a>
 </div>
 
-<main id="main">
-  <!-- Skeleton placeholders while loading -->
-  <div class="category" id="skel-1" style="opacity:0.4">
-    <div class="cat-header" style="background:#c8102e"><span class="cat-icon">🇦🇹</span><div><div class="cat-title">Österreich</div></div></div>
-    <div class="summary-box"><div class="skeleton"></div><div class="skeleton" style="width:80%"></div></div>
-    <div class="news-list"><div class="skeleton"></div><div class="skeleton" style="width:70%"></div><div class="skeleton"></div></div>
+<div class="tab-bar" id="tab-bar">
+  <!-- tabs injected by JS -->
+</div>
+
+<div class="tab-content-wrapper">
+  <div id="panels">
+    <!-- panels injected by JS -->
   </div>
-  <div class="category" id="skel-2" style="opacity:0.4">
-    <div class="cat-header" style="background:#003399"><span class="cat-icon">🇪🇺</span><div><div class="cat-title">Europa</div></div></div>
-    <div class="summary-box"><div class="skeleton"></div><div class="skeleton" style="width:80%"></div></div>
-    <div class="news-list"><div class="skeleton"></div><div class="skeleton" style="width:70%"></div><div class="skeleton"></div></div>
-  </div>
-  <div class="category" id="skel-3" style="opacity:0.4">
-    <div class="cat-header" style="background:#1a6b3c"><span class="cat-icon">🔬</span><div><div class="cat-title">Wissenschaft</div></div></div>
-    <div class="summary-box"><div class="skeleton"></div><div class="skeleton" style="width:80%"></div></div>
-    <div class="news-list"><div class="skeleton"></div><div class="skeleton" style="width:70%"></div><div class="skeleton"></div></div>
-  </div>
-</main>
+</div>
 
 <footer>
-  Powered by <a href="https://ai.google.dev" target="_blank">Google Gemini</a> &amp; GitHub Actions ·
-  <a href="https://github.com" target="_blank">Source on GitHub</a>
+  Powered by <a href="https://ai.google.dev" target="_blank">Google Gemini</a> &amp; GitHub Actions
 </footer>
 
 <script>
-  const CAT_ORDER = ["austria", "europe", "science"];
-  const CAT_SUBS  = { austria: "Lokale & nationale Meldungen", europe: "EU & europäische Politik", science: "Forschung & Technik" };
+  const CAT_ORDER = ["steiermark", "austria", "dach", "europe", "science"];
+  const CAT_SUBS = {
+    steiermark: "Lokale Meldungen Steiermark & Graz",
+    austria:    "Nationale Meldungen Österreich",
+    dach:       "Deutschland, Österreich, Schweiz",
+    europe:     "EU & europäische Politik",
+    science:    "Forschung & Technik",
+  };
+
+  function escHtml(str) {
+    return String(str)
+      .replace(/&/g,"&amp;").replace(/</g,"&lt;")
+      .replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+  }
+
+  function activateTab(catId) {
+    document.querySelectorAll(".tab-btn").forEach(b => b.classList.toggle("active", b.dataset.cat === catId));
+    document.querySelectorAll(".tab-panel").forEach(p => p.classList.toggle("active", p.dataset.cat === catId));
+  }
 
   async function load() {
     try {
@@ -246,44 +262,54 @@
 
       document.getElementById("generated").textContent = data.generated || "unbekannt";
 
-      const main = document.getElementById("main");
-      main.innerHTML = "";
+      const tabBar = document.getElementById("tab-bar");
+      const panels = document.getElementById("panels");
+      tabBar.innerHTML = "";
+      panels.innerHTML = "";
+
+      let firstCat = null;
 
       for (const catId of CAT_ORDER) {
         const cat = data.categories[catId];
         if (!cat) continue;
+        if (!firstCat) firstCat = catId;
 
-        const card = document.createElement("div");
-        card.className = "category";
+        // Tab button
+        const btn = document.createElement("button");
+        btn.className = "tab-btn";
+        btn.dataset.cat = catId;
+        btn.innerHTML = `<span class="tab-dot" style="background:${escHtml(cat.color)}"></span>${escHtml(cat.icon)} ${escHtml(cat.label)}`;
+        btn.addEventListener("click", () => activateTab(catId));
+        tabBar.appendChild(btn);
 
-        // Header
+        // Panel
+        const panel = document.createElement("div");
+        panel.className = "tab-panel";
+        panel.dataset.cat = catId;
+
+        // Panel header
         const header = document.createElement("div");
-        header.className = "cat-header";
-        header.style.background = cat.color;
+        header.className = "panel-header";
         header.innerHTML = `
-          <span class="cat-icon">${cat.icon}</span>
+          <span class="panel-icon">${escHtml(cat.icon)}</span>
           <div>
-            <div class="cat-title">${cat.label}</div>
-            <div class="cat-sub">${CAT_SUBS[catId] || ""}</div>
+            <div class="panel-title" style="color:${escHtml(cat.color)}">${escHtml(cat.label)}</div>
+            <div class="panel-sub">${escHtml(CAT_SUBS[catId] || "")}</div>
           </div>`;
-        card.appendChild(header);
+        panel.appendChild(header);
 
         // Summary
         if (cat.summary) {
           const box = document.createElement("div");
           box.className = "summary-box";
-          box.innerHTML = `
-            <div class="summary-label">✦ KI-Zusammenfassung</div>
-            <div class="summary-text">${escHtml(cat.summary)}</div>`;
-          card.appendChild(box);
+          box.innerHTML = `<div class="summary-label">✦ KI-Zusammenfassung</div><div class="summary-text">${escHtml(cat.summary)}</div>`;
+          panel.appendChild(box);
         }
 
-        // News items
+        // News list
         const list = document.createElement("div");
-        list.className = "news-list";
-
         if (!cat.items || cat.items.length === 0) {
-          list.innerHTML = `<div class="empty">Keine Meldungen gefunden.</div>`;
+          list.innerHTML = `<div class="empty">Keine Meldungen für diese Woche gefunden.</div>`;
         } else {
           cat.items.forEach(item => {
             const el = document.createElement("div");
@@ -299,23 +325,16 @@
             list.appendChild(el);
           });
         }
-        card.appendChild(list);
-        main.appendChild(card);
+        panel.appendChild(list);
+        panels.appendChild(panel);
       }
 
-    } catch (err) {
-      document.getElementById("main").innerHTML =
-        `<div class="empty" style="grid-column:1/-1;padding:60px">
-          ⚠️ Daten konnten nicht geladen werden.<br>
-          <small style="color:#bbb;margin-top:8px;display:block">${err.message}</small>
-        </div>`;
-    }
-  }
+      if (firstCat) activateTab(firstCat);
 
-  function escHtml(str) {
-    return String(str)
-      .replace(/&/g,"&amp;").replace(/</g,"&lt;")
-      .replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+    } catch (err) {
+      document.getElementById("panels").innerHTML =
+        `<div class="empty" style="padding:60px">⚠️ Daten konnten nicht geladen werden.<br><small style="color:#bbb;margin-top:8px;display:block">${err.message}</small></div>`;
+    }
   }
 
   load();
