@@ -8,7 +8,7 @@ import json
 import os
 import re
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from urllib.request import urlopen, Request
 import xml.etree.ElementTree as ET
 
@@ -22,7 +22,6 @@ GEMINI_URL = (
 
 GENERATE_SUMMARY = os.environ.get("WEEKLY_SUMMARY", "false").lower() == "true"
 
-from datetime import datetime, timedelta
 
 # Berechnet das Datum von vor 7 Tagen im Format YYYY-MM-DD
 date_filter = (datetime.now() - timedelta(days=7)).strftime('%Y-%m-%d')
