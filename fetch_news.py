@@ -20,7 +20,8 @@ GEMINI_URL = (
     "gemini-2.5-flash:generateContent?key=" + GEMINI_API_KEY
 )
 
-GENERATE_SUMMARY = os.environ.get("WEEKLY_SUMMARY", "false").lower() == "true"
+# GENERATE_SUMMARY = os.environ.get("WEEKLY_SUMMARY", "false").lower() == "true"
+GENERATE_SUMMARY = True
 
 MAX_ITEMS_FROM_FEED   = 100   # max per feed (Google RSS hard limit is 100)
 MAX_AGE_DAYS          = 7     # filter out articles older than this
