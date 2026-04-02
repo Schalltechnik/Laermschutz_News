@@ -2,20 +2,11 @@ name: Daily News Update
 
 on:
   schedule:
-    # Daily at 06:00 UTC (07:00 CET / 08:00 CEST)
-    - cron: "0 6 * * *"
-    # Weekly executive summary every Friday at 06:00 UTC
+    # Daily Mon–Thu + Sat–Sun at 06:00 UTC (without weekly summary)
+    - cron: "0 6 * * 0,1,2,3,4,6"
+    # Friday at 06:00 UTC – with weekly summary
     - cron: "0 6 * * 5"
   workflow_dispatch:
-    inputs:
-      weekly_summary:
-        description: 'Weekly Executive Summary erstellen?'
-        required: false
-        default: 'false'
-        type: choice
-        options:
-          - 'false'
-          - 'true'
 
 jobs:
   fetch-and-publish:
@@ -34,26 +25,18 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Determine if weekly summary should run
-        id: check_summary
-        run: |
-          DAY=$(date -u +%u)  # 1=Mon ... 5=Fri ... 7=Sun
-          MANUAL="${{ github.event.inputs.weekly_summary }}"
-          if [ "$DAY" = "5" ] || [ "$MANUAL" = "true" ]; then
-            echo "WEEKLY_SUMMARY=true" >> $GITHUB_ENV
-          else
-            echo "WEEKLY_SUMMARY=false" >> $GITHUB_ENV
-          fi
-
       - name: Fetch news and generate summaries
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          # On Fridays (day 5) set WEEKLY_SUMMARY=true automatically
+          WEEKLY_SUMMARY: ${{ (github.event.schedule == '0 6 * * 5') && 'true' || 'false' }}
         run: python fetch_news.py
 
       - name: Commit updated files
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/data.json docs/summary.html 2>/dev/null || git add docs/data.json
+          git add docs/data.json
+          git add docs/summary.html 2>/dev/null || true
           git diff --cached --quiet || git commit -m "chore: daily news update $(date -u +'%Y-%m-%d')"
           git push
