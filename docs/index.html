@@ -8,58 +8,208 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    :root { --bg: #f4f4f0; --text: #1a1a1a; --muted: #777; --border: #e2e2e2; }
-    body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; padding: 0 0 60px; }
 
-    header { background: #1a1a1a; color: #fff; padding: 28px 24px 24px; text-align: center; }
-    header .badge { display: inline-flex; align-items: center; gap: 8px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); border-radius: 50px; padding: 5px 16px; font-size: 11px; font-weight: 600; letter-spacing: 1.2px; text-transform: uppercase; margin-bottom: 12px; }
-    header h1 { font-family: 'DM Serif Display', serif; font-weight: 400; font-size: clamp(20px, 4vw, 32px); margin-bottom: 8px; }
-    header .meta { font-size: 12px; color: rgba(255,255,255,0.45); }
-    header .meta span { color: rgba(255,255,255,0.75); font-weight: 600; }
+    :root {
+      --green:       #1a5c38;   /* Land Steiermark Grün */
+      --green-dark:  #133f28;
+      --green-light: #e8f2ec;
+      --bg:          #f0f4f0;
+      --text:        #1a1a1a;
+      --muted:       #666;
+      --border:      #d4e4d4;
+    }
 
-    .summary-link-bar { text-align: center; padding: 14px 16px 0; }
-    .summary-link-bar a { display: inline-flex; align-items: center; gap: 7px; background: #1a1a1a; color: #fff; text-decoration: none; padding: 8px 20px; border-radius: 6px; font-size: 13px; font-weight: 600; transition: background 0.15s; }
-    .summary-link-bar a:hover { background: #333; }
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 0 0 60px;
+    }
 
-    .tab-bar { display: flex; overflow-x: auto; padding: 20px 16px 0; max-width: 900px; margin: 0 auto; scrollbar-width: none; }
+    /* ── Header – Steiermark-Grün ── */
+    header {
+      background: var(--green);
+      color: #fff;
+      padding: 0;
+    }
+    .header-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 24px;
+      background: var(--green-dark);
+      font-size: 11px;
+      color: rgba(255,255,255,0.6);
+    }
+    .header-top .brand { font-weight: 700; color: #fff; letter-spacing: 0.5px; }
+    .header-main {
+      padding: 24px 24px 20px;
+      text-align: center;
+    }
+    .header-main h1 {
+      font-family: 'DM Serif Display', serif;
+      font-weight: 400;
+      font-size: clamp(20px, 4vw, 30px);
+      margin-bottom: 6px;
+      letter-spacing: -0.3px;
+    }
+    .header-main .meta {
+      font-size: 12px;
+      color: rgba(255,255,255,0.55);
+    }
+    .header-main .meta span { color: rgba(255,255,255,0.85); font-weight: 600; }
+
+    /* ── Summary Link ── */
+    .summary-link-bar {
+      text-align: center;
+      padding: 14px 16px 0;
+    }
+    .summary-link-bar a {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      background: var(--green);
+      color: #fff;
+      text-decoration: none;
+      padding: 8px 20px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      border: 1px solid var(--green-dark);
+      transition: background 0.15s;
+    }
+    .summary-link-bar a:hover { background: var(--green-dark); }
+
+    /* ── Tab Bar ── */
+    .tab-bar {
+      display: flex;
+      overflow-x: auto;
+      padding: 20px 16px 0;
+      max-width: 960px;
+      margin: 0 auto;
+      scrollbar-width: none;
+      gap: 4px;
+    }
     .tab-bar::-webkit-scrollbar { display: none; }
-    .tab-btn { flex-shrink: 0; display: flex; align-items: center; gap: 7px; padding: 10px 18px; border: 1px solid var(--border); border-bottom: none; border-radius: 8px 8px 0 0; background: #e8e8e4; color: #666; font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 600; cursor: pointer; transition: background 0.15s; margin-right: 4px; white-space: nowrap; }
-    .tab-btn:hover { background: #ddd; color: #333; }
-    .tab-btn.active { background: #fff; color: #1a1a1a; border-bottom-color: #fff; position: relative; z-index: 2; }
-    .tab-btn .dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
 
-    .tab-content-wrapper { max-width: 900px; margin: 0 auto; padding: 0 16px; }
-    .tab-panel { display: none; background: #fff; border: 1px solid var(--border); border-radius: 0 8px 8px 8px; padding: 24px; }
+    .tab-btn {
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      padding: 9px 16px;
+      border: 1px solid var(--border);
+      border-bottom: none;
+      border-radius: 8px 8px 0 0;
+      background: #dce8dc;
+      color: #3a5a3a;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s;
+      white-space: nowrap;
+    }
+    .tab-btn:hover { background: #cddacd; }
+    .tab-btn.active {
+      background: #fff;
+      color: var(--green);
+      border-bottom-color: #fff;
+      position: relative;
+      z-index: 2;
+    }
+    .tab-btn .dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    /* ── Panel ── */
+    .tab-content-wrapper {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 16px;
+    }
+    .tab-panel {
+      display: none;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 0 8px 8px 8px;
+      padding: 24px;
+    }
     .tab-panel.active { display: block; }
 
-    .panel-header { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; padding-bottom: 16px; border-bottom: 2px solid var(--border); }
-    .panel-icon { font-size: 28px; }
-    .panel-title { font-size: 20px; font-weight: 700; }
+    .panel-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 20px;
+      padding-bottom: 14px;
+      border-bottom: 2px solid var(--border);
+    }
+    .panel-icon { font-size: 26px; }
+    .panel-title { font-size: 19px; font-weight: 700; }
     .panel-sub { font-size: 12px; color: var(--muted); margin-top: 2px; }
 
-    .summary-box { background: #f8f8f6; border: 1px solid var(--border); border-radius: 8px; padding: 14px 18px; margin-bottom: 20px; }
-    .summary-label { font-size: 10px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--muted); margin-bottom: 7px; }
-    .summary-text { font-size: 14px; line-height: 1.7; color: #333; }
+    /* ── Summary Box ── */
+    .summary-box {
+      background: var(--green-light);
+      border: 1px solid #b8d4b8;
+      border-left: 3px solid var(--green);
+      border-radius: 6px;
+      padding: 14px 18px;
+      margin-bottom: 20px;
+    }
+    .summary-label {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: var(--green);
+      margin-bottom: 7px;
+    }
+    .summary-text { font-size: 14px; line-height: 1.7; color: #2a2a2a; }
 
-    .news-item { border-top: 1px solid var(--border); padding: 13px 0; }
+    /* ── News Items ── */
+    .news-item { border-top: 1px solid var(--border); padding: 12px 0; }
     .news-item:first-child { border-top: none; }
-    .news-title { font-size: 14px; font-weight: 600; line-height: 1.4; color: var(--text); text-decoration: none; display: block; margin-bottom: 4px; transition: opacity 0.15s; }
-    .news-title:hover { opacity: 0.65; }
+    .news-title {
+      font-size: 14px; font-weight: 600; line-height: 1.4;
+      color: var(--text); text-decoration: none;
+      display: block; margin-bottom: 4px;
+      transition: color 0.15s;
+    }
+    .news-title:hover { color: var(--green); }
     .news-meta { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
     .news-source { font-size: 11px; color: var(--muted); font-weight: 500; }
-    .news-date { font-size: 11px; color: #bbb; }
+    .news-date { font-size: 11px; color: #aaa; }
 
     .empty { text-align: center; padding: 40px; color: var(--muted); font-size: 13px; }
-    footer { text-align: center; margin-top: 28px; font-size: 12px; color: #bbb; }
-    footer a { color: #999; }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      margin-top: 28px;
+      font-size: 12px;
+      color: #888;
+      padding: 0 16px;
+    }
+    footer a { color: var(--green); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
 
 <header>
-  <div class="badge">🔊 Lärmschutz News Monitor</div>
-  <h1>Ihr täglicher Nachrichtenradar</h1>
-  <p class="meta">Automatisch aktualisiert · Zuletzt: <span id="generated">wird geladen…</span></p>
+  <div class="header-top">
+    <span class="brand">🔊 Lärmschutz News Monitor</span>
+    <span>Nur Meldungen der letzten 7 Tage</span>
+  </div>
+  <div class="header-main">
+    <h1>Ihr täglicher Nachrichtenradar</h1>
+    <p class="meta">Automatisch aktualisiert · Zuletzt: <span id="generated">wird geladen…</span></p>
+  </div>
 </header>
 
 <div class="summary-link-bar">
@@ -70,8 +220,7 @@
 <div class="tab-content-wrapper"><div id="panels"></div></div>
 
 <footer>
-  Powered by <a href="https://ai.google.dev" target="_blank">Google Gemini</a> &amp; GitHub Actions ·
-  Nur Meldungen der letzten 7 Tage
+  <p>© Florian Lackner · Powered by <a href="https://ai.google.dev" target="_blank">Google Gemini AI</a> &amp; <a href="https://github.com" target="_blank">GitHub Actions</a></p>
 </footer>
 
 <script>
@@ -88,37 +237,25 @@
     return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
   }
 
-  // Parse "DD. Month YYYY, HH:MM UTC" → local Graz time string
   function formatGrazTime(utcStr) {
     if (!utcStr) return "–";
     try {
-      // The string looks like: "02. April 2026, 06:00 UTC"
-      // Replace German month names with English for Date parsing
       const DE_MONTHS = {
         "Januar":"January","Februar":"February","März":"March","April":"April",
         "Mai":"May","Juni":"June","Juli":"July","August":"August",
         "September":"September","Oktober":"October","November":"November","Dezember":"December"
       };
       let s = utcStr.replace(" UTC","").trim();
-      for (const [de, en] of Object.entries(DE_MONTHS)) {
-        s = s.replace(de, en);
-      }
-      // Now s looks like: "02. April 2026, 06:00"
-      // Reformat to parseable: "02 April 2026 06:00 UTC"
+      for (const [de, en] of Object.entries(DE_MONTHS)) s = s.replace(de, en);
       s = s.replace(/\./g,"").replace(",","") + " UTC";
       const dt = new Date(s);
       if (isNaN(dt)) return utcStr;
       return dt.toLocaleString("de-AT", {
         timeZone: "Europe/Vienna",
-        day:    "2-digit",
-        month:  "long",
-        year:   "numeric",
-        hour:   "2-digit",
-        minute: "2-digit",
+        day: "2-digit", month: "long", year: "numeric",
+        hour: "2-digit", minute: "2-digit",
       }) + " Uhr (Graz)";
-    } catch(e) {
-      return utcStr;
-    }
+    } catch(e) { return utcStr; }
   }
 
   function activateTab(id) {
@@ -144,7 +281,7 @@
         if (!cat) continue;
         if (!first) first = catId;
 
-        // Tab button
+        // Tab
         const btn = document.createElement("button");
         btn.className = "tab-btn";
         btn.dataset.cat = catId;
@@ -156,7 +293,6 @@
         const panel = document.createElement("div");
         panel.className = "tab-panel";
         panel.dataset.cat = catId;
-
         panel.innerHTML = `
           <div class="panel-header">
             <span class="panel-icon">${escHtml(cat.icon)}</span>
@@ -192,7 +328,7 @@
       if (first) activateTab(first);
     } catch(err) {
       document.getElementById("panels").innerHTML =
-        `<div class="empty" style="padding:60px">⚠️ Fehler beim Laden.<br><small style="color:#bbb;margin-top:8px;display:block">${err.message}</small></div>`;
+        `<div class="empty" style="padding:60px">⚠️ Fehler beim Laden.<br><small style="color:#aaa;margin-top:8px;display:block">${err.message}</small></div>`;
     }
   }
 
