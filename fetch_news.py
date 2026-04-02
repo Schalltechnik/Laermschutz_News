@@ -29,10 +29,10 @@ MAX_ITEMS_FROM_FEED     = 100   # Google RSS hard limit per feed
 MAX_AGE_DAYS            = 7
 MAX_ITEMS_PER_CATEGORY  = 15
 MAX_TITLES_FOR_SUMMARY  = 15
-GEMINI_PAUSE_SECONDS    = 30    # pause between category Gemini calls
+GEMINI_PAUSE_SECONDS    = 120    # pause between category Gemini calls
 GEMINI_RETRY_ATTEMPTS   = 10   # max retries on 429
-GEMINI_RETRY_WAIT       = 30   # seconds between retries
-SUMMARY_PRE_PAUSE       = 30   # extra pause before executive summary call
+GEMINI_RETRY_WAIT       = 120   # seconds between retries
+SUMMARY_PRE_PAUSE       = 180   # extra pause before executive summary call
 
 
 def gnews(query: str, lang: str = "de", country: str = "AT") -> str:
@@ -71,7 +71,7 @@ CATEGORIES = {
         "summary_prompt": (
             "Du bist Experte für Lärmschutz in der Steiermark und Graz. "
             "Fasse die folgenden Nachrichtentitel aus der Steiermark zum Thema Lärm und Lärmschutz "
-            "in 3–5 prägnanten deutschen Sätzen zusammen. "
+            "in 3 prägnanten deutschen Sätzen zusammen. "
             "Hebe die wichtigsten lokalen Entwicklungen hervor. "
             "Antworte NUR mit dem Fließtext, keine Aufzählungen, keine Überschriften."
         ),
@@ -100,7 +100,7 @@ CATEGORIES = {
         "summary_prompt": (
             "Du bist Experte für Lärmschutz in Österreich. "
             "Fasse die folgenden Nachrichtentitel aus Österreich zum Thema Lärmschutz "
-            "in 3–5 prägnanten deutschen Sätzen zusammen. "
+            "in 3 prägnanten deutschen Sätzen zusammen. "
             "Hebe die wichtigsten Entwicklungen hervor. "
             "Antworte NUR mit dem Fließtext, keine Aufzählungen, keine Überschriften."
         ),
@@ -127,7 +127,7 @@ CATEGORIES = {
         "summary_prompt": (
             "Du bist Experte für Umgebungslärm in der DACH-Region (Deutschland, Österreich, Schweiz). "
             "Fasse die folgenden Nachrichtentitel zu den Themen Verkehrslärm, Fluglärm, Schienenlärm, "
-            "Industrielärm und weiteren Lärmthemen in 3–5 prägnanten deutschen Sätzen zusammen. "
+            "Industrielärm und weiteren Lärmthemen in 3 prägnanten deutschen Sätzen zusammen. "
             "Hebe die wichtigsten regionalen Entwicklungen hervor. "
             "Antworte NUR mit dem Fließtext, keine Aufzählungen, keine Überschriften."
         ),
@@ -148,7 +148,7 @@ CATEGORIES = {
         "summary_prompt": (
             "You are an expert on European noise control policy. "
             "Summarize the following European news headlines about noise control "
-            "in 3–5 concise sentences in English. "
+            "in 3 concise sentences in English. "
             "Focus on significant EU-level or cross-border developments. "
             "Reply ONLY with flowing prose, no bullet points, no headings."
         ),
@@ -171,7 +171,7 @@ CATEGORIES = {
         "summary_prompt": (
             "You are an acoustics researcher. "
             "Summarize the following scientific news headlines about noise control research "
-            "in 3–5 concise sentences in English. "
+            "in 3 concise sentences in English. "
             "Focus on practical implications for noise control engineers. "
             "Reply ONLY with flowing prose, no bullet points, no headings."
         ),
@@ -383,7 +383,7 @@ def generate_weekly_summary(categories_data: dict) -> None:
       <span class="tag" style="background:#003399">🇪🇺 Europa</span>
       <span class="tag" style="background:#1a6b3c">🔬 Wissenschaft</span>
     </div>
-    <div class="footer">© Florian Lackner · Powered by Google Gemini AI & GitHub Actions</div>
+    <div class="footer">© Florian Lackner · Created using Claude.ai, powered by Google Gemini AI & GitHub Actions</div>
   </div>
 </body>
 </html>"""
