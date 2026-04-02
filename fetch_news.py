@@ -335,7 +335,7 @@ def generate_weekly_summary(categories_data: dict) -> None:
     )
 
     print("  Calling Gemini for executive summary…")
-    exec_text = call_gemini(exec_prompt, max_tokens=2048)
+    exec_text = call_gemini(exec_prompt, max_tokens=1024)
 
     paragraphs = [p.strip() for p in exec_text.split("\n") if p.strip()]
     html_paragraphs = "\n".join(f"    <p>{p}</p>" for p in paragraphs)
