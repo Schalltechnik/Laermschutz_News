@@ -1,31 +1,42 @@
 {
-  "generated": "02. April 2026, 12:25 UTC",
+  "generated": "02. April 2026, 17:18 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Die Inbetriebnahme der Koralmbahn rückt den Lärmschutz in der Steiermark verstärkt in den Fokus. Aktuell beklagen Anrainer in Groß St. Florian eine erhöhte Lärmbelastung durch die neue Bahnstrecke. Diese Entwicklung unterstreicht die anhaltende Herausforderung, bei großen Infrastrukturprojekten die Lärmschutzmaßnahmen für die betroffenen Gemeinden umfassend zu gewährleisten.",
-      "items": [
-        {
-          "title": "Koralmbahn: Anrainer der neuen Bahnstrecke in Groß St. Florian klagen über Lärm - Kleine Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNEttWHI1b2ZIaWRRZ3hQTm84VXRGTTVxZWlqNjdnLXc0YnhudHYyalh3WnRUUFdOcWJBQVpHZ19CZXZaN05wbnk0M290LWtfZWh1Tmt0NTZ2V3dVa00zSjB5di1obVdiRGRlbEF6amV0TkNrNzVBVGgyS25iOEZVeDhZSUo5Z3lSMlpTMldZUjF1Z25IU2g3R19oVEd1dWdTMDEzeUxZaDV0OHhEeGhDX1ExTl9KcnpRd0Rwa1ROcVlqd2hJTTJYN3FpVQ?oc=5",
-          "source": "Kleine Zeitung",
-          "date": "26. Mar 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen der letzten 7 Tage gefunden.",
+      "items": []
     },
     "austria": {
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Zusammenfassung konnte nicht erstellt werden.",
+      "summary": "Aktuelle Berichte zeigen, dass Österreich zu den lautesten Ländern und Lärm-Hotspots Europas zählt, was erhebliche gesundheitliche Bedenken aufwirft und auch medial thematisiert wird. Eine bemerkenswerte Entwicklung ist jedoch die beschlossene Sonderregelung, die die Nachtruhe nach 22 Uhr für diesen Sommer aussetzt. Dies steht im Kontrast zur allgemeinen Erkenntnis über die hohe Lärmbelastung und deren gesundheitliche Folgen und stellt eine signifikante Abweichung von etablierten Lärmschutzmaßnahmen dar.",
       "items": [
         {
           "title": "Österreich zählt zu den „lautesten“ Ländern Europas - DiePresse.com",
           "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORUFkWktzTWZhVFZsY1RDWWtCcHZBN2NEYnAyVnBtV0k0UDI5b1RJcTlDRFBUdmNiM09wbld2LUVzWDFnWUZrNWxTM2sxb2g2MmNjeVNsSkJUYnlxeVdEcDVXU2ZUTWNiUUZYLTQ1N2dnZ1pUNkVOZnkwcjRxbllibHBka1N0VkotMFY1Mlc2STk?oc=5",
           "source": "DiePresse.com",
           "date": "30. Mar 2026"
+        },
+        {
+          "title": "So ungesund ist das – Österreich zählt zu Lärm-Hotspots Europas - Heute",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNY1hxOUVGS0w2a0E5WHJtaWFiSHlGcW9jSVRLQVJwRzNrQnVlYi1wM2hlQUd1b3lNYmR5bVlJbXVpcDNOaUNILURlbjIxODBoNEdDN1RTWkxheU5EalFzN0JSUk5YS096dzVNUzU3UWJEZHZrMUFWQmZaak1VTF9nQ0tsMA?oc=5",
+          "source": "Heute",
+          "date": "2. Apr 2026"
+        },
+        {
+          "title": "Dok 1 (Doku) - tvheute.at",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1uWkd0b0otZ0xyUkJQSFE2dkxfUzhlellZZkRaVUxvV05vWXlZLTk0bkFFb0h5Q01RYjlORW1QWEpsMkZhWW16N21OekxlYU8xMloxUkRnbW9Xc2ZGbzk2cEx3cUJqLXExN3FVTmF5Smo?oc=5",
+          "source": "tvheute.at",
+          "date": "2. Apr 2026"
+        },
+        {
+          "title": "Sonderregelung beschlossen: Nachtruhe nach 22 Uhr wird diesen Sommer ausgesetzt - Merkur",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORUZRLUp6VGNwRXJUSlZPTHZFVGJpb3UyUlhDOWdWSzhLaWRIdDd1NEtPUW5sN2Y2Zk91cTNsUWVCb1NTdHJXUk91VHBra1J4ak1tODBpZjNwNGVweXE0bWswZ0ttNXNHY2FKemtpODhFUlVhOWpmWVpnNVZCZGxjVWd5OEw2ZldHdlFNRmxFU0lfNDQ4bzItV00wVjVGUjJuR09ZbnR1bw?oc=5",
+          "source": "Merkur",
+          "date": "31. Mar 2026"
         }
       ]
     },
@@ -33,7 +44,7 @@
       "label": "DACH – Umgebungslärm",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Zusammenfassung konnte nicht erstellt werden.",
+      "summary": "Aktuelle Entwicklungen in Deutschland deuten auf bevorstehende Änderungen im Lärmschutzrecht hin. Die Bundesregierung plant, im Sommer neue Lärmschutz-Regeln zu erlauben, die potenziell die bisherige Nachtruhe beeinträchtigen könnten. Dies, wie der Berliner Kurier berichtet, signalisiert eine mögliche Lockerung bestehender Schutzmaßnahmen, deren genaue Auswirkungen auf die Bevölkerung und die Umwelt noch zu beobachten sind.",
       "items": [
         {
           "title": "Nachtruhe fällt weg: Bundesregierung erlaubt im Sommer neue Lärmschutz-Regeln - Berliner Kurier",
@@ -47,19 +58,19 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Europe is witnessing new developments in noise control policy, with a notable crackdown on noisy rolling suitcases across the continent. This initiative highlights a growing focus on mitigating everyday noise sources that impact urban environments and quality of life. It signals a trend towards stricter regulations on various noise-emitting products and activities, reflecting a broader European effort to enhance acoustic comfort and reduce noise pollution.",
+      "summary": "Recent reports indicate a burgeoning focus on specific sources of noise pollution across Europe, particularly concerning urban environments. A notable development is a new crackdown targeting noisy rolling suitcases, suggesting a concerted, potentially cross-border, effort to mitigate disruptive sounds in public spaces. This initiative highlights a growing trend in European noise control policy to address everyday nuisances through regulatory or enforcement actions.",
       "items": [
+        {
+          "title": "Europe Microphones Market Size, Share & Trends, 2034 - marketdataforecast.com",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPV3Z5SDRwWG5vQlBtU2VFY0NIYzFtLS03RVprYWFsTWt5Z3BwR2JZS25kNHBYWkVuQlJMbXo4U2ptanFBMi1pb1FORTFuNVdnd0lUUDdDZHBJdVFYMDRWMGtsR0d5NzA1RmV5SE5kbWt2cVFZc2dHUHRyOHBIU0U1RA?oc=5",
+          "source": "marketdataforecast.com",
+          "date": "2. Apr 2026"
+        },
         {
           "title": "Europe’s New Crackdown On Noisy Rolling Suitcases - thetraveler.org",
           "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRkxEOGZ0dVRQQ1JONFBCcEsxQjdWall2dUk2aHJTdW9KZ05ILTlfX0Jfc0NJZnZaMzVNVlFpdEkwSk4xeW9jRExDX1dmZ3U5ckpCNnpBSTk2NWtlNlA5YnMwdmJLNVA4b2NJOHg0N2Z5OGR5MGd0cnlMbWVKTHkyVFJmdw?oc=5",
           "source": "thetraveler.org",
           "date": "29. Mar 2026"
-        },
-        {
-          "title": "Europe Microphones Market Size, Share & Trends, 2034 - Market Data Forecast",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPV3Z5SDRwWG5vQlBtU2VFY0NIYzFtLS03RVprYWFsTWt5Z3BwR2JZS25kNHBYWkVuQlJMbXo4U2ptanFBMi1pb1FORTFuNVdnd0lUUDdDZHBJdVFYMDRWMGtsR0d5NzA1RmV5SE5kbWt2cVFZc2dHUHRyOHBIU0U1RA?oc=5",
-          "source": "Market Data Forecast",
-          "date": "2. Apr 2026"
         }
       ]
     },
@@ -67,7 +78,7 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Zusammenfassung konnte nicht erstellt werden.",
+      "summary": "Urban soundscape research increasingly emphasizes the link between acoustic environments and mental well-being, urging noise control engineers to adopt a holistic approach beyond simple decibel reduction, focusing on soundscape design to foster positive experiences. This means prioritizing the creation of desirable acoustic environments, potentially through the introduction of beneficial sounds or strategic masking, rather than solely eliminating unwanted noise. Concurrently, persistent public concerns, such as those surrounding \"wind turbine syndrome,\" underscore the critical need for engineers to engage in thorough acoustic assessments, transparent communication, and proactive mitigation strategies, even for noise sources where scientific consensus on direct health impacts may be debated, to maintain public trust and project viability. These developments highlight a shift towards more nuanced, human-centric noise control solutions that integrate both objective acoustic metrics and subjective human perception.",
       "items": [
         {
           "title": "The Soundscape of Cities Matters: Study Links Urban Acoustic Environments to Mental Well-Being - elciudadano.com",
@@ -76,9 +87,9 @@
           "date": "1. Apr 2026"
         },
         {
-          "title": "“Scientific dead end:” The new push to get wind turbine syndrome back on the radar - reneweconomy.com.au",
+          "title": "“Scientific dead end:” The new push to get wind turbine syndrome back on the radar - Renew Economy",
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaGhhdmhtT3NoMk9hWnM1Zi1WUEQ2MGtOUEtHNkNfVFZPYUhDVnVzWFMwTTdMdUR0ZFdIdlBuVHJZVVgwVnFxTUdoMi14S0RzaHVIUE1aNWt0TTNKbWhvbVo4cDVBQVNhaWpFZFJ0MHVBRlRPY1N1QnNNSmVKZVdjV2RHV3NQVm5ZNGpTMW1HaVE0YnNEaTMyT1dxbzdhNzZWZ0xMeXF5akl5WGRRWDc5LVJR0gGyAUFVX3lxTFBoaGF2aG1Pc2gyT2FaczVmLVZQRDYwa05QS0c2Q19UVk9hSENWdXNYUzBNN0x1RHRkV0h2UG5UcllVWDBWcXFNR2gyLXhLRHNodUhQTVo1a3RNM0ptaG9tWjhwNUFBU2FpakVkUnQwdUFGVE9jU3VCc01KZUplV2NXZEdXc1BWblk0alMxbUdpUTRic0RpMzJPV3FvN2E3NlZnTEx5cXlqSXlYZFFYNzktUlE?oc=5",
-          "source": "reneweconomy.com.au",
+          "source": "Renew Economy",
           "date": "2. Apr 2026"
         }
       ]
