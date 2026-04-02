@@ -1,5 +1,5 @@
 {
-  "generated": "02. April 2026, 18:16 UTC",
+  "generated": "02. April 2026, 19:16 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -12,19 +12,19 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Zusammenfassung konnte nicht erstellt werden (Rate Limit).",
+      "summary": "Aktuelle Nachrichten zeigen, dass Österreich zu den Lärm-Hotspots und lautesten Ländern Europas zählt, was erhebliche Gesundheitsrisiken mit sich bringt und zunehmend in der Öffentlichkeit thematisiert wird. Trotz dieser weitreichenden Lärmproblematik und der öffentlichen Aufmerksamkeit, wie sie eine Dokumentation nahelegt, wurde eine bemerkenswerte Sonderregelung beschlossen. Diese sieht vor, die Nachtruhe nach 22 Uhr für diesen Sommer auszusetzen, was eine konträre Entwicklung zur allgemeinen Erkenntnis der hohen Lärmbelastung darstellt.",
       "items": [
-        {
-          "title": "Österreich zählt zu den „lautesten“ Ländern Europas - DiePresse.com",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORUFkWktzTWZhVFZsY1RDWWtCcHZBN2NEYnAyVnBtV0k0UDI5b1RJcTlDRFBUdmNiM09wbld2LUVzWDFnWUZrNWxTM2sxb2g2MmNjeVNsSkJUYnlxeVdEcDVXU2ZUTWNiUUZYLTQ1N2dnZ1pUNkVOZnkwcjRxbllibHBka1N0VkotMFY1Mlc2STk?oc=5",
-          "source": "DiePresse.com",
-          "date": "30. Mar 2026"
-        },
         {
           "title": "So ungesund ist das – Österreich zählt zu Lärm-Hotspots Europas - Heute",
           "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNY1hxOUVGS0w2a0E5WHJtaWFiSHlGcW9jSVRLQVJwRzNrQnVlYi1wM2hlQUd1b3lNYmR5bVlJbXVpcDNOaUNILURlbjIxODBoNEdDN1RTWkxheU5EalFzN0JSUk5YS096dzVNUzU3UWJEZHZrMUFWQmZaak1VTF9nQ0tsMA?oc=5",
           "source": "Heute",
           "date": "2. Apr 2026"
+        },
+        {
+          "title": "Österreich zählt zu den „lautesten“ Ländern Europas - DiePresse.com",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORUFkWktzTWZhVFZsY1RDWWtCcHZBN2NEYnAyVnBtV0k0UDI5b1RJcTlDRFBUdmNiM09wbld2LUVzWDFnWUZrNWxTM2sxb2g2MmNjeVNsSkJUYnlxeVdEcDVXU2ZUTWNiUUZYLTQ1N2dnZ1pUNkVOZnkwcjRxbllibHBka1N0VkotMFY1Mlc2STk?oc=5",
+          "source": "DiePresse.com",
+          "date": "30. Mar 2026"
         },
         {
           "title": "Dok 1 (Doku) - tvheute.at",
@@ -44,7 +44,7 @@
       "label": "DACH – Umgebungslärm",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Zusammenfassung konnte nicht erstellt werden (Rate Limit).",
+      "summary": "In Deutschland zeichnet sich eine signifikante Entwicklung im Bereich des Umgebungslärms ab, da die Bundesregierung im Sommer neue Lärmschutz-Regeln genehmigt hat. Diese Änderungen führen zu Besorgnis über den möglichen Wegfall der Nachtruhe für Anwohner und deuten auf eine potenzielle Lockerung bestehender Schutzmaßnahmen hin. Die genauen Auswirkungen auf spezifische Lärmquellen wie Verkehr oder Industrie sind noch unklar, doch die Debatte um die Balance zwischen wirtschaftlichen Interessen und dem Schutz der Bevölkerung vor Lärmbelästigung wird sich voraussichtlich intensivieren.",
       "items": [
         {
           "title": "Nachtruhe fällt weg: Bundesregierung erlaubt im Sommer neue Lärmschutz-Regeln - Berliner Kurier",
@@ -58,7 +58,7 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Zusammenfassung konnte nicht erstellt werden (Rate Limit).",
+      "summary": "Europe is witnessing a new policy push to mitigate urban noise pollution, with a particular focus on addressing the pervasive issue of noisy rolling suitcases. This emerging crackdown signifies a growing cross-border commitment to tackling everyday sound nuisances that impact quality of life across the continent. Such initiatives underscore a broader European trend towards implementing measures that reduce environmental noise from common sources, reflecting an evolving regulatory landscape aimed at creating quieter public spaces.",
       "items": [
         {
           "title": "Europe’s New Crackdown On Noisy Rolling Suitcases - thetraveler.org",
@@ -67,9 +67,9 @@
           "date": "29. Mar 2026"
         },
         {
-          "title": "Europe Microphones Market Size, Share & Trends, 2034 - Market Data Forecast",
+          "title": "Europe Microphones Market Size, Share & Trends, 2034 - marketdataforecast.com",
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPV3Z5SDRwWG5vQlBtU2VFY0NIYzFtLS03RVprYWFsTWt5Z3BwR2JZS25kNHBYWkVuQlJMbXo4U2ptanFBMi1pb1FORTFuNVdnd0lUUDdDZHBJdVFYMDRWMGtsR0d5NzA1RmV5SE5kbWt2cVFZc2dHUHRyOHBIU0U1RA?oc=5",
-          "source": "Market Data Forecast",
+          "source": "marketdataforecast.com",
           "date": "2. Apr 2026"
         }
       ]
@@ -78,7 +78,7 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Recent findings underscore the critical role of urban acoustic environments in mental well-being, compelling engineers to evolve beyond mere noise reduction towards comprehensive soundscape design that integrates positive auditory elements into city planning. This necessitates a focus on the qualitative aspects of sound, employing innovative material choices and green infrastructure to shape desirable acoustic experiences. Concurrently, the renewed debate surrounding \"wind turbine syndrome\" highlights that engineers in the renewable energy sector must remain acutely aware of public perception and potential health concerns, even for phenomena previously considered scientifically unsubstantiated. This mandates rigorous noise assessment, detailed monitoring, and transparent communication, especially concerning low-frequency noise and infrasound, to effectively manage community relations and navigate potential regulatory shifts.",
+      "summary": "Urban acoustic design is evolving beyond simple decibel reduction, with new research emphasizing the critical link between overall soundscapes and mental well-being, urging engineers to consider the perceptual quality and character of urban acoustic environments. This means a shift towards designing for desirable soundscapes, potentially incorporating elements that mask unwanted noise or introduce pleasant sounds, rather than just attenuating noise sources. Concurrently, the persistent debate surrounding \"wind turbine syndrome\" highlights the ongoing need for engineers in renewable energy to meticulously model, measure, and mitigate noise, including low-frequency components, to address public concerns and potential regulatory shifts, regardless of the scientific consensus on direct health impacts. These developments underscore a broader trend towards more holistic and perception-focused approaches in noise control engineering, balancing objective measurements with subjective human experience and community engagement.",
       "items": [
         {
           "title": "The Soundscape of Cities Matters: Study Links Urban Acoustic Environments to Mental Well-Being - elciudadano.com",
