@@ -1,11 +1,11 @@
 {
-  "generated": "02. April 2026, 07:50 UTC",
+  "generated": "02. April 2026, 08:09 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#2e7d32",
-      "summary": "In der Steiermark rückt der Lärmschutz durch die Inbetriebnahme der Koralmbahn verstärkt in den Fokus. Eine wichtige lokale Entwicklung ist die Klage von Anrainern der neuen Bahnstrecke in Groß St. Florian, die über erheblichen Lärmbelästigung berichten. Diese Beschwerden zeigen, dass große Infrastrukturprojekte trotz Planungen oft zu unerwarteten lokalen Belastungen führen können. Die Situation unterstreicht die Notwendigkeit, Lärmschutzmaßnahmen kontinuierlich zu überprüfen und anzupassen, um die Lebensqualität der betroffenen Bewohner zu gewährleisten.",
+      "summary": "Zusammenfassung konnte nicht erstellt werden.",
       "items": [
         {
           "title": "Koralmbahn: Anrainer der neuen Bahnstrecke in Groß St. Florian klagen über Lärm - Kleine Zeitung",
@@ -19,14 +19,8 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Österreich zählt bereits zu den lautesten Ländern Europas, was auf eine generell hohe Lärmbelastung im Land hindeutet. Eine bemerkenswerte und potenziell konträre Entwicklung ist die kürzlich beschlossene Sonderregelung, die die Nachtruhe nach 22 Uhr diesen Sommer aussetzt. Diese temporäre Lockerung der Lärmschutzbestimmungen könnte die bestehende Problematik der hohen Lärmbelastung weiter verschärfen. Es zeigt sich somit ein Spannungsfeld zwischen der Notwendigkeit effektiven Lärmschutzes und temporären Ausnahmen.",
+      "summary": "Aktuelle Berichte zeigen, dass Österreich im europäischen Vergleich zu den Ländern mit der höchsten Lärmbelastung gehört. Diese Erkenntnis unterstreicht die Dringlichkeit, effektive Maßnahmen zum Lärmschutz zu implementieren und bestehende Strategien zu überprüfen. Es verdeutlicht den anhaltenden Bedarf an umfassenden Ansätzen, um die Lebensqualität der Bevölkerung zu verbessern und gesundheitliche Risiken durch Lärm zu minimieren.",
       "items": [
-        {
-          "title": "Sonderregelung beschlossen: Nachtruhe nach 22 Uhr wird diesen Sommer ausgesetzt - Merkur",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORUZRLUp6VGNwRXJUSlZPTHZFVGJpb3UyUlhDOWdWSzhLaWRIdDd1NEtPUW5sN2Y2Zk91cTNsUWVCb1NTdHJXUk91VHBra1J4ak1tODBpZjNwNGVweXE0bWswZ0ttNXNHY2FKemtpODhFUlVhOWpmWVpnNVZCZGxjVWd5OEw2ZldHdlFNRmxFU0lfNDQ4bzItV00wVjVGUjJuR09ZbnR1bw?oc=5",
-          "source": "Merkur",
-          "date": "31. Mar 2026"
-        },
         {
           "title": "Österreich zählt zu den „lautesten“ Ländern Europas - DiePresse.com",
           "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORUFkWktzTWZhVFZsY1RDWWtCcHZBN2NEYnAyVnBtV0k0UDI5b1RJcTlDRFBUdmNiM09wbld2LUVzWDFnWUZrNWxTM2sxb2g2MmNjeVNsSkJUYnlxeVdEcDVXU2ZUTWNiUUZYLTQ1N2dnZ1pUNkVOZnkwcjRxbllibHBka1N0VkotMFY1Mlc2STk?oc=5",
@@ -39,15 +33,34 @@
       "label": "DACH – Umgebungslärm",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Keine aktuellen Meldungen der letzten 7 Tage gefunden.",
-      "items": []
+      "summary": "Aktuelle Meldungen aus Deutschland deuten auf eine temporäre, bundesweite Lockerung der nächtlichen Lärmschutzbestimmungen hin. Konkret wird die Einhaltung der Nachtruhe nach 22 Uhr für diesen Sommer ausgesetzt, was als neue Lärmschutz-Regel oder Sonderregelung beschrieben wird. Diese Entwicklung, die von der Bundesregierung initiiert wurde, wird in verschiedenen deutschen Regionen, wie durch Berichte des Merkur und Berliner Kuriers ersichtlich, als signifikante Abweichung von den üblichen Lärmschutzstandards wahrgenommen und diskutiert.",
+      "items": [
+        {
+          "title": "Sonderregelung beschlossen: Nachtruhe nach 22 Uhr wird diesen Sommer ausgesetzt - Merkur",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORUZRLUp6VGNwRXJUSlZPTHZFVGJpb3UyUlhDOWdWSzhLaWRIdDd1NEtPUW5sN2Y2Zk91cTNsUWVCb1NTdHJXUk91VHBra1J4ak1tODBpZjNwNGVweXE0bWswZ0ttNXNHY2FKemtpODhFUlVhOWpmWVpnNVZCZGxjVWd5OEw2ZldHdlFNRmxFU0lfNDQ4bzItV00wVjVGUjJuR09ZbnR1bw?oc=5",
+          "source": "Merkur",
+          "date": "31. Mar 2026"
+        },
+        {
+          "title": "Nachtruhe fällt weg: Bundesregierung erlaubt im Sommer neue Lärmschutz-Regeln - Berliner Kurier",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNYkZIQkJQZ2lkeXByeTZPRTdyTzdkR0lVd25aZ0UxUEJjWGJSYm9mTnloZHlGN0Y3U2RJZTlQREh5X1BfTklmN0U1QzBhVGFxWDE4XzZFWWxDb3U2M3hFZzFNaTg1eU5lTXhZYmRrM1R3cjVxRGhPU3VQdnFtSUtFTHZkNFc5eFFMTUZFUmRoQkVZVGFIQ19vRzJEeU11X05uV2E3d3lfd0d2enpITWVRR0RB?oc=5",
+          "source": "Berliner Kurier",
+          "date": "31. Mar 2026"
+        }
+      ]
     },
     "europe": {
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Recent reports indicate a new Europe-wide initiative targeting noise pollution, specifically focusing on the disturbance caused by rolling suitcases. This development signifies a growing cross-border concern for urban noise nuisance, suggesting potential continent-wide regulations or standards for luggage design and usage. The crackdown reflects a broader trend in European noise control policy to address everyday sources of disturbance, aiming to improve quality of life in cities and tourist areas across member states.",
+      "summary": "Recent developments in European noise control policy indicate a growing emphasis on mitigating specific sources of urban disturbance, notably exemplified by a new crackdown targeting noisy rolling suitcases. This initiative suggests a broader, potentially cross-border effort to address everyday noise nuisances impacting quality of life across the continent. While the expanding market for microphones in Europe points to a robust industry for noise monitoring and measurement tools, the more immediate policy focus is on direct regulatory actions to reduce noise pollution from common sources.",
       "items": [
+        {
+          "title": "Europe Microphones Market Size, Share & Trends, 2034 - Market Data Forecast",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPV3Z5SDRwWG5vQlBtU2VFY0NIYzFtLS03RVprYWFsTWt5Z3BwR2JZS25kNHBYWkVuQlJMbXo4U2ptanFBMi1pb1FORTFuNVdnd0lUUDdDZHBJdVFYMDRWMGtsR0d5NzA1RmV5SE5kbWt2cVFZc2dHUHRyOHBIU0U1RA?oc=5",
+          "source": "Market Data Forecast",
+          "date": "2. Apr 2026"
+        },
         {
           "title": "Europe’s New Crackdown On Noisy Rolling Suitcases - thetraveler.org",
           "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRkxEOGZ0dVRQQ1JONFBCcEsxQjdWall2dUk2aHJTdW9KZ05ILTlfX0Jfc0NJZnZaMzVNVlFpdEkwSk4xeW9jRExDX1dmZ3U5ckpCNnpBSTk2NWtlNlA5YnMwdmJLNVA4b2NJOHg0N2Z5OGR5MGd0cnlMbWVKTHkyVFJmdw?oc=5",
@@ -60,7 +73,7 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Recent headlines underscore a critical evolution in noise control, emphasizing that urban soundscapes significantly impact mental well-being. For noise control engineers, this signals a necessary shift beyond mere decibel reduction towards a more holistic approach that considers the overall acoustic environment and its perceived quality. There is a clear and growing demand for specialized soundscape studies, requiring engineers to develop expertise in assessing, designing, and implementing solutions that enhance the quality of urban acoustic spaces, rather than solely mitigating unwanted noise. This necessitates integrating traditional acoustic science with human perception and urban planning principles to create healthier, more pleasant cities.",
+      "summary": "Emerging research underscores that urban noise control must evolve beyond simple decibel reduction, with studies now directly linking city soundscapes to mental well-being. This shift necessitates a broader approach for engineers, focusing on holistic soundscape design and analysis rather than merely mitigating individual noise sources. Concurrently, persistent public concern, exemplified by ongoing debates around \"wind turbine syndrome,\" highlights the critical need for robust noise and vibration impact assessments in renewable energy projects. Therefore, noise control engineers must integrate nuanced soundscape considerations into urban planning while maintaining rigorous mitigation strategies for infrastructure noise.",
       "items": [
         {
           "title": "The Soundscape of Cities Matters: Study Links Urban Acoustic Environments to Mental Well-Being - elciudadano.com",
@@ -73,6 +86,84 @@
           "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ZMF96bjhIaFVRbXpmWXgwdXR6eUFqczcwS1h1bno1NGZHSGNRc19uaHJxNHJ0Nkl3TlJFOGdxdzlXOVdRX1VrWDY3ODdfRnV4V1p1UFNvWGFkcGlEMVEyaDhfMUhmZG9VdkVSTDBSRl9MbjFWemFWbG90c1RIdw?oc=5",
           "source": "Your Observer",
           "date": "26. Mar 2026"
+        },
+        {
+          "title": "“Scientific dead end:” The new push to get wind turbine syndrome back on the radar - Renew Economy",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaGhhdmhtT3NoMk9hWnM1Zi1WUEQ2MGtOUEtHNkNfVFZPYUhDVnVzWFMwTTdMdUR0ZFdIdlBuVHJZVVgwVnFxTUdoMi14S0RzaHVIUE1aNWt0TTNKbWhvbVo4cDVBQVNhaWpFZFJ0MHVBRlRPY1N1QnNNSmVKZVdjV2RHV3NQVm5ZNGpTMW1HaVE0YnNEaTMyT1dxbzdhNzZWZ0xMeXF5akl5WGRRWDc5LVJR0gGyAUFVX3lxTFBoaGF2aG1Pc2gyT2FaczVmLVZQRDYwa05QS0c2Q19UVk9hSENWdXNYUzBNN0x1RHRkV0h2UG5UcllVWDBWcXFNR2gyLXhLRHNodUhQTVo1a3RNM0ptaG9tWjhwNUFBU2FpakVkUnQwdUFGVE9jU3VCc01KZUplV2NXZEdXc1BWblk0alMxbUdpUTRic0RpMzJPV3FvN2E3NlZnTEx5cXlqSXlYZFFYNzktUlE?oc=5",
+          "source": "Renew Economy",
+          "date": "2. Apr 2026"
+        },
+        {
+          "title": "Grüner Wasserstoff frisst Turbinen: Das verdrängte Problem der Energiewende - ingenieur.de",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdkF1Y29PMjNrTGo3RG1OemdHTDViQ21lVy1PdVBtS0ViMlBkaFowUWJVVi1hTU0wdFNrNTQxdXU3TjJ3RnFUN2JMMGM4dU9IaVVGeFU1cjJ4QzczS1lBYVNiS1FuWGRRUlQyRjVMaDZaYUVpdVl3MWwtR0FERlpUQkxCQ05rcUoxb2R0OHEwWTFQRVdmYnFNZzhkdEpvNENkS0FPZmV6N2RCX1dRbHFZY2ZPbEZiNjFmeF83ZjZtTzRBazF0RFRoREJTdw?oc=5",
+          "source": "ingenieur.de",
+          "date": "30. Mar 2026"
+        },
+        {
+          "title": "Automarkt 2025: Die Gewinner und die Verlierer - ingenieur.de",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTDdkSVVPLTBaY1J2R29NSmY3YjVTdnlJcjA5cTBTak8yN3ZHLUk1ajZ5U3pLMGNjV3dwMWxZZVpFR3FBdnl2Q1lrTllsWE1kZUN5REVYNUlTT3dwbUlWLW0xMnNhbVplc0pLajRDaXRqMG9VU01BLVVIcUM5dUwwQjh3NTVOelUtdUt1NTI2U3VGaFk1MkFHb25FYUxOU2JSODVDZGpR?oc=5",
+          "source": "ingenieur.de",
+          "date": "1. Apr 2026"
+        },
+        {
+          "title": "Europas Energiesystem am Scheidepunkt – eine grüne Energieversorgung ist möglich und nötig - ingenieur.de",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObG5kaFgzQnBTX1VyMzFsbkxoLVJrTWVSQTA5azlyMlhoZ3hnOHdnS3p2UlRJSUpOVnl2c25rbU5fakpGdDBlZXVoLWFjdW5nRy1ELWFjSlRBY2lGT0dOZG16VUtkcjdqNHlrSTJacERoa19Fb3JIZDRUZmtlRVFQb2V2c1h2dlBuTjRQNUJ4cEZudXRVaDNHSE9tb3JJYmhLb2ZYZWNnYThuZHFaSjNsaTk4a1U5aUpZQjBpdEtWTXV1RXR3dlUtQg?oc=5",
+          "source": "ingenieur.de",
+          "date": "1. Apr 2026"
+        },
+        {
+          "title": "CAR-T-Zelltherapie: Wie KI die Krebsbehandlung skalierbar machen soll - ingenieur.de",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYVVidXRockZodnNGR2YtTUo5cFNaZ0FyRjZUY1VHQ0NRMjYwY0FMQjc2UlJqdENZYVpPZmJGYkFBMGJRRG1IR2RaMWZ1T2RSWGxDRUhKUlhuaEg5anZQRDlSSFNIQWRtNHhlbV9aSmdZaDNNT3l4d2pfQWFiMmM4SUl2Q3VWOTN3OUM4Q1B5eVhVa0Q2X05Db0JDR1pLcXp2eUNRSFdOOWlVTmNyM3hicnBLZlk0SnIxUkFRSFhucW8?oc=5",
+          "source": "ingenieur.de",
+          "date": "2. Apr 2026"
+        },
+        {
+          "title": "Unter dem Meeresboden entsteht Gold, jetzt ist klar wie - ingenieur.de",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcUQ0SVd6eWFQdkRwMnk0cUN5T2NmaFBDbGFWYjIwbjFTNUtWSEZ5cEp6bVdONnowZ2hqQ3lVb1Q5Um1ndk1YWGlncXJnQzJ0ck50SXZPZ0hEX1VaOF96OXctbURhOUNZUU1XeVRaMWh1SmNNWEh2NlpQMXNyU2xZSUl3NmdnbFFLaUhIVXZGU29HZ2cxNXpIVGp3OUVqZURUc0loVFlQSEpwMmdzcnc?oc=5",
+          "source": "ingenieur.de",
+          "date": "2. Apr 2026"
+        },
+        {
+          "title": "Elektronisches Tattoo zeigt, wann Pflanzen wirklich Durst haben - ingenieur.de",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdFpsWHB4bUlpNFNtX1V2RVQtcFdNTC03aldEeW8ycU1MVklEbTlGRUphM3B1ZHFZSVYtZThSaTF1ZHFyZDljSVJ2MGVzUEV2YzhuTFduYmxDU3BIenhlSk5ZVnBpQm9KWkNmaW51bzMzalBzSWNCeDVyazZWQ2dCTW9FaldEV3dzdVJpU01rY3hCSzZYbExkS3lhS2pGSUt0bC1jWWlTTHBZNXJOZV85WXNVbi1JV1U3UUFWag?oc=5",
+          "source": "ingenieur.de",
+          "date": "1. Apr 2026"
+        },
+        {
+          "title": "Brennstoffzelle für Lkw: Drei Giganten bündeln ihre Kräfte - ingenieur.de",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeDJDVHhqeGhYZTZTRnBsd0k0UDFWbEZXdENYUE41RVV2VkZUZzZzTDJzMEplZFBUc1hXSV82SEtjQm1TNkJCWDNkQUZQUkllZWxzUXI0VUxIR1Juem8tOWtZVXlkeUpNUVZ4LWhxSUFsdGdkc3BPRWVudTRiU3hQeng1X2RvNzJCelJGTURBRzNNQVBrUmc0Q3hUOWt4VmR2R3BNcVFRUGIxckQtb3VTU21acHNjUQ?oc=5",
+          "source": "ingenieur.de",
+          "date": "1. Apr 2026"
+        },
+        {
+          "title": "Magnetfeld aus dem Takt: Warum Saturn die Physik herausfordert - ingenieur.de",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZi1WX1BnbDMyejBibmhMOUlINEhBWnA4T1BoejF6VWpsRml3NXJLN3c5dDVVNnJNOEdVSXNHZEJPOFYzdUpkN1k4M0hSVGM5SGtmSzI1V3ZBUVZYZ05QUWpmdGJndEs0bXdCbkN2cHRyZ3ltM2hTSGdpdHNkclhEYXU4aWMtblpMRUc5a1B0TFNNWW1PZEFlRmVIaFVIbm9IcGJhVzNSVjlZYkJzWEZQbFdCRGJSVE9WaUE?oc=5",
+          "source": "ingenieur.de",
+          "date": "1. Apr 2026"
+        },
+        {
+          "title": "Wärmewende konkret: Görlitz und Zgorzelec verbinden ihre Netze - ingenieur.de",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMGRHLUt0QmJSR1dlZ1JDWERzYmpZV2xVcnZaZkdULWFxVkxYRFZHcTdWUVF6LXBDYTZaemk0UzlTR0hWWXZYLW1pME1NMTYtdkprYXZMaFNheW9iSlFlUlZkMWhWQmRmT3l3Wm9EMFI1WXZQdi00SGtwX0NFYV94VVI2dUZhOW1WTTVBanJ0ZmJPWWxiS3E2RWFxb3BCcHJfa3BDWXdyLWVxZUZrSXg5ZnRVazdHcTJBZEE?oc=5",
+          "source": "ingenieur.de",
+          "date": "1. Apr 2026"
+        },
+        {
+          "title": "Neue Kampfdrohne für Deutschland? Was die Ghost Bat wirklich kann - ingenieur.de",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQblBnYVVPM19MM3ZndlBPNEFvRXUxSmZxcnF5R1ZTWFl5TVQwc2IxcVJ2WEkwZkNNdmp1VlAzMU1rZV9ZUkNQemJlaERjc3l3OHNBUlk4WUZBbF9EVGYwUDFOeUVteWFwemxVeENtRU93NzNTYlZrQTFKbGp5Vy11b0NhNkNrVWVnZ04xblZWQmVHSVRaSWJ0dExxUDRZNmpPcUt6dmRwdGhlWjBWM1Z1ZjdXUWxaeHZLclNUaQ?oc=5",
+          "source": "ingenieur.de",
+          "date": "1. Apr 2026"
+        },
+        {
+          "title": "Was macht einen Mond-Astronauten aus? - ingenieur.de",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNV0w1WWpxTjFUUW9oTU1idnlvbmRmOVNkUnU4MFc1dVlqbDZOZWNhSUNUejlOZ0dGRm9pRm5BaHdGT3VzU2FGdXdpcDhSWG1yNkRXTmVoLVZvdl85TDhjejdnelhFSFZmNnpXakgtYUpUSzZkM3VLU0luNG13SWl6QjFWSTZwYU5oRkh4a3BZZmhmNm53ejk4QUJENA?oc=5",
+          "source": "ingenieur.de",
+          "date": "1. Apr 2026"
+        },
+        {
+          "title": "Chemiewerk Leuna gerettet: Über 430 Jobs bleiben erhalten - ingenieur.de",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOXhvYzl3SUwyUFFPcTAzbTNURkVjWDlkUmlwbHFHVDZ2OHcxdlhzNVpYaUw5VjFsQ3dKVG5nRDF4aER2RXFIQVptNXFScGRFSXhnMmFyQ3cxUEUzdHJTVkt5Y2lrRUtpNXN6dEtZSEVITFhhX1Q2U2dlZG05S3hwdm9HaWd5U0kwbzlqSEZmUlFLUnFrVGlpT0I2U2U0Ni1TVmhTa013TlZYUXhZWWh3?oc=5",
+          "source": "ingenieur.de",
+          "date": "1. Apr 2026"
         }
       ]
     }
