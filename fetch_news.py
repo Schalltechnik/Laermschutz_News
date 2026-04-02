@@ -22,14 +22,19 @@ GEMINI_URL = (
 
 GENERATE_SUMMARY = os.environ.get("WEEKLY_SUMMARY", "false").lower() == "true"
 
-# Fetch up to this many items per feed before filtering
-MAX_ITEMS_FROM_FEED = 50
-# Keep only articles not older than this many days
-MAX_AGE_DAYS = 7
-# How many articles to show per category on the website
-MAX_ITEMS_PER_CATEGORY = 12
-# How many titles to send to Gemini for summarization
-MAX_TITLES_FOR_SUMMARY = 15
+MAX_ITEMS_FROM_FEED   = 100   # max per feed (Google RSS hard limit is 100)
+MAX_AGE_DAYS          = 7     # filter out articles older than this
+MAX_ITEMS_PER_CATEGORY = 15   # articles shown on website per category
+MAX_TITLES_FOR_SUMMARY = 15   # titles sent to Gemini
+
+# Helper to build a Google News RSS URL
+def gnews(query: str, lang: str = "de", country: str = "AT") -> str:
+    from urllib.parse import quote
+    ceid = f"{country}:{lang}"
+    return (
+        f"https://news.google.com/rss/search"
+        f"?q={quote(query)}&hl={lang}&gl={country}&ceid={ceid}"
+    )
 
 CATEGORIES = {
     "steiermark": {
@@ -37,11 +42,21 @@ CATEGORIES = {
         "icon": "🏞️",
         "color": "#2e7d32",
         "feeds": [
-            "https://news.google.com/rss/search?q=L%C3%A4rmschutz+Steiermark&hl=de&gl=AT&ceid=AT:de",
-            "https://news.google.com/rss/search?q=Verkehrsl%C3%A4rm+Steiermark&hl=de&gl=AT&ceid=AT:de",
-            "https://news.google.com/rss/search?q=Umgebungsl%C3%A4rm+Steiermark&hl=de&gl=AT&ceid=AT:de",
-            "https://news.google.com/rss/search?q=Flugl%C3%A4rm+Graz&hl=de&gl=AT&ceid=AT:de",
-            "https://news.google.com/rss/search?q=L%C3%A4rm+Graz+Steiermark&hl=de&gl=AT&ceid=AT:de",
+            gnews("Lärmschutz Steiermark"),
+            gnews("Verkehrslärm Steiermark"),
+            gnews("Umgebungslärm Steiermark"),
+            gnews("Fluglärm Graz"),
+            gnews("Lärm Graz Steiermark"),
+            gnews("Schienenlärm Steiermark"),
+            gnews("Infraschall Steiermark"),
+            gnews("tieffrequenter Schall Steiermark"),
+            gnews("Brummton Steiermark"),
+            gnews("Raumordnung Lärm Steiermark"),
+            gnews("Lärmbekämpfung Steiermark"),
+            gnews("Red Bull Ring Lärm"),
+            gnews("Formel 1 Spielberg Lärm"),
+            gnews("MotoGP Spielberg Lärm"),
+            gnews("Fohnsdorf Lärm"),
         ],
         "summary_prompt": (
             "Du bist Experte für Lärmschutz in der Steiermark und Graz. "
@@ -56,11 +71,21 @@ CATEGORIES = {
         "icon": "🇦🇹",
         "color": "#c8102e",
         "feeds": [
-            "https://news.google.com/rss/search?q=L%C3%A4rmschutz+%C3%96sterreich&hl=de&gl=AT&ceid=AT:de",
-            "https://news.google.com/rss/search?q=L%C3%A4rmschutzwand+%C3%96sterreich&hl=de&gl=AT&ceid=AT:de",
-            "https://news.google.com/rss/search?q=L%C3%A4rm+%C3%96sterreich+Verordnung&hl=de&gl=AT&ceid=AT:de",
-            "https://news.google.com/rss/search?q=Verkehrsl%C3%A4rm+%C3%96sterreich&hl=de&gl=AT&ceid=AT:de",
-            "https://news.google.com/rss/search?q=Umgebungsl%C3%A4rm+%C3%96sterreich&hl=de&gl=AT&ceid=AT:de",
+            gnews("Lärmschutz Österreich"),
+            gnews("Lärmschutzwand Österreich"),
+            gnews("Verkehrslärm Österreich"),
+            gnews("Umgebungslärm Österreich"),
+            gnews("Schienenlärm Österreich"),
+            gnews("Fluglärm Österreich"),
+            gnews("Industrielärm Österreich"),
+            gnews("Infraschall Österreich"),
+            gnews("tieffrequenter Schall Österreich"),
+            gnews("Brummton Österreich"),
+            gnews("Lärm Verordnung Österreich"),
+            gnews("Lärmbekämpfung Österreich"),
+            gnews("Ruhige Gebiete Österreich"),
+            gnews("Lärmkarte Österreich"),
+            gnews("Raumordnung Lärm Österreich"),
         ],
         "summary_prompt": (
             "Du bist Experte für Lärmschutz in Österreich. "
@@ -75,17 +100,24 @@ CATEGORIES = {
         "icon": "🏔️",
         "color": "#5a5a5a",
         "feeds": [
-            "https://news.google.com/rss/search?q=Verkehrsl%C3%A4rm+Deutschland+%C3%96sterreich+Schweiz&hl=de&gl=DE&ceid=DE:de",
-            "https://news.google.com/rss/search?q=Flugl%C3%A4rm+Deutschland&hl=de&gl=DE&ceid=DE:de",
-            "https://news.google.com/rss/search?q=Flugl%C3%A4rm+%C3%96sterreich+Schweiz&hl=de&gl=AT&ceid=AT:de",
-            "https://news.google.com/rss/search?q=Schienenl%C3%A4rm+Bahn+Deutschland&hl=de&gl=DE&ceid=DE:de",
-            "https://news.google.com/rss/search?q=Industriel%C3%A4rm+Umgebungsl%C3%A4rm&hl=de&gl=DE&ceid=DE:de",
-            "https://news.google.com/rss/search?q=Umgebungsl%C3%A4rm+L%C3%A4rmkarte+L%C3%A4rmbericht&hl=de&gl=DE&ceid=DE:de",
+            gnews("Verkehrslärm Deutschland Österreich Schweiz", country="DE"),
+            gnews("Umgebungslärm Deutschland", country="DE"),
+            gnews("Fluglärm Deutschland", country="DE"),
+            gnews("Fluglärm Schweiz", country="DE"),
+            gnews("Schienenlärm Bahn Deutschland", country="DE"),
+            gnews("Industrielärm Deutschland", country="DE"),
+            gnews("Lärmkarte Lärmkartierung Deutschland", country="DE"),
+            gnews("Ruhige Gebiete Lärmschutz Deutschland", country="DE"),
+            gnews("Infraschall Deutschland Österreich", country="DE"),
+            gnews("tieffrequenter Schall DACH", country="DE"),
+            gnews("Brummton Deutschland Schweiz", country="DE"),
+            gnews("Lärmbekämpfung DACH", country="DE"),
+            gnews("Raumordnung Lärm Deutschland", country="DE"),
         ],
         "summary_prompt": (
             "Du bist Experte für Umgebungslärm in der DACH-Region (Deutschland, Österreich, Schweiz). "
-            "Fasse die folgenden Nachrichtentitel zu den Themen Verkehrslärm, Fluglärm, Schienenlärm "
-            "und Industrielärm in 3–5 prägnanten deutschen Sätzen zusammen. "
+            "Fasse die folgenden Nachrichtentitel zu den Themen Verkehrslärm, Fluglärm, Schienenlärm, "
+            "Industrielärm und weiteren Lärmthemen in 3–5 prägnanten deutschen Sätzen zusammen. "
             "Hebe die wichtigsten regionalen Entwicklungen hervor. "
             "Antworte NUR mit dem Fließtext, keine Aufzählungen, keine Überschriften."
         ),
@@ -95,10 +127,13 @@ CATEGORIES = {
         "icon": "🇪🇺",
         "color": "#003399",
         "feeds": [
-            "https://news.google.com/rss/search?q=noise+control+EU+directive&hl=en&gl=GB&ceid=GB:en",
-            "https://news.google.com/rss/search?q=environmental+noise+Europe+regulation&hl=en&gl=GB&ceid=GB:en",
-            "https://news.google.com/rss/search?q=L%C3%A4rmschutz+Europa+EU&hl=de&gl=DE&ceid=DE:de",
-            "https://news.google.com/rss/search?q=noise+pollution+Europe+policy&hl=en&gl=GB&ceid=GB:en",
+            gnews("noise control EU directive", lang="en", country="GB"),
+            gnews("environmental noise Europe regulation", lang="en", country="GB"),
+            gnews("noise pollution Europe policy", lang="en", country="GB"),
+            gnews("Umgebungslärm EU Richtlinie", country="DE"),
+            gnews("quiet areas noise Europe", lang="en", country="GB"),
+            gnews("low frequency noise Europe", lang="en", country="GB"),
+            gnews("infrasound regulation Europe", lang="en", country="GB"),
         ],
         "summary_prompt": (
             "You are an expert on European noise control policy. "
@@ -113,10 +148,16 @@ CATEGORIES = {
         "icon": "🔬",
         "color": "#1a6b3c",
         "feeds": [
-            "https://news.google.com/rss/search?q=acoustics+noise+control+research&hl=en&gl=GB&ceid=GB:en",
-            "https://news.google.com/rss/search?q=noise+barrier+material+research&hl=en&gl=GB&ceid=GB:en",
-            "https://news.google.com/rss/search?q=urban+noise+acoustic+study&hl=en&gl=GB&ceid=GB:en",
-            "https://news.google.com/rss/search?q=noise+pollution+health+research&hl=en&gl=GB&ceid=GB:en",
+            gnews("acoustics noise control research", lang="en", country="GB"),
+            gnews("noise barrier material research", lang="en", country="GB"),
+            gnews("urban noise acoustic study", lang="en", country="GB"),
+            gnews("noise pollution health research", lang="en", country="GB"),
+            gnews("low frequency noise infrasound research", lang="en", country="GB"),
+            gnews("Lärmbekämpfung Forschung", country="DE"),
+            gnews("Lärmschutz Wissenschaft Studie", country="DE"),
+            # ingenieur.de Lärmbekämpfung – targeted Google News search
+            gnews("site:ingenieur.de Lärmbekämpfung", country="DE"),
+            gnews("ingenieur.de Lärm Akustik", country="DE"),
         ],
         "summary_prompt": (
             "You are an acoustics researcher. "
@@ -132,7 +173,6 @@ CATEGORIES = {
 # ── RSS Fetching ───────────────────────────────────────────────────────────────
 
 def parse_pub_date(raw: str):
-    """Parse RSS pubDate string to timezone-aware datetime. Returns None on failure."""
     if not raw:
         return None
     try:
@@ -143,7 +183,6 @@ def parse_pub_date(raw: str):
 
 
 def fetch_rss(url: str) -> list[dict]:
-    """Fetch and parse a single RSS feed, return up to MAX_ITEMS_FROM_FEED items."""
     items = []
     try:
         req = Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; NewsBot/1.0)"})
@@ -168,20 +207,16 @@ def fetch_rss(url: str) -> list[dict]:
                     "source": source,
                 })
     except Exception as e:
-        print(f"  Warning: could not fetch {url}: {e}")
+        print(f"  Warning: could not fetch {url[:60]}: {e}")
     return items
 
 
 def filter_by_age(items: list[dict], max_age_days: int) -> list[dict]:
-    """Keep only items published within max_age_days. Items with no date are kept."""
     cutoff = datetime.now(timezone.utc) - timedelta(days=max_age_days)
-    result = []
-    skipped = 0
+    result, skipped = [], 0
     for item in items:
         dt = item.get("date_parsed")
-        if dt is None:
-            result.append(item)  # no date → keep
-        elif dt >= cutoff:
+        if dt is None or dt >= cutoff:
             result.append(item)
         else:
             skipped += 1
@@ -191,8 +226,7 @@ def filter_by_age(items: list[dict], max_age_days: int) -> list[dict]:
 
 
 def deduplicate(items: list[dict]) -> list[dict]:
-    seen = set()
-    result = []
+    seen, result = set(), []
     for item in items:
         key = re.sub(r"\s+", " ", item["title"].lower().strip())
         if key not in seen:
@@ -338,28 +372,20 @@ def main():
 
     for cat_id, cat in CATEGORIES.items():
         print(f"\n── {cat['label']} ──")
-
-        # Fetch
         all_items = []
         for feed_url in cat["feeds"]:
             print(f"  Fetching: {feed_url[:80]}…")
             all_items.extend(fetch_rss(feed_url))
 
         print(f"  {len(all_items)} total items before filtering")
-
-        # Filter by age
         all_items = filter_by_age(all_items, MAX_AGE_DAYS)
-
-        # Deduplicate and limit
         items = deduplicate(all_items)[:MAX_ITEMS_PER_CATEGORY]
         print(f"  {len(items)} unique items after date filter")
 
-        # Format dates for display (remove parsed datetime before saving)
         for item in items:
             item["date"] = format_date(item.pop("date_raw", ""))
             item.pop("date_parsed", None)
 
-        # Summarize
         print("  Calling Gemini…")
         titles_for_summary = [i["title"] for i in items[:MAX_TITLES_FOR_SUMMARY]]
         summary = summarize_with_gemini(titles_for_summary, cat["summary_prompt"])
