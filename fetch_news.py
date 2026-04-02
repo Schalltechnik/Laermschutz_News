@@ -195,7 +195,7 @@ def fetch_rss(url: str) -> list[dict]:
     items = []
     try:
         req = Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; NewsBot/1.0)"})
-        with urlopen(req, timeout=15) as resp:
+        with urlopen(req, timeout=60) as resp:
             raw = resp.read()
         root = ET.fromstring(raw)
         channel = root.find("channel")
@@ -274,7 +274,7 @@ def call_gemini(prompt: str, max_tokens: int = 2000) -> str:
                 headers={"Content-Type": "application/json"},
                 method="POST",
             )
-            with urlopen(req, timeout=30) as resp:
+            with urlopen(req, timeout=60) as resp:
                 data = _json.loads(resp.read())
             finish_reason = data["candidates"][0].get("finishReason", "unknown")
             print(f"  Finish reason: {finish_reason}")
