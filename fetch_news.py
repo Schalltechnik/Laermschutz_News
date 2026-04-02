@@ -1,7 +1,7 @@
 """
 Lärmschutz News Fetcher
 Fetches RSS feeds, filters by date, summarizes with Gemini, saves to docs/data.json
-Optionally generates a weekly executive summary (docs/summary.html)
+Generates weekly executive summary on Fridays or when WEEKLY_SUMMARY=true
 """
 
 import json
@@ -20,22 +20,23 @@ GEMINI_URL = (
     "gemini-2.5-flash:generateContent?key=" + GEMINI_API_KEY
 )
 
-# GENERATE_SUMMARY = os.environ.get("WEEKLY_SUMMARY", "false").lower() == "true"
-GENERATE_SUMMARY = True
+# Generate summary if env var is set OR if today is Friday
+_today_is_friday = datetime.now(timezone.utc).weekday() == 4  # 0=Mon, 4=Fri
+GENERATE_SUMMARY = os.environ.get("WEEKLY_SUMMARY", "false").lower() == "true" or _today_is_friday
 
-MAX_ITEMS_FROM_FEED   = 100   # max per feed (Google RSS hard limit is 100)
-MAX_AGE_DAYS          = 7     # filter out articles older than this
-MAX_ITEMS_PER_CATEGORY = 15   # articles shown on website per category
-MAX_TITLES_FOR_SUMMARY = 15   # titles sent to Gemini
+MAX_ITEMS_FROM_FEED    = 100  # Google RSS hard limit
+MAX_AGE_DAYS           = 7
+MAX_ITEMS_PER_CATEGORY = 15
+MAX_TITLES_FOR_SUMMARY = 15
 
-# Helper to build a Google News RSS URL
+
 def gnews(query: str, lang: str = "de", country: str = "AT") -> str:
     from urllib.parse import quote
-    ceid = f"{country}:{lang}"
     return (
         f"https://news.google.com/rss/search"
-        f"?q={quote(query)}&hl={lang}&gl={country}&ceid={ceid}"
+        f"?q={quote(query)}&hl={lang}&gl={country}&ceid={country}:{lang}"
     )
+
 
 CATEGORIES = {
     "steiermark": {
@@ -58,6 +59,9 @@ CATEGORIES = {
             gnews("Formel 1 Spielberg Lärm"),
             gnews("MotoGP Spielberg Lärm"),
             gnews("Fohnsdorf Lärm"),
+            gnews("Abteilung 15 Land Steiermark Lärm"),
+            gnews("Abteilung 13 Land Steiermark Lärm"),
+            gnews("UVP Verfahren Steiermark Lärm"),
         ],
         "summary_prompt": (
             "Du bist Experte für Lärmschutz in der Steiermark und Graz. "
@@ -156,9 +160,9 @@ CATEGORIES = {
             gnews("low frequency noise infrasound research", lang="en", country="GB"),
             gnews("Lärmbekämpfung Forschung", country="DE"),
             gnews("Lärmschutz Wissenschaft Studie", country="DE"),
-            # ingenieur.de Lärmbekämpfung – targeted Google News search
-            gnews("site:ingenieur.de Lärmbekämpfung", country="DE"),
-            gnews("ingenieur.de Lärm Akustik", country="DE"),
+            # ingenieur.de Lärmbekämpfung rubric specifically
+            gnews("site:ingenieur.de/fachmedien/laermbekaempfung", country="DE"),
+            gnews("Lärmbekämpfung Akustik ingenieur.de", country="DE"),
         ],
         "summary_prompt": (
             "You are an acoustics researcher. "
@@ -208,7 +212,7 @@ def fetch_rss(url: str) -> list[dict]:
                     "source": source,
                 })
     except Exception as e:
-        print(f"  Warning: could not fetch {url[:60]}: {e}")
+        print(f"  Warning: could not fetch {url[:70]}: {e}")
     return items
 
 
@@ -366,6 +370,7 @@ def generate_weekly_summary(categories_data: dict) -> None:
 # ── Main ───────────────────────────────────────────────────────────────────────
 
 def main():
+    print(f"Weekly summary: {'YES' if GENERATE_SUMMARY else 'no'}")
     output = {
         "generated": datetime.now(timezone.utc).strftime("%d. %B %Y, %H:%M UTC"),
         "categories": {},
