@@ -20,14 +20,15 @@ GEMINI_URL = (
     "gemini-2.5-flash:generateContent?key=" + GEMINI_API_KEY
 )
 
-# Generate summary if env var is set OR if today is Friday
-_today_is_friday = datetime.now(timezone.utc).weekday() == True  # 0=Mon, 4=Fri
+# Generate summary if env var is set OR if today is Friday (weekday == 4)
+_today_is_friday = datetime.now(timezone.utc).weekday() == 4
 GENERATE_SUMMARY = os.environ.get("WEEKLY_SUMMARY", "false").lower() == "true" or _today_is_friday
 
-MAX_ITEMS_FROM_FEED    = 100  # Google RSS hard limit
+MAX_ITEMS_FROM_FEED    = 100   # Google RSS hard limit per feed
 MAX_AGE_DAYS           = 7
 MAX_ITEMS_PER_CATEGORY = 15
 MAX_TITLES_FOR_SUMMARY = 15
+GEMINI_PAUSE_SECONDS   = 15   # pause between Gemini calls to avoid 429
 
 
 def gnews(query: str, lang: str = "de", country: str = "AT") -> str:
@@ -42,7 +43,7 @@ CATEGORIES = {
     "steiermark": {
         "label": "Steiermark",
         "icon": "🏞️",
-        "color": "#2e7d32",
+        "color": "#1a5c38",
         "feeds": [
             gnews("Lärmschutz Steiermark"),
             gnews("Verkehrslärm Steiermark"),
@@ -160,7 +161,6 @@ CATEGORIES = {
             gnews("low frequency noise infrasound research", lang="en", country="GB"),
             gnews("Lärmbekämpfung Forschung", country="DE"),
             gnews("Lärmschutz Wissenschaft Studie", country="DE"),
-            # ingenieur.de Lärmbekämpfung rubric specifically
             gnews("site:ingenieur.de/fachmedien/laermbekaempfung", country="DE"),
             gnews("Lärmbekämpfung Akustik ingenieur.de", country="DE"),
         ],
@@ -308,7 +308,6 @@ def generate_weekly_summary(categories_data: dict) -> None:
 
     print("  Calling Gemini for executive summary…")
     exec_text = call_gemini(exec_prompt, max_tokens=3000)
-    time.sleep(5)
 
     paragraphs = [p.strip() for p in exec_text.split("\n") if p.strip()]
     html_paragraphs = "\n".join(f"    <p>{p}</p>" for p in paragraphs)
@@ -326,15 +325,15 @@ def generate_weekly_summary(categories_data: dict) -> None:
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after {{ box-sizing: border-box; margin: 0; padding: 0; }}
-    body {{ font-family: 'DM Sans', sans-serif; background: #f4f4f0; color: #1a1a1a; padding: 40px 20px 80px; }}
-    .page {{ max-width: 740px; margin: 0 auto; background: #fff; border: 1px solid #e0e0e0; border-radius: 10px; padding: 52px 60px; box-shadow: 0 2px 20px rgba(0,0,0,0.06); }}
-    .back {{ display: inline-block; margin-bottom: 32px; font-size: 13px; color: #888; text-decoration: none; }}
+    body {{ font-family: 'DM Sans', sans-serif; background: #f0f4f0; color: #1a1a1a; padding: 40px 20px 80px; }}
+    .page {{ max-width: 740px; margin: 0 auto; background: #fff; border: 1px solid #c8dbc8; border-radius: 10px; padding: 52px 60px; box-shadow: 0 2px 20px rgba(26,92,56,0.08); }}
+    .back {{ display: inline-block; margin-bottom: 32px; font-size: 13px; color: #1a5c38; text-decoration: none; }}
     .back:hover {{ color: #333; }}
-    .kw {{ font-size: 11px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #c8102e; margin-bottom: 10px; }}
+    .kw {{ font-size: 11px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #1a5c38; margin-bottom: 10px; }}
     h1 {{ font-family: 'DM Serif Display', serif; font-weight: 400; font-size: 28px; line-height: 1.3; margin-bottom: 6px; }}
-    .meta {{ font-size: 13px; color: #999; margin-bottom: 36px; padding-bottom: 24px; border-bottom: 2px solid #1a1a1a; }}
+    .meta {{ font-size: 13px; color: #999; margin-bottom: 36px; padding-bottom: 24px; border-bottom: 2px solid #1a5c38; }}
     p {{ font-size: 15px; line-height: 1.75; color: #2a2a2a; margin-bottom: 18px; }}
-    p:first-of-type::first-letter {{ font-family: 'DM Serif Display', serif; font-size: 52px; line-height: 0.85; float: left; margin-right: 8px; margin-top: 6px; color: #c8102e; }}
+    p:first-of-type::first-letter {{ font-family: 'DM Serif Display', serif; font-size: 52px; line-height: 0.85; float: left; margin-right: 8px; margin-top: 6px; color: #1a5c38; }}
     .tags {{ display: flex; gap: 8px; flex-wrap: wrap; margin-top: 36px; padding-top: 24px; border-top: 1px solid #e0e0e0; }}
     .tag {{ font-size: 11px; font-weight: 600; padding: 4px 10px; border-radius: 20px; color: #fff; }}
     .footer {{ margin-top: 32px; font-size: 11px; color: #bbb; text-align: center; }}
@@ -350,13 +349,13 @@ def generate_weekly_summary(categories_data: dict) -> None:
     <div class="meta">Erstellt am {date_str} · Basierend auf aktuellen Meldungen aus 5 Kategorien</div>
 {html_paragraphs}
     <div class="tags">
-      <span class="tag" style="background:#2e7d32">🏞️ Steiermark</span>
+      <span class="tag" style="background:#1a5c38">🏞️ Steiermark</span>
       <span class="tag" style="background:#c8102e">🇦🇹 Österreich</span>
       <span class="tag" style="background:#5a5a5a">🏔️ DACH</span>
       <span class="tag" style="background:#003399">🇪🇺 Europa</span>
       <span class="tag" style="background:#1a6b3c">🔬 Wissenschaft</span>
     </div>
-    <div class="footer">Automatisch generiert von Gemini AI · Lärmschutz News Monitor</div>
+    <div class="footer">© Florian Lackner · Powered by Google Gemini AI & GitHub Actions</div>
   </div>
 </body>
 </html>"""
@@ -370,7 +369,7 @@ def generate_weekly_summary(categories_data: dict) -> None:
 # ── Main ───────────────────────────────────────────────────────────────────────
 
 def main():
-    print(f"Weekly summary: {'YES' if GENERATE_SUMMARY else 'no'}")
+    print(f"Weekly summary: {'YES – Freitag!' if GENERATE_SUMMARY else 'no'}")
     output = {
         "generated": datetime.now(timezone.utc).strftime("%d. %B %Y, %H:%M UTC"),
         "categories": {},
@@ -396,7 +395,8 @@ def main():
         titles_for_summary = [i["title"] for i in items[:MAX_TITLES_FOR_SUMMARY]]
         summary = summarize_with_gemini(titles_for_summary, cat["summary_prompt"])
         print(f"  Summary: {summary[:80]}…")
-        time.sleep(5)
+        print(f"  Waiting {GEMINI_PAUSE_SECONDS}s before next Gemini call…")
+        time.sleep(GEMINI_PAUSE_SECONDS)
 
         output["categories"][cat_id] = {
             "label": cat["label"],
