@@ -1,11 +1,11 @@
 {
-  "generated": "02. April 2026, 08:09 UTC",
+  "generated": "02. April 2026, 08:16 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#2e7d32",
-      "summary": "Zusammenfassung konnte nicht erstellt werden.",
+      "summary": "Aktuell dominieren in der Steiermark Lärmbeschwerden im Zusammenhang mit der neuen Koralmbahn die Diskussion um Lärmschutz. Insbesondere in Groß St. Florian äußern Anrainer deutliche Klagen über die Geräuschbelastung durch die neu errichtete Bahnstrecke. Diese lokale Entwicklung unterstreicht die Herausforderung, bei großen Infrastrukturprojekten effektiven Lärmschutz für betroffene Gemeinden zu gewährleisten.",
       "items": [
         {
           "title": "Koralmbahn: Anrainer der neuen Bahnstrecke in Groß St. Florian klagen über Lärm - Kleine Zeitung",
@@ -19,7 +19,7 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Aktuelle Berichte zeigen, dass Österreich im europäischen Vergleich zu den Ländern mit der höchsten Lärmbelastung gehört. Diese Erkenntnis unterstreicht die Dringlichkeit, effektive Maßnahmen zum Lärmschutz zu implementieren und bestehende Strategien zu überprüfen. Es verdeutlicht den anhaltenden Bedarf an umfassenden Ansätzen, um die Lebensqualität der Bevölkerung zu verbessern und gesundheitliche Risiken durch Lärm zu minimieren.",
+      "summary": "Österreich zählt zu den lautesten Ländern Europas, was eine alarmierende Entwicklung im Bereich des Lärmschutzes darstellt. Diese Erkenntnis unterstreicht die dringende Notwendigkeit, umfassende Strategien und Maßnahmen zur Lärmreduktion zu implementieren. Es zeigt sich ein erheblicher Handlungsbedarf, um die Lebensqualität und Gesundheit der Bevölkerung nachhaltig zu verbessern und den Herausforderungen der urbanen und verkehrsbedingten Lärmbelastung effektiv zu begegnen.",
       "items": [
         {
           "title": "Österreich zählt zu den „lautesten“ Ländern Europas - DiePresse.com",
@@ -33,7 +33,7 @@
       "label": "DACH – Umgebungslärm",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Aktuelle Meldungen aus Deutschland deuten auf eine temporäre, bundesweite Lockerung der nächtlichen Lärmschutzbestimmungen hin. Konkret wird die Einhaltung der Nachtruhe nach 22 Uhr für diesen Sommer ausgesetzt, was als neue Lärmschutz-Regel oder Sonderregelung beschrieben wird. Diese Entwicklung, die von der Bundesregierung initiiert wurde, wird in verschiedenen deutschen Regionen, wie durch Berichte des Merkur und Berliner Kuriers ersichtlich, als signifikante Abweichung von den üblichen Lärmschutzstandards wahrgenommen und diskutiert.",
+      "summary": "In Deutschland wurde eine temporäre Sonderregelung für den kommenden Sommer beschlossen, die eine Aussetzung der üblichen Nachtruhe nach 22 Uhr ermöglicht. Die Bundesregierung hat damit eine allgemeine Lockerung der Lärmschutzvorschriften für diesen Zeitraum erlaubt. Diese Entwicklung könnte in vielen Regionen Deutschlands zu einer erhöhten Lärmbelastung in den späten Abendstunden führen.",
       "items": [
         {
           "title": "Sonderregelung beschlossen: Nachtruhe nach 22 Uhr wird diesen Sommer ausgesetzt - Merkur",
@@ -53,7 +53,7 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Recent developments in European noise control policy indicate a growing emphasis on mitigating specific sources of urban disturbance, notably exemplified by a new crackdown targeting noisy rolling suitcases. This initiative suggests a broader, potentially cross-border effort to address everyday noise nuisances impacting quality of life across the continent. While the expanding market for microphones in Europe points to a robust industry for noise monitoring and measurement tools, the more immediate policy focus is on direct regulatory actions to reduce noise pollution from common sources.",
+      "summary": "Europe is witnessing new regulatory efforts aimed at mitigating noise pollution, with a notable development being a continent-wide crackdown on noisy rolling suitcases. This initiative highlights a growing focus within European policy to address everyday noise sources that impact public tranquility and quality of life. Such measures underscore an increasing commitment to enhancing urban soundscapes and reducing noise nuisance across borders.",
       "items": [
         {
           "title": "Europe Microphones Market Size, Share & Trends, 2034 - Market Data Forecast",
@@ -73,7 +73,7 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Emerging research underscores that urban noise control must evolve beyond simple decibel reduction, with studies now directly linking city soundscapes to mental well-being. This shift necessitates a broader approach for engineers, focusing on holistic soundscape design and analysis rather than merely mitigating individual noise sources. Concurrently, persistent public concern, exemplified by ongoing debates around \"wind turbine syndrome,\" highlights the critical need for robust noise and vibration impact assessments in renewable energy projects. Therefore, noise control engineers must integrate nuanced soundscape considerations into urban planning while maintaining rigorous mitigation strategies for infrastructure noise.",
+      "summary": "Noise control engineers are increasingly tasked with considering urban soundscapes and their direct link to mental well-being, requiring a shift towards holistic acoustic design principles beyond mere decibel reduction. Practical implications also arise from persistent debates surrounding wind turbine noise and its potential health impacts, necessitating careful consideration in renewable energy projects. Moreover, the evolving landscape of transportation, with the rise of electric vehicles and fuel cell trucks, will fundamentally alter urban noise profiles, demanding innovative noise control strategies. Engineers must also prepare for emerging acoustic challenges posed by new aerial vehicles like drones, integrating their noise impact into future planning.",
       "items": [
         {
           "title": "The Soundscape of Cities Matters: Study Links Urban Acoustic Environments to Mental Well-Being - elciudadano.com",
