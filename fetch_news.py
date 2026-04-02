@@ -29,10 +29,10 @@ MAX_ITEMS_FROM_FEED     = 100   # Google RSS hard limit per feed
 MAX_AGE_DAYS            = 7
 MAX_ITEMS_PER_CATEGORY  = 15
 MAX_TITLES_FOR_SUMMARY  = 15
-GEMINI_PAUSE_SECONDS    = 15    # pause between category Gemini calls
+GEMINI_PAUSE_SECONDS    = 60    # pause between category Gemini calls
 GEMINI_RETRY_ATTEMPTS   = 10   # max retries on 429
-GEMINI_RETRY_WAIT       = 15   # seconds between retries
-SUMMARY_PRE_PAUSE       = 30   # extra pause before executive summary call
+GEMINI_RETRY_WAIT       = 60   # seconds between retries
+SUMMARY_PRE_PAUSE       = 60   # extra pause before executive summary call
 
 
 def gnews(query: str, lang: str = "de", country: str = "AT") -> str:
