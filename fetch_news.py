@@ -10,6 +10,7 @@ import re
 import time
 from datetime import datetime, timezone, timedelta
 from urllib.request import urlopen, Request
+from urllib.error import HTTPError
 import xml.etree.ElementTree as ET
 
 # ── Configuration ──────────────────────────────────────────────────────────────
@@ -21,14 +22,17 @@ GEMINI_URL = (
 )
 
 # Generate summary if env var is set OR if today is Friday (weekday == 4)
-_today_is_friday = datetime.now(timezone.utc).weekday() == 3
+_today_is_friday = datetime.now(timezone.utc).weekday() == 4
 GENERATE_SUMMARY = os.environ.get("WEEKLY_SUMMARY", "false").lower() == "true" or _today_is_friday
 
-MAX_ITEMS_FROM_FEED    = 100   # Google RSS hard limit per feed
-MAX_AGE_DAYS           = 7
-MAX_ITEMS_PER_CATEGORY = 15
-MAX_TITLES_FOR_SUMMARY = 15
-GEMINI_PAUSE_SECONDS   = 15   # pause between Gemini calls to avoid 429
+MAX_ITEMS_FROM_FEED     = 100   # Google RSS hard limit per feed
+MAX_AGE_DAYS            = 7
+MAX_ITEMS_PER_CATEGORY  = 15
+MAX_TITLES_FOR_SUMMARY  = 15
+GEMINI_PAUSE_SECONDS    = 15    # pause between category Gemini calls
+GEMINI_RETRY_ATTEMPTS   = 10   # max retries on 429
+GEMINI_RETRY_WAIT       = 15   # seconds between retries
+SUMMARY_PRE_PAUSE       = 30   # extra pause before executive summary call
 
 
 def gnews(query: str, lang: str = "de", country: str = "AT") -> str:
@@ -251,24 +255,48 @@ def format_date(raw: str) -> str:
         return raw[:16]
 
 
-# ── Gemini ─────────────────────────────────────────────────────────────────────
+# ── Gemini with retry ──────────────────────────────────────────────────────────
 
 def call_gemini(prompt: str, max_tokens: int = 2000) -> str:
+    """Call Gemini API with automatic retry on 429 rate limit errors."""
     import json as _json
+
     body = _json.dumps({
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {"maxOutputTokens": max_tokens, "temperature": 0.3},
     }).encode()
-    req = Request(GEMINI_URL, data=body, headers={"Content-Type": "application/json"}, method="POST")
-    try:
-        with urlopen(req, timeout=30) as resp:
-            data = _json.loads(resp.read())
-        finish_reason = data["candidates"][0].get("finishReason", "unknown")
-        print(f"  Finish reason: {finish_reason}")
-        return data["candidates"][0]["content"]["parts"][0]["text"].strip()
-    except Exception as e:
-        print(f"  Gemini error: {e}")
-        return "Zusammenfassung konnte nicht erstellt werden."
+
+    for attempt in range(1, GEMINI_RETRY_ATTEMPTS + 1):
+        try:
+            req = Request(
+                GEMINI_URL,
+                data=body,
+                headers={"Content-Type": "application/json"},
+                method="POST",
+            )
+            with urlopen(req, timeout=30) as resp:
+                data = _json.loads(resp.read())
+            finish_reason = data["candidates"][0].get("finishReason", "unknown")
+            print(f"  Finish reason: {finish_reason}")
+            return data["candidates"][0]["content"]["parts"][0]["text"].strip()
+
+        except HTTPError as e:
+            if e.code == 429:
+                if attempt < GEMINI_RETRY_ATTEMPTS:
+                    print(f"  Gemini 429 rate limit (attempt {attempt}/{GEMINI_RETRY_ATTEMPTS}) – waiting {GEMINI_RETRY_WAIT}s…")
+                    time.sleep(GEMINI_RETRY_WAIT)
+                else:
+                    print(f"  Gemini 429 – all {GEMINI_RETRY_ATTEMPTS} attempts exhausted.")
+                    return "Zusammenfassung konnte nicht erstellt werden (Rate Limit)."
+            else:
+                print(f"  Gemini HTTP error {e.code}: {e}")
+                return "Zusammenfassung konnte nicht erstellt werden."
+
+        except Exception as e:
+            print(f"  Gemini error: {e}")
+            return "Zusammenfassung konnte nicht erstellt werden."
+
+    return "Zusammenfassung konnte nicht erstellt werden."
 
 
 def summarize_with_gemini(titles: list[str], prompt: str) -> str:
@@ -282,6 +310,11 @@ def summarize_with_gemini(titles: list[str], prompt: str) -> str:
 
 def generate_weekly_summary(categories_data: dict) -> None:
     print("\n── Generating Weekly Executive Summary ──")
+
+    # Extra pause to let Gemini rate limit recover after 5 category calls
+    print(f"  Waiting {SUMMARY_PRE_PAUSE}s for rate limit recovery…")
+    time.sleep(SUMMARY_PRE_PAUSE)
+
     sections = []
     for cat_id, cat in categories_data.items():
         summary = cat.get("summary", "")
@@ -395,7 +428,7 @@ def main():
         titles_for_summary = [i["title"] for i in items[:MAX_TITLES_FOR_SUMMARY]]
         summary = summarize_with_gemini(titles_for_summary, cat["summary_prompt"])
         print(f"  Summary: {summary[:80]}…")
-        print(f"  Waiting {GEMINI_PAUSE_SECONDS}s before next Gemini call…")
+        print(f"  Waiting {GEMINI_PAUSE_SECONDS}s…")
         time.sleep(GEMINI_PAUSE_SECONDS)
 
         output["categories"][cat_id] = {
