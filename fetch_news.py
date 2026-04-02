@@ -1,6 +1,6 @@
 """
 Lärmschutz News Fetcher
-Fetches RSS feeds, summarizes with Gemini, saves to docs/data.json
+Fetches RSS feeds, filters by date, summarizes with Gemini, saves to docs/data.json
 Optionally generates a weekly executive summary (docs/summary.html)
 """
 
@@ -22,9 +22,14 @@ GEMINI_URL = (
 
 GENERATE_SUMMARY = os.environ.get("WEEKLY_SUMMARY", "false").lower() == "true"
 
-
-# Berechnet das Datum von vor 7 Tagen im Format YYYY-MM-DD
-date_filter = (datetime.now() - timedelta(days=7)).strftime('%Y-%m-%d')
+# Fetch up to this many items per feed before filtering
+MAX_ITEMS_FROM_FEED = 50
+# Keep only articles not older than this many days
+MAX_AGE_DAYS = 7
+# How many articles to show per category on the website
+MAX_ITEMS_PER_CATEGORY = 12
+# How many titles to send to Gemini for summarization
+MAX_TITLES_FOR_SUMMARY = 15
 
 CATEGORIES = {
     "steiermark": {
@@ -32,20 +37,11 @@ CATEGORIES = {
         "icon": "🏞️",
         "color": "#2e7d32",
         "feeds": [
-        f"https://news.google.com/rss/search?q=L%C3%A4rmschutz+Steiermark+after:{date_filter}&hl=de&gl=AT&ceid=AT:de",
-        f"https://news.google.com/rss/search?q=Verkehrsl%C3%A4rm+Steiermark+after:{date_filter}&hl=de&gl=AT&ceid=AT:de",
-        f"https://news.google.com/rss/search?q=Umgebungsl%C3%A4rm+Steiermark+after:{date_filter}&hl=de&gl=AT&ceid=AT:de",
-        f"https://news.google.com/rss/search?q=Flugl%C3%A4rm+Graz+after:{date_filter}&hl=de&gl=AT&ceid=AT:de",
-        f"https://news.google.com/rss/search?q=L%C3%A4rm+Graz+Steiermark+after:{date_filter}&hl=de&gl=AT&ceid=AT:de",
-        ],
-        
-        
-        "feeds": [
-            "https://news.google.com/rss/search?q=L%C3%A4rmschutz+Steiermark+when:7d&hl=de&gl=AT&ceid=AT:de",
-            "https://news.google.com/rss/search?q=Verkehrsl%C3%A4rm+Steiermark+when:7d&hl=de&gl=AT&ceid=AT:de",
-            "https://news.google.com/rss/search?q=Umgebungsl%C3%A4rm+Steiermark&hl+when:7d&hl=de&gl=AT&ceid=AT:de",
-            "https://news.google.com/rss/search?q=Flugl%C3%A4rm+Graz&hl=de&gl+when:7d&hl=de&gl=AT&ceid=AT:de",
-            "https://news.google.com/rss/search?q=L%C3%A4rm+Graz+Steiermark&hl+when:7d&hl=de&gl=AT&ceid=AT:de",
+            "https://news.google.com/rss/search?q=L%C3%A4rmschutz+Steiermark&hl=de&gl=AT&ceid=AT:de",
+            "https://news.google.com/rss/search?q=Verkehrsl%C3%A4rm+Steiermark&hl=de&gl=AT&ceid=AT:de",
+            "https://news.google.com/rss/search?q=Umgebungsl%C3%A4rm+Steiermark&hl=de&gl=AT&ceid=AT:de",
+            "https://news.google.com/rss/search?q=Flugl%C3%A4rm+Graz&hl=de&gl=AT&ceid=AT:de",
+            "https://news.google.com/rss/search?q=L%C3%A4rm+Graz+Steiermark&hl=de&gl=AT&ceid=AT:de",
         ],
         "summary_prompt": (
             "Du bist Experte für Lärmschutz in der Steiermark und Graz. "
@@ -60,10 +56,11 @@ CATEGORIES = {
         "icon": "🇦🇹",
         "color": "#c8102e",
         "feeds": [
-            "https://news.google.com/rss/search?q=L%C3%A4rmschutz+%C3%96sterreich&hl=de&gl=AT&ceid=AT:de&when=7d",
-            "https://news.google.com/rss/search?q=L%C3%A4rmschutzwand+%C3%96sterreich&hl=de&gl=AT&ceid=AT:de&when=7d",
-            "https://news.google.com/rss/search?q=L%C3%A4rm+%C3%96sterreich+Verordnung&hl=de&gl=AT&ceid=AT:de&when=7d",
-            "https://news.google.com/rss/search?q=Verkehrsl%C3%A4rm+%C3%96sterreich&hl=de&gl=AT&ceid=AT:de&when=7d",
+            "https://news.google.com/rss/search?q=L%C3%A4rmschutz+%C3%96sterreich&hl=de&gl=AT&ceid=AT:de",
+            "https://news.google.com/rss/search?q=L%C3%A4rmschutzwand+%C3%96sterreich&hl=de&gl=AT&ceid=AT:de",
+            "https://news.google.com/rss/search?q=L%C3%A4rm+%C3%96sterreich+Verordnung&hl=de&gl=AT&ceid=AT:de",
+            "https://news.google.com/rss/search?q=Verkehrsl%C3%A4rm+%C3%96sterreich&hl=de&gl=AT&ceid=AT:de",
+            "https://news.google.com/rss/search?q=Umgebungsl%C3%A4rm+%C3%96sterreich&hl=de&gl=AT&ceid=AT:de",
         ],
         "summary_prompt": (
             "Du bist Experte für Lärmschutz in Österreich. "
@@ -78,12 +75,12 @@ CATEGORIES = {
         "icon": "🏔️",
         "color": "#5a5a5a",
         "feeds": [
-            "https://news.google.com/rss/search?q=Verkehrsl%C3%A4rm+Deutschland+%C3%96sterreich+Schweiz&hl=de&gl=DE&ceid=DE:de&when=7d",
-            "https://news.google.com/rss/search?q=Flugl%C3%A4rm+Deutschland&hl=de&gl=DE&ceid=DE:de&when=7d",
-            "https://news.google.com/rss/search?q=Flugl%C3%A4rm+%C3%96sterreich+Schweiz&hl=de&gl=AT&ceid=AT:de&when=7d",
-            "https://news.google.com/rss/search?q=Schienenl%C3%A4rm+Bahn+Deutschland&hl=de&gl=DE&ceid=DE:de&when=7d",
-            "https://news.google.com/rss/search?q=Industriel%C3%A4rm+Umgebungsl%C3%A4rm&hl=de&gl=DE&ceid=DE:de&when=7d",
-            "https://news.google.com/rss/search?q=Umgebungsl%C3%A4rm+L%C3%A4rmkarte+L%C3%A4rmbericht&hl=de&gl=DE&ceid=DE:de&when=7d",
+            "https://news.google.com/rss/search?q=Verkehrsl%C3%A4rm+Deutschland+%C3%96sterreich+Schweiz&hl=de&gl=DE&ceid=DE:de",
+            "https://news.google.com/rss/search?q=Flugl%C3%A4rm+Deutschland&hl=de&gl=DE&ceid=DE:de",
+            "https://news.google.com/rss/search?q=Flugl%C3%A4rm+%C3%96sterreich+Schweiz&hl=de&gl=AT&ceid=AT:de",
+            "https://news.google.com/rss/search?q=Schienenl%C3%A4rm+Bahn+Deutschland&hl=de&gl=DE&ceid=DE:de",
+            "https://news.google.com/rss/search?q=Industriel%C3%A4rm+Umgebungsl%C3%A4rm&hl=de&gl=DE&ceid=DE:de",
+            "https://news.google.com/rss/search?q=Umgebungsl%C3%A4rm+L%C3%A4rmkarte+L%C3%A4rmbericht&hl=de&gl=DE&ceid=DE:de",
         ],
         "summary_prompt": (
             "Du bist Experte für Umgebungslärm in der DACH-Region (Deutschland, Österreich, Schweiz). "
@@ -98,9 +95,10 @@ CATEGORIES = {
         "icon": "🇪🇺",
         "color": "#003399",
         "feeds": [
-            "https://news.google.com/rss/search?q=noise+control+EU+directive&hl=en&gl=GB&ceid=GB:en&when=7d",
-            "https://news.google.com/rss/search?q=environmental+noise+Europe+regulation&hl=en&gl=GB&ceid=GB:en&when=7d",
-            "https://news.google.com/rss/search?q=L%C3%A4rmschutz+Europa+EU&hl=de&gl=DE&ceid=DE:de&when=7d",
+            "https://news.google.com/rss/search?q=noise+control+EU+directive&hl=en&gl=GB&ceid=GB:en",
+            "https://news.google.com/rss/search?q=environmental+noise+Europe+regulation&hl=en&gl=GB&ceid=GB:en",
+            "https://news.google.com/rss/search?q=L%C3%A4rmschutz+Europa+EU&hl=de&gl=DE&ceid=DE:de",
+            "https://news.google.com/rss/search?q=noise+pollution+Europe+policy&hl=en&gl=GB&ceid=GB:en",
         ],
         "summary_prompt": (
             "You are an expert on European noise control policy. "
@@ -115,9 +113,10 @@ CATEGORIES = {
         "icon": "🔬",
         "color": "#1a6b3c",
         "feeds": [
-            "https://news.google.com/rss/search?q=acoustics+noise+control+research&hl=en&gl=GB&ceid=GB:en&when=7d",
-            "https://news.google.com/rss/search?q=noise+barrier+material+research&hl=en&gl=GB&ceid=GB:en&when=7d",
-            "https://news.google.com/rss/search?q=urban+noise+acoustic+study&hl=en&gl=GB&ceid=GB:en&when=7d",
+            "https://news.google.com/rss/search?q=acoustics+noise+control+research&hl=en&gl=GB&ceid=GB:en",
+            "https://news.google.com/rss/search?q=noise+barrier+material+research&hl=en&gl=GB&ceid=GB:en",
+            "https://news.google.com/rss/search?q=urban+noise+acoustic+study&hl=en&gl=GB&ceid=GB:en",
+            "https://news.google.com/rss/search?q=noise+pollution+health+research&hl=en&gl=GB&ceid=GB:en",
         ],
         "summary_prompt": (
             "You are an acoustics researcher. "
@@ -129,13 +128,22 @@ CATEGORIES = {
     },
 }
 
-MAX_ITEMS_PER_CATEGORY = 10
-MAX_TITLES_FOR_SUMMARY = 15
-
 
 # ── RSS Fetching ───────────────────────────────────────────────────────────────
 
+def parse_pub_date(raw: str):
+    """Parse RSS pubDate string to timezone-aware datetime. Returns None on failure."""
+    if not raw:
+        return None
+    try:
+        from email.utils import parsedate_to_datetime
+        return parsedate_to_datetime(raw)
+    except Exception:
+        return None
+
+
 def fetch_rss(url: str) -> list[dict]:
+    """Fetch and parse a single RSS feed, return up to MAX_ITEMS_FROM_FEED items."""
     items = []
     try:
         req = Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; NewsBot/1.0)"})
@@ -145,17 +153,41 @@ def fetch_rss(url: str) -> list[dict]:
         channel = root.find("channel")
         if channel is None:
             return items
-        for item in channel.findall("item"):
+        for item in channel.findall("item")[:MAX_ITEMS_FROM_FEED]:
             title = (item.findtext("title") or "").strip()
             link  = (item.findtext("link")  or "").strip()
             pub   = (item.findtext("pubDate") or "").strip()
             source_el = item.find("source")
             source = source_el.text.strip() if source_el is not None else ""
             if title:
-                items.append({"title": title, "link": link, "date": pub, "source": source})
+                items.append({
+                    "title": title,
+                    "link": link,
+                    "date_raw": pub,
+                    "date_parsed": parse_pub_date(pub),
+                    "source": source,
+                })
     except Exception as e:
         print(f"  Warning: could not fetch {url}: {e}")
     return items
+
+
+def filter_by_age(items: list[dict], max_age_days: int) -> list[dict]:
+    """Keep only items published within max_age_days. Items with no date are kept."""
+    cutoff = datetime.now(timezone.utc) - timedelta(days=max_age_days)
+    result = []
+    skipped = 0
+    for item in items:
+        dt = item.get("date_parsed")
+        if dt is None:
+            result.append(item)  # no date → keep
+        elif dt >= cutoff:
+            result.append(item)
+        else:
+            skipped += 1
+    if skipped:
+        print(f"  Filtered out {skipped} items older than {max_age_days} days")
+    return result
 
 
 def deduplicate(items: list[dict]) -> list[dict]:
@@ -202,14 +234,14 @@ def call_gemini(prompt: str, max_tokens: int = 2000) -> str:
 
 def summarize_with_gemini(titles: list[str], prompt: str) -> str:
     if not titles:
-        return "Keine aktuellen Meldungen gefunden."
+        return "Keine aktuellen Meldungen der letzten 7 Tage gefunden."
     numbered = "\n".join(f"{i+1}. {t}" for i, t in enumerate(titles))
     return call_gemini(prompt + "\n\nNachrichtentitel:\n" + numbered, max_tokens=2000)
 
 
 # ── Weekly Executive Summary ───────────────────────────────────────────────────
 
-def generate_weekly_summary(categories_data: dict, generated: str) -> None:
+def generate_weekly_summary(categories_data: dict) -> None:
     print("\n── Generating Weekly Executive Summary ──")
     sections = []
     for cat_id, cat in categories_data.items():
@@ -306,17 +338,28 @@ def main():
 
     for cat_id, cat in CATEGORIES.items():
         print(f"\n── {cat['label']} ──")
+
+        # Fetch
         all_items = []
         for feed_url in cat["feeds"]:
             print(f"  Fetching: {feed_url[:80]}…")
             all_items.extend(fetch_rss(feed_url))
 
+        print(f"  {len(all_items)} total items before filtering")
+
+        # Filter by age
+        all_items = filter_by_age(all_items, MAX_AGE_DAYS)
+
+        # Deduplicate and limit
         items = deduplicate(all_items)[:MAX_ITEMS_PER_CATEGORY]
-        print(f"  {len(items)} unique items")
+        print(f"  {len(items)} unique items after date filter")
 
+        # Format dates for display (remove parsed datetime before saving)
         for item in items:
-            item["date"] = format_date(item["date"])
+            item["date"] = format_date(item.pop("date_raw", ""))
+            item.pop("date_parsed", None)
 
+        # Summarize
         print("  Calling Gemini…")
         titles_for_summary = [i["title"] for i in items[:MAX_TITLES_FOR_SUMMARY]]
         summary = summarize_with_gemini(titles_for_summary, cat["summary_prompt"])
@@ -337,7 +380,7 @@ def main():
     print("\n✅ docs/data.json written successfully.")
 
     if GENERATE_SUMMARY:
-        generate_weekly_summary(output["categories"], output["generated"])
+        generate_weekly_summary(output["categories"])
 
 
 if __name__ == "__main__":
