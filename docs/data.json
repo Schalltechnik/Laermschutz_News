@@ -1,11 +1,11 @@
 {
-  "generated": "02. April 2026, 08:37 UTC",
+  "generated": "02. April 2026, 12:19 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
-      "color": "#2e7d32",
-      "summary": "Zusammenfassung konnte nicht erstellt werden.",
+      "color": "#1a5c38",
+      "summary": "In der Steiermark sorgt die neue Koralmbahn für lokale Lärmschutzdiskussionen. Konkret beklagen Anrainer in Groß St. Florian eine erhebliche Lärmbelästigung durch die neu in Betrieb genommene Bahnstrecke. Diese Entwicklung verdeutlicht die anhaltende Herausforderung, bei großen Infrastrukturprojekten die Lärmauswirkungen auf die betroffene Bevölkerung umfassend zu managen und entsprechende Schutzmaßnahmen zu gewährleisten.",
       "items": [
         {
           "title": "Koralmbahn: Anrainer der neuen Bahnstrecke in Groß St. Florian klagen über Lärm - Kleine Zeitung",
@@ -33,14 +33,8 @@
       "label": "DACH – Umgebungslärm",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Zusammenfassung konnte nicht erstellt werden.",
+      "summary": "Die Bundesregierung hat im Sommer neue Lärmschutz-Regeln erlaubt, die potenziell die Nachtruhe beeinträchtigen könnten. Diese nationale Entwicklung in Deutschland deutet auf eine mögliche Lockerung bestehender Schutzmaßnahmen hin, deren konkrete Auswirkungen auf die verschiedenen Lärmquellen wie Verkehr, Flug oder Industrie noch zu beobachten sind. Es bleibt abzuwarten, welche regionalen Unterschiede sich bei der Umsetzung dieser neuen Regelungen ergeben werden.",
       "items": [
-        {
-          "title": "Sonderregelung beschlossen: Nachtruhe nach 22 Uhr wird diesen Sommer ausgesetzt - Merkur",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORUZRLUp6VGNwRXJUSlZPTHZFVGJpb3UyUlhDOWdWSzhLaWRIdDd1NEtPUW5sN2Y2Zk91cTNsUWVCb1NTdHJXUk91VHBra1J4ak1tODBpZjNwNGVweXE0bWswZ0ttNXNHY2FKemtpODhFUlVhOWpmWVpnNVZCZGxjVWd5OEw2ZldHdlFNRmxFU0lfNDQ4bzItV00wVjVGUjJuR09ZbnR1bw?oc=5",
-          "source": "Merkur",
-          "date": "31. Mar 2026"
-        },
         {
           "title": "Nachtruhe fällt weg: Bundesregierung erlaubt im Sommer neue Lärmschutz-Regeln - Berliner Kurier",
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNYkZIQkJQZ2lkeXByeTZPRTdyTzdkR0lVd25aZ0UxUEJjWGJSYm9mTnloZHlGN0Y3U2RJZTlQREh5X1BfTklmN0U1QzBhVGFxWDE4XzZFWWxDb3U2M3hFZzFNaTg1eU5lTXhZYmRrM1R3cjVxRGhPU3VQdnFtSUtFTHZkNFc5eFFMTUZFUmRoQkVZVGFIQ19vRzJEeU11X05uV2E3d3lfd0d2enpITWVRR0RB?oc=5",
@@ -53,7 +47,7 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Recent reports highlight a new, widespread initiative across Europe aimed at curbing noise pollution, specifically targeting noisy rolling suitcases. This development signals a growing focus on mitigating everyday urban noise sources, reflecting a potential shift towards stricter noise control measures impacting travel and public spaces. Such a crackdown suggests a coordinated effort to enhance acoustic comfort across various European regions.",
+      "summary": "Zusammenfassung konnte nicht erstellt werden.",
       "items": [
         {
           "title": "Europe Microphones Market Size, Share & Trends, 2034 - Market Data Forecast",
@@ -80,12 +74,6 @@
           "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcGl6Wk9MR0ptNHlwRVlHM192VmRQWjYxS0RLcDRYc3lJbWdFeWxXLUlDWVhlZlZQY3J4NXUtSEg4UjBGNzNrdUdLYkItNGNjeGs3RUN4MGVydHF5b3N5Tjgwa1lQVXBmTFU5ZlhycGtPT2VkT2tnblBmUGExN1g1c2dCdDhDY3NjeGRISVZ2TTYwVTdkS2JMZGFDUUZydkVNbVlEUXhuMDlHVFVILXhCN3pTN3RCa215Y2hDS2R4XzVTd2gzV3FXQUVpMDdDOU11eUNWNXdn?oc=5",
           "source": "elciudadano.com",
           "date": "1. Apr 2026"
-        },
-        {
-          "title": "Firm hired to study the 'soundscape of Sarasota' - Your Observer",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ZMF96bjhIaFVRbXpmWXgwdXR6eUFqczcwS1h1bno1NGZHSGNRc19uaHJxNHJ0Nkl3TlJFOGdxdzlXOVdRX1VrWDY3ODdfRnV4V1p1UFNvWGFkcGlEMVEyaDhfMUhmZG9VdkVSTDBSRl9MbjFWemFWbG90c1RIdw?oc=5",
-          "source": "Your Observer",
-          "date": "26. Mar 2026"
         },
         {
           "title": "“Scientific dead end:” The new push to get wind turbine syndrome back on the radar - Renew Economy",
