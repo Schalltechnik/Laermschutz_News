@@ -21,7 +21,7 @@ GEMINI_URL = (
 )
 
 # Generate summary if env var is set OR if today is Friday
-_today_is_friday = datetime.now(timezone.utc).weekday() == 4  # 0=Mon, 4=Fri
+_today_is_friday = datetime.now(timezone.utc).weekday() == True  # 0=Mon, 4=Fri
 GENERATE_SUMMARY = os.environ.get("WEEKLY_SUMMARY", "false").lower() == "true" or _today_is_friday
 
 MAX_ITEMS_FROM_FEED    = 100  # Google RSS hard limit
