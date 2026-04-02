@@ -29,10 +29,10 @@ MAX_ITEMS_FROM_FEED     = 100   # Google RSS hard limit per feed
 MAX_AGE_DAYS            = 7
 MAX_ITEMS_PER_CATEGORY  = 15
 MAX_TITLES_FOR_SUMMARY  = 15
-GEMINI_PAUSE_SECONDS    = 60    # pause between category Gemini calls
+GEMINI_PAUSE_SECONDS    = 30    # pause between category Gemini calls
 GEMINI_RETRY_ATTEMPTS   = 10   # max retries on 429
-GEMINI_RETRY_WAIT       = 60   # seconds between retries
-SUMMARY_PRE_PAUSE       = 60   # extra pause before executive summary call
+GEMINI_RETRY_WAIT       = 30   # seconds between retries
+SUMMARY_PRE_PAUSE       = 30   # extra pause before executive summary call
 
 
 def gnews(query: str, lang: str = "de", country: str = "AT") -> str:
@@ -195,7 +195,7 @@ def fetch_rss(url: str) -> list[dict]:
     items = []
     try:
         req = Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; NewsBot/1.0)"})
-        with urlopen(req, timeout=60) as resp:
+        with urlopen(req, timeout=30) as resp:
             raw = resp.read()
         root = ET.fromstring(raw)
         channel = root.find("channel")
@@ -274,7 +274,7 @@ def call_gemini(prompt: str, max_tokens: int = 2000) -> str:
                 headers={"Content-Type": "application/json"},
                 method="POST",
             )
-            with urlopen(req, timeout=60) as resp:
+            with urlopen(req, timeout=30) as resp:
                 data = _json.loads(resp.read())
             finish_reason = data["candidates"][0].get("finishReason", "unknown")
             print(f"  Finish reason: {finish_reason}")
@@ -326,21 +326,16 @@ def generate_weekly_summary(categories_data: dict) -> None:
         )
 
     exec_prompt = (
-        "Du bist ein Experte für Lärmschutz und Umgebungslärm. "
-        "Erstelle einen wöchentlichen Executive Summary auf Deutsch basierend auf den folgenden "
-        "Nachrichtenzusammenfassungen aus fünf Kategorien: Steiermark, Österreich, DACH-Region, Europa und Wissenschaft.\n\n"
-        "Der Executive Summary soll:\n"
-        "- Etwa eine A4-Seite lang sein (400–500 Wörter)\n"
-        "- Mit einem kurzen Gesamtüberblick (2–3 Sätze) beginnen\n"
-        "- Dann jede Kategorie in einem eigenen Absatz behandeln\n"
-        "- Die wichtigsten Trends und Entwicklungen der Woche hervorheben\n"
-        "- Professionell und prägnant formuliert sein\n"
-        "- NUR Fließtext, keine Aufzählungen, keine Markdown-Formatierung\n\n"
-        "Hier sind die Daten:\n\n" + "\n\n".join(sections)
+        "Du bist ein Experte für Lärmschutz. Erstelle einen fundierten Wochenrückblick auf Deutsch. "
+        "Struktur:\n"
+        "1. Einleitender Gesamtüberblick (3 Sätze).\n"
+        "2. Je ein Satz als Bulletpoint pro Kategorie (Steiermark, Österreich, DACH, Europa, Wissenschaft).\n"
+        "Analysiere Trends und Fachdetails. Schreibe insgesamt ca. 250 Wörter.\n"
+        "\n\nDaten:\n" + "\n\n".join(sections)
     )
 
     print("  Calling Gemini for executive summary…")
-    exec_text = call_gemini(exec_prompt, max_tokens=3000)
+    exec_text = call_gemini(exec_prompt, max_tokens=2048)
 
     paragraphs = [p.strip() for p in exec_text.split("\n") if p.strip()]
     html_paragraphs = "\n".join(f"    <p>{p}</p>" for p in paragraphs)
