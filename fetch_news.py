@@ -1,7 +1,11 @@
 """
 Lärmschutz News Fetcher
 Fetches RSS feeds, filters by date, summarizes with Gemini, saves to docs/data.json
-Generates weekly executive summary on Fridays or when WEEKLY_SUMMARY=true
+
+Schedule:
+  - Daily news:           03:00 UTC  (≈ 05:00 Graz)
+  - Weekly summary:       20:00 UTC Thursday  (≈ 22:00 Graz)
+  - Monthly summary:      10:00 UTC last day of month  (≈ 12:00 Graz)
 """
 
 import json
@@ -21,18 +25,28 @@ GEMINI_URL = (
     "gemini-2.5-flash:generateContent?key=" + GEMINI_API_KEY
 )
 
-# Generate summary if env var is set OR if today is Friday (weekday == 4)
-_today_is_friday = datetime.now(timezone.utc).weekday() == 4
-GENERATE_SUMMARY = os.environ.get("WEEKLY_SUMMARY", "false").lower() == "true" or _today_is_friday
+# Mode flags — set by GitHub Actions workflow via environment variables
+GENERATE_WEEKLY  = os.environ.get("WEEKLY_SUMMARY",  "false").lower() == "true"
+GENERATE_MONTHLY = os.environ.get("MONTHLY_SUMMARY", "false").lower() == "true"
 
-MAX_ITEMS_FROM_FEED     = 100   # Google RSS hard limit per feed
+# For monthly: only run if today is actually the last day of the month
+def _is_last_day_of_month() -> bool:
+    now = datetime.now(timezone.utc)
+    tomorrow = now + timedelta(days=1)
+    return tomorrow.day == 1
+
+if GENERATE_MONTHLY and not _is_last_day_of_month():
+    print("Monthly summary requested but today is not the last day of the month — skipping.")
+    GENERATE_MONTHLY = False
+
+MAX_ITEMS_FROM_FEED     = 100
 MAX_AGE_DAYS            = 7
 MAX_ITEMS_PER_CATEGORY  = 15
 MAX_TITLES_FOR_SUMMARY  = 15
-GEMINI_PAUSE_SECONDS    = 120    # pause between category Gemini calls
-GEMINI_RETRY_ATTEMPTS   = 10   # max retries on 429
-GEMINI_RETRY_WAIT       = 120   # seconds between retries
-SUMMARY_PRE_PAUSE       = 180   # extra pause before executive summary call
+GEMINI_PAUSE_SECONDS    = 120
+GEMINI_RETRY_ATTEMPTS   = 10
+GEMINI_RETRY_WAIT       = 120
+SUMMARY_PRE_PAUSE       = 180
 
 
 def gnews(query: str, lang: str = "de", country: str = "AT") -> str:
@@ -258,7 +272,6 @@ def format_date(raw: str) -> str:
 # ── Gemini with retry ──────────────────────────────────────────────────────────
 
 def call_gemini(prompt: str, max_tokens: int = 2000) -> str:
-    """Call Gemini API with automatic retry on 429 rate limit errors."""
     import json as _json
 
     body = _json.dumps({
@@ -283,7 +296,7 @@ def call_gemini(prompt: str, max_tokens: int = 2000) -> str:
         except HTTPError as e:
             if e.code == 429:
                 if attempt < GEMINI_RETRY_ATTEMPTS:
-                    print(f"  Gemini 429 rate limit (attempt {attempt}/{GEMINI_RETRY_ATTEMPTS}) – waiting {GEMINI_RETRY_WAIT}s…")
+                    print(f"  Gemini 429 (attempt {attempt}/{GEMINI_RETRY_ATTEMPTS}) – waiting {GEMINI_RETRY_WAIT}s…")
                     time.sleep(GEMINI_RETRY_WAIT)
                 else:
                     print(f"  Gemini 429 – all {GEMINI_RETRY_ATTEMPTS} attempts exhausted.")
@@ -291,7 +304,6 @@ def call_gemini(prompt: str, max_tokens: int = 2000) -> str:
             else:
                 print(f"  Gemini HTTP error {e.code}: {e}")
                 return "Zusammenfassung konnte nicht erstellt werden."
-
         except Exception as e:
             print(f"  Gemini error: {e}")
             return "Zusammenfassung konnte nicht erstellt werden."
@@ -306,50 +318,17 @@ def summarize_with_gemini(titles: list[str], prompt: str) -> str:
     return call_gemini(prompt + "\n\nNachrichtentitel:\n" + numbered, max_tokens=2000)
 
 
-# ── Weekly Executive Summary ───────────────────────────────────────────────────
+# ── HTML Summary Builder ───────────────────────────────────────────────────────
 
-def generate_weekly_summary(categories_data: dict) -> None:
-    print("\n── Generating Weekly Executive Summary ──")
-
-    # Extra pause to let Gemini rate limit recover after 5 category calls
-    print(f"  Waiting {SUMMARY_PRE_PAUSE}s for rate limit recovery…")
-    time.sleep(SUMMARY_PRE_PAUSE)
-
-    sections = []
-    for cat_id, cat in categories_data.items():
-        summary = cat.get("summary", "")
-        items = cat.get("items", [])
-        titles = "\n".join(f"- {i['title']}" for i in items[:8])
-        sections.append(
-            f"## {cat['icon']} {cat['label']}\n"
-            f"Zusammenfassung: {summary}\n\nSchlagzeilen:\n{titles}"
-        )
-
-    exec_prompt = (
-        "Du bist ein Experte für Lärmschutz. Erstelle einen fundierten Wochenrückblick auf Deutsch. "
-        "Struktur:\n"
-        "1. Einleitender Gesamtüberblick (3 Sätze).\n"
-        "2. Je ein Satz als Bulletpoint pro Kategorie (Steiermark, Österreich, DACH, Europa, Wissenschaft).\n"
-        "Analysiere Trends und Fachdetails. Schreibe insgesamt ca. 250 Wörter.\n"
-        "\n\nDaten:\n" + "\n\n".join(sections)
-    )
-
-    print("  Calling Gemini for executive summary…")
-    exec_text = call_gemini(exec_prompt, max_tokens=1024)
-
+def build_summary_html(title: str, kw_label: str, date_str: str, subtitle: str, exec_text: str) -> str:
     paragraphs = [p.strip() for p in exec_text.split("\n") if p.strip()]
     html_paragraphs = "\n".join(f"    <p>{p}</p>" for p in paragraphs)
-
-    now = datetime.now(timezone.utc)
-    week_str = now.strftime("KW %W / %Y")
-    date_str = now.strftime("%d. %B %Y")
-
-    html = f"""<!DOCTYPE html>
+    return f"""<!DOCTYPE html>
 <html lang="de">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Executive Summary – {week_str}</title>
+  <title>{title}</title>
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after {{ box-sizing: border-box; margin: 0; padding: 0; }}
@@ -372,9 +351,9 @@ def generate_weekly_summary(categories_data: dict) -> None:
 <body>
   <div class="page">
     <a class="back" href="index.html">← Zurück zur Übersicht</a>
-    <div class="kw">Wöchentlicher Executive Summary · {week_str}</div>
+    <div class="kw">{kw_label}</div>
     <h1>Lärmschutz & Umgebungslärm<br>im Überblick</h1>
-    <div class="meta">Erstellt am {date_str} · Basierend auf aktuellen Meldungen aus 5 Kategorien</div>
+    <div class="meta">{subtitle} · Erstellt am {date_str}</div>
 {html_paragraphs}
     <div class="tags">
       <span class="tag" style="background:#1a5c38">🏞️ Steiermark</span>
@@ -388,16 +367,109 @@ def generate_weekly_summary(categories_data: dict) -> None:
 </body>
 </html>"""
 
+
+# ── Weekly Executive Summary ───────────────────────────────────────────────────
+
+def generate_weekly_summary(categories_data: dict) -> None:
+    print("\n── Generating Weekly Executive Summary ──")
+    print(f"  Waiting {SUMMARY_PRE_PAUSE}s for rate limit recovery…")
+    time.sleep(SUMMARY_PRE_PAUSE)
+
+    sections = _build_sections(categories_data)
+    exec_prompt = (
+        "Du bist ein Experte für Lärmschutz und Umgebungslärm. "
+        "Erstelle einen wöchentlichen Executive Summary auf Deutsch.\n\n"
+        "Struktur:\n"
+        "1. Einleitender Gesamtüberblick (3 Sätze).\n"
+        "2. Je ein Absatz pro Kategorie (Steiermark, Österreich, DACH, Europa, Wissenschaft).\n"
+        "Analysiere Trends und Fachdetails. Schreibe insgesamt ca. 300 Wörter.\n"
+        "NUR Fließtext, keine Aufzählungen, keine Markdown-Formatierung.\n\n"
+        "Daten:\n" + "\n\n".join(sections)
+    )
+
+    print("  Calling Gemini for weekly summary…")
+    exec_text = call_gemini(exec_prompt, max_tokens=1500)
+
+    now = datetime.now(timezone.utc)
+    week_str = f"KW {now.strftime('%W')} / {now.year}"
+    date_str = now.strftime("%d. %B %Y")
+
+    html = build_summary_html(
+        title=f"Wöchentlicher Executive Summary – {week_str}",
+        kw_label=f"Wöchentlicher Executive Summary · {week_str}",
+        date_str=date_str,
+        subtitle="Wochenrückblick",
+        exec_text=exec_text,
+    )
+
     os.makedirs("docs", exist_ok=True)
     with open("docs/summary.html", "w", encoding="utf-8") as f:
         f.write(html)
     print("  ✅ docs/summary.html written.")
 
 
+# ── Monthly Executive Summary ──────────────────────────────────────────────────
+
+def generate_monthly_summary(categories_data: dict) -> None:
+    now = datetime.now(timezone.utc)
+    month_str = now.strftime("%B %Y")
+    print(f"\n── Generating Monthly Executive Summary ({month_str}) ──")
+    print(f"  Waiting {SUMMARY_PRE_PAUSE}s for rate limit recovery…")
+    time.sleep(SUMMARY_PRE_PAUSE)
+
+    sections = _build_sections(categories_data)
+    exec_prompt = (
+        "Du bist ein Experte für Lärmschutz und Umgebungslärm. "
+        f"Erstelle einen monatlichen Executive Summary für {month_str} auf Deutsch.\n\n"
+        "Struktur:\n"
+        "1. Gesamtüberblick des Monats (3–4 Sätze): wichtigste Themen, übergeordnete Trends.\n"
+        "2. Je ein Absatz pro Kategorie (Steiermark, Österreich, DACH, Europa, Wissenschaft): "
+        "die bedeutendsten Entwicklungen des Monats.\n"
+        "3. Abschließender Ausblick: was im nächsten Monat relevant sein könnte (2 Sätze).\n"
+        "Schreibe insgesamt ca. 500 Wörter. NUR Fließtext, keine Aufzählungen, keine Markdown.\n\n"
+        "Daten:\n" + "\n\n".join(sections)
+    )
+
+    print("  Calling Gemini for monthly summary…")
+    exec_text = call_gemini(exec_prompt, max_tokens=2500)
+
+    date_str = now.strftime("%d. %B %Y")
+
+    html = build_summary_html(
+        title=f"Monatlicher Executive Summary – {month_str}",
+        kw_label=f"Monatlicher Executive Summary · {month_str}",
+        date_str=date_str,
+        subtitle=f"Monatsrückblick {month_str}",
+        exec_text=exec_text,
+    )
+
+    os.makedirs("docs", exist_ok=True)
+    with open("docs/summary_monthly.html", "w", encoding="utf-8") as f:
+        f.write(html)
+    print("  ✅ docs/summary_monthly.html written.")
+
+
+def _build_sections(categories_data: dict) -> list[str]:
+    sections = []
+    for cat_id, cat in categories_data.items():
+        summary = cat.get("summary", "")
+        items = cat.get("items", [])
+        titles = "\n".join(f"- {i['title']}" for i in items[:8])
+        sections.append(
+            f"## {cat['icon']} {cat['label']}\n"
+            f"Zusammenfassung: {summary}\n\nSchlagzeilen:\n{titles}"
+        )
+    return sections
+
+
 # ── Main ───────────────────────────────────────────────────────────────────────
 
 def main():
-    print(f"Weekly summary: {'YES – Freitag!' if GENERATE_SUMMARY else 'no'}")
+    mode = []
+    if GENERATE_WEEKLY:  mode.append("weekly summary")
+    if GENERATE_MONTHLY: mode.append("monthly summary")
+    print(f"Mode: daily news" + (f" + {', '.join(mode)}" if mode else ""))
+
     output = {
         "generated": datetime.now(timezone.utc).strftime("%d. %B %Y, %H:%M UTC"),
         "categories": {},
@@ -439,8 +511,11 @@ def main():
         json.dump(output, f, ensure_ascii=False, indent=2)
     print("\n✅ docs/data.json written successfully.")
 
-    if GENERATE_SUMMARY:
+    if GENERATE_WEEKLY:
         generate_weekly_summary(output["categories"])
+
+    if GENERATE_MONTHLY:
+        generate_monthly_summary(output["categories"])
 
 
 if __name__ == "__main__":
