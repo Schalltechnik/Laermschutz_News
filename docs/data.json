@@ -1,5 +1,5 @@
 {
-  "generated": "02. April 2026, 19:47 UTC",
+  "generated": "03. April 2026, 07:02 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -12,14 +12,8 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Zusammenfassung konnte nicht erstellt werden (Rate Limit).",
+      "summary": "Österreich wird aktuell als einer der lautesten Länder und Lärm-Hotspots Europas eingestuft, was erhebliche gesundheitliche Risiken birgt. Eine bemerkenswerte Entwicklung ist jedoch die beschlossene Sonderregelung, die diesen Sommer die Nachtruhe nach 22 Uhr aussetzt. Diese Erkenntnisse und Maßnahmen unterstreichen die wachsende Dringlichkeit des Themas Lärmschutz im öffentlichen Diskurs.",
       "items": [
-        {
-          "title": "So ungesund ist das – Österreich zählt zu Lärm-Hotspots Europas - Heute",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNY1hxOUVGS0w2a0E5WHJtaWFiSHlGcW9jSVRLQVJwRzNrQnVlYi1wM2hlQUd1b3lNYmR5bVlJbXVpcDNOaUNILURlbjIxODBoNEdDN1RTWkxheU5EalFzN0JSUk5YS096dzVNUzU3UWJEZHZrMUFWQmZaak1VTF9nQ0tsMA?oc=5",
-          "source": "Heute",
-          "date": "2. Apr 2026"
-        },
         {
           "title": "Österreich zählt zu den „lautesten“ Ländern Europas - DiePresse.com",
           "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORUFkWktzTWZhVFZsY1RDWWtCcHZBN2NEYnAyVnBtV0k0UDI5b1RJcTlDRFBUdmNiM09wbld2LUVzWDFnWUZrNWxTM2sxb2g2MmNjeVNsSkJUYnlxeVdEcDVXU2ZUTWNiUUZYLTQ1N2dnZ1pUNkVOZnkwcjRxbllibHBka1N0VkotMFY1Mlc2STk?oc=5",
@@ -27,9 +21,21 @@
           "date": "30. Mar 2026"
         },
         {
+          "title": "Österreich zählt zu Lärm-Hotspots Europas - MSN",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNDZ4NUFYclRvLTdBX1Fqa2pXczh2STU5WVFLb2RoQmRvXzI3Z0s5b0pZcjk4VlZGRUZCVjN1Rjh2a0ozRDA1VW4wOXFvSWVCanZaSF9tZzVpMF9TVHp6TUVITV9Lc3IwcTVIdndoOEJiWWwtZ01pRUlieU9vbE1fMHBCNTBQZTgzeHltUUJMSDNSYlp2WjBJVVVfYk0zU2pOSXNaU2lXZFQ5WDd6QWxaQkF1R1hPQQ?oc=5",
+          "source": "MSN",
+          "date": "2. Apr 2026"
+        },
+        {
           "title": "Dok 1 (Doku) - tvheute.at",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1uWkd0b0otZ0xyUkJQSFE2dkxfUzhlellZZkRaVUxvV05vWXlZLTk0bkFFb0h5Q01RYjlORW1QWEpsMkZhWW16N21OekxlYU8xMloxUkRnbW9Xc2ZGbzk2cEx3cUJqLXExN3FVTmF5Smo?oc=5",
           "source": "tvheute.at",
+          "date": "2. Apr 2026"
+        },
+        {
+          "title": "So ungesund ist das – Österreich zählt zu Lärm-Hotspots Europas - Heute",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNY1hxOUVGS0w2a0E5WHJtaWFiSHlGcW9jSVRLQVJwRzNrQnVlYi1wM2hlQUd1b3lNYmR5bVlJbXVpcDNOaUNILURlbjIxODBoNEdDN1RTWkxheU5EalFzN0JSUk5YS096dzVNUzU3UWJEZHZrMUFWQmZaak1VTF9nQ0tsMA?oc=5",
+          "source": "Heute",
           "date": "2. Apr 2026"
         },
         {
@@ -44,7 +50,7 @@
       "label": "DACH – Umgebungslärm",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Zusammenfassung konnte nicht erstellt werden (Rate Limit).",
+      "summary": "Die Bundesregierung in Deutschland hat neue Lärmschutz-Regeln genehmigt, die im Sommer in Kraft treten sollen. Konkret implizieren diese Bestimmungen eine Lockerung der bisherigen Schutzmaßnahmen für die Nachtruhe. Diese Entscheidung stellt eine wichtige regionale Entwicklung dar und könnte die Diskussion um den Umgebungslärm, insbesondere in urbanen Gebieten Deutschlands, neu entfachen.",
       "items": [
         {
           "title": "Nachtruhe fällt weg: Bundesregierung erlaubt im Sommer neue Lärmschutz-Regeln - Berliner Kurier",
@@ -58,7 +64,7 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Zusammenfassung konnte nicht erstellt werden (Rate Limit).",
+      "summary": "Europe is implementing new measures to address specific sources of noise pollution, highlighted by a continent-wide crackdown on excessively noisy rolling suitcases. This initiative reflects a growing focus on improving acoustic comfort and mitigating everyday disturbances across various European regions. The primary development indicated is this direct regulatory action against noise sources, rather than broader market trends in related technologies.",
       "items": [
         {
           "title": "Europe’s New Crackdown On Noisy Rolling Suitcases - thetraveler.org",
@@ -78,14 +84,8 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Urban noise control engineers must increasingly adopt a soundscape approach, moving beyond simple decibel limits to design acoustic environments that positively impact mental well-being, considering the full spectrum of sounds. This involves not only mitigating traditional noise sources but also enhancing desirable sounds to create healthier urban spaces. Concurrently, engineers in the wind energy sector face renewed pressure to address public concerns about wind turbine noise, particularly low-frequency components, despite the scientific consensus on \"wind turbine syndrome.\" This necessitates robust communication strategies, transparent monitoring, and proactive community engagement to manage perceptions and anxieties, even when direct health links are not scientifically established.",
+      "summary": "A renewed push to re-examine \"wind turbine syndrome,\" previously considered a scientific dead end, signals potential future challenges for wind farm development and operation. Noise control engineers should anticipate continued public scrutiny and advocacy regarding perceived health impacts, necessitating robust noise assessment and transparent communication strategies. This resurgence underscores the ongoing importance of accurate environmental noise modeling and measurement, including infrasound, to address community concerns and inform responsible project planning.",
       "items": [
-        {
-          "title": "The Soundscape of Cities Matters: Study Links Urban Acoustic Environments to Mental Well-Being - elciudadano.com",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcGl6Wk9MR0ptNHlwRVlHM192VmRQWjYxS0RLcDRYc3lJbWdFeWxXLUlDWVhlZlZQY3J4NXUtSEg4UjBGNzNrdUdLYkItNGNjeGs3RUN4MGVydHF5b3N5Tjgwa1lQVXBmTFU5ZlhycGtPT2VkT2tnblBmUGExN1g1c2dCdDhDY3NjeGRISVZ2TTYwVTdkS2JMZGFDUUZydkVNbVlEUXhuMDlHVFVILXhCN3pTN3RCa215Y2hDS2R4XzVTd2gzV3FXQUVpMDdDOU11eUNWNXdn?oc=5",
-          "source": "elciudadano.com",
-          "date": "1. Apr 2026"
-        },
         {
           "title": "“Scientific dead end:” The new push to get wind turbine syndrome back on the radar - Renew Economy",
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaGhhdmhtT3NoMk9hWnM1Zi1WUEQ2MGtOUEtHNkNfVFZPYUhDVnVzWFMwTTdMdUR0ZFdIdlBuVHJZVVgwVnFxTUdoMi14S0RzaHVIUE1aNWt0TTNKbWhvbVo4cDVBQVNhaWpFZFJ0MHVBRlRPY1N1QnNNSmVKZVdjV2RHV3NQVm5ZNGpTMW1HaVE0YnNEaTMyT1dxbzdhNzZWZ0xMeXF5akl5WGRRWDc5LVJR0gGyAUFVX3lxTFBoaGF2aG1Pc2gyT2FaczVmLVZQRDYwa05QS0c2Q19UVk9hSENWdXNYUzBNN0x1RHRkV0h2UG5UcllVWDBWcXFNR2gyLXhLRHNodUhQTVo1a3RNM0ptaG9tWjhwNUFBU2FpakVkUnQwdUFGVE9jU3VCc01KZUplV2NXZEdXc1BWblk0alMxbUdpUTRic0RpMzJPV3FvN2E3NlZnTEx5cXlqSXlYZFFYNzktUlE?oc=5",
