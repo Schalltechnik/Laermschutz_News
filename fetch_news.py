@@ -1,6 +1,10 @@
 """
 Lärmschutz News Fetcher
-Fetches RSS feeds, filters by date, summarizes with Gemini, saves to docs/data.json
+
+Modes (set via environment variables):
+  - Daily (default):      fetch news, update data.json, update daily summaries
+  - Weekly summary only:  read existing data.json, generate summary.html only
+  - Monthly summary only: fetch 30-day news, generate summary_monthly.html only
 
 Schedule:
   - Daily news:           03:00 UTC  (≈ 05:00 Graz)
@@ -25,28 +29,27 @@ GEMINI_URL = (
     "gemini-2.5-flash:generateContent?key=" + GEMINI_API_KEY
 )
 
-# Mode flags — set by GitHub Actions workflow via environment variables
-GENERATE_WEEKLY  = os.environ.get("WEEKLY_SUMMARY",  "false").lower() == "true"
-GENERATE_MONTHLY = os.environ.get("MONTHLY_SUMMARY", "false").lower() == "true"
+WEEKLY_SUMMARY_ONLY  = os.environ.get("WEEKLY_SUMMARY",  "false").lower() == "true"
+MONTHLY_SUMMARY_ONLY = os.environ.get("MONTHLY_SUMMARY", "false").lower() == "true"
 
 # For monthly: only run if today is actually the last day of the month
 def _is_last_day_of_month() -> bool:
     now = datetime.now(timezone.utc)
-    tomorrow = now + timedelta(days=1)
-    return tomorrow.day == 1
+    return (now + timedelta(days=1)).day == 1
 
-if GENERATE_MONTHLY and not _is_last_day_of_month():
+if MONTHLY_SUMMARY_ONLY and not _is_last_day_of_month():
     print("Monthly summary requested but today is not the last day of the month — skipping.")
-    GENERATE_MONTHLY = False
+    MONTHLY_SUMMARY_ONLY = False
 
-MAX_ITEMS_FROM_FEED     = 100
-MAX_AGE_DAYS            = 7
-MAX_ITEMS_PER_CATEGORY  = 15
-MAX_TITLES_FOR_SUMMARY  = 15
-GEMINI_PAUSE_SECONDS    = 120
-GEMINI_RETRY_ATTEMPTS   = 10
-GEMINI_RETRY_WAIT       = 120
-SUMMARY_PRE_PAUSE       = 180
+MAX_ITEMS_FROM_FEED    = 100
+MAX_AGE_DAYS_WEEKLY    = 7
+MAX_AGE_DAYS_MONTHLY   = 31
+MAX_ITEMS_PER_CATEGORY = 15
+MAX_TITLES_FOR_SUMMARY = 15
+GEMINI_PAUSE_SECONDS   = 120
+GEMINI_RETRY_ATTEMPTS  = 10
+GEMINI_RETRY_WAIT      = 120
+SUMMARY_PRE_PAUSE      = 30   # shorter pause when only doing summary (no prior category calls)
 
 
 def gnews(query: str, lang: str = "de", country: str = "AT") -> str:
@@ -89,6 +92,12 @@ CATEGORIES = {
             "Hebe die wichtigsten lokalen Entwicklungen hervor. "
             "Antworte NUR mit dem Fließtext, keine Aufzählungen, keine Überschriften."
         ),
+        "monthly_prompt": (
+            "Du bist Experte für Lärmschutz in der Steiermark und Graz. "
+            "Fasse die wichtigsten Entwicklungen des letzten Monats in der Steiermark "
+            "zum Thema Lärm und Lärmschutz in 3–4 prägnanten deutschen Sätzen zusammen. "
+            "Antworte NUR mit dem Fließtext, keine Aufzählungen, keine Überschriften."
+        ),
     },
     "austria": {
         "label": "Österreich",
@@ -118,6 +127,12 @@ CATEGORIES = {
             "Hebe die wichtigsten Entwicklungen hervor. "
             "Antworte NUR mit dem Fließtext, keine Aufzählungen, keine Überschriften."
         ),
+        "monthly_prompt": (
+            "Du bist Experte für Lärmschutz in Österreich. "
+            "Fasse die wichtigsten Entwicklungen des letzten Monats in Österreich "
+            "zum Thema Lärmschutz in 3–4 prägnanten deutschen Sätzen zusammen. "
+            "Antworte NUR mit dem Fließtext, keine Aufzählungen, keine Überschriften."
+        ),
     },
     "dach": {
         "label": "DACH – Umgebungslärm",
@@ -140,9 +155,14 @@ CATEGORIES = {
         ],
         "summary_prompt": (
             "Du bist Experte für Umgebungslärm in der DACH-Region (Deutschland, Österreich, Schweiz). "
-            "Fasse die folgenden Nachrichtentitel zu den Themen Verkehrslärm, Fluglärm, Schienenlärm, "
-            "Industrielärm und weiteren Lärmthemen in 3 prägnanten deutschen Sätzen zusammen. "
+            "Fasse die folgenden Nachrichtentitel in 3 prägnanten deutschen Sätzen zusammen. "
             "Hebe die wichtigsten regionalen Entwicklungen hervor. "
+            "Antworte NUR mit dem Fließtext, keine Aufzählungen, keine Überschriften."
+        ),
+        "monthly_prompt": (
+            "Du bist Experte für Umgebungslärm in der DACH-Region. "
+            "Fasse die wichtigsten Entwicklungen des letzten Monats zu Verkehrslärm, Fluglärm, "
+            "Schienenlärm und Industrielärm in 3–4 prägnanten deutschen Sätzen zusammen. "
             "Antworte NUR mit dem Fließtext, keine Aufzählungen, keine Überschriften."
         ),
     },
@@ -161,9 +181,14 @@ CATEGORIES = {
         ],
         "summary_prompt": (
             "You are an expert on European noise control policy. "
-            "Summarize the following European news headlines about noise control "
-            "in 3 concise sentences in English. "
+            "Summarize the following European news headlines in 3 concise sentences in English. "
             "Focus on significant EU-level or cross-border developments. "
+            "Reply ONLY with flowing prose, no bullet points, no headings."
+        ),
+        "monthly_prompt": (
+            "You are an expert on European noise control policy. "
+            "Summarize the most significant European noise control developments of the past month "
+            "in 3–4 concise sentences in English. "
             "Reply ONLY with flowing prose, no bullet points, no headings."
         ),
     },
@@ -184,9 +209,15 @@ CATEGORIES = {
         ],
         "summary_prompt": (
             "You are an acoustics researcher. "
-            "Summarize the following scientific news headlines about noise control research "
-            "in 3 concise sentences in English. "
+            "Summarize the following scientific news headlines in 3 concise sentences in English. "
             "Focus on practical implications for noise control engineers. "
+            "Reply ONLY with flowing prose, no bullet points, no headings."
+        ),
+        "monthly_prompt": (
+            "You are an acoustics researcher. "
+            "Summarize the most significant noise control research developments of the past month "
+            "in 3–4 concise sentences in English. "
+            "Focus on practical implications for engineers. "
             "Reply ONLY with flowing prose, no bullet points, no headings."
         ),
     },
@@ -273,7 +304,6 @@ def format_date(raw: str) -> str:
 
 def call_gemini(prompt: str, max_tokens: int = 2000) -> str:
     import json as _json
-
     body = _json.dumps({
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {"maxOutputTokens": max_tokens, "temperature": 0.3},
@@ -281,25 +311,20 @@ def call_gemini(prompt: str, max_tokens: int = 2000) -> str:
 
     for attempt in range(1, GEMINI_RETRY_ATTEMPTS + 1):
         try:
-            req = Request(
-                GEMINI_URL,
-                data=body,
-                headers={"Content-Type": "application/json"},
-                method="POST",
-            )
+            req = Request(GEMINI_URL, data=body,
+                          headers={"Content-Type": "application/json"}, method="POST")
             with urlopen(req, timeout=30) as resp:
                 data = _json.loads(resp.read())
             finish_reason = data["candidates"][0].get("finishReason", "unknown")
             print(f"  Finish reason: {finish_reason}")
             return data["candidates"][0]["content"]["parts"][0]["text"].strip()
-
         except HTTPError as e:
             if e.code == 429:
                 if attempt < GEMINI_RETRY_ATTEMPTS:
                     print(f"  Gemini 429 (attempt {attempt}/{GEMINI_RETRY_ATTEMPTS}) – waiting {GEMINI_RETRY_WAIT}s…")
                     time.sleep(GEMINI_RETRY_WAIT)
                 else:
-                    print(f"  Gemini 429 – all {GEMINI_RETRY_ATTEMPTS} attempts exhausted.")
+                    print(f"  Gemini 429 – all attempts exhausted.")
                     return "Zusammenfassung konnte nicht erstellt werden (Rate Limit)."
             else:
                 print(f"  Gemini HTTP error {e.code}: {e}")
@@ -307,13 +332,12 @@ def call_gemini(prompt: str, max_tokens: int = 2000) -> str:
         except Exception as e:
             print(f"  Gemini error: {e}")
             return "Zusammenfassung konnte nicht erstellt werden."
-
     return "Zusammenfassung konnte nicht erstellt werden."
 
 
 def summarize_with_gemini(titles: list[str], prompt: str) -> str:
     if not titles:
-        return "Keine aktuellen Meldungen der letzten 7 Tage gefunden."
+        return "Keine aktuellen Meldungen gefunden."
     numbered = "\n".join(f"{i+1}. {t}" for i, t in enumerate(titles))
     return call_gemini(prompt + "\n\nNachrichtentitel:\n" + numbered, max_tokens=2000)
 
@@ -368,14 +392,36 @@ def build_summary_html(title: str, kw_label: str, date_str: str, subtitle: str, 
 </html>"""
 
 
-# ── Weekly Executive Summary ───────────────────────────────────────────────────
+def _build_exec_sections(categories_data: dict, prompt_key: str = "summary") -> list[str]:
+    sections = []
+    for cat_id, cat in categories_data.items():
+        summary = cat.get("summary", "")
+        items = cat.get("items", [])
+        titles = "\n".join(f"- {i['title']}" for i in items[:10])
+        sections.append(
+            f"## {cat['icon']} {cat['label']}\n"
+            f"Zusammenfassung: {summary}\n\nSchlagzeilen:\n{titles}"
+        )
+    return sections
 
-def generate_weekly_summary(categories_data: dict) -> None:
-    print("\n── Generating Weekly Executive Summary ──")
-    print(f"  Waiting {SUMMARY_PRE_PAUSE}s for rate limit recovery…")
+
+# ── Weekly Summary (summary-only mode) ────────────────────────────────────────
+
+def run_weekly_summary_only() -> None:
+    """Generate weekly summary from existing data.json — no news fetch, 1 Gemini call."""
+    print("\n── Weekly Summary Only Mode ──")
+    try:
+        with open("docs/data.json", encoding="utf-8") as f:
+            data = json.load(f)
+        categories_data = data.get("categories", {})
+    except Exception as e:
+        print(f"  Could not read docs/data.json: {e}")
+        return
+
+    print(f"  Waiting {SUMMARY_PRE_PAUSE}s before Gemini call…")
     time.sleep(SUMMARY_PRE_PAUSE)
 
-    sections = _build_sections(categories_data)
+    sections = _build_exec_sections(categories_data)
     exec_prompt = (
         "Du bist ein Experte für Lärmschutz und Umgebungslärm. "
         "Erstelle einen wöchentlichen Executive Summary auf Deutsch.\n\n"
@@ -383,7 +429,7 @@ def generate_weekly_summary(categories_data: dict) -> None:
         "1. Einleitender Gesamtüberblick (3 Sätze).\n"
         "2. Je ein Absatz pro Kategorie (Steiermark, Österreich, DACH, Europa, Wissenschaft).\n"
         "Analysiere Trends und Fachdetails. Schreibe insgesamt ca. 300 Wörter.\n"
-        "NUR Fließtext, keine Aufzählungen, keine Markdown-Formatierung.\n\n"
+        "NUR Fließtext, keine Aufzählungen, keine Markdown.\n\n"
         "Daten:\n" + "\n\n".join(sections)
     )
 
@@ -392,84 +438,95 @@ def generate_weekly_summary(categories_data: dict) -> None:
 
     now = datetime.now(timezone.utc)
     week_str = f"KW {now.strftime('%W')} / {now.year}"
-    date_str = now.strftime("%d. %B %Y")
-
     html = build_summary_html(
         title=f"Wöchentlicher Executive Summary – {week_str}",
         kw_label=f"Wöchentlicher Executive Summary · {week_str}",
-        date_str=date_str,
+        date_str=now.strftime("%d. %B %Y"),
         subtitle="Wochenrückblick",
         exec_text=exec_text,
     )
-
     os.makedirs("docs", exist_ok=True)
     with open("docs/summary.html", "w", encoding="utf-8") as f:
         f.write(html)
     print("  ✅ docs/summary.html written.")
 
 
-# ── Monthly Executive Summary ──────────────────────────────────────────────────
+# ── Monthly Summary (fetch 30 days, then summarize) ───────────────────────────
 
-def generate_monthly_summary(categories_data: dict) -> None:
+def run_monthly_summary_only() -> None:
+    """Fetch 30-day news for all categories, generate monthly summary. Does NOT update data.json."""
     now = datetime.now(timezone.utc)
     month_str = now.strftime("%B %Y")
-    print(f"\n── Generating Monthly Executive Summary ({month_str}) ──")
-    print(f"  Waiting {SUMMARY_PRE_PAUSE}s for rate limit recovery…")
+    print(f"\n── Monthly Summary Only Mode ({month_str}) ──")
+
+    # Fetch fresh 30-day data for the summary (does not overwrite data.json)
+    monthly_categories = {}
+    for cat_id, cat in CATEGORIES.items():
+        print(f"\n  ── {cat['label']} (30 days) ──")
+        all_items = []
+        for feed_url in cat["feeds"]:
+            all_items.extend(fetch_rss(feed_url))
+
+        all_items = filter_by_age(all_items, MAX_AGE_DAYS_MONTHLY)
+        items = deduplicate(all_items)[:30]  # more items for monthly context
+        print(f"  {len(items)} unique items in last 30 days")
+
+        for item in items:
+            item["date"] = format_date(item.pop("date_raw", ""))
+            item.pop("date_parsed", None)
+
+        # Use monthly_prompt for category summaries
+        print("  Calling Gemini for category summary…")
+        titles = [i["title"] for i in items[:20]]
+        summary = summarize_with_gemini(titles, cat["monthly_prompt"])
+        print(f"  Summary: {summary[:80]}…")
+        print(f"  Waiting {GEMINI_PAUSE_SECONDS}s…")
+        time.sleep(GEMINI_PAUSE_SECONDS)
+
+        monthly_categories[cat_id] = {
+            "label": cat["label"],
+            "icon": cat["icon"],
+            "color": cat["color"],
+            "summary": summary,
+            "items": items,
+        }
+
+    # Now generate the executive summary
+    print(f"\n  Waiting {SUMMARY_PRE_PAUSE}s before executive summary call…")
     time.sleep(SUMMARY_PRE_PAUSE)
 
-    sections = _build_sections(categories_data)
+    sections = _build_exec_sections(monthly_categories)
     exec_prompt = (
         "Du bist ein Experte für Lärmschutz und Umgebungslärm. "
         f"Erstelle einen monatlichen Executive Summary für {month_str} auf Deutsch.\n\n"
         "Struktur:\n"
         "1. Gesamtüberblick des Monats (3–4 Sätze): wichtigste Themen, übergeordnete Trends.\n"
-        "2. Je ein Absatz pro Kategorie (Steiermark, Österreich, DACH, Europa, Wissenschaft): "
-        "die bedeutendsten Entwicklungen des Monats.\n"
-        "3. Abschließender Ausblick: was im nächsten Monat relevant sein könnte (2 Sätze).\n"
+        "2. Je ein Absatz pro Kategorie (Steiermark, Österreich, DACH, Europa, Wissenschaft).\n"
+        "3. Ausblick: was im nächsten Monat relevant sein könnte (2 Sätze).\n"
         "Schreibe insgesamt ca. 500 Wörter. NUR Fließtext, keine Aufzählungen, keine Markdown.\n\n"
         "Daten:\n" + "\n\n".join(sections)
     )
 
-    print("  Calling Gemini for monthly summary…")
+    print("  Calling Gemini for monthly executive summary…")
     exec_text = call_gemini(exec_prompt, max_tokens=2500)
-
-    date_str = now.strftime("%d. %B %Y")
 
     html = build_summary_html(
         title=f"Monatlicher Executive Summary – {month_str}",
         kw_label=f"Monatlicher Executive Summary · {month_str}",
-        date_str=date_str,
+        date_str=now.strftime("%d. %B %Y"),
         subtitle=f"Monatsrückblick {month_str}",
         exec_text=exec_text,
     )
-
     os.makedirs("docs", exist_ok=True)
     with open("docs/summary_monthly.html", "w", encoding="utf-8") as f:
         f.write(html)
     print("  ✅ docs/summary_monthly.html written.")
 
 
-def _build_sections(categories_data: dict) -> list[str]:
-    sections = []
-    for cat_id, cat in categories_data.items():
-        summary = cat.get("summary", "")
-        items = cat.get("items", [])
-        titles = "\n".join(f"- {i['title']}" for i in items[:8])
-        sections.append(
-            f"## {cat['icon']} {cat['label']}\n"
-            f"Zusammenfassung: {summary}\n\nSchlagzeilen:\n{titles}"
-        )
-    return sections
+# ── Daily News Fetch ───────────────────────────────────────────────────────────
 
-
-# ── Main ───────────────────────────────────────────────────────────────────────
-
-def main():
-    mode = []
-    if GENERATE_WEEKLY:  mode.append("weekly summary")
-    if GENERATE_MONTHLY: mode.append("monthly summary")
-    print(f"Mode: daily news" + (f" + {', '.join(mode)}" if mode else ""))
-
+def run_daily() -> None:
+    """Fetch 7-day news, update data.json and daily page."""
     output = {
         "generated": datetime.now(timezone.utc).strftime("%d. %B %Y, %H:%M UTC"),
         "categories": {},
@@ -483,7 +540,7 @@ def main():
             all_items.extend(fetch_rss(feed_url))
 
         print(f"  {len(all_items)} total items before filtering")
-        all_items = filter_by_age(all_items, MAX_AGE_DAYS)
+        all_items = filter_by_age(all_items, MAX_AGE_DAYS_WEEKLY)
         items = deduplicate(all_items)[:MAX_ITEMS_PER_CATEGORY]
         print(f"  {len(items)} unique items after date filter")
 
@@ -511,11 +568,19 @@ def main():
         json.dump(output, f, ensure_ascii=False, indent=2)
     print("\n✅ docs/data.json written successfully.")
 
-    if GENERATE_WEEKLY:
-        generate_weekly_summary(output["categories"])
 
-    if GENERATE_MONTHLY:
-        generate_monthly_summary(output["categories"])
+# ── Main ───────────────────────────────────────────────────────────────────────
+
+def main():
+    if WEEKLY_SUMMARY_ONLY:
+        print("Mode: WEEKLY SUMMARY ONLY (1 Gemini call, data.json unchanged)")
+        run_weekly_summary_only()
+    elif MONTHLY_SUMMARY_ONLY:
+        print("Mode: MONTHLY SUMMARY ONLY (30-day fetch, data.json unchanged)")
+        run_monthly_summary_only()
+    else:
+        print("Mode: DAILY NEWS UPDATE")
+        run_daily()
 
 
 if __name__ == "__main__":
