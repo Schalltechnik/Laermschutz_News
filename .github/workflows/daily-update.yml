@@ -2,21 +2,18 @@ name: Lärmschutz News Update
 
 on:
   schedule:
-    # Daily news: 03:00 UTC = ~05:00 Graz
-    - cron: "0 3 * * *"
-    # Weekly summary: Thursday 20:00 UTC = ~22:00 Graz
-    - cron: "0 20 * * 4"
-    # Monthly summary: 28th-31st at 10:00 UTC = ~12:00 Graz (script checks if last day)
-    - cron: "0 10 28-31 * *"
+    - cron: "0 3 * * *"        # Daily 03:00 UTC = ~05:00 Graz
+    - cron: "0 20 * * 4"       # Weekly Thu 20:00 UTC = ~22:00 Graz
+    - cron: "0 10 28-31 * *"   # Monthly last day 10:00 UTC = ~12:00 Graz
 
   workflow_dispatch:
     inputs:
       weekly_summary:
-        description: 'Wöchentlichen Executive Summary erstellen?'
+        description: 'Wöchentlichen Newsletter erstellen? (true/false)'
         required: false
         default: 'false'
       monthly_summary:
-        description: 'Monatlichen Executive Summary erstellen?'
+        description: 'Monatlichen Newsletter erstellen? (true/false)'
         required: false
         default: 'false'
 
@@ -43,21 +40,19 @@ jobs:
           WEEKLY_IN="${{ github.event.inputs.weekly_summary }}"
           MONTHLY_IN="${{ github.event.inputs.monthly_summary }}"
 
-          # Weekly summary: Thursday schedule or manual input
           if [ "$SCHEDULE" = "0 20 * * 4" ] || [ "$WEEKLY_IN" = "true" ]; then
-            echo "WEEKLY_SUMMARY=true" >> $GITHUB_ENV
+            echo "WEEKLY_SUMMARY=true"  >> $GITHUB_ENV
           else
             echo "WEEKLY_SUMMARY=false" >> $GITHUB_ENV
           fi
 
-          # Monthly summary: 28-31 schedule or manual input
           if [ "$SCHEDULE" = "0 10 28-31 * *" ] || [ "$MONTHLY_IN" = "true" ]; then
-            echo "MONTHLY_SUMMARY=true" >> $GITHUB_ENV
+            echo "MONTHLY_SUMMARY=true"  >> $GITHUB_ENV
           else
             echo "MONTHLY_SUMMARY=false" >> $GITHUB_ENV
           fi
 
-      - name: Fetch news and generate summaries
+      - name: Run fetch_news.py
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python fetch_news.py
@@ -66,8 +61,10 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/data.json
-          git add docs/summary.html         2>/dev/null || true
+          git add docs/data.json 2>/dev/null || true
+          git add docs/summary.html 2>/dev/null || true
           git add docs/summary_monthly.html 2>/dev/null || true
+          git add docs/summary_monthly_*.html 2>/dev/null || true
+          git add docs/monthly_archive.json 2>/dev/null || true
           git diff --cached --quiet || git commit -m "chore: news update $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
