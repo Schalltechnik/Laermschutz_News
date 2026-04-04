@@ -30,9 +30,9 @@ MONTHLY_SUMMARY_ONLY = os.environ.get("MONTHLY_SUMMARY", "false").lower() == "tr
 def _is_last_day_of_month() -> bool:
     return (datetime.now(timezone.utc) + timedelta(days=1)).day == 1
 
-if MONTHLY_SUMMARY_ONLY and not _is_last_day_of_month():
-    print("Monthly summary requested but today is not the last day of the month — skipping.")
-    MONTHLY_SUMMARY_ONLY = False
+#if MONTHLY_SUMMARY_ONLY and not _is_last_day_of_month():
+#    print("Monthly summary requested but today is not the last day of the month — skipping.")
+#    MONTHLY_SUMMARY_ONLY = False
 
 MAX_ITEMS_FROM_FEED    = 100
 MAX_AGE_DAYS_WEEKLY    = 7
