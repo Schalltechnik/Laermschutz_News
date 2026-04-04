@@ -27,13 +27,6 @@ GEMINI_URL = (
 WEEKLY_SUMMARY_ONLY  = os.environ.get("WEEKLY_SUMMARY",  "false").lower() == "true"
 MONTHLY_SUMMARY_ONLY = os.environ.get("MONTHLY_SUMMARY", "false").lower() == "true"
 
-def _is_last_day_of_month() -> bool:
-    return (datetime.now(timezone.utc) + timedelta(days=1)).day == 1
-
-#if MONTHLY_SUMMARY_ONLY and not _is_last_day_of_month():
-#    print("Monthly summary requested but today is not the last day of the month — skipping.")
-#    MONTHLY_SUMMARY_ONLY = False
-
 MAX_ITEMS_FROM_FEED    = 100
 MAX_AGE_DAYS_WEEKLY    = 7
 MAX_AGE_DAYS_MONTHLY   = 31
@@ -81,7 +74,7 @@ CATEGORIES = {
         "summary_prompt": (
             "Du bist Experte für Lärmschutz in der Steiermark und Graz. "
             "Fasse die folgenden Nachrichtentitel in 3 prägnanten deutschen Sätzen zusammen. "
-            "Antworte NUR mit dem Fließtext, keine Aufzählungen, keine Überschriften."
+            "Antworte NUR mit Fließtext."
         ),
         "monthly_prompt": (
             "Du bist Experte für Lärmschutz in der Steiermark. "
@@ -201,6 +194,40 @@ CATEGORIES = {
             "Reply ONLY with flowing prose."
         ),
     },
+    "bauakustik": {
+        "label": "Bauakustik",
+        "icon": "🏗️",
+        "color": "#7b4f12",
+        "feeds": [
+            # Google News searches
+            gnews("Bauakustik Österreich"),
+            gnews("Bauakustik DACH", country="DE"),
+            gnews("OIB Richtlinie Schallschutz"),
+            gnews("OIB Richtlinie 5 Schallschutz"),
+            gnews("Schallschutz Gebäude Österreich"),
+            gnews("Gebäudeakustik Österreich"),
+            gnews("Gebäudeschwingung Österreich"),
+            gnews("Schallschutz Wohnbau Österreich"),
+            gnews("Bauakustik Norm ÖNORM"),
+            gnews("Trittschallschutz Österreich"),
+            gnews("Schallschutz Neubau DACH", country="DE"),
+            gnews("Gebäudeakustik Forschung", country="DE"),
+            # OIB WordPress RSS feed (covers all OIB news incl. Schallschutz)
+            "https://www.oib.or.at/feed/",
+        ],
+        "summary_prompt": (
+            "Du bist Experte für Bauakustik und Schallschutz in Gebäuden im DACH-Raum. "
+            "Fasse die folgenden Nachrichtentitel in 3 prägnanten deutschen Sätzen zusammen. "
+            "Fokus auf OIB-Richtlinien, ÖNORM, Schallschutz im Hochbau und Gebäudeakustik. "
+            "Antworte NUR mit Fließtext."
+        ),
+        "monthly_prompt": (
+            "Du bist Experte für Bauakustik im DACH-Raum. "
+            "Fasse die wichtigsten Entwicklungen des letzten Monats zu Bauakustik, "
+            "OIB-Richtlinien und Schallschutz in Gebäuden in 3–4 Sätzen zusammen. "
+            "Antworte NUR mit Fließtext."
+        ),
+    },
 }
 
 
@@ -223,15 +250,32 @@ def fetch_rss(url: str) -> list[dict]:
         with urlopen(req, timeout=30) as resp:
             raw = resp.read()
         root = ET.fromstring(raw)
+        # Support both RSS <channel><item> and Atom <entry>
         channel = root.find("channel")
-        if channel is None:
-            return items
-        for item in channel.findall("item")[:MAX_ITEMS_FROM_FEED]:
-            title = (item.findtext("title") or "").strip()
-            link  = (item.findtext("link")  or "").strip()
-            pub   = (item.findtext("pubDate") or "").strip()
+        if channel is not None:
+            entries = channel.findall("item")
+        else:
+            ns = {"atom": "http://www.w3.org/2005/Atom"}
+            entries = root.findall("atom:entry", ns) or root.findall("{http://www.w3.org/2005/Atom}entry")
+
+        for item in entries[:MAX_ITEMS_FROM_FEED]:
+            title = (item.findtext("title") or item.findtext("{http://www.w3.org/2005/Atom}title") or "").strip()
+            link_el = item.find("link")
+            if link_el is not None:
+                link = (link_el.get("href") or link_el.text or "").strip()
+            else:
+                link = (item.findtext("link") or "").strip()
+            pub = (item.findtext("pubDate") or item.findtext("published") or
+                   item.findtext("{http://www.w3.org/2005/Atom}published") or "").strip()
             source_el = item.find("source")
             source = source_el.text.strip() if source_el is not None else ""
+            if not source:
+                # Try to derive source from URL
+                try:
+                    from urllib.parse import urlparse
+                    source = urlparse(url).netloc.replace("www.", "")
+                except Exception:
+                    pass
             if title:
                 items.append({
                     "title": title, "link": link,
@@ -318,7 +362,7 @@ def summarize_with_gemini(titles, prompt):
 # ── Newsletter HTML Builder ────────────────────────────────────────────────────
 
 def render_newsletter_text(raw_text: str) -> str:
-    """Convert Gemini's bullet-point text to styled HTML."""
+    """Convert Gemini bullet-point text to styled HTML, preserving links."""
     lines = raw_text.split("\n")
     html_lines = []
     in_list = False
@@ -331,15 +375,15 @@ def render_newsletter_text(raw_text: str) -> str:
                 in_list = False
             continue
 
-        # Detect section headers (lines ending with : or starting with **)
-        if re.match(r"^(\*\*)?[A-ZÄÖÜ&][^.!?]{0,40}:(\*\*)?$", line):
+        # Section headers
+        if re.match(r"^(\*\*)?[A-ZÄÖÜ&][^.!?\n]{0,50}:(\*\*)?$", line):
             if in_list:
                 html_lines.append("</ul>")
                 in_list = False
             clean = re.sub(r"\*\*", "", line).rstrip(":")
             html_lines.append(f'<h3 class="nl-section">{clean}</h3>')
 
-        # Detect bullet points (-, •, *, numbers)
+        # Bullet points
         elif re.match(r"^[-•*]\s+|^\d+\.\s+", line):
             if not in_list:
                 html_lines.append('<ul class="nl-list">')
@@ -348,7 +392,6 @@ def render_newsletter_text(raw_text: str) -> str:
             text = re.sub(r"\*\*(.*?)\*\*", r"<strong>\1</strong>", text)
             html_lines.append(f"<li>{text}</li>")
 
-        # Regular paragraph
         else:
             if in_list:
                 html_lines.append("</ul>")
@@ -358,12 +401,31 @@ def render_newsletter_text(raw_text: str) -> str:
 
     if in_list:
         html_lines.append("</ul>")
-
     return "\n".join(html_lines)
 
 
-def build_newsletter_html(title: str, kw_label: str, date_str: str, subtitle: str, exec_text: str) -> str:
+def build_newsletter_html(title, kw_label, date_str, subtitle, exec_text, top_articles=None) -> str:
     content = render_newsletter_text(exec_text)
+
+    # Build top article links section
+    links_html = ""
+    if top_articles:
+        links_html = '<h3 class="nl-section">Wichtigste Meldungen</h3><ul class="nl-list nl-links">'
+        for art in top_articles:
+            t = art.get("title", "")
+            u = art.get("link", "")
+            d = art.get("date", "")
+            s = art.get("source", "")
+            meta = " · ".join(filter(None, [s, d]))
+            if u:
+                links_html += f'<li><a href="{u}" target="_blank" rel="noopener">{t}</a>'
+            else:
+                links_html += f'<li>{t}'
+            if meta:
+                links_html += f' <span class="nl-meta">{meta}</span>'
+            links_html += '</li>'
+        links_html += '</ul>'
+
     return f"""<!DOCTYPE html>
 <html lang="de">
 <head>
@@ -375,70 +437,26 @@ def build_newsletter_html(title: str, kw_label: str, date_str: str, subtitle: st
     *, *::before, *::after {{ box-sizing: border-box; margin: 0; padding: 0; }}
     body {{ font-family: 'DM Sans', sans-serif; background: #f0f4f0; color: #1a1a1a; padding: 40px 20px 80px; }}
     .page {{ max-width: 740px; margin: 0 auto; background: #fff; border: 1px solid #c8dbc8; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 20px rgba(26,92,56,0.08); }}
-
-    /* Newsletter header band */
-    .nl-header {{
-      background: #1a5c38;
-      color: #fff;
-      padding: 28px 40px 24px;
-    }}
-    .nl-header .kw {{
-      font-size: 10px; font-weight: 700; letter-spacing: 2px;
-      text-transform: uppercase; color: rgba(255,255,255,0.6); margin-bottom: 8px;
-    }}
-    .nl-header h1 {{
-      font-family: 'DM Serif Display', serif; font-weight: 400;
-      font-size: 26px; line-height: 1.3; margin-bottom: 6px;
-    }}
+    .nl-header {{ background: #1a5c38; color: #fff; padding: 28px 40px 24px; }}
+    .nl-header .kw {{ font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: rgba(255,255,255,0.6); margin-bottom: 8px; }}
+    .nl-header h1 {{ font-family: 'DM Serif Display', serif; font-weight: 400; font-size: 26px; line-height: 1.3; margin-bottom: 6px; }}
     .nl-header .meta {{ font-size: 12px; color: rgba(255,255,255,0.6); }}
-
-    /* Body */
     .nl-body {{ padding: 32px 40px 36px; }}
     .back {{ display: inline-block; margin-bottom: 24px; font-size: 13px; color: #1a5c38; text-decoration: none; }}
     .back:hover {{ text-decoration: underline; }}
-
-    /* Section headers */
-    h3.nl-section {{
-      font-size: 12px; font-weight: 700; letter-spacing: 1.2px;
-      text-transform: uppercase; color: #1a5c38;
-      margin: 24px 0 10px;
-      padding-bottom: 6px;
-      border-bottom: 1.5px solid #d4e4d4;
-    }}
-    h3.nl-section:first-child {{ margin-top: 0; }}
-
-    /* Bullet lists */
-    ul.nl-list {{
-      list-style: none;
-      margin: 0 0 12px 0;
-      padding: 0;
-    }}
-    ul.nl-list li {{
-      font-size: 14px;
-      line-height: 1.6;
-      color: #2a2a2a;
-      padding: 6px 0 6px 20px;
-      border-bottom: 1px solid #f0f0f0;
-      position: relative;
-    }}
+    h3.nl-section {{ font-size: 12px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: #1a5c38; margin: 24px 0 10px; padding-bottom: 6px; border-bottom: 1.5px solid #d4e4d4; }}
+    h3.nl-section:first-of-type {{ margin-top: 0; }}
+    ul.nl-list {{ list-style: none; margin: 0 0 12px; padding: 0; }}
+    ul.nl-list li {{ font-size: 14px; line-height: 1.6; color: #2a2a2a; padding: 6px 0 6px 20px; border-bottom: 1px solid #f0f0f0; position: relative; }}
     ul.nl-list li:last-child {{ border-bottom: none; }}
-    ul.nl-list li::before {{
-      content: "▸";
-      color: #1a5c38;
-      position: absolute;
-      left: 0;
-      font-size: 12px;
-      top: 7px;
-    }}
-
-    /* Paragraphs */
+    ul.nl-list li::before {{ content: "▸"; color: #1a5c38; position: absolute; left: 0; font-size: 12px; top: 7px; }}
+    ul.nl-links li a {{ color: #1a5c38; text-decoration: none; font-weight: 600; }}
+    ul.nl-links li a:hover {{ text-decoration: underline; }}
+    .nl-meta {{ font-size: 11px; color: #999; margin-left: 6px; font-weight: 400; }}
     p {{ font-size: 14px; line-height: 1.7; color: #333; margin-bottom: 14px; }}
-
-    /* Tags */
     .tags {{ display: flex; gap: 6px; flex-wrap: wrap; margin-top: 28px; padding-top: 20px; border-top: 1px solid #e8e8e8; }}
     .tag {{ font-size: 11px; font-weight: 600; padding: 3px 9px; border-radius: 20px; color: #fff; }}
     .footer {{ margin-top: 20px; font-size: 11px; color: #bbb; text-align: center; }}
-
     @media (max-width: 600px) {{ .nl-header, .nl-body {{ padding-left: 20px; padding-right: 20px; }} }}
     @media print {{ body {{ background: #fff; padding: 0; }} .page {{ box-shadow: none; }} .back {{ display: none; }} }}
   </style>
@@ -447,11 +465,12 @@ def build_newsletter_html(title: str, kw_label: str, date_str: str, subtitle: st
   <div class="page">
     <div class="nl-header">
       <div class="kw">{kw_label}</div>
-      <h1>Lärmschutz & Umgebungslärm<br>Executive Newsletter</h1>
+      <h1>Lärmschutz & Umgebungslärm<br>Newsletter</h1>
       <div class="meta">{subtitle} · {date_str}</div>
     </div>
     <div class="nl-body">
       <a class="back" href="index.html">← Zurück zur Übersicht</a>
+{links_html}
 {content}
       <div class="tags">
         <span class="tag" style="background:#1a5c38">🏞️ Steiermark</span>
@@ -459,6 +478,7 @@ def build_newsletter_html(title: str, kw_label: str, date_str: str, subtitle: st
         <span class="tag" style="background:#5a5a5a">🏔️ DACH</span>
         <span class="tag" style="background:#003399">🇪🇺 Europa</span>
         <span class="tag" style="background:#1a6b3c">🔬 Wissenschaft</span>
+        <span class="tag" style="background:#7b4f12">🏗️ Bauakustik</span>
       </div>
       <div class="footer">© Florian Lackner · Created using Claude.ai, powered by Google Gemini AI & GitHub Actions</div>
     </div>
@@ -467,38 +487,57 @@ def build_newsletter_html(title: str, kw_label: str, date_str: str, subtitle: st
 </html>"""
 
 
-# ── Newsletter prompt ──────────────────────────────────────────────────────────
+# ── Newsletter prompts ─────────────────────────────────────────────────────────
 
-def newsletter_prompt(period_str: str, period_type: str, sections: list[str]) -> str:
+def weekly_newsletter_prompt(week_str: str, sections: list[str]) -> str:
     return (
         f"Du bist ein Experte für Lärmschutz und Umgebungslärm. "
-        f"Erstelle einen kompakten Executive Newsletter für {period_str} auf Deutsch.\n\n"
-        "Format (exakt einhalten):\n"
+        f"Erstelle einen kompakten Newsletter für {week_str} auf Deutsch.\n\n"
+        "Format (exakt einhalten, NUR Bullet Points):\n\n"
         "Key Takeaways:\n"
         "- [max. 12 Wörter]\n"
         "- [max. 12 Wörter]\n"
         "- [max. 12 Wörter]\n\n"
-        "Top-Themen:\n"
-        "- [1 kurzer Satz je Thema, 3–5 Punkte]\n\n"
         "Steiermark:\n"
-        "- [1–2 Bullet Points]\n\n"
+        "- [1–2 Bullet Points, je 1 Satz]\n\n"
         "Österreich:\n"
-        "- [1–2 Bullet Points]\n\n"
+        "- [1–2 Bullet Points, je 1 Satz]\n\n"
         "DACH:\n"
-        "- [1–2 Bullet Points]\n\n"
+        "- [1–2 Bullet Points, je 1 Satz]\n\n"
         "Europa:\n"
-        "- [1–2 Bullet Points]\n\n"
+        "- [1–2 Bullet Points, je 1 Satz]\n\n"
         "Wissenschaft:\n"
-        "- [1–2 Bullet Points]\n\n"
-        "Risiken & Trends:\n"
-        "- [2–3 Bullet Points]\n\n"
-        "Ausblick:\n"
-        "- [1–2 Bullet Points]\n\n"
-        "Regeln:\n"
-        "- NUR Bullet Points, kein Fließtext\n"
-        "- Fokus auf wichtigste Erkenntnisse\n"
-        "- Keine Einleitung, keine Wiederholungen\n"
-        "- Ignoriere unwichtige Details\n\n"
+        "- [1–2 Bullet Points, je 1 Satz]\n\n"
+        "Bauakustik:\n"
+        "- [1–2 Bullet Points, je 1 Satz]\n\n"
+        "Regeln: NUR Bullet Points, kein Fließtext, keine Einleitung, keine Wiederholungen.\n\n"
+        "Daten:\n" + "\n\n".join(sections)
+    )
+
+
+def monthly_newsletter_prompt(month_str: str, sections: list[str]) -> str:
+    return (
+        f"Du bist ein Experte für Lärmschutz und Umgebungslärm. "
+        f"Erstelle einen kompakten Monats-Newsletter für {month_str} auf Deutsch.\n\n"
+        "Format (exakt einhalten, NUR Bullet Points):\n\n"
+        "Key Takeaways des Monats:\n"
+        "- [max. 12 Wörter]\n"
+        "- [max. 12 Wörter]\n"
+        "- [max. 12 Wörter]\n\n"
+        "Steiermark:\n"
+        "- [2–3 ausführliche Bullet Points]\n\n"
+        "Österreich:\n"
+        "- [2–3 ausführliche Bullet Points]\n\n"
+        "DACH:\n"
+        "- [2–3 ausführliche Bullet Points]\n\n"
+        "Europa:\n"
+        "- [2–3 ausführliche Bullet Points]\n\n"
+        "Wissenschaft:\n"
+        "- [2–3 ausführliche Bullet Points]\n\n"
+        "Bauakustik:\n"
+        "- [2–3 ausführliche Bullet Points]\n\n"
+        "Regeln: NUR Bullet Points, kein Fließtext, keine Einleitung.\n"
+        "Der Newsletter soll etwa 1,5x so lang sein wie ein Wochennewsletter.\n\n"
         "Daten:\n" + "\n\n".join(sections)
     )
 
@@ -512,6 +551,16 @@ def _build_sections(categories_data: dict) -> list[str]:
             f"Zusammenfassung: {cat.get('summary','')}\n\nSchlagzeilen:\n{titles}"
         )
     return sections
+
+
+def _top_articles(categories_data: dict, n: int = 8) -> list[dict]:
+    """Collect top articles across all categories for the links section."""
+    all_items = []
+    for cat in categories_data.values():
+        for item in cat.get("items", [])[:3]:
+            if item.get("link"):
+                all_items.append(item)
+    return all_items[:n]
 
 
 # ── Weekly Summary Only ────────────────────────────────────────────────────────
@@ -532,16 +581,18 @@ def run_weekly_summary_only() -> None:
     now = datetime.now(timezone.utc)
     week_str = f"KW {now.strftime('%W')} / {now.year}"
     sections = _build_sections(categories_data)
+    top_arts = _top_articles(categories_data)
 
     print("  Calling Gemini for weekly newsletter…")
-    exec_text = call_gemini(newsletter_prompt(week_str, "weekly", sections), max_tokens=1500)
+    exec_text = call_gemini(weekly_newsletter_prompt(week_str, sections), max_tokens=1500)
 
     html = build_newsletter_html(
-        title=f"Executive Newsletter – {week_str}",
-        kw_label=f"Wöchentlicher Executive Newsletter · {week_str}",
+        title=f"Newsletter – {week_str}",
+        kw_label=f"Wöchentlicher Newsletter · {week_str}",
         date_str=now.strftime("%d. %B %Y"),
         subtitle="Wochenrückblick",
         exec_text=exec_text,
+        top_articles=top_arts,
     )
     os.makedirs("docs", exist_ok=True)
     with open("docs/summary.html", "w", encoding="utf-8") as f:
@@ -557,7 +608,6 @@ def run_monthly_summary_only() -> None:
     month_slug = now.strftime("%Y-%m")
     print(f"\n── Monthly Newsletter Only Mode ({month_str}) ──")
 
-    # Fetch 30-day data
     monthly_categories = {}
     for cat_id, cat in CATEGORIES.items():
         print(f"\n  ── {cat['label']} (30 days) ──")
@@ -584,52 +634,47 @@ def run_monthly_summary_only() -> None:
             "color": cat["color"], "summary": summary, "items": items,
         }
 
-    print(f"\n  Waiting {SUMMARY_PRE_PAUSE}s before executive newsletter call…")
+    print(f"\n  Waiting {SUMMARY_PRE_PAUSE}s before newsletter call…")
     time.sleep(SUMMARY_PRE_PAUSE)
 
     sections = _build_sections(monthly_categories)
+    top_arts = _top_articles(monthly_categories, n=10)
+
     print("  Calling Gemini for monthly newsletter…")
-    exec_text = call_gemini(newsletter_prompt(month_str, "monthly", sections), max_tokens=2000)
+    exec_text = call_gemini(monthly_newsletter_prompt(month_str, sections), max_tokens=2500)
 
     html = build_newsletter_html(
-        title=f"Executive Newsletter – {month_str}",
-        kw_label=f"Monatlicher Executive Newsletter · {month_str}",
+        title=f"Newsletter – {month_str}",
+        kw_label=f"Monatlicher Newsletter · {month_str}",
         date_str=now.strftime("%d. %B %Y"),
         subtitle=f"Monatsrückblick {month_str}",
         exec_text=exec_text,
+        top_articles=top_arts,
     )
 
     os.makedirs("docs", exist_ok=True)
-
-    # Save with month slug for archive AND overwrite the latest
     archived_path = f"docs/summary_monthly_{month_slug}.html"
     with open(archived_path, "w", encoding="utf-8") as f:
         f.write(html)
     with open("docs/summary_monthly.html", "w", encoding="utf-8") as f:
         f.write(html)
 
-    # Update archive index
     _update_monthly_archive(month_slug, month_str)
-
     print(f"  ✅ docs/summary_monthly_{month_slug}.html written.")
     print(f"  ✅ docs/summary_monthly.html updated.")
 
 
 def _update_monthly_archive(new_slug: str, new_label: str) -> None:
-    """Maintain a JSON index of all monthly summaries."""
     archive_path = "docs/monthly_archive.json"
     try:
         with open(archive_path, encoding="utf-8") as f:
             archive = json.load(f)
     except Exception:
         archive = []
-
-    # Add entry if not already present
     entry = {"slug": new_slug, "label": new_label, "file": f"summary_monthly_{new_slug}.html"}
     if not any(e["slug"] == new_slug for e in archive):
-        archive.insert(0, entry)  # newest first
+        archive.insert(0, entry)
         archive.sort(key=lambda x: x["slug"], reverse=True)
-
     with open(archive_path, "w", encoding="utf-8") as f:
         json.dump(archive, f, ensure_ascii=False, indent=2)
     print(f"  ✅ docs/monthly_archive.json updated ({len(archive)} entries).")
