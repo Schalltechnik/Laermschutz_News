@@ -3,34 +3,78 @@ name: Lärmschutz News Update
 on:
   schedule:
     - cron: "0 3 * * *"        # Daily 03:00 UTC = ~05:00 Graz
-    - cron: "0 20 * * 4"       # Weekly Thu 20:00 UTC = ~22:00 Graz
+    - cron: "0 20 * * 4"       # Weekly Thu 20:00 UTC = ~22:00 Graz (newsletter generated + sent)
     - cron: "0 10 28-31 * *"   # Monthly last day 10:00 UTC = ~12:00 Graz
+
+  # Subscribe/unsubscribe events from the website form
+  repository_dispatch:
+    types: [subscribe, unsubscribe]
 
   workflow_dispatch:
     inputs:
       weekly_summary:
-        description: 'Wöchentlichen Newsletter erstellen? (true/false)'
+        description: 'Wöchentlichen Newsletter generieren? (true/false)'
         required: false
         default: 'false'
       monthly_summary:
-        description: 'Monatlichen Newsletter erstellen? (true/false)'
+        description: 'Monatlichen Newsletter generieren? (true/false)'
+        required: false
+        default: 'false'
+      send_weekly:
+        description: 'Wöchentlichen Newsletter versenden? (true/false)'
+        required: false
+        default: 'false'
+      send_monthly:
+        description: 'Monatlichen Newsletter versenden? (true/false)'
         required: false
         default: 'false'
 
 jobs:
+  # ── Handle subscribe/unsubscribe events ──────────────────────────────────────
+  manage-subscriber:
+    if: github.event_name == 'repository_dispatch'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Manage subscriber
+        env:
+          ACTION:  ${{ github.event.action }}
+          EMAIL:   ${{ github.event.client_payload.email }}
+          NAME:    ${{ github.event.client_payload.name }}
+          WEEKLY:  ${{ github.event.client_payload.weekly }}
+          MONTHLY: ${{ github.event.client_payload.monthly }}
+        run: python manage_subscribers.py
+
+      - name: Commit subscriber list
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/subscribers.json
+          git diff --cached --quiet || git commit -m "chore: update subscribers"
+          git push
+
+  # ── Main news fetch + newsletter generation + sending ────────────────────────
   fetch-and-publish:
+    if: github.event_name != 'repository_dispatch'
     runs-on: ubuntu-latest
     permissions:
       contents: write
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
@@ -39,23 +83,49 @@ jobs:
           SCHEDULE="${{ github.event.schedule }}"
           WEEKLY_IN="${{ github.event.inputs.weekly_summary }}"
           MONTHLY_IN="${{ github.event.inputs.monthly_summary }}"
+          SEND_W="${{ github.event.inputs.send_weekly }}"
+          SEND_M="${{ github.event.inputs.send_monthly }}"
 
+          # Weekly newsletter: Thursday schedule or manual
           if [ "$SCHEDULE" = "0 20 * * 4" ] || [ "$WEEKLY_IN" = "true" ]; then
             echo "WEEKLY_SUMMARY=true"  >> $GITHUB_ENV
           else
             echo "WEEKLY_SUMMARY=false" >> $GITHUB_ENV
           fi
 
+          # Monthly newsletter: 28-31 schedule or manual
           if [ "$SCHEDULE" = "0 10 28-31 * *" ] || [ "$MONTHLY_IN" = "true" ]; then
             echo "MONTHLY_SUMMARY=true"  >> $GITHUB_ENV
           else
             echo "MONTHLY_SUMMARY=false" >> $GITHUB_ENV
           fi
 
-      - name: Run fetch_news.py
+          # Send weekly: Thursday schedule automatically sends, or manual
+          if [ "$SCHEDULE" = "0 20 * * 4" ] || [ "$SEND_W" = "true" ]; then
+            echo "SEND_WEEKLY=true"  >> $GITHUB_ENV
+          else
+            echo "SEND_WEEKLY=false" >> $GITHUB_ENV
+          fi
+
+          # Send monthly: last-day schedule automatically sends, or manual
+          if [ "$SCHEDULE" = "0 10 28-31 * *" ] || [ "$SEND_M" = "true" ]; then
+            echo "SEND_MONTHLY=true"  >> $GITHUB_ENV
+          else
+            echo "SEND_MONTHLY=false" >> $GITHUB_ENV
+          fi
+
+      - name: Fetch news and generate summaries
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python fetch_news.py
+
+      - name: Send newsletters via Brevo
+        if: env.SEND_WEEKLY == 'true' || env.SEND_MONTHLY == 'true'
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          SENDER_EMAIL:  ${{ secrets.SENDER_EMAIL }}
+          SITE_URL:      "https://schalltechnik.github.io/Laermschutz_News"
+        run: python send_newsletter.py
 
       - name: Commit updated files
         run: |
