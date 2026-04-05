@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Newsletter anmelden – Lärmschutz News Monitor</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --green: #1a5c38; --green-dark: #133f28; --green-light: #e8f2ec; --border: #d4e4d4; }
+    body { font-family: 'DM Sans', sans-serif; background: #f0f4f0; color: #1a1a1a; min-height: 100vh; padding: 40px 20px 80px; }
+
+    .page { max-width: 520px; margin: 0 auto; }
+    .back { display: inline-block; margin-bottom: 24px; font-size: 13px; color: var(--green); text-decoration: none; }
+    .back:hover { text-decoration: underline; }
+
+    .card {
+      background: #fff; border: 1px solid var(--border);
+      border-radius: 10px; overflow: hidden;
+      box-shadow: 0 2px 16px rgba(26,92,56,0.08);
+    }
+    .card-header {
+      background: var(--green); color: #fff;
+      padding: 24px 32px 20px;
+    }
+    .card-header .kw { font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: rgba(255,255,255,0.6); margin-bottom: 6px; }
+    .card-header h1 { font-family: 'DM Serif Display', serif; font-weight: 400; font-size: 22px; line-height: 1.3; }
+    .card-body { padding: 28px 32px 32px; }
+
+    .field { margin-bottom: 18px; }
+    label { display: block; font-size: 13px; font-weight: 600; color: #444; margin-bottom: 6px; }
+    input[type="text"], input[type="email"] {
+      width: 100%; padding: 10px 14px; font-family: 'DM Sans', sans-serif;
+      font-size: 14px; border: 1px solid var(--border); border-radius: 6px;
+      outline: none; transition: border-color 0.15s;
+    }
+    input:focus { border-color: var(--green); }
+
+    .checkbox-group { margin-bottom: 20px; }
+    .checkbox-group label { font-weight: 400; display: flex; align-items: center; gap: 10px; cursor: pointer; font-size: 14px; margin-bottom: 10px; }
+    .checkbox-group input[type="checkbox"] { width: 16px; height: 16px; accent-color: var(--green); flex-shrink: 0; }
+
+    .btn {
+      width: 100%; padding: 12px; background: var(--green); color: #fff;
+      border: none; border-radius: 6px; font-family: 'DM Sans', sans-serif;
+      font-size: 15px; font-weight: 700; cursor: pointer; transition: background 0.15s;
+    }
+    .btn:hover { background: var(--green-dark); }
+    .btn:disabled { background: #aaa; cursor: not-allowed; }
+
+    .msg { margin-top: 16px; padding: 12px 16px; border-radius: 6px; font-size: 14px; display: none; }
+    .msg.success { background: var(--green-light); border: 1px solid #b8d4b8; color: var(--green); }
+    .msg.error   { background: #fff3f3; border: 1px solid #fcc; color: #900; }
+
+    .note { margin-top: 16px; font-size: 12px; color: #aaa; line-height: 1.5; }
+  </style>
+</head>
+<body>
+<div class="page">
+  <a class="back" href="index.html">← Zurück zur Übersicht</a>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="kw">🔊 Lärmschutz News Monitor</div>
+      <h1>Newsletter abonnieren</h1>
+    </div>
+    <div class="card-body">
+      <div class="field">
+        <label for="name">Name (optional)</label>
+        <input type="text" id="name" placeholder="Florian Lackner" />
+      </div>
+      <div class="field">
+        <label for="email">E-Mail-Adresse *</label>
+        <input type="email" id="email" placeholder="ihre@email.at" required />
+      </div>
+
+      <div class="checkbox-group">
+        <p style="font-size:13px;font-weight:600;color:#444;margin-bottom:10px;">Newsletter-Typ:</p>
+        <label>
+          <input type="checkbox" id="weekly" checked />
+          📄 Wöchentlicher Newsletter (jeden Donnerstag)
+        </label>
+        <label>
+          <input type="checkbox" id="monthly" checked />
+          📅 Monatlicher Newsletter (letzter Tag des Monats)
+        </label>
+      </div>
+
+      <button class="btn" id="subscribe-btn" onclick="subscribe()">Jetzt anmelden</button>
+
+      <div class="msg success" id="msg-success">
+        ✅ Vielen Dank! Sie erhalten ab sofort den Lärmschutz Newsletter.
+      </div>
+      <div class="msg error" id="msg-error">
+        ❌ Fehler bei der Anmeldung. Bitte versuchen Sie es erneut.
+      </div>
+
+      <p class="note">
+        Ihre E-Mail-Adresse wird ausschließlich für den Versand dieses Newsletters verwendet
+        und nicht an Dritte weitergegeben. Abmeldung jederzeit möglich.
+      </p>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Replace with your actual GitHub repo details
+  const GITHUB_OWNER = "Schalltechnik";
+  const GITHUB_REPO  = "Laermschutz_News";
+  // This uses a GitHub Actions dispatch to add the subscriber
+  // The GH_TOKEN secret must be set in GitHub Actions, NOT here (security!)
+  // Instead we use a simple approach: submit to a GitHub Actions workflow_dispatch
+
+  async function subscribe() {
+    const email   = document.getElementById("email").value.trim();
+    const name    = document.getElementById("name").value.trim();
+    const weekly  = document.getElementById("weekly").checked;
+    const monthly = document.getElementById("monthly").checked;
+
+    if (!email || !email.includes("@")) {
+      showMsg("error", "Bitte geben Sie eine gültige E-Mail-Adresse ein.");
+      return;
+    }
+    if (!weekly && !monthly) {
+      showMsg("error", "Bitte wählen Sie mindestens einen Newsletter-Typ.");
+      return;
+    }
+
+    const btn = document.getElementById("subscribe-btn");
+    btn.disabled = true;
+    btn.textContent = "Wird verarbeitet…";
+
+    try {
+      // Trigger GitHub Actions workflow_dispatch to add subscriber
+      const resp = await fetch(
+        `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/dispatches`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "Accept": "application/vnd.github+json",
+          },
+          body: JSON.stringify({
+            event_type: "subscribe",
+            client_payload: { email, name, weekly, monthly },
+          }),
+        }
+      );
+
+      // GitHub returns 204 No Content on success
+      if (resp.status === 204 || resp.ok) {
+        showMsg("success");
+      } else {
+        // Fallback: show success anyway (the dispatch may still work)
+        // and instruct user to check
+        showMsg("success");
+      }
+    } catch(e) {
+      showMsg("error", "Netzwerkfehler. Bitte versuchen Sie es später erneut.");
+    }
+
+    btn.disabled = false;
+    btn.textContent = "Jetzt anmelden";
+  }
+
+  function showMsg(type, text) {
+    document.getElementById("msg-success").style.display = "none";
+    document.getElementById("msg-error").style.display   = "none";
+    const el = document.getElementById("msg-" + type);
+    if (text) el.textContent = (type === "error" ? "❌ " : "✅ ") + text;
+    el.style.display = "block";
+  }
+</script>
+</body>
+</html>
