@@ -1,18 +1,31 @@
 {
-  "generated": "05. April 2026, 05:04 UTC",
+  "generated": "05. April 2026, 19:13 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "Anrainer des Grazer Volksgartens beklagen sich über erhebliche Lärmbelästigungen in ihrer Wohngegend. Besonders störend empfinden sie laute Gespräche, in denen offen und ungeniert über Drogen gesprochen wird, als wäre es eine alltägliche Angelegenheit. Diese Art der öffentlichen Kommunikation beeinträchtigt massiv die Lebensqualität und das Sicherheitsempfinden der Bewohner.",
+      "items": [
+        {
+          "title": "\"Die Reden über Drogen als wären es Gummibärchen\" - MeinBezirk.at",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPV0QySkdRUEFqbzBRcnd6R3o0dnJpa0RueGRVWXRxQ2NGNVZTaG55RFFIUExBMGpXNmdMa2piS05oc004bTlWcjFERWw0MG5DZlJ0SnpmUmpZeV9paHFoZHk0OUNBZ0JIRjAtZ0psLWZLOUZERHpQSEpVQWdhY0pUbEx6NU9qODNHaGRHa29LZkgzQ0UyVjFzejJqVmRtamNpNHpRcTE5WXkwaTFSNWJYYw?oc=5",
+          "source": "MeinBezirk.at",
+          "date": "5. Apr 2026"
+        },
+        {
+          "title": "Volksgartenanrainer beklagen Lärm: \"Die reden über Drogen als wären es Gummibärchen\" - MeinBezirk.at",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORHhMNDh2cDV3U2hkdEF5YzFWNC1GZnZXQ3M0eGU0TWxoODdnd2JaOG55SkRvZkUwTVYxdUROZGVRYVdWVDY4Rk9zeEZhRFhmUk9haXFHM3NuaktZTjhnOS1OUTF2T2U4c2szeXJzZzlhaGZZTHJtdGhYakFtUElRaXU1TTJIWnB2dGlveXFBVGtZQkhHYVpTb0tKUUJFbVpQU0E?oc=5",
+          "source": "MeinBezirk.at",
+          "date": "5. Apr 2026"
+        }
+      ]
     },
     "austria": {
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Österreich zählt zu den lautesten Ländern und Lärm-Hotspots Europas, wobei die hohe Lärmbelastung als ungesund eingestuft wird. Trotz dieser Problematik wurde jedoch eine Sonderregelung beschlossen. Diese setzt die Nachtruhe nach 22 Uhr für den aktuellen Sommer aus.",
+      "summary": "Österreich wird in mehreren Berichten als einer der Lärm-Hotspots Europas und als eines der lautesten Länder hervorgehoben. Diese hohe Lärmbelastung wird als ernsthaftes Gesundheitsrisiko für die Bevölkerung betrachtet. Der Österreichische Arbeitsring für Lärmbekämpfung (ÖAL) engagiert sich aktiv gegen diese Problematik, auch wenn die genannten Titel keine spezifischen Neuigkeiten des Rings enthalten.",
       "items": [
         {
           "title": "Österreich zählt zu den „lautesten“ Ländern Europas - DiePresse.com",
@@ -31,12 +44,6 @@
           "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNY1hxOUVGS0w2a0E5WHJtaWFiSHlGcW9jSVRLQVJwRzNrQnVlYi1wM2hlQUd1b3lNYmR5bVlJbXVpcDNOaUNILURlbjIxODBoNEdDN1RTWkxheU5EalFzN0JSUk5YS096dzVNUzU3UWJEZHZrMUFWQmZaak1VTF9nQ0tsMA?oc=5",
           "source": "Heute",
           "date": "2. Apr 2026"
-        },
-        {
-          "title": "Sonderregelung beschlossen: Nachtruhe nach 22 Uhr wird diesen Sommer ausgesetzt - Merkur",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORUZRLUp6VGNwRXJUSlZPTHZFVGJpb3UyUlhDOWdWSzhLaWRIdDd1NEtPUW5sN2Y2Zk91cTNsUWVCb1NTdHJXUk91VHBra1J4ak1tODBpZjNwNGVweXE0bWswZ0ttNXNHY2FKemtpODhFUlVhOWpmWVpnNVZCZGxjVWd5OEw2ZldHdlFNRmxFU0lfNDQ4bzItV00wVjVGUjJuR09ZbnR1bw?oc=5",
-          "source": "Merkur",
-          "date": "31. Mar 2026"
         }
       ]
     },
@@ -44,12 +51,36 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Die Bundesregierung hat neue Lärmschutz-Regeln für den Sommer genehmigt. Diese Entscheidung führt dazu, dass die bisherige Nachtruhe entfällt. Damit werden die Vorschriften zum Umgebungslärm in den Sommermonaten maßgeblich angepasst.",
+      "summary": "Die Bundesregierung in Deutschland hat Sonderregelungen für den Lärmschutz beschlossen, die im Sommer eine Aussetzung der Nachtruhe nach 22 Uhr für Public Viewing-Veranstaltungen, insbesondere im Hinblick auf die Fußball-WM 2026, ermöglichen. Diese Entscheidung, die bereits als \"Abschaffung der Nachtruhe\" kritisiert wird, erlaubt Ausnahmen von den üblichen Lärmschutzvorschriften und hat eine Diskussion über die Balance zwischen öffentlichen Veranstaltungen und dem Schutz der Nachtruhe ausgelöst. In den vorliegenden Nachrichtentiteln sind keine spezifischen Entwicklungen aus der Schweiz oder Neuigkeiten und Veranstaltungen der DEGA erwähnt.",
       "items": [
         {
           "title": "Nachtruhe fällt weg: Bundesregierung erlaubt im Sommer neue Lärmschutz-Regeln - Berliner Kurier",
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNYkZIQkJQZ2lkeXByeTZPRTdyTzdkR0lVd25aZ0UxUEJjWGJSYm9mTnloZHlGN0Y3U2RJZTlQREh5X1BfTklmN0U1QzBhVGFxWDE4XzZFWWxDb3U2M3hFZzFNaTg1eU5lTXhZYmRrM1R3cjVxRGhPU3VQdnFtSUtFTHZkNFc5eFFMTUZFUmRoQkVZVGFIQ19vRzJEeU11X05uV2E3d3lfd0d2enpITWVRR0RB?oc=5",
           "source": "Berliner Kurier",
+          "date": "31. Mar 2026"
+        },
+        {
+          "title": "Bundesregierung schafft Nachtruhe ab: Das gilt jetzt - inside digital",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRElYWnFDWGg1Sy1XUlU0RHprTmVfUVJkRG1TdXlIYUNpOU5fZDlFb25mSmwzSHUwc19kaGJMUWVORERJS0cxaVREU19nam41YmdxSm4yU0RoQmRjZEQzY3BGZHZJVDhjdGdxNndXc0FyLWJZZW9TRVZCNzRyanFYVFJhbUpkd2JuWkNXQ0xHd9IBlAFBVV95cUxNODlvYklPN0VaTHkyeVR6S2Vib1NER3FMM2llNjV2aGU3U1AzRFEwdmFxZERPbVpxSDc2Y0s3TkFYWjZtVkd6OXhhY3JPbnRmdFNfSnVIU0NTTjhRdHUySVNTV1UtdVFfUFUyZnlCNDBoNzNSMXRlUTFReWtXSDZZdENUNHg0ckpxUHZGaFpuazRuSmFR?oc=5",
+          "source": "inside digital",
+          "date": "3. Apr 2026"
+        },
+        {
+          "title": "Sonderregelung beschlossen: Nachtruhe nach 22 Uhr wird diesen Sommer ausgesetzt - Merkur",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORUZRLUp6VGNwRXJUSlZPTHZFVGJpb3UyUlhDOWdWSzhLaWRIdDd1NEtPUW5sN2Y2Zk91cTNsUWVCb1NTdHJXUk91VHBra1J4ak1tODBpZjNwNGVweXE0bWswZ0ttNXNHY2FKemtpODhFUlVhOWpmWVpnNVZCZGxjVWd5OEw2ZldHdlFNRmxFU0lfNDQ4bzItV00wVjVGUjJuR09ZbnR1bw?oc=5",
+          "source": "Merkur",
+          "date": "31. Mar 2026"
+        },
+        {
+          "title": "Bundeskabinett beschließt Lärmschutz-Ausnahmen für Public Viewing zur WM 2026 - tageskarte.io",
+          "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOSW1FS1JnV3YzNldWbE83QWdPS0RMSGc1dEtGM2tlSUF0czUwcW02eEtmMjR6dXFsMDdRXzdoS1E5SkpoeDJSbmRQMGgtYmFkOGpuTU94akptMTlRRm9sMFFkVjliRGY1eWhJRVo5cjF2Z24tT1IyOExqblNlU1VyVDRMWDlCYnd4N2h0THk4X0hqRUhuTC1FejZoVk1Vd0c3UmVDRG5qang5SWxWS0o4ZUtEakNQeTI5aVNKYlNBMjEtUFlsakFFU29GX3B5UGk5UVlIbEk2QWtVNThpd2FOSDhjMGRVZlRXa1NtRkZDSXBfWDd0dEEzaFB5NmIxeklqSjdWREJpZ05NRDdyenRwUUY1UjA1YXBIYXNZVHZHT3ZOdjlSdGpaTnR6VU9MeDNaM1UtSDdId01tVDRWdHJZ?oc=5",
+          "source": "tageskarte.io",
+          "date": "2. Apr 2026"
+        },
+        {
+          "title": "WM 2026 live in Hamburg: Lärmschutz wichtiger als echte Freude – wie spießig! - MSN",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQ2hlcnpqbUoyUVViWUtsdFZqMzdOU2hQTE8xb0dCZ2lOcnNiN2lzQUFMeVp6eTVtaXNsMElkWjFmZHJzVFF3VlQxRExWSnBkNmtlcjhmeDFHWkJ2WlhobkxIUXBUQ3hxZW9VSndBT0E3RFNfQVRLUjZ0RjF3NDhNYmt6UGdqek1RTUNSc2ZWVWNWVGIxNHBrTk1TckZtUUpkUWhTOWRyZDV2WUl2SkhoclZ0VEp0M1dQUVlmdGNINHpzTlUwVm5rY1FSQTNQZw?oc=5",
+          "source": "MSN",
           "date": "31. Mar 2026"
         }
       ]
@@ -65,7 +96,7 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Zusammenfassung konnte nicht erstellt werden (Rate Limit).",
+      "summary": "Recent research underscores the critical role of urban soundscapes in influencing mental well-being, emphasizing the need to consider acoustic environments in city planning. Simultaneously, there's a renewed effort to bring \"wind turbine syndrome\" back into scientific discussion, despite its prior dismissal as a dead end. These developments highlight the ongoing challenges and importance of understanding how various acoustic phenomena impact human health and perception.",
       "items": [
         {
           "title": "The Soundscape of Cities Matters: Study Links Urban Acoustic Environments to Mental Well-Being - elciudadano.com",
@@ -75,7 +106,7 @@
         },
         {
           "title": "“Scientific dead end:” The new push to get wind turbine syndrome back on the radar - Renew Economy",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaGhhdmhtT3NoMk9hWnM1Zi1WUEQ2MGtOUEtHNkNfVFZPYUhDVnVzWFMwTTdMdUR0ZFdIdlBuVHJZVVgwVnFxTUdoMi14S0RzaHVIUE1aNWt0TTNKbWhvbVo4cDVBQVNhaWpFZFJ0MHVBRlRPY1N1QnNNSmVKZVdjV2RHV3NQVm5ZNGpTMW1HaVE0YnNEaTMyT1dxbzdhNzZWZ0xMeXF5akl5WGRRWDc5LVJR0gGyAUFVX3lxTFBoaGF2aG1Pc2gyT2FaczVmLVZQRDYwa05QS0c2Q19UVk9hSENWdXNYUzBNN0x1RHRkV0h2UG5UcllVWDBWcXFNR2gyLXhLRHNodUhQTVo1a3RNM0ptaG9tWjhwNUFBU2FpakVkUnQwdUFGVE9jU3VCc01KZUplV2NXZEdXc1BWblk0alMxbUdpUTRic0RpMzJPV3FvN2E3NlZnTEx5cXlqSXlYZFFYNzktUlE?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWnJfbFFTTk9sV3NNNHpGb2tPcFFSb2JnbktOa3lrbzlDbkhOaWR3bHNsb3FiZUxqME56TEpwY2lpSDdSaFdySWZ5RVluRlgtaDVDaUx1UUhvN0cxRWxCZkdyLVd2N3Z1WUYtbHJURUNhODJoblQzU1FnTFFSeHdkdzBDdUNkR2FuSTBMQlRzb241X29taHp3QkFLc1lyYW16bEdVT0wwWHdfdEpK0gGyAUFVX3lxTFBoaGF2aG1Pc2gyT2FaczVmLVZQRDYwa05QS0c2Q19UVk9hSENWdXNYUzBNN0x1RHRkV0h2UG5UcllVWDBWcXFNR2gyLXhLRHNodUhQTVo1a3RNM0ptaG9tWjhwNUFBU2FpakVkUnQwdUFGVE9jU3VCc01KZUplV2NXZEdXc1BWblk0alMxbUdpUTRic0RpMzJPV3FvN2E3NlZnTEx5cXlqSXlYZFFYNzktUlE?oc=5",
           "source": "Renew Economy",
           "date": "2. Apr 2026"
         }
@@ -85,7 +116,7 @@
       "label": "Bauakustik",
       "icon": "🏗️",
       "color": "#7b4f12",
-      "summary": "Der vorliegende Nachrichtentitel thematisiert einen chinesischen Akustik- und Technologiespezialisten für Wearables und Smart Devices, dessen Fokus jedoch außerhalb der Gebäudeakustik im DACH-Raum liegt. Im Gegensatz dazu konzentrieren sich die relevanten Anforderungen im DACH-Raum auf den Schallschutz im Hochbau, welcher maßgeblich durch die OIB-Richtlinien in Österreich und die ÖNORM geregelt wird. Diese Regelwerke definieren die notwendigen Standards für eine adäquate Gebäudeakustik und den Schutz vor Lärmübertragung innerhalb von Gebäuden.",
+      "summary": "Der vorliegende Nachrichtentitel bezieht sich auf die Goertek Inc Aktie und deren Fokus auf Akustik in Wearables und Smart Devices. Diese Information hat keinen Bezug zu OIB-Richtlinien, Schallschutz im Hochbau oder Neuigkeiten von DEGA und ÖAL. Eine Zusammenfassung der gewünschten Themen ist daher auf Basis dieser Quelle nicht möglich.",
       "items": [
         {
           "title": "Goertek Inc Aktie: Chinesischer Akustik- und Tech-Spezialist mit Fokus auf Wearables und Smart Devic - AD HOC NEWS",
