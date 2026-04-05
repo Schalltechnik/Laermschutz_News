@@ -4,7 +4,7 @@ Lärmschutz News Fetcher
 Modes:
   - Daily:          fetch 7-day news, update data.json
   - Weekly summary: read data.json, generate summary.html (newsletter format)
-  - Monthly summary: fetch 30-day news, generate summary_monthly_YYYY-MM.html (newsletter format)
+  - Monthly summary: fetch 30-day news, generate summary_monthly_YYYY-MM.html
 """
 
 import json
@@ -36,6 +36,23 @@ GEMINI_PAUSE_SECONDS   = 120
 GEMINI_RETRY_ATTEMPTS  = 10
 GEMINI_RETRY_WAIT      = 120
 SUMMARY_PRE_PAUSE      = 30
+
+# Keywords that mark an article as irrelevant for Bauakustik
+# (filters out OIB articles about unrelated topics)
+BAUAKUSTIK_EXCLUDE_KEYWORDS = [
+    "aktiengesellschaft", "AG ", "börse", "investition", "aktien",
+    "begrünung", "dachbegrünung", "fassadenbegrünung", "energieeffizienz",
+    "sri ", "smart readiness", "photovoltaik", "solar", "heizung",
+    "wärmepumpe", "lüftung", "klimaanlage", "brandschutz",
+    "betriebsausflug", "jubiläum", "vorhang auf",
+]
+
+# Keywords that make an OIB article relevant for Bauakustik
+BAUAKUSTIK_INCLUDE_KEYWORDS = [
+    "schallschutz", "akustik", "lärm", "schall", "bauakustik",
+    "schwingung", "trittschall", "luftschall", "oib-richtlinie 5",
+    "richtlinie 5", "schallschutz", "geräusch",
+]
 
 
 def gnews(query: str, lang: str = "de", country: str = "AT") -> str:
@@ -71,6 +88,7 @@ CATEGORIES = {
             gnews("Abteilung 13 Land Steiermark Lärm"),
             gnews("UVP Verfahren Steiermark Lärm"),
         ],
+        "keyword_filter": None,
         "summary_prompt": (
             "Du bist Experte für Lärmschutz in der Steiermark und Graz. "
             "Fasse die folgenden Nachrichtentitel in 3 prägnanten deutschen Sätzen zusammen. "
@@ -103,6 +121,7 @@ CATEGORIES = {
             gnews("Lärmkarte Österreich"),
             gnews("Raumordnung Lärm Österreich"),
         ],
+        "keyword_filter": None,
         "summary_prompt": (
             "Du bist Experte für Lärmschutz in Österreich. "
             "Fasse die folgenden Nachrichtentitel in 3 prägnanten deutschen Sätzen zusammen. "
@@ -119,28 +138,34 @@ CATEGORIES = {
         "icon": "🏔️",
         "color": "#5a5a5a",
         "feeds": [
-            gnews("Verkehrslärm Deutschland Österreich Schweiz", country="DE"),
+            # Deutschland
+            gnews("Verkehrslärm Deutschland", country="DE"),
             gnews("Umgebungslärm Deutschland", country="DE"),
             gnews("Fluglärm Deutschland", country="DE"),
-            gnews("Fluglärm Schweiz", country="DE"),
             gnews("Schienenlärm Bahn Deutschland", country="DE"),
             gnews("Industrielärm Deutschland", country="DE"),
             gnews("Lärmkarte Lärmkartierung Deutschland", country="DE"),
             gnews("Ruhige Gebiete Lärmschutz Deutschland", country="DE"),
-            gnews("Infraschall Deutschland Österreich", country="DE"),
-            gnews("tieffrequenter Schall DACH", country="DE"),
-            gnews("Brummton Deutschland Schweiz", country="DE"),
-            gnews("Lärmbekämpfung DACH", country="DE"),
-            gnews("Raumordnung Lärm Deutschland", country="DE"),
+            gnews("Infraschall Deutschland", country="DE"),
+            gnews("Brummton Deutschland", country="DE"),
+            gnews("Lärmbekämpfung Deutschland", country="DE"),
+            # Schweiz
+            gnews("Lärmschutz Schweiz", country="DE"),
+            gnews("Verkehrslärm Schweiz", country="DE"),
+            gnews("Fluglärm Schweiz Zürich", country="DE"),
+            gnews("Umgebungslärm Schweiz", country="DE"),
+            gnews("Schienenlärm Schweiz", country="DE"),
         ],
+        "keyword_filter": None,
         "summary_prompt": (
-            "Du bist Experte für Umgebungslärm in der DACH-Region. "
+            "Du bist Experte für Umgebungslärm in der DACH-Region (Deutschland, Österreich, Schweiz). "
             "Fasse die folgenden Nachrichtentitel in 3 prägnanten deutschen Sätzen zusammen. "
+            "Erwähne explizit Entwicklungen aus Deutschland UND der Schweiz wenn vorhanden. "
             "Antworte NUR mit Fließtext."
         ),
         "monthly_prompt": (
             "Du bist Experte für Umgebungslärm in der DACH-Region. "
-            "Fasse die wichtigsten Entwicklungen des letzten Monats in 3–4 Sätzen zusammen. "
+            "Fasse die wichtigsten Entwicklungen des letzten Monats aus Deutschland und der Schweiz in 3–4 Sätzen zusammen. "
             "Antworte NUR mit Fließtext."
         ),
     },
@@ -157,6 +182,7 @@ CATEGORIES = {
             gnews("low frequency noise Europe", lang="en", country="GB"),
             gnews("infrasound regulation Europe", lang="en", country="GB"),
         ],
+        "keyword_filter": None,
         "summary_prompt": (
             "You are an expert on European noise control policy. "
             "Summarize the following headlines in 3 concise sentences in English. "
@@ -183,6 +209,7 @@ CATEGORIES = {
             gnews("site:ingenieur.de/fachmedien/laermbekaempfung", country="DE"),
             gnews("Lärmbekämpfung Akustik ingenieur.de", country="DE"),
         ],
+        "keyword_filter": None,
         "summary_prompt": (
             "You are an acoustics researcher. "
             "Summarize the following headlines in 3 concise sentences in English. "
@@ -199,32 +226,37 @@ CATEGORIES = {
         "icon": "🏗️",
         "color": "#7b4f12",
         "feeds": [
-            # Google News searches
             gnews("Bauakustik Österreich"),
             gnews("Bauakustik DACH", country="DE"),
-            gnews("OIB Richtlinie Schallschutz"),
+            gnews("OIB Richtlinie Schallschutz Gebäude"),
             gnews("OIB Richtlinie 5 Schallschutz"),
             gnews("Schallschutz Gebäude Österreich"),
             gnews("Gebäudeakustik Österreich"),
             gnews("Gebäudeschwingung Österreich"),
             gnews("Schallschutz Wohnbau Österreich"),
-            gnews("Bauakustik Norm ÖNORM"),
+            gnews("Bauakustik Norm"),
             gnews("Trittschallschutz Österreich"),
             gnews("Schallschutz Neubau DACH", country="DE"),
             gnews("Gebäudeakustik Forschung", country="DE"),
-            # OIB WordPress RSS feed (covers all OIB news incl. Schallschutz)
+            # OIB WordPress RSS — filtered to relevant articles only
             "https://www.oib.or.at/feed/",
         ],
+        # For OIB feed: only keep articles that mention bauakustik keywords
+        "keyword_filter": {
+            "include": BAUAKUSTIK_INCLUDE_KEYWORDS,
+            "exclude": BAUAKUSTIK_EXCLUDE_KEYWORDS,
+            "filter_source": "oib.or.at",  # only apply filter to this source
+        },
         "summary_prompt": (
             "Du bist Experte für Bauakustik und Schallschutz in Gebäuden im DACH-Raum. "
             "Fasse die folgenden Nachrichtentitel in 3 prägnanten deutschen Sätzen zusammen. "
-            "Fokus auf OIB-Richtlinien, ÖNORM, Schallschutz im Hochbau und Gebäudeakustik. "
+            "Fokus auf OIB-Richtlinien, Schallschutz im Hochbau und Gebäudeakustik. "
             "Antworte NUR mit Fließtext."
         ),
         "monthly_prompt": (
             "Du bist Experte für Bauakustik im DACH-Raum. "
-            "Fasse die wichtigsten Entwicklungen des letzten Monats zu Bauakustik, "
-            "OIB-Richtlinien und Schallschutz in Gebäuden in 3–4 Sätzen zusammen. "
+            "Fasse die wichtigsten Entwicklungen des letzten Monats zu Bauakustik "
+            "und Schallschutz in Gebäuden in 3–4 Sätzen zusammen. "
             "Antworte NUR mit Fließtext."
         ),
     },
@@ -250,32 +282,38 @@ def fetch_rss(url: str) -> list[dict]:
         with urlopen(req, timeout=30) as resp:
             raw = resp.read()
         root = ET.fromstring(raw)
-        # Support both RSS <channel><item> and Atom <entry>
         channel = root.find("channel")
         if channel is not None:
             entries = channel.findall("item")
         else:
-            ns = {"atom": "http://www.w3.org/2005/Atom"}
-            entries = root.findall("atom:entry", ns) or root.findall("{http://www.w3.org/2005/Atom}entry")
+            entries = (root.findall("{http://www.w3.org/2005/Atom}entry") or
+                       root.findall("entry"))
 
         for item in entries[:MAX_ITEMS_FROM_FEED]:
-            title = (item.findtext("title") or item.findtext("{http://www.w3.org/2005/Atom}title") or "").strip()
+            title = (item.findtext("title") or
+                     item.findtext("{http://www.w3.org/2005/Atom}title") or "").strip()
+            # Clean HTML tags from title (WordPress feeds sometimes include them)
+            title = re.sub(r"<[^>]+>", "", title).strip()
+
             link_el = item.find("link")
             if link_el is not None:
                 link = (link_el.get("href") or link_el.text or "").strip()
             else:
                 link = (item.findtext("link") or "").strip()
-            pub = (item.findtext("pubDate") or item.findtext("published") or
+
+            pub = (item.findtext("pubDate") or
+                   item.findtext("published") or
                    item.findtext("{http://www.w3.org/2005/Atom}published") or "").strip()
+
             source_el = item.find("source")
             source = source_el.text.strip() if source_el is not None else ""
             if not source:
-                # Try to derive source from URL
                 try:
                     from urllib.parse import urlparse
                     source = urlparse(url).netloc.replace("www.", "")
                 except Exception:
                     pass
+
             if title:
                 items.append({
                     "title": title, "link": link,
@@ -284,6 +322,41 @@ def fetch_rss(url: str) -> list[dict]:
     except Exception as e:
         print(f"  Warning: could not fetch {url[:70]}: {e}")
     return items
+
+
+def apply_keyword_filter(items: list[dict], kf: dict) -> list[dict]:
+    """For items from a specific source, keep only those matching include keywords
+    and not matching exclude keywords."""
+    if not kf:
+        return items
+
+    filter_source = kf.get("filter_source", "")
+    include_kw = [k.lower() for k in kf.get("include", [])]
+    exclude_kw = [k.lower() for k in kf.get("exclude", [])]
+
+    result = []
+    for item in items:
+        # Only apply filter to the specified source
+        if filter_source and filter_source not in item.get("source", "").lower():
+            result.append(item)
+            continue
+
+        title_lower = item["title"].lower()
+
+        # Exclude if any exclude keyword found
+        if any(kw in title_lower for kw in exclude_kw):
+            continue
+
+        # Include only if any include keyword found (when include list is non-empty)
+        if include_kw and not any(kw in title_lower for kw in include_kw):
+            continue
+
+        result.append(item)
+
+    filtered = len(items) - len(result)
+    if filtered:
+        print(f"  Keyword-filtered {filtered} irrelevant items from {filter_source}")
+    return result
 
 
 def filter_by_age(items, max_age_days):
@@ -362,7 +435,6 @@ def summarize_with_gemini(titles, prompt):
 # ── Newsletter HTML Builder ────────────────────────────────────────────────────
 
 def render_newsletter_text(raw_text: str) -> str:
-    """Convert Gemini bullet-point text to styled HTML, preserving links."""
     lines = raw_text.split("\n")
     html_lines = []
     in_list = False
@@ -375,7 +447,6 @@ def render_newsletter_text(raw_text: str) -> str:
                 in_list = False
             continue
 
-        # Section headers
         if re.match(r"^(\*\*)?[A-ZÄÖÜ&][^.!?\n]{0,50}:(\*\*)?$", line):
             if in_list:
                 html_lines.append("</ul>")
@@ -383,7 +454,6 @@ def render_newsletter_text(raw_text: str) -> str:
             clean = re.sub(r"\*\*", "", line).rstrip(":")
             html_lines.append(f'<h3 class="nl-section">{clean}</h3>')
 
-        # Bullet points
         elif re.match(r"^[-•*]\s+|^\d+\.\s+", line):
             if not in_list:
                 html_lines.append('<ul class="nl-list">')
@@ -404,27 +474,32 @@ def render_newsletter_text(raw_text: str) -> str:
     return "\n".join(html_lines)
 
 
+def build_top_articles_html(top_articles: list[dict]) -> str:
+    """Build the 'Wichtigste Meldungen' section with links — placed at the bottom."""
+    if not top_articles:
+        return ""
+    html = '<h3 class="nl-section">Wichtigste Meldungen</h3><ul class="nl-list nl-links">'
+    for art in top_articles:
+        t = art.get("title", "")
+        u = art.get("link", "")
+        d = art.get("date", "")
+        s = art.get("source", "")
+        meta = " · ".join(filter(None, [s, d]))
+        if u:
+            html += f'<li><a href="{u}" target="_blank" rel="noopener">{t}</a>'
+        else:
+            html += f'<li>{t}'
+        if meta:
+            html += f' <span class="nl-meta">{meta}</span>'
+        html += '</li>'
+    html += '</ul>'
+    return html
+
+
 def build_newsletter_html(title, kw_label, date_str, subtitle, exec_text, top_articles=None) -> str:
     content = render_newsletter_text(exec_text)
-
-    # Build top article links section
-    links_html = ""
-    if top_articles:
-        links_html = '<h3 class="nl-section">Wichtigste Meldungen</h3><ul class="nl-list nl-links">'
-        for art in top_articles:
-            t = art.get("title", "")
-            u = art.get("link", "")
-            d = art.get("date", "")
-            s = art.get("source", "")
-            meta = " · ".join(filter(None, [s, d]))
-            if u:
-                links_html += f'<li><a href="{u}" target="_blank" rel="noopener">{t}</a>'
-            else:
-                links_html += f'<li>{t}'
-            if meta:
-                links_html += f' <span class="nl-meta">{meta}</span>'
-            links_html += '</li>'
-        links_html += '</ul>'
+    # Links go at the BOTTOM, after the main content
+    links_html = build_top_articles_html(top_articles or [])
 
     return f"""<!DOCTYPE html>
 <html lang="de">
@@ -470,8 +545,8 @@ def build_newsletter_html(title, kw_label, date_str, subtitle, exec_text, top_ar
     </div>
     <div class="nl-body">
       <a class="back" href="index.html">← Zurück zur Übersicht</a>
-{links_html}
 {content}
+{links_html}
       <div class="tags">
         <span class="tag" style="background:#1a5c38">🏞️ Steiermark</span>
         <span class="tag" style="background:#c8102e">🇦🇹 Österreich</span>
@@ -489,7 +564,7 @@ def build_newsletter_html(title, kw_label, date_str, subtitle, exec_text, top_ar
 
 # ── Newsletter prompts ─────────────────────────────────────────────────────────
 
-def weekly_newsletter_prompt(week_str: str, sections: list[str]) -> str:
+def weekly_newsletter_prompt(week_str, sections):
     return (
         f"Du bist ein Experte für Lärmschutz und Umgebungslärm. "
         f"Erstelle einen kompakten Newsletter für {week_str} auf Deutsch.\n\n"
@@ -515,7 +590,7 @@ def weekly_newsletter_prompt(week_str: str, sections: list[str]) -> str:
     )
 
 
-def monthly_newsletter_prompt(month_str: str, sections: list[str]) -> str:
+def monthly_newsletter_prompt(month_str, sections):
     return (
         f"Du bist ein Experte für Lärmschutz und Umgebungslärm. "
         f"Erstelle einen kompakten Monats-Newsletter für {month_str} auf Deutsch.\n\n"
@@ -536,13 +611,12 @@ def monthly_newsletter_prompt(month_str: str, sections: list[str]) -> str:
         "- [2–3 ausführliche Bullet Points]\n\n"
         "Bauakustik:\n"
         "- [2–3 ausführliche Bullet Points]\n\n"
-        "Regeln: NUR Bullet Points, kein Fließtext, keine Einleitung.\n"
-        "Der Newsletter soll etwa 1,5x so lang sein wie ein Wochennewsletter.\n\n"
+        "Regeln: NUR Bullet Points, kein Fließtext, keine Einleitung.\n\n"
         "Daten:\n" + "\n\n".join(sections)
     )
 
 
-def _build_sections(categories_data: dict) -> list[str]:
+def _build_sections(categories_data):
     sections = []
     for cat_id, cat in categories_data.items():
         titles = "\n".join(f"- {i['title']}" for i in cat.get("items", [])[:10])
@@ -553,11 +627,11 @@ def _build_sections(categories_data: dict) -> list[str]:
     return sections
 
 
-def _top_articles(categories_data: dict, n: int = 8) -> list[dict]:
-    """Collect top articles across all categories for the links section."""
+def _top_articles(categories_data, n=8):
+    """Pick top articles with links, spread across categories, sorted by recency."""
     all_items = []
     for cat in categories_data.values():
-        for item in cat.get("items", [])[:3]:
+        for item in cat.get("items", [])[:2]:  # max 2 per category
             if item.get("link"):
                 all_items.append(item)
     return all_items[:n]
@@ -565,7 +639,7 @@ def _top_articles(categories_data: dict, n: int = 8) -> list[dict]:
 
 # ── Weekly Summary Only ────────────────────────────────────────────────────────
 
-def run_weekly_summary_only() -> None:
+def run_weekly_summary_only():
     print("\n── Weekly Newsletter Only Mode ──")
     try:
         with open("docs/data.json", encoding="utf-8") as f:
@@ -602,7 +676,7 @@ def run_weekly_summary_only() -> None:
 
 # ── Monthly Summary Only ───────────────────────────────────────────────────────
 
-def run_monthly_summary_only() -> None:
+def run_monthly_summary_only():
     now = datetime.now(timezone.utc)
     month_str = now.strftime("%B %Y")
     month_slug = now.strftime("%Y-%m")
@@ -615,6 +689,7 @@ def run_monthly_summary_only() -> None:
         for feed_url in cat["feeds"]:
             all_items.extend(fetch_rss(feed_url))
 
+        all_items = apply_keyword_filter(all_items, cat.get("keyword_filter"))
         all_items = filter_by_age(all_items, MAX_AGE_DAYS_MONTHLY)
         items = deduplicate(all_items)[:30]
         print(f"  {len(items)} unique items in last 30 days")
@@ -653,18 +728,16 @@ def run_monthly_summary_only() -> None:
     )
 
     os.makedirs("docs", exist_ok=True)
-    archived_path = f"docs/summary_monthly_{month_slug}.html"
-    with open(archived_path, "w", encoding="utf-8") as f:
+    archived = f"docs/summary_monthly_{month_slug}.html"
+    with open(archived, "w", encoding="utf-8") as f:
         f.write(html)
     with open("docs/summary_monthly.html", "w", encoding="utf-8") as f:
         f.write(html)
-
     _update_monthly_archive(month_slug, month_str)
-    print(f"  ✅ docs/summary_monthly_{month_slug}.html written.")
-    print(f"  ✅ docs/summary_monthly.html updated.")
+    print(f"  ✅ {archived} written.")
 
 
-def _update_monthly_archive(new_slug: str, new_label: str) -> None:
+def _update_monthly_archive(new_slug, new_label):
     archive_path = "docs/monthly_archive.json"
     try:
         with open(archive_path, encoding="utf-8") as f:
@@ -677,12 +750,12 @@ def _update_monthly_archive(new_slug: str, new_label: str) -> None:
         archive.sort(key=lambda x: x["slug"], reverse=True)
     with open(archive_path, "w", encoding="utf-8") as f:
         json.dump(archive, f, ensure_ascii=False, indent=2)
-    print(f"  ✅ docs/monthly_archive.json updated ({len(archive)} entries).")
+    print(f"  ✅ monthly_archive.json updated ({len(archive)} entries).")
 
 
 # ── Daily ──────────────────────────────────────────────────────────────────────
 
-def run_daily() -> None:
+def run_daily():
     output = {
         "generated": datetime.now(timezone.utc).strftime("%d. %B %Y, %H:%M UTC"),
         "categories": {},
@@ -694,7 +767,8 @@ def run_daily() -> None:
             print(f"  Fetching: {feed_url[:80]}…")
             all_items.extend(fetch_rss(feed_url))
 
-        print(f"  {len(all_items)} total items before filtering")
+        all_items = apply_keyword_filter(all_items, cat.get("keyword_filter"))
+        print(f"  {len(all_items)} total items before age filter")
         all_items = filter_by_age(all_items, MAX_AGE_DAYS_WEEKLY)
         items = deduplicate(all_items)[:MAX_ITEMS_PER_CATEGORY]
         print(f"  {len(items)} unique items after filter")
