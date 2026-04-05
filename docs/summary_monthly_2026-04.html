@@ -3,76 +3,32 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Executive Newsletter – April 2026</title>
+  <title>Newsletter – April 2026</title>
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     body { font-family: 'DM Sans', sans-serif; background: #f0f4f0; color: #1a1a1a; padding: 40px 20px 80px; }
     .page { max-width: 740px; margin: 0 auto; background: #fff; border: 1px solid #c8dbc8; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 20px rgba(26,92,56,0.08); }
-
-    /* Newsletter header band */
-    .nl-header {
-      background: #1a5c38;
-      color: #fff;
-      padding: 28px 40px 24px;
-    }
-    .nl-header .kw {
-      font-size: 10px; font-weight: 700; letter-spacing: 2px;
-      text-transform: uppercase; color: rgba(255,255,255,0.6); margin-bottom: 8px;
-    }
-    .nl-header h1 {
-      font-family: 'DM Serif Display', serif; font-weight: 400;
-      font-size: 26px; line-height: 1.3; margin-bottom: 6px;
-    }
+    .nl-header { background: #1a5c38; color: #fff; padding: 28px 40px 24px; }
+    .nl-header .kw { font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: rgba(255,255,255,0.6); margin-bottom: 8px; }
+    .nl-header h1 { font-family: 'DM Serif Display', serif; font-weight: 400; font-size: 26px; line-height: 1.3; margin-bottom: 6px; }
     .nl-header .meta { font-size: 12px; color: rgba(255,255,255,0.6); }
-
-    /* Body */
     .nl-body { padding: 32px 40px 36px; }
     .back { display: inline-block; margin-bottom: 24px; font-size: 13px; color: #1a5c38; text-decoration: none; }
     .back:hover { text-decoration: underline; }
-
-    /* Section headers */
-    h3.nl-section {
-      font-size: 12px; font-weight: 700; letter-spacing: 1.2px;
-      text-transform: uppercase; color: #1a5c38;
-      margin: 24px 0 10px;
-      padding-bottom: 6px;
-      border-bottom: 1.5px solid #d4e4d4;
-    }
-    h3.nl-section:first-child { margin-top: 0; }
-
-    /* Bullet lists */
-    ul.nl-list {
-      list-style: none;
-      margin: 0 0 12px 0;
-      padding: 0;
-    }
-    ul.nl-list li {
-      font-size: 14px;
-      line-height: 1.6;
-      color: #2a2a2a;
-      padding: 6px 0 6px 20px;
-      border-bottom: 1px solid #f0f0f0;
-      position: relative;
-    }
+    h3.nl-section { font-size: 12px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: #1a5c38; margin: 24px 0 10px; padding-bottom: 6px; border-bottom: 1.5px solid #d4e4d4; }
+    h3.nl-section:first-of-type { margin-top: 0; }
+    ul.nl-list { list-style: none; margin: 0 0 12px; padding: 0; }
+    ul.nl-list li { font-size: 14px; line-height: 1.6; color: #2a2a2a; padding: 6px 0 6px 20px; border-bottom: 1px solid #f0f0f0; position: relative; }
     ul.nl-list li:last-child { border-bottom: none; }
-    ul.nl-list li::before {
-      content: "▸";
-      color: #1a5c38;
-      position: absolute;
-      left: 0;
-      font-size: 12px;
-      top: 7px;
-    }
-
-    /* Paragraphs */
+    ul.nl-list li::before { content: "▸"; color: #1a5c38; position: absolute; left: 0; font-size: 12px; top: 7px; }
+    ul.nl-links li a { color: #1a5c38; text-decoration: none; font-weight: 600; }
+    ul.nl-links li a:hover { text-decoration: underline; }
+    .nl-meta { font-size: 11px; color: #999; margin-left: 6px; font-weight: 400; }
     p { font-size: 14px; line-height: 1.7; color: #333; margin-bottom: 14px; }
-
-    /* Tags */
     .tags { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 28px; padding-top: 20px; border-top: 1px solid #e8e8e8; }
     .tag { font-size: 11px; font-weight: 600; padding: 3px 9px; border-radius: 20px; color: #fff; }
     .footer { margin-top: 20px; font-size: 11px; color: #bbb; text-align: center; }
-
     @media (max-width: 600px) { .nl-header, .nl-body { padding-left: 20px; padding-right: 20px; } }
     @media print { body { background: #fff; padding: 0; } .page { box-shadow: none; } .back { display: none; } }
   </style>
@@ -80,69 +36,62 @@
 <body>
   <div class="page">
     <div class="nl-header">
-      <div class="kw">Monatlicher Executive Newsletter · April 2026</div>
-      <h1>Lärmschutz & Umgebungslärm<br>Executive Newsletter</h1>
-      <div class="meta">Monatsrückblick April 2026 · 04. April 2026</div>
+      <div class="kw">Monatlicher Newsletter · April 2026</div>
+      <h1>Lärmschutz & Umgebungslärm<br>Newsletter</h1>
+      <div class="meta">Monatsrückblick April 2026 · 05. April 2026</div>
     </div>
     <div class="nl-body">
       <a class="back" href="index.html">← Zurück zur Übersicht</a>
-<h3 class="nl-section">Key Takeaways</h3>
+<h3 class="nl-section">Key Takeaways des Monats</h3>
 <ul class="nl-list">
-<li>Lärmschutz-Sensibilität steigt, besonders bei Infrastruktur- und Energieprojekten.</li>
-<li>Fluglärmkonflikte eskalieren grenzüberschreitend in der DACH-Region.</li>
-<li>Forschung bestätigt Gesundheitsrisiken, fordert urbane Lärmminderung.</li>
-</ul>
-<h3 class="nl-section">Top-Themen</h3>
-<ul class="nl-list">
-<li>Anrainerproteste gegen Infrastruktur- und Energieprojekte nehmen regional zu.</li>
-<li>Fluglärmkonflikte eskalieren grenzüberschreitend in der DACH-Region.</li>
-<li>Gerichtsurteile beeinflussen europäische Luftfahrt- und Lärmschutzpolitik.</li>
-<li>Wissenschaftliche Studien belegen direkte Gesundheitsfolgen von Umgebungslärm.</li>
-<li>Debatte um Windkraft-Lärm und dessen Auswirkungen intensiviert sich.</li>
+<li>Österreich ist Lärm-Hotspot; Gesundheitseffekte von Umgebungslärm im Fokus.</li>
+<li>Bürgerproteste gegen Lärm bei Infrastruktur- und Energieprojekten nehmen zu.</li>
+<li>WM 2026: Ausnahmen von Nachtruhe für Public Viewing in DACH beschlossen.</li>
 </ul>
 <h3 class="nl-section">Steiermark</h3>
 <ul class="nl-list">
-<li>Anrainer klagen über Lärm von Koralmbahn und Fahrtechnikzentrum.</li>
-<li>Breiter Widerstand gegen Windparks und Sonnenspeicher Süd fordert Umweltverträglichkeitsprüfung.</li>
+<li>Anrainer der Koralmbahn und eines Fahrtechnikzentrums klagen über Lärmemissionen; Betreiber nehmen Kritik ernst.</li>
+<li>Widerstand gegen Windpark Radmer und Sonnenspeicher Süd wegen befürchteter Lärm- und Gesundheitsbeeinträchtigungen.</li>
+<li>Lärmschutz ist zentrales Thema in kommunaler Zukunftsplanung, z.B. in Hofstätten bei der Energiewende.</li>
 </ul>
 <h3 class="nl-section">Österreich</h3>
 <ul class="nl-list">
-<li>Österreich zählt weiterhin zu den Lärm-Hotspots Europas mit Gesundheitsfolgen.</li>
-<li>Lokale Bürgerinitiativen formieren sich gegen Lärm durch geplante Windparks.</li>
+<li>Österreich zählt zu den lautesten Ländern Europas, was die weitreichenden Gesundheitsfolgen von Lärm unterstreicht.</li>
+<li>Widerstand gegen geplante Windparks, wie in Radmer, verdeutlicht anhaltende Lärmschutz-Herausforderungen bei Infrastrukturprojekten.</li>
+<li>Sonderregelungen für Public Viewing zur WM 2026 setzen Nachtruhe nach 22 Uhr diesen Sommer aus.</li>
 </ul>
 <h3 class="nl-section">DACH</h3>
 <ul class="nl-list">
-<li>Grenzüberschreitende Konflikte um Züricher Flugrouten und Tiefflugzonen in Norddeutschland.</li>
-<li>Militärische Flugübungen von Kampfjets verursachen erhöhte Lärmbelastung.</li>
-<li>Lockerung der Nachtruhe-Regeln in Deutschland sorgt für Diskussionen.</li>
+<li>Bundesregierung erlaubt Ausnahmen von Lärmschutzregeln für Public Viewing zur WM 2026, Nachtruhe fällt weg.</li>
+<li>Neue Tiefflug-Zonen in Norddeutschland führen zu erhöhtem Fluglärm und Beschwerden von Anrainern.</li>
+<li>Geplante Flugroutenänderungen um Zürich stoßen auf starken Widerstand süddeutscher Politiker und Landräte.</li>
 </ul>
 <h3 class="nl-section">Europa</h3>
 <ul class="nl-list">
-<li>Niederländisches Gericht kippt Schiphol-Fluglimit, beeinflusst europäische Luftfahrtpolitik.</li>
-<li>Fokus auf Reduzierung von urbanem Lärm und "ungehörtem" Windturbinenlärm.</li>
+<li>Neue europäische Maßnahmen zielen auf die Reduzierung von Lärm durch Rollkoffer ab.</li>
+<li>Bestehende Richtlinien für häusliche Lärmquellen wie Laubbläser und Sägen werden verstärkt beachtet.</li>
+<li>Bedenken bezüglich Windturbinenlärm nehmen zu; Hersteller priorisieren leise Kabinen für neue Elektrofahrzeuge.</li>
 </ul>
 <h3 class="nl-section">Wissenschaft</h3>
 <ul class="nl-list">
-<li>Studien belegen direkten Zusammenhang zwischen Stadtlärm und mentaler/kardiovaskulärer Gesundheit.</li>
-<li>Forschung betont die Rolle von grüner Infrastruktur und Architekturakustik für gesunde Umgebungen.</li>
+<li>Neue Studien belegen den Zusammenhang zwischen urbanen Klanglandschaften und mentalem Wohlbefinden.</li>
+<li>Schon kurze Exposition gegenüber Umgebungslärm, wie Straßenlärm, kann sich negativ auf die Herzgesundheit auswirken.</li>
+<li>Technologische Fortschritte ermöglichen ein besseres "Zuhören" der Erde und tiefere Einblicke in natürliche Klanglandschaften.</li>
 </ul>
-<h3 class="nl-section">Risiken & Trends</h3>
+<h3 class="nl-section">Bauakustik</h3>
 <ul class="nl-list">
-<li>Zunehmende Anrainerproteste könnten Infrastruktur- und Energieprojekte verzögern.</li>
-<li>Gerichtliche Entscheidungen schaffen Präzedenzfälle für Lärmschutzregelungen.</li>
-<li>Wachsende Evidenz für Gesundheitsrisiken erhöht Druck auf politische Maßnahmen.</li>
+<li>Marktführende Dämmstoffhersteller wie Isover betonen die Bedeutung integrierter Lösungen für Energieeffizienz und Schallschutz.</li>
+<li>Hochwertige Dämmmaterialien sind entscheidend für effektiven Schallschutz und die Verbesserung der Raumakustik in modernen Gebäuden.</li>
+<li>Die Bauakustik rückt zunehmend in den Fokus, um Komfort und Wohlbefinden in energieeffizienten Bauprojekten zu gewährleisten.</li>
 </ul>
-<h3 class="nl-section">Ausblick</h3>
-<ul class="nl-list">
-<li>Verstärkter Fokus auf Lärmminderung in Stadtplanung und bei Großprojekten erwartet.</li>
-<li>Internationale Zusammenarbeit bei grenzüberschreitendem Lärmschutz wird wichtiger.</li>
-</ul>
+<h3 class="nl-section">Wichtigste Meldungen</h3><ul class="nl-list nl-links"><li><a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxNbnRxSzNQWnBRaGxqTjRsTGxlc3RWZjk4dzlFTG9JSU5GVWpGdkh3eUY5VF9KV25URk9uOV93eGR1RzNHb2FReWdRLUNmdHBuZWFMZmlCWWh1bWZid1V5aVQ0aFh5bm5MWTlOQUs1OTJlMzc0QkhLWjQ2WUVzNFM3aDg2cUxUY2c2dWs2RUc0X1M0MEg2bU5iaTZiaVpCMVEyMi00TFVuUjdnVFVENzY2aVVIN2M?oc=5" target="_blank" rel="noopener">Bürgermeister-Kolumne: Lärmschutz und Energiewende, das bewegt Hofstätten im Jahr 2026 - meinbezirk.at</a> <span class="nl-meta">meinbezirk.at · 11. Mar 2026</span></li><li><a href="https://news.google.com/rss/articles/CBMiywFBVV95cUxQNEttWHI1b2ZIaWRRZ3hQTm84VXRGTTVxZWlqNjdnLXc0YnhudHYyalh3WnRUUFdOcWJBQVpHZ19CZXZaN05wbnk0M290LWtfZWh1Tmt0NTZ2V3dVa00zSjB5di1obVdiRGRlbEF6amV0TkNrNzVBVGgyS25iOEZVeDhZSUo5Z3lSMlpTMldZUjF1Z25IU2g3R19oVEd1dWdTMDEzeUxZaDV0OHhEeGhDX1ExTl9KcnpRd0Rwa1ROcVlqd2hJTTJYN3FpVQ?oc=5" target="_blank" rel="noopener">Koralmbahn: Anrainer der neuen Bahnstrecke in Groß St. Florian klagen über Lärm - Kleine Zeitung</a> <span class="nl-meta">Kleine Zeitung · 26. Mar 2026</span></li><li><a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxORUFkWktzTWZhVFZsY1RDWWtCcHZBN2NEYnAyVnBtV0k0UDI5b1RJcTlDRFBUdmNiM09wbld2LUVzWDFnWUZrNWxTM2sxb2g2MmNjeVNsSkJUYnlxeVdEcDVXU2ZUTWNiUUZYLTQ1N2dnZ1pUNkVOZnkwcjRxbllibHBka1N0VkotMFY1Mlc2STk?oc=5" target="_blank" rel="noopener">Österreich zählt zu den „lautesten“ Ländern Europas - DiePresse.com</a> <span class="nl-meta">DiePresse.com · 30. Mar 2026</span></li><li><a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxQNDZ4NUFYclRvLTdBX1Fqa2pXczh2STU5WVFLb2RoQmRvXzI3Z0s5b0pZcjk4VlZGRUZCVjN1Rjh2a0ozRDA1VW4wOXFvSWVCanZaSF9tZzVpMF9TVHp6TUVITV9Lc3IwcTVIdndoOEJiWWwtZ01pRUlieU9vbE1fMHBCNTBQZTgzeHltUUJMSDNSYlp2WjBJVVVfYk0zU2pOSXNaU2lXZFQ5WDd6QWxaQkF1R1hPQQ?oc=5" target="_blank" rel="noopener">Österreich zählt zu Lärm-Hotspots Europas - MSN</a> <span class="nl-meta">MSN · 2. Apr 2026</span></li><li><a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxNYkZIQkJQZ2lkeXByeTZPRTdyTzdkR0lVd25aZ0UxUEJjWGJSYm9mTnloZHlGN0Y3U2RJZTlQREh5X1BfTklmN0U1QzBhVGFxWDE4XzZFWWxDb3U2M3hFZzFNaTg1eU5lTXhZYmRrM1R3cjVxRGhPU3VQdnFtSUtFTHZkNFc5eFFMTUZFUmRoQkVZVGFIQ19vRzJEeU11X05uV2E3d3lfd0d2enpITWVRR0RB?oc=5" target="_blank" rel="noopener">Nachtruhe fällt weg: Bundesregierung erlaubt im Sommer neue Lärmschutz-Regeln - Berliner Kurier</a> <span class="nl-meta">Berliner Kurier · 31. Mar 2026</span></li><li><a href="https://news.google.com/rss/articles/CBMiyAFBVV95cUxPS3VqR2hfWmtwVFRwRzZHUy1CRU1uN2RVZkFQajhreE9tc2cybjNKX29iYlN3OXVIM1pGbVhDMi1nZ2R5OWNlelZRSGRRNTdablozNktVbHliWlFLUnZQaTBIbFUxb1pnZWtvRGpuMWxNZVgyWmc3UW1fYkM0NEZPRmJiZmxIQjBpQVlQdjAtMWlFaEF2NW5JdW51S2xCNUxiWlAzOFo0UExqRWtxbm0xNEhMLXo2TUdObjFycDEyVHlrXzFET1d3QQ?oc=5" target="_blank" rel="noopener">WM 2026: Einigung bei Lärmschutz lässt Public Viewing nach 22 Uhr zu - BILD</a> <span class="nl-meta">BILD · 22. Mar 2026</span></li><li><a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxNRkxEOGZ0dVRQQ1JONFBCcEsxQjdWall2dUk2aHJTdW9KZ05ILTlfX0Jfc0NJZnZaMzVNVlFpdEkwSk4xeW9jRExDX1dmZ3U5ckpCNnpBSTk2NWtlNlA5YnMwdmJLNVA4b2NJOHg0N2Z5OGR5MGd0cnlMbWVKTHkyVFJmdw?oc=5" target="_blank" rel="noopener">Europe’s New Crackdown On Noisy Rolling Suitcases - thetraveler.org</a> <span class="nl-meta">thetraveler.org · 29. Mar 2026</span></li><li><a href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYktkcVNpWEY2aWN4YlRLbW1SRnBrOVpvVjdCWGFiWmhQenNLS2UxcXotQlc3U1U2bW9GaUFWYmNkbVJidUR6R09QWGlHekNJMnhKVFBVbFFYQXdWRDdJMXk3bjVvWkNXTDhfYjgyVElEMzgwcjdZOFByVVhHQ3BwSWtoTnF2RHpkUHVKMHdfUUU2QVVyM3ZzT3p2bnRBRlN3Z1pxUTdtQm9uX2NFVXNLQnRmWUh1X0V0?oc=5" target="_blank" rel="noopener">Wenn Säge und Laubbläser die Mittagsruhe stören: Welche Richtlinien gegen Ruhestörung gibt es? - NDR.de</a> <span class="nl-meta">NDR.de · 13. Mar 2026</span></li><li><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTFAxeUNBQnlVTmlwZ2NZUGxnbTZidHBZT1BNQnJ2VEdGUXBuN2NtUjJ4amlnaEN3S3I0TnpGcEJtUWV2cTl5b3V5UXQyVEQ3U290WmxzSjNKbzBidldWRHhJ?oc=5" target="_blank" rel="noopener">Study on sound insulation performance of walls in traditional timber dwellings of the Miao ethnic group in Qiandongnan - Nature</a> <span class="nl-meta">Nature · 6. Mar 2026</span></li><li><a href="https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcGl6Wk9MR0ptNHlwRVlHM192VmRQWjYxS0RLcDRYc3lJbWdFeWxXLUlDWVhlZlZQY3J4NXUtSEg4UjBGNzNrdUdLYkItNGNjeGs3RUN4MGVydHF5b3N5Tjgwa1lQVXBmTFU5ZlhycGtPT2VkT2tnblBmUGExN1g1c2dCdDhDY3NjeGRISVZ2TTYwVTdkS2JMZGFDUUZydkVNbVlEUXhuMDlHVFVILXhCN3pTN3RCa215Y2hDS2R4XzVTd2gzV3FXQUVpMDdDOU11eUNWNXdn?oc=5" target="_blank" rel="noopener">The Soundscape of Cities Matters: Study Links Urban Acoustic Environments to Mental Well-Being - elciudadano.com</a> <span class="nl-meta">elciudadano.com · 1. Apr 2026</span></li></ul>
       <div class="tags">
         <span class="tag" style="background:#1a5c38">🏞️ Steiermark</span>
         <span class="tag" style="background:#c8102e">🇦🇹 Österreich</span>
         <span class="tag" style="background:#5a5a5a">🏔️ DACH</span>
         <span class="tag" style="background:#003399">🇪🇺 Europa</span>
         <span class="tag" style="background:#1a6b3c">🔬 Wissenschaft</span>
+        <span class="tag" style="background:#7b4f12">🏗️ Bauakustik</span>
       </div>
       <div class="footer">© Florian Lackner · Created using Claude.ai, powered by Google Gemini AI & GitHub Actions</div>
     </div>
