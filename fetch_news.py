@@ -37,21 +37,19 @@ GEMINI_RETRY_ATTEMPTS  = 10
 GEMINI_RETRY_WAIT      = 120
 SUMMARY_PRE_PAUSE      = 30
 
-# Keywords that mark an article as irrelevant for Bauakustik
-# (filters out OIB articles about unrelated topics)
+# OIB keyword filters
 BAUAKUSTIK_EXCLUDE_KEYWORDS = [
-    "aktiengesellschaft", "AG ", "börse", "investition", "aktien",
+    "aktiengesellschaft", "börse", "investition", "aktien",
     "begrünung", "dachbegrünung", "fassadenbegrünung", "energieeffizienz",
     "sri ", "smart readiness", "photovoltaik", "solar", "heizung",
-    "wärmepumpe", "lüftung", "klimaanlage", "brandschutz",
+    "brandschutz",
     "betriebsausflug", "jubiläum", "vorhang auf",
 ]
-
-# Keywords that make an OIB article relevant for Bauakustik
 BAUAKUSTIK_INCLUDE_KEYWORDS = [
     "schallschutz", "akustik", "lärm", "schall", "bauakustik",
     "schwingung", "trittschall", "luftschall", "oib-richtlinie 5",
-    "richtlinie 5", "schallschutz", "geräusch",
+    "wärmepumpe", "lüftung", "klimaanlage",
+    "richtlinie 5", "geräusch",
 ]
 
 
@@ -120,11 +118,16 @@ CATEGORIES = {
             gnews("Ruhige Gebiete Österreich"),
             gnews("Lärmkarte Österreich"),
             gnews("Raumordnung Lärm Österreich"),
+            # ÖAL feeds
+            gnews("ÖAL Österreichischer Arbeitsring Lärmbekämpfung"),
+            gnews("site:oal.at"),
+            "https://www.oal.at/?format=feed&type=rss",
         ],
         "keyword_filter": None,
         "summary_prompt": (
             "Du bist Experte für Lärmschutz in Österreich. "
             "Fasse die folgenden Nachrichtentitel in 3 prägnanten deutschen Sätzen zusammen. "
+            "Hebe auch Neuigkeiten vom Österreichischen Arbeitsring für Lärmbekämpfung (ÖAL) hervor. "
             "Antworte NUR mit Fließtext."
         ),
         "monthly_prompt": (
@@ -155,12 +158,18 @@ CATEGORIES = {
             gnews("Fluglärm Schweiz Zürich", country="DE"),
             gnews("Umgebungslärm Schweiz", country="DE"),
             gnews("Schienenlärm Schweiz", country="DE"),
+            # DEGA
+            gnews("DEGA Akustik Veranstaltungen Konferenz", country="DE"),
+            gnews("DEGA Akustik Neuigkeiten", country="DE"),
+            gnews("site:dega-akustik.de", country="DE"),
+            "https://www.dega-akustik.de/index.php?id=2&type=100",
         ],
         "keyword_filter": None,
         "summary_prompt": (
             "Du bist Experte für Umgebungslärm in der DACH-Region (Deutschland, Österreich, Schweiz). "
             "Fasse die folgenden Nachrichtentitel in 3 prägnanten deutschen Sätzen zusammen. "
             "Erwähne explizit Entwicklungen aus Deutschland UND der Schweiz wenn vorhanden. "
+            "Hebe auch Veranstaltungen und Neuigkeiten der DEGA hervor. "
             "Antworte NUR mit Fließtext."
         ),
         "monthly_prompt": (
@@ -240,17 +249,23 @@ CATEGORIES = {
             gnews("Gebäudeakustik Forschung", country="DE"),
             # OIB WordPress RSS — filtered to relevant articles only
             "https://www.oib.or.at/feed/",
+            # DEGA Bauakustik
+            gnews("DEGA Bauakustik Seminar Schulung", country="DE"),
+            gnews("site:dega-akustik.de Bauakustik", country="DE"),
+            # ÖAL Bauakustik
+            gnews("ÖAL Österreichischer Arbeitsring Bauakustik"),
+            gnews("site:oal.at Bauakustik Schallschutz"),
+            "https://www.oal.at/?format=feed&type=rss",
         ],
-        # For OIB feed: only keep articles that mention bauakustik keywords
         "keyword_filter": {
             "include": BAUAKUSTIK_INCLUDE_KEYWORDS,
             "exclude": BAUAKUSTIK_EXCLUDE_KEYWORDS,
-            "filter_source": "oib.or.at",  # only apply filter to this source
+            "filter_source": "oib.or.at",
         },
         "summary_prompt": (
             "Du bist Experte für Bauakustik und Schallschutz in Gebäuden im DACH-Raum. "
             "Fasse die folgenden Nachrichtentitel in 3 prägnanten deutschen Sätzen zusammen. "
-            "Fokus auf OIB-Richtlinien, Schallschutz im Hochbau und Gebäudeakustik. "
+            "Fokus auf OIB-Richtlinien, Schallschutz im Hochbau, DEGA- und ÖAL-Neuigkeiten. "
             "Antworte NUR mit Fließtext."
         ),
         "monthly_prompt": (
@@ -272,6 +287,12 @@ def parse_pub_date(raw: str):
         from email.utils import parsedate_to_datetime
         return parsedate_to_datetime(raw)
     except Exception:
+        pass
+    # Try ISO 8601 (Atom feeds)
+    try:
+        raw_clean = raw.rstrip("Z") + "+00:00"
+        return datetime.fromisoformat(raw_clean)
+    except Exception:
         return None
 
 
@@ -282,29 +303,37 @@ def fetch_rss(url: str) -> list[dict]:
         with urlopen(req, timeout=30) as resp:
             raw = resp.read()
         root = ET.fromstring(raw)
+
+        # RSS 2.0
         channel = root.find("channel")
         if channel is not None:
             entries = channel.findall("item")
         else:
+            # Atom
             entries = (root.findall("{http://www.w3.org/2005/Atom}entry") or
                        root.findall("entry"))
 
         for item in entries[:MAX_ITEMS_FROM_FEED]:
+            # Title
             title = (item.findtext("title") or
                      item.findtext("{http://www.w3.org/2005/Atom}title") or "").strip()
-            # Clean HTML tags from title (WordPress feeds sometimes include them)
-            title = re.sub(r"<[^>]+>", "", title).strip()
+            title = re.sub(r"<[^>]+>", "", title).strip()  # strip HTML
 
+            # Link
             link_el = item.find("link")
             if link_el is not None:
                 link = (link_el.get("href") or link_el.text or "").strip()
             else:
                 link = (item.findtext("link") or "").strip()
 
+            # Date
             pub = (item.findtext("pubDate") or
                    item.findtext("published") or
-                   item.findtext("{http://www.w3.org/2005/Atom}published") or "").strip()
+                   item.findtext("{http://www.w3.org/2005/Atom}published") or
+                   item.findtext("updated") or
+                   item.findtext("{http://www.w3.org/2005/Atom}updated") or "").strip()
 
+            # Source
             source_el = item.find("source")
             source = source_el.text.strip() if source_el is not None else ""
             if not source:
@@ -325,34 +354,22 @@ def fetch_rss(url: str) -> list[dict]:
 
 
 def apply_keyword_filter(items: list[dict], kf: dict) -> list[dict]:
-    """For items from a specific source, keep only those matching include keywords
-    and not matching exclude keywords."""
     if not kf:
         return items
-
     filter_source = kf.get("filter_source", "")
     include_kw = [k.lower() for k in kf.get("include", [])]
     exclude_kw = [k.lower() for k in kf.get("exclude", [])]
-
     result = []
     for item in items:
-        # Only apply filter to the specified source
         if filter_source and filter_source not in item.get("source", "").lower():
             result.append(item)
             continue
-
         title_lower = item["title"].lower()
-
-        # Exclude if any exclude keyword found
         if any(kw in title_lower for kw in exclude_kw):
             continue
-
-        # Include only if any include keyword found (when include list is non-empty)
         if include_kw and not any(kw in title_lower for kw in include_kw):
             continue
-
         result.append(item)
-
     filtered = len(items) - len(result)
     if filtered:
         print(f"  Keyword-filtered {filtered} irrelevant items from {filter_source}")
@@ -389,6 +406,11 @@ def format_date(raw):
     try:
         from email.utils import parsedate_to_datetime
         return parsedate_to_datetime(raw).strftime("%-d. %b %Y")
+    except Exception:
+        pass
+    try:
+        dt = datetime.fromisoformat(raw.rstrip("Z") + "+00:00")
+        return dt.strftime("%-d. %b %Y")
     except Exception:
         return raw[:16]
 
@@ -438,7 +460,6 @@ def render_newsletter_text(raw_text: str) -> str:
     lines = raw_text.split("\n")
     html_lines = []
     in_list = False
-
     for line in lines:
         line = line.strip()
         if not line:
@@ -446,14 +467,12 @@ def render_newsletter_text(raw_text: str) -> str:
                 html_lines.append("</ul>")
                 in_list = False
             continue
-
         if re.match(r"^(\*\*)?[A-ZÄÖÜ&][^.!?\n]{0,50}:(\*\*)?$", line):
             if in_list:
                 html_lines.append("</ul>")
                 in_list = False
             clean = re.sub(r"\*\*", "", line).rstrip(":")
             html_lines.append(f'<h3 class="nl-section">{clean}</h3>')
-
         elif re.match(r"^[-•*]\s+|^\d+\.\s+", line):
             if not in_list:
                 html_lines.append('<ul class="nl-list">')
@@ -461,21 +480,18 @@ def render_newsletter_text(raw_text: str) -> str:
             text = re.sub(r"^[-•*]\s+|^\d+\.\s+", "", line)
             text = re.sub(r"\*\*(.*?)\*\*", r"<strong>\1</strong>", text)
             html_lines.append(f"<li>{text}</li>")
-
         else:
             if in_list:
                 html_lines.append("</ul>")
                 in_list = False
             text = re.sub(r"\*\*(.*?)\*\*", r"<strong>\1</strong>", line)
             html_lines.append(f"<p>{text}</p>")
-
     if in_list:
         html_lines.append("</ul>")
     return "\n".join(html_lines)
 
 
 def build_top_articles_html(top_articles: list[dict]) -> str:
-    """Build the 'Wichtigste Meldungen' section with links — placed at the bottom."""
     if not top_articles:
         return ""
     html = '<h3 class="nl-section">Wichtigste Meldungen</h3><ul class="nl-list nl-links">'
@@ -485,10 +501,7 @@ def build_top_articles_html(top_articles: list[dict]) -> str:
         d = art.get("date", "")
         s = art.get("source", "")
         meta = " · ".join(filter(None, [s, d]))
-        if u:
-            html += f'<li><a href="{u}" target="_blank" rel="noopener">{t}</a>'
-        else:
-            html += f'<li>{t}'
+        html += f'<li><a href="{u}" target="_blank" rel="noopener">{t}</a>' if u else f'<li>{t}'
         if meta:
             html += f' <span class="nl-meta">{meta}</span>'
         html += '</li>'
@@ -498,9 +511,7 @@ def build_top_articles_html(top_articles: list[dict]) -> str:
 
 def build_newsletter_html(title, kw_label, date_str, subtitle, exec_text, top_articles=None) -> str:
     content = render_newsletter_text(exec_text)
-    # Links go at the BOTTOM, after the main content
     links_html = build_top_articles_html(top_articles or [])
-
     return f"""<!DOCTYPE html>
 <html lang="de">
 <head>
@@ -628,10 +639,9 @@ def _build_sections(categories_data):
 
 
 def _top_articles(categories_data, n=8):
-    """Pick top articles with links, spread across categories, sorted by recency."""
     all_items = []
     for cat in categories_data.values():
-        for item in cat.get("items", [])[:2]:  # max 2 per category
+        for item in cat.get("items", [])[:2]:
             if item.get("link"):
                 all_items.append(item)
     return all_items[:n]
