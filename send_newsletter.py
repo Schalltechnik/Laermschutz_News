@@ -16,7 +16,7 @@ BREVO_API_KEY   = os.environ["BREVO_API_KEY"]
 BREVO_SEND_URL  = "https://api.brevo.com/v3/smtp/email"
 
 # Your verified sender in Brevo — change to your email address
-SENDER_EMAIL = os.environ.get("SENDER_EMAIL", "florian.lackner@example.com")
+SENDER_EMAIL = os.environ.get("SENDER_EMAIL", "florian.p.lackner@gmail.com")
 SENDER_NAME  = "Lärmschutz News Monitor"
 
 SITE_URL = os.environ.get("SITE_URL", "https://schalltechnik.github.io/Laermschutz_News")
