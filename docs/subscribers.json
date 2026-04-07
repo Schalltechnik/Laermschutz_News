@@ -1,1 +1,16 @@
-[lackner_florian@gmx.at, alex.kienersberger@gmail.com]
+[
+  {
+    "email": "lackner_florian@gmx.at",
+    "name": "Florian Lackner",
+    "weekly": true,
+    "monthly": true,
+    "active": true
+  },
+  {
+    "email": "alex.kienersberger@gmail.com",
+    "name": "",
+    "weekly": true,
+    "monthly": true,
+    "active": true
+  }
+]
