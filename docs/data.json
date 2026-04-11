@@ -1,11 +1,11 @@
 {
-  "generated": "10. April 2026, 05:16 UTC",
+  "generated": "11. April 2026, 04:47 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Anrainer des Grazer Volksgartens beklagen sich über erhebliche Lärmbelästigung in ihrer Wohnumgebung. Besonders störend wirken dabei öffentliche Gespräche und Aktivitäten im Zusammenhang mit Drogen, die das Sicherheitsgefühl massiv beeinträchtigen. Diese Zustände führen zu einer spürbaren Minderung der Lebensqualität und erfordern dringend Maßnahmen zur Wiederherstellung der Ruhe und Ordnung.",
+      "summary": "Anrainer des Grazer Volksgartens beklagen sich über erhebliche Lärmbelästigung, die insbesondere durch offene Gespräche über Drogen entsteht. Sie empfinden diese Unterhaltungen als extrem störend und beunruhigend, da sie beiläufig geführt werden, als handle es sich um harmlose Themen. Diese Situation beeinträchtigt die Lebensqualität der Anwohner erheblich und erfordert Maßnahmen zur Wiederherstellung der Ruhe und Sicherheit im öffentlichen Raum.",
       "items": [
         {
           "title": "Volksgartenanrainer beklagen Lärm: \"Die reden über Drogen als wären es Gummibärchen\" - MeinBezirk.at",
@@ -26,25 +26,13 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Zusammenfassung konnte nicht erstellt werden.",
+      "summary": "Ein aktueller Nachrichtentitel aus Deutschland thematisiert die mögliche Zunahme von Fluglärm über der Pfalz im Nachgang des Iran-Konflikts. Es wird die Frage aufgeworfen, ob sich die Flugrouten und damit die Lärmbelastung ändern könnten. Entwicklungen aus der Schweiz oder Neuigkeiten der DEGA werden in diesem spezifischen Titel nicht erwähnt.",
       "items": [
         {
           "title": "Nach Iran-​Krieg: Nimmt der Flug­lärm über der Pfalz zu? - Die Rheinpfalz",
           "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVHZ5TlhoOWdRYTEyNnp2aV9ZdUNsQ0lTODY5MjF3eEQxdFBrbjR6TWp6LUtUQmVWUFptcDZ5RTM5U3k0azk2RU80dm5WSGFtU2s3WGwzV2RFU1pCY0tCWnJBaGFpb29iMG1NLXhlXzUxT0lYemZESjVfbi1lSFpPZEZ2UnhNS08zS0E0dUNacndfZU1sRW5tUnRaMFhWdlBoMlZVelNkN1NqVUJ1bjdQdFJyazdBaHJiajgydkNmTldvMnd0QkM1S0hhMA?oc=5",
           "source": "Die Rheinpfalz",
           "date": "8. Apr 2026"
-        },
-        {
-          "title": "Mysteriöses Brummen raubt Menschen Schlaf + Geld für neue Bahnstation + Vietnamese statt „Eiche“ - Lübecker Nachrichten",
-          "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPczVQOW95bzg4YlJscVNxSjlXREhuZXhRU09jd1FEV1huRmdvQzR6cDBabnZuS1pTM2prVGRXWkdRRUg4NUJZUHdkZ280Q05wQndHY1JPS0MxVEFxZ0JCSlVPa0w4cjE4a1RBNzV1bjJiSjI0NDBydGNpZU0tcFctY3dYMHRhRkxFQmZhLTd6MW04d2IxUnduNklRcUJkQW56THRnXzJ2QnNucGQ2MkxmNmdBRlNJSE5JVElYYzdYY2tLMDRJUnd0ZWNFZXMzNmR3cDVNS2twZmxCSGdFZjNyTzM0R0ZqZEhTS0dMOGJpNVotSHFRdlRmalN30gGWAkFVX3lxTFAtdVROWC1ERWRyV1diSndUZWswSG1SMjUwOFJQNjN5SnpONFdKYUQ1VnhqMWdqVkZwbGpzOEF2czlWODhUZS1UNFhEMXBjeHJVUG55b3E0VUwwM1Vad0EybG51cUo4ZGdSSlh5Q3BVdTZxZmpYUm4tS01HaFRtRTJvYUJjSkZTSDh5c1J6UV9kUk5uN3JRUUhwY3RkRE1UX256aXlFa3VyYzJLeHhJT2RDYUY1d2lwV05kTjMwZU9aeHdYTEJRSzV2UmFJOW9WTGVtMDNxcXhXZmxreGlteGtTTDhxeVhuNllzVE9CN1k0bVNwa3NXVHFuemZuR3RQd00wc1JKd3BOaTNjM2dNdGlKazRFUUtR?oc=5",
-          "source": "Lübecker Nachrichten",
-          "date": "10. Apr 2026"
-        },
-        {
-          "title": "Bundesregierung schafft Nachtruhe ab: Das gilt jetzt - inside digital",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRElYWnFDWGg1Sy1XUlU0RHprTmVfUVJkRG1TdXlIYUNpOU5fZDlFb25mSmwzSHUwc19kaGJMUWVORERJS0cxaVREU19nam41YmdxSm4yU0RoQmRjZEQzY3BGZHZJVDhjdGdxNndXc0FyLWJZZW9TRVZCNzRyanFYVFJhbUpkd2JuWkNXQ0xHd9IBlAFBVV95cUxNODlvYklPN0VaTHkyeVR6S2Vib1NER3FMM2llNjV2aGU3U1AzRFEwdmFxZERPbVpxSDc2Y0s3TkFYWjZtVkd6OXhhY3JPbnRmdFNfSnVIU0NTTjhRdHUySVNTV1UtdVFfUFUyZnlCNDBoNzNSMXRlUTFReWtXSDZZdENUNHg0ckpxUHZGaFpuazRuSmFR?oc=5",
-          "source": "inside digital",
-          "date": "3. Apr 2026"
         }
       ]
     },
