@@ -1,11 +1,11 @@
 {
-  "generated": "11. April 2026, 04:47 UTC",
+  "generated": "12. April 2026, 05:14 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Anrainer des Grazer Volksgartens beklagen sich über erhebliche Lärmbelästigung, die insbesondere durch offene Gespräche über Drogen entsteht. Sie empfinden diese Unterhaltungen als extrem störend und beunruhigend, da sie beiläufig geführt werden, als handle es sich um harmlose Themen. Diese Situation beeinträchtigt die Lebensqualität der Anwohner erheblich und erfordert Maßnahmen zur Wiederherstellung der Ruhe und Sicherheit im öffentlichen Raum.",
+      "summary": "Anrainer des Grazer Volksgartens beklagen anhaltende Lärmbelästigung in ihrem Wohnumfeld. Die Störungen resultieren insbesondere aus Gesprächen, in denen offen und verharmlosend über Drogen gesprochen wird. Diese spezifische Form der Lärmemission beeinträchtigt die Lebensqualität der Bewohner erheblich und erfordert eine rasche Lösung.",
       "items": [
         {
           "title": "Volksgartenanrainer beklagen Lärm: \"Die reden über Drogen als wären es Gummibärchen\" - MeinBezirk.at",
@@ -26,8 +26,14 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Ein aktueller Nachrichtentitel aus Deutschland thematisiert die mögliche Zunahme von Fluglärm über der Pfalz im Nachgang des Iran-Konflikts. Es wird die Frage aufgeworfen, ob sich die Flugrouten und damit die Lärmbelastung ändern könnten. Entwicklungen aus der Schweiz oder Neuigkeiten der DEGA werden in diesem spezifischen Titel nicht erwähnt.",
+      "summary": "Aktuelle Nachrichten zeigen, dass Fluglärm ein grenzüberschreitendes Thema ist, da die Schweiz versucht, deutsches Grenzgebiet durch Überflüge zu belasten. Gleichzeitig wird in Deutschland, speziell in der Pfalz, eine mögliche Zunahme des Fluglärms nach dem Iran-Krieg diskutiert. Diese Entwicklungen verdeutlichen die anhaltende Relevanz und die vielfältigen Ursachen von Fluglärmbelastungen in der Region.",
       "items": [
+        {
+          "title": "Fluglärm: Schweizer starten Versuch, deutsches Grenzgebiet durch Überflüge zu belasten - Schwäbische.de",
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNWkJqX0NhSmUyT2xMQ3MtOFNpYkZLTWcyOVFCQl9qclBVWlM2LVdoZ3hPOTY4Sy1wWF9pZ1NqZU1VTXkxMXBOX2FvV21ETUZLYmlLQlZuenZuQzFwT016OGRzQnNqWGlMb2t6RXNlMkhhX2E1emtpVGRuY0pVN0V6OEZVVnE5d2QyR3BXMnZIWjRiMnBrcXhqdFhvSV9RZldGV1hvOHhfREh2X0tOcnBxMnFzYXZ0cUl2OVM3d1BBSVZmOGMxbmp1b0NuUG83d1RTVkVqMFpQVUV3SkNZc05LSFVqWWU?oc=5",
+          "source": "Schwäbische.de",
+          "date": "11. Apr 2026"
+        },
         {
           "title": "Nach Iran-​Krieg: Nimmt der Flug­lärm über der Pfalz zu? - Die Rheinpfalz",
           "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVHZ5TlhoOWdRYTEyNnp2aV9ZdUNsQ0lTODY5MjF3eEQxdFBrbjR6TWp6LUtUQmVWUFptcDZ5RTM5U3k0azk2RU80dm5WSGFtU2s3WGwzV2RFU1pCY0tCWnJBaGFpb29iMG1NLXhlXzUxT0lYemZESjVfbi1lSFpPZEZ2UnhNS08zS0E0dUNacndfZU1sRW5tUnRaMFhWdlBoMlZVelNkN1NqVUJ1bjdQdFJyazdBaHJiajgydkNmTldvMnd0QkM1S0hhMA?oc=5",
@@ -47,8 +53,15 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "Urban development and residential expansion are increasingly clashing with established nightlife venues, creating a complex \"politics of noise.\" This tension forces clubs to navigate contested soundscapes, often struggling for survival amidst competing interests and regulatory pressures. Understanding these dynamics is crucial for acousticians and urban planners alike, as it shapes the very fabric of our city sound environments.",
+      "items": [
+        {
+          "title": "The politics of noise: How are clubs surviving in a contested urban landscape? · News ⟋ RA - Resident Advisor",
+          "link": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE1DQ1FnZEZkWkJXUFZhTlBOa3BoLWpUS0RJblQwdlBwX2V6cGRvNzNua0otMERkckJkczNjWA?oc=5",
+          "source": "Resident Advisor",
+          "date": "9. Apr 2026"
+        }
+      ]
     },
     "bauakustik": {
       "label": "Bauakustik",
