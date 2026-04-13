@@ -1,33 +1,69 @@
 {
-  "generated": "12. April 2026, 05:14 UTC",
+  "generated": "13. April 2026, 05:32 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Anrainer des Grazer Volksgartens beklagen anhaltende Lärmbelästigung in ihrem Wohnumfeld. Die Störungen resultieren insbesondere aus Gesprächen, in denen offen und verharmlosend über Drogen gesprochen wird. Diese spezifische Form der Lärmemission beeinträchtigt die Lebensqualität der Bewohner erheblich und erfordert eine rasche Lösung.",
-      "items": [
-        {
-          "title": "Volksgartenanrainer beklagen Lärm: \"Die reden über Drogen als wären es Gummibärchen\" - MeinBezirk.at",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORHhMNDh2cDV3U2hkdEF5YzFWNC1GZnZXQ3M0eGU0TWxoODdnd2JaOG55SkRvZkUwTVYxdUROZGVRYVdWVDY4Rk9zeEZhRFhmUk9haXFHM3NuaktZTjhnOS1OUTF2T2U4c2szeXJzZzlhaGZZTHJtdGhYakFtUElRaXU1TTJIWnB2dGlveXFBVGtZQkhHYVpTb0tKUUJFbVpQU0E?oc=5",
-          "source": "MeinBezirk.at",
-          "date": "5. Apr 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "austria": {
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "Die aktuellen Schlagzeilen betonen die zunehmende Relevanz von Lärmschutz, insbesondere im Arbeitsalltag, wobei 3M Gehörschutzprodukte im Fokus stehen und Aspekte wie Nachhaltigkeit sowie wirtschaftliche Faktoren die Kosten beeinflussen. Zudem wird die kontroverse Debatte um Infraschall von Windkraftanlagen als kritisches Thema hervorgehoben. Während diese Meldungen verschiedene Facetten des Lärmschutzes aufzeigen, sind unter den vorliegenden Titeln keine spezifischen Neuigkeiten vom Österreichischen Arbeitsring für Lärmbekämpfung (ÖAL) zu finden.",
+      "items": [
+        {
+          "title": "3M Gehörschutz: Zwischen Lärmschutz und Nachhaltigkeit wird es spannend - AD HOC NEWS",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNU1IbENGeHE3aVNyY0RGR0w3N1VNSVVxOC0zbTluTHd3b2JHZDNVcXZKNnE2dVc2MnM0T1hyaWxwSHhDSDlsQllHaEg0N1F4eVViS0FZVFdENW5jTm05RjlrNnFYb3hycDRMRV92YnRDeEFOT3JiellGeDBKWTFmSGRNd3d0dmtFLWlFeW9YT0t0NTBOVjZVQUJXSEVvMURyWW51Nks1SXhqR2t4TFQzRGh6OTNtZ2lkVXpMclRDaGNlQ3dEOXh4NTROYw?oc=5",
+          "source": "AD HOC NEWS",
+          "date": "12. Apr 2026"
+        },
+        {
+          "title": "3M Gehörschutz: Sinkende Strompreise machen Lärmschutz jetzt günstiger - AD HOC NEWS",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUXlBdnpPSnNjeGZ2QWNhdWNUQURXd2VNQlZRNDJERW02bDJNSkZ0a1RDbmlUQUw2SDh2WTNOajc2TzVRTXU0QkFLVHFtaWc2bUtleEtfYlNNZDkyVHdWeHFrSGhnT1dGdUR5RVF0M2VYcllfdWszNE1oQlZlYnB5MjdIQ1A0UjhDMVJKb2NvZk11dmp1M2Z4eDNtcVdqWkR0UXFqUzZZTVhBcmpWZ2JCSnZNUG9FX1lmNmd5RXdSYUYzT0JkNFY1ZVRERQ?oc=5",
+          "source": "AD HOC NEWS",
+          "date": "12. Apr 2026"
+        },
+        {
+          "title": "Infraschall-Terror: ein weiteres schmutziges Geheimnis der Windkraftindustrie - report24.news",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWVFXLUx3dERSa0p3WWFPd2I5V3JVLXEzYUE5UUt2WXJsMF9ZN3Y3VTlvZks2a3pXaVRwaVNxMWhfeHdNQ1g2ZFRzM1NtVVNhMlk4S3hSZ2ZYZUlIQmlxZmNMOENfSDl5RTVqMXRvTVdQNmh0THU3Rng5R1k2Yzk3UnFqZDdELUpLem56NVNqeUV4Smt4cFMxOWYzcFl0eV9w?oc=5",
+          "source": "report24.news",
+          "date": "12. Apr 2026"
+        },
+        {
+          "title": "3M Gehörschutz: Warum Lärmschutz in Deutschland jetzt entscheidend wird - AD HOC NEWS",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRmNsRFllVVpfRXdhSFFCVG1PQldIa3RJZHRSNW5nT3lVeHhCV2hyMTJPNVY5MGdiNHVITTViQ1p6OG5aaEU0NUMyelBCMzhSUmpkSU95cE9xSWhKMDc2Q1lrSWhmV0dnbWJyZkZldTctal9NelhZaTA5eWZMbTJLYklTbURGN1hBbzNmd0NJdkNNZ1g1NW9oaFg1UWMtZVF2MW94ZmY2T2JDc1hsNXdGUXdCczI3RFB6SHhTOTZ5N0JfMzR3MEZZbmZKaw?oc=5",
+          "source": "AD HOC NEWS",
+          "date": "12. Apr 2026"
+        },
+        {
+          "title": "3M Gehörschutz: Warum Lärmschutz im Arbeitsalltag jetzt entscheidend wird - AD HOC NEWS",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNN2xXSzBKMmNjcFlvMmVBemVZRGhKOG9mV29LWGtxR2RKX3NudzVjc3dreV9hSDNOczdJR0t6YVplMHJWZzFsN3JILWNRTFE3ZE5wVXFGVFZHVFdvWVVqbHQyTWNqc1gzMHpZei1JR3A2WFAxbi1MMk1PRk00SlEwSURNbjhYVzNnT2xWb0l1UGd4LV9oTjNoTTd3Ml9pbWdJS3BlMHRCQ3l6S19mekRGbFRScHRScTZlWUhha0w0djBSSU9mc2xB?oc=5",
+          "source": "AD HOC NEWS",
+          "date": "12. Apr 2026"
+        }
+      ]
     },
     "dach": {
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Aktuelle Nachrichten zeigen, dass Fluglärm ein grenzüberschreitendes Thema ist, da die Schweiz versucht, deutsches Grenzgebiet durch Überflüge zu belasten. Gleichzeitig wird in Deutschland, speziell in der Pfalz, eine mögliche Zunahme des Fluglärms nach dem Iran-Krieg diskutiert. Diese Entwicklungen verdeutlichen die anhaltende Relevanz und die vielfältigen Ursachen von Fluglärmbelastungen in der Region.",
+      "summary": "Zusammenfassung konnte nicht erstellt werden.",
       "items": [
+        {
+          "title": "Verkehrsclub Deutschland fordert mehr Tempo 30 in Wetzlar - Mittelhessen",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZnhPQXlFZUo3QWhWQ2p1NDJEQVB0Qm9Ca2djTlZ0T1pCSjNVQXF1TktUSkdHZzJVTmE5Smx6WTJHQnZTaDFnSnR3dGppUE5RNzVJRkZndkh1azM3dXc1N1p3VUh1QmVfZTZkQUVtQ1liaEJHQU1NZHNkVGVqRXk2ZWd6WVlUclNtN25LZWlmZndXR1pXeGZhU0J3V1JVcjVwSUxqVGlzNERoaGFZSzJtZjZleFVud012LVl4M2pMWDVmdDg?oc=5",
+          "source": "Mittelhessen",
+          "date": "12. Apr 2026"
+        },
+        {
+          "title": "3M Gehörschutz: Warum Lärmschutz in Deutschland jetzt entscheidend wird - AD HOC NEWS",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRmNsRFllVVpfRXdhSFFCVG1PQldIa3RJZHRSNW5nT3lVeHhCV2hyMTJPNVY5MGdiNHVITTViQ1p6OG5aaEU0NUMyelBCMzhSUmpkSU95cE9xSWhKMDc2Q1lrSWhmV0dnbWJyZkZldTctal9NelhZaTA5eWZMbTJLYklTbURGN1hBbzNmd0NJdkNNZ1g1NW9oaFg1UWMtZVF2MW94ZmY2T2JDc1hsNXdGUXdCczI3RFB6SHhTOTZ5N0JfMzR3MEZZbmZKaw?oc=5",
+          "source": "AD HOC NEWS",
+          "date": "12. Apr 2026"
+        },
         {
           "title": "Fluglärm: Schweizer starten Versuch, deutsches Grenzgebiet durch Überflüge zu belasten - Schwäbische.de",
           "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNWkJqX0NhSmUyT2xMQ3MtOFNpYkZLTWcyOVFCQl9qclBVWlM2LVdoZ3hPOTY4Sy1wWF9pZ1NqZU1VTXkxMXBOX2FvV21ETUZLYmlLQlZuenZuQzFwT016OGRzQnNqWGlMb2t6RXNlMkhhX2E1emtpVGRuY0pVN0V6OEZVVnE5d2QyR3BXMnZIWjRiMnBrcXhqdFhvSV9RZldGV1hvOHhfREh2X0tOcnBxMnFzYXZ0cUl2OVM3d1BBSVZmOGMxbmp1b0NuUG83d1RTVkVqMFpQVUV3SkNZc05LSFVqWWU?oc=5",
@@ -53,7 +89,7 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Urban development and residential expansion are increasingly clashing with established nightlife venues, creating a complex \"politics of noise.\" This tension forces clubs to navigate contested soundscapes, often struggling for survival amidst competing interests and regulatory pressures. Understanding these dynamics is crucial for acousticians and urban planners alike, as it shapes the very fabric of our city sound environments.",
+      "summary": "Urban soundscapes are increasingly contested, as nightlife venues face significant challenges from noise complaints and political pressures. Clubs, in particular, struggle to survive amidst competing interests within dense urban environments. This dynamic highlights the complex politics of noise and its critical role in shaping the future of city planning and cultural spaces.",
       "items": [
         {
           "title": "The politics of noise: How are clubs surviving in a contested urban landscape? · News ⟋ RA - Resident Advisor",
