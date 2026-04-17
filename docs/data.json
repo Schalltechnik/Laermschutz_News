@@ -1,18 +1,25 @@
 {
-  "generated": "16. April 2026, 05:22 UTC",
+  "generated": "17. April 2026, 05:19 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "In der Steiermark fand eine Demonstration statt, die sich für mehr sanfte Mobilität einsetzte. Aus Sicht des Lärmschutzes ist dies ein sehr positiver Trend, da sanfte Mobilitätsformen wie Radfahren und Gehen erheblich zur Reduzierung des Verkehrslärms beitragen. Eine verstärkte Förderung dieser Verkehrsmittel in Graz und der gesamten Steiermark könnte somit zu einer spürbaren Verbesserung der akustischen Lebensqualität für die Bevölkerung führen.",
+      "items": [
+        {
+          "title": "Sanfte Demo für mehr sanfte Mobilität - steiermark.ORF.at",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1naC1pQnRkcTExZ25FU0ZyNVFOc0UwaVRneS1INmp3ZnQtcmMwbnNaSTN5Y1lmUkRyOGJkWnhPTGxRQ1ZSWDFFTXRNZnh0d2FCNVZzcA?oc=5",
+          "source": "steiermark.ORF.at",
+          "date": "10. Apr 2026"
+        }
+      ]
     },
     "austria": {
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Die vorliegenden Nachrichtentitel betonen die wachsende Relevanz von Lärmschutz in Industrie, Arbeits- und Alltagsleben, wobei 3M Gehörschutzprodukte zwischen Nachfrageboom, Nachhaltigkeit und Kosteneffizienz positioniert sind. Gleichzeitig zeigen lokale Konflikte wie Anrainer-Ärger an der Wientalterrasse und die Debatte um Infraschall von Windkraftanlagen die vielfältigen Herausforderungen der Lärmbekämpfung in Österreich auf. Neuigkeiten vom Österreichischen Arbeitsring für Lärmbekämpfung (ÖAL) sind in den bereitgestellten Titeln nicht explizit enthalten, doch die Themen unterstreichen die Dringlichkeit ihrer Arbeit.",
+      "summary": "Die Notwendigkeit effektiven Lärmschutzes wird in Industrie, Arbeitsalltag und Freizeit zunehmend entscheidend, beeinflusst durch Nachfrageboom, Nachhaltigkeitsaspekte und potenziell günstigere Rahmenbedingungen. In Österreich ist die Situation besonders prekär, da 750.000 Menschen unter Verkehrslärm leiden und lokale Konflikte, etwa um die Wientalterrasse, den dringenden Handlungsbedarf aufzeigen. Angesichts dieser Herausforderungen, ergänzt durch Debatten über Infraschall von Windkraftanlagen, ist das Engagement für umfassende Lärmbekämpfungsstrategien, wie sie der Österreichische Arbeitsring für Lärmbekämpfung (ÖAL) vertritt, von zentraler Bedeutung.",
       "items": [
         {
           "title": "3M Gehörschutz: Zwischen Lärmschutz und Nachfrageboom wird es spannend - AD HOC NEWS",
@@ -45,6 +52,12 @@
           "date": "12. Apr 2026"
         },
         {
+          "title": "Verkehrs-Hölle – 750.000 Österreicher leiden unter Lärm - MSN",
+          "link": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxQd2NuOF9TdU9paUlZYU1FLU5OU3JRSHVEWDdZQU5oSVJrV1B2bXhfVFQxRGktRThRWktJOUNkM3piMWFxOEhxWjdkVVNkYkFVc3lUTVRvY3lMSUpVd0JqMVRaeElhRURHUFM2MVNjUU8tdmpHUlV6N0NkZzduOUw4Mk1mRXY5NzM3b3VEYTFRTTQtQTRFRWJvVDljUUtDdXpuNG9Uc1F3WDRhd3RMZkQzR0RNenpRUmRXdEY5emJVM2gxUXhUVkJ3ajRreTNKZzg1azJhaFlyOVpiNUIzeUhLeS14MFpTUHJvMkZjQ0FhQkNWUnpCNG9OVVVmWlRMTk9rOXNVNlRPS0hlVkgyZV9wcnVvUzJmOXRjbk5XblRCQkMxWVl3QjR2T1pMYndYWHN1TTZveHd3WFlCMTBBS0F2QWgzUTA5dk1TNzlDdW1CdmpVNU1XeXNIQzF6QQ?oc=5",
+          "source": "MSN",
+          "date": "13. Apr 2026"
+        },
+        {
           "title": "Anrainer-Ärger – Party-Hotspot Wientalterrasse – Transparente gegen Lärm - Heute",
           "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPai1TVlpSSW02d2ZNdGg4al9DWENqWTF0MFF2ajFKbVdPSVRuX2M5MlZJYmFFNGl3RjVtbEpiNGxrSzNtT1M0ZnZCSkppT2sxS3BLVm1oMTg0WkpETVp0TFBETi1GS3ZGaU1iWjNMZXBDUnFsUEJnc3VsTXpUbDd4UlJtLTViT3VhRktNOUFTNzY?oc=5",
           "source": "Heute",
@@ -68,8 +81,14 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Die Bedeutung des Lärmschutzes, insbesondere des Gehörschutzes, nimmt in Deutschland zu, wo gleichzeitig die Diskussion um Ausnahmen von der Nachtruhe für Public Viewings zur WM 2026 geführt wird. Eine spezifische Herausforderung stellt der Fluglärm dar, da die Schweiz Versuche unternimmt, deutsche Grenzgebiete durch Überflüge zu belasten. Ergänzend dazu sorgen Baulärm durch Gleiserneuerungen der Bahn in Deutschland für lokale Beeinträchtigungen.",
+      "summary": "In Deutschland wird die Reduzierung von Verkehrslärm durch Initiativen wie die Forderung des Verkehrsclubs Deutschland nach mehr Tempo 30 in Wetzlar aktiv vorangetrieben. Gleichzeitig unterstreicht die zunehmende Relevanz von Lärmschutzmaßnahmen, wie sie im Kontext von Gehörschutz diskutiert werden, die Notwendigkeit umfassender Strategien. Aktuelle Baumaßnahmen, etwa die Gleiserneuerung der Bahn in Laatzen, führen zu temporärem Baulärm und verdeutlichen die vielfältigen Herausforderungen im Umgang mit Umgebungslärm in Deutschland.",
       "items": [
+        {
+          "title": "Verkehrsclub Deutschland fordert mehr Tempo 30 in Wetzlar - Mittelhessen",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZnhPQXlFZUo3QWhWQ2p1NDJEQVB0Qm9Ca2djTlZ0T1pCSjNVQXF1TktUSkdHZzJVTmE5Smx6WTJHQnZTaDFnSnR3dGppUE5RNzVJRkZndkh1azM3dXc1N1p3VUh1QmVfZTZkQUVtQ1liaEJHQU1NZHNkVGVqRXk2ZWd6WVlUclNtN25LZWlmZndXR1pXeGZhU0J3V1JVcjVwSUxqVGlzNERoaGFZSzJtZjZleFVud012LVl4M2pMWDVmdDg?oc=5",
+          "source": "Mittelhessen",
+          "date": "12. Apr 2026"
+        },
         {
           "title": "3M Gehörschutz: Warum Lärmschutz in Deutschland jetzt entscheidend wird - AD HOC NEWS",
           "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRmNsRFllVVpfRXdhSFFCVG1PQldIa3RJZHRSNW5nT3lVeHhCV2hyMTJPNVY5MGdiNHVITTViQ1p6OG5aaEU0NUMyelBCMzhSUmpkSU95cE9xSWhKMDc2Q1lrSWhmV0dnbWJyZkZldTctal9NelhZaTA5eWZMbTJLYklTbURGN1hBbzNmd0NJdkNNZ1g1NW9oaFg1UWMtZVF2MW94ZmY2T2JDc1hsNXdGUXdCczI3RFB6SHhTOTZ5N0JfMzR3MEZZbmZKaw?oc=5",
@@ -77,22 +96,10 @@
           "date": "12. Apr 2026"
         },
         {
-          "title": "Fluglärm: Schweizer starten Versuch, deutsches Grenzgebiet durch Überflüge zu belasten - Schwäbische.de",
-          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNWkJqX0NhSmUyT2xMQ3MtOFNpYkZLTWcyOVFCQl9qclBVWlM2LVdoZ3hPOTY4Sy1wWF9pZ1NqZU1VTXkxMXBOX2FvV21ETUZLYmlLQlZuenZuQzFwT016OGRzQnNqWGlMb2t6RXNlMkhhX2E1emtpVGRuY0pVN0V6OEZVVnE5d2QyR3BXMnZIWjRiMnBrcXhqdFhvSV9RZldGV1hvOHhfREh2X0tOcnBxMnFzYXZ0cUl2OVM3d1BBSVZmOGMxbmp1b0NuUG83d1RTVkVqMFpQVUV3SkNZc05LSFVqWWU?oc=5",
-          "source": "Schwäbische.de",
-          "date": "11. Apr 2026"
-        },
-        {
           "title": "Baulärm in Laatzen: Bahn erneuert Gleise für Regional- und Güterzüge zwischen Rethen und Wülfel - HAZ",
           "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOekZRZTdOYmFXWDhmaURYS1JvTzFYd0xlc2R2T2JhaG5HUE1XTVFZYkplT0VoVF9hR1JCN3JHY1RvQV8zQnZ3ZnN1dWJwNnZkNmhKaVFnYUFQRVhaem5CMXd0YnVRbktGamhRTm04VEM2aDVSSU9UNjd1ZTBIc3BJV2xIal93QTFKRi1ObGRGSW1jZnNmdlJCWE4xUWIxTmdNQjVlbUtUZzhiMmt0b2V6R1NxWWhvY2lpLXBQeW55SEhXSW9VelR5US1Hdmo2OEVHQTZqNFk0aWQ0T3RLTTFQTTZfNlVmTGFwbzZNMjlpNDI5QWVFVldBdzZtX3dmV2w3WVHSAZ4CQVVfeXFMUFEzU2hHd29BSGs5aDJlT1RkUmZxWGhPZGdLR3luMko1bnJaYXg4Y0tlUHJ4YmMtdjcyZzUzamQ1b3QzOS0tWDdqS2xWUXBxVnZsM29EZlh6WEY5TTFweC15N3lQNHM1QTVfeXRaY3JWNEFaUkIxcl9mS1k3bUMzdVNNTDdqZ3hUTDEySHcwZ3hFN2pncGIwS2ZYYzNMMmRkRUR0SURjM2dBTU5aSElDUUJ3T3BBYWc2TkFLUmpMM0xqa1ZrS0xPaGlLYWpKNWEtdU5IRU8tdXIycXF6VHIyTE5tVUQxR1dCbUVlRHRVQjBCeXV0WWMyVXhJRU1ValhEZV9GTFZfWDJnbXEtOUs5NXozZEduSHZtVUh5MDVEQQ?oc=5",
           "source": "HAZ",
           "date": "14. Apr 2026"
-        },
-        {
-          "title": "WM 2026: Public Viewing während der Nachtruhe? - Kommunal.de",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBrSzdMa19LbnNNallyWS1OeERLX1I3Sk9pTkxlY2xYUW1GRndOMldIcVJGQk9nUUJESFFkQkZDMGU4RFZjWDZOZGUtVldRRjRyU04xN3FhRVludVJaUjlyVjA3Z0JieFBTU0pwc1MxdEw?oc=5",
-          "source": "Kommunal.de",
-          "date": "9. Apr 2026"
         }
       ]
     },
@@ -107,29 +114,15 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Urban soundscapes are increasingly contested, with the politics of noise creating significant challenges for nightlife venues. As cities evolve, clubs face pressure from residents and policymakers regarding sound emissions and operational hours. This ongoing struggle raises critical questions about how these cultural spaces can continue to thrive amidst competing urban demands.",
-      "items": [
-        {
-          "title": "The politics of noise: How are clubs surviving in a contested urban landscape? · News ⟋ RA - Resident Advisor",
-          "link": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE1DQ1FnZEZkWkJXUFZhTlBOa3BoLWpUS0RJblQwdlBwX2V6cGRvNzNua0otMERkckJkczNjWA?oc=5",
-          "source": "Resident Advisor",
-          "date": "9. Apr 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "bauakustik": {
       "label": "Bauakustik",
       "icon": "🏗️",
       "color": "#7b4f12",
-      "summary": "Die vorliegenden Nachrichtentitel thematisieren Akustik-Konzerte einer Band in Österreich und Deutschland. Sie enthalten jedoch keine Informationen zu OIB-Richtlinien, dem Schallschutz im Hochbau oder Neuigkeiten von DEGA und ÖAL. Daher lässt sich aus diesen Titeln keine Zusammenfassung zu den gewünschten bauakustischen und schallschutzrelevanten Themen im DACH-Raum erstellen.",
-      "items": [
-        {
-          "title": "Dornenreich: kündigen für November 2026 Akustik-Konzerte in Österreich und Deutschland an - Time For Metal",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbmtQd1liUUduM3JMWHplcDMtcU9qbFIycHlLZm5RM3hqdXZTWTl0eGowNjdwdEV6YmVNc19ickhTVG9kVmthRDBXZVdjN1R1OWxPenFzZDhLUkg5XzNCUnJsV2QtekE1RGhZYWhNcl9Zbk9Yb3pHNXRXa3ZNcnd1RnJ0LWEwZGJvN2pJRldBWnBHRWFhdlJsWTdDZFh2UHFDXzctU2dWQ1J0TE9KVFAtRkhYYXlrVUt5SXc?oc=5",
-          "source": "Time For Metal",
-          "date": "13. Apr 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     }
   }
 }
