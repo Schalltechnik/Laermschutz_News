@@ -1,14 +1,14 @@
 {
-  "generated": "19. April 2026, 05:19 UTC",
+  "generated": "20. April 2026, 05:31 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "In der Steiermark, insbesondere im Raum Graz-Umgebung, gibt es Pläne für eine Änderung von Flugrouten. Dies führt zu erheblichen Befürchtungen und Protesten seitens der betroffenen Gemeinden wie Premstätten und Lieboch sowie deren Anrainern. Die Hauptsorge gilt einer befürchteten Zunahme des Fluglärms, der die Lebensqualität in diesen Gebieten beeinträchtigen könnte.",
+      "summary": "Geplante Änderungen der Flugrouten ab Graz lösen bei den umliegenden Gemeinden und Anrainern erhebliche Besorgnis aus. Kommunen wie Premstätten und Lieboch befürchten eine deutliche Zunahme des Fluglärms. Dies hat bereits zu Protesten und Widerstand gegen die geplanten Routenanpassungen geführt.",
       "items": [
         {
-          "title": "Neue Flugroute geplant: Gemeinden befürchten mehr Lärm - Kleine Zeitung",
+          "title": "Neue Flugrouten ab Graz: Gemeinden befürchten mehr Lärm - Kleine Zeitung",
           "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZnhPSzJpOFphSDRVcFlUd0xaelNfZmhHQV84dXBrakw0RUZCay1UaVB1Y0pxTzJDREVXYlNvR0IxNDhVTEJiTTBseUtHQXJpUldoUEFyTjJuU25UclUwZm1MM19CLXR5VDJaNVI5REtWNEZJaGVmRkc1dUdiaktKV3BjZmNjd3R5T1AtLWFuQ2w2UVVmTm1DQWVvc0wybVpEYldmakg1S2wzREJkaFE?oc=5",
           "source": "Kleine Zeitung",
           "date": "17. Apr 2026"
@@ -37,7 +37,7 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Die vorliegenden Nachrichtentitel unterstreichen die wachsende Relevanz von Gehörschutz in Industrie und Alltag, wobei Aspekte wie Nachhaltigkeit, Nachfrage und Kosten eine Rolle spielen. Gleichzeitig zeigen Berichte aus Österreich konkrete Lärmprobleme, wie den Anrainer-Ärger um Party-Hotspots an der Wientalterrasse, und thematisieren die anhaltende Debatte um Infraschall von Windkraftanlagen. Neuigkeiten vom Österreichischen Arbeitsring für Lärmbekämpfung (ÖAL) sind in diesen Titeln nicht explizit enthalten.",
+      "summary": "Die vorliegenden Nachrichtentitel zeigen eine steigende Relevanz von Gehörschutz im Industrie- und Alltagsbereich, begleitet von einem Nachfrageboom für entsprechende Produkte. Parallel dazu führen Lärmbelästigungen an Orten wie dem Party-Hotspot Wientalterrasse zu Anrainerprotesten und Transparenzaktionen. Diese Entwicklungen unterstreichen die wachsende Bedeutung des Lärmschutzes in verschiedenen Lebensbereichen in Österreich.",
       "items": [
         {
           "title": "3M Gehörschutz: Zwischen Lärmschutz und Nachfrageboom wird es spannend - AD HOC NEWS",
@@ -46,22 +46,10 @@
           "date": "15. Apr 2026"
         },
         {
-          "title": "3M Gehörschutz: Zwischen Lärmschutz und Nachhaltigkeit wird es spannend - AD HOC NEWS",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNU1IbENGeHE3aVNyY0RGR0w3N1VNSVVxOC0zbTluTHd3b2JHZDNVcXZKNnE2dVc2MnM0T1hyaWxwSHhDSDlsQllHaEg0N1F4eVViS0FZVFdENW5jTm05RjlrNnFYb3hycDRMRV92YnRDeEFOT3JiellGeDBKWTFmSGRNd3d0dmtFLWlFeW9YT0t0NTBOVjZVQUJXSEVvMURyWW51Nks1SXhqR2t4TFQzRGh6OTNtZ2lkVXpMclRDaGNlQ3dEOXh4NTROYw?oc=5",
-          "source": "AD HOC NEWS",
-          "date": "12. Apr 2026"
-        },
-        {
           "title": "3M Gehörschutz: Warum Lärmschutz in Industrie und Alltag jetzt entscheidend wird - AD HOC NEWS",
           "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVDdTVVo2TVV1UTMwYlh3LUQ2dmZTbEVFeE0wMmJiWDkwc0tVVzZGR3VJUjNHZFlaVmlxb0NxNE83bU0wT0Y0QmtCS0ZHZi1ibFpFOGJ0ZEVjMFM1dVo4UzZxMW9KOUxxSFo3ODhJZnBlREtEVDFEYWtsc1dOYUttR2l0RjZhRi1MR29JWVJTMnM2UzR6T2ZNRFBoS2Q0X3ZMOWFFajZVSXczOExfTTRvNnR6RktPZ1pLQ2dnRFlqNA?oc=5",
           "source": "AD HOC NEWS",
           "date": "18. Apr 2026"
-        },
-        {
-          "title": "3M Gehörschutz: Warum Lärmschutz in Deutschland jetzt entscheidend wird - AD HOC NEWS",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRmNsRFllVVpfRXdhSFFCVG1PQldIa3RJZHRSNW5nT3lVeHhCV2hyMTJPNVY5MGdiNHVITTViQ1p6OG5aaEU0NUMyelBCMzhSUmpkSU95cE9xSWhKMDc2Q1lrSWhmV0dnbWJyZkZldTctal9NelhZaTA5eWZMbTJLYklTbURGN1hBbzNmd0NJdkNNZ1g1NW9oaFg1UWMtZVF2MW94ZmY2T2JDc1hsNXdGUXdCczI3RFB6SHhTOTZ5N0JfMzR3MEZZbmZKaw?oc=5",
-          "source": "AD HOC NEWS",
-          "date": "12. Apr 2026"
         },
         {
           "title": "Anrainer-Ärger – Party-Hotspot Wientalterrasse – Transparente gegen Lärm - Heute",
@@ -76,24 +64,6 @@
           "date": "17. Apr 2026"
         },
         {
-          "title": "Infraschall-Terror: ein weiteres schmutziges Geheimnis der Windkraftindustrie - report24.news",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWVFXLUx3dERSa0p3WWFPd2I5V3JVLXEzYUE5UUt2WXJsMF9ZN3Y3VTlvZks2a3pXaVRwaVNxMWhfeHdNQ1g2ZFRzM1NtVVNhMlk4S3hSZ2ZYZUlIQmlxZmNMOENfSDl5RTVqMXRvTVdQNmh0THU3Rng5R1k2Yzk3UnFqZDdELUpLem56NVNqeUV4Smt4cFMxOWYzcFl0eV9w?oc=5",
-          "source": "report24.news",
-          "date": "12. Apr 2026"
-        },
-        {
-          "title": "3M Gehörschutz: Sinkende Strompreise machen Lärmschutz jetzt günstiger - AD HOC NEWS",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUXlBdnpPSnNjeGZ2QWNhdWNUQURXd2VNQlZRNDJERW02bDJNSkZ0a1RDbmlUQUw2SDh2WTNOajc2TzVRTXU0QkFLVHFtaWc2bUtleEtfYlNNZDkyVHdWeHFrSGhnT1dGdUR5RVF0M2VYcllfdWszNE1oQlZlYnB5MjdIQ1A0UjhDMVJKb2NvZk11dmp1M2Z4eDNtcVdqWkR0UXFqUzZZTVhBcmpWZ2JCSnZNUG9FX1lmNmd5RXdSYUYzT0JkNFY1ZVRERQ?oc=5",
-          "source": "AD HOC NEWS",
-          "date": "12. Apr 2026"
-        },
-        {
-          "title": "3M Gehörschutz: Warum Lärmschutz im Arbeitsalltag jetzt entscheidend wird - AD HOC NEWS",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNN2xXSzBKMmNjcFlvMmVBemVZRGhKOG9mV29LWGtxR2RKX3NudzVjc3dreV9hSDNOczdJR0t6YVplMHJWZzFsN3JILWNRTFE3ZE5wVXFGVFZHVFdvWVVqbHQyTWNqc1gzMHpZei1JR3A2WFAxbi1MMk1PRk00SlEwSURNbjhYVzNnT2xWb0l1UGd4LV9oTjNoTTd3Ml9pbWdJS3BlMHRCQ3l6S19mekRGbFRScHRScTZlWUhha0w0djBSSU9mc2xB?oc=5",
-          "source": "AD HOC NEWS",
-          "date": "12. Apr 2026"
-        },
-        {
           "title": "3M Gehörschutz: Warum Lärmschutz im Alltag jetzt relevanter wird - AD HOC NEWS",
           "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMXNzNU93YU1FaDZLLUpMZG9uNGlDSmRLSEkxSXlTRGNwMUd1SVRwTWJONkFKNHZZVWJPX0NTaGxWOXBVUUh6MEVGeXI2UHkyZS16SGpqVWxvY2RBeWlrRjJ0Ry1MQkdGVFkxSUpZMTBXUjc3VmNwZWtaQ0x1eXJrM2ZnRVpKMTdCbXY4WmxLN05obEE5Q1RDaE4zQ08zQ3pwMzRwSDlIbE54TXBCa2pHRm1uSHhEclBwUXY0VE1RdmZnZw?oc=5",
           "source": "AD HOC NEWS",
@@ -105,20 +75,8 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "In Deutschland rückt der Lärmschutz verstärkt in den Fokus, was sich in der wachsenden Bedeutung von Gehörschutz und Forderungen des Verkehrsclubs Deutschland nach mehr Tempo 30 zur Lärmminderung zeigt. Das Klangbild der Umgebung wird dort zudem durch ungewöhnliche Naturphänomene wie den Massenflug brummender Maikäfer in Hessen beeinflusst. Aus der Schweiz oder von der DEGA gab es in den vorliegenden Meldungen keine spezifischen Neuigkeiten oder Veranstaltungen.",
+      "summary": "Aktuelle Meldungen aus Deutschland berichten über einen ungewöhnlichen Umgebungslärm durch einen Massenflug von Maikäfern in Hessen. Entwicklungen aus der Schweiz oder Neuigkeiten der DEGA sind in den vorliegenden Titeln nicht enthalten. Somit konzentrieren sich die jüngsten Schlagzeilen primär auf dieses spezifische Naturphänomen in Deutschland.",
       "items": [
-        {
-          "title": "3M Gehörschutz: Warum Lärmschutz in Deutschland jetzt entscheidend wird - AD HOC NEWS",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRmNsRFllVVpfRXdhSFFCVG1PQldIa3RJZHRSNW5nT3lVeHhCV2hyMTJPNVY5MGdiNHVITTViQ1p6OG5aaEU0NUMyelBCMzhSUmpkSU95cE9xSWhKMDc2Q1lrSWhmV0dnbWJyZkZldTctal9NelhZaTA5eWZMbTJLYklTbURGN1hBbzNmd0NJdkNNZ1g1NW9oaFg1UWMtZVF2MW94ZmY2T2JDc1hsNXdGUXdCczI3RFB6SHhTOTZ5N0JfMzR3MEZZbmZKaw?oc=5",
-          "source": "AD HOC NEWS",
-          "date": "12. Apr 2026"
-        },
-        {
-          "title": "Verkehrsclub Deutschland fordert mehr Tempo 30 in Wetzlar - Mittelhessen",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZnhPQXlFZUo3QWhWQ2p1NDJEQVB0Qm9Ca2djTlZ0T1pCSjNVQXF1TktUSkdHZzJVTmE5Smx6WTJHQnZTaDFnSnR3dGppUE5RNzVJRkZndkh1azM3dXc1N1p3VUh1QmVfZTZkQUVtQ1liaEJHQU1NZHNkVGVqRXk2ZWd6WVlUclNtN25LZWlmZndXR1pXeGZhU0J3V1JVcjVwSUxqVGlzNERoaGFZSzJtZjZleFVud012LVl4M2pMWDVmdDg?oc=5",
-          "source": "Mittelhessen",
-          "date": "12. Apr 2026"
-        },
         {
           "title": "Massenflug in Hessen: Wenn eine halbe Milliarde Maikäfer brummen - hessenschau.de",
           "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPaUI0MDNBNkFnTjgtRk9zd2VEY0NFcFgySWlJWHMxM0V3eVdmak44bHA2d1ZYcUNqV3ZVNUNXLVU0bTk4N3E0bk5QT1lKSWlPTzhUTm9oLXd3WjVsZDAwY0J2c2MtSVJ4aHlmRWdIVzZPUmU3MDF6VXlQME03T0RkUTJWQlVKcTZlTFVOYnk1WmtJU1BEYV9VeGxkU0h6c0ZwR2RDQnRzLUt5cW9rcURDak1vWGw1bzIzN29tM3lGTVBXRzBxY0plZURBQnVlcGl3MW1jSko1bno?oc=5",
@@ -131,8 +89,15 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "Europe is anticipating a significant surge in demand for quiet travel experiences by 2026. This trend is driven by tourists seeking remote destinations for digital detox getaways. Regions like the Peloponnese and Alentejo are emerging as prime attractions for this growing segment of travelers.",
+      "items": [
+        {
+          "title": "Europe Sees Surge in Quiet Travel Demand in 2026 as Remote Destinations Like Peloponnese and Alentejo Attract Digital Detox Tourists - Travel And Tour World",
+          "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNekh4Ykd3ZmJ4dWd0TENoYm9tbDhlZFFfZHBQZFdWRnlKaTlMQmxxYWd0eTNsNlNCaUlQZEl2QkhRcnpTNklLRzkzbVFYeGVmWnpxR1hWYnlMaTkzeG5GeFpKdjRNS1k2VFh0Y2Q2Qk1PLXI5VFAxY2dkYjlyOVZSTmk4QnZXSklDRHhzc3lpMi02VXFMcldSSjh6RnR2RkJHdEU4QWRqLVdfZHBtNVhQd2ptNFFxSWFYako3cUNTVWlacGE4Smd3dzFuLW1DaG9QT21VQjhIalFvVXZaRHRvWVdqMU9TZXNDWWtzN2JEUXFKU1J5OWx3TVhtUTRYd1VDdTM1bEVHM0pqS1JTVVE?oc=5",
+          "source": "Travel And Tour World",
+          "date": "19. Apr 2026"
+        }
+      ]
     },
     "science": {
       "label": "Wissenschaft",
@@ -145,13 +110,19 @@
       "label": "Bauakustik",
       "icon": "🏗️",
       "color": "#7b4f12",
-      "summary": "Der vorliegende Nachrichtentitel thematisiert die Mikroakustik und die Wachstumschancen der Knowles Corp. Eine direkte Verbindung zu OIB-Richtlinien, dem Schallschutz im Hochbau oder aktuellen Meldungen von DEGA und ÖAL ist hierbei nicht erkennbar. Für eine prägnante Zusammenfassung dieser spezifischen bauakustischen Themenfelder wären andere Informationen notwendig.",
+      "summary": "Die vorliegenden Nachrichtentitel fokussieren auf die finanzielle Performance und Wachstumschancen von Unternehmen im Bereich Mikroakustik und Akustikkomponenten. Sie haben keinen direkten Bezug zu den relevanten Themen der Bauakustik und des Schallschutzes im Hochbau. Für einen Experten im DACH-Raum wären stattdessen Neuigkeiten zu OIB-Richtlinien, aktuellen Entwicklungen im Schallschutz von Gebäuden sowie Mitteilungen von DEGA oder ÖAL von Bedeutung.",
       "items": [
         {
           "title": "Knowles Corp Aktie (US49926D1090): Ist der Fokus auf Mikroakustik stark genug für neue Wachstumschancen? - AD HOC NEWS",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMTYwUG9Rd3hiZTc1YXlLWTJ6R1lPS3VlOTlxNjFPS2tOMVJNeVRmelN2aC1pekg1Rzljd3gwX3NrUjRTcmxVNmthN1ZGZm5hdURBVXdCMHVQc3dmcU5JeWRuNmRaaWFHTnE2QVRneV96X3pEYkw2bjZiYmh1cm5ZWWJDMk1lWUhFd04yN0gxcHltRmZ6MmtCOThlcGtVdGJNeG5ac0FJUGg5M3BMVk9OZFdtZmdsc296MHBsS1hacVg3cTByU3c?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYWNPSVV5dEdsM25sallWaE9GMnNHV2VOU0lnS2Z4LWNnZ2xqUzBQZTd4S2dPZVN6cldPYjJQMlRsTHFiQnZOVFpESWU0ajlsWmRWWDM1Z0lYQUc2bk13VGlFNXoyOUluYWJWOHNhd2t2b21rVWZ6UElRRVkyVzR3WFBPODFha3hDckZoMWktM2FyWkxqYTY1a0xNazF2dGVZWFF6bnRuMnc0dHNrT3VrQTVJaUtsYTlzd3FCaXJtOA?oc=5",
           "source": "AD HOC NEWS",
           "date": "17. Apr 2026"
+        },
+        {
+          "title": "Goertek Inc Aktie (CNE000001090): Ist die Akustik-Dominanz stark genug für neue Fantasie? - AD HOC NEWS",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVmZDM09FT3FpcmVEZmdqNGNiRzdXdFUzWGRxaFpwbW9pVzgwdXBzV1RKQW0tUjA2dEFCR1h3MjYyRmpoSXFHay1tdW5Vbl9LOEdtR3l1d3NNLW43RzdKemZNdmFubFJ4X0tZZ0FzcmhhdFdrWFlVSDkxaW14UW5JZ2tpZERuZy1mMWNlSVNQVEFWbVFDWXhIdmVaM3NCNnFmQkpkdTN6X3Y0dF9TaklGUHhLSmw0bFg5M0FsYS00d3hOcmxi?oc=5",
+          "source": "AD HOC NEWS",
+          "date": "19. Apr 2026"
         }
       ]
     }
