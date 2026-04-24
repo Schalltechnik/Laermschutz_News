@@ -1,11 +1,11 @@
 {
-  "generated": "23. April 2026, 05:21 UTC",
+  "generated": "24. April 2026, 05:26 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Geplante neue Flugrouten ab Graz lösen bei mehreren Gemeinden in der Steiermark Besorgnis aus. Insbesondere Premstätten und Lieboch befürchten eine erhebliche Zunahme des Fluglärms. Die betroffenen Gemeinden wehren sich daher aktiv gegen die geplanten Routenänderungen.",
+      "summary": "Geplante Änderungen der Flugrouten ab Graz lösen bei mehreren Gemeinden im Umland Besorgnis aus. Anrainer und Kommunen befürchten eine erhebliche Zunahme des Fluglärms und wehren sich aktiv gegen die geplanten Anpassungen. Dies unterstreicht die Notwendigkeit, Lärmschutzaspekte bei solchen Infrastrukturprojekten umfassend zu berücksichtigen.",
       "items": [
         {
           "title": "Neue Flugrouten ab Graz: Gemeinden befürchten mehr Lärm - Kleine Zeitung",
@@ -20,10 +20,22 @@
           "date": "17. Apr 2026"
         },
         {
-          "title": "Routen-Änderung: Gemeinden befürchten Fluglärm - MSN",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSG5JSHM3X2IySnd0YnFyMTZUdHFqUUNFMm51VHhFbDBtRklaYW1zYmdzbDhjM25MdnJxekJFdnZlVzZVRUdQd0J1QUxRTWVYMWFpREpkNUI3NUNzOEQ3a24tOGMxNTVKRnN1TVFWR2FOTlIweXNTLWIycno3Y1hyUEZoQlhNanlaRWQ3c2tsYVlUN0lsV0ZMSnpqWHViM3ptYmJmQngwZDQzTlZmam53R0lCallrQm8?oc=5",
-          "source": "MSN",
-          "date": "18. Apr 2026"
+          "title": "Protest von Anrainern - Routen-Änderung: Gemeinden befürchten Fluglärm - Kronen Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE8yQ0FZaUxVZzNxckhJbHBoWUxvcVNHVll2LUNQYmxOa3BGV1B5TTlKSHRtTjBaUGVrS3lDeVpnTGxlZw?oc=5",
+          "source": "Kronen Zeitung",
+          "date": "17. Apr 2026"
+        },
+        {
+          "title": "Girls’ Day wächst: Erstmals auch Boys’ Day in der Steiermark - 5 Minuten",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNM1R1ZDk3RGlwTWcyMzB0RlVyNnlfMTJKd1ZmYVBsY0hidC1zWFcxZkE0S2JOQTg0V1oycUs4QTJJMzBpMUstNmlvM09ETlhzbGFpcjVJVVNxRG95eW5abThfb0tsUEU2bDVEU3NqSmVXMXRMVGNndXQ2cXZnWXFUWFJkVDR3VlFrYUU2WkJPYWtmc0hwcm9xLWdrOEpXdWhxSXNlaEZoOA?oc=5",
+          "source": "5 Minuten",
+          "date": "23. Apr 2026"
+        },
+        {
+          "title": "Girls' und Boys' Day Steiermark: Kaserne bis Kindergarten – Jugend entdeckt neue Berufswege - MeinBezirk.at",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLXFHcGg1dDROUGNpWnhPSktTS19nQ1ZKYzVMeUctU2FIVUZhMEhlMnoxWlRENHZiYk0zaEg2N3IxMjg0TzE4cEhLZEgzN1d4d2NmWUFRellHd09wV3hXeTRzTEkxaVhEcU9hNlRyb2lZMmtCTUFwUFNfSXNLeFJqaVZkdlhZa1ZlX3hPR1UtaElVZFlpemowcklqMXhiT2RBM0lPVTFLaGw0QTVaVUZKMHRQLUtaUQ?oc=5",
+          "source": "MeinBezirk.at",
+          "date": "23. Apr 2026"
         }
       ]
     },
@@ -31,51 +43,32 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "In Österreich sorgen Bürgerproteste an Hotspots wie der Wientalterrasse für Aufmerksamkeit bezüglich Lärmbelästigung durch Partys und Veranstaltungen. Gleichzeitig wird die öffentliche Diskussion um Infraschall von Windrädern mit faktengestützten Informationen zu entkräften versucht. Diese aktuellen Herausforderungen im Lärmschutz, von urbanen Freizeitaktivitäten bis zur Energiegewinnung, sind auch zentrale Themen für Organisationen wie den Österreichischen Arbeitsring für Lärmbekämpfung (ÖAL).",
-      "items": [
-        {
-          "title": "Party-Hotspot Wientalterrasse – Transparente gegen Lärm - MSN",
-          "link": "https://news.google.com/rss/articles/CBMiywJBVV95cUxPNlVZR05hZXNZYl9yN05ENGhqMmw0dU9MMWlTQXB6U1loZkJrYWpkV053NWRQZ1pqNlhrNEJCekNrTlcyVFBFRnZCY28za3k2OWVOOGZVaXQ5cE5kNDJuN19vdzJqbUppUkpMWndvZkhUMWd6N1VoU1ZoYXlfT0pSWnJGLXdqWWNlNlphRzFsdlIwbFJtU29FWk5oajJGQTBuOEVFc3JUZ20tMDZmaXNZTk9CVWp1QmV5V2FZTUstd3JkeWlmNnFuVHdyZEhFbUtGRXQycUJkTS1YLWpFaFZjOVdKWDZHX1BWcDZ6REdiUmd5SkduZldlNWFsOHVtMk9lLWtZSHRvd2FVWHIwdGRURU10d3gyZi1Hb2ZXczJsRHdwMjc3Vm52QVdoamhyUmFXT1lqdi1ta0lnRnFJYUN0d0Y3UG9aaHpRdUJj?oc=5",
-          "source": "MSN",
-          "date": "17. Apr 2026"
-        },
-        {
-          "title": "Infraschall von Windrädern: Die Fakten hinter der Angst - ingenieur.de",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbU9kRHFDQl9xRDNaQlFVRnVPc1o1VUJCMVo3anhoSGNJN3VITUtHTVZmY3NaTGFCRU9ablU5clFxU0hOakdLQVVHc09Ld0NCdUZMRE9lLVY2djd0dFg5SXZqRjNSUjllc2hySWpYZGtuYy1Ta1NQUnRSYlo3R0NBX1VleERmSnJCODZ5WjRQWkxpVk5LOWlVRFlDbHlFNjMwUWYxVURfanVUdWNYV3c?oc=5",
-          "source": "ingenieur.de",
-          "date": "22. Apr 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "dach": {
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Die gesundheitliche Belastung durch Verkehrslärm und mysteriöse Brummgeräusche, die den Schlaf rauben, ist ein wiederkehrendes Thema im Bereich Umgebungslärm. Spezifische Entwicklungen umfassen in Deutschland die Diskussion um Infraschall von Windrädern sowie das ungewöhnliche Brummen von Maikäfern in Hessen. In der Schweiz sorgen derweil Proteste gegen Armeelärm im Haslital und die erwarteten Lärmemissionen des F-35 Kampfjets für Besorgnis.",
+      "summary": "In der Schweiz dominieren Berichte über die bevorstehende Einführung des F-35A Kampfjets durch die Schweizer Armee, der als lautestes Modell gilt und bereits zu starker Kritik aus der Bevölkerung, etwa im Haslital, sowie zu Investitionen des Bundes in Lärmschutzmaßnahmen führt. Parallel dazu äußern Fluglärm-Gegner in Deutschland Befürchtungen vor zunehmenden Störungen, während ein mysteriöses Brummen Menschen den Schlaf raubt und die Auswirkungen von Umgebungslärm auf die Lebensqualität unterstreicht. Die Nachrichtenlage zeigt eine wachsende Sensibilität für Lärmbelastungen in der DACH-Region, wobei in den vorliegenden Titeln keine spezifischen Neuigkeiten oder Veranstaltungen der DEGA erwähnt werden.",
       "items": [
         {
-          "title": "Schlafstörungen: Verkehrslärm im Schlafzimmer beeinträchtigt die Gesundheit - MSN",
-          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQdHd4RjZpY2R6QkFpdWRTWG1zeldPNl8zV1NZaEN0RU5SaUlkLWd5N0tKS3N4TFAyVUViVFFWb1RERndhM3Mxb25YNkxxLXVfakJjQXJmZUNHbUh1aXpDbVdnYngyRmt0TXlQX0VoVFlxa2hFTktKY01nZWpWTjRQQ2JGbW02Y1NVTmgwWVVZRDM0MVlsekRMX01xYU9vNVh3QUdKUVdLajJzMTJPLWJzSEtzdlpYeHd4VEtwUmdCTEY5V0s2dVJXZWpscWdVTS1adGY4UERhZHliUXA0UUtXdlV2cDctY0w4LU4xNW1keUIwQ0Rfanc?oc=5",
+          "title": "Fluglärm-Gegner befürchten mehr Störungen - MSN",
+          "link": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxQTjJtYkw3VHQwMlcxRUxsQW5WWmYxcUxqNEotRFFydk5FVmF3WFRfR2R6VmNjLXFYYzFqcnc1eWdHODdxNDg0NTYxTS1ReXhhei1LZ1YyOFA5WXlrMW1TWExqRTJlcWc2R01oRGJmSXI3RTFYV2wxZXExQ2kweW5MYWJWdXNEbE5iODZpdUUzS0hvajMzVDI0cTM0b3JNLURiY0hfWmxzYkFvdVk1Ump6SGZwYWlEYTh4S0ducFhUODBwVzA3TEJGVVR6UVdCMWkyWTBQWm81SXJlZEdyZXVrYVc4c1Vla2YtY3BKOEtzMmNRTlEySzhpcUdWcGtSQmpzN3RQNEdNYXd3TzZYdFNBRkE2Z2RWclRESGRUMEktZmw3VEtoWjlTN0F5TnNMelBhQjVNeEJCY09nV1FsM1ppdlRENG82bEVXa0U3d1BuZk15a1FxTXFBTzdqY1FTQVlU?oc=5",
           "source": "MSN",
-          "date": "21. Apr 2026"
-        },
-        {
-          "title": "Infraschall von Windrädern: Die Fakten hinter der Angst - ingenieur.de",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbU9kRHFDQl9xRDNaQlFVRnVPc1o1VUJCMVo3anhoSGNJN3VITUtHTVZmY3NaTGFCRU9ablU5clFxU0hOakdLQVVHc09Ld0NCdUZMRE9lLVY2djd0dFg5SXZqRjNSUjllc2hySWpYZGtuYy1Ta1NQUnRSYlo3R0NBX1VleERmSnJCODZ5WjRQWkxpVk5LOWlVRFlDbHlFNjMwUWYxVURfanVUdWNYV3c?oc=5",
-          "source": "ingenieur.de",
-          "date": "22. Apr 2026"
-        },
-        {
-          "title": "Massenflug in Hessen: Wenn eine halbe Milliarde Maikäfer brummen - hessenschau.de",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPaUI0MDNBNkFnTjgtRk9zd2VEY0NFcFgySWlJWHMxM0V3eVdmak44bHA2d1ZYcUNqV3ZVNUNXLVU0bTk4N3E0bk5QT1lKSWlPTzhUTm9oLXd3WjVsZDAwY0J2c2MtSVJ4aHlmRWdIVzZPUmU3MDF6VXlQME03T0RkUTJWQlVKcTZlTFVOYnk1WmtJU1BEYV9VeGxkU0h6c0ZwR2RDQnRzLUt5cW9rcURDak1vWGw1bzIzN29tM3lGTVBXRzBxY0plZURBQnVlcGl3MW1jSko1bno?oc=5",
-          "source": "hessenschau.de",
-          "date": "16. Apr 2026"
+          "date": "23. Apr 2026"
         },
         {
           "title": "Mysteriöses Brummen raubt Menschen Schlaf + Geld für neue Bahnstation + Vietnamese statt \"Eiche\" - MSN",
           "link": "https://news.google.com/rss/articles/CBMihwNBVV95cUxNTlQ5OWN6amcwLTZSMXMyRnlVVU1PWGpDZ3dKcVNISDZZb3J3WnFETFZSOWFXMTh4LU5LdHoza1VlWjMxZDB2WXFPdjhNbTcxSFlzLXpBLTJ6WE1KbWZ0M1pBOHhYOGZSQWZmdXZuX3RkUFpRcXIwamFPc2s3UVpNYWN3OTZTaFhMdmdKWG9HZUlOZTNuMFp2cm1aN0ZvUTYzSW9RbTdoLWQyTWREUTB4X2FtVjZJM2R2Yl9rY29XUDlYUUF6RGtyYkNhT0lfMmdKcy16alh2Zzg4LXQ0eTFQUHFwSEg2MkJmRWMwRVVzNFNwZXVPWC1kWmc1VlVBeThuSDZwcHlIazctQWVvRXNKWnlVTGhDdXJ4cndfaFN4YTZBOF9NUmdQMkFkTmFDTGc3eWdmbUVxaXB0TGE5MDhqakdueWgyV2hkcmJ0YndPcVRmcVp0ZllXTTZ1TGhocEt3NDBJSnFUODVIdGk3blBtLUlPMGNvcWlOUHpES0xYbWZER05ycDFz?oc=5",
           "source": "MSN",
           "date": "17. Apr 2026"
+        },
+        {
+          "title": "Schweizer Armee: F-35A kommt – Bund investiert in Lärmschutz für Bevölkerung - polizei.news",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPd1JYa245MEFCbHVtRkZRcmZDZEVad1pwdDh6TmZGU0kzeVBOUm9BZ1pyN0Q0WDVTTDRjaUx4VEo1RmFsWkZvMFBLWE1HbHJPSEZqTkdFUjBCLVdTQVhjTVI5ZUx2QS1KZ1VQai1ha2ZfTnVnNTFmVDY4Rl9GWnlxVFBra3J3dGsxQmhwRU1lT0VOc2xwMTduazE3UFB3SnR3bWNUMUQ3WTVYRVpicmc?oc=5",
+          "source": "polizei.news",
+          "date": "23. Apr 2026"
         },
         {
           "title": "«Absolut lächerlich!» – Haslital-Bevölkerung kanzelt Armee ab - blue News",
@@ -95,19 +88,19 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Paris has successfully reduced noise pollution, yet urban birds still struggle to sing at their natural pitch, indicating persistent environmental impacts. Concurrently, Europe anticipates a surge in demand for quiet travel by 2026, driven by tourists seeking digital detox in remote destinations. This trend highlights a growing societal value placed on tranquility and reduced noise environments.",
+      "summary": "A global market analysis provides insights into the trends and size of the noise control enclosures packaging industry. Meanwhile, specific urban centers like Paris have successfully implemented measures to significantly reduce noise pollution. Despite these achievements, environmental impacts can persist, as evidenced by urban birds in Paris still struggling to sing at their natural pitch.",
       "items": [
+        {
+          "title": "World Noise Control Enclosures Packaging - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+          "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOZnFMZm96NXlTdjRYN242OUwtSC1vRm5HUnF5OWhjLVNaY2xIcUU3RTFIWXBOVWF1UjZrTkNxZ1hPOUdtNkNGRGc3c2NhLXpoYjd6dEs3NGMwN1Jzd1JXUElCRUlsYS1YcGNYVWJaczdPUHRpSTM3LUNPcWVMM21aNjhFME1yc093QmJZaDdGVTJWbS1tblRVNHg4eHpqMUdTNTdocEQ5NjV3eFJxd0hmXy1IMnNuNy1UYjNtenpkTFlRT1RsNllEUHM1RmFtRG9GYjUtZzNLdF94TWlsS3dvZ3hZNV82RW9GQk5BVG5mbDltUi1IV2h6MlctZVRkaEE?oc=5",
+          "source": "IndexBox",
+          "date": "23. Apr 2026"
+        },
         {
           "title": "Paris has successfully cut noise pollution, but urban birds still can’t sing at their natural pitch - The Conversation",
           "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbHVBazV3Y2FIeFZHd2J3TTlVUU9yUjN3TEh0aG1KM2ZqdEd0MUVRZ0xuWkttR3Q0SnNfYjZfUFlTejh3RE1JaTgtVjE2b0hjVFhTWE1oVHNIQmNzRnpoU08zY2pZNWZaZmZYajJLSkwyX0FzeVNBemg5NDZMNmFJZzc0OTRHemxNbGNBcjhlR0hMNjEzM3dlUm9yTEZGQ09hSjkzNFlVbG02OFlZMTY4bm1LTklTYW1QSWdWNjVsWEZneDhBd2tSU2pQRDk?oc=5",
           "source": "The Conversation",
           "date": "20. Apr 2026"
-        },
-        {
-          "title": "Europe Sees Surge in Quiet Travel Demand in 2026 as Remote Destinations Like Peloponnese and Alentejo Attract Digital Detox Tourists - Travel And Tour World",
-          "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNekh4Ykd3ZmJ4dWd0TENoYm9tbDhlZFFfZHBQZFdWRnlKaTlMQmxxYWd0eTNsNlNCaUlQZEl2QkhRcnpTNklLRzkzbVFYeGVmWnpxR1hWYnlMaTkzeG5GeFpKdjRNS1k2VFh0Y2Q2Qk1PLXI5VFAxY2dkYjlyOVZSTmk4QnZXSklDRHhzc3lpMi02VXFMcldSSjh6RnR2RkJHdEU4QWRqLVdfZHBtNVhQd2ptNFFxSWFYako3cUNTVWlacGE4Smd3dzFuLW1DaG9QT21VQjhIalFvVXZaRHRvWVdqMU9TZXNDWWtzN2JEUXFKU1J5OWx3TVhtUTRYd1VDdTM1bEVHM0pqS1JTVVE?oc=5",
-          "source": "Travel And Tour World",
-          "date": "19. Apr 2026"
         }
       ]
     },
