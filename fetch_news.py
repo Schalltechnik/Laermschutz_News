@@ -5,6 +5,9 @@ Modes:
   - Daily:          fetch 7-day news, update data.json       → Claude Sonnet
   - Weekly summary: read data.json, generate summary.html    → Claude Sonnet
   - Monthly summary: fetch 30-day news, generate monthly     → Claude Sonnet
+
+Special: ÖAL tab is scraped directly from oal.at — no AI summary for the tab,
+         but ÖAL articles ARE included as a section in weekly/monthly newsletters.
 """
 
 import json
@@ -46,7 +49,8 @@ BAUAKUSTIK_EXCLUDE_KEYWORDS = [
 BAUAKUSTIK_INCLUDE_KEYWORDS = [
     "schallschutz", "akustik", "lärm", "schall", "bauakustik",
     "schwingung", "trittschall", "luftschall", "oib-richtlinie 5",
-    "wärmepumpe", "lüftung", "klimaanlage", "richtlinie 5", "geräusch",
+    "wärmepumpe", "luftwärmepumpe", "lüftung", "klimaanlage",
+    "richtlinie 5", "geräusch",
 ]
 
 
@@ -127,7 +131,6 @@ CATEGORIES = {
         "summary_prompt": (
             "Du bist Experte für Lärmschutz in Österreich. "
             "Fasse die relevanten Nachrichtentitel in 2 prägnanten deutschen Sätzen zusammen. "
-            "Hebe Neuigkeiten vom Österreichischen Arbeitsring für Lärmbekämpfung (ÖAL) hervor. "
             "Ignoriere irrelevante Titel. "
             "Falls keine relevanten Titel vorhanden sind, schreibe nur: 'Keine relevanten Meldungen gefunden.' "
             "Antworte NUR mit Fließtext."
@@ -257,13 +260,14 @@ CATEGORIES = {
             gnews("Trittschallschutz Österreich"),
             gnews("Schallschutz Neubau DACH", country="DE"),
             gnews("Gebäudeakustik Forschung", country="DE"),
+            gnews("Luftwärmepumpe Lärm Schallschutz"),
+            gnews("Luftwärmepumpe Schallschutz DACH", country="DE"),
             "https://www.oib.or.at/feed/",
             gnews("DEGA Bauakustik Seminar Schulung", country="DE"),
             gnews("site:dega-akustik.de Bauakustik", country="DE"),
             gnews("ÖAL Österreichischer Arbeitsring Bauakustik"),
             gnews("ÖAL Seminar Bauakustik Schallschutz"),
             gnews("site:oal.at Bauakustik Schallschutz"),
-            # Note: https://www.oal.at/?format=feed&type=rss returns 500 error — removed
         ],
         "keyword_filter": {
             "include": BAUAKUSTIK_INCLUDE_KEYWORDS,
@@ -273,19 +277,82 @@ CATEGORIES = {
         "summary_prompt": (
             "Du bist Experte für Bauakustik und Schallschutz in Gebäuden im DACH-Raum. "
             "Fasse die relevanten Nachrichtentitel in 2 prägnanten deutschen Sätzen zusammen. "
-            "Fokus auf OIB-Richtlinien, Schallschutz im Hochbau, DEGA- und ÖAL-Neuigkeiten. "
+            "Fokus auf OIB-Richtlinien, Schallschutz im Hochbau, Luftwärmepumpen, DEGA- und ÖAL-Neuigkeiten. "
             "Ignoriere irrelevante Titel. "
             "Falls keine relevanten Titel vorhanden sind, schreibe nur: 'Keine relevanten Meldungen gefunden.' "
             "Antworte NUR mit Fließtext."
         ),
         "monthly_prompt": (
             "Du bist Experte für Bauakustik im DACH-Raum. "
-            "Fasse die wichtigsten Entwicklungen des letzten Monats in 2–3 Sätzen zusammen. "
+            "Fasse die wichtigsten Entwicklungen des letzten Monats zu Bauakustik, "
+            "Schallschutz in Gebäuden und Luftwärmepumpen in 2–3 Sätzen zusammen. "
             "Falls keine relevanten Titel vorhanden sind, schreibe nur: 'Keine relevanten Meldungen gefunden.' "
             "Antworte NUR mit Fließtext."
         ),
     },
 }
+
+
+# ── ÖAL Website Scraper ────────────────────────────────────────────────────────
+
+def scrape_oal() -> list[dict]:
+    """
+    Scrapes https://www.oal.at/ directly and extracts article headlines with links.
+    Returns items in the same format as fetch_rss().
+    No AI summary is generated for this category — articles are shown directly.
+    """
+    items = []
+    url = "https://www.oal.at/"
+    try:
+        req = Request(url, headers={
+            "User-Agent": "Mozilla/5.0 (compatible; NewsBot/1.0)",
+            "Accept": "text/html,application/xhtml+xml",
+        })
+        with urlopen(req, timeout=30) as resp:
+            html = resp.read().decode("utf-8", errors="replace")
+
+        seen_ids = set()
+
+        # Extract date + title + link blocks from Joomla page
+        blocks = re.findall(
+            r'(\w+ \d+,\s*\d{4})\s*.*?'
+            r'<h2[^>]*>\s*<a\s+href="([^"]+view=article[^"]+)"[^>]*>\s*([^<]+)\s*</a>',
+            html, re.DOTALL
+        )
+
+        for date_raw, link, title in blocks:
+            title = title.strip()
+            link  = link.strip()
+
+            if link.startswith("?"):
+                link = "https://www.oal.at/" + link
+            elif not link.startswith("http"):
+                link = "https://www.oal.at/" + link.lstrip("/")
+
+            if link in seen_ids:
+                continue
+            seen_ids.add(link)
+
+            date_parsed = None
+            try:
+                date_parsed = datetime.strptime(date_raw.strip(), "%B %d, %Y").replace(tzinfo=timezone.utc)
+            except Exception:
+                pass
+
+            items.append({
+                "title": title,
+                "link": link,
+                "date_raw": date_raw.strip(),
+                "date_parsed": date_parsed,
+                "source": "oal.at",
+            })
+
+        print(f"  ÖAL scraper: found {len(items)} articles")
+
+    except Exception as e:
+        print(f"  Warning: ÖAL scrape failed: {e}")
+
+    return items
 
 
 # ── RSS Fetching ───────────────────────────────────────────────────────────────
@@ -399,6 +466,10 @@ def deduplicate(items):
 def format_date(raw):
     if not raw:
         return ""
+    try:
+        return datetime.strptime(raw.strip(), "%B %d, %Y").strftime("%-d. %b %Y")
+    except Exception:
+        pass
     try:
         from email.utils import parsedate_to_datetime
         return parsedate_to_datetime(raw).strftime("%-d. %b %Y")
@@ -516,9 +587,31 @@ def build_top_articles_html(top_articles):
     return html
 
 
-def build_newsletter_html(title, kw_label, date_str, subtitle, exec_text, top_articles=None):
+def build_oal_newsletter_section(oal_items: list[dict]) -> str:
+    """Build a static ÖAL section for the newsletter — no AI, just links."""
+    if not oal_items:
+        return ""
+    html = '<h3 class="nl-section">🔔 ÖAL – Österreichischer Arbeitsring für Lärmbekämpfung</h3>'
+    html += '<ul class="nl-list nl-links">'
+    for item in oal_items[:5]:
+        t = item.get("title", "")
+        u = item.get("link", "")
+        d = item.get("date", "")
+        date_str = f' <span class="nl-meta">{d}</span>' if d else ""
+        if u:
+            html += f'<li><a href="{u}" target="_blank" rel="noopener">{t}</a>{date_str}</li>'
+        else:
+            html += f'<li>{t}{date_str}</li>'
+    html += '</ul>'
+    return html
+
+
+def build_newsletter_html(title, kw_label, date_str, subtitle, exec_text,
+                           top_articles=None, oal_items=None):
     content = render_newsletter_text(exec_text)
     links_html = build_top_articles_html(top_articles or [])
+    oal_html = build_oal_newsletter_section(oal_items or [])
+
     return f"""<!DOCTYPE html>
 <html lang="de">
 <head>
@@ -564,6 +657,7 @@ def build_newsletter_html(title, kw_label, date_str, subtitle, exec_text, top_ar
     <div class="nl-body">
       <a class="back" href="index.html">← Zurück zur Übersicht</a>
 {content}
+{oal_html}
 {links_html}
       <div class="tags">
         <span class="tag" style="background:#1a5c38">🏞️ Steiermark</span>
@@ -572,6 +666,7 @@ def build_newsletter_html(title, kw_label, date_str, subtitle, exec_text, top_ar
         <span class="tag" style="background:#003399">🇪🇺 Europa</span>
         <span class="tag" style="background:#1a6b3c">🔬 Wissenschaft</span>
         <span class="tag" style="background:#7b4f12">🏗️ Bauakustik</span>
+        <span class="tag" style="background:#2a5a8a">🔔 ÖAL</span>
       </div>
       <div class="footer">© Florian Lackner · Created using Claude.ai, powered by Anthropic Claude AI & GitHub Actions</div>
     </div>
@@ -617,8 +712,11 @@ def monthly_newsletter_prompt(month_str, sections):
 
 
 def _build_sections(categories_data):
+    """Build AI sections for newsletter — excludes ÖAL (handled separately)."""
     sections = []
     for cat_id, cat in categories_data.items():
+        if cat_id == "oal":
+            continue
         titles = "\n".join(f"- {i['title']}" for i in cat.get("items", [])[:10])
         sections.append(
             f"## {cat['icon']} {cat['label']}\n"
@@ -629,7 +727,9 @@ def _build_sections(categories_data):
 
 def _top_articles(categories_data, n=8):
     all_items = []
-    for cat in categories_data.values():
+    for cat_id, cat in categories_data.items():
+        if cat_id == "oal":
+            continue
         for item in cat.get("items", [])[:2]:
             if item.get("link"):
                 all_items.append(item)
@@ -647,6 +747,10 @@ def run_weekly_summary_only():
     except Exception as e:
         print(f"  Could not read docs/data.json: {e}")
         return
+
+    # Get ÖAL items from data.json (already scraped during daily run)
+    oal_items = categories_data.get("oal", {}).get("items", [])
+
     print(f"  Waiting {SUMMARY_PRE_PAUSE}s…")
     time.sleep(SUMMARY_PRE_PAUSE)
     now = datetime.now(timezone.utc)
@@ -663,6 +767,7 @@ def run_weekly_summary_only():
         subtitle="Wochenrückblick",
         exec_text=exec_text,
         top_articles=_top_articles(categories_data),
+        oal_items=oal_items,
     )
     os.makedirs("docs", exist_ok=True)
     with open("docs/summary.html", "w", encoding="utf-8") as f:
@@ -678,6 +783,7 @@ def run_monthly_summary_only():
     month_slug = now.strftime("%Y-%m")
     print(f"\n── Monthly Newsletter Only Mode ({month_str}) ──")
     monthly_categories = {}
+
     for cat_id, cat in CATEGORIES.items():
         print(f"\n  ── {cat['label']} (30 days) ──")
         all_items = []
@@ -699,6 +805,16 @@ def run_monthly_summary_only():
             "label": cat["label"], "icon": cat["icon"],
             "color": cat["color"], "summary": summary, "items": items,
         }
+
+    # ÖAL scrape (30 days)
+    print(f"\n  ── ÖAL (scrape, 30 days) ──")
+    oal_items = scrape_oal()
+    oal_items = filter_by_age(oal_items, MAX_AGE_DAYS_MONTHLY)
+    for item in oal_items:
+        item["date"] = format_date(item.pop("date_raw", ""))
+        item.pop("date_parsed", None)
+    print(f"  {len(oal_items)} ÖAL items in last 30 days")
+
     print(f"\n  Waiting {SUMMARY_PRE_PAUSE}s before newsletter call…")
     time.sleep(SUMMARY_PRE_PAUSE)
     print("  Calling Claude Sonnet for monthly newsletter…")
@@ -713,6 +829,7 @@ def run_monthly_summary_only():
         subtitle=f"Monatsrückblick {month_str}",
         exec_text=exec_text,
         top_articles=_top_articles(monthly_categories, n=10),
+        oal_items=oal_items,
     )
     os.makedirs("docs", exist_ok=True)
     archived = f"docs/summary_monthly_{month_slug}.html"
@@ -746,6 +863,8 @@ def run_daily():
         "generated": datetime.now(timezone.utc).strftime("%d. %B %Y, %H:%M UTC"),
         "categories": {},
     }
+
+    # Standard RSS categories
     for cat_id, cat in CATEGORIES.items():
         print(f"\n── {cat['label']} ──")
         all_items = []
@@ -771,6 +890,23 @@ def run_daily():
             "label": cat["label"], "icon": cat["icon"],
             "color": cat["color"], "summary": summary, "items": items,
         }
+
+    # ÖAL — scraped directly, no AI summary
+    print(f"\n── ÖAL (direkt von oal.at) ──")
+    oal_items = scrape_oal()
+    oal_items = filter_by_age(oal_items, MAX_AGE_DAYS_WEEKLY)
+    for item in oal_items:
+        item["date"] = format_date(item.pop("date_raw", ""))
+        item.pop("date_parsed", None)
+    print(f"  {len(oal_items)} ÖAL items in last 7 days")
+    output["categories"]["oal"] = {
+        "label": "ÖAL",
+        "icon":  "🔔",
+        "color": "#2a5a8a",
+        "summary": "",
+        "items": oal_items,
+    }
+
     os.makedirs("docs", exist_ok=True)
     with open("docs/data.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
