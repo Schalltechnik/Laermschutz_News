@@ -16,16 +16,11 @@
 
     header { background: var(--green); color: #fff; }
     .header-top { display: flex; align-items: center; justify-content: space-between; padding: 10px 24px; background: var(--green-dark); font-size: 11px; color: rgba(255,255,255,0.6); }
-    .header-top .brand { font-weight: 700; color: #fff; letter-spacing: 0.3px; }
+    .header-top .brand { font-weight: 700; color: #fff; }
     .header-main { padding: 22px 24px 18px; text-align: center; }
-    .header-main h1 {
-      font-family: 'DM Serif Display', serif; font-weight: 400;
-      font-size: clamp(22px, 4vw, 34px); margin-bottom: 6px; letter-spacing: -0.3px;
-    }
-    .header-main .subtitle {
-      font-size: 13px; color: rgba(255,255,255,0.7);
-      margin-bottom: 8px; font-style: italic;
-    }
+    .header-main .dept { font-size: 11px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; color: rgba(255,255,255,0.6); margin-bottom: 8px; }
+    .header-main h1 { font-family: 'DM Serif Display', serif; font-weight: 400; font-size: clamp(20px, 4vw, 30px); margin-bottom: 6px; }
+    .header-main .subtitle { font-size: 13px; color: rgba(255,255,255,0.7); font-style: italic; margin-bottom: 8px; }
     .header-main .meta { font-size: 11px; color: rgba(255,255,255,0.45); }
     .header-main .meta span { color: rgba(255,255,255,0.8); font-weight: 600; }
 
@@ -59,6 +54,10 @@
     .summary-box { background: var(--green-light); border: 1px solid #b8d4b8; border-left: 3px solid var(--green); border-radius: 6px; padding: 14px 18px; margin-bottom: 20px; }
     .summary-label { font-size: 10px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--green); margin-bottom: 7px; }
     .summary-text { font-size: 14px; line-height: 1.7; color: #2a2a2a; }
+
+    /* ÖAL special info box */
+    .oal-info { background: #eef4fa; border: 1px solid #b8d4f0; border-left: 3px solid #2a5a8a; border-radius: 6px; padding: 12px 16px; margin-bottom: 20px; font-size: 13px; color: #2a5a8a; }
+    .oal-info a { color: #1a3a6b; font-weight: 600; }
 
     .news-item { border-top: 1px solid var(--border); padding: 12px 0; }
     .news-item:first-child { border-top: none; }
@@ -104,18 +103,19 @@
 <div class="tab-content-wrapper"><div id="panels"></div></div>
 
 <footer>
-  <p>© Florian Lackner · Powered by <a href="https://ai.google.dev" target="_blank">Google Gemini AI</a> &amp; <a href="https://github.com" target="_blank">GitHub Actions</a></p>
+  <p>© Florian Lackner · Powered by <a href="https://ai.google.dev" target="_blank">Anthropic Claude AI</a> &amp; <a href="https://github.com" target="_blank">GitHub Actions</a></p>
 </footer>
 
 <script>
-  const CAT_ORDER = ["steiermark", "austria", "dach", "europe", "science", "bauakustik"];
+  const CAT_ORDER = ["steiermark", "austria", "dach", "europe", "science", "bauakustik", "oal"];
   const CAT_SUBS = {
     steiermark: "Lokale Meldungen Steiermark & Graz",
     austria:    "Nationale Meldungen Österreich",
     dach:       "Deutschland, Österreich, Schweiz",
     europe:     "EU & europäische Politik",
     science:    "Forschung & Technik",
-    bauakustik: "OIB, Schallschutz in Gebäuden, DEGA, ÖAL",
+    bauakustik: "OIB, Schallschutz in Gebäuden, DEGA",
+    oal:        "Direkt von oal.at — Seminare, Richtlinien, Neuigkeiten",
   };
 
   function escHtml(s) {
@@ -180,6 +180,15 @@
 
         const panel = document.createElement("div");
         panel.className = "tab-panel"; panel.dataset.cat = catId;
+
+        // Special header for ÖAL tab
+        let extraInfo = "";
+        if (catId === "oal") {
+          extraInfo = `<div class="oal-info">
+            🔔 Direkt von <a href="https://www.oal.at" target="_blank" rel="noopener">oal.at</a> gescraped — Seminare, Richtlinien, Fachtagungen und Neuigkeiten des Österreichischen Arbeitsrings für Lärmbekämpfung.
+          </div>`;
+        }
+
         panel.innerHTML = `
           <div class="panel-header">
             <span class="panel-icon">${escHtml(cat.icon)}</span>
@@ -188,6 +197,7 @@
               <div class="panel-sub">${escHtml(CAT_SUBS[catId] || "")}</div>
             </div>
           </div>
+          ${extraInfo}
           ${cat.summary ? `<div class="summary-box"><div class="summary-label">✦ KI-Zusammenfassung</div><div class="summary-text">${escHtml(cat.summary)}</div></div>` : ""}`;
 
         const list = document.createElement("div");
