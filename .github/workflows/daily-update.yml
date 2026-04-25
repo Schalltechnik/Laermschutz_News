@@ -2,8 +2,8 @@ name: Lärmschutz News Update
 
 on:
   schedule:
-    - cron: "30 3 * * *"        # Daily 03:00 UTC = ~05:00 Graz
-    - cron: "0 4 * * 5"       # Weekly Thu 20:00 UTC = ~22:00 Graz (newsletter generated + sent)
+    - cron: "30 3 * * *"        # Daily 03:30 UTC = ~05:00 Graz
+    - cron: "0 4 * * 5"       # Weekly Fri 04:00 UTC = ~06:00 Graz (newsletter generated + sent)
     - cron: "0 10 28-31 * *"   # Monthly last day 10:00 UTC = ~12:00 Graz
 
   # Subscribe/unsubscribe events from the website form
