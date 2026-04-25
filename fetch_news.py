@@ -2,9 +2,9 @@
 Lärmschutz News Fetcher
 
 Modes:
-  - Daily:          fetch 7-day news, update data.json
-  - Weekly summary: read data.json, generate summary.html (newsletter format)
-  - Monthly summary: fetch 30-day news, generate summary_monthly_YYYY-MM.html
+  - Daily:          fetch 7-day news, update data.json  → Claude Haiku 4.5
+  - Weekly summary: read data.json, generate summary.html → Claude Sonnet 4.6
+  - Monthly summary: fetch 30-day news, generate summary_monthly_YYYY-MM.html → Claude Sonnet 4.6
 """
 
 import json
@@ -18,11 +18,13 @@ import xml.etree.ElementTree as ET
 
 # ── Configuration ──────────────────────────────────────────────────────────────
 
-GEMINI_API_KEY = os.environ["GEMINI_API_KEY"]
-GEMINI_URL = (
-    "https://generativelanguage.googleapis.com/v1beta/models/"
-    "gemini-2.5-flash:generateContent?key=" + GEMINI_API_KEY
-)
+ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
+ANTHROPIC_URL     = "https://api.anthropic.com/v1/messages"
+
+# Haiku for daily summaries (fast, cheap)
+CLAUDE_HAIKU  = "claude-haiku-4-5-20251001"
+# Sonnet for newsletters (better quality)
+CLAUDE_SONNET = "claude-sonnet-4-6"
 
 WEEKLY_SUMMARY_ONLY  = os.environ.get("WEEKLY_SUMMARY",  "false").lower() == "true"
 MONTHLY_SUMMARY_ONLY = os.environ.get("MONTHLY_SUMMARY", "false").lower() == "true"
@@ -32,10 +34,10 @@ MAX_AGE_DAYS_WEEKLY    = 7
 MAX_AGE_DAYS_MONTHLY   = 31
 MAX_ITEMS_PER_CATEGORY = 15
 MAX_TITLES_FOR_SUMMARY = 15
-GEMINI_PAUSE_SECONDS   = 120
-GEMINI_RETRY_ATTEMPTS  = 10
-GEMINI_RETRY_WAIT      = 120
-SUMMARY_PRE_PAUSE      = 30
+CLAUDE_PAUSE_SECONDS   = 10   # Claude hat kein hartes Rate Limit wie Gemini
+CLAUDE_RETRY_ATTEMPTS  = 5
+CLAUDE_RETRY_WAIT      = 60
+SUMMARY_PRE_PAUSE      = 5
 
 # OIB keyword filters
 BAUAKUSTIK_EXCLUDE_KEYWORDS = [
@@ -89,12 +91,12 @@ CATEGORIES = {
         "keyword_filter": None,
         "summary_prompt": (
             "Du bist Experte für Lärmschutz in der Steiermark und Graz. "
-            "Fasse die folgenden Nachrichtentitel in 3 prägnanten deutschen Sätzen zusammen. "
+            "Fasse die folgenden Nachrichtentitel in 2 prägnanten deutschen Sätzen zusammen. "
             "Antworte NUR mit Fließtext."
         ),
         "monthly_prompt": (
             "Du bist Experte für Lärmschutz in der Steiermark. "
-            "Fasse die wichtigsten Entwicklungen des letzten Monats in 3–4 Sätzen zusammen. "
+            "Fasse die wichtigsten Entwicklungen des letzten Monats in 2–3 Sätzen zusammen. "
             "Antworte NUR mit Fließtext."
         ),
     },
@@ -125,13 +127,13 @@ CATEGORIES = {
         "keyword_filter": None,
         "summary_prompt": (
             "Du bist Experte für Lärmschutz in Österreich. "
-            "Fasse die folgenden Nachrichtentitel in 3 prägnanten deutschen Sätzen zusammen. "
+            "Fasse die folgenden Nachrichtentitel in 2 prägnanten deutschen Sätzen zusammen. "
             "Hebe auch Neuigkeiten vom Österreichischen Arbeitsring für Lärmbekämpfung (ÖAL) hervor. "
             "Antworte NUR mit Fließtext."
         ),
         "monthly_prompt": (
             "Du bist Experte für Lärmschutz in Österreich. "
-            "Fasse die wichtigsten Entwicklungen des letzten Monats in 3–4 Sätzen zusammen. "
+            "Fasse die wichtigsten Entwicklungen des letzten Monats in 2–3 Sätzen zusammen. "
             "Antworte NUR mit Fließtext."
         ),
     },
@@ -163,14 +165,14 @@ CATEGORIES = {
         "keyword_filter": None,
         "summary_prompt": (
             "Du bist Experte für Umgebungslärm in der DACH-Region (Deutschland, Österreich, Schweiz). "
-            "Fasse die folgenden Nachrichtentitel in 3 prägnanten deutschen Sätzen zusammen. "
+            "Fasse die folgenden Nachrichtentitel in 2 prägnanten deutschen Sätzen zusammen. "
             "Erwähne explizit Entwicklungen aus Deutschland UND der Schweiz wenn vorhanden. "
             "Hebe auch Veranstaltungen und Neuigkeiten der DEGA hervor. "
             "Antworte NUR mit Fließtext."
         ),
         "monthly_prompt": (
             "Du bist Experte für Umgebungslärm in der DACH-Region. "
-            "Fasse die wichtigsten Entwicklungen des letzten Monats in 3–4 Sätzen zusammen. "
+            "Fasse die wichtigsten Entwicklungen des letzten Monats in 2–3 Sätzen zusammen. "
             "Antworte NUR mit Fließtext."
         ),
     },
@@ -190,12 +192,12 @@ CATEGORIES = {
         "keyword_filter": None,
         "summary_prompt": (
             "You are an expert on European noise control policy. "
-            "Summarize the following headlines in 3 concise sentences in English. "
+            "Summarize the following headlines in 2 concise sentences in English. "
             "Reply ONLY with flowing prose."
         ),
         "monthly_prompt": (
             "You are an expert on European noise control policy. "
-            "Summarize the most significant developments of the past month in 3–4 sentences. "
+            "Summarize the most significant developments of the past month in 2–3 sentences. "
             "Reply ONLY with flowing prose."
         ),
     },
@@ -217,12 +219,12 @@ CATEGORIES = {
         "keyword_filter": None,
         "summary_prompt": (
             "You are an acoustics researcher. "
-            "Summarize the following headlines in 3 concise sentences in English. "
+            "Summarize the following headlines in 2 concise sentences in English. "
             "Reply ONLY with flowing prose."
         ),
         "monthly_prompt": (
             "You are an acoustics researcher. "
-            "Summarize the most significant research developments of the past month in 3–4 sentences. "
+            "Summarize the most significant research developments of the past month in 2–3 sentences. "
             "Reply ONLY with flowing prose."
         ),
     },
@@ -257,14 +259,14 @@ CATEGORIES = {
         },
         "summary_prompt": (
             "Du bist Experte für Bauakustik und Schallschutz in Gebäuden im DACH-Raum. "
-            "Fasse die folgenden Nachrichtentitel in 3 prägnanten deutschen Sätzen zusammen. "
+            "Fasse die folgenden Nachrichtentitel in 2 prägnanten deutschen Sätzen zusammen. "
             "Fokus auf OIB-Richtlinien, Schallschutz im Hochbau, DEGA- und ÖAL-Neuigkeiten. "
             "Antworte NUR mit Fließtext."
         ),
         "monthly_prompt": (
             "Du bist Experte für Bauakustik im DACH-Raum. "
             "Fasse die wichtigsten Entwicklungen des letzten Monats zu Bauakustik "
-            "und Schallschutz in Gebäuden in 3–4 Sätzen zusammen. "
+            "und Schallschutz in Gebäuden in 2–3 Sätzen zusammen. "
             "Antworte NUR mit Fließtext."
         ),
     },
@@ -393,43 +395,77 @@ def format_date(raw):
         return raw[:16]
 
 
-# ── Gemini with retry ──────────────────────────────────────────────────────────
+# ── Claude API ─────────────────────────────────────────────────────────────────
 
-def call_gemini(prompt: str, max_tokens: int = 2000) -> str:
+def call_claude(prompt: str, model: str = CLAUDE_HAIKU, max_tokens: int = 1024) -> str:
     import json as _json
     body = _json.dumps({
-        "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"maxOutputTokens": max_tokens, "temperature": 0.3},
+        "model": model,
+        "max_tokens": max_tokens,
+        "temperature": 0.3,
+        "messages": [{"role": "user", "content": prompt}],
     }).encode()
-    for attempt in range(1, GEMINI_RETRY_ATTEMPTS + 1):
+    for attempt in range(1, CLAUDE_RETRY_ATTEMPTS + 1):
         try:
-            req = Request(GEMINI_URL, data=body,
-                          headers={"Content-Type": "application/json"}, method="POST")
+            req = Request(
+                ANTHROPIC_URL,
+                data=body,
+                headers={
+                    "Content-Type":      "application/json",
+                    "x-api-key":         ANTHROPIC_API_KEY,
+                    "anthropic-version": "2023-06-01",
+                },
+                method="POST",
+            )
             with urlopen(req, timeout=30) as resp:
                 data = _json.loads(resp.read())
-            print(f"  Finish reason: {data['candidates'][0].get('finishReason','unknown')}")
-            return data["candidates"][0]["content"]["parts"][0]["text"].strip()
+            text = data["content"][0]["text"].strip()
+            print(f"  ✅ Claude ({model.split('-')[1]}) OK — {len(text)} chars")
+            return text
         except HTTPError as e:
+            body_err = e.read().decode("utf-8", errors="replace")
             if e.code == 429:
-                if attempt < GEMINI_RETRY_ATTEMPTS:
-                    print(f"  Gemini 429 (attempt {attempt}/{GEMINI_RETRY_ATTEMPTS}) – waiting {GEMINI_RETRY_WAIT}s…")
-                    time.sleep(GEMINI_RETRY_WAIT)
+                if attempt < CLAUDE_RETRY_ATTEMPTS:
+                    print(f"  Claude 429 (attempt {attempt}/{CLAUDE_RETRY_ATTEMPTS}) – waiting {CLAUDE_RETRY_WAIT}s… {body_err[:100]}")
+                    time.sleep(CLAUDE_RETRY_WAIT)
                 else:
                     return "Zusammenfassung konnte nicht erstellt werden (Rate Limit)."
             else:
-                print(f"  Gemini HTTP error {e.code}")
+                print(f"  Claude HTTP error {e.code}: {body_err[:300]}")
                 return "Zusammenfassung konnte nicht erstellt werden."
         except Exception as e:
-            print(f"  Gemini error: {e}")
+            print(f"  Claude error: {e}")
             return "Zusammenfassung konnte nicht erstellt werden."
     return "Zusammenfassung konnte nicht erstellt werden."
 
 
-def summarize_with_gemini(titles, prompt):
+def summarize_daily(titles, prompt) -> str:
+    """Daily summaries use Haiku — fast and cheap."""
     if not titles:
         return "Keine aktuellen Meldungen gefunden."
     numbered = "\n".join(f"{i+1}. {t}" for i, t in enumerate(titles))
-    return call_gemini(prompt + "\n\nNachrichtentitel:\n" + numbered, max_tokens=2000)
+    return call_claude(
+        prompt + "\n\nNachrichtentitel:\n" + numbered,
+        model=CLAUDE_HAIKU,
+        max_tokens=512,
+    )
+
+
+def summarize_monthly_category(titles, prompt) -> str:
+    """Monthly per-category summaries use Haiku."""
+    if not titles:
+        return "Keine aktuellen Meldungen gefunden."
+    numbered = "\n".join(f"{i+1}. {t}" for i, t in enumerate(titles))
+    return call_claude(
+        prompt + "\n\nNachrichtentitel:\n" + numbered,
+        model=CLAUDE_HAIKU,
+        max_tokens=512,
+    )
+
+
+def generate_newsletter(prompt: str) -> str:
+    """Full newsletter generation uses Sonnet — better structure and quality."""
+    return call_claude(prompt, model=CLAUDE_SONNET, max_tokens=2000)
 
 
 # ── Newsletter HTML Builder ────────────────────────────────────────────────────
@@ -544,7 +580,7 @@ def build_newsletter_html(title, kw_label, date_str, subtitle, exec_text, top_ar
         <span class="tag" style="background:#1a6b3c">🔬 Wissenschaft</span>
         <span class="tag" style="background:#7b4f12">🏗️ Bauakustik</span>
       </div>
-      <div class="footer">© Florian Lackner · Created using Claude.ai, powered by Google Gemini AI & GitHub Actions</div>
+      <div class="footer">© Florian Lackner · Created using Claude.ai, powered by Anthropic Claude AI & GitHub Actions</div>
     </div>
   </div>
 </body>
@@ -610,7 +646,7 @@ def _top_articles(categories_data, n=8):
 # ── Weekly Summary Only ────────────────────────────────────────────────────────
 
 def run_weekly_summary_only():
-    print("\n── Weekly Newsletter Only Mode ──")
+    print("\n── Weekly Newsletter Only Mode (Claude Sonnet) ──")
     try:
         with open("docs/data.json", encoding="utf-8") as f:
             data = json.load(f)
@@ -622,7 +658,8 @@ def run_weekly_summary_only():
     time.sleep(SUMMARY_PRE_PAUSE)
     now = datetime.now(timezone.utc)
     week_str = f"KW {now.strftime('%W')} / {now.year}"
-    exec_text = call_gemini(weekly_newsletter_prompt(week_str, _build_sections(categories_data)), max_tokens=1500)
+    print("  Calling Claude Sonnet for weekly newsletter…")
+    exec_text = generate_newsletter(weekly_newsletter_prompt(week_str, _build_sections(categories_data)))
     html = build_newsletter_html(
         title=f"Newsletter – {week_str}",
         kw_label=f"Wöchentlicher Newsletter · {week_str}",
@@ -657,18 +694,19 @@ def run_monthly_summary_only():
         for item in items:
             item["date"] = format_date(item.pop("date_raw", ""))
             item.pop("date_parsed", None)
-        print("  Calling Gemini for category summary…")
-        summary = summarize_with_gemini([i["title"] for i in items[:20]], cat["monthly_prompt"])
+        print("  Calling Claude Haiku for category summary…")
+        summary = summarize_monthly_category([i["title"] for i in items[:15]], cat["monthly_prompt"])
         print(f"  Summary: {summary[:80]}…")
-        print(f"  Waiting {GEMINI_PAUSE_SECONDS}s…")
-        time.sleep(GEMINI_PAUSE_SECONDS)
+        print(f"  Waiting {CLAUDE_PAUSE_SECONDS}s…")
+        time.sleep(CLAUDE_PAUSE_SECONDS)
         monthly_categories[cat_id] = {
             "label": cat["label"], "icon": cat["icon"],
             "color": cat["color"], "summary": summary, "items": items,
         }
     print(f"\n  Waiting {SUMMARY_PRE_PAUSE}s before newsletter call…")
     time.sleep(SUMMARY_PRE_PAUSE)
-    exec_text = call_gemini(monthly_newsletter_prompt(month_str, _build_sections(monthly_categories)), max_tokens=2500)
+    print("  Calling Claude Sonnet for monthly newsletter…")
+    exec_text = generate_newsletter(monthly_newsletter_prompt(month_str, _build_sections(monthly_categories)))
     html = build_newsletter_html(
         title=f"Newsletter – {month_str}",
         kw_label=f"Monatlicher Newsletter · {month_str}",
@@ -723,13 +761,13 @@ def run_daily():
         for item in items:
             item["date"] = format_date(item.pop("date_raw", ""))
             item.pop("date_parsed", None)
-        print("  Calling Gemini…")
-        summary = summarize_with_gemini(
+        print("  Calling Claude Haiku…")
+        summary = summarize_daily(
             [i["title"] for i in items[:MAX_TITLES_FOR_SUMMARY]], cat["summary_prompt"]
         )
         print(f"  Summary: {summary[:80]}…")
-        print(f"  Waiting {GEMINI_PAUSE_SECONDS}s…")
-        time.sleep(GEMINI_PAUSE_SECONDS)
+        print(f"  Waiting {CLAUDE_PAUSE_SECONDS}s…")
+        time.sleep(CLAUDE_PAUSE_SECONDS)
         output["categories"][cat_id] = {
             "label": cat["label"], "icon": cat["icon"],
             "color": cat["color"], "summary": summary, "items": items,
