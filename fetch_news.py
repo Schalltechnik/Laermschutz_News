@@ -2,9 +2,9 @@
 Lärmschutz News Fetcher
 
 Modes:
-  - Daily:          fetch 7-day news, update data.json  → Claude Haiku 4.5
-  - Weekly summary: read data.json, generate summary.html → Claude Sonnet 4.6
-  - Monthly summary: fetch 30-day news, generate summary_monthly_YYYY-MM.html → Claude Sonnet 4.6
+  - Daily:          fetch 7-day news, update data.json       → Claude Sonnet
+  - Weekly summary: read data.json, generate summary.html    → Claude Sonnet
+  - Monthly summary: fetch 30-day news, generate monthly     → Claude Sonnet
 """
 
 import json
@@ -21,9 +21,6 @@ import xml.etree.ElementTree as ET
 ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
 ANTHROPIC_URL     = "https://api.anthropic.com/v1/messages"
 
-# Haiku for daily summaries (fast, cheap)
-CLAUDE_HAIKU  = "claude-haiku-4-5-20251001"
-# Sonnet for newsletters (better quality)
 CLAUDE_SONNET = "claude-sonnet-4-6"
 
 WEEKLY_SUMMARY_ONLY  = os.environ.get("WEEKLY_SUMMARY",  "false").lower() == "true"
@@ -34,7 +31,7 @@ MAX_AGE_DAYS_WEEKLY    = 7
 MAX_AGE_DAYS_MONTHLY   = 31
 MAX_ITEMS_PER_CATEGORY = 15
 MAX_TITLES_FOR_SUMMARY = 15
-CLAUDE_PAUSE_SECONDS   = 10   # Claude hat kein hartes Rate Limit wie Gemini
+CLAUDE_PAUSE_SECONDS   = 10
 CLAUDE_RETRY_ATTEMPTS  = 5
 CLAUDE_RETRY_WAIT      = 60
 SUMMARY_PRE_PAUSE      = 5
@@ -44,14 +41,12 @@ BAUAKUSTIK_EXCLUDE_KEYWORDS = [
     "aktiengesellschaft", "börse", "investition", "aktien",
     "begrünung", "dachbegrünung", "fassadenbegrünung", "energieeffizienz",
     "sri ", "smart readiness", "photovoltaik", "solar", "heizung",
-    "brandschutz",
-    "betriebsausflug", "jubiläum", "vorhang auf",
+    "brandschutz", "betriebsausflug", "jubiläum", "vorhang auf",
 ]
 BAUAKUSTIK_INCLUDE_KEYWORDS = [
     "schallschutz", "akustik", "lärm", "schall", "bauakustik",
     "schwingung", "trittschall", "luftschall", "oib-richtlinie 5",
-    "wärmepumpe", "lüftung", "klimaanlage",
-    "richtlinie 5", "geräusch",
+    "wärmepumpe", "lüftung", "klimaanlage", "richtlinie 5", "geräusch",
 ]
 
 
@@ -91,12 +86,15 @@ CATEGORIES = {
         "keyword_filter": None,
         "summary_prompt": (
             "Du bist Experte für Lärmschutz in der Steiermark und Graz. "
-            "Fasse die folgenden Nachrichtentitel in 2 prägnanten deutschen Sätzen zusammen. "
-            "Antworte NUR mit Fließtext."
+            "Fasse die relevanten Nachrichtentitel in 2 prägnanten deutschen Sätzen zusammen. "
+            "Ignoriere irrelevante Titel. "
+            "Falls keine relevanten Titel vorhanden sind, schreibe nur: 'Keine relevanten Meldungen gefunden.' "
+            "Antworte NUR mit Fließtext, keine Aufzählungen."
         ),
         "monthly_prompt": (
             "Du bist Experte für Lärmschutz in der Steiermark. "
             "Fasse die wichtigsten Entwicklungen des letzten Monats in 2–3 Sätzen zusammen. "
+            "Falls keine relevanten Titel vorhanden sind, schreibe nur: 'Keine relevanten Meldungen gefunden.' "
             "Antworte NUR mit Fließtext."
         ),
     },
@@ -121,19 +119,23 @@ CATEGORIES = {
             gnews("Lärmkarte Österreich"),
             gnews("Raumordnung Lärm Österreich"),
             gnews("ÖAL Österreichischer Arbeitsring Lärmbekämpfung"),
+            gnews("ÖAL Seminar Lärmschutz"),
+            gnews("ÖAL Fachtagung Akustik"),
             gnews("site:oal.at"),
-            "https://www.oal.at/?format=feed&type=rss",
         ],
         "keyword_filter": None,
         "summary_prompt": (
             "Du bist Experte für Lärmschutz in Österreich. "
-            "Fasse die folgenden Nachrichtentitel in 2 prägnanten deutschen Sätzen zusammen. "
-            "Hebe auch Neuigkeiten vom Österreichischen Arbeitsring für Lärmbekämpfung (ÖAL) hervor. "
+            "Fasse die relevanten Nachrichtentitel in 2 prägnanten deutschen Sätzen zusammen. "
+            "Hebe Neuigkeiten vom Österreichischen Arbeitsring für Lärmbekämpfung (ÖAL) hervor. "
+            "Ignoriere irrelevante Titel. "
+            "Falls keine relevanten Titel vorhanden sind, schreibe nur: 'Keine relevanten Meldungen gefunden.' "
             "Antworte NUR mit Fließtext."
         ),
         "monthly_prompt": (
             "Du bist Experte für Lärmschutz in Österreich. "
             "Fasse die wichtigsten Entwicklungen des letzten Monats in 2–3 Sätzen zusammen. "
+            "Falls keine relevanten Titel vorhanden sind, schreibe nur: 'Keine relevanten Meldungen gefunden.' "
             "Antworte NUR mit Fließtext."
         ),
     },
@@ -159,20 +161,24 @@ CATEGORIES = {
             gnews("Schienenlärm Schweiz", country="DE"),
             gnews("DEGA Akustik Veranstaltungen Konferenz", country="DE"),
             gnews("DEGA Akustik Neuigkeiten", country="DE"),
+            gnews("DEGA Seminar Schulung Akustik", country="DE"),
             gnews("site:dega-akustik.de", country="DE"),
             "https://www.dega-akustik.de/index.php?id=2&type=100",
         ],
         "keyword_filter": None,
         "summary_prompt": (
             "Du bist Experte für Umgebungslärm in der DACH-Region (Deutschland, Österreich, Schweiz). "
-            "Fasse die folgenden Nachrichtentitel in 2 prägnanten deutschen Sätzen zusammen. "
-            "Erwähne explizit Entwicklungen aus Deutschland UND der Schweiz wenn vorhanden. "
-            "Hebe auch Veranstaltungen und Neuigkeiten der DEGA hervor. "
+            "Fasse die relevanten Nachrichtentitel in 2 prägnanten deutschen Sätzen zusammen. "
+            "Erwähne Entwicklungen aus Deutschland UND der Schweiz wenn vorhanden. "
+            "Hebe Veranstaltungen und Neuigkeiten der DEGA hervor. "
+            "Ignoriere irrelevante Titel. "
+            "Falls keine relevanten Titel vorhanden sind, schreibe nur: 'Keine relevanten Meldungen gefunden.' "
             "Antworte NUR mit Fließtext."
         ),
         "monthly_prompt": (
             "Du bist Experte für Umgebungslärm in der DACH-Region. "
             "Fasse die wichtigsten Entwicklungen des letzten Monats in 2–3 Sätzen zusammen. "
+            "Falls keine relevanten Titel vorhanden sind, schreibe nur: 'Keine relevanten Meldungen gefunden.' "
             "Antworte NUR mit Fließtext."
         ),
     },
@@ -192,12 +198,15 @@ CATEGORIES = {
         "keyword_filter": None,
         "summary_prompt": (
             "You are an expert on European noise control policy. "
-            "Summarize the following headlines in 2 concise sentences in English. "
+            "Summarize the relevant headlines in 2 concise sentences in English. "
+            "Ignore irrelevant headlines. "
+            "If no relevant headlines are found, write only: 'No relevant news found.' "
             "Reply ONLY with flowing prose."
         ),
         "monthly_prompt": (
             "You are an expert on European noise control policy. "
             "Summarize the most significant developments of the past month in 2–3 sentences. "
+            "If no relevant headlines are found, write only: 'No relevant news found.' "
             "Reply ONLY with flowing prose."
         ),
     },
@@ -219,12 +228,15 @@ CATEGORIES = {
         "keyword_filter": None,
         "summary_prompt": (
             "You are an acoustics researcher. "
-            "Summarize the following headlines in 2 concise sentences in English. "
+            "Summarize the relevant headlines in 2 concise sentences in English. "
+            "Ignore irrelevant headlines. "
+            "If no relevant headlines are found, write only: 'No relevant news found.' "
             "Reply ONLY with flowing prose."
         ),
         "monthly_prompt": (
             "You are an acoustics researcher. "
             "Summarize the most significant research developments of the past month in 2–3 sentences. "
+            "If no relevant headlines are found, write only: 'No relevant news found.' "
             "Reply ONLY with flowing prose."
         ),
     },
@@ -249,8 +261,9 @@ CATEGORIES = {
             gnews("DEGA Bauakustik Seminar Schulung", country="DE"),
             gnews("site:dega-akustik.de Bauakustik", country="DE"),
             gnews("ÖAL Österreichischer Arbeitsring Bauakustik"),
+            gnews("ÖAL Seminar Bauakustik Schallschutz"),
             gnews("site:oal.at Bauakustik Schallschutz"),
-            "https://www.oal.at/?format=feed&type=rss",
+            # Note: https://www.oal.at/?format=feed&type=rss returns 500 error — removed
         ],
         "keyword_filter": {
             "include": BAUAKUSTIK_INCLUDE_KEYWORDS,
@@ -259,14 +272,16 @@ CATEGORIES = {
         },
         "summary_prompt": (
             "Du bist Experte für Bauakustik und Schallschutz in Gebäuden im DACH-Raum. "
-            "Fasse die folgenden Nachrichtentitel in 2 prägnanten deutschen Sätzen zusammen. "
+            "Fasse die relevanten Nachrichtentitel in 2 prägnanten deutschen Sätzen zusammen. "
             "Fokus auf OIB-Richtlinien, Schallschutz im Hochbau, DEGA- und ÖAL-Neuigkeiten. "
+            "Ignoriere irrelevante Titel. "
+            "Falls keine relevanten Titel vorhanden sind, schreibe nur: 'Keine relevanten Meldungen gefunden.' "
             "Antworte NUR mit Fließtext."
         ),
         "monthly_prompt": (
             "Du bist Experte für Bauakustik im DACH-Raum. "
-            "Fasse die wichtigsten Entwicklungen des letzten Monats zu Bauakustik "
-            "und Schallschutz in Gebäuden in 2–3 Sätzen zusammen. "
+            "Fasse die wichtigsten Entwicklungen des letzten Monats in 2–3 Sätzen zusammen. "
+            "Falls keine relevanten Titel vorhanden sind, schreibe nur: 'Keine relevanten Meldungen gefunden.' "
             "Antworte NUR mit Fließtext."
         ),
     },
@@ -397,10 +412,10 @@ def format_date(raw):
 
 # ── Claude API ─────────────────────────────────────────────────────────────────
 
-def call_claude(prompt: str, model: str = CLAUDE_HAIKU, max_tokens: int = 1024) -> str:
+def call_claude(prompt: str, max_tokens: int = 1024) -> str:
     import json as _json
     body = _json.dumps({
-        "model": model,
+        "model": CLAUDE_SONNET,
         "max_tokens": max_tokens,
         "temperature": 0.3,
         "messages": [{"role": "user", "content": prompt}],
@@ -420,13 +435,13 @@ def call_claude(prompt: str, model: str = CLAUDE_HAIKU, max_tokens: int = 1024) 
             with urlopen(req, timeout=30) as resp:
                 data = _json.loads(resp.read())
             text = data["content"][0]["text"].strip()
-            print(f"  ✅ Claude ({model.split('-')[1]}) OK — {len(text)} chars")
+            print(f"  ✅ Claude Sonnet OK — {len(text)} chars")
             return text
         except HTTPError as e:
             body_err = e.read().decode("utf-8", errors="replace")
             if e.code == 429:
                 if attempt < CLAUDE_RETRY_ATTEMPTS:
-                    print(f"  Claude 429 (attempt {attempt}/{CLAUDE_RETRY_ATTEMPTS}) – waiting {CLAUDE_RETRY_WAIT}s… {body_err[:100]}")
+                    print(f"  Claude 429 (attempt {attempt}/{CLAUDE_RETRY_ATTEMPTS}) – waiting {CLAUDE_RETRY_WAIT}s…")
                     time.sleep(CLAUDE_RETRY_WAIT)
                 else:
                     return "Zusammenfassung konnte nicht erstellt werden (Rate Limit)."
@@ -439,33 +454,11 @@ def call_claude(prompt: str, model: str = CLAUDE_HAIKU, max_tokens: int = 1024) 
     return "Zusammenfassung konnte nicht erstellt werden."
 
 
-def summarize_daily(titles, prompt) -> str:
-    """Daily summaries use Haiku — fast and cheap."""
+def summarize_with_claude(titles, prompt) -> str:
     if not titles:
         return "Keine aktuellen Meldungen gefunden."
     numbered = "\n".join(f"{i+1}. {t}" for i, t in enumerate(titles))
-    return call_claude(
-        prompt + "\n\nNachrichtentitel:\n" + numbered,
-        model=CLAUDE_HAIKU,
-        max_tokens=512,
-    )
-
-
-def summarize_monthly_category(titles, prompt) -> str:
-    """Monthly per-category summaries use Haiku."""
-    if not titles:
-        return "Keine aktuellen Meldungen gefunden."
-    numbered = "\n".join(f"{i+1}. {t}" for i, t in enumerate(titles))
-    return call_claude(
-        prompt + "\n\nNachrichtentitel:\n" + numbered,
-        model=CLAUDE_HAIKU,
-        max_tokens=512,
-    )
-
-
-def generate_newsletter(prompt: str) -> str:
-    """Full newsletter generation uses Sonnet — better structure and quality."""
-    return call_claude(prompt, model=CLAUDE_SONNET, max_tokens=2000)
+    return call_claude(prompt + "\n\nNachrichtentitel:\n" + numbered, max_tokens=512)
 
 
 # ── Newsletter HTML Builder ────────────────────────────────────────────────────
@@ -659,7 +652,10 @@ def run_weekly_summary_only():
     now = datetime.now(timezone.utc)
     week_str = f"KW {now.strftime('%W')} / {now.year}"
     print("  Calling Claude Sonnet for weekly newsletter…")
-    exec_text = generate_newsletter(weekly_newsletter_prompt(week_str, _build_sections(categories_data)))
+    exec_text = call_claude(
+        weekly_newsletter_prompt(week_str, _build_sections(categories_data)),
+        max_tokens=2000,
+    )
     html = build_newsletter_html(
         title=f"Newsletter – {week_str}",
         kw_label=f"Wöchentlicher Newsletter · {week_str}",
@@ -694,8 +690,8 @@ def run_monthly_summary_only():
         for item in items:
             item["date"] = format_date(item.pop("date_raw", ""))
             item.pop("date_parsed", None)
-        print("  Calling Claude Haiku for category summary…")
-        summary = summarize_monthly_category([i["title"] for i in items[:15]], cat["monthly_prompt"])
+        print("  Calling Claude Sonnet for category summary…")
+        summary = summarize_with_claude([i["title"] for i in items[:15]], cat["monthly_prompt"])
         print(f"  Summary: {summary[:80]}…")
         print(f"  Waiting {CLAUDE_PAUSE_SECONDS}s…")
         time.sleep(CLAUDE_PAUSE_SECONDS)
@@ -706,7 +702,10 @@ def run_monthly_summary_only():
     print(f"\n  Waiting {SUMMARY_PRE_PAUSE}s before newsletter call…")
     time.sleep(SUMMARY_PRE_PAUSE)
     print("  Calling Claude Sonnet for monthly newsletter…")
-    exec_text = generate_newsletter(monthly_newsletter_prompt(month_str, _build_sections(monthly_categories)))
+    exec_text = call_claude(
+        monthly_newsletter_prompt(month_str, _build_sections(monthly_categories)),
+        max_tokens=2500,
+    )
     html = build_newsletter_html(
         title=f"Newsletter – {month_str}",
         kw_label=f"Monatlicher Newsletter · {month_str}",
@@ -761,8 +760,8 @@ def run_daily():
         for item in items:
             item["date"] = format_date(item.pop("date_raw", ""))
             item.pop("date_parsed", None)
-        print("  Calling Claude Haiku…")
-        summary = summarize_daily(
+        print("  Calling Claude Sonnet…")
+        summary = summarize_with_claude(
             [i["title"] for i in items[:MAX_TITLES_FOR_SUMMARY]], cat["summary_prompt"]
         )
         print(f"  Summary: {summary[:80]}…")
