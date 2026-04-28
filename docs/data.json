@@ -1,5 +1,5 @@
 {
-  "generated": "27. April 2026, 06:16 UTC",
+  "generated": "28. April 2026, 06:18 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -25,13 +25,25 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Keine relevanten Meldungen gefunden.",
+      "summary": "Verkehr stellt in Österreich die bedeutendste Lärmquelle dar, wobei bestimmte Fahrzeugtypen die Anrainer besonders stark belasten. Fluglärm spielt ebenfalls eine Rolle, da Ryanair mit einer Reduzierung seiner Flüge ab Wien droht, was jedoch auch lärmschutzrelevante Auswirkungen auf die betroffenen Gebiete rund um den Flughafen haben könnte.",
       "items": [
         {
-          "title": "3M Gehörschutz: Warum Lärmschutz in Industrie 4.0 jetzt entscheidend wird - AD HOC NEWS",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOaV91SkRQRGFTWEwybWRRNV90SktlTDRDNTJ3V0RPWTZrd2VtZ3JCZzBwOUNxYzRZQlBUVUdXd2YwU2htWnExRnI4NFpmZFVLeTJ0ekQwZS1jbXZfU0FlWkFxUTZ3LWxXaWVYcHpSRk5pbjJtaVJDaHdjWkNxU2d3eGxmT0pYZGpvX05FaDlhNmlFRmM3VldycVJ1MDhqOGZTby1rQWIxb0VSc3lqbDc2T2cxRnNqNnVkd3JGWVhoVXNsWkNvYjRz?oc=5",
-          "source": "AD HOC NEWS",
-          "date": "20. Apr 2026"
+          "title": "Verkehr ist die größte Lärmquelle in Österreich - ORF",
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1CMF9GT0FwOUZHMW9Ld3l0aFd5ajVPbndPMFMxZ3hRNzNCcmJQQjJkdzl4TGhNRVBlUF9jYWNaREdBUXJKSUE?oc=5",
+          "source": "ORF",
+          "date": "28. Apr 2026"
+        },
+        {
+          "title": "Lärm-Report: Diese Fahrzeuge nerven Anrainer am meisten - salzburg24",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcWhLY3VtZldqckFoTEU4cXo1SjRibXVqM3VJcUVHVTdXR0YxTkcwdTBwMXpMakYxNjJXdWlURXljVkgybVlUbklKTVJ5c0p5X3FicnpGNVlTYTZSR296REhjQjNQeTh4WkxncXBYVTBHYlFiWFJqaEo2eVJNaFZXS2Ixa3Z3Y09WS2d0b1l4ZHNNT2NUQkh3N0hyWGRJcEM2dEo3UG9qdU4xdFVWbUE?oc=5",
+          "source": "salzburg24",
+          "date": "28. Apr 2026"
+        },
+        {
+          "title": "Ryanair droht mit Kürzung des Flugangebots ab Wien - Der Standard",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYzY0NHU5Sm53NkZQazJnOERQYXkzeUs5YWRGOEtUbWdtRnpRWXZnQmEzWGZUWDJfZ1RCZk82MkR1RkFvU2tkUXF0WHFUbnFER1g3Z2cwWnA1UGpHU3NfWVd3eFRsQWg5dzh3akxjZFd6QzJiX3d4dUQ0MktVaGxndzAtQUFRd2hHTkxmdjZxUVNyQlZkWEh3U05ONGdfeG9taVpWTERNWEFPQXRxZ2c?oc=5",
+          "source": "Der Standard",
+          "date": "21. Apr 2026"
         }
       ]
     },
@@ -39,12 +51,12 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "In der Schweiz dominiert der Fluglärm durch den neuen F-35A-Kampfjet die Schlagzeilen, wobei der Bund 25 Millionen Franken in Lärmschutzmaßnahmen investiert und Studien zeigen, dass 2,1 Millionen Menschen unter Verkehrslärm leiden, der jährlich zahlreiche Todesopfer fordert. In Deutschland stehen der Tag gegen Lärm sowie lokale Maßnahmen wie Tempo 60 auf der B237 zum Lärmschutz im Fokus, während Fluglärm-Konflikte zwischen Bürgerinitiativen und zuständigen Kommissionen weiter eskalieren.",
+      "summary": "Zum Tag gegen Lärm stehen in Deutschland Aktionen auf dem Programm, während der Streit um Fluglärm zwischen Bürgerinitiativen und zuständigen Kommissionen anhält. In der Schweiz rücken neue Studienergebnisse den Verkehrslärm in den Fokus, wonach 2,1 Millionen Menschen gesundheitlich belastet sind und jährlich bis zu 2 Todesfälle auf Lärmeinwirkung zurückzuführen sind, weshalb Maßnahmen wie Tempo 30 und Lärmschutzinvestitionen im Zuge der F-35A-Beschaffung der Armee diskutiert werden.",
       "items": [
         {
-          "title": "Das ist am Tag gegen Lärm geplant - Radio WMW",
+          "title": "Das ist am Tag gegen Lärm geplant - radio wmw",
           "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBDSE1BdGt1c3otQnc1SlEzQTFnTTlIQ19CRzdndC0ycTJzUzZzYjJySExpanNjRm1teDVCM2VySzQyc1Rmd3ptLUF3VmF6Vnp0dkZqeFpVV0xtSmYxd25tT29NUWxwWENEUzA3MGwyajVvU3BRdHNweWF5TURuWEk?oc=5",
-          "source": "Radio WMW",
+          "source": "radio wmw",
           "date": "24. Apr 2026"
         },
         {
@@ -63,7 +75,7 @@
           "title": "Mysteriöses Brummen quält Schotten – „unglaublich belastend“ - MSN",
           "link": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPZjJyZGlBLTFnYXdFcWgxeW9VdWhHQ29ZWXpuaUdWMFRmMnJpU0RZWGMxWFdBZ19ya1BabkM0YnZSYTEyS2pnclVWQl9rdVZYaVAxTDhmTEZoS09oVGI3ZllRSVNvdXF4VGlyOV9wSS1yNzluMjBxbUpwczM4dmdseml3VGEtdTM5SlNKNFVMTzd3N2RJMVVSSUZIZDZTOXR3azA0V1Y4OW9RVXhPNUw3X3dxSGFDZDB0VkVTaHlVeWtUSEE1NU1TNlFTOHpMX3VoaFpiVWJULXVWVUVsYzhPZUtPTDIwUkhpZVZpSjB4dG9seHhhU2FEVDl6LWVpTzBzRUg1SHM3UEI1RXNHWWZHZmpBRzYzQUdNVGw3dUtZWHo1dFd5R2FnRElEdm8xQXdjc0s2cmdVbVhnRjlBQ3pWVGg5akhLM3JfbjdHcTdHWnhGVTJmdUE?oc=5",
           "source": "MSN",
-          "date": "26. Apr 2026"
+          "date": "27. Apr 2026"
         },
         {
           "title": "Brummton-Phänomen in der Region + Kampfkandidatur bei der CDU + Ehrenamt bei der Nordpferd - MSN",
@@ -72,34 +84,10 @@
           "date": "22. Apr 2026"
         },
         {
-          "title": "Wegen Lärmschutz – Tempo 60 auf B237 bis Hämmern - MSN",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTjVZekd2SkRMYXVmeF9NUkJITk1sYnVxMVBUUHpHQm01RWNSYnE4UWFtMFpQWm4tMUN6ZE45b2lWTnhaMmdtQ0VKTUFqRHdvZW5XZmZKMmRpWTZwTmhPMFQxM2RMQWIyeFNzYk1nMjNzVVh0bWVhNDNRS1dXZ2xTUUJHMEtWVGxTT2c2Nkc4VE0zZWJFZU1xb1hRV1hKYUtWZkRzWTlwdVhCWlA3alNvQ1ZSNDlsLXpBd2k2bzFsNHVVaExsNEc3NWR3?oc=5",
-          "source": "MSN",
-          "date": "23. Apr 2026"
-        },
-        {
           "title": "Schweizer Armee: F-35A kommt – Bund investiert in Lärmschutz für Bevölkerung - polizei.news",
           "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPd1JYa245MEFCbHVtRkZRcmZDZEVad1pwdDh6TmZGU0kzeVBOUm9BZ1pyN0Q0WDVTTDRjaUx4VEo1RmFsWkZvMFBLWE1HbHJPSEZqTkdFUjBCLVdTQVhjTVI5ZUx2QS1KZ1VQai1ha2ZfTnVnNTFmVDY4Rl9GWnlxVFBra3J3dGsxQmhwRU1lT0VOc2xwMTduazE3UFB3SnR3bWNUMUQ3WTVYRVpicmc?oc=5",
           "source": "polizei.news",
           "date": "23. Apr 2026"
-        },
-        {
-          "title": "«Absolut lächerlich!» – Haslital-Bevölkerung kanzelt Armee ab - blue News",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPM2xoMkk1VmFwbGlmSFJzZ25MT0RfOFFkSjhWWDhlZV9Scy01Y0p1cnllY3lScmF6dXczTmdscWxpLVloTkVjT1ZMczJfV0xoLUdWZUdZMGwyUDlsSXRHYUVDdmYtVjFhN3ozSW5XR20yelQ4OUtVME1xQnZLSWJsYm1NM3hFbXZjdjZFZHc4UW5FVWxnWjZpaVZySlc2YjV0a3dQdmlaV0xXdkplRDhpdjhWdmNsQXBZUXdCbkZQYy1ZbWRfUk90dEV3?oc=5",
-          "source": "blue News",
-          "date": "21. Apr 2026"
-        },
-        {
-          "title": "25 Millionen für Ruhe rund um den Flugplatz - 20 Min",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQlRPdEZRM2ViVjFIQUUtbllCM2NUbUtYM1RNR2JoUlRyRjAySjFyTUJKNGZ0T1lVei0wZ1cxVDVIN3dtNFZmdlktQXYyNlBBM3lxUGlnUTZnYjdmWmcwMWJvLURFaTliSmJkdTA4MUc3SHdaRHdQZThXTDJYcGEwdmthT01lNHh5aHVod2dMa204bUFvZmc?oc=5",
-          "source": "20 Min",
-          "date": "20. Apr 2026"
-        },
-        {
-          "title": "Die F-35 gilt aus lautester Kampfjet – wer in der Schweiz vom Fluglärm betroffen sein wird - Tages-Anzeiger",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcGpZd1ZQY3p1dy1hS2xJRnVIMXIweVd6bGp4a3VEM2J6bXY4U0NrcDJkb0lpcWJWVjl0Ym1RR3FfZ2dVV3hOVFRVclA4X1JnQUJxMGh1Y0c2UF9GNzJ2RUhZNmJOYllMamVpYmJIMUFFSmtYNGJmOFNzSU15SVkxMU9IMEJjcFk0eUF1ZkFiVWZtNnlIUmppbUd2T1ZQNFNLSzdpbU93?oc=5",
-          "source": "Tages-Anzeiger",
-          "date": "20. Apr 2026"
         },
         {
           "title": "Lärmmonitoring - Verkehrslärm führt jährlich zu Tausenden Todesfällen - Plattform J",
@@ -114,6 +102,12 @@
           "date": "26. Apr 2026"
         },
         {
+          "title": "Tempo 30 soll gesundheitsschädigendem Strassenlärm ein Ende setzen - Nau",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOUJQTF84aDE4NG5pbzRwTHBlMkVnSE5ud2tqZTIxWDBtd19HVzc5ZmlKdVFnRGpqN3RCYXllTnRIUTRsTFd3M3NxbDE3cmxCZThSSUFaRXRCazZRRXBOeVFoYmwyYllmcGtkNFdvTzZ2bmd2b3BzYXJYNWZ0SGdfZzl3M2xWbGVhR0hZOUtMN2xYUklRdUt4UFFLM0psWDVPWXhWRUVzZnNBb2s?oc=5",
+          "source": "Nau",
+          "date": "27. Apr 2026"
+        },
+        {
           "title": "Schwere Folgen für die Gesundheit – neue Studie zeigt: 2,1 Mio. Menschen in der Schweiz leiden unter Verkehrslärm - MSN",
           "link": "https://news.google.com/rss/articles/CBMiuANBVV95cUxOZHVUN0NxZVZxMHR6UHFvTVVLWXhUVWctN2UzQUVOaVNLNl9yMmJaWEkya1htakhFUDN2N0xta1lCeGhTREw0Vnl0YUkzeW1MUS1mZHBXQ0gwZk1HNDNOX2l1a0FEdFl4c0tLdTk5NDA5WHBCY3dsZkYwbEQyM3dHZ0tYeTI1VFc3TkkzS0lJQ1l4WmtnTlgxejN5b2J1OXBzQlpINFRFamhSVWNTTjdvWG0yRG9YU0tQQUtZZDVyVXd1M0ZHa01YSEMxaE9OOFJ6YUtDd09nQm5KaEpwWVRCRmtUR21RRGEwdW5MY204UFdWb2VXZndSZ0RWOUxIWndrSTdtbWhvaEtKS3Vzc0FENGZpb0l0dzdfY3BURGlnVjFWdXMzdkI3ZHVCYnM4U0ZfMV80U25ydUVmUFBHcnk5R21PbGU4NzlKdjdQNjNVTUZwdkk3eWo1bHZyNmV6aTY2b01UZUw3V0w4ZGR2WG52NEtnenJ1cllUZFJvd1BsSTNDV2JVNGdwbE5qdUV4UV9semZFM25pdEFkR1RGdkxLYjZ2NnlfUWVYT2hBeEs5aHBVX3lMeTlRdA?oc=5",
           "source": "MSN",
@@ -125,25 +119,13 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "The EU is currently evaluating its airport noise rules, with Transport & Environment submitting a call for evidence response urging stronger regulatory action. Meanwhile, research from Paris highlights that despite successful reductions in urban noise pollution, birds in the city still cannot sing at their natural pitch, underscoring the lasting ecological impacts of noise even as policy interventions show measurable progress.",
+      "summary": "Transport & Environment has submitted a response to the EU's evaluation of airport noise rules, signaling ongoing regulatory scrutiny of aviation-related noise at the European level. Meanwhile, research highlighted in Phys.org reveals that despite Paris making strides in reducing urban noise pollution, city birds remain unable to vocalize at their natural pitch, underscoring the persistent ecological challenges of noise even where policy interventions have shown some success.",
       "items": [
-        {
-          "title": "World Noise Control Enclosures Packaging - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-          "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOZnFMZm96NXlTdjRYN242OUwtSC1vRm5HUnF5OWhjLVNaY2xIcUU3RTFIWXBOVWF1UjZrTkNxZ1hPOUdtNkNGRGc3c2NhLXpoYjd6dEs3NGMwN1Jzd1JXUElCRUlsYS1YcGNYVWJaczdPUHRpSTM3LUNPcWVMM21aNjhFME1yc093QmJZaDdGVTJWbS1tblRVNHg4eHpqMUdTNTdocEQ5NjV3eFJxd0hmXy1IMnNuNy1UYjNtenpkTFlRT1RsNllEUHM1RmFtRG9GYjUtZzNLdF94TWlsS3dvZ3hZNV82RW9GQk5BVG5mbDltUi1IV2h6MlctZVRkaEE?oc=5",
-          "source": "IndexBox",
-          "date": "23. Apr 2026"
-        },
         {
           "title": "EU's Evaluation of Airport Noise rules - T&E call for evidence response - transportenvironment.org",
           "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYkQwSXdaTS1Hc3BxMXlQNFhBV0ZHc1plUHd2cEtDcGVSYXJ3U3BVWl9kbEJXRDJWYk8ta0dyTjdjSU83TUJ5a2NwT1lFSnMwQzMyNy1zdS1DbUcxTDBueHJFdVo4T1hFT2wweEQzUWFRZUNNdlpHc0xuMGtiVTZJWmwxdFE1MS13T3BzMmpaMXZDd09Fc3lrVUhnTVJXX2xTZmJJd3phZWxnOEFtWDI4a1NXNzY3TldTRF9rRFJ3?oc=5",
           "source": "transportenvironment.org",
           "date": "21. Apr 2026"
-        },
-        {
-          "title": "Paris has successfully cut noise pollution, but urban birds still can’t sing at their natural pitch - The Conversation",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbHVBazV3Y2FIeFZHd2J3TTlVUU9yUjN3TEh0aG1KM2ZqdEd0MUVRZ0xuWkttR3Q0SnNfYjZfUFlTejh3RE1JaTgtVjE2b0hjVFhTWE1oVHNIQmNzRnpoU08zY2pZNWZaZmZYajJLSkwyX0FzeVNBemg5NDZMNmFJZzc0OTRHemxNbGNBcjhlR0hMNjEzM3dlUm9yTEZGQ09hSjkzNFlVbG02OFlZMTY4bm1LTklTYW1QSWdWNjVsWEZneDhBd2tSU2pQRDk?oc=5",
-          "source": "The Conversation",
-          "date": "20. Apr 2026"
         },
         {
           "title": "Paris has successfully cut noise pollution, but urban birds still can't sing at their natural pitch - Phys.org",
@@ -157,8 +139,27 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "McGill University researchers have developed a novel device that could accelerate progress in sound-based laser technology, representing a significant advancement in acoustic engineering. Meanwhile, new research highlights the physiological and psychological effects of infrasound, showing that these low-frequency sounds can subtly elevate stress and discomfort while also mimicking sensations commonly associated with supernatural experiences.",
+      "items": [
+        {
+          "title": "McGill researchers’ novel device could boost the development of sound-based lasers - McGill University",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOHRYeGdjdkt1QjFWbXZMenNXdE9LRHp3QTFJX0JyZXBJall4eUQwZ2pfc0lKVGdISnRPSFljTlV0THVrcHRfZWFOVTJESU02NkE2ZXFFNWRqUVNZTEhtNkh3ZUFxdTlsRmdqRlBMa2hvQ1k2N1owX09iWklydmFsb09RMXM2a1hVXzVaMmo3NW9qdk9CMGtFdnlYY3kwRmpVUllCb0t4cUJkbDRYVF8wTzFzYWpaU3QtZVBueW1Lbmc3MlBw?oc=5",
+          "source": "McGill University",
+          "date": "27. Apr 2026"
+        },
+        {
+          "title": "Infrasound Can Subtly Raise Stress and Discomfort, New Study Finds - Sci.News",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMGc2a0JzOFF5SEJMSnFoTmZTQll1ck42SlJaX3Atc2pIYzdkZ2lHVWVKQTd3bFpZRnBGQ3laYjc4ZUt6OEJSNFpkTE9jSkoyZnFGczFWcUQxWGVveW1yd2xZR1JYdktQNFlvQ0ptVWRjMHF0RGhQOC1MRnRoU3hnTlZCRE90dnhGYjB5b1Fn?oc=5",
+          "source": "Sci.News",
+          "date": "27. Apr 2026"
+        },
+        {
+          "title": "Sound of Fear: Infrasound Mimics Supernatural Feelings - Neuroscience News",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1zaHlIRlNuTmphN05ZYVI0TmJGUkVyYWJVWGFGNDEwNERpWUh5ZTRVU3Y1SnNrRGc4eVdqcnFGaGlfQ2tNOXFDa253OXYyejltRnpXbEU0RUtxZWV1ZVQzVU05bkxGRnNGVXV1M21YcjJ5dHhwZFE?oc=5",
+          "source": "Neuroscience News",
+          "date": "27. Apr 2026"
+        }
+      ]
     },
     "bauakustik": {
       "label": "Bauakustik",
