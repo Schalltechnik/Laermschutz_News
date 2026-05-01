@@ -1,11 +1,11 @@
 {
-  "generated": "01. May 2026, 06:26 UTC",
+  "generated": "01. May 2026, 06:32 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "In der Steiermark wird aktiv an Maßnahmen zur Reduzierung der Lärmbelastung gearbeitet, da viele Steirerinnen und Steirer unter Lärm leiden. Besonders nächtlicher Lärm durch Verkehr stellt dabei ein erhebliches Problem dar, da er den Schlaf der Bevölkerung nachhaltig beeinträchtigt.",
+      "summary": "In der Steiermark wird aktiv an Maßnahmen gearbeitet, um die Lärmbelastung der Bevölkerung zu reduzieren. Besonders nächtlicher Lärm durch Verkehr stellt dabei ein zentrales Problem dar, da er den Schlaf der Betroffenen erheblich beeinträchtigt.",
       "items": [
         {
           "title": "Steirer leiden unter Lärm: So soll die Belastung sinken - 5 Minuten",
@@ -25,7 +25,7 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Anlässlich des Tags gegen Lärm zeigen aktuelle Berichte, dass Verkehrslärm das größte Lärmproblem in Österreich darstellt und mehr als 550.000 Menschen davon betroffen sind. Besonders in Wien leiden rund 382.000 Einwohner unter dem Straßenverkehrslärm, der österreichweit als Hauptlärmquelle identifiziert wurde.",
+      "summary": "Anlässlich des Tags gegen Lärm zeigen aktuelle Berichte, dass Verkehrslärm das größte Lärmschutzproblem in Österreich darstellt, wobei mehr als 550.000 Menschen bundesweit und allein 382.000 Wiener davon betroffen sind. Besonders der Straßenverkehr gilt österreichweit als Hauptlärmquelle, während ein Lärm-Report zudem aufzeigt, welche Fahrzeugtypen Anrainer am stärksten belasten.",
       "items": [
         {
           "title": "Tag gegen Lärm: Mehr als 550.000 Menschen in Österreich betroffen - Ökonews",
@@ -81,19 +81,19 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "In der Schweiz zeigen neue Studien alarmierende Ergebnisse: 2,1 Millionen Menschen leiden unter Verkehrslärm, der jährlich zu Tausenden Todesfällen führt, wobei Tempo 30 als mögliche Gegenmaßnahme diskutiert wird. Aus Deutschland berichten Meldungen über Lärmschutzmaßnahmen wie Tempo 60 auf der B237 sowie den Kampf der Initiative gegen Motorradlärm in Heiligenstadt in der Fränkischen Schweiz.",
+      "summary": "In Deutschland stehen der Tag gegen Lärm mit geplanten Aktionen sowie neue Ergebnisse der bayerischen Lärmkartierung im Fokus, während in der Schweiz eine aktuelle Studie alarmiert, wonach 2,1 Millionen Menschen unter Verkehrslärm leiden und dieser jährlich zu Tausenden Todesfällen führt. Als mögliche Gegenmaßnahme wird in der Schweiz Tempo 30 diskutiert, und auch in Deutschland sorgen lokale Lärmschutzmaßnahmen wie Tempolimits und Initiativen gegen Motorradlärm für Aufmerksamkeit.",
       "items": [
+        {
+          "title": "Das ist am Tag gegen Lärm geplant - Radio WMW",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBDSE1BdGt1c3otQnc1SlEzQTFnTTlIQ19CRzdndC0ycTJzUzZzYjJySExpanNjRm1teDVCM2VySzQyc1Rmd3ptLUF3VmF6Vnp0dkZqeFpVV0xtSmYxd25tT29NUWxwWENEUzA3MGwyajVvU3BRdHNweWF5TURuWEk?oc=5",
+          "source": "Radio WMW",
+          "date": "24. Apr 2026"
+        },
         {
           "title": "Ergebnisse der Lärmkartierung - Bayerisches Landesamt für Umwelt (LfU)",
           "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPS2NLem9UUFM4X0xwT2xTQWNhOUpLV2lELTdwMGJ4NUZkY0ZKcTczb0hlVjA3SWRSdnh0VG5GZGhKdWxGX3dLQmZMMU55YVlJLUo1YkdQTHZnaUVOdzJFbmJLOGdoWGx0dWRTcnVsMUllZUhXQTNSaHFVOHVKM01EMXVqREVUOER6TlNUbHVMNkxyZldXck55RWZNX2k?oc=5",
           "source": "Bayerisches Landesamt für Umwelt (LfU)",
           "date": "29. Apr 2026"
-        },
-        {
-          "title": "Mysteriöses Brummen raubt Menschen Schlaf + Geld für neue Bahnstation + Vietnamese statt \"Eiche\" - MSN",
-          "link": "https://news.google.com/rss/articles/CBMipANBVV95cUxOV3lXSE5zaWNDeHFHWDlXYkJIMFVyRkhRQWU3ZkdZeXA0RmdNNXVrQWVrM1RRMEJmbDRqLW94Wm1QT1g3Q2dtZjNTT0xGU2Zrc1BOYUtVbm5MbHBURGlvZXhYQWZ6dHN2SHh1WXc4TkhwczllTlJCVm91SW52Wk15UE9SbmJYWmMzNWhKdjlsQnktSkVLVEJ4eFVSWTdEbkhGb3hNbjY1OUJEaXl4MEQ3NzFHQXp0UDZ5S0gyZ2REcXNrbU4tWFlFZWxHRHV4andmc0hXd3RTNUJuaFhkZ0NOTU9ya0lHYWV5VTl2d2hXbkl1cFd2MnE2X0RDcElTdGxWY3NRT0VFdXlOckxDQU1XWDR5b0pvZXcyMjFoYVNWWG5PT0xjYWdDb3Q1eG90NDlJUlpFY1FXM1pjZmMzQUlkNER3RUh1bjYtaW9JUTBMZUNrQURBS1MzeVFLeHFHUmdleU9SMDgxcjV5ODBhNGRtTThFRDdPM1lWbFFQMUJ2WC1neHJ4NnRuZXJaa1pIRDdfLTFxemhMa201SWw5S3JsNmtrdHE?oc=5",
-          "source": "MSN",
-          "date": "28. Apr 2026"
         },
         {
           "title": "Mysteriöses Brummen quält Schotten – „unglaublich belastend“ - MSN",
@@ -108,10 +108,16 @@
           "date": "29. Apr 2026"
         },
         {
-          "title": "Gefahr auf den Gleisen + nervtötendes Brummen + Sperrung auf der A2 - MSN",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPck5hM3lPN1FYbFJwSDZMY2laUmtZbE5zaXRnRnRuOGc1eExtS1VqWUlPZWdvOERsbFFGTjg1RW0yZFdGcmt6WUh3QUE4R0ZqTzEwV0tpcDc0R204ZjRmdjJIckc4cnp6N1lTdm9TU0pNN1p2X3RyVmVDWHZ3djlzSm8xY3ZWSlc5TnVLcjVqT284bTl6SkxSaHEtTDVTS1VxZktVNlB5MFpIUmVEN2JwSHZkMjZLREozVU5NRUs5aWJYZmVaSFE?oc=5",
+          "title": "Brummton-Phänomen in der Region + Kampfkandidatur bei der CDU + Ehrenamt bei der Nordpferd - MSN",
+          "link": "https://news.google.com/rss/articles/CBMilANBVV95cUxQc3hXbXB0cElKR3E5ZVRGLUgzdDdyVS1zNEFOOHlGNWpYTEx5NjVCZXVzd1R3QWhYbF93WjFKV2VWTXlrazd1Q2NESzh4SzM0aTRtOEpBV1N1YTRiSWdMd1A4OVMtVDlZa3ZUcHQtenYtczMxZk9YclF4eUlfVkZISEpmM3c3WDVFejN0RTdjYUNIODIteDJYR0NiWEJWVHk4T3JkUGtGNVlNb3M5ZEtDWTM3RzhLZWxhbnBxd0tNWVRVdkNlNGlwNkgxWDZCZWVOUEhEUjFpYWNCa296cVJHN1FsUXlrSUZwWmJaV3RrSTBHQXRIT1NjSUlPZGk1T1djUlhPWGlpOUhHME1IaTBCN0Vyek9Bbm5ZLWZMTnRma1E3UmJyVjI2SWdDZ0pVdkpfTF80clpWQ2xFUFRIeHVNRkVxdXdyZ0pjS3B3SlZFZkNtaVBXdUxPMFZlYTQyOXVhM29va3JKN2hOcFNNTUdzQ3J3VG1VRm1XOEh2V05EbmQzdnNKTVBQcVFhN3V1eVg5N2IxVA?oc=5",
           "source": "MSN",
-          "date": "28. Apr 2026"
+          "date": "27. Apr 2026"
+        },
+        {
+          "title": "Gefahr auf den Gleisen + nervtötendes Brummen + Sperrung auf der A2 - MSN",
+          "link": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxPbjRndDdOZ1RFTTdGNXhQU0xJR3BEbUpsSzNsQXdvZVUwWndUQWtzVW9ENlRQQXFmMmxQM0NCcmpVcDRhR0NaSVJiaS1aZEk1SG1DX0IwdkYyczEtdWVwamZQcGd6QnhlZ1ZPRVMwTG1MWFowY05yekRQbUdwZWI3b2hwR3dDS0g3OWdUVUwxQzFWcnlFRjg4YUdvSTlsVFgtQ3lrRVhWT1hXQUtxbTFvd1lKVDFLdUUxNjN4SmZXeXNDNFlzd2ZNazR0TkVtbFphRkRJUncxendpS0NZdUI2cndmTEYwclBNRURkRjNxRUhUZjYzMFZ3bFlDN0J1d3o2d0swbzZTc054c2dMbGNjdEZjaEozdjlSWm5IX2FtLUVmWW1kRkZkVGZQeFNBbzZ1LThwQ0xDRk92VVZtSXlxa0tSTVg3WmZsNkl3UEFRR1FVWTVMQkFMY18xcHQ?oc=5",
+          "source": "MSN",
+          "date": "29. Apr 2026"
         },
         {
           "title": "Wegen Lärmschutz – Tempo 60 auf B237 bis Hämmern - MSN",
@@ -173,7 +179,7 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Paris's efforts to reduce urban noise pollution have shown measurable success, yet research reveals that city birds remain unable to vocalize at their naturally evolved pitch. This finding highlights the persistent acoustic challenges in urban environments even as European cities make progress in noise reduction initiatives.",
+      "summary": "Paris's efforts to reduce urban noise pollution have shown measurable success, though research indicates that city birds still struggle to vocalize at their natural pitch due to residual acoustic interference. This highlights the ongoing challenge for European cities in achieving truly comprehensive noise reduction that benefits both human residents and urban wildlife.",
       "items": [
         {
           "title": "Paris has successfully cut noise pollution, but urban birds still can't sing at their natural pitch - Phys.org",
@@ -187,7 +193,7 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Researchers at McGill University have developed a novel device that could advance the field of sound-based lasers, known as sasers, representing a significant step forward in acoustic technology. Meanwhile, multiple studies are shedding light on how infrasound — low-frequency sound waves below the threshold of human hearing — may trigger feelings of unease, fear, and even paranormal experiences in certain buildings, with additional research linking urban noise exposure to cardiovascular disease risk.",
+      "summary": "Researchers at McGill University have developed a novel device that could advance the field of sound-based lasers, known as sasers, representing a significant step forward in acoustic technology. Additionally, multiple studies are shedding light on how infrasound — low-frequency sound waves imperceptible to human hearing — may trigger feelings of unease, fear, and even paranormal experiences in certain buildings, with urban noise also being linked to cardiovascular disease risk.",
       "items": [
         {
           "title": "McGill researchers’ novel device could boost the development of sound-based lasers - McGill University",
