@@ -3,8 +3,8 @@ name: Lärmschutz News Update
 on:
   schedule:
     - cron: "30 3 * * *"        # Daily 03:30 UTC = ~05:00 Graz
-    - cron: "0 4 * * 5"       # Weekly Fri 04:00 UTC = ~06:00 Graz (newsletter generated + sent)
-    - cron: "0 10 28-31 * *"   # Monthly last day 10:00 UTC = ~12:00 Graz
+    - cron: "0 4 * * 5"         # Weekly Fri 04:00 UTC = ~06:00 Graz (newsletter generated + sent)
+    - cron: "0 10 28-31 * *"    # Monthly last day 10:00 UTC = ~12:00 Graz
 
   # Subscribe/unsubscribe events from the website form
   repository_dispatch:
@@ -66,6 +66,7 @@ jobs:
   fetch-and-publish:
     if: github.event_name != 'repository_dispatch'
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     permissions:
       contents: write
 
@@ -86,8 +87,8 @@ jobs:
           SEND_W="${{ github.event.inputs.send_weekly }}"
           SEND_M="${{ github.event.inputs.send_monthly }}"
 
-          # Weekly newsletter: Thursday schedule or manual
-          if [ "$SCHEDULE" = "0 20 * * 4" ] || [ "$WEEKLY_IN" = "true" ]; then
+          # Weekly newsletter: Friday 04:00 UTC schedule or manual
+          if [ "$SCHEDULE" = "0 4 * * 5" ] || [ "$WEEKLY_IN" = "true" ]; then
             echo "WEEKLY_SUMMARY=true"  >> $GITHUB_ENV
           else
             echo "WEEKLY_SUMMARY=false" >> $GITHUB_ENV
@@ -100,8 +101,8 @@ jobs:
             echo "MONTHLY_SUMMARY=false" >> $GITHUB_ENV
           fi
 
-          # Send weekly: Thursday schedule automatically sends, or manual
-          if [ "$SCHEDULE" = "0 20 * * 4" ] || [ "$SEND_W" = "true" ]; then
+          # Send weekly: Friday schedule automatically sends, or manual
+          if [ "$SCHEDULE" = "0 4 * * 5" ] || [ "$SEND_W" = "true" ]; then
             echo "SEND_WEEKLY=true"  >> $GITHUB_ENV
           else
             echo "SEND_WEEKLY=false" >> $GITHUB_ENV
