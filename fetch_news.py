@@ -37,6 +37,7 @@ MAX_TITLES_FOR_SUMMARY = 15
 CLAUDE_PAUSE_SECONDS   = 10
 CLAUDE_RETRY_ATTEMPTS  = 5
 CLAUDE_RETRY_WAIT      = 60
+CLAUDE_HTTP_TIMEOUT    = 180   # seconds — large monthly prompts can take 60–90s
 SUMMARY_PRE_PAUSE      = 5
 
 # OIB keyword filters
@@ -484,13 +485,31 @@ def format_date(raw):
 # ── Claude API ─────────────────────────────────────────────────────────────────
 
 def call_claude(prompt: str, max_tokens: int = 1024) -> str:
+    """
+    Call the Anthropic Messages API with retry logic.
+
+    Retries on:
+      - HTTP 429 (rate limit)
+      - HTTP 500/502/503/504/529 (transient server errors / overload)
+      - socket timeouts (slow generation on large prompts)
+      - URLError (transient network issues)
+
+    The HTTP timeout is set to CLAUDE_HTTP_TIMEOUT (180s) because the monthly
+    newsletter prompt is large and generating up to 2500 output tokens with
+    Claude Sonnet 4.6 can take 60–90 seconds. The previous 30s timeout caused
+    the monthly summary to fail silently.
+    """
     import json as _json
+    import socket
+    from urllib.error import URLError
+
     body = _json.dumps({
         "model": CLAUDE_SONNET,
         "max_tokens": max_tokens,
         "temperature": 0.3,
         "messages": [{"role": "user", "content": prompt}],
     }).encode()
+
     for attempt in range(1, CLAUDE_RETRY_ATTEMPTS + 1):
         try:
             req = Request(
@@ -503,25 +522,51 @@ def call_claude(prompt: str, max_tokens: int = 1024) -> str:
                 },
                 method="POST",
             )
-            with urlopen(req, timeout=30) as resp:
+            with urlopen(req, timeout=CLAUDE_HTTP_TIMEOUT) as resp:
                 data = _json.loads(resp.read())
             text = data["content"][0]["text"].strip()
             print(f"  ✅ Claude Sonnet OK — {len(text)} chars")
             return text
+
         except HTTPError as e:
             body_err = e.read().decode("utf-8", errors="replace")
             if e.code == 429:
                 if attempt < CLAUDE_RETRY_ATTEMPTS:
                     print(f"  Claude 429 (attempt {attempt}/{CLAUDE_RETRY_ATTEMPTS}) – waiting {CLAUDE_RETRY_WAIT}s…")
                     time.sleep(CLAUDE_RETRY_WAIT)
-                else:
-                    return "Zusammenfassung konnte nicht erstellt werden (Rate Limit)."
+                    continue
+                return "Zusammenfassung konnte nicht erstellt werden (Rate Limit)."
+            elif e.code in (500, 502, 503, 504, 529):
+                # Transient server-side errors — retry
+                if attempt < CLAUDE_RETRY_ATTEMPTS:
+                    print(f"  Claude HTTP {e.code} (attempt {attempt}/{CLAUDE_RETRY_ATTEMPTS}) – waiting {CLAUDE_RETRY_WAIT}s…")
+                    print(f"    body: {body_err[:200]}")
+                    time.sleep(CLAUDE_RETRY_WAIT)
+                    continue
+                return "Zusammenfassung konnte nicht erstellt werden (Server Error)."
             else:
                 print(f"  Claude HTTP error {e.code}: {body_err[:300]}")
                 return "Zusammenfassung konnte nicht erstellt werden."
+
+        except (socket.timeout, TimeoutError) as e:
+            if attempt < CLAUDE_RETRY_ATTEMPTS:
+                print(f"  Claude timeout after {CLAUDE_HTTP_TIMEOUT}s "
+                      f"(attempt {attempt}/{CLAUDE_RETRY_ATTEMPTS}) – waiting {CLAUDE_RETRY_WAIT}s…")
+                time.sleep(CLAUDE_RETRY_WAIT)
+                continue
+            return "Zusammenfassung konnte nicht erstellt werden (Timeout)."
+
+        except URLError as e:
+            if attempt < CLAUDE_RETRY_ATTEMPTS:
+                print(f"  Claude URL error (attempt {attempt}/{CLAUDE_RETRY_ATTEMPTS}): {e} – waiting {CLAUDE_RETRY_WAIT}s…")
+                time.sleep(CLAUDE_RETRY_WAIT)
+                continue
+            return "Zusammenfassung konnte nicht erstellt werden (Connection Error)."
+
         except Exception as e:
-            print(f"  Claude error: {e}")
+            print(f"  Claude error ({type(e).__name__}): {e}")
             return "Zusammenfassung konnte nicht erstellt werden."
+
     return "Zusammenfassung konnte nicht erstellt werden."
 
 
