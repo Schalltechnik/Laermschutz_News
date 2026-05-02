@@ -1,11 +1,11 @@
 {
-  "generated": "01. May 2026, 06:32 UTC",
+  "generated": "02. May 2026, 05:53 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "In der Steiermark wird aktiv an Maßnahmen gearbeitet, um die Lärmbelastung der Bevölkerung zu reduzieren. Besonders nächtlicher Lärm durch Verkehr stellt dabei ein zentrales Problem dar, da er den Schlaf der Betroffenen erheblich beeinträchtigt.",
+      "summary": "In der Steiermark wird aktiv nach Lösungen gesucht, um die Lärmbelastung der Bevölkerung zu reduzieren. Besonders nächtlicher Lärm durch Verkehr stellt dabei ein zentrales Problem dar, da er den Schlaf der Betroffenen erheblich beeinträchtigt.",
       "items": [
         {
           "title": "Steirer leiden unter Lärm: So soll die Belastung sinken - 5 Minuten",
@@ -25,7 +25,7 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Anlässlich des Tags gegen Lärm zeigen aktuelle Berichte, dass Verkehrslärm das größte Lärmschutzproblem in Österreich darstellt, wobei mehr als 550.000 Menschen bundesweit und allein 382.000 Wiener davon betroffen sind. Besonders der Straßenverkehr gilt österreichweit als Hauptlärmquelle, während ein Lärm-Report zudem aufzeigt, welche Fahrzeugtypen Anrainer am stärksten belasten.",
+      "summary": "Anlässlich des Tags gegen Lärm zeigen aktuelle Berichte, dass in Österreich mehr als 550.000 Menschen von Lärm betroffen sind. Der Straßen- und allgemeine Verkehr gilt dabei sowohl in Wien als auch österreichweit als die größte und problematischste Lärmquelle.",
       "items": [
         {
           "title": "Tag gegen Lärm: Mehr als 550.000 Menschen in Österreich betroffen - Ökonews",
@@ -56,24 +56,6 @@
           "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1CMF9GT0FwOUZHMW9Ld3l0aFd5ajVPbndPMFMxZ3hRNzNCcmJQQjJkdzl4TGhNRVBlUF9jYWNaREdBUXJKSUE?oc=5",
           "source": "ORF",
           "date": "28. Apr 2026"
-        },
-        {
-          "title": "Lärm-Report: Diese Fahrzeuge nerven Anrainer am meisten - salzburg24",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcWhLY3VtZldqckFoTEU4cXo1SjRibXVqM3VJcUVHVTdXR0YxTkcwdTBwMXpMakYxNjJXdWlURXljVkgybVlUbklKTVJ5c0p5X3FicnpGNVlTYTZSR296REhjQjNQeTh4WkxncXBYVTBHYlFiWFJqaEo2eVJNaFZXS2Ixa3Z3Y09WS2d0b1l4ZHNNT2NUQkh3N0hyWGRJcEM2dEo3UG9qdU4xdFVWbUE?oc=5",
-          "source": "salzburg24",
-          "date": "28. Apr 2026"
-        },
-        {
-          "title": "Straßenverkehr als größte Lärmquelle - tirol.ORF.at",
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5VVGtmVEtFd1NHazk1bEF4NXdMLXMzcW8taDZlRjZ6clZNeFFYN2RhQU9QNkJlb0t1VGFyZDZkektTWEphVGw5bGJUaEdWUQ?oc=5",
-          "source": "tirol.ORF.at",
-          "date": "29. Apr 2026"
-        },
-        {
-          "title": "382.000 Wiener leiden unter Lärm des Straßenverkehrs - OE24",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNY2NQMmZDTnZYc3pmNkNMUDRLSF9OSDQwQmYzby1aVEo3SGtPWE9Wc3E3VnlHelhWdGZuVklWZVU2aTlYRTRObkhFUTBtbF85MFRueFlMNEdtMzd3aHgyN3pZWWo3R3ZWT3hoZ2pxQ3VlNTRQZkJYRWRoUm52MG5VQVJ2RXVKa1JwZFh4bzY2dVM0VGZidHJ6WXhQYVNsMmJfcTJBZlNuTVRucnd5ZXfSAbMBQVVfeXFMTzFaVHAxYjk5UnZDa0h0aUptQUZyaFNDVm5LdlpBZDVxUTNZUjhQVllLa0FBTG5ydkFWXy1UZmxsRXNxSUxkMnFEandRdTZwVHhlUUJFV3B3dlFDakluNW5iT09oRTg5Z21naWVVbERabWt0eF80TjYzQy16SWRkQnBnalRpamFLWlFUUTl1RVBIUkJST3pndUdQNkxYOFVibndCUVBMQkZRZ1Y4THhMb2IzckE?oc=5",
-          "source": "OE24",
-          "date": "28. Apr 2026"
         }
       ]
     },
@@ -81,14 +63,8 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "In Deutschland stehen der Tag gegen Lärm mit geplanten Aktionen sowie neue Ergebnisse der bayerischen Lärmkartierung im Fokus, während in der Schweiz eine aktuelle Studie alarmiert, wonach 2,1 Millionen Menschen unter Verkehrslärm leiden und dieser jährlich zu Tausenden Todesfällen führt. Als mögliche Gegenmaßnahme wird in der Schweiz Tempo 30 diskutiert, und auch in Deutschland sorgen lokale Lärmschutzmaßnahmen wie Tempolimits und Initiativen gegen Motorradlärm für Aufmerksamkeit.",
+      "summary": "In Bayern hat das Landesamt für Umwelt neue Ergebnisse zur Lärmkartierung veröffentlicht, während in der Schweiz aktuelle Berichte die gravierenden gesundheitlichen Folgen von Verkehrslärm beleuchten, der jährlich zu Tausenden Todesfällen führt und durch Maßnahmen wie Tempo 30 bekämpft werden soll. Aus Deutschland wird zudem die Initiative der Gemeinde Heiligenstadt in der Fränkischen Schweiz hervorgehoben, die aktiv gegen Motorradlärm vorgeht und mehr Ruhe für die Bevölkerung fordert.",
       "items": [
-        {
-          "title": "Das ist am Tag gegen Lärm geplant - Radio WMW",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBDSE1BdGt1c3otQnc1SlEzQTFnTTlIQ19CRzdndC0ycTJzUzZzYjJySExpanNjRm1teDVCM2VySzQyc1Rmd3ptLUF3VmF6Vnp0dkZqeFpVV0xtSmYxd25tT29NUWxwWENEUzA3MGwyajVvU3BRdHNweWF5TURuWEk?oc=5",
-          "source": "Radio WMW",
-          "date": "24. Apr 2026"
-        },
         {
           "title": "Ergebnisse der Lärmkartierung - Bayerisches Landesamt für Umwelt (LfU)",
           "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPS2NLem9UUFM4X0xwT2xTQWNhOUpLV2lELTdwMGJ4NUZkY0ZKcTczb0hlVjA3SWRSdnh0VG5GZGhKdWxGX3dLQmZMMU55YVlJLUo1YkdQTHZnaUVOdzJFbmJLOGdoWGx0dWRTcnVsMUllZUhXQTNSaHFVOHVKM01EMXVqREVUOER6TlNUbHVMNkxyZldXck55RWZNX2k?oc=5",
@@ -96,16 +72,16 @@
           "date": "29. Apr 2026"
         },
         {
+          "title": "Lautes Brummen: Tierärztin teilt neues Video vom Wal - MSN",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQb0Y2QkxrcFlxV1c3LVBobDJ2WUZnOXMycU5nYWx5dGJxVDBqNGdxNGpwbl9kMWtoVEhqSl91Q2x2Uk9tbWR1NnptX01vVGItaUlxUkNIUE1sek81TldIWm42dTdrY3RRVU1qQUowUHlNYWlycnZGVmhnS2tBdTZrdUhWVEhmV1Fpek1qdTRyODZfUEFUbWxUR2lRbTJoZzZjSkFXQUE2MC04cTRJNW1kZlRJZ1FzUQ?oc=5",
+          "source": "MSN",
+          "date": "29. Apr 2026"
+        },
+        {
           "title": "Mysteriöses Brummen quält Schotten – „unglaublich belastend“ - MSN",
           "link": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPZjJyZGlBLTFnYXdFcWgxeW9VdWhHQ29ZWXpuaUdWMFRmMnJpU0RZWGMxWFdBZ19ya1BabkM0YnZSYTEyS2pnclVWQl9rdVZYaVAxTDhmTEZoS09oVGI3ZllRSVNvdXF4VGlyOV9wSS1yNzluMjBxbUpwczM4dmdseml3VGEtdTM5SlNKNFVMTzd3N2RJMVVSSUZIZDZTOXR3azA0V1Y4OW9RVXhPNUw3X3dxSGFDZDB0VkVTaHlVeWtUSEE1NU1TNlFTOHpMX3VoaFpiVWJULXVWVUVsYzhPZUtPTDIwUkhpZVZpSjB4dG9seHhhU2FEVDl6LWVpTzBzRUg1SHM3UEI1RXNHWWZHZmpBRzYzQUdNVGw3dUtZWHo1dFd5R2FnRElEdm8xQXdjc0s2cmdVbVhnRjlBQ3pWVGg5akhLM3JfbjdHcTdHWnhGVTJmdUE?oc=5",
           "source": "MSN",
           "date": "26. Apr 2026"
-        },
-        {
-          "title": "Lautes Brummen: Tierärztin teilt neues Video vom Wal - MSN",
-          "link": "https://news.google.com/rss/articles/CBMizAJBVV95cUxNUkpaUk84UkJNR1ZmVGJ6U3oyWXpPOXRWalhWVFQ2b0JFanRpTUo5eFVUcnlHNjBsblNzTmJLNS1ETGpJRFA2NUQ3UnBSYnU3UlQ0TFQ1cEJoQVFNaVpock5jQnJHakp3WXYzSUNCQjdnb0FTMjBnY2ZsOWtvZmZkY2NHTVVyNXhtNXBDXy1JUE9tSUwtNXdRMWg5MlBCWTBCZVVtQmZSN25STFd2UDh3b1ZmM2U2N1E4c0s2dnlBNU5SZFA4dTd0QWc0Y2pTYW1Xb1dpMlZuODc2dU5ZaUZnTGJwVUZaeERrTk1Vc1lzUXRBczdnUWVHSVBkRVVQZDdwNlBHcVJWQmVRQlRZTzZKUEgwRWhPOFZLaF9fNnRZN2dhcXNpYkNZZjVXTk40ZXN1WC0zY1A3RmlFdTlRd1VBOGJCM2pEX3haRWY3Vg?oc=5",
-          "source": "MSN",
-          "date": "29. Apr 2026"
         },
         {
           "title": "Brummton-Phänomen in der Region + Kampfkandidatur bei der CDU + Ehrenamt bei der Nordpferd - MSN",
@@ -120,10 +96,10 @@
           "date": "29. Apr 2026"
         },
         {
-          "title": "Wegen Lärmschutz – Tempo 60 auf B237 bis Hämmern - MSN",
-          "link": "https://news.google.com/rss/articles/CBMizAJBVV95cUxNVUZIcDg5RG9QUWhhUjltODdXLVlRSHpkZVJIS185QUNncXFOcmRDNWpsUUJOMHg1dWJvcE00NmpRY3AxQWZ6UkVHVkRKbHR3bmU3NEhlZUJMeHNTa1RQQjU4ZGsyc3pOMlZiOHdyX0oxS2w2R183Z0Y3Si1EVEJoU0NzVFlUOUpHdnp3TEJUaTFKd0FGcEhhUlNscGR6b0hGa0I3MjJoNVg4WEJuWWtYWndFLThwWVZ4aFNRcjRDbENpR0hDalRrd1FTTk1VeGQ3NjZ4WmJLTXlVaFc4VGhNYjI0OGpWTHFBTnFHdFNpUU16OHVoRHhneVZ2QW1Yc1V6cV9pVUg1TmEyUmk5Nnc5V29lOHlralVYcUN3ZEgyR3IzQkhEQW5aRWc2WFZmcU5fRUJqYjd2NEJvbDdENmYyUmhpQmNWaXcwdEtGZg?oc=5",
-          "source": "MSN",
-          "date": "24. Apr 2026"
+          "title": "Lärmmonitoring - Verkehrslärm führt jährlich zu Tausenden Todesfällen - Plattform J",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAwc1VPSm9qcHc2enB5eWd5ZjF6alZiZnlwT2hmLXZtazI4MEl5OExkZF9wcURxX09NYnNmR19BeDhTQVVlSDMwVHdBR2xyY25JU0N3?oc=5",
+          "source": "Plattform J",
+          "date": "26. Apr 2026"
         },
         {
           "title": "Initiative gegen Motorradlärm: Heiligenstadt in Fränkischer Schweiz kämpft für mehr Ruhe - NN.de",
@@ -132,14 +108,8 @@
           "date": "30. Apr 2026"
         },
         {
-          "title": "Lärmmonitoring - Verkehrslärm führt jährlich zu Tausenden Todesfällen - Plattform J",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAwc1VPSm9qcHc2enB5eWd5ZjF6alZiZnlwT2hmLXZtazI4MEl5OExkZF9wcURxX09NYnNmR19BeDhTQVVlSDMwVHdBR2xyY25JU0N3?oc=5",
-          "source": "Plattform J",
-          "date": "26. Apr 2026"
-        },
-        {
           "title": "Lärm tötet in der Schweiz jedes Jahr bis zu 2 Menschen. - Gazeta Express",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOS1ZQNl9uNlhRNnhFR21JWFhmT2txdW9sUWNvZG54VFlVTGYtM1QycTNrb1QyVVpiOTRVR0JwU0tabG1hdTVQSlNPc002Ul9EVVNXNjgwTlhJUUNkY0EwQURYOFZJNHVHeGJUTndJZHB6T1ljTV9qS1AzVm5iY1Y1aE1zTmtrc0szdGdmTjlnMA?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZ25VRjJ1dGFGQjBfclh6QmhuX2hmNGkwcE9wWmtLNUlYOGJZenJ5dzRpMUl1V0dLSHgwQUVPVERkRU95X1NMZVkxTVcxbHZRNl9TSFdjd0dRTmZXYTRPamNQMGViWTFWSTlYOGIyUlRIZXhiMENvdnpONDJVUHBIcERSbXZRVkx1N1M2R1YySS1iRWdreFJCdmtZcmdQbldJ?oc=5",
           "source": "Gazeta Express",
           "date": "26. Apr 2026"
         },
@@ -156,18 +126,6 @@
           "date": "29. Apr 2026"
         },
         {
-          "title": "Schwere Folgen für die Gesundheit – neue Studie zeigt: 2,1 Mio. Menschen in der Schweiz leiden unter Verkehrslärm - MSN",
-          "link": "https://news.google.com/rss/articles/CBMiuANBVV95cUxOZHVUN0NxZVZxMHR6UHFvTVVLWXhUVWctN2UzQUVOaVNLNl9yMmJaWEkya1htakhFUDN2N0xta1lCeGhTREw0Vnl0YUkzeW1MUS1mZHBXQ0gwZk1HNDNOX2l1a0FEdFl4c0tLdTk5NDA5WHBCY3dsZkYwbEQyM3dHZ0tYeTI1VFc3TkkzS0lJQ1l4WmtnTlgxejN5b2J1OXBzQlpINFRFamhSVWNTTjdvWG0yRG9YU0tQQUtZZDVyVXd1M0ZHa01YSEMxaE9OOFJ6YUtDd09nQm5KaEpwWVRCRmtUR21RRGEwdW5MY204UFdWb2VXZndSZ0RWOUxIWndrSTdtbWhvaEtKS3Vzc0FENGZpb0l0dzdfY3BURGlnVjFWdXMzdkI3ZHVCYnM4U0ZfMV80U25ydUVmUFBHcnk5R21PbGU4NzlKdjdQNjNVTUZwdkk3eWo1bHZyNmV6aTY2b01UZUw3V0w4ZGR2WG52NEtnenJ1cllUZFJvd1BsSTNDV2JVNGdwbE5qdUV4UV9semZFM25pdEFkR1RGdkxLYjZ2NnlfUWVYT2hBeEs5aHBVX3lMeTlRdA?oc=5",
-          "source": "MSN",
-          "date": "25. Apr 2026"
-        },
-        {
-          "title": "Lauter, als das Gesetz erlaubt - Strassenlärm macht uns krank: Tempo 30 solls richten - Plattform J",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBLOWp5WE0zcG1jcHBSaExmYTd5NVBiTXd2cXF5M2hJRFI1TXdtM1Y5TzA2SHI2by1IRmd0TlFJcV9kUWRrYUxzY2U4OUJBRjNmS2c4?oc=5",
-          "source": "Plattform J",
-          "date": "29. Apr 2026"
-        },
-        {
           "title": "Schweiz: Verkehrslärm gefährdet Gesundheit – Tausende Todesfälle jährlich - polizei.news",
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQ1E3Vkw3OHpsSmFneEhWOW05OG82ZDNuc2FTMm8tWFFwNTdIV1JUX216YXZ4YWs5SjdiNVJkWnJlUURodm9nYUFyR1QwN0ktQWkzdDFOSm9tbHNJaTdBRnlEeDd5WWxJUldRbzFENFhMbEJZaDg4Z01YRFRTV25UdkZvOGlHdlIwWEVjcEJVNE1QZjZ2TndGWFJURlhkcDRfajhOVVBvaUxHREk?oc=5",
           "source": "polizei.news",
@@ -179,8 +137,14 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Paris's efforts to reduce urban noise pollution have shown measurable success, though research indicates that city birds still struggle to vocalize at their natural pitch due to residual acoustic interference. This highlights the ongoing challenge for European cities in achieving truly comprehensive noise reduction that benefits both human residents and urban wildlife.",
+      "summary": "European health authorities are raising alarms ahead of 2026 regarding the significant health impacts of noise pollution across the continent. Meanwhile, research from Paris highlights that despite successful urban noise reduction efforts, bird populations continue to struggle to communicate at their natural vocal frequencies.",
       "items": [
+        {
+          "title": "Impact of Noise on Health in Europe: Alert 2026 - Noticias Ambientales",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQS2t3OS0yeVdtZ0gyZnBlMDVDQ1k1Q1BtMkg0MmJDaWRqLTlneTU4R1UwWnlkOHY5NGdYS0JmWW44SEhvYzl1ZXZyZlNUVHBPY1pYUHhPZmpzOUxiVGU0Mk5mcGo1RFViUlE1NkU3aGJDYmhVRlUzaEptemxWMnIzSUhHZk1wejNRbUJPdnVRUnlsX2RyRmV3Tnl30gGfAUFVX3lxTFBUNjdjTE10Z2w5ZDA2VjdENVExRGhVcEFrMU9GU2RfNXdGN3ZDMXY1a0hyMlVYa2lDdTV0b2pJaURETEFCbzNSTTdWcEp3MGxPV3ZwVzdxQUNhTVotb3RkMEFLS0ZpWE5yeHpLV2hWRGVkbHlTOHc2WVJhTzBRZ04wWl9OM2xZdi1CZV91SGpDaWhNc3dzZVpFUUt2d1pIYw?oc=5",
+          "source": "Noticias Ambientales",
+          "date": "1. May 2026"
+        },
         {
           "title": "Paris has successfully cut noise pollution, but urban birds still can't sing at their natural pitch - Phys.org",
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOaVdvdW5wUldHdnNINXVKSnJ0Y0V3ODFQN2p3cDA2Z1hDVWRLZUw3d0xKbU9fWWtvVGhGQ1JHTWt1anE4cVpVbE1SdloxZ1QwSUFWSUhaY09Kd0JRZHBES283cHAwSHZxWmstYmpKd3JwUHBfTG5aaWs4U1dGSzBSQg?oc=5",
@@ -193,7 +157,7 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Researchers at McGill University have developed a novel device that could advance the field of sound-based lasers, known as sasers, representing a significant step forward in acoustic technology. Additionally, multiple studies are shedding light on how infrasound — low-frequency sound waves imperceptible to human hearing — may trigger feelings of unease, fear, and even paranormal experiences in certain buildings, with urban noise also being linked to cardiovascular disease risk.",
+      "summary": "McGill University researchers have developed a novel device that could significantly advance the field of phonon lasers, or sound-based lasers, representing a promising breakthrough in acoustic technology. Additionally, multiple studies are highlighting the physiological and psychological effects of low-frequency sound, including infrasound's role in triggering sensations associated with paranormal experiences, as well as growing research linking urban noise pollution to cardiovascular disease.",
       "items": [
         {
           "title": "McGill researchers’ novel device could boost the development of sound-based lasers - McGill University",
@@ -220,22 +184,28 @@
           "date": "29. Apr 2026"
         },
         {
+          "title": "Worried Your House Is Haunted? The Spooky Sensation Might Arise From a Surprisingly Simple Source - Smithsonian Magazine",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPajkwbWtFa1hPYlBJdUVxZlJNNm5uOHRSOTdHNjhkbUFBX0dOSUxnZFpiRjFhLXZFRmFOckk3ZktLZVZtZW5YQ0ZnNEFUQTZRMWZUTEdxRUxuSVUwM0c0TmxpNWlRRE8yWVE0dERRa3UwM2hxUHhRYjRpcGhQZWJJVldaUGdkUVd4UlJnbUkwc090dFg5bUVzellYUjZiWVJVZktuRFJ0QXNkdF9qbmFfRllXcHJIMXRldDI1MzZXaVFlcmtjeUw3OVVXZUhfR2twZWMtb2stMnp1REs1X04yTzNybw?oc=5",
+          "source": "Smithsonian Magazine",
+          "date": "28. Apr 2026"
+        },
+        {
+          "title": "Study unpicks the science of ‘haunted’ houses and why we find some buildings so unsettling - Yahoo News UK",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQzVtNmlkTldjZWhmSUZBb05aV1ZsUjBENkFlVVNsZENmOVAtS1hKMWVOQlNySHYtRm8tbEo2dmdSWUd5MHFYN1NOYm16WDd4R0t1bXc5eHNRU2xGZWNUU2dBd21XM1FqcVluVUZLWjczQjN3bS04QVlkN1FhZm5FaU9B?oc=5",
+          "source": "Yahoo News UK",
+          "date": "28. Apr 2026"
+        },
+        {
           "title": "Sound of Fear: Infrasound Mimics Supernatural Feelings - Neuroscience News",
           "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1zaHlIRlNuTmphN05ZYVI0TmJGUkVyYWJVWGFGNDEwNERpWUh5ZTRVU3Y1SnNrRGc4eVdqcnFGaGlfQ2tNOXFDa253OXYyejltRnpXbEU0RUtxZWV1ZVQzVU05bkxGRnNGVXV1M21YcjJ5dHhwZFE?oc=5",
           "source": "Neuroscience News",
           "date": "27. Apr 2026"
         },
         {
-          "title": "Study unpicks the science of ‘haunted’ houses and why we find some buildings so unsettling - Yahoo News Canada",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORWlWMkNMRFU5b09oUGdqcWJCTXQ5a1VpSEtNekxDTEJFNkdnRHdJSGhaS2xpUHNmWUlCODQ2bGdZc1EzX3AyLWRCWkV5WkRXZUJEelF2S2Y3eDRQTDBXdFYzZm91WHBLdnN0M2JpMU9obEJiOFRad05uSEVtXzUzQ0hB?oc=5",
-          "source": "Yahoo News Canada",
-          "date": "28. Apr 2026"
-        },
-        {
-          "title": "Worried Your House Is Haunted? The Spooky Sensation Might Arise From a Surprisingly Simple Source - Smithsonian Magazine",
-          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPajkwbWtFa1hPYlBJdUVxZlJNNm5uOHRSOTdHNjhkbUFBX0dOSUxnZFpiRjFhLXZFRmFOckk3ZktLZVZtZW5YQ0ZnNEFUQTZRMWZUTEdxRUxuSVUwM0c0TmxpNWlRRE8yWVE0dERRa3UwM2hxUHhRYjRpcGhQZWJJVldaUGdkUVd4UlJnbUkwc090dFg5bUVzellYUjZiWVJVZktuRFJ0QXNkdF9qbmFfRllXcHJIMXRldDI1MzZXaVFlcmtjeUw3OVVXZUhfR2twZWMtb2stMnp1REs1X04yTzNybw?oc=5",
-          "source": "Smithsonian Magazine",
-          "date": "28. Apr 2026"
+          "title": "Haunted by Ghosts? New Study Provides a Surprising Explanation - Gizmodo",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPR19Oa1FFbFNZbWFyVlMwbmIyVGp6ME9FQmxTc1dIbUNULUpsa3JzZ0xkSmg3QzJqSklRNERtZjNnMkw1NVVycG5sRnBQczkxQXc3dEZ0b2s1VXZRWlNGS3NPeXl2ZW9xaUR1dWFUamMwYWxkWTVCcjNScjljNF9CRlpnYVJOVGNDZGpxZ2tsTmZJRzhURHBj?oc=5",
+          "source": "Gizmodo",
+          "date": "27. Apr 2026"
         }
       ]
     },
