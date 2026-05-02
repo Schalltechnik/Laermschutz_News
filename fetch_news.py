@@ -2,9 +2,9 @@
 Lärmschutz News Fetcher
 
 Modes:
-  - Daily:          fetch 7-day news, update data.json       → Claude Sonnet
-  - Weekly summary: read data.json, generate summary.html    → Claude Sonnet
-  - Monthly summary: fetch 30-day news, generate monthly     → Claude Sonnet
+  - Daily:           fetch 7-day news, update data.json       → Claude Sonnet
+  - Weekly summary:  read data.json, generate summary.html    → Claude Sonnet
+  - Monthly summary: fetch 30-day news, generate monthly      → Claude Haiku
 
 Special: ÖAL tab is scraped directly from oal.at — no AI summary for the tab,
          but ÖAL articles ARE included as a section in weekly/monthly newsletters.
@@ -24,7 +24,8 @@ import xml.etree.ElementTree as ET
 ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
 ANTHROPIC_URL     = "https://api.anthropic.com/v1/messages"
 
-CLAUDE_SONNET = "claude-sonnet-4-6"
+CLAUDE_SONNET = "claude-sonnet-4-6"   # Used for daily and weekly
+CLAUDE_HAIKU  = "claude-haiku-4-5"    # Used for monthly (faster, cheaper)
 
 WEEKLY_SUMMARY_ONLY  = os.environ.get("WEEKLY_SUMMARY",  "false").lower() == "true"
 MONTHLY_SUMMARY_ONLY = os.environ.get("MONTHLY_SUMMARY", "false").lower() == "true"
@@ -37,7 +38,7 @@ MAX_TITLES_FOR_SUMMARY = 15
 CLAUDE_PAUSE_SECONDS   = 10
 CLAUDE_RETRY_ATTEMPTS  = 5
 CLAUDE_RETRY_WAIT      = 60
-CLAUDE_HTTP_TIMEOUT    = 180   # seconds — large monthly prompts can take 60–90s
+CLAUDE_HTTP_TIMEOUT    = 180   # seconds — covers slow Sonnet generation on large prompts
 SUMMARY_PRE_PAUSE      = 5
 
 # OIB keyword filters
@@ -484,31 +485,34 @@ def format_date(raw):
 
 # ── Claude API ─────────────────────────────────────────────────────────────────
 
-def call_claude(prompt: str, max_tokens: int = 1024) -> str:
+def call_claude(prompt: str, max_tokens: int = 1024, model: str = CLAUDE_SONNET) -> str:
     """
     Call the Anthropic Messages API with retry logic.
+
+    Args:
+        prompt:      the prompt text
+        max_tokens:  max output tokens
+        model:       which Claude model to use. Defaults to Sonnet (daily/weekly);
+                     pass CLAUDE_HAIKU for monthly.
 
     Retries on:
       - HTTP 429 (rate limit)
       - HTTP 500/502/503/504/529 (transient server errors / overload)
-      - socket timeouts (slow generation on large prompts)
+      - socket timeouts
       - URLError (transient network issues)
-
-    The HTTP timeout is set to CLAUDE_HTTP_TIMEOUT (180s) because the monthly
-    newsletter prompt is large and generating up to 2500 output tokens with
-    Claude Sonnet 4.6 can take 60–90 seconds. The previous 30s timeout caused
-    the monthly summary to fail silently.
     """
     import json as _json
     import socket
     from urllib.error import URLError
 
     body = _json.dumps({
-        "model": CLAUDE_SONNET,
+        "model": model,
         "max_tokens": max_tokens,
         "temperature": 0.3,
         "messages": [{"role": "user", "content": prompt}],
     }).encode()
+
+    model_label = "Haiku" if model == CLAUDE_HAIKU else "Sonnet"
 
     for attempt in range(1, CLAUDE_RETRY_ATTEMPTS + 1):
         try:
@@ -525,32 +529,31 @@ def call_claude(prompt: str, max_tokens: int = 1024) -> str:
             with urlopen(req, timeout=CLAUDE_HTTP_TIMEOUT) as resp:
                 data = _json.loads(resp.read())
             text = data["content"][0]["text"].strip()
-            print(f"  ✅ Claude Sonnet OK — {len(text)} chars")
+            print(f"  ✅ Claude {model_label} OK — {len(text)} chars")
             return text
 
         except HTTPError as e:
             body_err = e.read().decode("utf-8", errors="replace")
             if e.code == 429:
                 if attempt < CLAUDE_RETRY_ATTEMPTS:
-                    print(f"  Claude 429 (attempt {attempt}/{CLAUDE_RETRY_ATTEMPTS}) – waiting {CLAUDE_RETRY_WAIT}s…")
+                    print(f"  Claude {model_label} 429 (attempt {attempt}/{CLAUDE_RETRY_ATTEMPTS}) – waiting {CLAUDE_RETRY_WAIT}s…")
                     time.sleep(CLAUDE_RETRY_WAIT)
                     continue
                 return "Zusammenfassung konnte nicht erstellt werden (Rate Limit)."
             elif e.code in (500, 502, 503, 504, 529):
-                # Transient server-side errors — retry
                 if attempt < CLAUDE_RETRY_ATTEMPTS:
-                    print(f"  Claude HTTP {e.code} (attempt {attempt}/{CLAUDE_RETRY_ATTEMPTS}) – waiting {CLAUDE_RETRY_WAIT}s…")
+                    print(f"  Claude {model_label} HTTP {e.code} (attempt {attempt}/{CLAUDE_RETRY_ATTEMPTS}) – waiting {CLAUDE_RETRY_WAIT}s…")
                     print(f"    body: {body_err[:200]}")
                     time.sleep(CLAUDE_RETRY_WAIT)
                     continue
                 return "Zusammenfassung konnte nicht erstellt werden (Server Error)."
             else:
-                print(f"  Claude HTTP error {e.code}: {body_err[:300]}")
+                print(f"  Claude {model_label} HTTP error {e.code}: {body_err[:300]}")
                 return "Zusammenfassung konnte nicht erstellt werden."
 
         except (socket.timeout, TimeoutError) as e:
             if attempt < CLAUDE_RETRY_ATTEMPTS:
-                print(f"  Claude timeout after {CLAUDE_HTTP_TIMEOUT}s "
+                print(f"  Claude {model_label} timeout after {CLAUDE_HTTP_TIMEOUT}s "
                       f"(attempt {attempt}/{CLAUDE_RETRY_ATTEMPTS}) – waiting {CLAUDE_RETRY_WAIT}s…")
                 time.sleep(CLAUDE_RETRY_WAIT)
                 continue
@@ -558,23 +561,23 @@ def call_claude(prompt: str, max_tokens: int = 1024) -> str:
 
         except URLError as e:
             if attempt < CLAUDE_RETRY_ATTEMPTS:
-                print(f"  Claude URL error (attempt {attempt}/{CLAUDE_RETRY_ATTEMPTS}): {e} – waiting {CLAUDE_RETRY_WAIT}s…")
+                print(f"  Claude {model_label} URL error (attempt {attempt}/{CLAUDE_RETRY_ATTEMPTS}): {e} – waiting {CLAUDE_RETRY_WAIT}s…")
                 time.sleep(CLAUDE_RETRY_WAIT)
                 continue
             return "Zusammenfassung konnte nicht erstellt werden (Connection Error)."
 
         except Exception as e:
-            print(f"  Claude error ({type(e).__name__}): {e}")
+            print(f"  Claude {model_label} error ({type(e).__name__}): {e}")
             return "Zusammenfassung konnte nicht erstellt werden."
 
     return "Zusammenfassung konnte nicht erstellt werden."
 
 
-def summarize_with_claude(titles, prompt) -> str:
+def summarize_with_claude(titles, prompt, model: str = CLAUDE_SONNET) -> str:
     if not titles:
         return "Keine aktuellen Meldungen gefunden."
     numbered = "\n".join(f"{i+1}. {t}" for i, t in enumerate(titles))
-    return call_claude(prompt + "\n\nNachrichtentitel:\n" + numbered, max_tokens=512)
+    return call_claude(prompt + "\n\nNachrichtentitel:\n" + numbered, max_tokens=512, model=model)
 
 
 # ── Newsletter HTML Builder ────────────────────────────────────────────────────
@@ -804,6 +807,7 @@ def run_weekly_summary_only():
     exec_text = call_claude(
         weekly_newsletter_prompt(week_str, _build_sections(categories_data)),
         max_tokens=2000,
+        model=CLAUDE_SONNET,
     )
     html = build_newsletter_html(
         title=f"Newsletter – {week_str}",
@@ -823,10 +827,16 @@ def run_weekly_summary_only():
 # ── Monthly Summary Only ───────────────────────────────────────────────────────
 
 def run_monthly_summary_only():
+    """
+    Monthly newsletter generation uses Claude Haiku 4.5 for both per-category
+    summaries and the final newsletter assembly. Haiku is much faster than Sonnet
+    at this volume of work — eliminating the previous timeout failures — and
+    produces high-quality summaries for headline-style content.
+    """
     now = datetime.now(timezone.utc)
     month_str = now.strftime("%B %Y")
     month_slug = now.strftime("%Y-%m")
-    print(f"\n── Monthly Newsletter Only Mode ({month_str}) ──")
+    print(f"\n── Monthly Newsletter Only Mode ({month_str}) — using Claude Haiku ──")
     monthly_categories = {}
 
     for cat_id, cat in CATEGORIES.items():
@@ -841,8 +851,12 @@ def run_monthly_summary_only():
         for item in items:
             item["date"] = format_date(item.pop("date_raw", ""))
             item.pop("date_parsed", None)
-        print("  Calling Claude Sonnet for category summary…")
-        summary = summarize_with_claude([i["title"] for i in items[:15]], cat["monthly_prompt"])
+        print("  Calling Claude Haiku for category summary…")
+        summary = summarize_with_claude(
+            [i["title"] for i in items[:15]],
+            cat["monthly_prompt"],
+            model=CLAUDE_HAIKU,
+        )
         print(f"  Summary: {summary[:80]}…")
         print(f"  Waiting {CLAUDE_PAUSE_SECONDS}s…")
         time.sleep(CLAUDE_PAUSE_SECONDS)
@@ -862,10 +876,11 @@ def run_monthly_summary_only():
 
     print(f"\n  Waiting {SUMMARY_PRE_PAUSE}s before newsletter call…")
     time.sleep(SUMMARY_PRE_PAUSE)
-    print("  Calling Claude Sonnet for monthly newsletter…")
+    print("  Calling Claude Haiku for monthly newsletter…")
     exec_text = call_claude(
         monthly_newsletter_prompt(month_str, _build_sections(monthly_categories)),
         max_tokens=2500,
+        model=CLAUDE_HAIKU,
     )
     html = build_newsletter_html(
         title=f"Newsletter – {month_str}",
@@ -926,7 +941,9 @@ def run_daily():
             item.pop("date_parsed", None)
         print("  Calling Claude Sonnet…")
         summary = summarize_with_claude(
-            [i["title"] for i in items[:MAX_TITLES_FOR_SUMMARY]], cat["summary_prompt"]
+            [i["title"] for i in items[:MAX_TITLES_FOR_SUMMARY]],
+            cat["summary_prompt"],
+            model=CLAUDE_SONNET,
         )
         print(f"  Summary: {summary[:80]}…")
         print(f"  Waiting {CLAUDE_PAUSE_SECONDS}s…")
@@ -962,13 +979,13 @@ def run_daily():
 
 def main():
     if WEEKLY_SUMMARY_ONLY:
-        print("Mode: WEEKLY NEWSLETTER ONLY")
+        print("Mode: WEEKLY NEWSLETTER ONLY (Sonnet)")
         run_weekly_summary_only()
     elif MONTHLY_SUMMARY_ONLY:
-        print("Mode: MONTHLY NEWSLETTER ONLY")
+        print("Mode: MONTHLY NEWSLETTER ONLY (Haiku)")
         run_monthly_summary_only()
     else:
-        print("Mode: DAILY NEWS UPDATE")
+        print("Mode: DAILY NEWS UPDATE (Sonnet)")
         run_daily()
 
 
