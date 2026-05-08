@@ -1,5 +1,5 @@
 {
-  "generated": "07. May 2026, 06:23 UTC",
+  "generated": "08. May 2026, 05:39 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -12,8 +12,14 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Keine relevanten Meldungen gefunden.\n\nHinweis: Der einzige vorliegende Titel enthält zwar einen Bezug zu Lärm in Österreich, bietet jedoch zu wenig inhaltliche Substanz für eine sinnvolle Zusammenfassung im Kontext des Lärmschutzes.\n\n---\n\n*Korrektur:* Verkehr wird in Österreich als größte Lärmquelle identifiziert, was die zentrale Herausforderung für den Lärmschutz im Land unterstreicht. Konkrete Maßnahmen oder weiterführende Informationen zum Lärmschutz lassen sich aus dem vorliegenden Titel jedoch nicht ableiten.",
+      "summary": "Verkehrslärm stellt in Österreich das bedeutendste Lärmproblem dar, wie aktuelle Berichte bestätigen. Besonders Ereignisse wie der vollständige Brand eines Lkw auf der Südautobahn A2 verdeutlichen, dass der Straßenverkehr sowohl als permanente Lärmquelle als auch durch außerordentliche Vorfälle erhebliche Belastungen für Anrainer mit sich bringt.",
       "items": [
+        {
+          "title": "A2 war gesperrt - Lkw brannte auf der Südautobahn komplett aus - Kronen Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1yS0x6eVJ6allkdzkwNENYNUhRVEl0YUpfcXc4T2ZvQ0FsLVBiSmpDMmxXaGlPbXRRY2xlb0pHSzlkUQ?oc=5",
+          "source": "Kronen Zeitung",
+          "date": "5. May 2026"
+        },
         {
           "title": "Verkehr ist die größte Lärmquelle in Österreich - MSN",
           "link": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxOMnVhRWlUOUhyOUExWGJhWF82elNFSUFETzE4ZEJyc1N4WGxQcThNdkhMOFRUSlc4RmR5STdWWEtsRmJQNW10dHVxNEdtYUxiWFJwNW5PZElWTzdrcXVJRWFuRENIUVBpTmZZTGI4d3V0UWJmc3o2ekNBN3E2Q2NVMm9BWTJ1c0VXV1d6Xy1HNGY4VVVteHBRY3VkWXJBUjNSR0hkdzBFZU54Z0FBNkt3WWZOLTY0MHBlaHlGalhVZ3dQdmc4RGJ2OU4yeWRjNHpmZDM1VGhMX29HWEU0SGhXR2pCOXN4VmFOY3ZTT1ZMc2JIcHdKbnN0WjVCU1NrdXZ5OEE0aVMyLVN3ZEtZZ19fS0xocW1HYk5qWkRLWldpTXNSeXEzcnhESEw4bVBMN19zbzZHVVFjdWt4dlhOQ3ZreFk0ckRiZW04WTdqcmE0RVJRUERmR2gta1NSZERfSFZoWk1vdTdn?oc=5",
@@ -26,7 +32,7 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Am Flughafen Frankfurt sind Pläne für mehr Starts in Richtung Taunus bekannt geworden, während in Erkrath Maßnahmen zur Reduzierung von Bahnlärm angekündigt wurden, allerdings erst nach einer baubedingten Belastungsphase im Sommer. In der Schweiz berichtet die Neue Zürcher Zeitung über ein bemerkenswertes Stimmungsbild rund um den Flughafen Zürich, wo selbst die direkt betroffene Bevölkerung mehrheitlich gegen strengere Lärmvorgaben ist, und in der fränkischen Schweiz setzt sich eine Initiative in Heiligenstadt aktiv gegen Motorradlärm ein.",
+      "summary": "Am Frankfurter Flughafen plant Fraport trotz anhaltender Kritik mehr Starts in Richtung Taunus, während in Erkrath Bahnlärmschutzmaßnahmen nach einer baubedingten Übergangssaison Erleichterung bringen sollen. In der Schweiz sorgt ein Lärmschutz-Urteil für Diskussionen um Tempo 30 in Kriens, und rund um den Zürcher Flughafen zeigt sich das bemerkenswerte Bild, dass selbst Anwohner mehrheitlich gegen strengere Lärmvorgaben sind.",
       "items": [
         {
           "title": "Ein echter Wendepunkt - oder nur mehr Lärm? - MarketScreener Deutschland",
@@ -41,22 +47,34 @@
           "date": "6. May 2026"
         },
         {
+          "title": "Trotz Kritik: Fraport hält an mehr Fluglärm im Main-Taunus fest - MSN",
+          "link": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxPMi1qSzh6QmMwUFlMbFRnbEJsc3g2OEc2aVZ5WEluNVBQWS13SGNjUmxJTExJVlFEWGtFaVhkQVVwN0w0aGI0dzN6SFh0c2dxUnhQcGRoQktmTnNZYzFhdzM3T0V5SnhMTDk0V0E2OVYxZjdNcWRYXzhSNVRXekZ4WldIdzJUa3hZc3pGWV9GMk5iVm53Uk5Sanc3STE3STBHci01TUp4NW1LejRPUmlyQ0VVWUpnRTBRSjVvQXFxZmptbXRMdUdUQWpaWF9tOVNDLTdTczRPcUE5alFqVTVLR2F4alRCanM0bURTY3dvQTFXbHpRU1piNlRJT0NqLUg1M2VtbTUtZU1HZEFaekNQNk5FYW5Qb2lpZmJBNURXdTRkYy1DUXhVNC1RMm1LMUtTSlFzZDdrOVN3NjN4U3pKbExuY1J3VWs5TVJuN1p0MGlkdXVrV1N0WGRuektya2hU?oc=5",
+          "source": "MSN",
+          "date": "6. May 2026"
+        },
+        {
           "title": "Pendlerstadt Erkrath: Weniger Bahnlärm – aber erst nach einem Sommer voller Baustellen - RP Online",
           "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSG8xcVREODlUbUx6WXhNOWVpMUpMZDVvOHhucG9DX2h4dmdsZDFTaVQ1ZDhEdE9oc2RRV1kzWnZQeWRCVmFYQk1DcDZPR2ZicVJrT1l6Z1o4Rl8xTnY4X2tsZWRaNkxreU9NVzFGZGYxVS1Udzk3djBONWV3eGlDQjktckdtRlVQVFo2bVFDRldZZ1REaU9VQXRmd09UYjV2?oc=5",
           "source": "RP Online",
           "date": "4. May 2026"
         },
         {
-          "title": "Bienen brummen auf Speed – Oliver Rihs mit Berliner Typenwahnsinn „#SchwarzeSchafe“ - MSN",
-          "link": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxPaHc4dndzYVpSM2VOellMUjhic3htYXI0cE1ldG12VjMwRzVpMFhLUFZBd0FFdE9MZE40ZFhydEo5VFpuQWxmaW9yN1owZHVyaUU0S3FyWHhDNDJvY2JNOE5iYmp1cG04aDVVakpxUEdfdnZ2UUU2UVJtV3FBZ1hnMUQ3bmNSN0NsWjVpRkJ1WHBQRHktTVRxdVRxeVhDQkNSWHBYd2NOZ2sxQ3ozQVVWTF9ZUTlFTF80UllfczZaNzRMZXdSZXFFY2JYYVNoR3lMdUcxb3E0cGFvaS1vQWtjOGRJejUteEhNZUxIZWdCRXpmX3U2QjdMdWhfSHMtSjNoZjBiM3VqckFlbGk5NG05dDZ2ZzZiVWxOeG1OWmtWYk9lUWhOdDI3TVdyZDZrSzZmTG12dFVLRzIzaXVBRFpiRENUN2xQaG1QVmRHdWJ4MDVKTWZQUlFFSVhTRGJ0TFJ6aGpPMg?oc=5",
-          "source": "MSN",
-          "date": "2. May 2026"
+          "title": "Gefahr durch Windkraft: Vom Vogeltod zum Infraschall - Golem",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRGpSbkR6eHhYYnZlbURqRVNxTDg5cklZRFlqYjVvMEw2TmxNNGFmSDJqTDVhMDZXbjlRQUxWelVfLWdUUVlILXZRa0M1UXpoUTlKd2VPVW5Gb2I2VVlqSlNCeVROS2pEZGFPMWw2RUFGekd5akFKaW00WUpvWGd0TUhOOVp5cTlELUtMZFRuVTlDT050c2VqMndR?oc=5",
+          "source": "Golem",
+          "date": "7. May 2026"
         },
         {
-          "title": "Initiative gegen Motorradlärm: Heiligenstadt in Fränkischer Schweiz kämpft für mehr Ruhe - NN.de",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSlVpUFctX21CY05wd3JtdWkzdU0zdVBpQTVuWlg0N1dqNVFKcDVWS0QxMjJZblgyOWVBVlpYX0xTOWtDMXJQaUE0Nk5NVUdYZHJYbTd3UzdsTEc4MGJjR01Ob21BeW85UzhGcFVUeGxJZy1jVWNnMDBsX19qdl9femV6ZTdPV3hsZS1Wb2lTeTgxVEtveERZR2FVU3Ata1REN1J5ZGdoeWZ6TVJ3VU1IRTlGOF9Pd0NMdjAtcGplTldYWXd1OXdXRHZMNDl4UQ?oc=5",
-          "source": "NN.de",
-          "date": "30. Apr 2026"
+          "title": "Bienen brummen auf Speed – Oliver Rihs mit Berliner Typenwahnsinn „#SchwarzeSchafe“ - MSN",
+          "link": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxON21SSEZabTgyd010WkxVWWk4eFE1akdUX3V3eDVNLUQ5QzltMG1EUF9fUERBbWNnU3BJXzJma3AtUktXdzhwbzBtYmphV0JTMmRVeEVoMEdCOHYwS3FNWk5oTHJyalItQnJEX2s4UjZneXVDSjh1eWMtSkM1ZV9LM0RFTzcxSnRVOXZRZEVKMUEwanVCTHhKWGlLNWRwd3ROQ0EzVFRQQnY1aUVtVGxEa0V1RHFJOFAyalFRYVVtVjJTZXlxS2d1dS1SdUFOTUprb3JRTHFxeWZGSVAyTGREVEhvb3FQcVJyV2VxZlZPdVZVS0xGd2JvYWVtVXBJZmtCdGVfODZYNTdaX0dySUhYTVdlZlM2N2JqU1IzVFVhZi1xdUhZVTk0S3ZaeVFWaVQ5UmVYT1NxMmlYSnVOVkZtQ2Vsc0ZlS3h2SHdDQ1B1RnhJR0Q1X0U0dmdDUHliU2ppUnZJenh3?oc=5",
+          "source": "MSN",
+          "date": "3. May 2026"
+        },
+        {
+          "title": "Drei Jahre sind seit dem Lärmschutz-Urteil vergangen: Wann kommt Tempo 30 in Kriens? - Luzerner Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPQnNIWkxZc09wYVplb3pYQkZVZnF5bjNwaDV4TVI2M28wc3UxNDNURzQwd2RsMlRLUGtpWkJaTVhnb3RnZW85dks4dzdiQXphV3lEajZmTmc1bWlDamNVUkNhVlc5Zm5HZTNRWnNHMkpzYmN3OEVSdFp4WGJ5c3hOUnh4cXB2NkozeGxnb1I1TC1raUFjbDFtU3B0SFZNMjhIcVN3Q3ZWNEVqQk5LMzlKQW5idTh6OFFRbkpZSFhzbUZWZGJNbEVTVjlzVDEyOUxOV3k1cWNB?oc=5",
+          "source": "Luzerner Zeitung",
+          "date": "7. May 2026"
         },
         {
           "title": "Fluglärm: Selbst Bevölkerung rund um den Flughafen ist gegen striktere Vorgaben - Neue Zürcher Zeitung",
@@ -70,8 +88,14 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Transport & Environment has responded to the EU's evaluation of airport noise rules, signaling ongoing scrutiny of aviation-related sound regulations at the European level. Additionally, a health-focused alert for 2026 highlights growing concern across Europe regarding the broader impacts of noise pollution on public wellbeing.",
+      "summary": "European regional leaders are calling on the EU to take a stronger stance on noise pollution, while Transport & Environment has submitted evidence as part of the EU's ongoing evaluation of airport noise regulations. Additionally, a 2026 health alert highlights the significant impact of noise on public health across Europe, underscoring growing pressure on policymakers to strengthen noise control frameworks.",
       "items": [
+        {
+          "title": "EU should be more vocal on noise pollution, local and regional leaders say - European Committee of the Regions",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeUowdWlZTEM4VWdzQjFvM3hDcGVQNUNYNFptazFJbEl3d1ZhSkhZczFSOWYtdWw0QVBQU3JDRFdkWjdHdWRPRHczNFBYTl92RHRnanMwU1FicWNBVG1KdTlncFcwaG85dkd6dnlZRFFFTXBGTWEzYjNUM0NXM2NET2dVa0RNNXdoMzNwb0NFbzlhSTN3WW5udGI4ekRNVkJYXzlQdVRGWQ?oc=5",
+          "source": "European Committee of the Regions",
+          "date": "7. May 2026"
+        },
         {
           "title": "EU's Evaluation of Airport Noise rules - T&E call for evidence response - transportenvironment.org",
           "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYkQwSXdaTS1Hc3BxMXlQNFhBV0ZHc1plUHd2cEtDcGVSYXJ3U3BVWl9kbEJXRDJWYk8ta0dyTjdjSU83TUJ5a2NwT1lFSnMwQzMyNy1zdS1DbUcxTDBueHJFdVo4T1hFT2wweEQzUWFRZUNNdlpHc0xuMGtiVTZJWmwxdFE1MS13T3BzMmpaMXZDd09Fc3lrVUhnTVJXX2xTZmJJd3phZWxnOEFtWDI4a1NXNzY3TldTRF9rRFJ3?oc=5",
@@ -96,7 +120,7 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Research into low-frequency acoustics is gaining public attention, with multiple reports highlighting how infrasound in old buildings may trigger eerie psychological sensations, including altered mood and heightened stress responses. Separately, urban noise pollution is being linked to cardiovascular disease risk, underscoring the growing body of evidence connecting environmental soundscapes to serious public health outcomes.",
+      "summary": "Research into infrasound is gaining attention, with multiple studies revealing that low-frequency sound waves may be responsible for the eerie, unsettling feelings people experience in certain buildings, potentially explaining longstanding reports of \"hauntings.\" Additionally, a FORMAS-funded grant at Karolinska Institutet is investigating the broader health impacts of noise on brain health, complementing growing evidence that noise pollution contributes to mental health challenges across Europe.",
       "items": [
         {
           "title": "Road Noise Barrier Market Analysis By Application, Type, - openPR.com",
@@ -105,15 +129,21 @@
           "date": "4. May 2026"
         },
         {
-          "title": "Urban noise and heart: the sound map of disease - Foro3D",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOWkxUUxKM09EckpvdDJhMFVRd2JKYW5UZE5LVjcwb2FRM2pESHRwb09jSHFIY2NPUzc4cEM3RVNDVTdRdzVlTnlLQkJ5UGdyX0VfM0w5ME04WkZ0a29aM20yZlN4dUxkREZsX19WTjA5TjFCRW5ZQjFPSG1hZV9SYS1vYUlGaFdWYi1JZHJneVE2NWtWdFpj?oc=5",
-          "source": "Foro3D",
-          "date": "30. Apr 2026"
-        },
-        {
           "title": "Revealed: How pollution is worsening Europe’s mental health crisis - Euronews.com",
           "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUlViNDdsMHdRNFMtY3RQT2kza250YjBNUTJBM0xpcGlJZFlYdlpsNHA5LXp2VjJBV0NBeUl4RWtnS3ZmeTc1TkxMcml2TS13Z0cycF9ENm85dzRDd0kzamtneDZ3aFluYm9JMjB5LXliVGJMQTZMVE91S3g5azdmQUV5UWpJR0w1VDZiR19iSHRMR3NnaTJBcVk1WDU1Y2ZaSVhZT25UNTFVR2hSU3JUOUVMR01aOHlPaEE?oc=5",
           "source": "Euronews.com",
+          "date": "3. May 2026"
+        },
+        {
+          "title": "FORMAS grant to investigate air pollution, noise and brain health - Karolinska Institutet",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOUlMN2RicFlYTEVBUEZqWEIzM2NHUDVFUXVqdUpzNEhWd3dnaWt1MGYwSUFXcjlaWEZySHBlTHVQZjB3dkVNOEgyYVpRYWJ6dTVDdloyRjVpRmR5SXJhczVDX2dacEVRd3JuUHZrQ2JrSVU0bHVuUnFrcDY1TWw1cVc2Yko5ZlVWMmlr?oc=5",
+          "source": "Karolinska Institutet",
+          "date": "5. May 2026"
+        },
+        {
+          "title": "The creepy feeling in old buildings might have a surprising cause - ScienceDaily",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1Ubjd6emtaS0FkdHdGc3BfN2ZvVHhJRnA4aV9ZME0ydWdWd19Uc3FEdmpiLWNVa01wRGJ1VldsdlNET1VnRnFlazR1a1JXcEowc3Rvd2FSbWc1MzYwWWFVNXM4VEE5dzB3RkIzR3o5RQ?oc=5",
+          "source": "ScienceDaily",
           "date": "3. May 2026"
         },
         {
@@ -123,10 +153,10 @@
           "date": "1. May 2026"
         },
         {
-          "title": "The creepy feeling in old buildings might have a surprising cause - ScienceDaily",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1Ubjd6emtaS0FkdHdGc3BfN2ZvVHhJRnA4aV9ZME0ydWdWd19Uc3FEdmpiLWNVa01wRGJ1VldsdlNET1VnRnFlazR1a1JXcEowc3Rvd2FSbWc1MzYwWWFVNXM4VEE5dzB3RkIzR3o5RQ?oc=5",
-          "source": "ScienceDaily",
-          "date": "3. May 2026"
+          "title": "Boo! Scientists Discovered the Reason Some Places Feel Haunted. - Popular Mechanics",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZHloTDJOYlBlalRQTXh0a0psZ0t6bElqdzByakdSUDZQZEpvYXRHZ2JUNGxTclhvRHZKN0x6M0R5U19iQmN5eExSSVFDTnRqQ2ExZU1RSHlWZnd1Z01KanpldTVkamVlZFczelZ3X3ZuVWRTVGxwMmh5MkZSSTZBY1p0bmxaOFU?oc=5",
+          "source": "Popular Mechanics",
+          "date": "1. May 2026"
         },
         {
           "title": "Infrasound’s Hidden Impact on Mood and Stress Revealed in Study - SSBCrack",
