@@ -1,5 +1,5 @@
 {
-  "generated": "10. May 2026, 06:23 UTC",
+  "generated": "11. May 2026, 06:54 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -32,7 +32,7 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "In Deutschland plant der Flughafen Frankfurt mehr Starts Richtung Taunus, während in Erkrath Bahnlärmreduzierungen nach einer baubedingten Übergangssaison in Aussicht stehen und der Bundesrat eine Lärmschutz-Ausnahme für Public-Viewing zur Fußball-WM ermöglicht hat. In der Schweiz zeigt sich drei Jahre nach einem Lärmschutz-Urteil noch immer keine Umsetzung von Tempo 30 in Kriens, und rund um den Flughafen Zürich spricht sich laut der Neuen Zürcher Zeitung sogar die lokale Bevölkerung gegen strengere Fluglärm-Vorgaben aus.",
+      "summary": "In Deutschland sorgen Fluglärm-Debatten rund um den Frankfurter Flughafen sowie Lärmschutzmaßnahmen an der Bahn in Erkrath für Aufmerksamkeit, während der Bundesrat eine Lärmschutz-Ausnahme für Public-Viewing zur Fußball-WM ermöglicht hat. In der Schweiz beschäftigen ein seit drei Jahren ausstehendes Tempo-30-Urteil in Kriens sowie eine NZZ-Analyse, wonach selbst Flughafenanrainer gegen strengere Fluglärm-Vorgaben sind, die Öffentlichkeit.",
       "items": [
         {
           "title": "Ein echter Wendepunkt - oder nur mehr Lärm? - MarketScreener Deutschland",
@@ -51,18 +51,6 @@
           "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSG8xcVREODlUbUx6WXhNOWVpMUpMZDVvOHhucG9DX2h4dmdsZDFTaVQ1ZDhEdE9oc2RRV1kzWnZQeWRCVmFYQk1DcDZPR2ZicVJrT1l6Z1o4Rl8xTnY4X2tsZWRaNkxreU9NVzFGZGYxVS1Udzk3djBONWV3eGlDQjktckdtRlVQVFo2bVFDRldZZ1REaU9VQXRmd09UYjV2?oc=5",
           "source": "RP Online",
           "date": "4. May 2026"
-        },
-        {
-          "title": "Gefahr durch Windkraft: Vom Vogeltod zum Infraschall - Golem",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRGpSbkR6eHhYYnZlbURqRVNxTDg5cklZRFlqYjVvMEw2TmxNNGFmSDJqTDVhMDZXbjlRQUxWelVfLWdUUVlILXZRa0M1UXpoUTlKd2VPVW5Gb2I2VVlqSlNCeVROS2pEZGFPMWw2RUFGekd5akFKaW00WUpvWGd0TUhOOVp5cTlELUtMZFRuVTlDT050c2VqMndR?oc=5",
-          "source": "Golem",
-          "date": "7. May 2026"
-        },
-        {
-          "title": "Schockmoment: „Wir hörten ein unheilvolles Brummen, dann wurde der Himmel schwarz“ - MSN",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbnRQRTllSW1rSVBFQUJsZlh0dGhHckJOcm5HSkNYU0xOcWtEcnZUaXZJV0x4aHVHV1ItTjJuMU1DZmNzTWd2WVdFN19lQURZTUZEZHh2bU1SbFhscFF4WUVsSU1oOHZ5UGFweTFadFFJd0h0bExaemVHcWVnWEl2SXBrUU9la2cyRU5FMFdJMDVHVXN2aHRPc0xubkhNOWl2cS11NXFxWkdyX09Gd3VTYmNuOEFkLVd3ejVzS0ZzY0loQUp3aDY2aw?oc=5",
-          "source": "MSN",
-          "date": "8. May 2026"
         },
         {
           "title": "Bundesrat ermöglicht Lärmschutz-Ausnahme für Public-Viewing bei Fußball-WM – Unterstützung durch Sachsen-Anhalts Sozialministerin - Du bist Halle",
@@ -94,7 +82,7 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "The European Committee of the Regions is calling on the EU to take a stronger stance on noise pollution, urging more decisive action at the policy level, while Transport & Environment has submitted a response to the EU's evaluation of airport noise regulations. Additionally, Havila Voyages is supporting the European LOWNOISER project, which aims to reduce underwater noise pollution in the oceans.",
+      "summary": "The European Committee of the Regions has called on the EU to take a stronger stance on noise pollution, urging more decisive action at the European level, while Transport & Environment has submitted evidence in response to the EU's evaluation of airport noise regulations. Additionally, Havila Voyages has expressed support for European efforts to reduce underwater noise through the LOWNOISER project, aimed at achieving quieter oceans.",
       "items": [
         {
           "title": "EU should be more vocal on noise pollution, local and regional leaders say - European Committee of the Regions",
@@ -106,12 +94,6 @@
           "title": "EU's Evaluation of Airport Noise rules - T&E call for evidence response - transportenvironment.org",
           "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYkQwSXdaTS1Hc3BxMXlQNFhBV0ZHc1plUHd2cEtDcGVSYXJ3U3BVWl9kbEJXRDJWYk8ta0dyTjdjSU83TUJ5a2NwT1lFSnMwQzMyNy1zdS1DbUcxTDBueHJFdVo4T1hFT2wweEQzUWFRZUNNdlpHc0xuMGtiVTZJWmwxdFE1MS13T3BzMmpaMXZDd09Fc3lrVUhnTVJXX2xTZmJJd3phZWxnOEFtWDI4a1NXNzY3TldTRF9rRFJ3?oc=5",
           "source": "transportenvironment.org",
-          "date": "4. May 2026"
-        },
-        {
-          "title": "Environmentally responsible research – Home - Home | CERN",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1mVFhkX2JNUmoxVW9CNjN6dW1TV3NnUVJ4SXRBamMxQ01UMU9DakhhQWVHM3VPZEJTWXZMWFB6SVpUSEdHc2g1UTB1a1g3TmpGT24xLXNrc0lLaEVQcEo3b0Jvakxtcm1ib2s0TF9hWmxJZUpENG91dFVkNWU?oc=5",
-          "source": "Home | CERN",
           "date": "4. May 2026"
         },
         {
@@ -138,7 +120,7 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Research into low-frequency sound continues to gain attention, with new findings revealing that infrasound has measurable hidden impacts on human mood and stress levels. Additionally, the unsettling sensations people experience in old buildings may be attributable to acoustic phenomena, likely related to infrasound or resonant frequencies affecting human perception.",
+      "summary": "Researchers are advancing noise mitigation on multiple fronts, with new market analysis highlighting growing applications for road noise barriers and a Karolinska Institutet study receiving FORMAS funding to investigate the effects of noise and air pollution on brain health. Additionally, scientists have developed a groundbreaking \"quantum sound\" device operating near absolute zero, opening new possibilities in acoustic physics research.",
       "items": [
         {
           "title": "Road Noise Barrier Market Analysis By Application, Type, - openPR.com",
@@ -147,16 +129,16 @@
           "date": "4. May 2026"
         },
         {
-          "title": "The creepy feeling in old buildings might have a surprising cause - ScienceDaily",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1Ubjd6emtaS0FkdHdGc3BfN2ZvVHhJRnA4aV9ZME0ydWdWd19Uc3FEdmpiLWNVa01wRGJ1VldsdlNET1VnRnFlazR1a1JXcEowc3Rvd2FSbWc1MzYwWWFVNXM4VEE5dzB3RkIzR3o5RQ?oc=5",
-          "source": "ScienceDaily",
-          "date": "3. May 2026"
+          "title": "Scientists Create “Quantum Sound” Device That Works Near Absolute Zero - SciTechDaily",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONW9qaEpZSi0yZFhKeTVsc0JDdWtUNjN4c3lndzR1WkVnZzBWXzNGNEY3al84bGxsMno3b0xydW1tOE9HS3hZbjlxM1lveld4Z1F2eUlYdjJzQ3g0NFY2RkRtSWRvVmFQU2ltcTV1UE5ueTlwTFY5bE5ieE5rVldfQ1IzQm1uWUk3WXJmS3BrYVpEeGFpXzZ2NjFB?oc=5",
+          "source": "SciTechDaily",
+          "date": "9. May 2026"
         },
         {
-          "title": "Infrasound’s Hidden Impact on Mood and Stress Revealed in Study - SSBCrack",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUFNJVFFlaFQ4UmhBUGpmTXllT2U3TkFVY1JOV0VmS3hqN3dfYWpHZVlwbE54Nk9qNUtKZ1V2MWdlTDlfUkpDUUNzdGtoWWlXd0d3M2pMZzhfd2k3Y1Q1aU10SjlpdXl2b052RXZJVnpFNUR1a0MxemlXVkhfZG80LXBuR1U1dnNOZkYxVktfYi02M2c?oc=5",
-          "source": "SSBCrack",
-          "date": "3. May 2026"
+          "title": "FORMAS grant to investigate air pollution, noise and brain health - Karolinska Institutet",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOUlMN2RicFlYTEVBUEZqWEIzM2NHUDVFUXVqdUpzNEhWd3dnaWt1MGYwSUFXcjlaWEZySHBlTHVQZjB3dkVNOEgyYVpRYWJ6dTVDdloyRjVpRmR5SXJhczVDX2dacEVRd3JuUHZrQ2JrSVU0bHVuUnFrcDY1TWw1cVc2Yko5ZlVWMmlr?oc=5",
+          "source": "Karolinska Institutet",
+          "date": "5. May 2026"
         }
       ]
     },
