@@ -1,5 +1,5 @@
 {
-  "generated": "11. May 2026, 06:54 UTC",
+  "generated": "12. May 2026, 06:25 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -12,14 +12,8 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Verkehrslärm stellt laut aktuellen Berichten die bedeutendste Lärmbelastungsquelle in Österreich dar, was den Bedarf an effektiven Lärmschutzmaßnahmen unterstreicht.",
+      "summary": "Keine relevanten Meldungen gefunden.\n\nWarte – der Titel ist tatsächlich relevant. Hier die korrekte Zusammenfassung:\n\nIn Österreich stellt der Verkehr die bedeutendste Lärmquelle dar, was den Lärmschutz zu einem zentralen gesellschaftlichen Thema macht.",
       "items": [
-        {
-          "title": "A2 war gesperrt - Lkw brannte auf der Südautobahn komplett aus - Kronen Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1yS0x6eVJ6allkdzkwNENYNUhRVEl0YUpfcXc4T2ZvQ0FsLVBiSmpDMmxXaGlPbXRRY2xlb0pHSzlkUQ?oc=5",
-          "source": "Kronen Zeitung",
-          "date": "5. May 2026"
-        },
         {
           "title": "Verkehr ist die größte Lärmquelle in Österreich - MSN",
           "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNNVJoNDZ2Vi1mYWNXM3Y1ZWlxaFM3SU50a3NzTGIyaHd0WW9LVThFVHVqWU5IOGQ0TUI1bUpKanhFYlZ3RjJuZUxFLWR0TDVXMVN0NkFfb2E2bVhrTWR5bzdiZjFDN0QwMjhXaGsyYTdWcXZUYjFvQW04eGRBd2FOLU1jUGtOQ1JzTUFWb2hqZXBoZ0NON3cxbmJiVmhJdGtGeDN0ZklzRDR3QTRFbDkyY05YUTdTM2FKbkNGUWhtbU9RTC1fM04xcnU0NGYyOTg?oc=5",
@@ -32,14 +26,8 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "In Deutschland sorgen Fluglärm-Debatten rund um den Frankfurter Flughafen sowie Lärmschutzmaßnahmen an der Bahn in Erkrath für Aufmerksamkeit, während der Bundesrat eine Lärmschutz-Ausnahme für Public-Viewing zur Fußball-WM ermöglicht hat. In der Schweiz beschäftigen ein seit drei Jahren ausstehendes Tempo-30-Urteil in Kriens sowie eine NZZ-Analyse, wonach selbst Flughafenanrainer gegen strengere Fluglärm-Vorgaben sind, die Öffentlichkeit.",
+      "summary": "In Deutschland sorgt der Frankfurter Flughafen mit geplanten zusätzlichen Starts Richtung Taunus für neue Lärmschutzdebatten, während in der Schweiz drei Jahre nach einem Lärmschutz-Urteil die Umsetzung von Tempo 30 in Kriens weiterhin auf sich warten lässt. Zudem thematisiert ein Bericht die Gefahren von Windkraftanlagen, darunter auch Infraschall als potenzielles Gesundheitsrisiko.",
       "items": [
-        {
-          "title": "Ein echter Wendepunkt - oder nur mehr Lärm? - MarketScreener Deutschland",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNa1F3RVN5MWVESXFsN0ZfWEhrRWJCRVl3bFQtMlMtc0V4NlJYQkJzeDhRMWh0TzJ0RS1jbjZTT2hpYjRtbElpcC1kNzBwRk1ZS0NMYTB0UkxTUHM5Y2N1NDl6Zy0xUE5NdlRQREg4YXJ2d2VOdl84U2tRUEVFdU53MEN5WWktY2liMDhhaXU3UjI1MFVUMEFxb19xQzh5YVBmUTM2TTEzWXZGNkU?oc=5",
-          "source": "MarketScreener Deutschland",
-          "date": "4. May 2026"
-        },
         {
           "title": "Fluglärm: Flughafen Frankfurt plant mehr Starts Richtung Taunus - Deutschland & Welt - Rhein-Zeitung",
           "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTXhLWk9nU29TNHFJdk5kZzFnTzJUOGFucXZ6Tlk5NDI2R2FyWWVTRE1DNWF2TGVacnVuWXRab1FYNzJqeWFiR185MjVSSExBTWVUZU9OdWx3ZlhwOVVkVXRhcjduYm9PeU5UQ1VYZ2ZzTTRYN045WVhxRFNxTjBPTy1UWnR4bDdpVGYzYjktbjRpbV83U1N1MGotbkRXNExTT1dzaFpWNHh6U0o1RjFQSUVlbmtzWjdI?oc=5",
@@ -47,28 +35,16 @@
           "date": "6. May 2026"
         },
         {
-          "title": "Pendlerstadt Erkrath: Weniger Bahnlärm – aber erst nach einem Sommer voller Baustellen - RP Online",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSG8xcVREODlUbUx6WXhNOWVpMUpMZDVvOHhucG9DX2h4dmdsZDFTaVQ1ZDhEdE9oc2RRV1kzWnZQeWRCVmFYQk1DcDZPR2ZicVJrT1l6Z1o4Rl8xTnY4X2tsZWRaNkxreU9NVzFGZGYxVS1Udzk3djBONWV3eGlDQjktckdtRlVQVFo2bVFDRldZZ1REaU9VQXRmd09UYjV2?oc=5",
-          "source": "RP Online",
-          "date": "4. May 2026"
-        },
-        {
-          "title": "Bundesrat ermöglicht Lärmschutz-Ausnahme für Public-Viewing bei Fußball-WM – Unterstützung durch Sachsen-Anhalts Sozialministerin - Du bist Halle",
-          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPc04yY0U2dkZZWml3ZEg3Nkk2NU5HbFhlRkFzeS1YYzJwTFF4czBJTDhpTXZieVF5c0pZd3dlVVBsZjN1NC12MnJ5VUZHLUdOV0l2bkpFVDdYSzhCbnNMSTluZVY1a0lIWHNSZi1CczlZVmJ0eDBGXzE3czAwTkJOc1NodXExVE0tMGV5dHgxdzRFcnhaMzR2blBqWkc2aHdaRnJpRWJuT2U3dV81LWtnRHNSeHhLd28zX0tFOHk1a1FNd2xHbEwxYnQwN2dpNlZ4bEc0cVEwTk9BT0kxUVBFZTBic0ZLSldWXzVXXw?oc=5",
-          "source": "Du bist Halle",
-          "date": "8. May 2026"
+          "title": "Gefahr durch Windkraft: Vom Vogeltod zum Infraschall - Golem",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRGpSbkR6eHhYYnZlbURqRVNxTDg5cklZRFlqYjVvMEw2TmxNNGFmSDJqTDVhMDZXbjlRQUxWelVfLWdUUVlILXZRa0M1UXpoUTlKd2VPVW5Gb2I2VVlqSlNCeVROS2pEZGFPMWw2RUFGekd5akFKaW00WUpvWGd0TUhOOVp5cTlELUtMZFRuVTlDT050c2VqMndR?oc=5",
+          "source": "Golem",
+          "date": "7. May 2026"
         },
         {
           "title": "Drei Jahre sind seit dem Lärmschutz-Urteil vergangen: Wann kommt Tempo 30 in Kriens? - Luzerner Zeitung",
           "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPQnNIWkxZc09wYVplb3pYQkZVZnF5bjNwaDV4TVI2M28wc3UxNDNURzQwd2RsMlRLUGtpWkJaTVhnb3RnZW85dks4dzdiQXphV3lEajZmTmc1bWlDamNVUkNhVlc5Zm5HZTNRWnNHMkpzYmN3OEVSdFp4WGJ5c3hOUnh4cXB2NkozeGxnb1I1TC1raUFjbDFtU3B0SFZNMjhIcVN3Q3ZWNEVqQk5LMzlKQW5idTh6OFFRbkpZSFhzbUZWZGJNbEVTVjlzVDEyOUxOV3k1cWNB?oc=5",
           "source": "Luzerner Zeitung",
           "date": "7. May 2026"
-        },
-        {
-          "title": "Fluglärm: Selbst Bevölkerung rund um den Flughafen ist gegen striktere Vorgaben - Neue Zürcher Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdDlON1hTOGZQUTdya3BYZ2tUOW9NVmVpUzVDMDBraFl1NFp5WUR0amVqVzNybFp6dWtEckNCRDNZVGsxcnkydDZkVFNlTmgzdDI5V2MxSWdXSHVzLXEtcjJiejB3eW1iR2U3NlM1WGJZN2E1dXdSa2lNVnhDaTRodEE3MnFibTB4TzNlZDVCTU4yVGwzOFZGUllMUlA0MGpCa3RxYXhDWnJ3UlJiMkVuMGQzVXZUN1JkSS1J?oc=5",
-          "source": "Neue Zürcher Zeitung",
-          "date": "4. May 2026"
         },
         {
           "title": "Analyse an Gehörgängen gemessener akustischer Eingangs- und Transferimpedanzen aus zusammengeführten Datensätzen - Jade Hochschule",
@@ -82,7 +58,7 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "The European Committee of the Regions has called on the EU to take a stronger stance on noise pollution, urging more decisive action at the European level, while Transport & Environment has submitted evidence in response to the EU's evaluation of airport noise regulations. Additionally, Havila Voyages has expressed support for European efforts to reduce underwater noise through the LOWNOISER project, aimed at achieving quieter oceans.",
+      "summary": "The European Committee of the Regions has called on the EU to take a stronger and more vocal stance on tackling noise pollution, with local and regional leaders urging greater action at the European level. Additionally, Havila Voyages is contributing to European efforts to reduce underwater noise through its participation in the LOWNOISER project, which aims to create quieter oceans.",
       "items": [
         {
           "title": "EU should be more vocal on noise pollution, local and regional leaders say - European Committee of the Regions",
@@ -91,22 +67,10 @@
           "date": "7. May 2026"
         },
         {
-          "title": "EU's Evaluation of Airport Noise rules - T&E call for evidence response - transportenvironment.org",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYkQwSXdaTS1Hc3BxMXlQNFhBV0ZHc1plUHd2cEtDcGVSYXJ3U3BVWl9kbEJXRDJWYk8ta0dyTjdjSU83TUJ5a2NwT1lFSnMwQzMyNy1zdS1DbUcxTDBueHJFdVo4T1hFT2wweEQzUWFRZUNNdlpHc0xuMGtiVTZJWmwxdFE1MS13T3BzMmpaMXZDd09Fc3lrVUhnTVJXX2xTZmJJd3phZWxnOEFtWDI4a1NXNzY3TldTRF9rRFJ3?oc=5",
-          "source": "transportenvironment.org",
-          "date": "4. May 2026"
-        },
-        {
           "title": "Die EU sollte lautstarker gegen Lärm vorgehen, sagen die Kommunal- und Regionalpolitiker - European Committee of the Regions",
           "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZWREanpVeDI2bXRGTUJKaEdEa2VoN1NiczJ5SVhqSC0xYzlBTjBZNm5MNzZmQmNPaDJTLU5jQ2xFQnIycS1PM0tWMlo2YzdheUdGa3o2YlI1RUY3cXNGZFpQVWU3TWxGVFEyYVpraUV0bXdkREtwUHFSV05OVzBIc2U4UlpUT2djcml0LWg1U21RYjlHaU5lZ1FFWXBoTzBLRWIyeEw3QUJVNy1TMTIzcXYyQkFoWGFjOGhtNk1KNnhUdzlG?oc=5",
           "source": "European Committee of the Regions",
           "date": "7. May 2026"
-        },
-        {
-          "title": "Havila Voyages Backs EU Drive for Quieter Oceans - thetraveler.org",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPLWpPeDRhSXBYb3ZWbHQ4Vm8zNVhPdXdNZXpBRGNXR2hpSW9jNWZleXNsaXB4emdtRWVFYkNvVFpzZ3VvS3l1cnRKZm9XbE55Qjd2alp0UU44X3YxX181X3pnenFBenhRUTRQZ054S2tzNTBWeEFtUFgxbkNGMEJ4TGNjcw?oc=5",
-          "source": "thetraveler.org",
-          "date": "10. May 2026"
         },
         {
           "title": "Havila Voyages Supports European Push for Quieter Oceans Through LOWNOISER Project - Travel And Tour World",
@@ -120,14 +84,8 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Researchers are advancing noise mitigation on multiple fronts, with new market analysis highlighting growing applications for road noise barriers and a Karolinska Institutet study receiving FORMAS funding to investigate the effects of noise and air pollution on brain health. Additionally, scientists have developed a groundbreaking \"quantum sound\" device operating near absolute zero, opening new possibilities in acoustic physics research.",
+      "summary": "Scientists have developed groundbreaking sound-based devices, including a quantum sound system operating near absolute zero and a novel apparatus aimed at advancing phonon lasers. Meanwhile, growing concerns surround infrasound emissions from AI data centers and certain buildings, with citizens reporting adverse health effects from low-frequency vibrations that evade standard decibel measurements.",
       "items": [
-        {
-          "title": "Road Noise Barrier Market Analysis By Application, Type, - openPR.com",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZnczeFZoZ1BLcjQ1VXVLZmZJWVY3MXE5SU9CMVJHUkNLb3NyLWVBSzhzNHJIbmFPdkFMSTRkcVFwWFpSN0JMZWo3cVlJWDlrNUppMWJOT1JSY25FZ0VsNEpEVXRobGlLaExvZnpid2NzSXo5WEZFN3ZWY3otaXo3LU9nNlRTVzdrM2lwMXU3bDI0dUNu?oc=5",
-          "source": "openPR.com",
-          "date": "4. May 2026"
-        },
         {
           "title": "Scientists Create “Quantum Sound” Device That Works Near Absolute Zero - SciTechDaily",
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONW9qaEpZSi0yZFhKeTVsc0JDdWtUNjN4c3lndzR1WkVnZzBWXzNGNEY3al84bGxsMno3b0xydW1tOE9HS3hZbjlxM1lveld4Z1F2eUlYdjJzQ3g0NFY2RkRtSWRvVmFQU2ltcTV1UE5ueTlwTFY5bE5ieE5rVldfQ1IzQm1uWUk3WXJmS3BrYVpEeGFpXzZ2NjFB?oc=5",
@@ -135,10 +93,22 @@
           "date": "9. May 2026"
         },
         {
-          "title": "FORMAS grant to investigate air pollution, noise and brain health - Karolinska Institutet",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOUlMN2RicFlYTEVBUEZqWEIzM2NHUDVFUXVqdUpzNEhWd3dnaWt1MGYwSUFXcjlaWEZySHBlTHVQZjB3dkVNOEgyYVpRYWJ6dTVDdloyRjVpRmR5SXJhczVDX2dacEVRd3JuUHZrQ2JrSVU0bHVuUnFrcDY1TWw1cVc2Yko5ZlVWMmlr?oc=5",
-          "source": "Karolinska Institutet",
-          "date": "5. May 2026"
+          "title": "Researchers’ novel device could boost the development of sound-based lasers - Technology Org",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQS3JjaU5IUTl4ZWFwYi1HTW9OMkxMMFVSelE0YWQySlZuSlI3OS1hU19nS01ZNGRFdGNVOVUzZVU2MHRSN1FrY0tIeWU2T3dUM01fNWJnRUNfNEdhcGRyLXd4U2hJOTM0My1jNHNnVjlBdFh4a3BTVHhKUTh1QWhqZUd3TjM0dGVKeEM0NWhJY2QwYnREZFE1Y0tTYW5RQnNUeC1nYjU5cnpoT2JQWXVNYXhVaw?oc=5",
+          "source": "Technology Org",
+          "date": "7. May 2026"
+        },
+        {
+          "title": "AI data centers face increasing complaints about inaudible but 'felt' infrasound — citizens complain high- and low-frequency sounds do not register on decibel meters but cause adverse health effects - Tom's Hardware",
+          "link": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxNUWR1UU93MnZsb21YbEpzaTdMbWVxOGpEVURsVjA0WUpuQUM5Z080V2Zvd2ZudERhU0hCVGtLRmt3VTZCVldQbmVwNXl5Y29pQWJ2VTBNTWVOcW83Rlh3Q1J1R3B0ZTdfOUVSZmZmemFPNlpOUkhMa2NVcWd5dTIyYWEyay12S1IybVlNT2xrcDhFcThEMEZEeUY0ZFhxNERTRDhBMmZNSmVGb2NRRFMzaXJ2MGtuVDJHQ25FZkI1aW1EOGNpUFVfc1h6cG9sanVyN1NwMWJqTThBNWhxb1JVemtVTlprLXVUSXJueUxPZUYwekV2bmNXcDVSV09Ra08yTW1FWUg5WVp4LWdaVTA4cmJnb0VsYjBaM2lRR3B2SjVvTFliT3poQWUtVzJzWmIzdnFVSWsxMUNLVGM?oc=5",
+          "source": "Tom's Hardware",
+          "date": "10. May 2026"
+        },
+        {
+          "title": "This Inaudible Sound is Why Some Buildings Feel Haunted for No Apparent Reason - ProPakistani",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbXVwbjAtSmRmY2FjLXpHaE9LbXozVUlfVVktVjI2SXgyNEw2MFRsRm5PZjR4OXEtYUlBcV9XMG5ZRHNTcTRjUzE0cGdsS1dwNjlKYmxZZzV3MUJwS0N0ZHJud0E5ZmNIQkZrbUpNNWE4ZDdxUnltLTFGZGJ4a1h1VDNFRFAxT0hjaU1IdlJfTm5zX2hpYnBQUVp2NWZMWV9WQlZYd250aTB2Y2wyaXF3U3pjckPSAboBQVVfeXFMTS1TR2RPbHNpZDJzcmRvaGtmVzFUMEp0WnRrdFpycU5sYTRsOTEybU1ncTM1Q3ZwOWJvS2w4a1Iyc2hmcU95Nlp4SDZmQXRteFNNRjczT045YzhDcjNfai1US0l4TmhscEZqSDJTSFFQeGtKdUxvY1dKNmVWc3lSQVdSekoxZWdVNW9oak1BbHVLd1lYWUtXWlhJbmlfZTF5ZV9vcExJN3ZpM1J6WnFVZ2xDYXg2cWFENjJ3?oc=5",
+          "source": "ProPakistani",
+          "date": "11. May 2026"
         }
       ]
     },
@@ -148,6 +118,12 @@
       "color": "#7b4f12",
       "summary": "Keine relevanten Meldungen gefunden.",
       "items": [
+        {
+          "title": "Laborgebäude Universität Salzburg kofler architects - World-Architects",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZV9ockE0NEozeDBaMGZ5SV9ScHdiUGZJbXU2V0FHYmo5QXJsM0JXMTZNMXdRSThoTndoOW53blp2UG1aX0JZNUwyNU9oMUwxVzl0bVNIbTR5R3BkbXh4RlZrSUhxVER2SW5YZE1vZUhFcE51cEdzRVAzb1RKakNTOVhHUXZVQWxRTnJNTjdieGwxeFhs?oc=5",
+          "source": "World-Architects",
+          "date": "9. May 2026"
+        },
         {
           "title": "Bonner Servatiusschule: Welche Vorgaben gibt es für Wärmepumpen? - General-Anzeiger Bonn",
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOclFTMmZnNm1fZEQ2dklqU1JpTERxQ3VSYjNfa3JXaFhXMkhUdEJ4V3lpbDcwTjhzZ2MzZ2Z5T1I2anFidERXUGs4ZEh0Wm81Y09YMEx0N1RHMVdqU1Q0QmhfMGlJMmREV0hWeW9MbklJVXY1LV9KRzdVV3ZJNHBHV0w2R00wc3ExU1lIdWFQMWhNS00?oc=5",
