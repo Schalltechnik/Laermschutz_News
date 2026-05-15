@@ -1,5 +1,5 @@
 {
-  "generated": "14. May 2026, 06:37 UTC",
+  "generated": "15. May 2026, 06:46 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -12,45 +12,20 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Keine relevanten Meldungen gefunden.",
-      "items": [
-        {
-          "title": "Entschleunigung in den Alpen – Ruhige Rückzugsorte für bewussten Naturgenuss - Sachsen-Net",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTU50VXFUREpqdF9fN21HX3ExU2RKUHMxa0JVYjZ5TWo4YmtfQUhMTWtNWW5xR3dkajh3UjZ5V0hKajFWZTRUcW5GZmpGU2lEOE1sZkVXcU5oZ0hQT0lxTEV6NmthNDl5V2t6dXN0S0ZkZnhQcEdFb0FUZDVhY0tMd3U0a1BHYWtOOC1XTnEzXzhsaURoajlCdUlBcWlpQ3fSAaQBQVVfeXFMUFgxSUF0czlTelVYc3A1bnV3VkhGSnBjdVBOTnVaQ2p5VlBiSzFSSE5hQzgyQ1IzVFEwa1hBRG5xZkRheVItZ1pSZ0lndTNhTjRlMFZtMEJkLTlqc21oam56YWlpeHQ4bHdEXzhPc2NzdklqbENfajY4MFczQjkyMldyTXZGd3V5UWxVOXM1ZVFTYThTeGI4VW1seFRYWm1IX29SVnI?oc=5",
-          "source": "Sachsen-Net",
-          "date": "8. May 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "dach": {
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Windkraft-Infraschall und Lärmschutzausnahmen für Public-Viewing bei der Fußball-WM sind aktuelle Themen in Deutschland, wobei der Bundesrat letztere explizit ermöglicht hat. In der Schweiz zeigt eine regionale Analyse, wo Bewohner des Linthgebiets besonders stark unter Verkehrslärm leiden.",
+      "summary": "Keine relevanten Meldungen gefunden.\n\nWait - der Titel ist tatsächlich relevant. Hier die korrekte Zusammenfassung:\n\nIn der Schweiz zeigt eine aktuelle Berichterstattung der Südostschweiz, dass Bewohner des Linthgebiets besonders stark unter Verkehrslärm leiden. Weitere Meldungen aus Deutschland oder der DEGA lagen nicht vor.",
       "items": [
-        {
-          "title": "Gefahr durch Windkraft: Vom Vogeltod zum Infraschall - Golem",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRGpSbkR6eHhYYnZlbURqRVNxTDg5cklZRFlqYjVvMEw2TmxNNGFmSDJqTDVhMDZXbjlRQUxWelVfLWdUUVlILXZRa0M1UXpoUTlKd2VPVW5Gb2I2VVlqSlNCeVROS2pEZGFPMWw2RUFGekd5akFKaW00WUpvWGd0TUhOOVp5cTlELUtMZFRuVTlDT050c2VqMndR?oc=5",
-          "source": "Golem",
-          "date": "7. May 2026"
-        },
-        {
-          "title": "Bundesrat ermöglicht Lärmschutz-Ausnahme für Public-Viewing bei Fußball-WM – Unterstützung durch Sachsen-Anhalts Sozialministerin - Du bist Halle",
-          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPc04yY0U2dkZZWml3ZEg3Nkk2NU5HbFhlRkFzeS1YYzJwTFF4czBJTDhpTXZieVF5c0pZd3dlVVBsZjN1NC12MnJ5VUZHLUdOV0l2bkpFVDdYSzhCbnNMSTluZVY1a0lIWHNSZi1CczlZVmJ0eDBGXzE3czAwTkJOc1NodXExVE0tMGV5dHgxdzRFcnhaMzR2blBqWkc2aHdaRnJpRWJuT2U3dV81LWtnRHNSeHhLd28zX0tFOHk1a1FNd2xHbEwxYnQwN2dpNlZ4bEc0cVEwTk9BT0kxUVBFZTBic0ZLSldWXzVXXw?oc=5",
-          "source": "Du bist Halle",
-          "date": "8. May 2026"
-        },
         {
           "title": "Wo die Menschen im Linthgebiet am meisten unter Verkehrslärm leiden - Südostschweiz",
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBXcUNETHMzRllTbHRyMjZSejdGdDRud1RaRS1mNldRcVNTWms5N3J4aTJ4T2xzSUJvX1RBLVJjVklHLTdTVzFqMV9iN2JVd241NER0NHdxYUJ5dlVNLXhNa0V2cVdYTFk4M3c?oc=5",
           "source": "Südostschweiz",
           "date": "12. May 2026"
-        },
-        {
-          "title": "Analyse an Gehörgängen gemessener akustischer Eingangs- und Transferimpedanzen aus zusammengeführten Datensätzen - Jade Hochschule",
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQSUxCb0xRVXlKZ0pvS19PMEZac2ZiRm81RXVmTXhKNG9xVEppZVFBNFpWUXJOV01UcUI0aWpSNlNJdjJtMmxpQUNQVEtQZE1NQ3VUb25uaVlRbk52ODd4RzdQSEVKV2V5elB1ZHhGUmtjLW1jVDE1X1JhNEQ0bWUzWEMtQXVCSWF4ckRwWEhVNi1PSEdacHBMd1dzajFNdnZ1U0VMZ1dtV0t2bHVYeUM1Z28tSkJQTEhpMXNxV2pxclRPcEktTENnQWJ6bENrcm1sZnJ6WENtVk13RnZwc0NrNG5WYUlQdw?oc=5",
-          "source": "Jade Hochschule",
-          "date": "7. May 2026"
         }
       ]
     },
@@ -58,13 +33,13 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "The European Committee of the Regions is calling on the EU to take a stronger and more vocal stance on tackling noise pollution across member states. Additionally, Havila Voyages is contributing to European efforts to reduce underwater noise through its participation in the LOWNOISER project, which aims to promote quieter oceans.",
+      "summary": "Urban noise standards are being aligned with EU regulations, while Havila Voyages is actively supporting the LOWNOISER project, a European initiative aimed at reducing underwater noise pollution in the oceans. Additionally, Dublin-based Lios has secured a renewed €2 million ESA contract focused on acoustic technology development.",
       "items": [
         {
-          "title": "EU should be more vocal on noise pollution, local and regional leaders say - European Committee of the Regions",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeUowdWlZTEM4VWdzQjFvM3hDcGVQNUNYNFptazFJbEl3d1ZhSkhZczFSOWYtdWw0QVBQU3JDRFdkWjdHdWRPRHczNFBYTl92RHRnanMwU1FicWNBVG1KdTlncFcwaG85dkd6dnlZRFFFTXBGTWEzYjNUM0NXM2NET2dVa0RNNXdoMzNwb0NFbzlhSTN3WW5udGI4ekRNVkJYXzlQdVRGWQ?oc=5",
-          "source": "European Committee of the Regions",
-          "date": "7. May 2026"
+          "title": "Urban noise standards will be brought to EU standards - logos-pres.md",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRTF3R2czdXNKMXhFNFRodHp4aUJqZUZKWmhPcWdfZ3lINGxWdkxNZzN3bXo5dkgySGhTbk1BWEZBX3hCcmo3VmdrLV8xVjZvc2Z2RTk5U25mUWRlQWphM2MtOUQ1Q1pEUHZIaHhnMUt6X1lPSDVVVHZUbUJuVUVWX0hzRkVxYVhfdmlUQg?oc=5",
+          "source": "logos-pres.md",
+          "date": "12. May 2026"
         },
         {
           "title": "Air pollution - European Environment Agency (EEA)",
@@ -73,16 +48,22 @@
           "date": "8. May 2026"
         },
         {
-          "title": "Die EU sollte lautstarker gegen Lärm vorgehen, sagen die Kommunal- und Regionalpolitiker - European Committee of the Regions",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZWREanpVeDI2bXRGTUJKaEdEa2VoN1NiczJ5SVhqSC0xYzlBTjBZNm5MNzZmQmNPaDJTLU5jQ2xFQnIycS1PM0tWMlo2YzdheUdGa3o2YlI1RUY3cXNGZFpQVWU3TWxGVFEyYVpraUV0bXdkREtwUHFSV05OVzBIc2U4UlpUT2djcml0LWg1U21RYjlHaU5lZ1FFWXBoTzBLRWIyeEw3QUJVNy1TMTIzcXYyQkFoWGFjOGhtNk1KNnhUdzlG?oc=5",
-          "source": "European Committee of the Regions",
-          "date": "7. May 2026"
-        },
-        {
           "title": "Havila Voyages Supports European Push for Quieter Oceans Through LOWNOISER Project - Travel And Tour World",
           "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdFN1M3dxdG81VjR0TWp2bWRheV9sNGV5MG05dU1pU2FYRVhFcDgwV3BGRWNxR2RiTGgtN09GV3VjVkdCMk9fMnJxaTlYRUh0dFI3aTVULVY5NHFCRDJRbE1falhkb0lxWll2a2hmYkVPLUR2d0NzNVdLRGRMRXpkQ2xvTEhWSTdnZVlGc1E3dXJnY2hvY0tNc0pVbzZETlg5aHhxMDN6YmJIOHFMTk16TVp4QkJvRnRZNGFZQTZJdl9RMk83aGl1eGlmSQ?oc=5",
           "source": "Travel And Tour World",
           "date": "10. May 2026"
+        },
+        {
+          "title": "Dublin’s Lios gets renewed €2m ESA contract for its acoustic tech - Silicon Republic",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORHBIeS1hUGJ0c1dJaDhmN3hDcW5QNHdSOVFyV2szeFhHalZ3azlHejE4emo3TFluOWNBVXBHcU9CWWZRQ2g1X0FYQUdkbGRQZ1V5b3ZWUUZFU29SZWM3Yzk3TkRqZ0g4UDF4OE5GTWttNGd3UXV1M3UyVHF4Q0tTZHFmbmRjdUo3RUdJaDBDS082UVVNQU1tRTRCMERiYVpOQWlzMg?oc=5",
+          "source": "Silicon Republic",
+          "date": "14. May 2026"
+        },
+        {
+          "title": "3M Littmann Stethoscopes: Clinical-Grade Acoustic Precision for Healthcare Professionals - AD HOC NEWS",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORFJmLWVQeVVaY20xX2dfVkprUE9hTllrbVNKQmk0ZnlRVzhUZ1RXaS1EODVoZEFtOEk1UnVIMjBCcHJJMjA2NkxDa2hmUUNFeHRERnNxS1NrVjRWb2pKWC1fOHFIbGM4Zjh2b3paUnRVUjEwUkVMT1NsTTNTbndYZEF4VnhZci1lRjB4VXU0SnRnV1hSd0s3eXF6am1xWHA2UnRtTkt3enZ2MUxUUEtiSnNEalMxdFE3SF9ZNXI2anpUclRYcWFOaklpN08?oc=5",
+          "source": "AD HOC NEWS",
+          "date": "14. May 2026"
         }
       ]
     },
@@ -90,7 +71,7 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Infrasound from AI data centers is generating citizen complaints about adverse health effects from low-frequency vibrations that evade standard decibel measurements, highlighting a growing acoustic challenge for urban infrastructure. Research into inaudible low-frequency sound also sheds light on why certain buildings produce inexplicable feelings of unease, a phenomenon long associated with hauntings but now increasingly understood through the lens of acoustics.",
+      "summary": "AI data centers are generating growing public concern over infrasound emissions that, while inaudible, are physically felt by nearby residents and reportedly cause adverse health effects despite not registering on standard decibel meters. Low-frequency sound is also gaining broader attention as a phenomenon that can induce unsettling sensations in buildings, offering a scientific explanation for spaces that are commonly perceived as haunted.",
       "items": [
         {
           "title": "AI data centers face increasing complaints about inaudible but 'felt' infrasound — citizens complain high- and low-frequency sounds do not register on decibel meters but cause adverse health effects - Tom's Hardware",
