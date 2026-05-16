@@ -1,5 +1,5 @@
 {
-  "generated": "15. May 2026, 06:46 UTC",
+  "generated": "16. May 2026, 06:11 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -19,8 +19,14 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Keine relevanten Meldungen gefunden.\n\nWait - der Titel ist tatsächlich relevant. Hier die korrekte Zusammenfassung:\n\nIn der Schweiz zeigt eine aktuelle Berichterstattung der Südostschweiz, dass Bewohner des Linthgebiets besonders stark unter Verkehrslärm leiden. Weitere Meldungen aus Deutschland oder der DEGA lagen nicht vor.",
+      "summary": "In der Schweiz beleuchtet die Südostschweiz, wo Bewohner des Linthgebiets besonders stark unter Verkehrslärm leiden. Aus Deutschland steht die Luftfahrtstrategie der Bundesregierung in der Kritik von Umweltverbänden, was indirekt auch Fragen des Fluglärms berührt.",
       "items": [
+        {
+          "title": "Umweltverbände kritisieren Luftfahrtstrategie der Bundesregierung - airliners.de",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPV3hYUEhOZ2w5dFpyZGdERTZFS1kxcUxWcWF4bjJVRGVJd19iYTNBckpvdm16TU42YXJZTll3UjBYN3hSYVBqN2s0SlRqMjktaEIzcVRLWTJOSGVDRjBWZVJlMDRwaTUyRHA1MjdKaFc4Z0U5c2JScXNZUHFNZmprdkVPLXBhVzZoc21TSC1IVnA4UUZENVk4VA?oc=5",
+          "source": "airliners.de",
+          "date": "15. May 2026"
+        },
         {
           "title": "Wo die Menschen im Linthgebiet am meisten unter Verkehrslärm leiden - Südostschweiz",
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBXcUNETHMzRllTbHRyMjZSejdGdDRud1RaRS1mNldRcVNTWms5N3J4aTJ4T2xzSUJvX1RBLVJjVklHLTdTVzFqMV9iN2JVd241NER0NHdxYUJ5dlVNLXhNa0V2cVdYTFk4M3c?oc=5",
@@ -33,7 +39,7 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Urban noise standards are being aligned with EU regulations, while Havila Voyages is actively supporting the LOWNOISER project, a European initiative aimed at reducing underwater noise pollution in the oceans. Additionally, Dublin-based Lios has secured a renewed €2 million ESA contract focused on acoustic technology development.",
+      "summary": "European noise control efforts are advancing on multiple fronts, with urban noise standards being aligned with EU regulations and Paris demonstrating measurable success in reducing noise pollution. Additionally, Havila Voyages is contributing to the LOWNOISER project, supporting the European initiative to reduce underwater noise in the oceans.",
       "items": [
         {
           "title": "Urban noise standards will be brought to EU standards - logos-pres.md",
@@ -42,10 +48,10 @@
           "date": "12. May 2026"
         },
         {
-          "title": "Air pollution - European Environment Agency (EEA)",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBLLXc1aVp0Y0dua0RtdkJHakJMRkxzejlxM3g0d3I3N2hReVhhUkhJc3h5eFpsd1pySXZKcy1veXVPVnhjbVRUTGZYeTZmZk02YjMwakZ6TWhnZnRSa2VnamE4alYyRTU0ZXc?oc=5",
-          "source": "European Environment Agency (EEA)",
-          "date": "8. May 2026"
+          "title": "Paris Has Successfully Cut Noise Pollution, but Urban Birds Still Can’t Sing At Their Natural Pitch - TriplePundit",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUkV2M2I0b2tLZk9sa1dhMDdaT3JGTlhPeDE4STIwSG1RRGNxWGRpRGoyWUc5SzFUaUZZd0xTaG84QnRxcDRjWUVPeVlBTlFxcHJkUlh2aDd4OTBEa2tIeHFvcE8waEM0MFAwLVFNbUFaeExNVExaMUZIZHRmcWFiMmtHcFZIUXZsVE9GTA?oc=5",
+          "source": "TriplePundit",
+          "date": "15. May 2026"
         },
         {
           "title": "Havila Voyages Supports European Push for Quieter Oceans Through LOWNOISER Project - Travel And Tour World",
@@ -58,12 +64,6 @@
           "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORHBIeS1hUGJ0c1dJaDhmN3hDcW5QNHdSOVFyV2szeFhHalZ3azlHejE4emo3TFluOWNBVXBHcU9CWWZRQ2g1X0FYQUdkbGRQZ1V5b3ZWUUZFU29SZWM3Yzk3TkRqZ0g4UDF4OE5GTWttNGd3UXV1M3UyVHF4Q0tTZHFmbmRjdUo3RUdJaDBDS082UVVNQU1tRTRCMERiYVpOQWlzMg?oc=5",
           "source": "Silicon Republic",
           "date": "14. May 2026"
-        },
-        {
-          "title": "3M Littmann Stethoscopes: Clinical-Grade Acoustic Precision for Healthcare Professionals - AD HOC NEWS",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORFJmLWVQeVVaY20xX2dfVkprUE9hTllrbVNKQmk0ZnlRVzhUZ1RXaS1EODVoZEFtOEk1UnVIMjBCcHJJMjA2NkxDa2hmUUNFeHRERnNxS1NrVjRWb2pKWC1fOHFIbGM4Zjh2b3paUnRVUjEwUkVMT1NsTTNTbndYZEF4VnhZci1lRjB4VXU0SnRnV1hSd0s3eXF6am1xWHA2UnRtTkt3enZ2MUxUUEtiSnNEalMxdFE3SF9ZNXI2anpUclRYcWFOaklpN08?oc=5",
-          "source": "AD HOC NEWS",
-          "date": "14. May 2026"
         }
       ]
     },
@@ -71,7 +71,7 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "AI data centers are generating growing public concern over infrasound emissions that, while inaudible, are physically felt by nearby residents and reportedly cause adverse health effects despite not registering on standard decibel meters. Low-frequency sound is also gaining broader attention as a phenomenon that can induce unsettling sensations in buildings, offering a scientific explanation for spaces that are commonly perceived as haunted.",
+      "summary": "Infrasound from AI data centers is generating citizen complaints about adverse health effects from low-frequency vibrations that evade standard decibel measurement, highlighting a growing acoustic challenge for urban infrastructure. Research into inaudible low-frequency sound also sheds light on why certain buildings produce inexplicable feelings of unease, a phenomenon long studied in architectural acoustics.",
       "items": [
         {
           "title": "AI data centers face increasing complaints about inaudible but 'felt' infrasound — citizens complain high- and low-frequency sounds do not register on decibel meters but cause adverse health effects - Tom's Hardware",
@@ -94,10 +94,10 @@
       "summary": "Keine relevanten Meldungen gefunden.",
       "items": [
         {
-          "title": "Laborgebäude Universität Salzburg kofler architects - World-Architects",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZV9ockE0NEozeDBaMGZ5SV9ScHdiUGZJbXU2V0FHYmo5QXJsM0JXMTZNMXdRSThoTndoOW53blp2UG1aX0JZNUwyNU9oMUwxVzl0bVNIbTR5R3BkbXh4RlZrSUhxVER2SW5YZE1vZUhFcE51cEdzRVAzb1RKakNTOVhHUXZVQWxRTnJNTjdieGwxeFhs?oc=5",
-          "source": "World-Architects",
-          "date": "9. May 2026"
+          "title": "Forschungskonzertsaal in Oldenburg: Kooperation für perfekte Akustik geplant - NWZonline",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZkswWk1zeTFrZmxhcnBFN094eXRobzY2NE1Kc1R3UEtwQVctdlRKWVZ4Y1BYc1ZFV3lTdGRVb1J3M0VpajBCUnFxcEtPZHU3YjlSTVVLWXZvN3dIV3o0azZpam5RQ0tuLWhBR0dvQjNSY2NPY2lOTDhDLW5mbkNzTzhZZDlidDA4VzNTUHRWSjY4eGljTHdEelFKcnVkenJDWWJ3OHphYk5HS0xQLWRhYllLcXUwNU5KU29acXR0d2Z4WnpWNjA0a0RoREQ?oc=5",
+          "source": "NWZonline",
+          "date": "15. May 2026"
         }
       ]
     },
