@@ -1,29 +1,43 @@
 {
-  "generated": "17. May 2026, 06:35 UTC",
+  "generated": "18. May 2026, 07:10 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "In Graz sorgt ein sogenannter „Lärm-Blitzer\" für Kontroversen, der Fahrzeuge mit übermäßiger Lärmemission erfassen und mit Strafen von bis zu 5.000 Euro belegen soll. Das Gerät stößt auf geteilte Meinungen und entfacht eine öffentliche Debatte über die Verhältnismäßigkeit der Maßnahme im Rahmen des städtischen Lärmschutzes.",
+      "items": [
+        {
+          "title": "5000 Euro Strafe? „Lärm-Blitzer“ aus Graz und sorgt für Streit - Kleine Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSjVoY2VHcG1SV0JHbnlQOVdCTnBDY1ZuQ2VTV0s1dzhLLVI1ZjB1UEIxUUlaVGVfdi1hZ3o5T1ZueElsbG4tcHhhWF9kQWtQV3hPcWR4ejUzQjZvZm9oSTNHQThQSkdaVmFxQ3lkdVI4dmszbTMzemdvZWFOeEdwcm0xZWxsSERMWm1HcHlCbHNGT002emIwRlY4N0Z5eUx1bktZakRaZw?oc=5",
+          "source": "Kleine Zeitung",
+          "date": "17. May 2026"
+        }
+      ]
     },
     "austria": {
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "Keine relevanten Meldungen gefunden.\n\nWolfsgraben fordert höhere Lärmschutzwände, um die Bevölkerung besser vor Verkehrslärm zu schützen.\n\n---\n\n*Korrektur:* Die Gemeinde Wolfsgraben setzt sich für die Errichtung höherer Lärmschutzwände ein, um die Anwohner effektiver vor Lärmbelastungen zu schützen.",
+      "items": [
+        {
+          "title": "Wolfsgraben will höhere Lärmschutzwände - OE24",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaUhQcDhCMUs1V1BULWlOczVsak1lQ3I1UWdxRThib1ljTTc3NnE3cjhhVzNTbXFVT1pKdGtrUlViWldFV0IxOGdsNWxqN1RIQmVGc25lYzdkX1JGeHczbFYzZ2FDZVJUdWt6TVB5WUNVemFkTU5vTlM1Vl93dEt1SW5xYzU0NGRSOGRkTUdZSU4za3B3WV9zbzNHcG95cmlWWTBoeXlhTVlpY1ZHYlRn0gG0AUFVX3lxTE9RRmtGUFlZaHRmdHdvdXVEUkE0cF85X3lIYzZkOHRYQWo1eVVXWTFtcVhYUEJmbmZiRUxBUnM0ZWkteUYzdVFUYmhnbi1vZ1FYRjdHOUhjNmtBZ0NMZDFrWU1pM0dKeERWOEZvRFl2dGhWYXdyWEd0Zm9DVEdqZkpiaGdCRUpRRXlpX0hRNThlQVdJa25DOWZCYVRJTzJ2S0YtT3FYbU1CbzYtT29GbEN1NDRnTA?oc=5",
+          "source": "OE24",
+          "date": "17. May 2026"
+        }
+      ]
     },
     "dach": {
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "In der Schweiz zeigt eine aktuelle Analyse, wo die Bevölkerung im Linthgebiet besonders stark unter Verkehrslärm leidet. Weitere relevante Meldungen aus Deutschland oder der DEGA lagen nicht vor.",
+      "summary": "In der Schweiz zeigt eine aktuelle Analyse, wo die Bevölkerung im Linthgebiet besonders stark unter Verkehrslärm leidet. Weitere relevante Meldungen aus Deutschland oder von der DEGA lagen nicht vor.",
       "items": [
         {
           "title": "Bienen brummen auf Speed – Oliver Rihs mit Berliner Typenwahnsinn „#SchwarzeSchafe“ - MSN",
-          "link": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxOV2V6c1l5eW92UlNKcndycHJVck5yX25Gbzd3Tk15Y3dNT29YWHhEVWk3ckpsTDQtbkpWV09jYm4zeFdZSEZlS09MQWJQN1JfRy1PZl9JeHNxUlltQnEyZFVlOGpSbFkyQUI2NXc1b2tZUnNWbFZMaHJwODBlb0xMUVJXeUV4ZnhsNkVxSDNrckF0V0dNWVZJd1MzWHZDM3RtWmdULWlmVF8wUF9udHFySkZITFl2cmhKUEd3bTZ5eEhzanF3Z1ZxSEY5SzlmMWZXSmFWNFpWOTZMcFlSRGd5NWFNOGY0UmVqRExyd2ttcVpIX3JEOFlxNm1RUkYwRllhWTF3WWx2T2tZdEVoRlBydW1yeTZrMXg2ajV4U1h6SjQ1UkJpUTZTOUVxaGpVQjNKZjFOT2tSZ0lYZUxCSVBTa0xLdWYwYWw1SlA2YlJvR1ZwVFBJNTcwYklUSzlwQ2VwS21EN3FB?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxPS0FWWEZjZlhNbFB1bkJsUmkycjU1RHlON1BCM0xzU29ScXZjZ2VEbE5NQlpmRF9WdmIxckJyOXJENnNBSWY4bFZnQzE2dUhkM2o4REZRTVZ1MERyQkxaLUQ4eEtMUlNJTEZpSURuUmZ1MXNhUl9ELURHN0EtQ1QxRXYxUnpxejNxWktwVjBGUURlY1pMZzN3Mk1FRGgtSjZkQTRYS3VaNUtSTzZ4dUhLY19CWE82bkJtTFctTHp6RVB1N0JmLWVQTE9yeEROS3RJLVF0ekt6LUFGMUFaUk9XZm9EODZlSDRNZEM4MFlBRUNBNFNnRlRvdlh6MEdaQnhvcGdPcXM0WWdUblVKSENHMGF3MjNubmh3N29IT2pNYlZ6NUlrVFNvRHVjMVIwaXR4cWc2RHRSNzM5WWJkcDdvTlo4OUJ0cGZYUWhfaUNPLUs0MGp2N1BBeGR2SUJLSXl0RUo1dQ?oc=5",
           "source": "MSN",
           "date": "16. May 2026"
         },
@@ -39,7 +53,7 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Paris has made measurable progress in reducing urban noise pollution, though environmental impacts on wildlife persist. Dublin-based Lios has secured a renewed €2 million ESA contract for its acoustic technology, signalling continued investment in noise monitoring and control solutions in Europe.",
+      "summary": "Paris has made notable progress in reducing urban noise pollution, though research indicates that city birds remain unable to vocalize at their natural pitch despite these improvements. Meanwhile, Dublin-based Lios has secured a renewed €2 million ESA contract for its acoustic technology, signaling continued investment in sound monitoring and management solutions.",
       "items": [
         {
           "title": "Paris Has Successfully Cut Noise Pollution, but Urban Birds Still Can’t Sing At Their Natural Pitch - TriplePundit",
@@ -59,14 +73,8 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Research into infrasound continues to gain public attention, with citizen complaints emerging around AI data centers generating low-frequency vibrations that evade standard decibel measurements yet produce reported adverse health effects. This phenomenon aligns with longstanding acoustic research linking infrasound in built environments to sensations of unease, potentially explaining why certain buildings are perceived as haunted.",
+      "summary": "Infrasound — sound below the threshold of human hearing — has been identified as a potential explanation for feelings of unease or \"haunting\" in certain buildings, as low-frequency vibrations can cause physiological and psychological effects in occupants. This phenomenon highlights how architectural acoustics and structural resonance can generate infrasound that humans perceive subconsciously, influencing mood and sensory experience without an obvious source.",
       "items": [
-        {
-          "title": "AI data centers face increasing complaints about inaudible but 'felt' infrasound — citizens complain high- and low-frequency sounds do not register on decibel meters but cause adverse health effects - Tom's Hardware",
-          "link": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxNUWR1UU93MnZsb21YbEpzaTdMbWVxOGpEVURsVjA0WUpuQUM5Z080V2Zvd2ZudERhU0hCVGtLRmt3VTZCVldQbmVwNXl5Y29pQWJ2VTBNTWVOcW83Rlh3Q1J1R3B0ZTdfOUVSZmZmemFPNlpOUkhMa2NVcWd5dTIyYWEyay12S1IybVlNT2xrcDhFcThEMEZEeUY0ZFhxNERTRDhBMmZNSmVGb2NRRFMzaXJ2MGtuVDJHQ25FZkI1aW1EOGNpUFVfc1h6cG9sanVyN1NwMWJqTThBNWhxb1JVemtVTlprLXVUSXJueUxPZUYwekV2bmNXcDVSV09Ra08yTW1FWUg5WVp4LWdaVTA4cmJnb0VsYjBaM2lRR3B2SjVvTFliT3poQWUtVzJzWmIzdnFVSWsxMUNLVGM?oc=5",
-          "source": "Tom's Hardware",
-          "date": "10. May 2026"
-        },
         {
           "title": "This Inaudible Sound is Why Some Buildings Feel Haunted for No Apparent Reason - ProPakistani",
           "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbXVwbjAtSmRmY2FjLXpHaE9LbXozVUlfVVktVjI2SXgyNEw2MFRsRm5PZjR4OXEtYUlBcV9XMG5ZRHNTcTRjUzE0cGdsS1dwNjlKYmxZZzV3MUJwS0N0ZHJud0E5ZmNIQkZrbUpNNWE4ZDdxUnltLTFGZGJ4a1h1VDNFRFAxT0hjaU1IdlJfTm5zX2hpYnBQUVp2NWZMWV9WQlZYd250aTB2Y2wyaXF3U3pjckPSAboBQVVfeXFMTS1TR2RPbHNpZDJzcmRvaGtmVzFUMEp0WnRrdFpycU5sYTRsOTEybU1ncTM1Q3ZwOWJvS2w4a1Iyc2hmcU95Nlp4SDZmQXRteFNNRjczT045YzhDcjNfai1US0l4TmhscEZqSDJTSFFQeGtKdUxvY1dKNmVWc3lSQVdSekoxZWdVNW9oak1BbHVLd1lYWUtXWlhJbmlfZTF5ZV9vcExJN3ZpM1J6WnFVZ2xDYXg2cWFENjJ3?oc=5",
@@ -88,10 +96,10 @@
           "date": "16. May 2026"
         },
         {
-          "title": "BAFA: Handreichungen zu Großwärmepumpen und Großwärmespeichern in Fernwärmenetzen - Baulinks",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1rdXZnbW9tdDdMTWVlTDVneTZGY09qMFhiaFhDczY0eE1LRDM1endrbFI3cjRvaE9uNVNDN2p6NW83MXNUcG1OdXVUcVFEREM0TXVMYlNXUGdndVVv?oc=5",
-          "source": "Baulinks",
-          "date": "11. May 2026"
+          "title": "Forschung und Kultur Wie eine Holzkiste den Wissenschaftsstandort Oldenburg aufwerten soll - NWZonline",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZkswWk1zeTFrZmxhcnBFN094eXRobzY2NE1Kc1R3UEtwQVctdlRKWVZ4Y1BYc1ZFV3lTdGRVb1J3M0VpajBCUnFxcEtPZHU3YjlSTVVLWXZvN3dIV3o0azZpam5RQ0tuLWhBR0dvQjNSY2NPY2lOTDhDLW5mbkNzTzhZZDlidDA4VzNTUHRWSjY4eGljTHdEelFKcnVkenJDWWJ3OHphYk5HS0xQLWRhYllLcXUwNU5KU29acXR0d2Z4WnpWNjA0a0RoREQ?oc=5",
+          "source": "NWZonline",
+          "date": "15. May 2026"
         }
       ]
     },
