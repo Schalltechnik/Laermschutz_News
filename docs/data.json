@@ -1,11 +1,11 @@
 {
-  "generated": "22. May 2026, 07:01 UTC",
+  "generated": "23. May 2026, 06:23 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "In Graz sorgt ein sogenannter „Lärm-Blitzer\" für Kontroversen, der Fahrzeuge mit übermäßiger Lärmemission erfassen und mit Strafen von bis zu 5000 Euro belegen soll. Das Gerät stößt auf geteilte Meinungen und entfacht eine öffentliche Debatte über die Verhältnismäßigkeit der Maßnahme im Rahmen des städtischen Lärmschutzes.",
+      "summary": "In Graz sorgt ein sogenannter „Lärm-Blitzer\" für Kontroversen, der Fahrzeuge mit übermäßiger Lärmemission erfassen und mit Strafen von bis zu 5.000 Euro belegen soll. Das Gerät stößt auf geteilte Meinungen und entfacht eine öffentliche Debatte über die Verhältnismäßigkeit der Maßnahme.",
       "items": [
         {
           "title": "5000 Euro Strafe? „Lärm-Blitzer“ aus Graz und sorgt für Streit - Kleine Zeitung",
@@ -19,7 +19,7 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Die Gemeinde Wolfsgraben fordert höhere Lärmschutzwände, was auf lokalen Handlungsbedarf im Bereich Lärmschutz hinweist. Zudem wird die gesundheitliche Auswirkung von Windparks auf Anwohner diskutiert, was die Frage nach ausreichendem Lärmschutz bei erneuerbaren Energieanlagen aufwirft.",
+      "summary": "In Wolfsgraben wird der Ruf nach höheren Lärmschutzwänden laut, was auf lokalen Handlungsbedarf im Bereich Lärmschutz hinweist. Zudem beschäftigt die Frage, ob Windturbinen gesundheitsschädliche Auswirkungen auf Anwohner haben, die österreichische Öffentlichkeit.",
       "items": [
         {
           "title": "Wien erleichtert Einbau von Klimaanlagen im Gemeindebau - Der Standard",
@@ -34,8 +34,8 @@
           "date": "17. May 2026"
         },
         {
-          "title": "Schaden Windparks der Gesundheit von Menschen, die in der Nähe leben? - Der Standard",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZEVydm1MNWVPbGJOaUN4NnNqU2lDcmlUM0tzZ29WX3ltM0dnUjlweEkyMm9pVW12d2NjbHJNNWV3cGFobm9XT3RaXzQzUE1pby1pVXhPMEVjR3V4NHNoZEo0T3RTZml0NjJ1U3JDb01aZk1xRGttM205MGhqQjdwVXB6UDBqTmNveUVOQnRXTTdMbnhUQzZjXzBnRnBHVDZqMk5rMFdtLXFKTEhpb3lYTE9VZw?oc=5",
+          "title": "Schaden Windturbinen der Gesundheit von Menschen in Nachbarschaft? - Der Standard",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbkRQcXFwLW5HQmhWRnUtSHkxNVl5bWF3TG5QRXpPT0N4djRERS1TYVEyazMtLVozN05ITGtjYmNEamllM1RpWENwYkR0dGZmaFZiUnZTLWJnMXRua1FMbUJid0VVMUVITko5RnJGTVFIY0ltcGFkMTdXZnNCeWJ0cGQ3OF9iMWhNZTlORmtaTGNhbk1UbzJwczBTa3RLblZWc3hGal9qNV9ZdDhSYjJNY0hB?oc=5",
           "source": "Der Standard",
           "date": "20. May 2026"
         },
@@ -51,17 +51,23 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Ein Gutachter hat laut SWR bestätigt, dass Windräder in Deutschland zu laut sind, was möglicherweise das Aus für die betreffende Anlage bedeuten könnte. Weitere relevante Meldungen aus der DACH-Region oder von der DEGA lagen nicht vor.",
+      "summary": "Wiesbaden treibt aktiv Maßnahmen zur Lärmminderung voran, während in Hannover ein Anstieg des Fluglärms verzeichnet wird. Weitere relevante Entwicklungen aus der Schweiz oder Meldungen der DEGA liegen in dieser Nachrichtenauswahl nicht vor.",
       "items": [
         {
-          "title": "Gutachter bestätigt, dass Windräder zu laut sind: Ist das das Aus für die Anlage? - SWR",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdGxIN0k2SnRqSnNIbDFpaWVlMVNFam9FbjU0VlJHSUk1YkxMeXBGOHZxcUhLaC1obDlmU0tiU1hkX21Ob2t1djdvMVlVOUlVVHhrY1ZBSmxPa0V4SFlKS0NGeGItQUtyR0VlWXEyclhqR3BHN1dvcXVPUDVwdllLRUVEODR1U3VSZ29BM24yRkphT3p0dGxYMFhWbVYtYzZCR2h0aFRyczlJUGczNmZrVXpnRC1OM2M?oc=5",
-          "source": "SWR",
+          "title": "Mehr Fluglärm in Hannover + Diebesbande geschnappt + Promi-Wirt Pit Seidel ist tot - MSN",
+          "link": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxPLWlKLXh0dDhCenhmV1JZRUgxNnhxdnlFRGtoQ0V1MjJTLS1QdHFtRXVVZmlsLVIyeHpzWlVBLU9jMXE0Q0FJRHo1Qmp6VmhBdDhCRnZmdS04eEtrNFRjT1A4NTJXWURWaVdVb2xvTllSaDRRbFltQWEwNXU2bVlYU0FtbVBBNmljbnBodmM5NXpVQkJrWl94bERCTkFOb0xnakFHSy1EVXVLbDVhaGZ3YlliaTBnUm1TN3dUaF80VDBwbzktbmlmSHY2NkpwNFQtMG1JUmF6Yml2VHJnMVY2VVlsSXB1M0gtNk1pWEJMU19RMFpTeWVrQ1VScXdRcDNuLWJZSmNUVUNqajVqSmxtR1NDOEQxU2QxTmZqa1RpQXFSOWFhUlUtNHM4Y3Frd29BamJoUG9VS3VNWWktSWpYZlBuZkRVYWxkcktpZ0gxQnpkRGJFd2FNU0EwZGpUN2pUamhFMmtyYjRoTzU4WHM0?oc=5",
+          "source": "MSN",
+          "date": "21. May 2026"
+        },
+        {
+          "title": "Lärmminderung - Landeshauptstadt Wiesbaden",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPclN3ZFdKTUtvUTdqanlWZEkyUG9hS2h0UDNnV1BlM0FqN09vZ2FGdDM1ZFRZT0R4clZuMG91UDlxOGgyR2tVTm5pZF9qSmFnY0NBZXFQZEZ4TF9hb0lZU2FiQVFxTjk5dEVYVE5fLXhyWXZWV05JM2lwbDRpdkgzM2lHZGYtZW9Da0Qw?oc=5",
+          "source": "Landeshauptstadt Wiesbaden",
           "date": "19. May 2026"
         },
         {
           "title": "Bienen brummen auf Speed – Oliver Rihs mit Berliner Typenwahnsinn „#SchwarzeSchafe“ - MSN",
-          "link": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxPS0FWWEZjZlhNbFB1bkJsUmkycjU1RHlON1BCM0xzU29ScXZjZ2VEbE5NQlpmRF9WdmIxckJyOXJENnNBSWY4bFZnQzE2dUhkM2o4REZRTVZ1MERyQkxaLUQ4eEtMUlNJTEZpSURuUmZ1MXNhUl9ELURHN0EtQ1QxRXYxUnpxejNxWktwVjBGUURlY1pMZzN3Mk1FRGgtSjZkQTRYS3VaNUtSTzZ4dUhLY19CWE82bkJtTFctTHp6RVB1N0JmLWVQTE9yeEROS3RJLVF0ekt6LUFGMUFaUk9XZm9EODZlSDRNZEM4MFlBRUNBNFNnRlRvdlh6MEdaQnhvcGdPcXM0WWdUblVKSENHMGF3MjNubmh3N29IT2pNYlZ6NUlrVFNvRHVjMVIwaXR4cWc2RHRSNzM5WWJkcDdvTlo4OUJ0cGZYUWhfaUNPLUs0MGp2N1BBeGR2SUJLSXl0RUo1dQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxOV2V6c1l5eW92UlNKcndycHJVck5yX25Gbzd3Tk15Y3dNT29YWHhEVWk3ckpsTDQtbkpWV09jYm4zeFdZSEZlS09MQWJQN1JfRy1PZl9JeHNxUlltQnEyZFVlOGpSbFkyQUI2NXc1b2tZUnNWbFZMaHJwODBlb0xMUVJXeUV4ZnhsNkVxSDNrckF0V0dNWVZJd1MzWHZDM3RtWmdULWlmVF8wUF9udHFySkZITFl2cmhKUEd3bTZ5eEhzanF3Z1ZxSEY5SzlmMWZXSmFWNFpWOTZMcFlSRGd5NWFNOGY0UmVqRExyd2ttcVpIX3JEOFlxNm1RUkYwRllhWTF3WWx2T2tZdEVoRlBydW1yeTZrMXg2ajV4U1h6SjQ1UkJpUTZTOUVxaGpVQjNKZjFOT2tSZ0lYZUxCSVBTa0xLdWYwYWw1SlA2YlJvR1ZwVFBJNTcwYklUSzlwQ2VwS21EN3FB?oc=5",
           "source": "MSN",
           "date": "16. May 2026"
         }
@@ -71,19 +77,13 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "A recent IFAW survey reveals that over 80% of European citizens support measures to address underwater noise pollution, reflecting broad public backing for protecting marine life from acoustic disturbance. Meanwhile, despite Paris achieving notable reductions in urban noise pollution, studies show that city-dwelling birds still cannot vocalize at their natural pitch, highlighting the persistent challenges of noise control even where policy progress has been made.",
+      "summary": "European support for reducing ocean noise pollution to protect marine life has gained momentum, with advocacy groups highlighting public backing for quieter seas. This aligns with broader EU environmental noise directives that increasingly extend beyond land-based noise to address underwater acoustic impacts on ecosystems.",
       "items": [
         {
-          "title": "More than 80% of European citizens support action on underwater noise - International Fund for Animal Welfare | IFAW",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbVAzN2JCdkVYa0dmdmtNOTBWQmJYS0VSSWdKRDNtZlBnSzdPRFN0Sm9wX3NKejNVbFV3X0lqVjFMaERWVWlqY3p6R0Q3djZwRFRrOU92VTA1UEpoRDFETFFHWS1IaUhrRUExOG85cTJRZjBDczE3Wkswc053OTdzaXRXLUVYaU9BQXJTbXREVVRnbmR0blRCOUR3aFRCeDNuTUJHSlF2VTNCeTl6R1NQeHRTWDZVQQ?oc=5",
-          "source": "International Fund for Animal Welfare | IFAW",
-          "date": "20. May 2026"
-        },
-        {
-          "title": "Paris Has Successfully Cut Noise Pollution, but Urban Birds Still Can’t Sing At Their Natural Pitch - TriplePundit",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUkV2M2I0b2tLZk9sa1dhMDdaT3JGTlhPeDE4STIwSG1RRGNxWGRpRGoyWUc5SzFUaUZZd0xTaG84QnRxcDRjWUVPeVlBTlFxcHJkUlh2aDd4OTBEa2tIeHFvcE8waEM0MFAwLVFNbUFaeExNVExaMUZIZHRmcWFiMmtHcFZIUXZsVE9GTA?oc=5",
-          "source": "TriplePundit",
-          "date": "15. May 2026"
+          "title": "How Madrid’s new F1 Grand Prix aims to become Formula 1’s biggest event - Scuderia Ferrari Fans",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQb1ZUVkdtTV9mc0VwUHkwbFJ1OGZKX2pWVWw0M1BEd1lBaUZIY1VaUTZycG0zNGVEQ0V1Rkp3V1JuanZMUllJLWR4dkp6cV96cllFdWI4UUhvRXRjZ0o1c2RSX2VpaVlaSTFPcFpJUTBheEFjX3RXSThrdzNWWlhTT08zQnRlWFBVVjRzR1lvNmN4dnhsUF83WUpVbw?oc=5",
+          "source": "Scuderia Ferrari Fans",
+          "date": "19. May 2026"
         },
         {
           "title": "Europeans back action to quiet our ocean and protect marine life - International Fund for Animal Welfare | IFAW",
@@ -97,7 +97,7 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Research has linked infrasound — low-frequency sound below the threshold of human hearing — to the eerie, haunted sensations people sometimes experience in certain environments, with Alberta researchers contributing to this finding. Meanwhile, the railway noise barrier market is being analyzed across various applications, reflecting continued industry interest in mitigating environmental noise pollution.",
+      "summary": "Research into infrasound continues to gain attention, with Alberta researchers and multiple studies linking low-frequency sound — below the threshold of human hearing — to eerie sensations, haunted-house feelings, and measurable mood changes. The railway noise barrier market is also under analysis, reflecting ongoing industrial interest in acoustic mitigation technologies.",
       "items": [
         {
           "title": "Noise Barriers For Railways Market Analysis By Application, - openPR.com",
@@ -116,6 +116,12 @@
           "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOeFQ3MDYtU1lRdU9zaHk2amR6QUUyVFllejAtOTVNWGJpbjczdTh0SUtaU0ZLTF9paWh2VHJWSk8wMV90eW1Bc1J5MEFSMnhucXZmNVFFc25KdTRxLVNBVF9IWTljeXJ4NE5Nb09DcFljVlBXd3RBSE5hNEZZcUpWUFhQY1YtbWdSX2JvTUlKTkVyTGNTbE1nZ2FKaWFUNjdaQXM5TmVSZ1MwQWJsVkVoTTFTdzNhV1FONndVNm03MWpVZFVtMXpfaEhGWHV3TGtYZE5oYXVzX2dmQWpqNUFHZ0V1N3VFUllmd3AwNmIyQXpiUkhmb0JwRUZuZw?oc=5",
           "source": "MSN",
           "date": "18. May 2026"
+        },
+        {
+          "title": "Infrasound study links sound to mood changes - theticker.org",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVVpDTHctRGEtZDVVUW9zMmlhN2pjeng5MGxJdS1zX05BNUx3WlE3RHhVZ254OV9pcVZVUGs5amc0c1VfX0I4Z1ZRSm1Td3U1MGtpaklqWWZqbk1NakRaQ3M0bVJyNndabmNaTWlrU0dlbUpNMlh5bXNwOWEyOWZuV0x2X3VmdEJE?oc=5",
+          "source": "theticker.org",
+          "date": "18. May 2026"
         }
       ]
     },
@@ -123,25 +129,13 @@
       "label": "Bauakustik",
       "icon": "🏗️",
       "color": "#7b4f12",
-      "summary": "Luftwärmepumpen rücken zunehmend als Schallschutzproblem in den Fokus, da Mieter und Wohnungsunternehmen in Hamburg mit erheblichen Mehrkosten für lärmtechnische Nachrüstungen konfrontiert werden. Besonders im Mehrfamilienhausbau erweisen sich die akustischen Anforderungen an Wärmepumpenanlagen als kostseilige Herausforderung.",
+      "summary": "Wärmepumpen in Mehrfamilienhäusern sorgen in Hamburg für erhebliche Lärmprobleme, wobei unzureichender Schallschutz sowohl für Wohnungsunternehmen als auch für Mieter zu erheblichen Mehrkosten führen kann. Die Berichte verdeutlichen, dass die akustischen Anforderungen bei der Installation von Luftwärmepumpen im Geschosswohnungsbau häufig unterschätzt werden und nachträgliche Schallschutzmaßnahmen kostspielig sind.",
       "items": [
         {
           "title": "Deutsche Botschaft in Wien Schulz und Schulz - World-Architects",
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSFVIR2ZaaW9adXY1dWU0a2FDd0k0aVRDSi13QnhSeFhpVUdPRlJjV3ZSYVNjSERvaUVuNDU3NUp0Snl4b3g0QUJfTG9sOXNncXNhNEZlUlZoMldJTHVKOHBpWjhmaUN5d09DWkprUENxM2ZBREhsOHZ4aWlxaV8xcw?oc=5",
           "source": "World-Architects",
           "date": "16. May 2026"
-        },
-        {
-          "title": "KLEUSBERG startet in Österreich - PresseBox",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaU1VbTZETDJ3V0lNSVJvRThobEI3dldETGk2d3V4VFUtZnVFMmFHQ0lfNF9LdWRteG54RTY3c3A4MFhBamJrRkRJM0dkOWFLRWp4c05VSW1vam1MVmIyLWNNcjNKVGZyY1MxX1RVUFVOR1BETmNSZmRadDNySEs0SUZKV0s5LU40SWpqTnZwMGZaUXV4OE9CYmlHS2xWSE84b2E1R1UwNG9qdDg?oc=5",
-          "source": "PresseBox",
-          "date": "21. May 2026"
-        },
-        {
-          "title": "Forschung und Kultur Wie eine Holzkiste den Wissenschaftsstandort Oldenburg aufwerten soll - NWZonline",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZkswWk1zeTFrZmxhcnBFN094eXRobzY2NE1Kc1R3UEtwQVctdlRKWVZ4Y1BYc1ZFV3lTdGRVb1J3M0VpajBCUnFxcEtPZHU3YjlSTVVLWXZvN3dIV3o0azZpam5RQ0tuLWhBR0dvQjNSY2NPY2lOTDhDLW5mbkNzTzhZZDlidDA4VzNTUHRWSjY4eGljTHdEelFKcnVkenJDWWJ3OHphYk5HS0xQLWRhYllLcXUwNU5KU29acXR0d2Z4WnpWNjA0a0RoREQ?oc=5",
-          "source": "NWZonline",
-          "date": "15. May 2026"
         },
         {
           "title": "Wärmepumpe zu laut: Schallschutz kann auch für Mieter teuer werden - Hamburger Abendblatt",
