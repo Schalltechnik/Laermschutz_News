@@ -1,5 +1,5 @@
 {
-  "generated": "25. May 2026, 08:05 UTC",
+  "generated": "26. May 2026, 07:00 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -12,19 +12,19 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "In Österreich beschäftigt sich der Österreichische Arbeitsring für Lärmbekämpfung in seiner 284. Plenarsitzung mit aktuellen Lärmschutzthemen. Zudem wird die Frage diskutiert, ob Windparks die Gesundheit von Anwohnern beeinträchtigen können, was angesichts des Ausbaus erneuerbarer Energien in Österreich von wachsender Bedeutung ist.",
+      "summary": "Windparks und ihre möglichen gesundheitlichen Auswirkungen auf Anwohner stehen aktuell im Fokus der Diskussion. Der Österreichische Arbeitsring für Lärmbekämpfung hat zudem seine 284. Plenarsitzung abgehalten, was auf aktive Bemühungen im Bereich Lärmschutz hinweist.",
       "items": [
+        {
+          "title": "Klimaanlagen nun im Gemeindebau erlaubt - wien.ORF.at",
+          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5GMGprWlVFZ2FwY3dRZXdrNWlDREI4U2trTlNYYVBDbGhrS0Y4RjRzcnRMX0xmM1hHREp0cVlDUkU4a05FejA4RU9zOUk?oc=5",
+          "source": "wien.ORF.at",
+          "date": "20. May 2026"
+        },
         {
           "title": "Schaden Windparks der Gesundheit von Menschen, die in der Nähe leben? - Der Standard",
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZEVydm1MNWVPbGJOaUN4NnNqU2lDcmlUM0tzZ29WX3ltM0dnUjlweEkyMm9pVW12d2NjbHJNNWV3cGFobm9XT3RaXzQzUE1pby1pVXhPMEVjR3V4NHNoZEo0T3RTZml0NjJ1U3JDb01aZk1xRGttM205MGhqQjdwVXB6UDBqTmNveUVOQnRXTTdMbnhUQzZjXzBnRnBHVDZqMk5rMFdtLXFKTEhpb3lYTE9VZw?oc=5",
           "source": "Der Standard",
           "date": "20. May 2026"
-        },
-        {
-          "title": "Kein Lärm, kein Alkohol – Lignano zieht Notbremse! Härtere Regeln für \"Tutto Gas\" - Heute",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObkVEdk9SQjRmX04weXlqVk5FTVRkNUlSU25YdjE2LVFXQTAyS1RENC1BTkJBX2R2UDllWmxVaHg0MGhvZGpkM1hPdmNkSlg1SzJVZmdMblVmS21IZ0NsTTVnczdxaVVTNDRfTEFwa1plYVB4NUMtSWd4WnZmSmF5MkE1ZjM2bVkyczNyVnlvaWo?oc=5",
-          "source": "Heute",
-          "date": "18. May 2026"
         },
         {
           "title": "284. Plenarsitzung - Österreichischer Arbeitsring für Lärmbekämpfung",
@@ -38,7 +38,7 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Wiesbaden treibt seine Lärmminderungsmaßnahmen voran, während in Hannover ein Anstieg des Fluglärms verzeichnet wird. Weitere relevante Entwicklungen aus der Schweiz oder Neuigkeiten der DEGA liegen aktuell nicht vor.",
+      "summary": "Wiesbaden treibt seine Lärmminderungsmaßnahmen voran, während in Hannover ein Anstieg des Fluglärms verzeichnet wird. Weitere relevante Entwicklungen aus der Schweiz oder Meldungen der DEGA liegen aktuell nicht vor.",
       "items": [
         {
           "title": "Mehr Fluglärm in Hannover + Diebesbande geschnappt + Promi-Wirt Pit Seidel ist tot - MSN",
@@ -58,7 +58,7 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "A recent survey highlighted by the International Fund for Animal Welfare reveals that over 80% of European citizens support measures to reduce underwater noise pollution, reflecting strong public backing for ocean noise control. Europeans are broadly in favour of quieting the seas to protect marine life, signalling significant public pressure on policymakers to address underwater noise as part of broader European environmental and noise control frameworks.",
+      "summary": "A new survey reveals that over 80% of European citizens support measures to reduce underwater noise pollution, reflecting strong public backing for protecting marine life from acoustic disturbances. The International Fund for Animal Welfare is highlighting this widespread European support as a call to action for quieting the ocean and safeguarding its ecosystems.",
       "items": [
         {
           "title": "More than 80% of European citizens support action on underwater noise - International Fund for Animal Welfare | IFAW",
@@ -78,7 +78,7 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Low-frequency sound research is gaining attention, with Alberta researchers identifying infrasound as a likely cause of eerie, unsettling sensations experienced in certain environments, potentially explaining longstanding reports of \"haunted\" feelings in old buildings. Meanwhile, the railway noise barrier market continues to draw analytical interest, highlighting ongoing efforts to mitigate environmental noise pollution through acoustic engineering solutions.",
+      "summary": "Research has identified infrasound — low-frequency sound waves below the threshold of human hearing — as a likely contributor to the eerie, unsettling feelings people experience in old buildings, offering a scientific explanation for so-called haunted sensations. Additionally, the railway noise barrier market is being analyzed across various applications, reflecting ongoing industry interest in acoustic mitigation solutions for transportation infrastructure.",
       "items": [
         {
           "title": "Noise Barriers For Railways Market Analysis By Application, - openPR.com",
@@ -87,10 +87,10 @@
           "date": "19. May 2026"
         },
         {
-          "title": "Alberta researchers trace eerie sensations to low-frequency sound - MSN",
-          "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOeFQ3MDYtU1lRdU9zaHk2amR6QUUyVFllejAtOTVNWGJpbjczdTh0SUtaU0ZLTF9paWh2VHJWSk8wMV90eW1Bc1J5MEFSMnhucXZmNVFFc25KdTRxLVNBVF9IWTljeXJ4NE5Nb09DcFljVlBXd3RBSE5hNEZZcUpWUFhQY1YtbWdSX2JvTUlKTkVyTGNTbE1nZ2FKaWFUNjdaQXM5TmVSZ1MwQWJsVkVoTTFTdzNhV1FONndVNm03MWpVZFVtMXpfaEhGWHV3TGtYZE5oYXVzX2dmQWpqNUFHZ0V1N3VFUllmd3AwNmIyQXpiUkhmb0JwRUZuZw?oc=5",
+          "title": "Study links haunted house feelings to hidden infrasound - MSN",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMjhMNmNmUlh6a0o0M1VTWnctdTFCQkhnWTBsVGNlRk9BT1pfVk1qazJ3QVJFS1hld1psRXZDXzdmVFU3TS1CUlY4bmZKbnM4b0lvc3JZb251RVBSdGZLOUV0cnJLaHhsd3diZEFjNDNTNmxkYjNBUUM2Z1Q2eGQ0TExIZkd0Z0Q3LXpHTHRiVk0zUUl1Rm4wcXZqcXhJemlYaXZDaFdmQTlQWHVfdDBTcTUySnRDYVFoRmI1N2p3RFZ4Y3B3RjlVejI0NXRya3AxQk1TajFGRm1VdnlmRXc?oc=5",
           "source": "MSN",
-          "date": "18. May 2026"
+          "date": "22. May 2026"
         },
         {
           "title": "Do old buildings give you the creeps? New research could explain haunted feelings - CBC",
@@ -104,7 +104,7 @@
       "label": "Bauakustik",
       "icon": "🏗️",
       "color": "#7b4f12",
-      "summary": "Luftwärmepumpen rücken zunehmend in den Fokus des Schallschutzes, da deren Lärmemissionen in urbanen Wohngebieten zu kostspieligen Konflikten zwischen Mietern und Wohnungsunternehmen führen. Besonders im Mehrfamilienhausbau stellen die akustischen Anforderungen an Wärmepumpenanlagen eine wachsende technische und finanzielle Herausforderung dar.",
+      "summary": "Luftwärmepumpen rücken zunehmend in den Fokus des Schallschutzes, da deren Betriebsgeräusche laut aktuellen Berichten nicht nur für Eigentümer, sondern auch für Mieter kostspielige Konsequenzen haben können. Die Lärmemissionen von Wärmepumpen stellen damit eine wachsende bauakustische Herausforderung dar, die bei Planung und Installation verstärkt berücksichtigt werden muss.",
       "items": [
         {
           "title": "Wärmepumpe zu laut: Schallschutz kann auch für Mieter teuer werden - Hamburger Abendblatt",
@@ -113,14 +113,8 @@
           "date": "20. May 2026"
         },
         {
-          "title": "Wohnungsunternehmen zahlen Extra-Kosten: Wärmepumpen für Mehrfamilienhäuser in Hamburg ein Problem - NDR.de",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMDRoSU1XSTM2QU9FYTROYW5oaTFqOWNFQXR2SzdBZHBQaHg1TkRVNlNhYXZXM0cxUUFDQ1JWcmJkX09WdlpvazR1U1pKemNQX2E5TnZmcGppSk1ja0VGdXVuNS1lNnpLb25WakpsWFdTM3NxWTEwX01VckJKNkU4VU40VDBQb1NVMkZ1TE8tR0NOLTdfRTZ5MVZpTkpoSlZrSE5kMHNMaUN2M0FCLWV0azAwWXFWVjZ2dU00?oc=5",
-          "source": "NDR.de",
-          "date": "19. May 2026"
-        },
-        {
           "title": "Wärmepumpen machen Lärm – das kann teuer für Mieter werden - MSN",
-          "link": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxNQmNxQ3dhMExfZFVmaGJxWThqT3Y4S25ZNmhIWjdxbjU2eVJ2X3dsVlNMZS1EdXZ4TVpSQk9VaHM3ZzQwYVVoamJ6VkZNUkVWd0hyeTNMOGlrYVVuV3RXZ0szT3g4UnRiNnJORmQ3aVZ3eTlCckItTnBqN0ZseXFFZzRPS0JyZE05Y3lVOUJwVUd1Umc4WE5wUlZOTmlZLXFMaU0wMVBWZHZSTEZGY1M0TmEyN05tb25QX1owM2hjbHlLS2hUVl94bzdYQ3NxcjZaV2gzY25LUE0zaHYyNmM5cFhZbTByZ2w0a1NJWGcxTFdKUHg1b0Z3WjlPanRsczFQbGZjdnl3QjFLeTc3MTNrSFRmb2hraFVVUERiR2VlbUxoY21GNDA1V25zWEVMOUFlNm9LM19xLWlfdEU0Q2Y1VzdnQ3ZEaThvSi1oVklXVEVVU0VCWFR3Z0lqcDB2Zldm?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUk1wN3VLb1JHZERINkJoWGpodGx1VUZZZXpvRENHMk0tRXc4RHB3OW1Rb2R3YTdSb2ZWaFlkN1hqVlUwc3o1UHVYY3VvZ0M4QmExWVpJQ1FsckxHck83cFFxUmJORXdjM3hwMl9seXFrdzVabUx1cG9KOG5JQ3FIcTVZaW81Snlqd3R2eFdtcTV1bzh1ekxwNHk5RTV3UDQ5R0t4UGxzSGNYaUtFNGIzTzEzU1ZWa3R5ZkVFcmltTFNkWHRBaDRVMGhB?oc=5",
           "source": "MSN",
           "date": "20. May 2026"
         }
