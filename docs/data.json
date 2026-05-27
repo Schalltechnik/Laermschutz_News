@@ -1,5 +1,5 @@
 {
-  "generated": "26. May 2026, 07:00 UTC",
+  "generated": "27. May 2026, 07:48 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -12,13 +12,25 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Windparks und ihre möglichen gesundheitlichen Auswirkungen auf Anwohner stehen aktuell im Fokus der Diskussion. Der Österreichische Arbeitsring für Lärmbekämpfung hat zudem seine 284. Plenarsitzung abgehalten, was auf aktive Bemühungen im Bereich Lärmschutz hinweist.",
+      "summary": "In Österreich steht derzeit die Frage im Fokus, ob Infraschall von Windrädern gesundheitsschädlich ist, wobei die FPÖ politischen Druck für entsprechende Maßnahmen macht und auch die EU-Kommission zum Handeln aufgefordert wird. Medien wie Der Standard beleuchten kritisch, inwieweit Windparks tatsächlich die Gesundheit von Anwohnern beeinträchtigen können.",
       "items": [
         {
-          "title": "Klimaanlagen nun im Gemeindebau erlaubt - wien.ORF.at",
-          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5GMGprWlVFZ2FwY3dRZXdrNWlDREI4U2trTlNYYVBDbGhrS0Y4RjRzcnRMX0xmM1hHREp0cVlDUkU4a05FejA4RU9zOUk?oc=5",
-          "source": "wien.ORF.at",
-          "date": "20. May 2026"
+          "title": "Steinach am Brenner/Matrei am Brenner/Österreich: Brenner-Demo mit Transit-Forderungen - Mattle nimmt teil - Kleine Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZmE2RG82UGVpN1JERFB2TDVKOVFvd2ZOZDd1YXl1OGlJZHlKMzdHNWtjN3lGS09UX1JqYmRUQi1DdTVHeDRWLVh5UVBWR2V1VWhSZUVrbFJXNENCS2cwUnRKSFo3dVhMTEticVBKTEQxS0Mwdjl5LVBObVREWXQ3VFh0U1VuYU5PYjQ1Y2kyWnVmenV1eGZkZkNYTExyZnFERmc?oc=5",
+          "source": "Kleine Zeitung",
+          "date": "26. May 2026"
+        },
+        {
+          "title": "Infraschall von Windrädern kann gesundheitsschädlich sein - FPÖ",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMW9GQ1BsTDRCeHZPN0ttdU5GZmRHeU1mZzVleEtKdjY0WUdJMTRvY3FMdUVTWVVkMVhMZVduUkl1NV9zWWdBeDBJTEVGNHJhRk42VVpxQ2VJT3I0eWJLbl9oRGhSaTFLd29TamxYVElRSDlfOTl3M29UdUlKUEFLTGZqZW1KbU96b3ptamFzcnJXTExQZVB1NG9FTS1XSG10aVcybHZSRXRsMkFVU3c?oc=5",
+          "source": "FPÖ",
+          "date": "26. May 2026"
+        },
+        {
+          "title": "Hauser: „Infraschall von Windrädern kann gesundheitsschädlich sein“ - FPÖ",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOHdBY0NVNUFtQk5uSmg4WkREaHp6aWFnTWRjOTd4NzZtekdTNWdVT1RYQWxZZVZKY3IwbXg2MzN1cHkwQy1xOXNwTFpIMF9kdVN1U09KTEZGcDhWWmJ0ak5tYkVYWnZpNURoclEtN2RRd0hKc1d3em9xNHJMWktpU3ZGeGpLU3BRb1Qwa2lieEJTY2ktUHZoSFNXWmk0dEViTXJZbmZ6MUM4NUhON0daWDhXaXpIQjVBN0M2YXc5cw?oc=5",
+          "source": "FPÖ",
+          "date": "26. May 2026"
         },
         {
           "title": "Schaden Windparks der Gesundheit von Menschen, die in der Nähe leben? - Der Standard",
@@ -27,10 +39,16 @@
           "date": "20. May 2026"
         },
         {
-          "title": "284. Plenarsitzung - Österreichischer Arbeitsring für Lärmbekämpfung",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1Sb1VPMVR1N01mNHpSYTk5TGpXLW85b2JZRkRqcGdBcWJJWVAyd211SlByTEQ2QzNRXzVtUWpTVHl3TUpQTVFMMHZFNGo0cTIyYlZUUVo4VV9mQzVSUy1DZkFn?oc=5",
-          "source": "Österreichischer Arbeitsring für Lärmbekämpfung",
-          "date": "20. May 2026"
+          "title": "Herzschäden durch Windräder – Lebensgefährlicher Infraschall - unser-mitteleuropa.com",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBlNjZWd3pMd2Vna2FWdEtqUnd4N21ETHFUbVU5NzBfNzc5bDIzTUh6ZnpJS3NyNy1qZGswcnp3eTRCdXRtRWRKMEdNVHJSNS1MYXJj?oc=5",
+          "source": "unser-mitteleuropa.com",
+          "date": "26. May 2026"
+        },
+        {
+          "title": "EU-Kommission muss handeln: Infraschall von Windrädern erweist sich als gesundheitsschädlich - report24.news",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObzhCRmJYQk9WbTlpeWdPTEVMVXIzZFdkZHV3Vk1JSlkzS19wSmdTMm0tVC1YNTVEQVEzb3dvYlMwRnB1b213TFRqSUltTVhSb3ZEZGI5bTlmQTBQaUQtWnoxMFV6aWlWaHl1WVRGX3BrcUJ4OENCYk1LazNvbWNqZmFOYUZCUkc3bUFZQnZBOHgyNjViZGVUYkZKVHctV0tNXzVCa1BGTGxFYXNZNlV0WkRIV3BaN0U?oc=5",
+          "source": "report24.news",
+          "date": "26. May 2026"
         }
       ]
     },
@@ -38,8 +56,14 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Wiesbaden treibt seine Lärmminderungsmaßnahmen voran, während in Hannover ein Anstieg des Fluglärms verzeichnet wird. Weitere relevante Entwicklungen aus der Schweiz oder Meldungen der DEGA liegen aktuell nicht vor.",
+      "summary": "In der Schweiz zeigt eine aktuelle Umfrage, dass sich zwei Drittel der Bevölkerung nicht am Fluglärm stören, was die Position von Lärmschutzgegnern schwächt. Aus Deutschland wird unterdessen über zunehmenden Fluglärm in Hannover berichtet, während die FPÖ gesundheitliche Risiken durch Infraschall von Windrädern thematisiert.",
       "items": [
+        {
+          "title": "Kampfjets über Deutschland: Diese Telefonnummer müssen Sie kennen - CHIP",
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPOWJuQzdPcnhXN0w2TWlvd0Jrd212YmNpR1JqeW1FZkFMTkpZcnctM2RVUl8wanJFZEVwWnIwUi0yQ2xiejV2bnllaWdCRVhlTXZtUHhIdzktZl9DN2lGMnNyYkNJWXF5cldNMUJYYXd0MS1mOUR1NE91YXE5TzRjLUNaVGV1Q0hiUi1tUEI4RHhyd0lKTVBHM1VjdnJoaExuMHc4eHFwSWtUSU9rS1N4Umh5Q04tSlZDREFKZjVCQkROSjBic0U5SUJoR3ZobjV5akRsY1dwRnVSbEVVc0JlSUtBWkY5SFZm?oc=5",
+          "source": "CHIP",
+          "date": "26. May 2026"
+        },
         {
           "title": "Mehr Fluglärm in Hannover + Diebesbande geschnappt + Promi-Wirt Pit Seidel ist tot - MSN",
           "link": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxPLWlKLXh0dDhCenhmV1JZRUgxNnhxdnlFRGtoQ0V1MjJTLS1QdHFtRXVVZmlsLVIyeHpzWlVBLU9jMXE0Q0FJRHo1Qmp6VmhBdDhCRnZmdS04eEtrNFRjT1A4NTJXWURWaVdVb2xvTllSaDRRbFltQWEwNXU2bVlYU0FtbVBBNmljbnBodmM5NXpVQkJrWl94bERCTkFOb0xnakFHSy1EVXVLbDVhaGZ3YlliaTBnUm1TN3dUaF80VDBwbzktbmlmSHY2NkpwNFQtMG1JUmF6Yml2VHJnMVY2VVlsSXB1M0gtNk1pWEJMU19RMFpTeWVrQ1VScXdRcDNuLWJZSmNUVUNqajVqSmxtR1NDOEQxU2QxTmZqa1RpQXFSOWFhUlUtNHM4Y3Frd29BamJoUG9VS3VNWWktSWpYZlBuZkRVYWxkcktpZ0gxQnpkRGJFd2FNU0EwZGpUN2pUamhFMmtyYjRoTzU4WHM0?oc=5",
@@ -47,10 +71,22 @@
           "date": "21. May 2026"
         },
         {
-          "title": "Lärmminderung - Landeshauptstadt Wiesbaden",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPclN3ZFdKTUtvUTdqanlWZEkyUG9hS2h0UDNnV1BlM0FqN09vZ2FGdDM1ZFRZT0R4clZuMG91UDlxOGgyR2tVTm5pZF9qSmFnY0NBZXFQZEZ4TF9hb0lZU2FiQVFxTjk5dEVYVE5fLXhyWXZWV05JM2lwbDRpdkgzM2lHZGYtZW9Da0Qw?oc=5",
-          "source": "Landeshauptstadt Wiesbaden",
-          "date": "19. May 2026"
+          "title": "Infraschall von Windrädern kann gesundheitsschädlich sein - FPÖ",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMW9GQ1BsTDRCeHZPN0ttdU5GZmRHeU1mZzVleEtKdjY0WUdJMTRvY3FMdUVTWVVkMVhMZVduUkl1NV9zWWdBeDBJTEVGNHJhRk42VVpxQ2VJT3I0eWJLbl9oRGhSaTFLd29TamxYVElRSDlfOTl3M29UdUlKUEFLTGZqZW1KbU96b3ptamFzcnJXTExQZVB1NG9FTS1XSG10aVcybHZSRXRsMkFVU3c?oc=5",
+          "source": "FPÖ",
+          "date": "26. May 2026"
+        },
+        {
+          "title": "Hauser: „Infraschall von Windrädern kann gesundheitsschädlich sein“ - FPÖ",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOHdBY0NVNUFtQk5uSmg4WkREaHp6aWFnTWRjOTd4NzZtekdTNWdVT1RYQWxZZVZKY3IwbXg2MzN1cHkwQy1xOXNwTFpIMF9kdVN1U09KTEZGcDhWWmJ0ak5tYkVYWnZpNURoclEtN2RRd0hKc1d3em9xNHJMWktpU3ZGeGpLU3BRb1Qwa2lieEJTY2ktUHZoSFNXWmk0dEViTXJZbmZ6MUM4NUhON0daWDhXaXpIQjVBN0M2YXc5cw?oc=5",
+          "source": "FPÖ",
+          "date": "26. May 2026"
+        },
+        {
+          "title": "Zwei Drittel stören sich nicht am Fluglärm – was bedeutet das für die Lärmgegner? - Tages-Anzeiger",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVmpSLU80TkxnZ19kbGdnSVBjbTl6VHB3VWlDbGdCR1ZscGd3M3JnaEFBeEJicUxiVDAweTdSMFdrTVNYSVpTaU9ObGtkclg0UHpkbjRtZG9uam56VWg2NGRLYUVhZkxwZG56bFJ6NFJTZjI4emt3bWtnZTBMNThYek9BYWJGM2YzMmxHZWhnbGZVUVE0QTdDaTBOaVJDOUFIZTh5Znl3?oc=5",
+          "source": "Tages-Anzeiger",
+          "date": "26. May 2026"
         }
       ]
     },
@@ -58,34 +94,15 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "A new survey reveals that over 80% of European citizens support measures to reduce underwater noise pollution, reflecting strong public backing for protecting marine life from acoustic disturbances. The International Fund for Animal Welfare is highlighting this widespread European support as a call to action for quieting the ocean and safeguarding its ecosystems.",
-      "items": [
-        {
-          "title": "More than 80% of European citizens support action on underwater noise - International Fund for Animal Welfare | IFAW",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbVAzN2JCdkVYa0dmdmtNOTBWQmJYS0VSSWdKRDNtZlBnSzdPRFN0Sm9wX3NKejNVbFV3X0lqVjFMaERWVWlqY3p6R0Q3djZwRFRrOU92VTA1UEpoRDFETFFHWS1IaUhrRUExOG85cTJRZjBDczE3Wkswc053OTdzaXRXLUVYaU9BQXJTbXREVVRnbmR0blRCOUR3aFRCeDNuTUJHSlF2VTNCeTl6R1NQeHRTWDZVQQ?oc=5",
-          "source": "International Fund for Animal Welfare | IFAW",
-          "date": "20. May 2026"
-        },
-        {
-          "title": "Europeans back action to quiet our ocean and protect marine life - International Fund for Animal Welfare | IFAW",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVDhLLVpyX190ZkFrVTBxc3lNZzZlNHdNalZKOUloQms3QXpUYWN0SzdhS0tZOVBZWlFwWWs4Qkc3Z0hXZ1hZSUdZUW52TDBPajFwanpTOWRMQnJsWGE2R3kxN3lONGRaeFltREowOTdObDVMQVRsblZDYUc5UkZzbTMtN3psSXk1el9KaTdMNGVxSlFHVDV1SE91elo?oc=5",
-          "source": "International Fund for Animal Welfare | IFAW",
-          "date": "20. May 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "science": {
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Research has identified infrasound — low-frequency sound waves below the threshold of human hearing — as a likely contributor to the eerie, unsettling feelings people experience in old buildings, offering a scientific explanation for so-called haunted sensations. Additionally, the railway noise barrier market is being analyzed across various applications, reflecting ongoing industry interest in acoustic mitigation solutions for transportation infrastructure.",
+      "summary": "Low-frequency infrasound, inaudible to the human ear, has been identified as a potential explanation for the eerie, unsettling sensations people commonly associate with haunted buildings. Research suggests that these hidden acoustic phenomena, often present in older structures, may trigger physiological and psychological responses that people misinterpret as supernatural experiences.",
       "items": [
-        {
-          "title": "Noise Barriers For Railways Market Analysis By Application, - openPR.com",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUFh6R0NPUkdiVUVKcEtRTmdSTEVlaGEwaHA5bi1iSEdlQXBPYnVZUEMtMno4WnpZWjd5bmpQb18wZ3R1RHNPdlM0YnNjZE9EQi14eXRnTjBrZTUxdWU4NTdDYldVVlZOMlJuUzRQbUFRUjJYeHh3dkVWMDcyYks0X0hsRVZlY25yRzk2dTltT2hFOTJkc1FqamR3?oc=5",
-          "source": "openPR.com",
-          "date": "19. May 2026"
-        },
         {
           "title": "Study links haunted house feelings to hidden infrasound - MSN",
           "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMjhMNmNmUlh6a0o0M1VTWnctdTFCQkhnWTBsVGNlRk9BT1pfVk1qazJ3QVJFS1hld1psRXZDXzdmVFU3TS1CUlY4bmZKbnM4b0lvc3JZb251RVBSdGZLOUV0cnJLaHhsd3diZEFjNDNTNmxkYjNBUUM2Z1Q2eGQ0TExIZkd0Z0Q3LXpHTHRiVk0zUUl1Rm4wcXZqcXhJemlYaXZDaFdmQTlQWHVfdDBTcTUySnRDYVFoRmI1N2p3RFZ4Y3B3RjlVejI0NXRya3AxQk1TajFGRm1VdnlmRXc?oc=5",
@@ -104,18 +121,12 @@
       "label": "Bauakustik",
       "icon": "🏗️",
       "color": "#7b4f12",
-      "summary": "Luftwärmepumpen rücken zunehmend in den Fokus des Schallschutzes, da deren Betriebsgeräusche laut aktuellen Berichten nicht nur für Eigentümer, sondern auch für Mieter kostspielige Konsequenzen haben können. Die Lärmemissionen von Wärmepumpen stellen damit eine wachsende bauakustische Herausforderung dar, die bei Planung und Installation verstärkt berücksichtigt werden muss.",
+      "summary": "Keine relevanten Meldungen gefunden.",
       "items": [
         {
           "title": "Wärmepumpe zu laut: Schallschutz kann auch für Mieter teuer werden - Hamburger Abendblatt",
           "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQRHl1eHdmOEtya2hFLTNNMFQweVY2LW54MnZfcmVJRHVoQTJlSWV1YTVXaFpZUXlfSWxhdVpWZ1pwa2E0VXh4ZXZiNlRTbHNWbTNiOUlqLTJiOU9IdVhoMVgzbUhOSFFBcHFPbTBDdjZFXzB0QTNyeElfeDYtSHNsNHpjTVFtNFRrRGVTclNKckRZdTJScEZfRW04bHNCMFZhQlpFZncwekhUSVhyZkVIWnBOdlhKZkl1Ti1EazFUdGhHVWFleHRncDNVVDF1aWEwYjdPOElqWQ?oc=5",
           "source": "Hamburger Abendblatt",
-          "date": "20. May 2026"
-        },
-        {
-          "title": "Wärmepumpen machen Lärm – das kann teuer für Mieter werden - MSN",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUk1wN3VLb1JHZERINkJoWGpodGx1VUZZZXpvRENHMk0tRXc4RHB3OW1Rb2R3YTdSb2ZWaFlkN1hqVlUwc3o1UHVYY3VvZ0M4QmExWVpJQ1FsckxHck83cFFxUmJORXdjM3hwMl9seXFrdzVabUx1cG9KOG5JQ3FIcTVZaW81Snlqd3R2eFdtcTV1bzh1ekxwNHk5RTV3UDQ5R0t4UGxzSGNYaUtFNGIzTzEzU1ZWa3R5ZkVFcmltTFNkWHRBaDRVMGhB?oc=5",
-          "source": "MSN",
           "date": "20. May 2026"
         }
       ]
