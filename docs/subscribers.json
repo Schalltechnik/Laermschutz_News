@@ -1,5 +1,12 @@
 [
   {
+    "email": "sascha.henner@ktn.gv.at",
+    "name": "Sascha Henner",
+    "weekly": true,
+    "monthly": true,
+    "active": true
+  },
+  {
     "email": "a.lechner@stmk.gv.at",
     "name": "Andrea Lechner",
     "weekly": true,
