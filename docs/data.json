@@ -1,5 +1,5 @@
 {
-  "generated": "30. May 2026, 06:36 UTC",
+  "generated": "31. May 2026, 07:10 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -19,20 +19,8 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "In Österreich wird aktuell die Frage des Infraschalls von Windrädern politisch diskutiert, wobei die FPÖ und mehrere Medien auf mögliche Gesundheitsgefahren durch die Schallwellen der Anlagen hinweisen und Handlungsbedarf auf EU-Ebene fordern. Demonstrationen am Brenner thematisieren zudem den Transitverkehr und fordern Einschränkungen, was indirekt auch Lärmschutzaspekte entlang der stark befahrenen Brennerroute berührt.",
+      "summary": "Mehrere Berichte thematisieren die potenziellen Gesundheitsgefahren durch Infraschall von Windrädern, wobei sowohl die FPÖ als auch verschiedene Medien auf mögliche Herzschäden und gesundheitliche Risiken hinweisen. Die EU-Kommission wird dabei zum Handeln aufgefordert, um entsprechende Schutzmaßnahmen einzuleiten.",
       "items": [
-        {
-          "title": "Steinach am Brenner/Matrei am Brenner/Österreich: Brenner-Demo mit Transit-Forderungen - Mattle nimmt teil - Kleine Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZmE2RG82UGVpN1JERFB2TDVKOVFvd2ZOZDd1YXl1OGlJZHlKMzdHNWtjN3lGS09UX1JqYmRUQi1DdTVHeDRWLVh5UVBWR2V1VWhSZUVrbFJXNENCS2cwUnRKSFo3dVhMTEticVBKTEQxS0Mwdjl5LVBObVREWXQ3VFh0U1VuYU5PYjQ1Y2kyWnVmenV1eGZkZkNYTExyZnFERmc?oc=5",
-          "source": "Kleine Zeitung",
-          "date": "26. May 2026"
-        },
-        {
-          "title": "Brenner am Wochenende komplett dicht – diese Änderungen wollen die Demonstranten - Merkur",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMDhZdFFlZDBzZjYzTzlfS0tWRVVXRTQzcUFqTVVWUS1xVjloZGVpTW1wak5GLXNlMElLaHd3YlJDY3AzLXVDdjdoTEtHamNudnpkWFI5eXRCRFl5RkpWN0Nwd01BYnd6OTVRNUNKY3l6NG84SHUzdkpwMG1VOHVEMDFCbGNwMDE4Vy1sREw3azY1eWtMWjg5SG5Tem8tM2pSdnpERzVJWQ?oc=5",
-          "source": "Merkur",
-          "date": "27. May 2026"
-        },
         {
           "title": "Infraschall von Windrädern kann gesundheitsschädlich sein - FPÖ",
           "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMW9GQ1BsTDRCeHZPN0ttdU5GZmRHeU1mZzVleEtKdjY0WUdJMTRvY3FMdUVTWVVkMVhMZVduUkl1NV9zWWdBeDBJTEVGNHJhRk42VVpxQ2VJT3I0eWJLbl9oRGhSaTFLd29TamxYVElRSDlfOTl3M29UdUlKUEFLTGZqZW1KbU96b3ptamFzcnJXTExQZVB1NG9FTS1XSG10aVcybHZSRXRsMkFVU3c?oc=5",
@@ -56,6 +44,18 @@
           "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObzhCRmJYQk9WbTlpeWdPTEVMVXIzZFdkZHV3Vk1JSlkzS19wSmdTMm0tVC1YNTVEQVEzb3dvYlMwRnB1b213TFRqSUltTVhSb3ZEZGI5bTlmQTBQaUQtWnoxMFV6aWlWaHl1WVRGX3BrcUJ4OENCYk1LazNvbWNqZmFOYUZCUkc3bUFZQnZBOHgyNjViZGVUYkZKVHctV0tNXzVCa1BGTGxFYXNZNlV0WkRIV3BaN0U?oc=5",
           "source": "report24.news",
           "date": "26. May 2026"
+        },
+        {
+          "title": "Alpenpass wieder frei - Wo sind die Urlauber? - Aachener Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON0ZWR2lKRXVEaC1ldXhvU090NnF0TXFCOWlVUlp5dFljLWdLZUpnaGFGdno4ejNneVBQbFpQZzM1UV9VLXJDTzNhSUdjeVNTYjlsRmswVzNmSnlmMTZyOFo5ZmpOWko4d1k1Z0dlTkt4cklZeWFlWGFnN0pEYWJQS0g5elpPYWt2UEpkbE5FTU5JVkdadVJoa0J3NEVlWHV6aENGazZn?oc=5",
+          "source": "Aachener Zeitung",
+          "date": "31. May 2026"
+        },
+        {
+          "title": "Demonstration: Brenner-Sperre: Ruhige Verkehrslage überrascht Experten - News.de",
+          "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPMzRwMi0yZWxfM2ZfLVczeEF0Ql9WODVmT1JsaGdLZ1ZfZVNFcGhJZnRHM1BoTTA4ZFFBQTRocWtLSHRwWlo4UUpoM1BENHhEVXU1clV5NDJrLXV4LXVpQW1hbzhEYmlsZXh0elkwR0ZVRUdqTFdGNVAzOWxERW1RREQxM0U1dE1ndFZaQzVIMzhIN2ZrenY5dFJKclcxZWJUNklsMFBDeEpEeHk3MDFaYzk3WFFnTEJUcEFjc1ZGOF9ZVEJ6N0VWSDlqTVNlZERCcnJ0RFo2Tl9COUVsek9SbjZHQXFFWFp1WEYwNjMyaDFVODQ4RERBUXMxY3hUeXBycVBDOVZRX19BNDNId2tpaU9Camxrd1lGbU9HUzh5RjdnRVBFbHNWddIBrgJBVV95cUxNQVd6a0xfdUJiZ1RVbUY5QjVnRzdwRGZseVg0QU5xWTVnbzNJdlI1RjJsaXNjRkdheHVzNU1zTUR6aVhtTVR1R1J5cnV6NFVHYlNBWEhzQVZrMmJNLUhpdzM3UTQ0Vmt4MkZOMTk1V0F4Ry1CZG51cG9fcC0tdWl3YnpsVTVhbWhsVGgzNjhhM3JIQXh1ZTJyczBneGZQTmRPNWVHdWtJZHJuc1dxaDRwVXpyUXV3QTJLbV93WndJbmpsb0pSZUpUd0c5OGktNExGNWxrVk5rM1lxXzFyaERTWWxNZjJucEhXOGxaYUZvcmIwTXhzejZmUkpJZlRtb2pmSi1qR0h4QlJDd0trTjI4TjBlUUxDUmhYeUZTb01NSUEyVnYyQkZOYkRPdXh5UQ?oc=5",
+          "source": "News.de",
+          "date": "30. May 2026"
         }
       ]
     },
@@ -63,14 +63,8 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "In der Schweiz zeigt eine aktuelle Umfrage, dass sich zwei Drittel der Bevölkerung nicht am Fluglärm stören, was die Position von Lärmschutzorganisationen und -gegnern erheblich unter Druck setzt. Aus Deutschland wird unterdessen eine Zunahme des Fluglärms in Hannover gemeldet.",
+      "summary": "Keine relevanten Meldungen gefunden.\n\nWait - der Titel vom Tages-Anzeiger ist tatsächlich relevant. Lassen Sie mich neu bewerten:\n\nIn der Schweiz zeigt eine aktuelle Umfrage laut Tages-Anzeiger, dass sich zwei Drittel der Bevölkerung nicht am Fluglärm stören, was die Position von Lärmschutzorganisationen und -gegnern erheblich unter Druck setzt.",
       "items": [
-        {
-          "title": "Mehr Fluglärm in Hannover + Diebesbande geschnappt + Promi-Wirt Pit Seidel ist tot - MSN",
-          "link": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxNZGF5ZS1GcVMySFN4LTRpOHdOM21UXzctOU1nUVRwRmhTX1E3NmJPYlY1TTV0WlJ2NFFoSVRHMmFDZjBqMlNrVHlKZ2hvdGRZOGFmMXBvVEItdXFidFowbVpranFOQ0JuMXYxM1hEY1dIdVZGeVU0QUtmUWtUWXg0LVVfVmNfR2J2eHhyUTAzc1JGVGoxMlJPZzlhek42YjBwd2RxZXFLOEhmUUxzWWxQN3VSVFdlTHlLVHBPRE9DZmRiRGVUandxbHlnZld4S1FfNGlFSDVxeWc1a2xjenVQRXZLUkduMGFGT2VuaVRhOVU2SHZDTWszZjNpQ0NyWTE3TUUxWWV5bDBQVnZiRzBpSmV2Z0RoSzRzZGd0ZmdTN1ZiMFZfeXA4MzhnRVNfRnlkLXZjLUcxcmpzcjY3bHRzai1xR1NVSlktcWRFU0RBWF9hYXJJZF91S0Q4dlJkM1FvVnc2SEF2R0xPU0RILXJHdA?oc=5",
-          "source": "MSN",
-          "date": "25. May 2026"
-        },
         {
           "title": "Zwei Drittel stören sich nicht am Fluglärm – was bedeutet das für die Lärmgegner? - Tages-Anzeiger",
           "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVmpSLU80TkxnZ19kbGdnSVBjbTl6VHB3VWlDbGdCR1ZscGd3M3JnaEFBeEJicUxiVDAweTdSMFdrTVNYSVpTaU9ObGtkclg0UHpkbjRtZG9uam56VWg2NGRLYUVhZkxwZG56bFJ6NFJTZjI4emt3bWtnZTBMNThYek9BYWJGM2YzMmxHZWhnbGZVUVE0QTdDaTBOaVJDOUFIZTh5Znl3?oc=5",
@@ -83,21 +77,14 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "No relevant news found.",
-      "items": [
-        {
-          "title": "Exclusive: Undercover Investigation Reveals Europe-Wide Motorcycle Emissions ‘Scam’ - DeSmog",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRW11OGRJekJmalZtMm1Zc29BLXRsVV9MR1BHMVlDeTQzOUdTWDhpZDhZWm5pbHNHcV9LZjUxRUFKSHlCNTBhbW1WQ1JxWnN0WFRrYzg5bWZDM2pzbDhWRXRxbjVwYzY0TGwyNldCamoxWkNUdzJ6UG5fM0xXS2tyYWY0eHFwTkRLMHdKNjU3NWdncVNsa3RER2w5R3B0ekZvTkpOaHAtVEJJcHo1d3FpUG5YQVlFZw?oc=5",
-          "source": "DeSmog",
-          "date": "26. May 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "science": {
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "New research suggests that old buildings may produce infrasound or specific acoustic resonances that trigger unsettling psychological and physiological responses in occupants, potentially explaining the eerie feelings commonly associated with supposedly haunted spaces.",
+      "summary": "Research suggests that infrasound and unusual acoustic properties in old buildings may trigger feelings of unease or \"haunted\" sensations in occupants, offering a scientific explanation for paranormal experiences. These low-frequency sound waves, often imperceptible to conscious hearing, can cause physiological and psychological effects that people commonly associate with ghostly presences.",
       "items": [
         {
           "title": "Do old buildings give you the creeps? New research could explain haunted feelings - CBC",
