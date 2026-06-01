@@ -1,5 +1,5 @@
 {
-  "generated": "31. May 2026, 07:10 UTC",
+  "generated": "01. June 2026, 09:01 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -12,6 +12,12 @@
           "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNV0ljOGtES3E3aGQ5d2F0UzZ2WmpaZEpPRzZwdXlIaWJyakRiTmlIQVVncHR2VnVSLXI5TndsYzJORFdJbUJVd25Xb2ltUkFGMmQ0WFlja0gyaWJzNXNxRW1vSlByczdlVlNZdFU0NzA5RWVZT0tBWjBELXNJMHhEZlFrZlA0ampPWC01WHpWbXRneVl4MUdTZy1KOEhVUTVnbmwtNVFkZXBGcnNOalN2QlZub25wWWNNcEI2cGlRZ2VBb2tuZFhXTWx1S3ZmNF92amgtV3o4eDZMRlNSZFVz?oc=5",
           "source": "Blick",
           "date": "28. May 2026"
+        },
+        {
+          "title": "Vier Gemeinden gegen Windkraft-Projekt - kommunal.at",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE01Qk44MmEyR0NfckZfQTF0dnFxRkJEajRGdS1RWUstZXVzM3Q0ZGhMWmExLWswNGQ5QjJXV1NneFk0V2NRdHFiMVBnTzMxVndRSk83TmRRU0lDSUh5Tk9Nc2xHN1dza3c3LVE?oc=5",
+          "source": "kommunal.at",
+          "date": "1. Jun 2026"
         }
       ]
     },
@@ -19,8 +25,32 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Mehrere Berichte thematisieren die potenziellen Gesundheitsgefahren durch Infraschall von Windrädern, wobei sowohl die FPÖ als auch verschiedene Medien auf mögliche Herzschäden und gesundheitliche Risiken hinweisen. Die EU-Kommission wird dabei zum Handeln aufgefordert, um entsprechende Schutzmaßnahmen einzuleiten.",
+      "summary": "Am Brenner fanden Demonstrationen statt, bei denen Protestierende eine Sperrung des Alpenpasses forderten und Änderungen im Transitverkehr verlangten, wobei Tirols Landeshauptmann Mattle teilnahm und die Verkehrslage die Experten durch ihre Ruhe überraschte. Zudem warnt die FPÖ vor gesundheitsschädlichem Infraschall durch Windräder und fordert Maßnahmen auf EU-Ebene, wobei Berichte von möglichen Herzschäden durch die Lärmemissionen die Debatte anheizen.",
       "items": [
+        {
+          "title": "Steinach am Brenner/Matrei am Brenner/Österreich: Brenner-Demo mit Transit-Forderungen - Mattle nimmt teil - Kleine Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZmE2RG82UGVpN1JERFB2TDVKOVFvd2ZOZDd1YXl1OGlJZHlKMzdHNWtjN3lGS09UX1JqYmRUQi1DdTVHeDRWLVh5UVBWR2V1VWhSZUVrbFJXNENCS2cwUnRKSFo3dVhMTEticVBKTEQxS0Mwdjl5LVBObVREWXQ3VFh0U1VuYU5PYjQ1Y2kyWnVmenV1eGZkZkNYTExyZnFERmc?oc=5",
+          "source": "Kleine Zeitung",
+          "date": "26. May 2026"
+        },
+        {
+          "title": "Brenner am Wochenende komplett dicht – diese Änderungen wollen die Demonstranten - Merkur",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMDhZdFFlZDBzZjYzTzlfS0tWRVVXRTQzcUFqTVVWUS1xVjloZGVpTW1wak5GLXNlMElLaHd3YlJDY3AzLXVDdjdoTEtHamNudnpkWFI5eXRCRFl5RkpWN0Nwd01BYnd6OTVRNUNKY3l6NG84SHUzdkpwMG1VOHVEMDFCbGNwMDE4Vy1sREw3azY1eWtMWjg5SG5Tem8tM2pSdnpERzVJWQ?oc=5",
+          "source": "Merkur",
+          "date": "27. May 2026"
+        },
+        {
+          "title": "Brenner-Sperrung legt wichtige Urlauber-Strecke lahm – Behörden und Protestierende ziehen Bilanz - Frankfurter Rundschau",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOY0RTSUNhZFBsRXdfc283WjNVZXFEa2pldU1mRXVFVzlXb1M0alFCOUt6UFlnZmRveldENXlhOWFvSWNQNE9HTGk4MkxBallrYmc1MFpRel9YX0NYdWxRTXNJbUxvTEU4ZVBGSTl4aHV6Z01kTTJxck9za2EzMjFqck9GTWhHVmNGck9aUXJ5ZWhCbGVEOVdmN3lPRnpSdlVEbkNHektiVHlaM0hRRDZfMUdJU2xiZEpMSldqS0FJSFVqSFdsRktBNQ?oc=5",
+          "source": "Frankfurter Rundschau",
+          "date": "30. May 2026"
+        },
+        {
+          "title": "Alpenpass wieder frei - Wo sind die Urlauber? - NN.de",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORDhjc2VCZVdYdGNLaWJ4UnZhMzJZRFpab0xEd0xYejFlcXQ5bHZfTnA5eFNIbHM0amFNZlU4TXhzbVdROFVUQWdVd29DUjBZTmQtX2wzOTdac3JZbVJ4dTdCTm0yN3dBUExLYzhQYVg3UnVzRWwybzVRUEJIOEdEaDRFMU5zR0E?oc=5",
+          "source": "NN.de",
+          "date": "31. May 2026"
+        },
         {
           "title": "Infraschall von Windrädern kann gesundheitsschädlich sein - FPÖ",
           "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMW9GQ1BsTDRCeHZPN0ttdU5GZmRHeU1mZzVleEtKdjY0WUdJMTRvY3FMdUVTWVVkMVhMZVduUkl1NV9zWWdBeDBJTEVGNHJhRk42VVpxQ2VJT3I0eWJLbl9oRGhSaTFLd29TamxYVElRSDlfOTl3M29UdUlKUEFLTGZqZW1KbU96b3ptamFzcnJXTExQZVB1NG9FTS1XSG10aVcybHZSRXRsMkFVU3c?oc=5",
@@ -34,15 +64,15 @@
           "date": "26. May 2026"
         },
         {
-          "title": "Herzschäden durch Windräder – Lebensgefährlicher Infraschall - unser-mitteleuropa.com",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBlNjZWd3pMd2Vna2FWdEtqUnd4N21ETHFUbVU5NzBfNzc5bDIzTUh6ZnpJS3NyNy1qZGswcnp3eTRCdXRtRWRKMEdNVHJSNS1MYXJj?oc=5",
-          "source": "unser-mitteleuropa.com",
-          "date": "26. May 2026"
-        },
-        {
           "title": "EU-Kommission muss handeln: Infraschall von Windrädern erweist sich als gesundheitsschädlich - report24.news",
           "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObzhCRmJYQk9WbTlpeWdPTEVMVXIzZFdkZHV3Vk1JSlkzS19wSmdTMm0tVC1YNTVEQVEzb3dvYlMwRnB1b213TFRqSUltTVhSb3ZEZGI5bTlmQTBQaUQtWnoxMFV6aWlWaHl1WVRGX3BrcUJ4OENCYk1LazNvbWNqZmFOYUZCUkc3bUFZQnZBOHgyNjViZGVUYkZKVHctV0tNXzVCa1BGTGxFYXNZNlV0WkRIV3BaN0U?oc=5",
           "source": "report24.news",
+          "date": "26. May 2026"
+        },
+        {
+          "title": "Herzschäden durch Windräder – Lebensgefährlicher Infraschall - unser-mitteleuropa.com",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBlNjZWd3pMd2Vna2FWdEtqUnd4N21ETHFUbVU5NzBfNzc5bDIzTUh6ZnpJS3NyNy1qZGswcnp3eTRCdXRtRWRKMEdNVHJSNS1MYXJj?oc=5",
+          "source": "unser-mitteleuropa.com",
           "date": "26. May 2026"
         },
         {
@@ -63,8 +93,20 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Keine relevanten Meldungen gefunden.\n\nWait - der Titel vom Tages-Anzeiger ist tatsächlich relevant. Lassen Sie mich neu bewerten:\n\nIn der Schweiz zeigt eine aktuelle Umfrage laut Tages-Anzeiger, dass sich zwei Drittel der Bevölkerung nicht am Fluglärm stören, was die Position von Lärmschutzorganisationen und -gegnern erheblich unter Druck setzt.",
+      "summary": "In der Schweiz zeigt eine aktuelle Umfrage, dass sich zwei Drittel der Bevölkerung nicht am Fluglärm stören, was die Position von Lärmschutzorganisationen und -gegnern vor neue Herausforderungen stellt. Aus Deutschland wird zudem über zunehmenden Fluglärm im Raum Hannover berichtet.",
       "items": [
+        {
+          "title": "Mehr Fluglärm in Hannover + Diebesbande geschnappt + Promi-Wirt Pit Seidel ist tot - MSN",
+          "link": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxNZGF5ZS1GcVMySFN4LTRpOHdOM21UXzctOU1nUVRwRmhTX1E3NmJPYlY1TTV0WlJ2NFFoSVRHMmFDZjBqMlNrVHlKZ2hvdGRZOGFmMXBvVEItdXFidFowbVpranFOQ0JuMXYxM1hEY1dIdVZGeVU0QUtmUWtUWXg0LVVfVmNfR2J2eHhyUTAzc1JGVGoxMlJPZzlhek42YjBwd2RxZXFLOEhmUUxzWWxQN3VSVFdlTHlLVHBPRE9DZmRiRGVUandxbHlnZld4S1FfNGlFSDVxeWc1a2xjenVQRXZLUkduMGFGT2VuaVRhOVU2SHZDTWszZjNpQ0NyWTE3TUUxWWV5bDBQVnZiRzBpSmV2Z0RoSzRzZGd0ZmdTN1ZiMFZfeXA4MzhnRVNfRnlkLXZjLUcxcmpzcjY3bHRzai1xR1NVSlktcWRFU0RBWF9hYXJJZF91S0Q4dlJkM1FvVnc2SEF2R0xPU0RILXJHdA?oc=5",
+          "source": "MSN",
+          "date": "25. May 2026"
+        },
+        {
+          "title": "Bild des Tages: Der Sound des Sommers - DW.com",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5IeU1nQUVMUzIwN05LakhQTGpGUF9FclFhVndFWjFVT0U4UXJ1Z2c2d29SemV5dTRfZkgtRFNXQ0h4Nmp2Y29RU0VDd0V3ZnZCSkxQNTB4M09BZE91T25MTldZbllybV80eF85QmRVaTFhNXZqek8zUA?oc=5",
+          "source": "DW.com",
+          "date": "1. Jun 2026"
+        },
         {
           "title": "Zwei Drittel stören sich nicht am Fluglärm – was bedeutet das für die Lärmgegner? - Tages-Anzeiger",
           "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVmpSLU80TkxnZ19kbGdnSVBjbTl6VHB3VWlDbGdCR1ZscGd3M3JnaEFBeEJicUxiVDAweTdSMFdrTVNYSVpTaU9ObGtkclg0UHpkbjRtZG9uam56VWg2NGRLYUVhZkxwZG56bFJ6NFJTZjI4emt3bWtnZTBMNThYek9BYWJGM2YzMmxHZWhnbGZVUVE0QTdDaTBOaVJDOUFIZTh5Znl3?oc=5",
@@ -84,15 +126,8 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Research suggests that infrasound and unusual acoustic properties in old buildings may trigger feelings of unease or \"haunted\" sensations in occupants, offering a scientific explanation for paranormal experiences. These low-frequency sound waves, often imperceptible to conscious hearing, can cause physiological and psychological effects that people commonly associate with ghostly presences.",
-      "items": [
-        {
-          "title": "Do old buildings give you the creeps? New research could explain haunted feelings - CBC",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1oMkhmTG1IdVo3aDBZY3Z2NFczV0RBVTNHSUpycXc2OWF0Mlgya3IxbU5aUWhKODNkUzBwck4zS1BZMGg4UWd1cF9ESXZHdFNrRUt1N0xreHhhdU4tbzl0Ql9JeTI2V1ZOOUV0QkcybU4?oc=5",
-          "source": "CBC",
-          "date": "24. May 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "bauakustik": {
       "label": "Bauakustik",
