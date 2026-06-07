@@ -1,11 +1,11 @@
 {
-  "generated": "06. June 2026, 06:42 UTC",
+  "generated": "07. June 2026, 07:42 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "In Graz sorgt ein neuer „Lärm-Blitzer\" für politischen Streit, da bei Verstößen Strafen von bis zu 5.000 Euro drohen könnten. Zusätzlich wird diskutiert, ob neben dem Lärm-Blitzer auch ein „Handy-Blitzer\" eingeführt werden soll, was ebenfalls mit erheblichen Strafen verbunden wäre.",
+      "summary": "In Graz sorgt ein neuer „Lärm-Blitzer\" für politischen Streit, da bei Verstößen Strafen von bis zu 5000 Euro drohen könnten. Ähnlich wie bereits bekannte „Handy-Blitzer\" soll das System gezielt Lärmverursacher erfassen, wobei manche Politiker fordern, „Krawallmacher\" härter zu bestrafen als Schnellfahrer.",
       "items": [
         {
           "title": "5000 Euro Strafe? Neuer Lärm-Blitzer in Graz spaltet die Politik - 5 Minuten",
@@ -26,6 +26,12 @@
           "date": "5. Jun 2026"
         },
         {
+          "title": "„Krawallmacher sollten härter bestraft werden als Schnellfahrer“ - Kleine Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZFhnVkNGTWg4dThEYXVCdEp4RGpRRXZHcTF0b0xSQ1A4OUFtdlZHV1ZGcFMxaDhsX2wxYURlbnJkaXFxMDgwVG8wVE9yci1kRWw1Y2tMRnRTSS1jandMMWptd0NuRHNOOWVmUFpQWExKT1dOVWJqVnpJRlhBZ2tpbHpJcEZYVkVZcjAtc1MyNWJOQ04wa1puV1dyQjV0WEk5NzZmQXlBRGFnbXotUnc?oc=5",
+          "source": "Kleine Zeitung",
+          "date": "6. Jun 2026"
+        },
+        {
           "title": "Vier Gemeinden gegen Windkraft-Projekt - kommunal.at",
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE01Qk44MmEyR0NfckZfQTF0dnFxRkJEajRGdS1RWUstZXVzM3Q0ZGhMWmExLWswNGQ5QjJXV1NneFk0V2NRdHFiMVBnTzMxVndRSk83TmRRU0lDSUh5Tk9Nc2xHN1dza3c3LVE?oc=5",
           "source": "kommunal.at",
@@ -37,7 +43,7 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Am Brenner demonstrierten Tausende gegen die massive Verkehrsbelastung, wobei eine Sperrung der wichtigen Urlauberroute zu gespenstisch ruhigen Verkehrsverhältnissen führte, die selbst Experten überraschten. Zudem sorgt ein neuer Blitzer für Aufsehen, der künftig automatisch Verstöße bei Lärm und Handynutzung am Steuer ahnden soll.",
+      "summary": "Keine relevanten Meldungen gefunden.",
       "items": [
         {
           "title": "Nächste Brenner-Sperrung? Südtirol-Hoteliers nehmen sich Österreich zur Brust – wichtige Route aufgeschoben - Merkur",
@@ -46,46 +52,10 @@
           "date": "2. Jun 2026"
         },
         {
-          "title": "Grenze Italien und Österreich - Brenner-Blockade: Tausende demonstrierten gegen Verkehrsbelastung - SRF",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRy1aVUo1NFEwbWFYQnh0LTRQcW9TeW55cVNaci1ZcUJBTkp3cWVIRVM0QmJGcW1ZMVdUaHM0aFdTYUJ4SWNRUlQza0Q4eWpBamlUNGVwM0RWd1R4QkNSOXQ1N0p2X1JmNlpzNkR3Q3BGUDByRVF5VFNlck5PRnAzRUFNWGxERWUtTVlSNmZnNmtxNzZnWk51Uy14U2I5VmFJak1fWjVuaFVYd2ZpSVh5U3VDVF9KMEN6U3JBOEZYSUN2RW9CYXdKQVAzUDJNZw?oc=5",
-          "source": "SRF",
-          "date": "30. May 2026"
-        },
-        {
           "title": "Brenner-Sperrung: Gespenstische Szenen rund um Autobahn – Beteiligte ziehen Bilanz - Merkur",
           "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPaHpPQ1VjbTBFbGN5UUhVN1Npcm1janZKSkNMTzkxVEdYc1p4NzZVbWY4UEQ2N1ItSHhKTzBOUnBQYllBNk93Y1Qwc3paNE9MeThsSGNHSG5FQ2lLaGwyNG5WZFZ0eExZRW9HY1BhUTV6NTB6U2hNQlZaSWlQU1FKdlhfQll0aFVqOHVRVFFlSTllV29QdTA5MkY4YkQyVjZPMHFPOWhaU1JYVXg5dnJXUjBsYjlOMnJfc3V6TzJzTzdqTkQ5dWRsaA?oc=5",
           "source": "Merkur",
           "date": "31. May 2026"
-        },
-        {
-          "title": "Brenner-Sperrung legt wichtige Urlauber-Strecke lahm – Behörden und Protestierende ziehen Bilanz - Frankfurter Rundschau",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOY0RTSUNhZFBsRXdfc283WjNVZXFEa2pldU1mRXVFVzlXb1M0alFCOUt6UFlnZmRveldENXlhOWFvSWNQNE9HTGk4MkxBallrYmc1MFpRel9YX0NYdWxRTXNJbUxvTEU4ZVBGSTl4aHV6Z01kTTJxck9za2EzMjFqck9GTWhHVmNGck9aUXJ5ZWhCbGVEOVdmN3lPRnpSdlVEbkNHektiVHlaM0hRRDZfMUdJU2xiZEpMSldqS0FJSFVqSFdsRktBNQ?oc=5",
-          "source": "Frankfurter Rundschau",
-          "date": "30. May 2026"
-        },
-        {
-          "title": "Alpenpass wieder frei - Wo sind die Urlauber? - Radio Regenbogen",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZHd2a0RwWGpwcU1DbjdEZTNJYW1yQkdOT0tNTndUMDI5X05INzhHOWJRSWxfV09wU2RDcjBOZFA1dEYxQ2doZzNRTkY0a0YwS3ZUOU01M1hiTVVNTWMyMWJlRDEtc2lsaHdmVDR3bWs0N0hLQ1AtcFRhQ2d2bWZkcjFHb0NWRWlqTXRIajNPR2lyVzB3OUFyYg?oc=5",
-          "source": "Radio Regenbogen",
-          "date": "31. May 2026"
-        },
-        {
-          "title": "Neuer Blitzer soll automatisch bei Lärm & Handy strafen - MSN",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSHFkUVFIQ0JxY3RQbUdrODNjVWJlN0hnUEFRbmRYcjRWaGM5OTlwcExOQ2VqRnJoUGx5OHkzWnlva2MyTER4Nld5dExya1Z2NjJnQjExbHpKX2VzbHRxNHlzckZrVFVVN01fT0FLTXd2ZTN1OXBlVTU3a251alduaG15Si1nRl9SaGpFeDVLRTZXQXlYQ1ptc0U0bDJkamltRmFHRXgyTWdHNkFWdXpwYnZiOU5Cdw?oc=5",
-          "source": "MSN",
-          "date": "2. Jun 2026"
-        },
-        {
-          "title": "Alpenpass wieder frei - Wo sind die Urlauber? - Aachener Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON0ZWR2lKRXVEaC1ldXhvU090NnF0TXFCOWlVUlp5dFljLWdLZUpnaGFGdno4ejNneVBQbFpQZzM1UV9VLXJDTzNhSUdjeVNTYjlsRmswVzNmSnlmMTZyOFo5ZmpOWko4d1k1Z0dlTkt4cklZeWFlWGFnN0pEYWJQS0g5elpPYWt2UEpkbE5FTU5JVkdadVJoa0J3NEVlWHV6aENGazZn?oc=5",
-          "source": "Aachener Zeitung",
-          "date": "31. May 2026"
-        },
-        {
-          "title": "Demonstration: Brenner-Sperre: Ruhige Verkehrslage überrascht Experten - News.de",
-          "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPMzRwMi0yZWxfM2ZfLVczeEF0Ql9WODVmT1JsaGdLZ1ZfZVNFcGhJZnRHM1BoTTA4ZFFBQTRocWtLSHRwWlo4UUpoM1BENHhEVXU1clV5NDJrLXV4LXVpQW1hbzhEYmlsZXh0elkwR0ZVRUdqTFdGNVAzOWxERW1RREQxM0U1dE1ndFZaQzVIMzhIN2ZrenY5dFJKclcxZWJUNklsMFBDeEpEeHk3MDFaYzk3WFFnTEJUcEFjc1ZGOF9ZVEJ6N0VWSDlqTVNlZERCcnJ0RFo2Tl9COUVsek9SbjZHQXFFWFp1WEYwNjMyaDFVODQ4RERBUXMxY3hUeXBycVBDOVZRX19BNDNId2tpaU9Camxrd1lGbU9HUzh5RjdnRVBFbHNWddIBrgJBVV95cUxNQVd6a0xfdUJiZ1RVbUY5QjVnRzdwRGZseVg0QU5xWTVnbzNJdlI1RjJsaXNjRkdheHVzNU1zTUR6aVhtTVR1R1J5cnV6NFVHYlNBWEhzQVZrMmJNLUhpdzM3UTQ0Vmt4MkZOMTk1V0F4Ry1CZG51cG9fcC0tdWl3YnpsVTVhbWhsVGgzNjhhM3JIQXh1ZTJyczBneGZQTmRPNWVHdWtJZHJuc1dxaDRwVXpyUXV3QTJLbV93WndJbmpsb0pSZUpUd0c5OGktNExGNWxrVk5rM1lxXzFyaERTWWxNZjJucEhXOGxaYUZvcmIwTXhzejZmUkpJZlRtb2pmSi1qR0h4QlJDd0trTjI4TjBlUUxDUmhYeUZTb01NSUEyVnYyQkZOYkRPdXh5UQ?oc=5",
-          "source": "News.de",
-          "date": "30. May 2026"
         }
       ]
     },
@@ -93,14 +63,8 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "In der Schweiz kritisieren Kommunen einen „Vertrauensbruch\" im Zusammenhang mit neuen Fluglärm-Plänen, während in Deutschland das Land Hessen eine Lärmschutz-Sonderregelung für Public Viewing zur WM in Frankfurt eingeführt hat. Zudem deutet eine Meldung auf bevorstehende Lockerungen der Nachtruhe hin, was die Lärmschutzdebatte in der Region weiter befeuern dürfte.",
+      "summary": "Bei der Fußball-WM 2026 hat Hessen eine Lärmschutz-Sonderregelung für Public-Viewing-Veranstaltungen in Frankfurt geschaffen, die entsprechende Feiern trotz üblicher Lärmschutzvorschriften ermöglicht. Der MDR informiert zudem über bundesweite Regelungen und Standorte für Public Viewing während der WM 2026.",
       "items": [
-        {
-          "title": "Kommunen kritisieren «Vertrauensbruch» wegen Fluglärm-Plänen - MSN",
-          "link": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxNazZWZXZWeGNKbWZEOXNhZXJUdDNmUnFOODFQUWtZYlk5cmhocEtKLVdUbG52TjhaSWNJQnVhR2o0Ty1XMVNtZkttdzZWR0QxWURGTW12d2cxVGUyY1pvUmpnUXc5WFRFbXpMTk1BYjVKMlY0WEJrUlRzMTJLai1KeU15d0E5a3cyNDdVeFRTNFQ0ZEFDalVuOVVMNnZla0dyMVg1V3dLRlcwWXhYc1RYYW9DRVY4ak1reU5EQVhIZW1QQ1ljN3VRcVVDU3VlR3QxQkVqZ1E5cElTQ1phbi0wMnF4Z0FoVTBsOFBQOUVFWXRKN3QzeVFMekw4Z09BWS1zZXFEeHVMSkd2QmtNbUdSbkhscW1QcHA2bS1wcDZ5d2x3a3EwQ3l1VzBUcDhSUEJfZHVtT29uSmtfNkxTbEU2Y0JnYXI0Q2ZhSkNDWmNGTzIyNzR2X0t6T3d3VU4?oc=5",
-          "source": "MSN",
-          "date": "3. Jun 2026"
-        },
         {
           "title": "Die Bahn elektrifiziert: Akku-Züge verdrängen Dieseltriebwagen - Neue Zürcher Zeitung",
           "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbGVtMmVNLWN1bk00TzM4SVRIN0UwdUtoMDk3VnBGTi1razMxZXE0ZWlDdEpKNlRZSTNCRnhVS25uR0Jwelo5blNpZy1fci04S0QwWWEtMDZ0eXFfOW1hVHlYU0hjUWd3b3VPT0o5azYtZ285MW9YdmVRY0RSTVhxWENOdmRSTmtoNTBJaDRhMHAxQWp3NU9MUmRYR3N2NkduQVE?oc=5",
@@ -108,15 +72,9 @@
           "date": "4. Jun 2026"
         },
         {
-          "title": "Gastro-Änderungen ab Juni 2026 gelten für ganz Deutschland – doch eine Bedingung muss erfüllt werden - Frankfurter Rundschau",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTFdtdlhQak1PTVFmZW9FdmpuemlWODVlUmRqZ19qdEdjQ2dmSzBqaFdhbS1lQ0N6cHY3aWllcjZicTdCTU5TUmtwVGxCZUNubzM3UTdpSENmLTZteEM0RUpDLXJhMHFJbk1hT1duMlFIMlppUUZjZ2RoLUZjSWJueHhTbDlOVFdOWEhVV1JyRlhCbGxUSTJaZ2V4TjVyUGdmTklKM3RXemstbWZVY21aQmFPeFVrRThYcHhsUVpjaGNONjh2UV9r?oc=5",
-          "source": "Frankfurter Rundschau",
-          "date": "1. Jun 2026"
-        },
-        {
-          "title": "Ausgesetzt: Bald können Sie sich von der Nachtruhe verabschieden - CHIP",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObDBEWTlFRUw4WVFJSkMwRVhWZUZWT1RkVGQyenlzamUwS2JGSzhMNkV0RjFDeHNtN1pibW40QWVSaER3ZFR2c3BPSzFmZWxRWFBoN20xSDIyeHBpaXR2RFNCQzJqb2plYjVkVjN5eElva3RCYlIwakIyUjUtcTlJTjJqTDJYeFppX3RqU1hyVHpKWnpOMXdHTHBYcmlDb01mM0RLR0FXcw?oc=5",
-          "source": "CHIP",
+          "title": "Fußball-WM 2026: Wo Public Viewing geht und welche Sonderregeln es gibt - MDR.de",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQVU1VUk2cUdBVGc1VEl1SUV3SjlrRjZaaDlqamFveEdfdjlLUmY3MV9vczJkTzdqMkxtRUE4bUVzcHhrZkxCbEQtdHJGSkpzMGZmUmNxX3pQSE1PTUZ2TFVBVy16M0JPajF5V1E5M1B6cFB3bFdFWjV3WngybXRQNkRqUnlsY3kwQ29TQ1VqcXE4eW5VVEZaMHhTVUt2aEVsbmc4U2prVF9JWmFNcDZCRk8tbU5MeDUySWItY0VHTGpCWGM?oc=5",
+          "source": "MDR.de",
           "date": "2. Jun 2026"
         },
         {
@@ -131,14 +89,8 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Europe continues to grapple with the serious public health impacts of noise pollution, with significant variation in how severely different countries are affected across the continent. Research and policy attention remain focused on identifying the populations most at risk from what experts have termed a widespread environmental health threat.",
+      "summary": "No relevant news found.",
       "items": [
-        {
-          "title": "Europe's 'loud killer': Which countries suffer most from noise pollution? - MSN",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUlZjcGZLTnFsSXp4WTJsYk40blVZa2tjUVljVVdjcE1aMWlXTUZOVFBCNVQ5UXhHdFR2TVFGZVI3djVFVWcySlpQZkRkdWVZdHhkOWVKbGRsT0htYmtqMC04TGNZVXc0MDZ5Mng2UjZNcEdmNjVzVmEyclZVTEFWWGN0UmFmbnB1ZkRNa0U5cElxY09xN0ROd2lSa0hkMWhHUDllTGFJT1FDZTU0OXBkYVBHdElfWDQ1c2c?oc=5",
-          "source": "MSN",
-          "date": "1. Jun 2026"
-        },
         {
           "title": "Scientists May Have Finally Solved the Mystery of the Strange Hum Heard Around the World - SciTechDaily",
           "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaWtncGh6c21EZThfWG0wbjZxR0dYeEpwRmVzMlA3eGNTbVFiaHJsSXFwNWVwUjR0eWVDNVpjXzJRaVV6NElqdVk1NnpzeHd6aG9sLTVBenZRdEVkTG9jNUFPSnFfVm84Vm8xdnVJazZEQ0ZELWJZUG1tNzZwOTlCcVVBN3gteUU5TmVjSjNnbG5DdlFVM3A2dUNzdEdjRzFBTGFiRDNJS2VLTmQzYzVIUk9DTUw?oc=5",
@@ -151,14 +103,8 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Recent market analysis highlights growing interest in noise mitigation systems, reflecting broader industry momentum in acoustic engineering and sound control technologies. Meanwhile, emerging research is shedding light on low-frequency acoustic phenomena, with findings suggesting that infrasound below the threshold of conscious hearing may trigger measurable physiological stress responses such as elevated cortisol levels, while the mysterious \"Hum\" reported by some individuals is being reframed as a form of low-frequency tinnitus.",
+      "summary": "Research into low-frequency and infrasound phenomena is making headlines, with scientists potentially solving the mystery of \"The Hum\" — a persistent low-frequency noise reported worldwide — by linking it to a form of low-frequency tinnitus. Separately, new studies demonstrate that infrasound below the threshold of human hearing can trigger measurable spikes in cortisol levels, providing a biological mechanism for stress responses to sounds we cannot consciously perceive.",
       "items": [
-        {
-          "title": "Noise Mitigation System Market Report Examines Market Dynamics, Segment Insights And Company Strategies - openPR.com",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMFJyVFpSYlF3d1FZb3pXcVdFM2dET2E5X2FVSDc3ODlIY0h0bU1vQWpLejhWX1NFRFljR0tNeW8zTXlfLWNyLXRENENycWdWQWlyX0w1dU04eDNnTXNrM3pGUllMZkFhWkZKSVBkMmUtUzBHZ1JvZm9aaE51S2xZTHFCR0prRVI0bnNHLXllVTVBZ2M?oc=5",
-          "source": "openPR.com",
-          "date": "4. Jun 2026"
-        },
         {
           "title": "People Who Hear \"The Hum\" Are Facing Low-Frequency Tinnitus - Neuroscience News",
           "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE42NFBtcWxxNUxHMnZpbzdLeXNxeHBDRWdVdWV4Mm9idHV6WnBUb1RLd0RqMDVFMDBMZGtwODNUeFpZRG1wYzE0OWdTV0FxMGl3M2MySk0tZkVFanJNOWhXV0dsd0IzZFlndHNHTXVSZw?oc=5",
@@ -166,10 +112,22 @@
           "date": "2. Jun 2026"
         },
         {
+          "title": "Scientists May Have Finally Solved the Mystery of the Strange Hum Heard Around the World - SciTechDaily",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaWtncGh6c21EZThfWG0wbjZxR0dYeEpwRmVzMlA3eGNTbVFiaHJsSXFwNWVwUjR0eWVDNVpjXzJRaVV6NElqdVk1NnpzeHd6aG9sLTVBenZRdEVkTG9jNUFPSnFfVm84Vm8xdnVJazZEQ0ZELWJZUG1tNzZwOTlCcVVBN3gteUU5TmVjSjNnbG5DdlFVM3A2dUNzdEdjRzFBTGFiRDNJS2VLTmQzYzVIUk9DTUw?oc=5",
+          "source": "SciTechDaily",
+          "date": "5. Jun 2026"
+        },
+        {
           "title": "New research indicates sounds you can't hear can spike your cortisol levels, offering a biological reason for sudden creepy feelings - PsyPost",
           "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOamhod2xfcDdOZ0FqbmVFWUNsVGFpSGZjM0ltYUV0SHJseG5qNFl0VjJjTzJORlNKcFMzcTB3eFUzaDdTOUZkYTZhMWZCcVNvX1ZWd2oxQ2RzVHBMYUhReVctMWVsOURDd0ZPV1ZCa1dvWlROSmFHRDY0aUtGS29rZkpTd3l2d1Atdkt5b05pSVRONi0wR21UVWJNTUdwQUNxQ2RfLWFLd0pCRTlENEZ2RVRjZTU3ME5xd1VlYkNtblpvVXlkaFhJUGVESlczdy1ZT0lxRktVZ3N3am9Rcm9SNFpnMVI0UU40U1hv?oc=5",
           "source": "PsyPost",
           "date": "4. Jun 2026"
+        },
+        {
+          "title": "Study links inaudible infrasound to stress hormone spikes - MSN",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdjE4YnRIQldSdVhJTjZVdjgxZXdvUi04YlU4bDI4RzExUXJ3OTZxVGwzd3JSMDRRVGhIbnRxU1U2Z3V5d3E5QXg4NmpBMWctOTVWV05jMGJDRkV3ckwtdkI1YWR0c2U1RjRDVXRmQ0x1Y3ZaMkczZ2p1TVJWM1VPUmpKSzF4UkpfNXpUblJKdTNwYzBvVXFFTU11SFZqWnlVdTlFdFVobEp2cEU?oc=5",
+          "source": "MSN",
+          "date": "6. Jun 2026"
         }
       ]
     },
@@ -177,8 +135,15 @@
       "label": "Bauakustik",
       "icon": "🏗️",
       "color": "#7b4f12",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "Keine relevanten Meldungen gefunden.",
+      "items": [
+        {
+          "title": "Wärmepumpe und Baurecht 2026: Wann drohen Nutzungsstopp oder Rückbau? - Anwalt.de",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWmhLSFBrYTdTZE45WG9uTmF3ZDY3SnBHLWN3LWtSZ1pHN3pIMEhYQnd3dlZGR1dIWVp3VDVtdmIyQ2xtQ2s2djVBTXJRZ2FSbU5KTjFiSFJ3aFh2WVFpWVpWUXVyajdadEJTZzViVlR5QmtrU2RjdkZmR2lOX1Z0OWJpN1YyQUgtdFEzMi1OandiczRuN19wM0dKaG1fX2tkbDZrZ1FWa0hWS3ZvMjhaQnFHOFl5UQ?oc=5",
+          "source": "Anwalt.de",
+          "date": "6. Jun 2026"
+        }
+      ]
     },
     "oal": {
       "label": "ÖAL",
