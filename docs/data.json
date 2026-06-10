@@ -1,11 +1,11 @@
 {
-  "generated": "09. June 2026, 07:02 UTC",
+  "generated": "10. June 2026, 07:52 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "In Graz sorgt ein neuer „Lärm-Blitzer\" für politische Diskussionen, da bei Verstößen Strafen von bis zu 5.000 Euro drohen könnten. Ähnliche Überwachungsgeräte wie „Handy-Blitzer\" sollen künftig ebenfalls mit empfindlichen Strafen belegt werden, wobei manche Stimmen fordern, Lärmverursacher härter zu bestrafen als Temposünder.",
+      "summary": "In Graz sorgt ein neuer „Lärm-Blitzer\" für politische Diskussionen, da bei Verstößen Strafen von bis zu 5.000 Euro drohen könnten. Dabei wird auch die Forderung laut, dass Lärmverursacher künftig härter bestraft werden sollen als Temposünder.",
       "items": [
         {
           "title": "5000 Euro Strafe? Neuer Lärm-Blitzer in Graz spaltet die Politik - 5 Minuten",
@@ -31,19 +31,13 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Ein neuer Blitzer soll künftig automatisch sowohl Lärm- als auch Handyverstöße im Straßenverkehr ahnden und damit die Strafverfolgung in diesen Bereichen effizienter gestalten. Die Brenner-Thematik betrifft primär Verkehrssperren und touristische Interessen und ist für den Lärmschutz nur am Rande relevant.",
+      "summary": "Keine relevanten Meldungen gefunden.",
       "items": [
         {
-          "title": "Nächste Brenner-Sperrung? Südtirol-Hoteliers nehmen sich Österreich zur Brust – wichtige Route aufgeschoben - Merkur",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWW11QnZJTE9OcWIxMDJhTXd6aEY4ZWNPVXkwUWthRW9HanhWamZOeHFwN05lbXVwcHJmMkcwNGFDalNudGhWWG9mOEJnejdhMGdFSmZaOWh3QmJIUlJfQ21BdzlKUDlwMHlLTUJJNjh3cUNmdkVNUEZVYU16MVRJN1Q3dEMtczV1cGZ5U3BzbVpxQWw3RVdOMVlpTVdGY0hoekNJYkEwZw?oc=5",
-          "source": "Merkur",
-          "date": "2. Jun 2026"
-        },
-        {
-          "title": "Neuer Blitzer soll automatisch bei Lärm & Handy strafen - MSN",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSHFkUVFIQ0JxY3RQbUdrODNjVWJlN0hnUEFRbmRYcjRWaGM5OTlwcExOQ2VqRnJoUGx5OHkzWnlva2MyTER4Nld5dExya1Z2NjJnQjExbHpKX2VzbHRxNHlzckZrVFVVN01fT0FLTXd2ZTN1OXBlVTU3a251alduaG15Si1nRl9SaGpFeDVLRTZXQXlYQ1ptc0U0bDJkamltRmFHRXgyTWdHNkFWdXpwYnZiOU5Cdw?oc=5",
-          "source": "MSN",
-          "date": "2. Jun 2026"
+          "title": "Arbeitssicherheit - wko.at",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4tWDYwMEpwUENObUR1Tk53NnZWYTFkTUpEemlxVmNDVFFTM1hMSGNkZnV2THVDdm1SQ2dxZ2lFYkxzZzlZZmNJWlZTUkNXWFo0QTVfclZYOXVIS3pyNnBZYmJpU1YxVWZO?oc=5",
+          "source": "wko.at",
+          "date": "10. Jun 2026"
         }
       ]
     },
@@ -51,7 +45,7 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Verkehrslärm und seine gesundheitlichen Folgen stehen aktuell im Fokus, während Anwohner in Bonn im Zuge der Deutschen Bahn-Sanierungspläne Schallschutzwände fordern und die Elektrifizierung durch Akku-Züge in der Schweiz als mögliche Lärmminderung diskutiert wird. Zudem lockern deutsche Städte anlässlich der Fußball-WM 2026 mit bis zu 150.000 erwarteten Besuchern beim Public Viewing gezielt die Lärmschutzregelungen für späte Abendspiele.",
+      "summary": "Rund um den Frankfurter Flughafen wird intensiv über eine Verlagerung von Starts in Richtung Nordwesten diskutiert, während die Fluglärmkommission ihre Beratungen zu den geplanten Änderungen aufgenommen hat. Zudem beleuchtet ein Bericht die gesundheitlichen Folgen von Verkehrslärm, und in Hessen wurde eigens eine Lärmschutz-Sonderregelung für das Public Viewing zur Fußball-WM in Kassel geschaffen.",
       "items": [
         {
           "title": "Warum Verkehrslärm den Körper stresst und krank macht - RiffReporter",
@@ -66,7 +60,37 @@
           "date": "8. Jun 2026"
         },
         {
-          "title": "Sanierungspläne der Deutschen Bahn: Anwohner fordern Schallschutzwände gegen Bahnlärm in Bonn - General-Anzeiger Bonn",
+          "title": "Fluglärm: Die Fluglärmkommission - Deutschland & Welt - Rhein-Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQlRacmhIWFJxRmljMjMyb2c0VTNIRlYwbVRUbTRoanlxb24yejlxUDBacThnbXBSbm9IdVlOWENNbHY3bFhKLVVxSEo0Q205Z3pGd25VUXNvNzJSeXpNQlhoX1dEYXdobGJtaTR2cGZNOXAxOEhTNk9HUUo5aHI0bXlSd3R4YVc1enl3TkZQb2w?oc=5",
+          "source": "Rhein-Zeitung",
+          "date": "10. Jun 2026"
+        },
+        {
+          "title": "Fluglärm: Was der Flughafen Frankfurt bei den Abflügen plant - Deutschland & Welt - Rhein-Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNEQxZ0RPZk5kOE5qWkNtandHbk1wNHJpX2JDUGpvLTdsYzFELUVzQU84QzVRbnY1bTdEcDFrbnNEbGNZS3lDVmJ6YmNidzBkZUFRSTB0cktiQnhxY2tNbXliTDh1SnRiWHpVa1BJTlNLYW1WM3Q2di1NWjVtYkxlME1ZVzQwT1pkblprbWcxcDZNOEJCVlNGQ0t2QW1GNExrUUhnRDJLMUtNWXMwNmxMV3J0bDhTQQ?oc=5",
+          "source": "Rhein-Zeitung",
+          "date": "10. Jun 2026"
+        },
+        {
+          "title": "Fluglärm rund um Frankfurt: So arbeitet die Kommission - Wochenblatt Reporter",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSW9wTXpVVGV4SmJidE16WUZxNGFOQloxeGRuWndoNExpd0Z2VFpQNElPekJuNUpJY2NxR1kxY3VmQldFR2p6Y1EwS1ZLUVBoMDFEdFFwSktuWlNXMzlZcDNZY1g0VFFKalF5eWE2eGZvMENvMDVHTTNfTTJha3ZjbTdEelktY2tESjROOTk4aEtfcEhDVE94VTZHVlNQS2hlbWF5Tm02R1dzZmF6?oc=5",
+          "source": "Wochenblatt Reporter",
+          "date": "10. Jun 2026"
+        },
+        {
+          "title": "Fluglärm: Mehr Starts nach Nordwesten – Beratung zu Flughafen-Plänen - Deutschland & Welt - Rhein-Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUGtvUFlPVnIwR3VGRWlkRXZCVkZvRWpCV2VLd1hNY2cxN3FpWW40WUlsZW9FYTBieW12bVFnUFhyWjJVWl9yS2xLOXpWWEd6RGJWbm4zek16RzRSeGcybXRsa0NJOWhmeG40bGpSY0xDZy1qNThUcmRHZmxlcTRFWGY2XzFEWEp5aXZnelJDbTFkaHF6UV92NU1hUXNzRWMtOWpVUmp5Vy1kZzBCS2REVi1DYjN1LWpJNDBvRlhR?oc=5",
+          "source": "Rhein-Zeitung",
+          "date": "10. Jun 2026"
+        },
+        {
+          "title": "Mehr Starts nach Nordwesten - Beratung zu Flughafen-Plänen - MSN",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNMUxudnJ5bjRkN2ZQWk1CSEUyX0tsdEQwWDZfazdtQWFQejJ5NGJSXzNwOFV0dXBwYnVvRm1DOHFkRlRRTU9oTUtzYW1qYlY1RVM0RTc1UnZnM1Q1NVdTdnFYWkcycXhPLW1scmF0SzhWYUFNd0ZZc1hVQU9ROF9DV2RtN2lmX3lnZHM3bUNpdGNCWUpZOGpGNHZBaEVvaFVYOXk1N0FDbGYxTks2b2U5NVZmZzN5eDRUcXlCbkk0VmRhS0lXSHBwTjBOcTRtT2QwT1dqd2llZTRHT1NoQTlR?oc=5",
+          "source": "MSN",
+          "date": "10. Jun 2026"
+        },
+        {
+          "title": "„Regios sind okay, ICEs sind schlimm, Endgegner sind die Güterzüge“ - General-Anzeiger Bonn",
           "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRjFVOWlEa0Q0UmRzeU4zUGxiQ2FyMVJaUHprQmhHS1VEMGRHTER3YWpxUEJRTkFCYjkzLVNLbkhnRjNkZU5pUGNCdFQxbDNaTDJvZWpNa2JhOFlfdjNlNEo5LTBCbGJ1aDRqMHQ1emxJSjlZLWZiSU9UQ2kyejNsc1h4dzllV1VEZmNUcDZKRlRDTVdmX2ducUx5REtybVhxcXpJZA?oc=5",
           "source": "General-Anzeiger Bonn",
           "date": "9. Jun 2026"
@@ -78,16 +102,10 @@
           "date": "4. Jun 2026"
         },
         {
-          "title": "Fußball-WM 2026: Wo Public Viewing geht und welche Sonderregeln es gibt - MDR.de",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQVU1VUk2cUdBVGc1VEl1SUV3SjlrRjZaaDlqamFveEdfdjlLUmY3MV9vczJkTzdqMkxtRUE4bUVzcHhrZkxCbEQtdHJGSkpzMGZmUmNxX3pQSE1PTUZ2TFVBVy16M0JPajF5V1E5M1B6cFB3bFdFWjV3WngybXRQNkRqUnlsY3kwQ29TQ1VqcXE4eW5VVEZaMHhTVUt2aEVsbmc4U2prVF9JWmFNcDZCRk8tbU5MeDUySWItY0VHTGpCWGM?oc=5",
-          "source": "MDR.de",
-          "date": "2. Jun 2026"
-        },
-        {
-          "title": "150.000 Besucher erwartet: Städte lockern Lärmschutz für späte WM-Spiele - upday News",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOFFDdVpjeGN4UVpWTi1adWpvNlNJazEtTE1lZWl2T2IxNjhlWjJpcmFsWXdiTS02UC1ibWZCQmVvdElzM2hmNGtRUm1jZjkwdXI2dmtESGtYckZQQ2RSTHRLcmRhNFdGOUJKSVVMREhZWTFhMEUwZnNuSEx1TFZScFhINm5JZTgtSjFLNXpEaVdCSjdPWC1uUWlHdHJlZkNwMGxPOGszb1JfQko0MGc?oc=5",
-          "source": "upday News",
-          "date": "9. Jun 2026"
+          "title": "Kassel darf feiern: Hessen schafft Lärmschutz-Sonderregel für Public Viewing bei WM - MSN",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQ1d6dFlpZFFqbXFNM0dBZ3B2bXRWTGVTSWJhbnF4SnE2ekFRaXBBOG1fVmxVVWpxUjVLMDFyb1gwanhIbTN5WS1JaFBfTHh3U1Y0bjdobmQ2enVoRllpWkthbWJySUhFQWcta0pvdHBVNjVfaF81Ny1hTzJlUVd6LVVOOUxnelFIc2tIeG1jUWpjTmVUVHlfS0pmRkNkcUNWSjVIY1lubkhGQzhWelU3UmtqTVQ0Vm1kRmVkYTFwd2FXSGdkcTl1SC1iOC1DNW5pYjlwRS01bjBtUk00eXc?oc=5",
+          "source": "MSN",
+          "date": "4. Jun 2026"
         }
       ]
     },
@@ -115,26 +133,8 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "The global noise mitigation system market is being examined for its evolving dynamics and strategic developments, while new research reveals that inaudible low-frequency sounds, or infrasound, can elevate cortisol levels, providing a biological explanation for stress responses to imperceptible acoustic stimuli. Additionally, the longstanding mystery of \"The Hum,\" a low-frequency phenomenon reported worldwide, may have been resolved, with findings suggesting it is linked to a form of low-frequency tinnitus experienced by affected individuals.",
+      "summary": "Research has revealed that inaudible infrasound can trigger spikes in cortisol levels, providing a biological explanation for unexplained feelings of unease. Scientists have also made progress in solving the long-standing mystery of the strange low-frequency hum reported by people around the world.",
       "items": [
-        {
-          "title": "Noise Mitigation System Market Report Examines Market Dynamics, Segment Insights And Company Strategies - openPR.com",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMFJyVFpSYlF3d1FZb3pXcVdFM2dET2E5X2FVSDc3ODlIY0h0bU1vQWpLejhWX1NFRFljR0tNeW8zTXlfLWNyLXRENENycWdWQWlyX0w1dU04eDNnTXNrM3pGUllMZkFhWkZKSVBkMmUtUzBHZ1JvZm9aaE51S2xZTHFCR0prRVI0bnNHLXllVTVBZ2M?oc=5",
-          "source": "openPR.com",
-          "date": "4. Jun 2026"
-        },
-        {
-          "title": "Scientists May Have Finally Solved the Mystery of the Strange Hum Heard Around the World - SciTechDaily",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaWtncGh6c21EZThfWG0wbjZxR0dYeEpwRmVzMlA3eGNTbVFiaHJsSXFwNWVwUjR0eWVDNVpjXzJRaVV6NElqdVk1NnpzeHd6aG9sLTVBenZRdEVkTG9jNUFPSnFfVm84Vm8xdnVJazZEQ0ZELWJZUG1tNzZwOTlCcVVBN3gteUU5TmVjSjNnbG5DdlFVM3A2dUNzdEdjRzFBTGFiRDNJS2VLTmQzYzVIUk9DTUw?oc=5",
-          "source": "SciTechDaily",
-          "date": "5. Jun 2026"
-        },
-        {
-          "title": "People Who Hear \"The Hum\" Are Facing Low-Frequency Tinnitus - Neuroscience News",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE42NFBtcWxxNUxHMnZpbzdLeXNxeHBDRWdVdWV4Mm9idHV6WnBUb1RLd0RqMDVFMDBMZGtwODNUeFpZRG1wYzE0OWdTV0FxMGl3M2MySk0tZkVFanJNOWhXV0dsd0IzZFlndHNHTXVSZw?oc=5",
-          "source": "Neuroscience News",
-          "date": "2. Jun 2026"
-        },
         {
           "title": "New research indicates sounds you can't hear can spike your cortisol levels, offering a biological reason for sudden creepy feelings - PsyPost",
           "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOamhod2xfcDdOZ0FqbmVFWUNsVGFpSGZjM0ltYUV0SHJseG5qNFl0VjJjTzJORlNKcFMzcTB3eFUzaDdTOUZkYTZhMWZCcVNvX1ZWd2oxQ2RzVHBMYUhReVctMWVsOURDd0ZPV1ZCa1dvWlROSmFHRDY0aUtGS29rZkpTd3l2d1Atdkt5b05pSVRONi0wR21UVWJNTUdwQUNxQ2RfLWFLd0pCRTlENEZ2RVRjZTU3ME5xd1VlYkNtblpvVXlkaFhJUGVESlczdy1ZT0lxRktVZ3N3am9Rcm9SNFpnMVI0UU40U1hv?oc=5",
@@ -145,7 +145,13 @@
           "title": "Study links inaudible infrasound to stress hormone spikes - MSN",
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdjE4YnRIQldSdVhJTjZVdjgxZXdvUi04YlU4bDI4RzExUXJ3OTZxVGwzd3JSMDRRVGhIbnRxU1U2Z3V5d3E5QXg4NmpBMWctOTVWV05jMGJDRkV3ckwtdkI1YWR0c2U1RjRDVXRmQ0x1Y3ZaMkczZ2p1TVJWM1VPUmpKSzF4UkpfNXpUblJKdTNwYzBvVXFFTU11SFZqWnlVdTlFdFVobEp2cEU?oc=5",
           "source": "MSN",
-          "date": "6. Jun 2026"
+          "date": "9. Jun 2026"
+        },
+        {
+          "title": "Scientists May Have Finally Solved the Mystery of the Strange Hum Heard Around the World - SciTechDaily",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaWtncGh6c21EZThfWG0wbjZxR0dYeEpwRmVzMlA3eGNTbVFiaHJsSXFwNWVwUjR0eWVDNVpjXzJRaVV6NElqdVk1NnpzeHd6aG9sLTVBenZRdEVkTG9jNUFPSnFfVm84Vm8xdnVJazZEQ0ZELWJZUG1tNzZwOTlCcVVBN3gteUU5TmVjSjNnbG5DdlFVM3A2dUNzdEdjRzFBTGFiRDNJS2VLTmQzYzVIUk9DTUw?oc=5",
+          "source": "SciTechDaily",
+          "date": "5. Jun 2026"
         }
       ]
     },
