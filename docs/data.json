@@ -1,29 +1,17 @@
 {
-  "generated": "10. June 2026, 07:52 UTC",
+  "generated": "11. June 2026, 08:21 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "In Graz sorgt ein neuer „Lärm-Blitzer\" für politische Diskussionen, da bei Verstößen Strafen von bis zu 5.000 Euro drohen könnten. Dabei wird auch die Forderung laut, dass Lärmverursacher künftig härter bestraft werden sollen als Temposünder.",
+      "summary": "In Graz sorgt ein neuer Lärm-Blitzer für politische Diskussionen, da bei Verstößen Strafen von bis zu 5.000 Euro drohen. Die Maßnahme zur Lärmbekämpfung im Stadtgebiet polarisiert die lokale Politik.",
       "items": [
         {
           "title": "5000 Euro Strafe? Neuer Lärm-Blitzer in Graz spaltet die Politik - 5 Minuten",
           "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcGo3WDBxSVMyMWFrb0xuLU9OUDlQckR4Y0NhUmNKZzNjbF9qM1FGNXA4dUNRbi1KcXgxTkRPQ3R4QjA3VUFBR0ZpU0VxWGFpZkFlN19fMENrd3NXTkg2OTNVakIzMUVFS0dZVktIR2lNVFh6V21vendiUG5DVGpBQ3BlTkRCeGgxeGROeUUxNXNtN1RxQVZhakVFNUFNei1PZi0tV2t5QQ?oc=5",
           "source": "5 Minuten",
           "date": "5. Jun 2026"
-        },
-        {
-          "title": "„Lärm-Blitzer“ und „Handy-Blitzer“ könnten bald für enorme Strafen sorgen - Kleine Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaXpDR2FQbDd4V09GanlGN1BTeWdGem05Q0hGLTRFMHJENEx6endFUVVvRUZvUncyTDVUS1NjanhLOW5TNGpLSzA4alZzWUV3NTBYcW9QV29VeW5oRXBYekNTQUktNzRNR2MyeVhlWHJkLXlZTnZ4cmNGUlAwQ3B5NTBYSDlLOWtQUWZVY0xwWl82XzdySWMzVktQaEI4THliczJUWW50Q0NoR0cxMi1RbQ?oc=5",
-          "source": "Kleine Zeitung",
-          "date": "5. Jun 2026"
-        },
-        {
-          "title": "„Krawallmacher sollten härter bestraft werden als Schnellfahrer“ - Kleine Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZFhnVkNGTWg4dThEYXVCdEp4RGpRRXZHcTF0b0xSQ1A4OUFtdlZHV1ZGcFMxaDhsX2wxYURlbnJkaXFxMDgwVG8wVE9yci1kRWw1Y2tMRnRTSS1jandMMWptd0NuRHNOOWVmUFpQWExKT1dOVWJqVnpJRlhBZ2tpbHpJcEZYVkVZcjAtc1MyNWJOQ04wa1puV1dyQjV0WEk5NzZmQXlBRGFnbXotUnc?oc=5",
-          "source": "Kleine Zeitung",
-          "date": "6. Jun 2026"
         }
       ]
     },
@@ -31,12 +19,24 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Keine relevanten Meldungen gefunden.",
+      "summary": "Der Bund hat dem von Tirol geforderten Interessensverband „IG-Lärm\" eine klare Absage erteilt und sieht keinen Bedarf für eine solche Einrichtung. Darüber hinaus plant Wien die Einführung strengerer Regelungen für Veranstaltungen und Partys.",
       "items": [
         {
-          "title": "Arbeitssicherheit - wko.at",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4tWDYwMEpwUENObUR1Tk53NnZWYTFkTUpEemlxVmNDVFFTM1hMSGNkZnV2THVDdm1SQ2dxZ2lFYkxzZzlZZmNJWlZTUkNXWFo0QTVfclZYOXVIS3pyNnBZYmJpU1YxVWZO?oc=5",
-          "source": "wko.at",
+          "title": "Bund erteilte von Tirol gefordertem “IG-Lärm” Absage - Südtirol News",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSXptQW5EdVVBQk1oWEZKMUdyS0NBYmhtYXU0VTYzNW8tSFFpTV9nSGpFVDdfSzI0Tkg1NFprSS1PV2p4MUV2a3RTeDh2MXNRNFFwT3RMTGotU1hVbUdsaDdsZGozZFc5QXdtYjZVVWRQQkwyakVRN2VhanBiUU8tcHZ1SHJ6U0hicGgxMnNOTGFMUQ?oc=5",
+          "source": "Südtirol News",
+          "date": "10. Jun 2026"
+        },
+        {
+          "title": "Wien bekommt strengere Party-Regeln - oe24.at",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5mc3kwczY0M0NmT0thNXhpbHA5NzVzNXBOWVRETm1vV3NzSzJ0UG9acjFUcEQtNFVZcldKQjh5bjVmR2VYZ2J0WGpVQnlsVGZxNFlEMmd0ZU1mZERLaHUtckIzYmJSam9hYmFRcEF5WjdCOHo2V1HSAXtBVV95cUxPakJPRWNVLThGMEVXMzRhSHdHbDdGVlNlSzlienJXLXFmM3c0blR0dzlVRHo0OUJFVXl1VDljclpfRXNaQ1JmcGlQSkp1ZlR3b2FFYThBbHhGUkVCRDU3NE9jZ05ha0pHa3Q2SEZOak92azh5bU9OakNDUjA?oc=5",
+          "source": "oe24.at",
+          "date": "10. Jun 2026"
+        },
+        {
+          "title": "Bund sieht keinen Bedarf für „IG-Lärm“ - tirol.ORF.at",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1VenJlYTNLYnYxQlNWT3llaGxlSnRvV1pBYWtoMlhzbjVjeWFsVUlkU1JyZDlyYVVZNWR1Rm9sVEZiOVVORzBoSUV2Zks2dw?oc=5",
+          "source": "tirol.ORF.at",
           "date": "10. Jun 2026"
         }
       ]
@@ -45,7 +45,7 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Rund um den Frankfurter Flughafen wird intensiv über eine Verlagerung von Starts in Richtung Nordwesten diskutiert, während die Fluglärmkommission ihre Beratungen zu den geplanten Änderungen aufgenommen hat. Zudem beleuchtet ein Bericht die gesundheitlichen Folgen von Verkehrslärm, und in Hessen wurde eigens eine Lärmschutz-Sonderregelung für das Public Viewing zur Fußball-WM in Kassel geschaffen.",
+      "summary": "Rund um den Frankfurter Flughafen sorgt die geplante Verlagerung von Starts in Richtung Nordwesten für Diskussionen, da betroffene Kommunen Nachbesserungen fordern und die Fluglärmkommission intensiv über die Auswirkungen berät. Zudem lockern zahlreiche deutsche Städte pünktlich zur Fußball-WM 2026 ab dem 11. Juni vorübergehend die Nachtruhe-Regelungen für Public-Viewing-Veranstaltungen, bei denen bis zu 150.000 Besucher erwartet werden.",
       "items": [
         {
           "title": "Warum Verkehrslärm den Körper stresst und krank macht - RiffReporter",
@@ -79,14 +79,14 @@
         },
         {
           "title": "Fluglärm: Mehr Starts nach Nordwesten – Beratung zu Flughafen-Plänen - Deutschland & Welt - Rhein-Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUGtvUFlPVnIwR3VGRWlkRXZCVkZvRWpCV2VLd1hNY2cxN3FpWW40WUlsZW9FYTBieW12bVFnUFhyWjJVWl9yS2xLOXpWWEd6RGJWbm4zek16RzRSeGcybXRsa0NJOWhmeG40bGpSY0xDZy1qNThUcmRHZmxlcTRFWGY2XzFEWEp5aXZnelJDbTFkaHF6UV92NU1hUXNzRWMtOWpVUmp5Vy1kZzBCS2REVi1DYjN1LWpJNDBvRlhR?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSDMtZDU4MXhkSnJEX1ZKTFduUmpaZVAwa0U2b1I3bGpZZDdfV1dEYVc3c0NWejRkd3NraUVnaEk3eFVBUWFJd3Ryc29uT2lmVGdMSkJoN2g0dmtDbDRLRFdzMUp3aUl6ZTdweXBxMnc2X2hyaVNzNmRYZ1hMY3E5a1M1T3ZPbUpJcHpaT25lWmhHSHZPSHdhaENOZElOcC11NWRvQ3RXSU83X0MtRXRMQjRDLU5GZERZaXlIREpR?oc=5",
           "source": "Rhein-Zeitung",
-          "date": "10. Jun 2026"
+          "date": "9. Jun 2026"
         },
         {
-          "title": "Mehr Starts nach Nordwesten - Beratung zu Flughafen-Plänen - MSN",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNMUxudnJ5bjRkN2ZQWk1CSEUyX0tsdEQwWDZfazdtQWFQejJ5NGJSXzNwOFV0dXBwYnVvRm1DOHFkRlRRTU9oTUtzYW1qYlY1RVM0RTc1UnZnM1Q1NVdTdnFYWkcycXhPLW1scmF0SzhWYUFNd0ZZc1hVQU9ROF9DV2RtN2lmX3lnZHM3bUNpdGNCWUpZOGpGNHZBaEVvaFVYOXk1N0FDbGYxTks2b2U5NVZmZzN5eDRUcXlCbkk0VmRhS0lXSHBwTjBOcTRtT2QwT1dqd2llZTRHT1NoQTlR?oc=5",
-          "source": "MSN",
+          "title": "Fluglärm: Mehr Starts nach Nordwesten – Kommunen fordern Nachbesserung - Deutschland & Welt - Rhein-Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNd3JNamRXbklBUXVKVHI3TjhOdFZfbTNiVHdzcmlvcUtqLWJIaTlQSXVYZXZvY1NaUVY1V3M4RUIyYUl6c0RXMzR2QURXdHdWWExyVHMzZUFSbGFobEVZaXZZNGdhLXFtSnh5bTYxcXdwdEJfSThzbFlERENxamRlOTZzVnFkSVlJZndjckNlYnVITkxjb2pPaDNrb0JNTmQ5Ml9qSkxzZF9CYWY1emdEQklvUDNVX3lnZ3VBOU0wUQ?oc=5",
+          "source": "Rhein-Zeitung",
           "date": "10. Jun 2026"
         },
         {
@@ -96,16 +96,28 @@
           "date": "9. Jun 2026"
         },
         {
-          "title": "Die Bahn elektrifiziert: Akku-Züge verdrängen Dieseltriebwagen - Neue Zürcher Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbGVtMmVNLWN1bk00TzM4SVRIN0UwdUtoMDk3VnBGTi1razMxZXE0ZWlDdEpKNlRZSTNCRnhVS25uR0Jwelo5blNpZy1fci04S0QwWWEtMDZ0eXFfOW1hVHlYU0hjUWd3b3VPT0o5azYtZ285MW9YdmVRY0RSTVhxWENOdmRSTmtoNTBJaDRhMHAxQWp3NU9MUmRYR3N2NkduQVE?oc=5",
-          "source": "Neue Zürcher Zeitung",
-          "date": "4. Jun 2026"
+          "title": "WM 2026: Diese Regeln gelten in den Fußballnächten fürs Public Viewing - SWR",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNcWZPWFhVMWJ1NHVDTnR3YmNvcmttZ2o5RjcyNERhbE5fMTA4YS16cl9rbjJDMS15NEtLN1NyalFmR0hfcy1BT2JNcGJ1aXhiVEdZd1BVeEZ5SDBRNlNhelo1ZTlwY1c4QWpiYU9pTTduRHBUbDhWYjBfUmdVUG4xWl9pQ2R3UzR1c1NLNjJKZ2VDNWVWM2JGLV9NazdDTzZOMXV6ejZoWl9iTUtNMGdzc3RUdHRjRGdWeUNXLWZTX25sZnVkX1ZhRFRxX1pqaGVRTkJ2RDZZMDl6REIzcHc?oc=5",
+          "source": "SWR",
+          "date": "10. Jun 2026"
         },
         {
-          "title": "Kassel darf feiern: Hessen schafft Lärmschutz-Sonderregel für Public Viewing bei WM - MSN",
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQ1d6dFlpZFFqbXFNM0dBZ3B2bXRWTGVTSWJhbnF4SnE2ekFRaXBBOG1fVmxVVWpxUjVLMDFyb1gwanhIbTN5WS1JaFBfTHh3U1Y0bjdobmQ2enVoRllpWkthbWJySUhFQWcta0pvdHBVNjVfaF81Ny1hTzJlUVd6LVVOOUxnelFIc2tIeG1jUWpjTmVUVHlfS0pmRkNkcUNWSjVIY1lubkhGQzhWelU3UmtqTVQ0Vm1kRmVkYTFwd2FXSGdkcTl1SC1iOC1DNW5pYjlwRS01bjBtUk00eXc?oc=5",
-          "source": "MSN",
-          "date": "4. Jun 2026"
+          "title": "Pünktlich zur WM: So anders regelt Deutschland die Nachtruhe ab 11. Juni - CHIP",
+          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOV2FaSjIta1FTLTBBUjN2WE05R3BpLUItcHhjdW9XeXJ1WHhNblNGUkNwdVFjNHhOUXppYThDNktUeHNmQUFDelc3c2ZRZXRkNG9leFdpby1JZ1VJSlFIRVlaOTVmaE5IZm5qdU9mWWRqT2VZSnRPSHU2WGN2QXZDVE5KeEs5ZkNlTnJlVnpZX3R4UW9sY1d0S0k5VU5qMlJ6eldBcHFWTFFUWVpQNWl1emhhQlRhbUhzZG1Xdk04TlgzdlJEQ2x4dm45c3VNWXpTbXdBOW9IUlhvMFdrV2hvRTdQNFYtUUtTRWRnNUEzMA?oc=5",
+          "source": "CHIP",
+          "date": "9. Jun 2026"
+        },
+        {
+          "title": "WM 2026 und Nachtruhe: Was für Fans und Public Viewing gilt - BILD",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPOTQycHBOZEV5eDQ1a2VtWmVvaFVyV1lGLW44TFp4MXczem9kbjY2ZFJmclladWViQ09QZnVhRllZOV9KZlpWM1VPbEc4eWgxNElheWJqUUxKLTlVZ21ybTdsd0VScFdIQmJoWXpEekxoNkFyQWdmY3RhTXF0TEZBbnVGcjJuamtfRUN6SXhMQnFIVUVUWFUwM3haSXRXS0tFUU5tNUswSU5aQ1N5eXIxazNGbGppN3g0VXV5bWZweWljcFhCVTljRmFPTDAyenFQX2xSQWx2dXhQSXFpeEVJ?oc=5",
+          "source": "BILD",
+          "date": "10. Jun 2026"
+        },
+        {
+          "title": "150.000 Besucher erwartet: Städte lockern Lärmschutz für späte WM-Spiele - upday News",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOFFDdVpjeGN4UVpWTi1adWpvNlNJazEtTE1lZWl2T2IxNjhlWjJpcmFsWXdiTS02UC1ibWZCQmVvdElzM2hmNGtRUm1jZjkwdXI2dmtESGtYckZQQ2RSTHRLcmRhNFdGOUJKSVVMREhZWTFhMEUwZnNuSEx1TFZScFhINm5JZTgtSjFLNXpEaVdCSjdPWC1uUWlHdHJlZkNwMGxPOGszb1JfQko0MGc?oc=5",
+          "source": "upday News",
+          "date": "9. Jun 2026"
         }
       ]
     },
@@ -122,6 +134,12 @@
           "date": "8. Jun 2026"
         },
         {
+          "title": "How Airbus Supercomputing Is Reshaping European Tourism - thetraveler.org",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQU0xHd3hBX2s5ZEEyeDFVaHBRdTdmMmxFbzZUcXdINEo5YTRNcTdUTk1rbkxybDQzd0NobDBhbWpBbUE4U2JJNlphUDk4ZjlHNUNNamZ0NnVOaDY1ZE9iV2EwTnpaVFFTYXdIOThibnB2RU05RXRIa3FDWURkQUN2cGV0VFZxbTY0bFhMbQ?oc=5",
+          "source": "thetraveler.org",
+          "date": "9. Jun 2026"
+        },
+        {
           "title": "Scientists May Have Finally Solved the Mystery of the Strange Hum Heard Around the World - SciTechDaily",
           "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaWtncGh6c21EZThfWG0wbjZxR0dYeEpwRmVzMlA3eGNTbVFiaHJsSXFwNWVwUjR0eWVDNVpjXzJRaVV6NElqdVk1NnpzeHd6aG9sLTVBenZRdEVkTG9jNUFPSnFfVm84Vm8xdnVJazZEQ0ZELWJZUG1tNzZwOTlCcVVBN3gteUU5TmVjSjNnbG5DdlFVM3A2dUNzdEdjRzFBTGFiRDNJS2VLTmQzYzVIUk9DTUw?oc=5",
           "source": "SciTechDaily",
@@ -133,8 +151,14 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Research has revealed that inaudible infrasound can trigger spikes in cortisol levels, providing a biological explanation for unexplained feelings of unease. Scientists have also made progress in solving the long-standing mystery of the strange low-frequency hum reported by people around the world.",
+      "summary": "Scientists may have finally identified the source of the mysterious low-frequency hum reported by people around the world, a phenomenon that has puzzled researchers for decades. Separately, new research demonstrates that infrasound — acoustic frequencies below the threshold of human hearing — can trigger measurable spikes in cortisol levels, providing a physiological explanation for inexplicable feelings of unease in certain environments.",
       "items": [
+        {
+          "title": "Scientists May Have Finally Solved the Mystery of the Strange Hum Heard Around the World - SciTechDaily",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaWtncGh6c21EZThfWG0wbjZxR0dYeEpwRmVzMlA3eGNTbVFiaHJsSXFwNWVwUjR0eWVDNVpjXzJRaVV6NElqdVk1NnpzeHd6aG9sLTVBenZRdEVkTG9jNUFPSnFfVm84Vm8xdnVJazZEQ0ZELWJZUG1tNzZwOTlCcVVBN3gteUU5TmVjSjNnbG5DdlFVM3A2dUNzdEdjRzFBTGFiRDNJS2VLTmQzYzVIUk9DTUw?oc=5",
+          "source": "SciTechDaily",
+          "date": "5. Jun 2026"
+        },
         {
           "title": "New research indicates sounds you can't hear can spike your cortisol levels, offering a biological reason for sudden creepy feelings - PsyPost",
           "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOamhod2xfcDdOZ0FqbmVFWUNsVGFpSGZjM0ltYUV0SHJseG5qNFl0VjJjTzJORlNKcFMzcTB3eFUzaDdTOUZkYTZhMWZCcVNvX1ZWd2oxQ2RzVHBMYUhReVctMWVsOURDd0ZPV1ZCa1dvWlROSmFHRDY0aUtGS29rZkpTd3l2d1Atdkt5b05pSVRONi0wR21UVWJNTUdwQUNxQ2RfLWFLd0pCRTlENEZ2RVRjZTU3ME5xd1VlYkNtblpvVXlkaFhJUGVESlczdy1ZT0lxRktVZ3N3am9Rcm9SNFpnMVI0UU40U1hv?oc=5",
@@ -145,13 +169,7 @@
           "title": "Study links inaudible infrasound to stress hormone spikes - MSN",
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdjE4YnRIQldSdVhJTjZVdjgxZXdvUi04YlU4bDI4RzExUXJ3OTZxVGwzd3JSMDRRVGhIbnRxU1U2Z3V5d3E5QXg4NmpBMWctOTVWV05jMGJDRkV3ckwtdkI1YWR0c2U1RjRDVXRmQ0x1Y3ZaMkczZ2p1TVJWM1VPUmpKSzF4UkpfNXpUblJKdTNwYzBvVXFFTU11SFZqWnlVdTlFdFVobEp2cEU?oc=5",
           "source": "MSN",
-          "date": "9. Jun 2026"
-        },
-        {
-          "title": "Scientists May Have Finally Solved the Mystery of the Strange Hum Heard Around the World - SciTechDaily",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaWtncGh6c21EZThfWG0wbjZxR0dYeEpwRmVzMlA3eGNTbVFiaHJsSXFwNWVwUjR0eWVDNVpjXzJRaVV6NElqdVk1NnpzeHd6aG9sLTVBenZRdEVkTG9jNUFPSnFfVm84Vm8xdnVJazZEQ0ZELWJZUG1tNzZwOTlCcVVBN3gteUU5TmVjSjNnbG5DdlFVM3A2dUNzdEdjRzFBTGFiRDNJS2VLTmQzYzVIUk9DTUw?oc=5",
-          "source": "SciTechDaily",
-          "date": "5. Jun 2026"
+          "date": "6. Jun 2026"
         }
       ]
     },
@@ -166,6 +184,12 @@
           "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbHNraTV2ZWJKeGIwWTI4M21KLTdUUWZ0NF9jbjhBcTROTkl4cnY2TmU2ZDQtUGV2ZVhSckx4SXRiY3JPa1IzM0xmRmpWS2VrSDQ5cjRYcENzWHg0UDd2S2hBZWczT0M1VU4wV25BV1JERi1yVm9mV202WGJ0UkE2X3VVYTF5SjRrdVUwSUw0MA?oc=5",
           "source": "likehifi.de",
           "date": "7. Jun 2026"
+        },
+        {
+          "title": "Wärmepumpe und Baurecht 2026: Wann drohen Nutzungsstopp oder Rückbau? - Anwalt.de",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWmhLSFBrYTdTZE45WG9uTmF3ZDY3SnBHLWN3LWtSZ1pHN3pIMEhYQnd3dlZGR1dIWVp3VDVtdmIyQ2xtQ2s2djVBTXJRZ2FSbU5KTjFiSFJ3aFh2WVFpWVpWUXVyajdadEJTZzViVlR5QmtrU2RjdkZmR2lOX1Z0OWJpN1YyQUgtdFEzMi1OandiczRuN19wM0dKaG1fX2tkbDZrZ1FWa0hWS3ZvMjhaQnFHOFl5UQ?oc=5",
+          "source": "Anwalt.de",
+          "date": "6. Jun 2026"
         }
       ]
     },
