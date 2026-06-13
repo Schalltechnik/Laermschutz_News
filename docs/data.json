@@ -1,35 +1,36 @@
 {
-  "generated": "12. June 2026, 08:09 UTC",
+  "generated": "13. June 2026, 07:10 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "Keine relevanten Meldungen gefunden.",
+      "items": [
+        {
+          "title": "„Krawallmacher sollten härter bestraft werden als Schnellfahrer“ - Kleine Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZFhnVkNGTWg4dThEYXVCdEp4RGpRRXZHcTF0b0xSQ1A4OUFtdlZHV1ZGcFMxaDhsX2wxYURlbnJkaXFxMDgwVG8wVE9yci1kRWw1Y2tMRnRTSS1jandMMWptd0NuRHNOOWVmUFpQWExKT1dOVWJqVnpJRlhBZ2tpbHpJcEZYVkVZcjAtc1MyNWJOQ04wa1puV1dyQjV0WEk5NzZmQXlBRGFnbXotUnc?oc=5",
+          "source": "Kleine Zeitung",
+          "date": "6. Jun 2026"
+        }
+      ]
     },
     "austria": {
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Der Bund hat die von Tirol geforderte Interessengemeinschaft „IG-Lärm\" abgelehnt, was einen Rückschlag für die regionalen Lärmschutzbestrebungen darstellt. Die Meldung wurde von mehreren Medien aufgegriffen und unterstreicht die anhaltenden Spannungen zwischen Tiroler Lärmschutzforderungen und der Bundesebene.",
+      "summary": "Der Bund hat dem von Tirol geforderten \"IG-Lärm\" eine Absage erteilt. Wien plant zudem strengere Regelungen für Veranstaltungen, was ebenfalls Auswirkungen auf den Lärmschutz in der Hauptstadt haben dürfte.",
       "items": [
         {
-          "title": "Bund erteilte von Tirol gefordertem “IG-Lärm” Absage - Südtirol News",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSXptQW5EdVVBQk1oWEZKMUdyS0NBYmhtYXU0VTYzNW8tSFFpTV9nSGpFVDdfSzI0Tkg1NFprSS1PV2p4MUV2a3RTeDh2MXNRNFFwT3RMTGotU1hVbUdsaDdsZGozZFc5QXdtYjZVVWRQQkwyakVRN2VhanBiUU8tcHZ1SHJ6U0hicGgxMnNOTGFMUQ?oc=5",
-          "source": "Südtirol News",
+          "title": "Bund erteilte von Tirol gefordertem \"IG-Lärm\" Absage - Salzburger Nachrichten",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOM0RQZW5kZGZabk9jc0x4RklPMnBQTWJfM0dxTmwyY1NtRC1BLTdYaXJvUVp3ZHlxWGo2Z1kzaVZJSEJmSHlfdkdoUThWbGVHSzlvTFh6RzN4dUM0REN3VXFjeGtubTNYOTlpVHItRTZrakxaa2RLbDNnb0stbi11MFNnRnlCNlJEWTE1VnVSYVlNbXliYWxZU2RRd25oeC1GQ3NIX3pR?oc=5",
+          "source": "Salzburger Nachrichten",
           "date": "10. Jun 2026"
         },
         {
           "title": "Wien bekommt strengere Party-Regeln - oe24.at",
           "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5mc3kwczY0M0NmT0thNXhpbHA5NzVzNXBOWVRETm1vV3NzSzJ0UG9acjFUcEQtNFVZcldKQjh5bjVmR2VYZ2J0WGpVQnlsVGZxNFlEMmd0ZU1mZERLaHUtckIzYmJSam9hYmFRcEF5WjdCOHo2V1HSAXtBVV95cUxPakJPRWNVLThGMEVXMzRhSHdHbDdGVlNlSzlienJXLXFmM3c0blR0dzlVRHo0OUJFVXl1VDljclpfRXNaQ1JmcGlQSkp1ZlR3b2FFYThBbHhGUkVCRDU3NE9jZ05ha0pHa3Q2SEZOak92azh5bU9OakNDUjA?oc=5",
           "source": "oe24.at",
-          "date": "10. Jun 2026"
-        },
-        {
-          "title": "Bund erteilte von Tirol gefordertem \"IG-Lärm\" Absage - MSN",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcDF0UjhVOHpYVngxRk5wWkh5NHNyeWI5UEs0Q04yS0duTk9sUS1xYXlYXy1idTRWMzBOMkpqbFNUS1JxTFZ0cl9jNngtMTRnM25iRmlfV0Q5MEpGQV9KdHVzdFBjbWtCc2pYbXVETzRvZ3FRdElmdENBeEdXVDR6bG5ONUZDdzcwaThXTDgzOWhJeElaZWZFUUctNGloc1ZLSWcwQVpGa1NWaGxQcmRuM1FB?oc=5",
-          "source": "MSN",
           "date": "10. Jun 2026"
         }
       ]
@@ -38,7 +39,7 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Rund um den Frankfurter Flughafen beschäftigt die Fluglärmkommission aktuell die Frage nach mehr Starts in Richtung Nordwesten, wobei betroffene Kommunen Nachbesserungen fordern und die Arbeitsweise der Kommission öffentlich diskutiert wird. Anlässlich der Fußball-WM 2026 lockern zudem zahlreiche deutsche Städte ihre Lärmschutzregelungen für Public-Viewing-Veranstaltungen und späte Nachtspiele, um den erwarteten 150.000 Besuchern Rechnung zu tragen.",
+      "summary": "Rund um die Fußball-WM 2026 lockern zahlreiche deutsche Städte ihre Lärmschutzregelungen für Public-Viewing-Veranstaltungen in den späten Abendstunden, während am Frankfurter Flughafen kontroverse Pläne zur Verlagerung von Starts in Richtung Nordwesten diskutiert werden und betroffene Kommunen Nachbesserungen fordern. Zudem sorgt Bahnlärm entlang stark befahrener Strecken weiterhin für Unmut bei Anwohnern, wobei insbesondere Güterzüge als besonders belastend wahrgenommen werden.",
       "items": [
         {
           "title": "Pünktlich zur WM: So anders regelt Deutschland die Nachtruhe ab 11. Juni - CHIP",
@@ -59,12 +60,6 @@
           "date": "10. Jun 2026"
         },
         {
-          "title": "Fluglärm rund um Frankfurt: So arbeitet die Kommission - Wochenblatt Reporter",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSW9wTXpVVGV4SmJidE16WUZxNGFOQloxeGRuWndoNExpd0Z2VFpQNElPekJuNUpJY2NxR1kxY3VmQldFR2p6Y1EwS1ZLUVBoMDFEdFFwSktuWlNXMzlZcDNZY1g0VFFKalF5eWE2eGZvMENvMDVHTTNfTTJha3ZjbTdEelktY2tESjROOTk4aEtfcEhDVE94VTZHVlNQS2hlbWF5Tm02R1dzZmF6?oc=5",
-          "source": "Wochenblatt Reporter",
-          "date": "10. Jun 2026"
-        },
-        {
           "title": "Fluglärm: Mehr Starts nach Nordwesten – Beratung zu Flughafen-Plänen - Deutschland & Welt - Rhein-Zeitung",
           "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSDMtZDU4MXhkSnJEX1ZKTFduUmpaZVAwa0U2b1I3bGpZZDdfV1dEYVc3c0NWejRkd3NraUVnaEk3eFVBUWFJd3Ryc29uT2lmVGdMSkJoN2g0dmtDbDRLRFdzMUp3aUl6ZTdweXBxMnc2X2hyaVNzNmRYZ1hMY3E5a1M1T3ZPbUpJcHpaT25lWmhHSHZPSHdhaENOZElOcC11NWRvQ3RXSU83X0MtRXRMQjRDLU5GZERZaXlIREpR?oc=5",
           "source": "Rhein-Zeitung",
@@ -78,7 +73,13 @@
         },
         {
           "title": "Die Fluglärmkommission - MSN",
-          "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNdXdyMGo1am5SQjBQd2kyWmlQX3JXaWs3MUtscWJobmNrUDN2RE10MWZuY1ZDLVlQVHRBWE9nSGZMeVBzcDg2U2daRFNFeWh4LUxpUmY5cXNxOFViLTRaWTA5WjdlSFhOMTN3UUx3TTFBMmtVVHhNUW16b1NCVVJrakFUanhyczUwcG1RbTV0ckd5TTJjVzNfMm1BdldCemN5dDREWHc1dXRRZFVKWEM5bzE2VU5LV0NIQ2VJUzNpMVhsaVh1UmxaSDdTVzM4aFd4cmQ5ekktanZrRVRSUzZXQUNvdlpEb1VERjAwdlVyUGtBOUx3ZWtnNVc1V2cycl9LVnZkcGhISGh5a2dEMDVPUl9tT0tOeVNuS3EwdlViREpHVEk1UUE?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUGdZa1c2elZIUE1lYWlfTExmMElYOE1vWVpMYzdHRmRkbTd3bFpreHYyaS04Z2x0YVRMMDBfTzdXQjFpZ09VNm9lMnEwU09MWGF6dXVpN2Vlb3JtbDBZQjhRcmRoRHQxOXhRUThuT3lJZ29WNE4zZnNwX0dLbU1fOTVuN2luR18wbTBic3RHUQ?oc=5",
+          "source": "MSN",
+          "date": "10. Jun 2026"
+        },
+        {
+          "title": "ILA-Fluglärm + Widerstand gegen Anti-Rassismus-Aktion + HNO-Station schließt - MSN",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOMEdBUV9sZnJQbXIyMFdqSHJjZ0RuTllSaDVNblVGd2FpM3hEVC1FVnNWV1VNdlczUlcwaVFqaEJuX3NzcEFta1pZRVJ0aElaWTRLVVgyd3J4alUwWlNGY0lRQUtGOVdHcWQ2RHNNSEtySnRITVJNdlZJNVpqaHdKdDdmRkxVdjRfU25sUjF5VmhMdXE2VF9jSThXWjRHb19GMlZRU3lVT1pLeHF3NXVsTGFEYkxqc2ljWUlNcXVFYzVZcFVnc3BTay05dTM4SzhETkFLYldNazg?oc=5",
           "source": "MSN",
           "date": "10. Jun 2026"
         },
@@ -92,12 +93,6 @@
           "title": "WM 2026: Diese Regeln gelten in den Fußballnächten fürs Public Viewing - SWR",
           "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNcWZPWFhVMWJ1NHVDTnR3YmNvcmttZ2o5RjcyNERhbE5fMTA4YS16cl9rbjJDMS15NEtLN1NyalFmR0hfcy1BT2JNcGJ1aXhiVEdZd1BVeEZ5SDBRNlNhelo1ZTlwY1c4QWpiYU9pTTduRHBUbDhWYjBfUmdVUG4xWl9pQ2R3UzR1c1NLNjJKZ2VDNWVWM2JGLV9NazdDTzZOMXV6ejZoWl9iTUtNMGdzc3RUdHRjRGdWeUNXLWZTX25sZnVkX1ZhRFRxX1pqaGVRTkJ2RDZZMDl6REIzcHc?oc=5",
           "source": "SWR",
-          "date": "9. Jun 2026"
-        },
-        {
-          "title": "WM 2026 und Nachtruhe: Was für Fans und Public Viewing gilt - BILD",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPOTQycHBOZEV5eDQ1a2VtWmVvaFVyV1lGLW44TFp4MXczem9kbjY2ZFJmclladWViQ09QZnVhRllZOV9KZlpWM1VPbEc4eWgxNElheWJqUUxKLTlVZ21ybTdsd0VScFdIQmJoWXpEekxoNkFyQWdmY3RhTXF0TEZBbnVGcjJuamtfRUN6SXhMQnFIVUVUWFUwM3haSXRXS0tFUU5tNUswSU5aQ1N5eXIxazNGbGppN3g0VXV5bWZweWljcFhCVTljRmFPTDAyenFQX2xSQWx2dXhQSXFpeEVJ?oc=5",
-          "source": "BILD",
           "date": "10. Jun 2026"
         },
         {
@@ -112,13 +107,25 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "No relevant news found.",
+      "summary": "London City Airport's proposed expansion is facing pushback from opponents citing noise concerns. No further relevant European noise control policy developments were identified among the remaining headlines.",
       "items": [
         {
-          "title": "How Airbus Supercomputing Is Reshaping European Tourism - thetraveler.org",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQU0xHd3hBX2s5ZEEyeDFVaHBRdTdmMmxFbzZUcXdINEo5YTRNcTdUTk1rbkxybDQzd0NobDBhbWpBbUE4U2JJNlphUDk4ZjlHNUNNamZ0NnVOaDY1ZE9iV2EwTnpaVFFTYXdIOThibnB2RU05RXRIa3FDWURkQUN2cGV0VFZxbTY0bFhMbQ?oc=5",
-          "source": "thetraveler.org",
-          "date": "9. Jun 2026"
+          "title": "Breaking Airline News: easyJet Deploys 100th Airbus A320neo to Violently Combat Severe European Travel Chaos and Grounding Threats - Nomad Lawyer",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ3RNVTVlbHNYVENXeG9kelgwWjU3YkNqMUxMcnBQVU1uTlo4cjlGQkVjN01tN2U3Wk1XSnVsd0NTVnhrdzZlaENXRmJpRk5VUTNfSEVYcm1oU0VqR0xOMnFGUnBMOU5CLVpRRU1PVUxMdjlMb0JZQlJNVEllUjczZVVOZnlvQ2pxUkE?oc=5",
+          "source": "Nomad Lawyer",
+          "date": "11. Jun 2026"
+        },
+        {
+          "title": "London City Airport's Expansion Plans Face Opposition Over Noise Concerns - Quarterly Earnings - newsline.com",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVUY1WFlIOWgtbVVkTHQzZUsyUjR2UnBTXzZJTk1lNDB3ZHVwXzJHdEVobUlGMHItMkg5WmppSk4ydktUWTJPa2x0Z20zRmRZQWw4NGVfX21odzRyb2tEZ25tRjZSS0VsSGVad3dHcGxyaEU0ckxvY2tnUkFuNVJMeXh4S3NoUUloR0J1ZmQ2T1BlU2lkNjRTazQ1cHUwd01jU3VsWlJWdlRlVGZxY1dNN1owVUc?oc=5",
+          "source": "newsline.com",
+          "date": "8. Jun 2026"
+        },
+        {
+          "title": "The Mystery of the \"Global Hum,\" the Droning Sound Reported By Thousands - Mental Floss",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5vWkVJZ2QtSFFrUDdQSXFNUDNTTnUxeXBaMHpSbFYwbmd2Q2FvajZuZkZNRzgzVjh1M051QnN6UTZJYmpqVC1XNHNRcncyOHJqeVp0TS1naUwyNVBwVjZmNTR6TENkU0lk?oc=5",
+          "source": "Mental Floss",
+          "date": "12. Jun 2026"
         }
       ]
     },
@@ -126,15 +133,8 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "A new study has found a connection between infrasound — sound frequencies below the threshold of human hearing — and elevated stress hormone levels, suggesting that inaudible acoustic energy can have measurable physiological effects on the body.",
-      "items": [
-        {
-          "title": "Study links inaudible infrasound to stress hormone spikes - MSN",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdjE4YnRIQldSdVhJTjZVdjgxZXdvUi04YlU4bDI4RzExUXJ3OTZxVGwzd3JSMDRRVGhIbnRxU1U2Z3V5d3E5QXg4NmpBMWctOTVWV05jMGJDRkV3ckwtdkI1YWR0c2U1RjRDVXRmQ0x1Y3ZaMkczZ2p1TVJWM1VPUmpKSzF4UkpfNXpUblJKdTNwYzBvVXFFTU11SFZqWnlVdTlFdFVobEp2cEU?oc=5",
-          "source": "MSN",
-          "date": "6. Jun 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "bauakustik": {
       "label": "Bauakustik",
