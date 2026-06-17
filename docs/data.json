@@ -1,5 +1,5 @@
 {
-  "generated": "16. June 2026, 09:09 UTC",
+  "generated": "17. June 2026, 08:41 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -12,19 +12,19 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Der Bund hat dem von Tirol geforderten „IG-Lärm\" eine Absage erteilt. Die Initiative des Bundeslandes Tirol zur Schaffung einer Interessengemeinschaft für Lärmschutz findet damit auf Bundesebene vorerst keine Unterstützung.",
+      "summary": "Die Interessengemeinschaft Lärm aus Tirol hat vom Bund eine Absage erhalten, was die Bemühungen des Bundeslandes im Bereich Lärmschutz zurückwirft. Zudem warnt ein Physiker vor möglichen gesundheitlichen Auswirkungen des Windkraftausbaus durch Lärmemissionen von Windrädern.",
       "items": [
-        {
-          "title": "Bund erteilte von Tirol gefordertem \"IG-Lärm\" Absage - Salzburger Nachrichten",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOM0RQZW5kZGZabk9jc0x4RklPMnBQTWJfM0dxTmwyY1NtRC1BLTdYaXJvUVp3ZHlxWGo2Z1kzaVZJSEJmSHlfdkdoUThWbGVHSzlvTFh6RzN4dUM0REN3VXFjeGtubTNYOTlpVHItRTZrakxaa2RLbDNnb0stbi11MFNnRnlCNlJEWTE1VnVSYVlNbXliYWxZU2RRd25oeC1GQ3NIX3pR?oc=5",
-          "source": "Salzburger Nachrichten",
-          "date": "10. Jun 2026"
-        },
         {
           "title": "„IG-Lärm“: Bundesland Tirol kassiert Absage durch den Bund - stol.it",
           "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVEM4clJRaVcwMFFJdElYbTVfSkZLVE5VSTJJclNkZF9mR2c3NFBvX3Z6dW03aGoxc1JsZ2xtUi1acU1sNGtJZmNvV1Z2YlA3eE9Zb1hZM3JpLVBoejE2eTNPdFlvN2pFOXRGR1NMLXQ2UENHWDFOU0ZOdnEtbE1NVjlXWGR2bEFONUhWNXlTcjUtdVpUbE8w?oc=5",
           "source": "stol.it",
           "date": "10. Jun 2026"
+        },
+        {
+          "title": "Physiker schlägt Alarm: Macht uns der Windräder-Ausbau krank? - exxpress",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQS0RTanVwcDFPdV9LREVYaU13alBybnhTd2dqUERLdFdmNzR0bkg4cFhTTXhKbExNRkJYcFZ4UTR1QVRGMGFQN0ZwY3JkQVJXOVk1S2JZZ3RqQWRRSDRVUUNkNGNvSjhYdGlHTGp2MWlJUEYtSHhqQm81MDZPRTB4Z1JjSjNDZDFY?oc=5",
+          "source": "exxpress",
+          "date": "17. Jun 2026"
         }
       ]
     },
@@ -32,43 +32,13 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Rund um die Fußball-WM 2026 dominieren Fragen zur Nachtruhe und zum Lärmschutz beim Public Viewing die deutschen Medien, wobei in mehreren Städten Sonderregelungen für Fans gelten. Beim Frankfurter Flughafen sorgen geplante Änderungen bei den Abflugrouten nach Nordwesten für Diskussionen, während in Saarbrücken-Ost die Deutsche Bahn Fortschritte beim Lärmschutz zur Halbzeit des laufenden Projekts vermelden kann.",
+      "summary": "Rund um die Fußball-WM 2026 rücken Fragen zur Nachtruhe und zum Lärmschutz bei Public-Viewing-Veranstaltungen in den Fokus, während in Deutschland konkrete Lärmschutzmaßnahmen voranschreiten – so meldet die Deutsche Bahn Fortschritte beim Lärmschutzprojekt in Saarbrücken-Ost. Zudem sorgte der Fluglärm während der ILA-Luftfahrtmesse für Aufmerksamkeit in der öffentlichen Debatte.",
       "items": [
         {
           "title": "Die normale Nachtruhe ist aktuell ausgesetzt – das sind die Folgen - CHIP",
           "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQYjR4YWVTWi1Xb1JoWFNPNFdiQVVvaWVkbXVPUHc0WkZwZUdxdXA4VENMcENhM3JrNkdoRDZhUjktNldZZkFvMTl0LURZUDVPQXM3MTBmczdYLVBrMUk3dy01TVRScExBWHFoZ01Wd3BYTkwzUGF3bmRZQ0kwamFsXzNrZnNVZ1ExNldNUXNsSUNtbG5DT1RZNGNSNjlyOVM2V05JaXlHNzhwSEpZZUFXb19hTTM5WHJCSFFvM18xVWRTRWxRS0RRd0M3bERCY1FmdnYzWFBMTWpPWTF4OERURTRXY0RIQQ?oc=5",
           "source": "CHIP",
           "date": "14. Jun 2026"
-        },
-        {
-          "title": "Pünktlich zur WM: So anders regelt Deutschland die Nachtruhe ab 11. Juni - CHIP",
-          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOV2FaSjIta1FTLTBBUjN2WE05R3BpLUItcHhjdW9XeXJ1WHhNblNGUkNwdVFjNHhOUXppYThDNktUeHNmQUFDelc3c2ZRZXRkNG9leFdpby1JZ1VJSlFIRVlaOTVmaE5IZm5qdU9mWWRqT2VZSnRPSHU2WGN2QXZDVE5KeEs5ZkNlTnJlVnpZX3R4UW9sY1d0S0k5VU5qMlJ6eldBcHFWTFFUWVpQNWl1emhhQlRhbUhzZG1Xdk04TlgzdlJEQ2x4dm45c3VNWXpTbXdBOW9IUlhvMFdrV2hvRTdQNFYtUUtTRWRnNUEzMA?oc=5",
-          "source": "CHIP",
-          "date": "9. Jun 2026"
-        },
-        {
-          "title": "Fluglärm: Die Fluglärmkommission - Deutschland & Welt - Rhein-Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQlRacmhIWFJxRmljMjMyb2c0VTNIRlYwbVRUbTRoanlxb24yejlxUDBacThnbXBSbm9IdVlOWENNbHY3bFhKLVVxSEo0Q205Z3pGd25VUXNvNzJSeXpNQlhoX1dEYXdobGJtaTR2cGZNOXAxOEhTNk9HUUo5aHI0bXlSd3R4YVc1enl3TkZQb2w?oc=5",
-          "source": "Rhein-Zeitung",
-          "date": "10. Jun 2026"
-        },
-        {
-          "title": "Fluglärm: Mehr Starts nach Nordwesten – Kommunen fordern Nachbesserung - Deutschland & Welt - Rhein-Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNd3JNamRXbklBUXVKVHI3TjhOdFZfbTNiVHdzcmlvcUtqLWJIaTlQSXVYZXZvY1NaUVY1V3M4RUIyYUl6c0RXMzR2QURXdHdWWExyVHMzZUFSbGFobEVZaXZZNGdhLXFtSnh5bTYxcXdwdEJfSThzbFlERENxamRlOTZzVnFkSVlJZndjckNlYnVITkxjb2pPaDNrb0JNTmQ5Ml9qSkxzZF9CYWY1emdEQklvUDNVX3lnZ3VBOU0wUQ?oc=5",
-          "source": "Rhein-Zeitung",
-          "date": "10. Jun 2026"
-        },
-        {
-          "title": "Fluglärm: Was der Flughafen Frankfurt bei den Abflügen plant - Deutschland & Welt - Rhein-Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNEQxZ0RPZk5kOE5qWkNtandHbk1wNHJpX2JDUGpvLTdsYzFELUVzQU84QzVRbnY1bTdEcDFrbnNEbGNZS3lDVmJ6YmNidzBkZUFRSTB0cktiQnhxY2tNbXliTDh1SnRiWHpVa1BJTlNLYW1WM3Q2di1NWjVtYkxlME1ZVzQwT1pkblprbWcxcDZNOEJCVlNGQ0t2QW1GNExrUUhnRDJLMUtNWXMwNmxMV3J0bDhTQQ?oc=5",
-          "source": "Rhein-Zeitung",
-          "date": "10. Jun 2026"
-        },
-        {
-          "title": "Fluglärm: Mehr Starts nach Nordwesten – Beratung zu Flughafen-Plänen - Deutschland & Welt - Rhein-Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSDMtZDU4MXhkSnJEX1ZKTFduUmpaZVAwa0U2b1I3bGpZZDdfV1dEYVc3c0NWejRkd3NraUVnaEk3eFVBUWFJd3Ryc29uT2lmVGdMSkJoN2g0dmtDbDRLRFdzMUp3aUl6ZTdweXBxMnc2X2hyaVNzNmRYZ1hMY3E5a1M1T3ZPbUpJcHpaT25lWmhHSHZPSHdhaENOZElOcC11NWRvQ3RXSU83X0MtRXRMQjRDLU5GZERZaXlIREpR?oc=5",
-          "source": "Rhein-Zeitung",
-          "date": "9. Jun 2026"
         },
         {
           "title": "Fluglärm während ILA + Sondervermögen + Fledermaus-Sensation - MSN",
@@ -83,33 +53,15 @@
           "date": "12. Jun 2026"
         },
         {
-          "title": "Infraschall und Gesundheit: Was wirklich an der Windkraft-Debatte dran ist - tagesschau.de",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBlT2ZZeGFPRzZFQmNocVpnOTRoSGp4ZEVLdFgwc3dEblpsbXlkNGlVeFgyRnk2TlBvMXNkTFFHVi16MHNPaDZpU21NWW1SbXBVeklGbms2Y1dxOVVlRnozQnIzbGhwT3l6b3NSdWV0c2pYWVZjTVZFTnRvNA?oc=5",
-          "source": "tagesschau.de",
-          "date": "10. Jun 2026"
-        },
-        {
           "title": "Fußball-WM 2026: Lärmschutz, Sonderurlaub, Homeoffice – so vermeiden Sie Ärger - WELT",
           "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPRmU5eHdQTTl6aFdoa3MwRGhEWVAyNDNyTWYtT0R5UUNhTnM1ZUlBMnpwbW1zeXBHTEtJSWVoVEpDWUdPWFRZZTVXTERWMVFuVDNMUGthcmU1aUk4eHViUmtnTjVEcV9SWmYzT1IyOTdXTTd6aEI3Y1VITEZ3enNBY3dZUEk3MVNONFpfRHJDQ0dqX3BmZ0FGYUl3QVB0MzdocjlkT19OeDlBVGJ0azZUUFZnSEhBd0laVDlRMWNUOXhqdzd6ZzRjQy1zVmM2MDZQQWUyMWxENUs?oc=5",
           "source": "WELT",
           "date": "13. Jun 2026"
         },
         {
-          "title": "Nicht überall verboten: In diesen Städten gibt es Public Viewing zur WM - SWR",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQnlyd3B4elRTVW9WeG5BLXhGcXY2c2Z0WUdDd0JDdmZ5OEJWWTFWLUtrUXRteVZuNGJ5dnJLby1NdEJ0SzZDWl9LeExFZVI3TWs0SmFKY2xvZm1SekNPVWhwQVpldXo0UFcxcWEwazB5SF8tT2Z5WUoyS2hxM3hzbzBiTFR5d3RfaEtGeG5hMzlZbVkwclUxeFJXeXZ1MTdXcFJHYU5kZGNDdnBLNGJhR0VrMHluY1pPdXV3NWhpSzdGX1BYWF95UVNB?oc=5",
-          "source": "SWR",
-          "date": "10. Jun 2026"
-        },
-        {
           "title": "WM 2026 und Nachtruhe: Was für Fans und Public Viewing gilt - BILD",
           "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPOTQycHBOZEV5eDQ1a2VtWmVvaFVyV1lGLW44TFp4MXczem9kbjY2ZFJmclladWViQ09QZnVhRllZOV9KZlpWM1VPbEc4eWgxNElheWJqUUxKLTlVZ21ybTdsd0VScFdIQmJoWXpEekxoNkFyQWdmY3RhTXF0TEZBbnVGcjJuamtfRUN6SXhMQnFIVUVUWFUwM3haSXRXS0tFUU5tNUswSU5aQ1N5eXIxazNGbGppN3g0VXV5bWZweWljcFhCVTljRmFPTDAyenFQX2xSQWx2dXhQSXFpeEVJ?oc=5",
           "source": "BILD",
-          "date": "10. Jun 2026"
-        },
-        {
-          "title": "WM 2026: Diese Regeln gelten in den Fußballnächten fürs Public Viewing - SWR",
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNcWZPWFhVMWJ1NHVDTnR3YmNvcmttZ2o5RjcyNERhbE5fMTA4YS16cl9rbjJDMS15NEtLN1NyalFmR0hfcy1BT2JNcGJ1aXhiVEdZd1BVeEZ5SDBRNlNhelo1ZTlwY1c4QWpiYU9pTTduRHBUbDhWYjBfUmdVUG4xWl9pQ2R3UzR1c1NLNjJKZ2VDNWVWM2JGLV9NazdDTzZOMXV6ejZoWl9iTUtNMGdzc3RUdHRjRGdWeUNXLWZTX25sZnVkX1ZhRFRxX1pqaGVRTkJ2RDZZMDl6REIzcHc?oc=5",
-          "source": "SWR",
           "date": "10. Jun 2026"
         }
       ]
@@ -118,19 +70,13 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Transport & Environment has submitted a response to the EU's call for evidence regarding the evaluation of airport noise rules, signaling ongoing scrutiny of European aviation noise regulations. No other headlines contained relevant information on European noise control policy.",
+      "summary": "Transport & Environment has submitted a response to the EU's call for evidence regarding the evaluation of airport noise rules, signaling ongoing regulatory scrutiny of aviation-related noise standards in Europe.",
       "items": [
         {
           "title": "EU's Evaluation of Airport Noise rules - T&E call for evidence response - transportenvironment.org",
           "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYkQwSXdaTS1Hc3BxMXlQNFhBV0ZHc1plUHd2cEtDcGVSYXJ3U3BVWl9kbEJXRDJWYk8ta0dyTjdjSU83TUJ5a2NwT1lFSnMwQzMyNy1zdS1DbUcxTDBueHJFdVo4T1hFT2wweEQzUWFRZUNNdlpHc0xuMGtiVTZJWmwxdFE1MS13T3BzMmpaMXZDd09Fc3lrVUhnTVJXX2xTZmJJd3phZWxnOEFtWDI4a1NXNzY3TldTRF9rRFJ3?oc=5",
           "source": "transportenvironment.org",
           "date": "11. Jun 2026"
-        },
-        {
-          "title": "How Airbus Supercomputing Is Reshaping European Tourism - thetraveler.org",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQU0xHd3hBX2s5ZEEyeDFVaHBRdTdmMmxFbzZUcXdINEo5YTRNcTdUTk1rbkxybDQzd0NobDBhbWpBbUE4U2JJNlphUDk4ZjlHNUNNamZ0NnVOaDY1ZE9iV2EwTnpaVFFTYXdIOThibnB2RU05RXRIa3FDWURkQUN2cGV0VFZxbTY0bFhMbQ?oc=5",
-          "source": "thetraveler.org",
-          "date": "9. Jun 2026"
         },
         {
           "title": "The Mystery of the \"Global Hum,\" the Droning Sound Reported By Thousands - Mental Floss",
@@ -144,18 +90,12 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "The railway noise control barrier market is seeing notable segment expansion and emerging market leadership, signaling growing industrial investment in acoustic shielding solutions. Additionally, new development plans for the Weinberg Campus in Halle are advancing with a focus on increased production capacity alongside clearly defined noise protection measures.",
+      "summary": "Research into railway noise control barrier markets indicates notable segment expansion and emerging market leadership trends. These developments reflect growing industrial and regulatory interest in acoustic mitigation solutions for rail infrastructure.",
       "items": [
         {
           "title": "Railway Noise Control Barrier Market Insights Highlight Segment Expansion And Market Leadership - openPR.com",
           "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSFFzdnFOT0UxMmlXM0NBYlg3WFdtYVp4bTU5V3NsOEVIZ1JjdU9heEtVbTVBTEVZVzZDYlhYQmhzZC1RbDlWZTBQcHdyMWtDbG5HOC1GOW42NnFZblNxR1UyY3ZITmp0Sm5jSTl0VU1LbEY3N2c2RW9QZDNmT2ZPRV9PZ25SdWY0eE5XYzdJa1BZYTl6dEE?oc=5",
           "source": "openPR.com",
-          "date": "15. Jun 2026"
-        },
-        {
-          "title": "Mehr Produktion und klarer Lärmschutz: Halle bringt neue Pläne für den Weinberg Campus voran - Du bist Halle",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYVlzYkpMbzVmdHQ1cXNMeWtHQm54MW4tUHVBQ2tocWdiMnF1dGRGVlA2eERsdGo5YjcxYWxTamFVUlNWSjRyZ3VCT2VUN2F1YTB1b3k3bE1jZ3BIaGQwVnRKb2pKamlQbmdHNjRFNmF0MkxvOWVDaWxVa3ppZWt5VUlsUnhJb0Z2MTVUMmRrb0hCMlFCN29ZOFRlVWs1S05JdjdUNGNYSldNY0JaZ1FvdHlvbllNR3dCRFE?oc=5",
-          "source": "Du bist Halle",
           "date": "15. Jun 2026"
         }
       ]
