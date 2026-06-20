@@ -1,5 +1,5 @@
 {
-  "generated": "19. June 2026, 08:52 UTC",
+  "generated": "20. June 2026, 07:35 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -26,7 +26,7 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Keine relevanten Meldungen gefunden.",
+      "summary": "In Deutschland beschäftigen aktuelle Meldungen die Themen Fluglärm, Windkraftlärm und Lärmschutz im Wohnungsbau: So rechnet das zuständige Ministerium erst 2026 mit einem Prüfergebnis zu Fluglärm-Plänen, während in Baden-Württemberg Windräder wegen eines unzulässigen Brummtons nachts abgeschaltet werden könnten. Zudem wird in der politischen Debatte diskutiert, ob der Verzicht auf Lärmschutzmaßnahmen günstigere Mieten und schnelleren Wohnungsbau ermöglichen könnte.",
       "items": [
         {
           "title": "Die normale Nachtruhe ist aktuell ausgesetzt – das sind die Folgen - CHIP",
@@ -35,10 +35,28 @@
           "date": "14. Jun 2026"
         },
         {
-          "title": "Fußball-WM 2026: Lärmschutz, Sonderurlaub, Homeoffice – so vermeiden Sie Ärger - WELT",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPRmU5eHdQTTl6aFdoa3MwRGhEWVAyNDNyTWYtT0R5UUNhTnM1ZUlBMnpwbW1zeXBHTEtJSWVoVEpDWUdPWFRZZTVXTERWMVFuVDNMUGthcmU1aUk4eHViUmtnTjVEcV9SWmYzT1IyOTdXTTd6aEI3Y1VITEZ3enNBY3dZUEk3MVNONFpfRHJDQ0dqX3BmZ0FGYUl3QVB0MzdocjlkT19OeDlBVGJ0azZUUFZnSEhBd0laVDlRMWNUOXhqdzd6ZzRjQy1zVmM2MDZQQWUyMWxENUs?oc=5",
-          "source": "WELT",
-          "date": "13. Jun 2026"
+          "title": "Fluglärm-Pläne – Ministerium rechnet 2026 mit Prüfergebnis - MSN",
+          "link": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxOejNrLUJSS0lLS0h1bGZRWXVzNklOQ0x2MFM1NEF3NktnU25XVUc1Y0dBQkl4RG1WZGNKQTg1RVQzM29BWE56bE9yVEozRXhOYlFYbHNjeXhSQ1R5c09lRzFLdGhoMkRzREQyRWdmQmlWbkZqMFFWeU1jRFpwanJPMmFPR3BmOWV1c2N4cUtOVHhjWl9RRjZrX0EtOEc1OTFqdWxSN2ZqbWpPbk1lQmhWT2w3MWJxdUFHWjcxa2RBU1ZnYTVrcnlKSUdxazNTN2o3cy1ZRGJBQ0NPLWs3VWVBSDFfcks2YnhUaC1BdUM2ZEVfdG1ETXMxeFo3d3FoX0dwQjAtN011ekVaald6U2w2cFB2MjdtTmV6Rl84OXVqbUVNZFp0dEFiUkU1TG40ZVV5b0ZrdEVEdkZ4bUV4dUpHQmpsWEtDenhCWXNXVHpBNGJHT3QyMUZIVFpPQlgtRXc1?oc=5",
+          "source": "MSN",
+          "date": "16. Jun 2026"
+        },
+        {
+          "title": "Viele fürchten sich vor dieser riesigen schwarzen Biene im Garten - CHIP",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNRlM3NmxiQWVYWVcyUmpDM1F6SmlYSzF2TDFpcmxOdkFQWFRjRU1aT3JvUHZTTWJqOXFLdDZHQS1RTkk0SFpyTXpfSmZPTUoyTXRxY0NsdzlvVk41UmRJRVpic0FNSGtaRWJELWNRRVhZcnpja2ltUk4xV0RJeUFoNU0tNFRmY2ZlM2xuVGhvVGkwbDR2M2R6T0ZlTXF5TjVESDhCcElZU3V0eVBTRW9Qd3Zyb2JNWW85Zmw5RjNmcjJYTnhUWGlucWxaanh5R2FoNHhqQjExZmRnQ2JXNEJYRURiYw?oc=5",
+          "source": "CHIP",
+          "date": "14. Jun 2026"
+        },
+        {
+          "title": "Baden-Württemberg: Windräder in Baiereck erzeugen unzulässigen Brummton - werden sie nachts abgeschaltet? - tagesschau.de",
+          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOdkxPU3gyY28tX0IwcGo1aE9fdTB2aXZvWDdjajBfSkQ5aFFBdVpHTnJhNUFQRkVsUG5ScnhvX0ZsWURPMmw3LTNhZDBzajZXSjVHNHhwYjhnS290dmdoZjRZX1VSZE1GTU5JN3ItUExXampDU1pMNnRvT3RiX29yZVJ0dUI0anpfTnVDLU1WWk5jNmxtM2VvRy1MYlh0ekVyTWdoQk9kcnlWaUs2RWhNNlllb3cwaU5sX0t6X2s0N0NnOEdKUTlSY1BPYXFIam9GdlhFUTh2bnREX3MzOWxEbmFlb1AzVDBhaWdlbDBRYw?oc=5",
+          "source": "tagesschau.de",
+          "date": "17. Jun 2026"
+        },
+        {
+          "title": "Ohne Lärmschutz: Günstige Miete, schneller Wohnungsbau? - MDR.de",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNXJWdGlIMjdvRlBqdUNadVVfbnNYQ09DUDlvMzFWR1ZLMWNtb3VXNl91NnYzUW1BdXFRcnI2S3V0OFBuRGlvaGVwX1FZZkpIbUppM0lJUjZFRGdWSnJ5dFJ1T20wRVJQYlg1ZjJ3LTN4NFB0R2JJSW94VDFpUzFtd1gwS0ZSUVJ3elZsTHRrZlU1cEJvVDFzTXM2WUYxQ3BYaEE?oc=5",
+          "source": "MDR.de",
+          "date": "19. Jun 2026"
         }
       ]
     },
@@ -49,10 +67,10 @@
       "summary": "No relevant news found.",
       "items": [
         {
-          "title": "The Mystery of the \"Global Hum,\" the Droning Sound Reported By Thousands - Mental Floss",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5vWkVJZ2QtSFFrUDdQSXFNUDNTTnUxeXBaMHpSbFYwbmd2Q2FvajZuZkZNRzgzVjh1M051QnN6UTZJYmpqVC1XNHNRcncyOHJqeVp0TS1naUwyNVBwVjZmNTR6TENkU0lk?oc=5",
-          "source": "Mental Floss",
-          "date": "12. Jun 2026"
+          "title": "Building Acoustic Insulation Market To Reach New Heights by 2035 Amid Global Urbanization and Green Building Mandates - News and Statistics - IndexBox",
+          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNc2FiX29DaFBYc1owc2dFc2dHWGt4ZEdkTGV5NmktWFRSTDhMQ3hQajhSTzVDNXpzX0tETkgzU1BJVFZoZmxFZUszbldKLUtaNGZoWFI3MXFHVEpRQ0gxcUtXMW9mZDZIZHZheWd4Rk1ORjNpQnByQ250cG1wclRvWGNSamliU1lxTDJ2ckJPQUJHejhMUkJqMXR3TmNhUmFMOUxadlc5aXdYbS02OVRaOHBzS2dsTDJXeWR6am5veV8zbXNmbk1GZ1htNTNoNWhpQXIzNjJ6SWJkUEtCX1hTRFFOR1hHWXViT1E?oc=5",
+          "source": "IndexBox",
+          "date": "19. Jun 2026"
         }
       ]
     },
@@ -60,7 +78,7 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Research into environmental noise continues to make headlines, with new market analysis highlighting significant growth and segmentation trends in railway noise control barrier technologies. Additionally, a long-standing community acoustics mystery was resolved in West Haven, where investigators finally identified the source of a persistent low-frequency hum that had troubled residents for years.",
+      "summary": "Research into railway noise control barriers is showing notable segment expansion and market leadership developments, while a long-standing acoustic mystery has been resolved in West Haven, where officials have finally identified the source of a persistent mysterious hum that had prompted years of resident complaints.",
       "items": [
         {
           "title": "Railway Noise Control Barrier Market Insights Highlight Segment Expansion And Market Leadership - openPR.com",
@@ -73,6 +91,12 @@
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZlY1YXZzbFQtREF5UTFZeG9PV1hmbmlodVZTeVF3Z3Z1eXcyNmE3c0t4aFl2eXktZnZMNGFZdnBwQmdQT01YbzYxelRLMXhBbDNLWFF5QkhzZ0M2RFpJNzJqYzgzTk5BeEV2OW9hSWFFdlI1RVNOdDJuWmkyR0g4VFR4Q29ZWi05TXlFaVRtVUtNUQ?oc=5",
           "source": "New Haven Register",
           "date": "18. Jun 2026"
+        },
+        {
+          "title": "Mehr Produktion und klarer Lärmschutz: Halle bringt neue Pläne für den Weinberg Campus voran - Du bist Halle",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYVlzYkpMbzVmdHQ1cXNMeWtHQm54MW4tUHVBQ2tocWdiMnF1dGRGVlA2eERsdGo5YjcxYWxTamFVUlNWSjRyZ3VCT2VUN2F1YTB1b3k3bE1jZ3BIaGQwVnRKb2pKamlQbmdHNjRFNmF0MkxvOWVDaWxVa3ppZWt5VUlsUnhJb0Z2MTVUMmRrb0hCMlFCN29ZOFRlVWs1S05JdjdUNGNYSldNY0JaZ1FvdHlvbllNR3dCRFE?oc=5",
+          "source": "Du bist Halle",
+          "date": "16. Jun 2026"
         }
       ]
     },
