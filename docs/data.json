@@ -1,12 +1,19 @@
 {
-  "generated": "20. June 2026, 07:35 UTC",
+  "generated": "21. June 2026, 08:15 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "Keine relevanten Meldungen gefunden.",
+      "items": [
+        {
+          "title": "Bauern als F1-Camping-Betreiber: „Nein, wir fahren noch nicht mit dem Ferrari zur Arbeit“ - Kleine Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOM0c5TnRmT3pzQVVrUzNubDZ3b0NFVldIblJES1dtY0ZzbXA5TFd5VHlNUmo1SXRfUlVic3dKemsyT1ZoMkFUT3BodTZBTmV0alg5S1lEYWhHMkQwS3Q0aUVxek1WN05wZUNZUEptTndRWWpxeXI1WmRYZGlDZlo0LVdZbnBLZXotXzc0N0MycUNmWG5qMFNoYWpLM0VXVTB0MnNaSkFqa0ZkaW1jc3lrWFB2NUt1bVBo?oc=5",
+          "source": "Kleine Zeitung",
+          "date": "21. Jun 2026"
+        }
+      ]
     },
     "austria": {
       "label": "Österreich",
@@ -15,10 +22,10 @@
       "summary": "Keine relevanten Meldungen gefunden.",
       "items": [
         {
-          "title": "Physiker schlägt Alarm: Macht uns der Windräder-Ausbau krank? - exxpress",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQS0RTanVwcDFPdV9LREVYaU13alBybnhTd2dqUERLdFdmNzR0bkg4cFhTTXhKbExNRkJYcFZ4UTR1QVRGMGFQN0ZwY3JkQVJXOVk1S2JZZ3RqQWRRSDRVUUNkNGNvSjhYdGlHTGp2MWlJUEYtSHhqQm81MDZPRTB4Z1JjSjNDZDFY?oc=5",
-          "source": "exxpress",
-          "date": "17. Jun 2026"
+          "title": "Zwei Drittel der Berufsfahrer in Österreich leiden unter chronischer Müdigkeit am Lenkrad - weltstimme.com",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQkNSSVlwdzA5c01lRUdPY0RIbGhUMmw2aEpGMjRGX25VQlBKbjRvNi1GeHhROHlmUmFJX0d3dEh2eGM4YnlRVVJPdGlTNFZTSGpFeEE4RFE0RHJrRU94YVlENFRmaVFNN1lob05TLVJrVnNISWZhR0FMWEowdmtNbW85MnB0MDAyLVk2MXJMWXZ0WXlHRHl6aS1zbFMwWFBOUm1VTEpzZUR4Vm1yVkY2bG1xaFg3WHBveHMxaEpCQ1RtSk11?oc=5",
+          "source": "weltstimme.com",
+          "date": "21. Jun 2026"
         }
       ]
     },
@@ -26,7 +33,7 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "In Deutschland beschäftigen aktuelle Meldungen die Themen Fluglärm, Windkraftlärm und Lärmschutz im Wohnungsbau: So rechnet das zuständige Ministerium erst 2026 mit einem Prüfergebnis zu Fluglärm-Plänen, während in Baden-Württemberg Windräder wegen eines unzulässigen Brummtons nachts abgeschaltet werden könnten. Zudem wird in der politischen Debatte diskutiert, ob der Verzicht auf Lärmschutzmaßnahmen günstigere Mieten und schnelleren Wohnungsbau ermöglichen könnte.",
+      "summary": "In Deutschland beschäftigen aktuelle Meldungen die Themen Fluglärm, Windkraftlärm und Lärmschutz im Wohnungsbau: So rechnet das zuständige Ministerium erst 2026 mit einem Prüfergebnis zu Fluglärm-Plänen, während in Baden-Württemberg Windräder in Baiereck wegen eines unzulässigen Brummtons nachts abgeschaltet werden könnten. Zudem wird in einer MDR-Debatte diskutiert, ob der Verzicht auf Lärmschutz günstigere Mieten und schnelleren Wohnungsbau ermöglichen könnte.",
       "items": [
         {
           "title": "Die normale Nachtruhe ist aktuell ausgesetzt – das sind die Folgen - CHIP",
@@ -78,7 +85,7 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Research into railway noise control barriers is showing notable segment expansion and market leadership developments, while a long-standing acoustic mystery has been resolved in West Haven, where officials have finally identified the source of a persistent mysterious hum that had prompted years of resident complaints.",
+      "summary": "Research into environmental noise continues to advance, with new market insights highlighting segment expansion in railway noise control barrier technologies. Additionally, a long-standing acoustic mystery was resolved in West Haven, where investigators finally identified the source of a persistent low-frequency hum that had troubled residents for years.",
       "items": [
         {
           "title": "Railway Noise Control Barrier Market Insights Highlight Segment Expansion And Market Leadership - openPR.com",
@@ -91,12 +98,6 @@
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZlY1YXZzbFQtREF5UTFZeG9PV1hmbmlodVZTeVF3Z3Z1eXcyNmE3c0t4aFl2eXktZnZMNGFZdnBwQmdQT01YbzYxelRLMXhBbDNLWFF5QkhzZ0M2RFpJNzJqYzgzTk5BeEV2OW9hSWFFdlI1RVNOdDJuWmkyR0g4VFR4Q29ZWi05TXlFaVRtVUtNUQ?oc=5",
           "source": "New Haven Register",
           "date": "18. Jun 2026"
-        },
-        {
-          "title": "Mehr Produktion und klarer Lärmschutz: Halle bringt neue Pläne für den Weinberg Campus voran - Du bist Halle",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYVlzYkpMbzVmdHQ1cXNMeWtHQm54MW4tUHVBQ2tocWdiMnF1dGRGVlA2eERsdGo5YjcxYWxTamFVUlNWSjRyZ3VCT2VUN2F1YTB1b3k3bE1jZ3BIaGQwVnRKb2pKamlQbmdHNjRFNmF0MkxvOWVDaWxVa3ppZWt5VUlsUnhJb0Z2MTVUMmRrb0hCMlFCN29ZOFRlVWs1S05JdjdUNGNYSldNY0JaZ1FvdHlvbllNR3dCRFE?oc=5",
-          "source": "Du bist Halle",
-          "date": "16. Jun 2026"
         }
       ]
     },
