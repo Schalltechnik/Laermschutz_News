@@ -1,5 +1,5 @@
 {
-  "generated": "21. June 2026, 08:15 UTC",
+  "generated": "22. June 2026, 09:29 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -8,7 +8,7 @@
       "summary": "Keine relevanten Meldungen gefunden.",
       "items": [
         {
-          "title": "Bauern als F1-Camping-Betreiber: „Nein, wir fahren noch nicht mit dem Ferrari zur Arbeit“ - Kleine Zeitung",
+          "title": "Bauern als Camping-Betreiber: „Nein, wir fahren noch nicht mit dem Ferrari zur Arbeit“ - Kleine Zeitung",
           "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOM0c5TnRmT3pzQVVrUzNubDZ3b0NFVldIblJES1dtY0ZzbXA5TFd5VHlNUmo1SXRfUlVic3dKemsyT1ZoMkFUT3BodTZBTmV0alg5S1lEYWhHMkQwS3Q0aUVxek1WN05wZUNZUEptTndRWWpxeXI1WmRYZGlDZlo0LVdZbnBLZXotXzc0N0MycUNmWG5qMFNoYWpLM0VXVTB0MnNaSkFqa0ZkaW1jc3lrWFB2NUt1bVBo?oc=5",
           "source": "Kleine Zeitung",
           "date": "21. Jun 2026"
@@ -19,13 +19,19 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Keine relevanten Meldungen gefunden.",
+      "summary": "Physiker warnen vor möglichen Gesundheitsauswirkungen des Windkraftausbaus in Österreich, insbesondere im Hinblick auf Lärmemissionen durch Windräder. Die Debatte über den Zusammenhang zwischen Windradlärm und gesundheitlichen Beeinträchtigungen der Bevölkerung gewinnt damit an Relevanz für den Lärmschutz.",
       "items": [
         {
           "title": "Zwei Drittel der Berufsfahrer in Österreich leiden unter chronischer Müdigkeit am Lenkrad - weltstimme.com",
           "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQkNSSVlwdzA5c01lRUdPY0RIbGhUMmw2aEpGMjRGX25VQlBKbjRvNi1GeHhROHlmUmFJX0d3dEh2eGM4YnlRVVJPdGlTNFZTSGpFeEE4RFE0RHJrRU94YVlENFRmaVFNN1lob05TLVJrVnNISWZhR0FMWEowdmtNbW85MnB0MDAyLVk2MXJMWXZ0WXlHRHl6aS1zbFMwWFBOUm1VTEpzZUR4Vm1yVkY2bG1xaFg3WHBveHMxaEpCQ1RtSk11?oc=5",
           "source": "weltstimme.com",
           "date": "21. Jun 2026"
+        },
+        {
+          "title": "Physiker schlägt Alarm: Macht uns der Windräder-Ausbau krank? - exxpress",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQS0RTanVwcDFPdV9LREVYaU13alBybnhTd2dqUERLdFdmNzR0bkg4cFhTTXhKbExNRkJYcFZ4UTR1QVRGMGFQN0ZwY3JkQVJXOVk1S2JZZ3RqQWRRSDRVUUNkNGNvSjhYdGlHTGp2MWlJUEYtSHhqQm81MDZPRTB4Z1JjSjNDZDFY?oc=5",
+          "source": "exxpress",
+          "date": "17. Jun 2026"
         }
       ]
     },
@@ -33,31 +39,19 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "In Deutschland beschäftigen aktuelle Meldungen die Themen Fluglärm, Windkraftlärm und Lärmschutz im Wohnungsbau: So rechnet das zuständige Ministerium erst 2026 mit einem Prüfergebnis zu Fluglärm-Plänen, während in Baden-Württemberg Windräder in Baiereck wegen eines unzulässigen Brummtons nachts abgeschaltet werden könnten. Zudem wird in einer MDR-Debatte diskutiert, ob der Verzicht auf Lärmschutz günstigere Mieten und schnelleren Wohnungsbau ermöglichen könnte.",
+      "summary": "In Deutschland sorgen Windräder in Baiereck (Baden-Württemberg) für Schlagzeilen, da sie einen unzulässigen Brummton erzeugen und der Betreiber sie trotz eigener Zweifel vorsorglich nachts abschaltet. Darüber hinaus wird in Deutschland die Frage diskutiert, ob auf Lärmschutzmaßnahmen verzichtet werden sollte, um günstigeren und schnelleren Wohnungsbau zu ermöglichen.",
       "items": [
-        {
-          "title": "Die normale Nachtruhe ist aktuell ausgesetzt – das sind die Folgen - CHIP",
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQYjR4YWVTWi1Xb1JoWFNPNFdiQVVvaWVkbXVPUHc0WkZwZUdxdXA4VENMcENhM3JrNkdoRDZhUjktNldZZkFvMTl0LURZUDVPQXM3MTBmczdYLVBrMUk3dy01TVRScExBWHFoZ01Wd3BYTkwzUGF3bmRZQ0kwamFsXzNrZnNVZ1ExNldNUXNsSUNtbG5DT1RZNGNSNjlyOVM2V05JaXlHNzhwSEpZZUFXb19hTTM5WHJCSFFvM18xVWRTRWxRS0RRd0M3bERCY1FmdnYzWFBMTWpPWTF4OERURTRXY0RIQQ?oc=5",
-          "source": "CHIP",
-          "date": "14. Jun 2026"
-        },
-        {
-          "title": "Fluglärm-Pläne – Ministerium rechnet 2026 mit Prüfergebnis - MSN",
-          "link": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxOejNrLUJSS0lLS0h1bGZRWXVzNklOQ0x2MFM1NEF3NktnU25XVUc1Y0dBQkl4RG1WZGNKQTg1RVQzM29BWE56bE9yVEozRXhOYlFYbHNjeXhSQ1R5c09lRzFLdGhoMkRzREQyRWdmQmlWbkZqMFFWeU1jRFpwanJPMmFPR3BmOWV1c2N4cUtOVHhjWl9RRjZrX0EtOEc1OTFqdWxSN2ZqbWpPbk1lQmhWT2w3MWJxdUFHWjcxa2RBU1ZnYTVrcnlKSUdxazNTN2o3cy1ZRGJBQ0NPLWs3VWVBSDFfcks2YnhUaC1BdUM2ZEVfdG1ETXMxeFo3d3FoX0dwQjAtN011ekVaald6U2w2cFB2MjdtTmV6Rl84OXVqbUVNZFp0dEFiUkU1TG40ZVV5b0ZrdEVEdkZ4bUV4dUpHQmpsWEtDenhCWXNXVHpBNGJHT3QyMUZIVFpPQlgtRXc1?oc=5",
-          "source": "MSN",
-          "date": "16. Jun 2026"
-        },
-        {
-          "title": "Viele fürchten sich vor dieser riesigen schwarzen Biene im Garten - CHIP",
-          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNRlM3NmxiQWVYWVcyUmpDM1F6SmlYSzF2TDFpcmxOdkFQWFRjRU1aT3JvUHZTTWJqOXFLdDZHQS1RTkk0SFpyTXpfSmZPTUoyTXRxY0NsdzlvVk41UmRJRVpic0FNSGtaRWJELWNRRVhZcnpja2ltUk4xV0RJeUFoNU0tNFRmY2ZlM2xuVGhvVGkwbDR2M2R6T0ZlTXF5TjVESDhCcElZU3V0eVBTRW9Qd3Zyb2JNWW85Zmw5RjNmcjJYTnhUWGlucWxaanh5R2FoNHhqQjExZmRnQ2JXNEJYRURiYw?oc=5",
-          "source": "CHIP",
-          "date": "14. Jun 2026"
-        },
         {
           "title": "Baden-Württemberg: Windräder in Baiereck erzeugen unzulässigen Brummton - werden sie nachts abgeschaltet? - tagesschau.de",
           "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOdkxPU3gyY28tX0IwcGo1aE9fdTB2aXZvWDdjajBfSkQ5aFFBdVpHTnJhNUFQRkVsUG5ScnhvX0ZsWURPMmw3LTNhZDBzajZXSjVHNHhwYjhnS290dmdoZjRZX1VSZE1GTU5JN3ItUExXampDU1pMNnRvT3RiX29yZVJ0dUI0anpfTnVDLU1WWk5jNmxtM2VvRy1MYlh0ekVyTWdoQk9kcnlWaUs2RWhNNlllb3cwaU5sX0t6X2s0N0NnOEdKUTlSY1BPYXFIam9GdlhFUTh2bnREX3MzOWxEbmFlb1AzVDBhaWdlbDBRYw?oc=5",
           "source": "tagesschau.de",
           "date": "17. Jun 2026"
+        },
+        {
+          "title": "Stimmt das mit dem Brummton? Betreiber zweifelt - und stoppt trotzdem seine Windräder - SWR",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWUxZWFFyOG1EeW55Rzc2WjVtOHlYeDZ1eDlVR3JBM3FXdEg1T002RzhHS1UxUlZtS2pUQkh4OGhmSHVnZkF5ZHZiS3ZRVmpuZzRjWWpkdmMwUERRdGFEaWFFUEFKd1NCN2VHaE9zWUJOVS1xai1pVDV5dGd4Q0tHSU9WeC1XdVh1MFY5c0Z4Z21VX1lRbVVjWFdkbkNvZjg2LVV5T2ZiMlRldF9iVFJpT05jT01nNlJ5?oc=5",
+          "source": "SWR",
+          "date": "21. Jun 2026"
         },
         {
           "title": "Ohne Lärmschutz: Günstige Miete, schneller Wohnungsbau? - MDR.de",
@@ -85,12 +79,12 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Research into environmental noise continues to advance, with new market insights highlighting segment expansion in railway noise control barrier technologies. Additionally, a long-standing acoustic mystery was resolved in West Haven, where investigators finally identified the source of a persistent low-frequency hum that had troubled residents for years.",
+      "summary": "Researchers have drawn inspiration from owl physiology to develop groundbreaking noise reduction technology. Additionally, investigators in West Haven have successfully identified the source of a long-standing mysterious low-frequency hum that had troubled residents for years.",
       "items": [
         {
-          "title": "Railway Noise Control Barrier Market Insights Highlight Segment Expansion And Market Leadership - openPR.com",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSFFzdnFOT0UxMmlXM0NBYlg3WFdtYVp4bTU5V3NsOEVIZ1JjdU9heEtVbTVBTEVZVzZDYlhYQmhzZC1RbDlWZTBQcHdyMWtDbG5HOC1GOW42NnFZblNxR1UyY3ZITmp0Sm5jSTl0VU1LbEY3N2c2RW9QZDNmT2ZPRV9PZ25SdWY0eE5XYzdJa1BZYTl6dEE?oc=5",
-          "source": "openPR.com",
+          "title": "Owls inspire new revolutionary noise reduction technology - MSN",
+          "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxQSVJsc05iSHpPVEdraE5ITTN3dnBITXZhZDVIZ1ZYLU4wZVV3QnJxLVVQSlQwYk9YSEV2emJXYjdsRHQ1Z180bHh3SDZsZk05eEZqcEhNWUF4ZWcwdXA5WGVTVjQyNGNHdnNYSF95OGszR0lWbWxJLVZQaU11VHRHVU81Ym5DbjRnQWNGWjY5UlB5dFQ0ZkJRME0tZ00wYmtNVkc5V2RFQnJ5anZrd1hQLWREYkpmQ3dTQU5Na1JBc1czM1VYQmtiMXgyWWJpX3ppR2xPYTQ2V2lXNGdxRHRnZExpUGkwS28wQk5ya2xKYWk3YURiV3JaUHFHemlXbkFZckRoZjZaUVdiUERPdEhKNkRNYkVpeWlyRy1vQ0NVWjhPaC1BLVFCRGVENDYtN2tfT1NOZm1Ba0o4cVg4Q2lPQVZmY0VvUVk?oc=5",
+          "source": "MSN",
           "date": "15. Jun 2026"
         },
         {
