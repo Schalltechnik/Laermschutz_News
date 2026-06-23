@@ -1,5 +1,5 @@
 {
-  "generated": "22. June 2026, 09:29 UTC",
+  "generated": "23. June 2026, 07:03 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -19,7 +19,7 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Physiker warnen vor möglichen Gesundheitsauswirkungen des Windkraftausbaus in Österreich, insbesondere im Hinblick auf Lärmemissionen durch Windräder. Die Debatte über den Zusammenhang zwischen Windradlärm und gesundheitlichen Beeinträchtigungen der Bevölkerung gewinnt damit an Relevanz für den Lärmschutz.",
+      "summary": "Keine relevanten Meldungen gefunden.",
       "items": [
         {
           "title": "Zwei Drittel der Berufsfahrer in Österreich leiden unter chronischer Müdigkeit am Lenkrad - weltstimme.com",
@@ -39,7 +39,7 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "In Deutschland sorgen Windräder in Baiereck (Baden-Württemberg) für Schlagzeilen, da sie einen unzulässigen Brummton erzeugen und der Betreiber sie trotz eigener Zweifel vorsorglich nachts abschaltet. Darüber hinaus wird in Deutschland die Frage diskutiert, ob auf Lärmschutzmaßnahmen verzichtet werden sollte, um günstigeren und schnelleren Wohnungsbau zu ermöglichen.",
+      "summary": "In Deutschland sorgen Windräder in Baiereck (Baden-Württemberg) wegen unzulässiger Brummtöne für Aufregung und drohen nachts abgeschaltet zu werden, während eine Debatte über die Absenkung von Lärmschutzstandards im Wohnungsbau zur Mietsenkung entbrannt ist. In der Schweiz häufen sich bereits vor der offiziellen Inbetriebnahme Lärmbeschwerden über die neuen F-35A-Kampfjets, und Bundesrat Rösti steht wegen möglicher Lockerungen bei den Vorschriften für Warntöne von Elektrofahrzeugen in der Kritik.",
       "items": [
         {
           "title": "Baden-Württemberg: Windräder in Baiereck erzeugen unzulässigen Brummton - werden sie nachts abgeschaltet? - tagesschau.de",
@@ -48,16 +48,28 @@
           "date": "17. Jun 2026"
         },
         {
-          "title": "Stimmt das mit dem Brummton? Betreiber zweifelt - und stoppt trotzdem seine Windräder - SWR",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWUxZWFFyOG1EeW55Rzc2WjVtOHlYeDZ1eDlVR3JBM3FXdEg1T002RzhHS1UxUlZtS2pUQkh4OGhmSHVnZkF5ZHZiS3ZRVmpuZzRjWWpkdmMwUERRdGFEaWFFUEFKd1NCN2VHaE9zWUJOVS1xai1pVDV5dGd4Q0tHSU9WeC1XdVh1MFY5c0Z4Z21VX1lRbVVjWFdkbkNvZjg2LVV5T2ZiMlRldF9iVFJpT05jT01nNlJ5?oc=5",
-          "source": "SWR",
-          "date": "21. Jun 2026"
-        },
-        {
           "title": "Ohne Lärmschutz: Günstige Miete, schneller Wohnungsbau? - MDR.de",
           "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNXJWdGlIMjdvRlBqdUNadVVfbnNYQ09DUDlvMzFWR1ZLMWNtb3VXNl91NnYzUW1BdXFRcnI2S3V0OFBuRGlvaGVwX1FZZkpIbUppM0lJUjZFRGdWSnJ5dFJ1T20wRVJQYlg1ZjJ3LTN4NFB0R2JJSW94VDFpUzFtd1gwS0ZSUVJ3elZsTHRrZlU1cEJvVDFzTXM2WUYxQ3BYaEE?oc=5",
           "source": "MDR.de",
           "date": "19. Jun 2026"
+        },
+        {
+          "title": "Bezahlbarkeit vor Komfort: Vonovia will für niedrigere Mieten Baustandards senken - MDR.de",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQVc5WXVlVVJXdk9oeGhlNnZ1bGRsUk1fZ081WjVGUWhOOXBGX1BlRVdUd3pBZm1pUHNkdXl2QWdzUV9SLWhuelZSUXNzc3k4RFR1Y0U2T19zZDJKWmdBbEVIck92N3RiY3ZBX0hDY2NIM1hJN2VJaUw0OHJsMFFLSUgzNk5VZmM4QjZiZGdnb25VVUF6U0lGS1c3OA?oc=5",
+          "source": "MDR.de",
+          "date": "19. Jun 2026"
+        },
+        {
+          "title": "Schweizer F-35A sorgen schon jetzt für Lärmbeschwerden - flug revue",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVS1CR1pzcnlxOHF1Ni1BenltT3d4U3VWa2dtSnMwSVgwem55TDZOa0JfMzFmNHV1REhFVDhheFgyTUZCVGI2aW5GX0pZU0Ywb0N6WG9ueXdXTjJ4QzZndGtaRlQxdEJIaU53QmJCMndISjl3WkNoZnQ5SXA1Mi15V2plZFNnYTNqM21YY3d1QW1BTUNMUkE?oc=5",
+          "source": "flug revue",
+          "date": "22. Jun 2026"
+        },
+        {
+          "title": "Lässt Rösti Fake-Lärm bei E-Autos zu? - Blick",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRWNSOUl3aG0tQ0pTb2JQV0h3bXRmenhsMHhaSkFjdGIxcVlhMUx1b0F0bVZ4cTgyUnhrSzd5NUFIa0tOUXlSU2FXekJ4bVNvMzF1Rmc0THBSNzgyekJyQXJZcEk5SERRV2JjVFNfZ0h4dnRZWHR1Qi12NDAyMHlIa3VfNXpPeU5CREtLLW82S1BZQ3AwRWtmckQtR0Rxa3AxeHJMTHBVa3g3M0k?oc=5",
+          "source": "Blick",
+          "date": "20. Jun 2026"
         }
       ]
     },
@@ -65,28 +77,15 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "No relevant news found.",
-      "items": [
-        {
-          "title": "Building Acoustic Insulation Market To Reach New Heights by 2035 Amid Global Urbanization and Green Building Mandates - News and Statistics - IndexBox",
-          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNc2FiX29DaFBYc1owc2dFc2dHWGt4ZEdkTGV5NmktWFRSTDhMQ3hQajhSTzVDNXpzX0tETkgzU1BJVFZoZmxFZUszbldKLUtaNGZoWFI3MXFHVEpRQ0gxcUtXMW9mZDZIZHZheWd4Rk1ORjNpQnByQ250cG1wclRvWGNSamliU1lxTDJ2ckJPQUJHejhMUkJqMXR3TmNhUmFMOUxadlc5aXdYbS02OVRaOHBzS2dsTDJXeWR6am5veV8zbXNmbk1GZ1htNTNoNWhpQXIzNjJ6SWJkUEtCX1hTRFFOR1hHWXViT1E?oc=5",
-          "source": "IndexBox",
-          "date": "19. Jun 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "science": {
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Researchers have drawn inspiration from owl physiology to develop groundbreaking noise reduction technology. Additionally, investigators in West Haven have successfully identified the source of a long-standing mysterious low-frequency hum that had troubled residents for years.",
+      "summary": "A long-standing acoustic mystery has been resolved in West Haven, where the source of a persistent mysterious hum that had troubled residents for years has finally been identified. This case highlights the challenges of diagnosing low-frequency noise phenomena in urban environments and the importance of sustained investigative effort in community noise complaints.",
       "items": [
-        {
-          "title": "Owls inspire new revolutionary noise reduction technology - MSN",
-          "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxQSVJsc05iSHpPVEdraE5ITTN3dnBITXZhZDVIZ1ZYLU4wZVV3QnJxLVVQSlQwYk9YSEV2emJXYjdsRHQ1Z180bHh3SDZsZk05eEZqcEhNWUF4ZWcwdXA5WGVTVjQyNGNHdnNYSF95OGszR0lWbWxJLVZQaU11VHRHVU81Ym5DbjRnQWNGWjY5UlB5dFQ0ZkJRME0tZ00wYmtNVkc5V2RFQnJ5anZrd1hQLWREYkpmQ3dTQU5Na1JBc1czM1VYQmtiMXgyWWJpX3ppR2xPYTQ2V2lXNGdxRHRnZExpUGkwS28wQk5ya2xKYWk3YURiV3JaUHFHemlXbkFZckRoZjZaUVdiUERPdEhKNkRNYkVpeWlyRy1vQ0NVWjhPaC1BLVFCRGVENDYtN2tfT1NOZm1Ba0o4cVg4Q2lPQVZmY0VvUVk?oc=5",
-          "source": "MSN",
-          "date": "15. Jun 2026"
-        },
         {
           "title": "West Haven finally finds source of mysterious hum after years of complaints - New Haven Register",
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZlY1YXZzbFQtREF5UTFZeG9PV1hmbmlodVZTeVF3Z3Z1eXcyNmE3c0t4aFl2eXktZnZMNGFZdnBwQmdQT01YbzYxelRLMXhBbDNLWFF5QkhzZ0M2RFpJNzJqYzgzTk5BeEV2OW9hSWFFdlI1RVNOdDJuWmkyR0g4VFR4Q29ZWi05TXlFaVRtVUtNUQ?oc=5",
