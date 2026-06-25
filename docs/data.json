@@ -1,5 +1,5 @@
 {
-  "generated": "24. June 2026, 07:00 UTC",
+  "generated": "25. June 2026, 07:00 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -19,7 +19,7 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Keine relevanten Meldungen gefunden.",
+      "summary": "Ein österreichisches Ehepaar leidet unter übermäßigem Lärm von einem nahegelegenen Sportplatz und fühlt sich laut Kronen Zeitung „unter Dauerbeschuss\". Der Fall verdeutlicht die anhaltenden Herausforderungen im Bereich Lärmschutz im privaten Wohnumfeld in Österreich.",
       "items": [
         {
           "title": "Wien und die Zukunft der Clubkultur - oe24.at",
@@ -34,6 +34,12 @@
           "date": "21. Jun 2026"
         },
         {
+          "title": "„Unter Dauerbeschuss“ - Zu viel Lärm auf Sportplatz: Ehepaar verzweifelt - Kronen Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9fRi1qZ3V6cG05R1prRzNzVHo4NGNXRTVKOFMta3pXWUlaZHVROXdaOWwtQlg5TTVuLWhrMkpjNGlYM2VpZzNF?oc=5",
+          "source": "Kronen Zeitung",
+          "date": "24. Jun 2026"
+        },
+        {
           "title": "Die EU, China und das Wechselrichter-Verbot: Donnerwetter oder viel Lärm um nichts? - elektro.at",
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZEx5ZnZZbWR1ZDB5WTJQY0UzSXl2MUh2aTQ5aEx0ajdBaXRsWGRpbG96blZpSTE5NW00T2JIeW5qaWxOR0JtcURZRGNMalBWWE1DX2c2eFJTbU9MdWYwazRBWnRtTjd4ZlM3WHpnSkhGbVZ6a0l6eUYtRGc4UTdtQnBVcTRJWGV0NmpHM0xnYkJuWXg3T3p3UmRhVXlJaG9lU0gyc3BUaUtCeE9RWEdNM1Bn?oc=5",
           "source": "elektro.at",
@@ -45,14 +51,8 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "In Deutschland sorgen Windkraftanlagen in Baden-Württemberg für Schlagzeilen, da Windräder in Baiereck einen unzulässigen Brummton erzeugen und möglicherweise nachts abgeschaltet werden müssen, während ein Gutachten gesundheitsschädliche Lärmemissionen von Windkraftanlagen bestätigt. In der Schweiz häufen sich bereits Lärmbeschwerden über die neu beschafften F-35A-Kampfjets, und die Diskussion um künstliche Fahrgeräusche bei Elektroautos gewinnt politisch an Bedeutung.",
+      "summary": "In Deutschland sorgt ein neues Gutachten für Aufsehen, das gesundheitsschädliche Brummgeräusche durch Windkraftanlagen bestätigt, während eine MDR-Debatte die Frage aufwirft, ob günstigerer Wohnungsbau auf Kosten des Lärmschutzes realisiert werden sollte. In der Schweiz stehen gleich zwei Lärmthemen im Fokus: Die neu beschafften F-35A-Kampfjets verursachen bereits jetzt Lärmbeschwerden, und Bundesrat Rösti sieht sich mit der Frage konfrontiert, ob künstliche Fahrgeräusche bei Elektroautos reguliert werden sollen.",
       "items": [
-        {
-          "title": "Baden-Württemberg: Windräder in Baiereck erzeugen unzulässigen Brummton - werden sie nachts abgeschaltet? - tagesschau.de",
-          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOdkxPU3gyY28tX0IwcGo1aE9fdTB2aXZvWDdjajBfSkQ5aFFBdVpHTnJhNUFQRkVsUG5ScnhvX0ZsWURPMmw3LTNhZDBzajZXSjVHNHhwYjhnS290dmdoZjRZX1VSZE1GTU5JN3ItUExXampDU1pMNnRvT3RiX29yZVJ0dUI0anpfTnVDLU1WWk5jNmxtM2VvRy1MYlh0ekVyTWdoQk9kcnlWaUs2RWhNNlllb3cwaU5sX0t6X2s0N0NnOEdKUTlSY1BPYXFIam9GdlhFUTh2bnREX3MzOWxEbmFlb1AzVDBhaWdlbDBRYw?oc=5",
-          "source": "tagesschau.de",
-          "date": "17. Jun 2026"
-        },
         {
           "title": "Gutachten bestätigt: Windkraftanlagen erzeugen gesundheitsschädliches Brummen - freiewelt.net",
           "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdzg3YUZWd3JNbC14TFBhb2hKdHJFR2VHUk1hVHBGWmdaY0YxTE5SQm83RGNuQ1RSV2dqZzR3X1VRZ0NJbzV5c1k5WUh3Q0RjbG1DS0V6eGtpdnV2dGQ0TzF4X19VRDJDLUdPZzlTUlh5b3NvckFkWXNBNFFweFNUNVgxa2VCMEJEd096ZjFBUlNLRVJCUXJwS1hiQUNDRlZCTDRZaEl0RkczdVAtSTNwMklGTnFlVDVxbjBMTXpRV2dwYkFTMUUzLTZaLTRmS1dkbkF3MDBB?oc=5",
@@ -62,12 +62,6 @@
         {
           "title": "Ohne Lärmschutz: Günstige Miete, schneller Wohnungsbau? - MDR.de",
           "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNXJWdGlIMjdvRlBqdUNadVVfbnNYQ09DUDlvMzFWR1ZLMWNtb3VXNl91NnYzUW1BdXFRcnI2S3V0OFBuRGlvaGVwX1FZZkpIbUppM0lJUjZFRGdWSnJ5dFJ1T20wRVJQYlg1ZjJ3LTN4NFB0R2JJSW94VDFpUzFtd1gwS0ZSUVJ3elZsTHRrZlU1cEJvVDFzTXM2WUYxQ3BYaEE?oc=5",
-          "source": "MDR.de",
-          "date": "19. Jun 2026"
-        },
-        {
-          "title": "Bezahlbarkeit vor Komfort: Vonovia will für niedrigere Mieten Baustandards senken - MDR.de",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQVc5WXVlVVJXdk9oeGhlNnZ1bGRsUk1fZ081WjVGUWhOOXBGX1BlRVdUd3pBZm1pUHNkdXl2QWdzUV9SLWhuelZSUXNzc3k4RFR1Y0U2T19zZDJKWmdBbEVIck92N3RiY3ZBX0hDY2NIM1hJN2VJaUw0OHJsMFFLSUgzNk5VZmM4QjZiZGdnb25VVUF6U0lGS1c3OA?oc=5",
           "source": "MDR.de",
           "date": "19. Jun 2026"
         },
@@ -96,13 +90,19 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "A mysterious low-frequency hum that had plagued West Haven residents for years has finally been traced to its source, resolving a long-standing acoustic investigation. Such cases of unidentified environmental hums are of significant interest to acoustics researchers studying low-frequency noise propagation and its effects on communities.",
+      "summary": "Researchers in West Haven have identified the long-elusive source of a mysterious low-frequency hum that had plagued residents for years. In parallel, new landing pad designs are being developed to mitigate noise generated by future air taxi operations, addressing a key acoustic challenge for urban air mobility.",
       "items": [
         {
           "title": "West Haven finally finds source of mysterious hum after years of complaints - New Haven Register",
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZlY1YXZzbFQtREF5UTFZeG9PV1hmbmlodVZTeVF3Z3Z1eXcyNmE3c0t4aFl2eXktZnZMNGFZdnBwQmdQT01YbzYxelRLMXhBbDNLWFF5QkhzZ0M2RFpJNzJqYzgzTk5BeEV2OW9hSWFFdlI1RVNOdDJuWmkyR0g4VFR4Q29ZWi05TXlFaVRtVUtNUQ?oc=5",
           "source": "New Haven Register",
           "date": "18. Jun 2026"
+        },
+        {
+          "title": "Landing Pad Design to Curb Noise for Future Air Taxis - Mirage News",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTzQwRjI0d0VYekZ3NVM1cng4ck9vTzFVUDRRNk9aN2FKaS1HYzdURjI4Z2Znb3RYb1BnbklkTEl2eHNQYWYzYi1PNmFBTWFXVmM4LVI1ZUlReXgwdk1lR2hDZ1lKTHZwdF9jT1FZZC1raGdCd2pCM0M5MWVtS0xYa2Q4ckpCOTJVa1pj?oc=5",
+          "source": "Mirage News",
+          "date": "24. Jun 2026"
         }
       ]
     },
