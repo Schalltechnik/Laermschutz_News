@@ -1,5 +1,5 @@
 {
-  "generated": "26. June 2026, 07:07 UTC",
+  "generated": "27. June 2026, 06:42 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -23,7 +23,7 @@
           "title": "George Russell schlägt den Mercedes-Gerüchten um Max Verstappen einen entscheidenden Schlag: \"Ich werde nächstes Jahr hier sein.\" - Motorcycle Sports",
           "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQai1RUmo5N1l3aFVrU0tEeGIwU1VaVW0xZERZdUtaWWZvSTNiV01wT0F0eHJ6azBpZFFjVlViWWtSdkt2bUtfODFsdVh3d1kyRTBjSEFUd1RoSGlxMnlPTS10WlpIM1NyM1E2MmRoQkQ2azBRNTFiTmNHWVBOMUppX2FRMEpjVDdyWG9CN3ZqZlFYZGtVeWFCdWtHX0FWX0NJX284OU5yNUJJb2pmeE8tcVBhdzRhbVJ5cndTMEFwWGc4RWhSRnFvTUl6SFdZc2lfU2dsVW5GSEs5emItV1R3aDFNcjVaT3VUZUFRZi1B?oc=5",
           "source": "Motorcycle Sports",
-          "date": "23. Jun 2026"
+          "date": "26. Jun 2026"
         }
       ]
     },
@@ -31,8 +31,20 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Keine relevanten Meldungen gefunden.",
+      "summary": "Entlang der Koralmbahn wird weiter gebaut und aufgeforstet, was auf laufende Lärmschutzmaßnahmen im Bereich der Bahnstrecke hindeutet. Weitere direkt lärmschutzrelevante Meldungen sind unter den vorliegenden Titeln nicht zu finden.",
       "items": [
+        {
+          "title": "Öster­reich-Spiel läuft als „Silent Game“ - KLiCK Kärnten",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbkZrODFTVVJCSksyNFY1R0ZDa0xtT2hDSTZtTWZXaEVDLXR2cFBIVzBwc1RwUmlhS2tBUTNKdVR1eWVmUnFZUkE5SmcxRVZOOU9aZGYzMXRydnJsTlFlVEFDZVEyeTlDZl9DM3RQX2otdmd0cGlvdktFM1JqWHhDU3NkNl9ZMWoxd1HSAY8BQVVfeXFMTVBTZlhZVEtTdXNuMWRlNWNhVEUzb2dJSk02VEphU24zcXFES2NfNUtqNXJlMHljOE1FUXlkaXNVNFZlaVpfRjJacXcyV29Hc0prLVJUdHNpMzZwSU9BN1lCRjlEOVZEcHZ1cjRTbmhGT0tKLW9aMUY0QzRWZHk5SzJqS3FnUlIwTUJmd0lQaDA?oc=5",
+          "source": "KLiCK Kärnten",
+          "date": "26. Jun 2026"
+        },
+        {
+          "title": "Koralmbahn: Entlang der Strecke wird weiter gebaut und aufgeforstet - Mein Klagenfurt",
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPb2tQLVVYOVVIWmZjVW5zQS1IYkljQ3JxWmxndV9oTVROVmo4OGE1Z0JGXzRscm85cmZPU005Q1NUU2ZkNE9xeHgzM2xwb05DY1k0dTZoeVduUXd0YU1xVXROa2ZnQUVfT1JSNVdwOUVJQVY5a1JJVUUtbUxZVVZZS2Vwd2dDNFMxQ0YyU1JfakRVdV9oakpvMzd4MDhhS1RORk5JdU5Xc24yYlBhbi1CZjh0SWc3SlVudzFVbHp5S2NLM1BPdmxxVGJ2OE1ST0RNc3FDVlJaSWdSeHYzemFGMTRR?oc=5",
+          "source": "Mein Klagenfurt",
+          "date": "23. Jun 2026"
+        },
         {
           "title": "Die EU, China und das Wechselrichter-Verbot: Donnerwetter oder viel Lärm um nichts? - elektro.at",
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZEx5ZnZZbWR1ZDB5WTJQY0UzSXl2MUh2aTQ5aEx0ajdBaXRsWGRpbG96blZpSTE5NW00T2JIeW5qaWxOR0JtcURZRGNMalBWWE1DX2c2eFJTbU9MdWYwazRBWnRtTjd4ZlM3WHpnSkhGbVZ6a0l6eUYtRGc4UTdtQnBVcTRJWGV0NmpHM0xnYkJuWXg3T3p3UmRhVXlJaG9lU0gyc3BUaUtCeE9RWEdNM1Bn?oc=5",
@@ -57,14 +69,8 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "In Deutschland wird diskutiert, ob Lärmschutzstandards beim Wohnungsbau gelockert werden könnten, um günstigere Mieten und schnelleres Bauen zu ermöglichen. In der Schweiz sorgen die neu beschafften F-35A-Kampfjets bereits vor ihrer offiziellen Indienststellung für Lärmbeschwerden, während Bundesrat Rösti zudem mit der Frage konfrontiert wird, ob künstliche Fahrgeräusche bei Elektroautos regulatorisch zugelassen werden sollen.",
+      "summary": "Die Schweiz steht gleich vor zwei lärmrelevanten Herausforderungen: Einerseits häufen sich bereits vor der offiziellen Indienststellung Lärmbeschwerden über die neu beschafften F-35A-Kampfjets, andererseits wird politisch diskutiert, ob Bundesrat Rösti künstlich erzeugten Lärm bei Elektrofahrzeugen zulassen soll, um deren Wahrnehmbarkeit im Straßenverkehr zu erhöhen. Meldungen aus Deutschland oder der DEGA liegen aktuell keine vor.",
       "items": [
-        {
-          "title": "Ohne Lärmschutz: Günstige Miete, schneller Wohnungsbau? - MDR.de",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNXJWdGlIMjdvRlBqdUNadVVfbnNYQ09DUDlvMzFWR1ZLMWNtb3VXNl91NnYzUW1BdXFRcnI2S3V0OFBuRGlvaGVwX1FZZkpIbUppM0lJUjZFRGdWSnJ5dFJ1T20wRVJQYlg1ZjJ3LTN4NFB0R2JJSW94VDFpUzFtd1gwS0ZSUVJ3elZsTHRrZlU1cEJvVDFzTXM2WUYxQ3BYaEE?oc=5",
-          "source": "MDR.de",
-          "date": "19. Jun 2026"
-        },
         {
           "title": "Schweizer F-35A sorgen schon jetzt für Lärmbeschwerden - flug revue",
           "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVS1CR1pzcnlxOHF1Ni1BenltT3d4U3VWa2dtSnMwSVgwem55TDZOa0JfMzFmNHV1REhFVDhheFgyTUZCVGI2aW5GX0pZU0Ywb0N6WG9ueXdXTjJ4QzZndGtaRlQxdEJIaU53QmJCMndISjl3WkNoZnQ5SXA1Mi15V2plZFNnYTNqM21YY3d1QW1BTUNMUkE?oc=5",
@@ -83,19 +89,13 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Europe has approved new noise control regulations, while a report highlights which European countries suffer most from noise pollution, underscoring the continent's ongoing struggle with what has been termed a \"loud killer.\" Moldova has also taken a step forward by launching its first rail noise monitoring initiative, reflecting broader regional efforts to address transportation-related noise impacts.",
+      "summary": "Europe is grappling with significant noise pollution challenges, with research highlighting which countries are most severely affected by this so-called \"loud killer.\" Governments are also taking action, with new noise control regulations being approved to address these growing public health concerns.",
       "items": [
         {
           "title": "The government has approved noise control regulations - logos-pres.md",
           "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSDBvX3dJMjBMME15QVloblhRWlQ5N1hFN0ZsY3RXclNYeDdOTzh5TkJzUVhGOXJPQnEwTWtYTHhEbHpjOE5xdGZKcDFGV2syQzhhLXhBLTlHek5mLW43c3pjRG0yQVJOb0twVFk5bnBldUo5eXRJV3dnbFhoc2pEOHo5ekR5R25LQThfYQ?oc=5",
           "source": "logos-pres.md",
           "date": "24. Jun 2026"
-        },
-        {
-          "title": "Moldova launches first rail noise monitoring initiative - thetraveler.org",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSUN1N0FYNEJNc3FuRnU1bjNaUkt0LUN2OFBza3I5WjRoMlhLUVRNYkVfMUlKbEVTS3FXUXUyYzd5NEo4QTdpaWg1YVY2VjRnVlpGV0VlbWl3UWlZQzZuVkhDaTNTeTFFdGs1ZllFNWVxd3NQOGc5c3ZZczR6c0ZxMDBlSGtLNVUtdnBBaw?oc=5",
-          "source": "thetraveler.org",
-          "date": "25. Jun 2026"
         },
         {
           "title": "The Real Reason Europe is Silencing the Adhan - Lavender Hotel",
@@ -115,13 +115,19 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Research into landing pad design aimed at reducing noise from future air taxi operations has emerged as a notable development, reflecting growing efforts to address the acoustic challenges posed by urban air mobility. This work underscores the increasing importance of architectural and engineering solutions in managing the noise impact of emerging aviation technologies on urban environments.",
+      "summary": "Research into urban air mobility infrastructure is advancing, with new landing pad designs being developed specifically to mitigate noise from future air taxi operations. Additionally, the acoustic footprint of AI data centers is emerging as a significant environmental concern, with the constant mechanical noise of cooling systems and servers representing an underreported cost of cloud computing expansion.",
       "items": [
         {
           "title": "Landing Pad Design to Curb Noise for Future Air Taxis - Mirage News",
           "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTzQwRjI0d0VYekZ3NVM1cng4ck9vTzFVUDRRNk9aN2FKaS1HYzdURjI4Z2Znb3RYb1BnbklkTEl2eHNQYWYzYi1PNmFBTWFXVmM4LVI1ZUlReXgwdk1lR2hDZ1lKTHZwdF9jT1FZZC1raGdCd2pCM0M5MWVtS0xYa2Q4ckpCOTJVa1pj?oc=5",
           "source": "Mirage News",
           "date": "24. Jun 2026"
+        },
+        {
+          "title": "The Cloud Has Sound: The Unrelenting and Unseen Cost of A.I. Data Centers - The New York Times",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE44aW9ydlJsWkg4bWp0bFdDV2owMWE5bEFIY2QzM0lud1BPRWZxRktxWWoweEk0S0FJOXdjTFZ0MzlQYW1pUkFzMXExVkM4VEpzclZqbXVQblhfd1RwTDBOS3EwY2UxOFlBcnBXSEIxRGZ3TEhsNDBKam1YWQ?oc=5",
+          "source": "The New York Times",
+          "date": "22. Jun 2026"
         }
       ]
     },
