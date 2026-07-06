@@ -1,5 +1,5 @@
 {
-  "generated": "05. July 2026, 06:54 UTC",
+  "generated": "06. July 2026, 08:03 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -19,7 +19,7 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "In Wien wurde eine neue Lärmkarte veröffentlicht, die besonders stark vom Straßen- und Schienenverkehr belastete Gebiete der Stadt sichtbar macht. Weitere relevante Lärmschutzmeldungen aus Österreich lagen in den vorliegenden Titeln nicht vor.",
+      "summary": "In Wien wurde eine neue Lärmkarte veröffentlicht, die besonders stark vom Straßen- und Schienenverkehr belastete Gebiete der Stadt aufzeigt. Der zweite Titel ist für das Thema Lärmschutz nicht relevant und wurde daher nicht berücksichtigt.",
       "items": [
         {
           "title": "Straßen- und Schienenverkehr: Die Lärmkarte zeigt, wo es in Wien besonders laut ist - MeinBezirk.at",
@@ -39,19 +39,19 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Der Fluglärm-Ausgleich für Kommunen in Deutschland wird 2027 aktualisiert, was eine bedeutende Neuregelung im Bereich des Luftverkehrslärms darstellt. Zudem sorgt ein nächtliches Fußballspiel um 22:30 Uhr in Hilden für Diskussionen über lokale Lärmschutzregelungen.",
+      "summary": "Beim deutschen Luftverkehr steht eine Aktualisierung des Fluglärm-Ausgleichs für Kommunen im Jahr 2027 an. Zudem sorgt in Hilden die Regelung des Lärmschutzes bei einem späten Fußballspiel um 22:30 Uhr für Aufmerksamkeit.",
       "items": [
+        {
+          "title": "Luftverkehr: Fluglärm-Ausgleich für Kommunen wird 2027 aktualisiert - Main-Post",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSndkZ1pleGU3TDNmNVpuOTUwNjAyM25WUXUyczczUEphOTlVbEdjcEt2R1lobGFRQmtWa2xfYmxDWFV3Y2dndUFvNjM3X0dvU01DMnNkdkstOVpJdGNQd2xqeXZLbXFKRlB0SVp0b0J5T0xYTDhyZk5NYzN0YS1QUXk2Q05YZEc2XzMxemU4dmN2ZGh0M1VZY2ZsbGFrWUV4YkNxOWdkQ0pFNnR0VUFQYQ?oc=5",
+          "source": "Main-Post",
+          "date": "30. Jun 2026"
+        },
         {
           "title": "Spiel erst um 22.30 Uhr: Deutschland gegen Paraguay – so ist der Lärmschutz in Hilden geregelt - RP Online",
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcDRBMFhyNHlmR2NDd0I1Q2VRbGxYeFl5bVNEeEVCZGdYR0tIakdoZ04tanFVVExrRHllZUpVcWx6b2xnOC15RjhQRlotcldDZG9BX3JFWVdsR1lfQllHNy04VVFvbnpKZlY5cHFnLWxuMG42R3lUNlJ2M21YRGc5WS0ySHN4QUpFVmc0dHoxa3ZGMU5DMDhOeGxaNEc4eHI1Q1V3cFBiRlhVLTg?oc=5",
           "source": "RP Online",
           "date": "29. Jun 2026"
-        },
-        {
-          "title": "Luftverkehr: Fluglärm-Ausgleich für Kommunen wird 2027 aktualisiert - Deutschland & Welt - Rhein-Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYVF3SGdLYUtSVFYwWDhPN1l3aVdNdzZhN01zcklwMU9lelVLTkxQQzVJTEtzbUR6ZGdQaXZudGlMWGtsdGVKSG5UcENzckg2UnRzbUNITDJodjBHbE83VE1Oa3h2UFpoMm1uWlpWUXJiRlY2QUpUU3FUU0JnYzczcmxSTzZ6Z2hHUTVNc2lQT0lkNFNvWG5IdTF5aHQ0bWx4WGNnbVh1MDZSRnFYS3dJYlczelJmbDhMUC1GNw?oc=5",
-          "source": "Rhein-Zeitung",
-          "date": "30. Jun 2026"
         }
       ]
     },
@@ -59,7 +59,7 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "European Union power plant noise control equipment is currently the subject of market analysis and forecasting, reflecting growing industrial attention to noise mitigation technologies across the region. The European Environment Agency continues to monitor environmental quality issues, which encompasses noise pollution alongside air quality as part of its broader European environmental oversight mandate.",
+      "summary": "No relevant news found.",
       "items": [
         {
           "title": "European Union Power Plant Noise Control Equipment - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
@@ -79,7 +79,7 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "New quantum acoustic device developed by scientists shows promise for revolutionizing communication technologies. Additionally, updated noise regulations coming into effect in 2026 will require heat pumps to meet stricter sound emission standards.",
+      "summary": "New quantum acoustic device developed by scientists shows promise for revolutionizing communication technologies. Additionally, updated noise regulations set to take effect in 2026 will require heat pumps to operate at significantly reduced sound levels.",
       "items": [
         {
           "title": "Scientists create quantum sound device that could transform communications - ScienceDaily",
@@ -99,13 +99,19 @@
       "label": "Bauakustik",
       "icon": "🏗️",
       "color": "#7b4f12",
-      "summary": "Der weltweite Markt für Gebäudeakustik verzeichnet ein starkes Wachstum, was auf eine steigende Nachfrage nach Schallschutzlösungen im Bauwesen hindeutet. Ab 2026 werden zudem verschärfte Lärmvorschriften für Wärmepumpen greifen, die Hersteller zu deutlichen Geräuschreduzierungen ihrer Geräte verpflichten.",
+      "summary": "Der weltweite Markt für Gebäudeakustik zeigt laut aktuellen Berichten ein starkes Wachstum, was auf eine steigende Nachfrage nach Schallschutzlösungen im Hochbau hindeutet. Besonders relevant für den DACH-Raum ist die Meldung, dass Wärmepumpen ab 2026 strengeren Lärmvorgaben unterliegen werden, was direkte Auswirkungen auf die schalltechnische Planung und Bewertung von Luftwärmepumpen in der Nähe von Wohngebäuden haben dürfte.",
       "items": [
         {
           "title": "Der Markt für Gebäudeakustik wird weltweit florieren - ekz-crosstour -",
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSlluNFB0ZFhrM1pkWDk2Z2pEWTB4aUdQeWQ4NUJZMmJmUmhHcEN1bE1mOGp5SXNvTk9SSHRfLXVBQUVzaFFsd0xvYzRKMlFoMTNueEw4eUprc0I1N0FfeElmOUpjWHIydWpTOTVVQl92VWZBOXJLekx3Y243UkFQTXFkLTkwMGxDMjhmTDlRV3E0c28?oc=5",
           "source": "ekz-crosstour -",
           "date": "30. Jun 2026"
+        },
+        {
+          "title": "Wissenschaftler des Conicet ausgezeichnet, der aktive Akustik anwandte, um unter Wasser im argentinischen Meer zu „sehen“, ohne die Fauna zu stören - Noticias Ambientales",
+          "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPQmNCdXFmM3dzV21GaDI5eHJHNm5veDh1dTZuRmdfaGpfT1JUU1dzSVU1ZlhoczVrb0N2a1czNkNZV0JnNENrbmJoSmZadktsZkt4bHFnRVh5QjlTRjRqOUgwS3llZFplUS1UamNXbmhmNksyQ01QVWNKSGl2eTM3azMtb2pPazlmSEJHTFZJUWJFRG5RQ2JnSDkzQVdVM090d2VERFZ5c1NBWk9VRXRGMFo1MkEtOUJCQWt0MlhXdHJvY3JEbFZhbGl5cjB6TkRIWDl4VXVFRTFJeklwazdQNFBJZ201YkFuMHhLcUFRQUlqU3RjNXNtcS1hX0NiM2g4czA3VXA4dHp5eFpJSUpQaS1NXzBNb3fSAZwCQVVfeXFMT3lPNlJuWk56d0YtTlhOUWZrSHhCeTQ4WnNCNkxFRXp5ekEwTWJYTy1RTDUySWZxaERQdlBDak0wTl9GNWIwSGtDR2pnTnlmdW1QMTFoaVNMVWN5Ul9WU0VOSkdyLVB4eVVSOC15ejhGR3ZxdjJpb0V3aWRxQlBPODlGV0RWY2l5Tk1HRXlFc0cwOVZ0QlliRDFhbW5YZEZxa3lhc3drZVVjVVVyLXVrWkRCakF0azB6MWJPSDVtdmxmcEcxcjh5UlV0WjI3RXhBWEJTTlltcTgwSmVTWThYX2l4NGlNck1Vbk9hY19iNGE2aWdCUlZrM05odHpfZ2FwUmR5T3FJSmIxQVdfYmpFc1NobzRWVUxJX19YMzI?oc=5",
+          "source": "Noticias Ambientales",
+          "date": "5. Jul 2026"
         },
         {
           "title": "Wärmepumpen-Lärm: Warum 2026 viele Geräte leiser sein müssen - Ingenieur.de",
