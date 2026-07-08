@@ -1,11 +1,11 @@
 {
-  "generated": "07. July 2026, 07:01 UTC",
+  "generated": "08. July 2026, 06:13 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Keine relevanten Meldungen gefunden.\n\n(Hinweis: Der genannte Titel bezieht sich auf ÖBB-Bauarbeiten, enthält jedoch keinen spezifischen Bezug zu Lärmschutzmaßnahmen in der Steiermark oder Graz.)",
+      "summary": "Keine relevanten Meldungen gefunden.\n\n(Hinweis: Der genannte Titel bezieht sich auf ÖBB-Bauarbeiten, enthält jedoch keinen konkreten Bezug zu Lärmschutzmaßnahmen in der Steiermark oder Graz, sondern lediglich eine allgemeine Erwähnung von nächtlichem Lärm.)",
       "items": [
         {
           "title": "Nächtlicher Lärm: ÖBB arbeiten an Bahnstrecke - 5 Minuten",
@@ -19,7 +19,7 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Eine überregionale Initiative engagiert sich aktiv gegen Bahnlärm, während eine neue Lärmkarte für Wien aufzeigt, welche Stadtgebiete besonders stark von Straßen- und Schienenverkehrslärm betroffen sind. Zudem sorgt ein Fall in Österreich für Aufsehen, bei dem eine Windkraftanlage im Wert von zehn Millionen Euro aufgrund eines störenden Brummtons abgerissen werden muss.",
+      "summary": "Eine überregionale Initiative setzt sich aktiv gegen Bahnlärm ein, während eine neue Lärmkarte für Wien aufzeigt, welche Stadtgebiete besonders stark von Straßen- und Schienenverkehrslärm betroffen sind. Zudem sorgt ein Fall in Österreich für Aufsehen, bei dem eine Windkraftanlage im Wert von zehn Millionen Euro aufgrund eines störenden Brummtons abgerissen werden muss.",
       "items": [
         {
           "title": "Initiative kämpft überregional gegen Bahnlärm - Merkur",
@@ -51,30 +51,30 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Die Deutsche Bahn treibt den Lärmschutz an mehreren Standorten voran, darunter Schönebeck, Wetter und ein Hauptbahnhof, wo neue Schallschutzwände gegen Schienenverkehrslärm errichtet werden. Zudem wehren sich deutsche Landkreise gegen eine geplante Pistenverlängerung am Flughafen Zürich, während der Fluglärm-Ausgleich für deutsche Kommunen im Jahr 2027 aktualisiert werden soll.",
+      "summary": "Deutsche Landkreise wehren sich laut Radio Central gegen eine geplante Pistenverlängerung am Flughafen Zürich, was grenzüberschreitende Lärmkonflikte zwischen Deutschland und der Schweiz verdeutlicht. Die Deutsche Bahn setzt unterdessen verstärkt auf bauliche Lärmschutzmaßnahmen, wie neue Lärmschutzwände an Bahnhöfen und entlang von Strecken in Sachsen und Westfalen zeigen.",
       "items": [
         {
-          "title": "Lärm durch Schienenverkehr: Schönebeck: Deutsche Bahn plant Bau von kilometerlangen Schallschutzwänden - Volksstimme",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQ1VKeEo5YzdzZmZUZV8ybC1DNlZJTmh2U0hUUmpmeXY4a3lmT2tNVThTbmJIbS1FWTZPSS1mdW5QS1NvU0RSd21jT0tBYU1VS3lrdWU2V1U1dVAxQ0ZGTXZFaDVyaWhaejAtR25DVGZzYTZQZWZqYWhqZndMTnRJMXVhaE9UUHl5WG9WR0paUEtuS1FMTlVPLTh3dXBodFBCbzdjM0JYMmhYc3RDRmdxNUhLVEw1OGFGMWFPMXk4WGJNcU5s?oc=5",
-          "source": "Volksstimme",
-          "date": "2. Jul 2026"
-        },
-        {
-          "title": "Luftverkehr: Fluglärm-Ausgleich für Kommunen wird 2027 aktualisiert - Deutschland & Welt - Rhein-Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYVF3SGdLYUtSVFYwWDhPN1l3aVdNdzZhN01zcklwMU9lelVLTkxQQzVJTEtzbUR6ZGdQaXZudGlMWGtsdGVKSG5UcENzckg2UnRzbUNITDJodjBHbE83VE1Oa3h2UFpoMm1uWlpWUXJiRlY2QUpUU3FUU0JnYzczcmxSTzZ6Z2hHUTVNc2lQT0lkNFNvWG5IdTF5aHQ0bWx4WGNnbVh1MDZSRnFYS3dJYlczelJmbDhMUC1GNw?oc=5",
-          "source": "Rhein-Zeitung",
-          "date": "30. Jun 2026"
-        },
-        {
-          "title": "Deutsche Landkreise wehren sich gegen Zürcher Pistenverlängerung - blue News",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNHVZRE5qaWhrSnhMaTBKSnhHekRscjc5Q3c5Ry15Q2lFcjZmU3dRZFVOVjF3UmZKZlhEWlRZZjNLeW5wbUR0ZWJ3bWdTS2R2aHhsMHZmY0JwdUEwSE90MVFJVkktTVVoMThZMDlPNnRLWmRVNUFiQVhrM0dVRjBIUU5nVFhNRlI5eEJWWnNiWHpVX0VOSjlELXM0Qnp6Wm9tVUpmcmZndXdGTkxj?oc=5",
-          "source": "blue News",
-          "date": "6. Jul 2026"
+          "title": "Deutschland unter Schock: Wenn der Lärm vor der Analyse kommt - neunzigplus.de",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeDFXMl9LRk1PLV8yelNBekNsMlQ3R0hoengyT2pYbW1mUHBZMTNLbDBLY2ItOXdLT2lScFJDQksta2FNNXZfdEx0Z3Q2MmFhZE1tYzVWQU1fY3NvS0ktSzA5bFpDZ0FCeHcwaTJ6X0NGU1lYdTBDb1VMQzRTUnlRTnpvVERnWFhtTzFPT0ZNa2NGWFE0TGUyRg?oc=5",
+          "source": "neunzigplus.de",
+          "date": "1. Jul 2026"
         },
         {
           "title": "Mehr Nächtliche Fluglärm Während EM 2024 Tampa Bay Rays Vs Toronto Blue Jays Match Player Stats (lmkLdHTZRh) - Fathom Journal",
           "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE02ZmFMR3hXMnl2dTlsRGFiXzRwNEROQkYtR0JXUWNUdXZEdGFLZVVPYXA1c2FzeVlINHV1RkhkVzhUMTFKYXRYLVR6WHhQOWxJQUdmVWF2NnRTVC1BLUhxVU1CYw?oc=5",
           "source": "Fathom Journal",
+          "date": "6. Jul 2026"
+        },
+        {
+          "title": "Deutsche Landkreise wehren sich gegen Zürcher Pistenverlängerung - Radio Central",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPakUxZUJNc042V1BXdmg1NFJ2MXNnM0REdTVVajNMOXozMlh2QVJNa19aXzZ5SU9nT2d5YUNPQVUtenM5bVNtbU1ZdHZfelhhR2hpZDZhcFRoMXM4d3UyeGdPTXdXNzUtMFFDUFd2QUo5S3ZjRTJhR0UybG1CeDBLZWxoR3RxN1I2MmRvUXczaGNsalF1YWtrYlU4NU9KM0ZTMi1lTXlqX0VnckFScGxlZXc4cw?oc=5",
+          "source": "Radio Central",
+          "date": "6. Jul 2026"
+        },
+        {
+          "title": "Mitten im Hauptbahnhof: Warum die Bahn hier eine Lärmschutzwand aufstellt - Die Sachsen News",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOM3RFcHBjMUxaeUdFbjIxQktYSER2UkFtWXNDS3FsQVh0ejJDS05VdERZbHhDRzZJVkFuVHVyUVpueG5qUGM4ZGlpZno2MkdUdm9qUGg0ZVAzT1ZSOWdMLTBHaklPUmRtRkNkOENQTnQ2Si1NZUgwbW96am9QUmNRTnVCRDdCMHE2NXhwRXNUdXQ0WDF1eW1CRFZ5elE0aEJhVFBqLWhRSWdRQnRE?oc=5",
+          "source": "Die Sachsen News",
           "date": "6. Jul 2026"
         },
         {
@@ -84,10 +84,10 @@
           "date": "6. Jul 2026"
         },
         {
-          "title": "Mitten im Hauptbahnhof: Warum die Bahn hier eine Lärmschutzwand aufstellt - Die Sachsen News",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOM3RFcHBjMUxaeUdFbjIxQktYSER2UkFtWXNDS3FsQVh0ejJDS05VdERZbHhDRzZJVkFuVHVyUVpueG5qUGM4ZGlpZno2MkdUdm9qUGg0ZVAzT1ZSOWdMLTBHaklPUmRtRkNkOENQTnQ2Si1NZUgwbW96am9QUmNRTnVCRDdCMHE2NXhwRXNUdXQ0WDF1eW1CRFZ5elE0aEJhVFBqLWhRSWdRQnRE?oc=5",
-          "source": "Die Sachsen News",
-          "date": "6. Jul 2026"
+          "title": "Treppen, Lärmschutz, Abdichtung: Welche Baunormen sind verzichtbar? - MDR.de",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE52cHhSWTByQTRQNnhGMHJKS21qRDZocnBFQmFjMkJHZHdTNU1PSUxJQlBqV2g0NENtRjktVTNfcXZ3QkhwcVNKWTl5ajhvZ2g3RXVaSDc3T3A4Rmp4dG5jTGtFMXJCNFBoN05ISzlwQ2VSSDdWdUxJZEpOOGQ?oc=5",
+          "source": "MDR.de",
+          "date": "7. Jul 2026"
         }
       ]
     },
@@ -109,14 +109,8 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Researchers have developed a quantum sound device with potential to revolutionize communications technology. Additionally, new regulations set to take effect in 2026 will require heat pumps to meet stricter noise emission standards.",
+      "summary": "Heat pump noise is becoming a regulatory focus, with many devices required to meet stricter sound emission standards by 2026. This development reflects growing concerns about the acoustic impact of heat pumps in residential environments.",
       "items": [
-        {
-          "title": "Scientists create quantum sound device that could transform communications - ScienceDaily",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9SNEM1bW41V0diRVcwRkFSUWIyNHpUcEhwYldOd3ZURktqM0xMRWJsNl9lWW55Q1NobDdoeWY5SGJxZTVSQmxpaTRERXdtUTM4bXdPTmlKSlhVNHU2X3NLTmhVem4wbWNTR2lmckN1Yw?oc=5",
-          "source": "ScienceDaily",
-          "date": "2. Jul 2026"
-        },
         {
           "title": "Wärmepumpen-Lärm: Warum 2026 viele Geräte leiser sein müssen - ingenieur.de",
           "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZjVJTEkxeTFlZlIxSG5yTWplemNyRHd1UXNHcW9TMDQ4cHJaNG1ha2t4S2NMNzBFNDdUV240ajBtWGx3eTlLWTAyZmlKM3VJczJBTS0xa0VxbDhYS0pjVGpLb0NNZW9GQTV1b3R2ZzhNMHhMdEd3WUItMnJnM3d6RjV1Z19EdFpoZGN2dFRwRUdldmMxMFlXS0tlWjhiMzBILURfcTlGajdmN0FPSDgwU3lFWjlLcWo3?oc=5",
@@ -129,19 +123,19 @@
       "label": "Bauakustik",
       "icon": "🏗️",
       "color": "#7b4f12",
-      "summary": "Der weltweite Markt für Gebäudeakustik verzeichnet ein starkes Wachstum, was auf eine steigende Nachfrage nach Schallschutzlösungen im Bauwesen hindeutet. Ab 2026 werden verschärfte Lärmvorschriften dazu führen, dass viele Wärmepumpen deutlich leisere Betriebsgeräusche einhalten müssen, was insbesondere für Luftwärmepumpen im Wohnumfeld von großer Bedeutung ist.",
+      "summary": "Ab 2026 gelten verschärfte EU-Anforderungen an die Geräuschemissionen von Wärmepumpen, was Hersteller zu leiseren Geräteentwicklungen zwingt und für den Schallschutz im Wohnumfeld relevant ist. Die DEGA verzeichnet zudem aktuelle Veranstaltungen und Termine, die für Fachleute im Bereich Bauakustik von Interesse sein dürften.",
       "items": [
-        {
-          "title": "Der Markt für Gebäudeakustik wird weltweit florieren - ekz-crosstour -",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSlluNFB0ZFhrM1pkWDk2Z2pEWTB4aUdQeWQ4NUJZMmJmUmhHcEN1bE1mOGp5SXNvTk9SSHRfLXVBQUVzaFFsd0xvYzRKMlFoMTNueEw4eUprc0I1N0FfeElmOUpjWHIydWpTOTVVQl92VWZBOXJLekx3Y243UkFQTXFkLTkwMGxDMjhmTDlRV3E0c28?oc=5",
-          "source": "ekz-crosstour -",
-          "date": "30. Jun 2026"
-        },
         {
           "title": "Wärmepumpen-Lärm: Warum 2026 viele Geräte leiser sein müssen - ingenieur.de",
           "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZjVJTEkxeTFlZlIxSG5yTWplemNyRHd1UXNHcW9TMDQ4cHJaNG1ha2t4S2NMNzBFNDdUV240ajBtWGx3eTlLWTAyZmlKM3VJczJBTS0xa0VxbDhYS0pjVGpLb0NNZW9GQTV1b3R2ZzhNMHhMdEd3WUItMnJnM3d6RjV1Z19EdFpoZGN2dFRwRUdldmMxMFlXS0tlWjhiMzBILURfcTlGajdmN0FPSDgwU3lFWjlLcWo3?oc=5",
           "source": "ingenieur.de",
           "date": "2. Jul 2026"
+        },
+        {
+          "title": "Tagesansicht / Day view - DEGA - Deutsche Gesellschaft für Akustik",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE84TE1LUUpFSm82MTNwMUY3NHlTUGRvYW5zZnpzZXYtNjVxV1B5eU83dDNQRUZJckt0WHhsM24xWU9oUVdCeWtnTi1HZ2QtLXo2dDhrV1lJTGE1MkVKa0pQcVJPZkFLaF9ERGowVDNhQUZsSDBWZWc?oc=5",
+          "source": "DEGA - Deutsche Gesellschaft für Akustik",
+          "date": "7. Jul 2026"
         }
       ]
     },
