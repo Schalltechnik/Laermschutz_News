@@ -1,22 +1,16 @@
 {
-  "generated": "11. July 2026, 05:57 UTC",
+  "generated": "12. July 2026, 06:17 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Die ÖBB führen nächtliche Arbeiten an einer Bahnstrecke durch, die zu Lärmbelästigungen führen. Weitere lärmschutzrelevante Meldungen aus der Steiermark oder Graz sind derzeit nicht vorhanden.",
+      "summary": "Keine relevanten Meldungen gefunden.",
       "items": [
         {
           "title": "Grazie Roma! So viel Rom steckt in der neuen Pizzeria von Florian Weitzer - Kleine Zeitung",
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSURhWHJtSl81Vk1DdXp6WlFHaHBROEp5N29fdUEzV3JmMFZUZ3RUcnEtR21hZ2Z2Nm1TSU13dFd5N0R5VExlOTU1Skl0WlVCNk9kQjJIYXRXQkRQUVJwS285WFpMTnJOMnNzQnVDOUxjSlhaQVBKVEhSRjd4WXFwWXQ2clM3cElVc2JVQlJYbTBIT2lPV2k4bHhSMGlpT0VHNDg4aVpQQWFlRzZPTjYw?oc=5",
           "source": "Kleine Zeitung",
-          "date": "6. Jul 2026"
-        },
-        {
-          "title": "Nächtlicher Lärm: ÖBB arbeiten an Bahnstrecke - 5 Minuten",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbGNxZlRwSE13SV8xM04zNmU3TlBLM1FDam1wcUZuN014ZGxnVUtsdXRPbFFRcllkaEZ6WHVPSUc1eVduZjNEQXFDRm81X1RYbGVPWVlIQjJlUEN0dnIyVW9PbU05WVFhcUNIYUlLTmNUaklYd0JrRTZiaXlkSGNyYk1ITy1USEw0Y3ozVXp1aUo?oc=5",
-          "source": "5 Minuten",
           "date": "6. Jul 2026"
         },
         {
@@ -31,7 +25,7 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Eine überregionale Initiative setzt sich aktiv gegen Bahnlärm ein, während eine neue Lärmkarte für Wien aufzeigt, welche Gebiete besonders stark von Straßen- und Schienenverkehrslärm betroffen sind. Darüber hinaus sorgte ein störender Brummton einer Windkraftanlage für deren Abriss, was einen wirtschaftlichen Schaden von zehn Millionen Euro verursachte.",
+      "summary": "In Österreich formiert sich überregionaler Widerstand gegen Bahnlärm, wobei Bürgerinitiativen verstärkt gemeinsam gegen die Lärmbelastung durch den Schienenverkehr vorgehen. Ein bemerkenswerter Fall aus dem Bereich Lärmschutz zeigt zudem, dass eine 10-Millionen-Euro-Windkraftanlage aufgrund unzumutbarer Brummton-Emissionen abgerissen werden musste.",
       "items": [
         {
           "title": "Initiative kämpft überregional gegen Bahnlärm - Merkur",
@@ -40,22 +34,16 @@
           "date": "7. Jul 2026"
         },
         {
-          "title": "Laute Nachbarn, Baulärm, Müllgeruch: Was im Wohnumfeld am meisten stört - Die unabhängige Immobilien Redaktion",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWkNXN0N0Slg4eHdKS2lZQmlZN2hUSUZiVGhjREdYU1Y5ZWJvMEhLa00yUXBUZEdCRzFNb1Z1VFZocDl1R29ELTg0TWNDeGlxd1dvN1VVbV8xNnlJNHhuM2ZJUHl5Mkd3emk2YW1GcG9reWZXUExLZXVjQ3FWS1hsSXE5Wm41dWFyeFczdFVSMUxWSVhsQWtDQWwzSFpONnd1NW9aOWVIOGlZTDJ4Tmc?oc=5",
-          "source": "Die unabhängige Immobilien Redaktion",
-          "date": "10. Jul 2026"
-        },
-        {
-          "title": "Straßen- und Schienenverkehr: Die Lärmkarte zeigt, wo es in Wien besonders laut ist - MeinBezirk.at",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNE1KMnZFdmxUcE92aTFMOUJqTGJTY0R2Nl9EeDRqd0hoRDVYTXFpelNFU0xTTU4yLW5UT0o5bFo5dE9OenZtOXp0MW9SbHhUZXQ2QUlNZ240bVI2WTItV2txcEpKcllWYUJlclRVak84ZFh6SWlGYWNTUm5mNmdtdXZXbzZzNzB1bTdLRkJkRWVLSTNiMW8wUWw0Nmw5UE8xUXdTMnF3?oc=5",
-          "source": "MeinBezirk.at",
-          "date": "4. Jul 2026"
-        },
-        {
           "title": "Windrad-Abriss wegen Brummton: 10-Millionen-Euro-Anlage fällt - Börse Express",
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVi1uZUg0VTBuSzZTdkdGd2JOUWhmNi1xOUxETTFQV1h2YzYwQUhLNFE0Uk5TOXZOWVZsc1ZmYWJfdDQ4TTU0SjFqdmZzQmNqRWNSajYyYjNIYjRMdXVjQUVyYThXa1FiU2ltZGZTcUhOcFZtajY0M2lOSkpBMWpFekRpVUN0emg3ckpkVVZUT2dsXzV6RVdwc0s0bU9xVE5ZMkIyOFZycGFKT1RZb1hSTTBpZw?oc=5",
           "source": "Börse Express",
           "date": "6. Jul 2026"
+        },
+        {
+          "title": "Ein Trampolin im Garten kann Ärger bringen: Diese Regeln gelten - CHIP",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNVXRXd2JCd0kyLTJ4RG4wUnExQ0xObWQ2Ti1pQmpHN2daeXBZSEJmdXJmUDEzRElnZVp6QzZObkxySVNULVRXQ013OXJnbXUtMXg4dmo0YVhrc2lfcXJwSjFYZTFxY3pkN3BSb210TXBjSDkzTHFELUZLM05nbmIyODBpMVlhM3ZEM1NRajFkd1drbkJMSEZTTG9Qa0NnNEYxWk5OSTg5Wm1PTkN4aG5senZ1dUpxRTJDa001V2g1VHBSZnp0ellWQmxnUUZoLWZMVFpXNHQzMlhiRGpqb1F3?oc=5",
+          "source": "CHIP",
+          "date": "9. Jul 2026"
         }
       ]
     },
@@ -63,7 +51,7 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "In Deutschland plant die Bahn eine Lärmschutzwand im Hauptbahnhof, während die Debatte um die Vereinfachung von Baunormen – darunter auch Lärmschutzvorschriften – anhält und die CDU einen Vor-Ort-Dialog zum Lärmschutz an der A623 für den 10. Juli ankündigt. In der Schweiz reagiert die Armee auf Lärmklagen, indem sie künftig verstärkt auf sogenannte „Schiesskinos\" als lärmarme Trainingsalternative setzen will.",
+      "summary": "In Deutschland plant die Deutsche Bahn die Installation einer Lärmschutzwand im Hauptbahnhof, während eine Debatte über die Notwendigkeit bestehender Baunormen, darunter auch Lärmschutzvorschriften, entfacht ist. In der Schweiz reagiert die Armee auf zunehmende Lärmklagen, indem sie künftig verstärkt auf sogenannte „Schiesskinos\" als lärmarme Trainingsalternative setzen will.",
       "items": [
         {
           "title": "Rhein: „Frankfurter Flughafen sichert unseren Wohlstand“ - merkurist.de",
@@ -84,18 +72,6 @@
           "date": "7. Jul 2026"
         },
         {
-          "title": "Weniger Regeln, günstigere Wohnungen? Der Streit um Deutschlands Baunormen - MDR.de",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTDBRa2xGVC1fNEI5U01YV2VmYUNFeXJjb1RxeUY0T0Zyc1BGbl8zVnVjNWEzRVhBR0ZzSkNTR1lMNjd3T0JlQnlMZEw0dVAwRmI1STRVR0FDMnJqbzhUbWltQ3QxUVdvS2FaRTVfTE9STTBGckZSX283dVc4Rmc4RDctb3F6RU91UmR3ZFY5VUZqM1pCcm01b1AyU2k3T3Z2eGhEVUVGNFdFRW9ZeDlhN3dkNU5rZFU?oc=5",
-          "source": "MDR.de",
-          "date": "8. Jul 2026"
-        },
-        {
-          "title": "CDU Vor Ort Dialog zum Thema Lärmschutz A623 am 10. Juli | saarnews - saarnews",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOE42bnVJbVc3MUZDSFZ5R1k3LV9ZVG9CYmZWOE9IRkFhWmkweDNXYjFxeGJRcHdNd2RmaHpxTHh0c0RtaVdMR09ZekNsaXNVNXp2MGRWQ0JON1drSFV4VTdXTjhQWnQ4aEF1UXA5aTVydzZvRjQyMTJ3OGQ1REVPTWx2QUtTTTJrRnktX1B1OFU2LS1z0gGaAUFVX3lxTE43UGhGNkFEOURqMms5M2NQVXB4ZEk0Ni00cnFNWklDNjFiQUdyMnlJYWJtT1kzTHBnVjlJcnN0NlRxT1J5a1hoQk5pdExnQXkxWmt4cFJkdzQ0dGNDTkFVZERHbzRWR1cwQjkzLVg1VzY4MTVHYlJZQWZJMDdPVVoxUndZVTZ1ekQzRXdLVGdhMWhkN1R4SzEwd0E?oc=5",
-          "source": "saarnews",
-          "date": "5. Jul 2026"
-        },
-        {
           "title": "Wegen Lärmklagen: Schweizer Armee will künftig in «Schiesskinos» trainieren - Tages-Anzeiger",
           "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPejliSDZhNjdVOUFockJSVWJHTUxVZXNiNjd0TTNZcDBKTUc5aEdrNjFuUUVUNGFOMUpHMXdmTTNaa3Bva1JxU2RDcGFoOXZxM1dwZUpSZ1VXenBLY2R4bVJaZG9aT1dXcWFLc2NqTEpxcUJqU2hWVjNkYjktVl9xUnhJdTBhbWUyWmRlbkFnSnhnMjhjWHVFWGlsQkp1WmlhS3c?oc=5",
           "source": "Tages-Anzeiger",
@@ -107,7 +83,7 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "A Microsoft data centre is facing a noise lawsuit, highlighting ongoing concerns about industrial noise pollution in Europe. This case underscores the growing legal pressures on large technology infrastructure operators to comply with noise control standards.",
+      "summary": "Microsoft's data centre in Europe is facing a noise-related lawsuit, highlighting growing legal pressures on large industrial facilities over noise pollution. No further relevant European noise control policy developments were identified among the remaining headlines.",
       "items": [
         {
           "title": "Dividend Directive and honorary judges: the EU criticises Italia for failing to implement the legislation - Il Sole 24 ORE",
@@ -116,16 +92,16 @@
           "date": "9. Jul 2026"
         },
         {
+          "title": "Africa Noise Measurement System - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVzhvaVUtNjRiZFF6cDBYMmw5bzBJTDZOMFNULU4xQWt3LVVZTXd4VXU0LURiUkx2UkpqTWVUekxXZG5QWFRfaGlXMG1Ua1laQ25fOWRqaWNoXzNEZ20zb0ZpeEVGdmYtdFlDUnFBTDR3TUdEWTJ1ZVZISFJiM0Z5dksyVnZiTDEzRU41UGNJWDlZRWtld0JsMjg2ZFpmRHFfVlVCODh4bjFPbkVfaElfbFpn?oc=5",
+          "source": "IndexBox",
+          "date": "11. Jul 2026"
+        },
+        {
           "title": "Microsoft data centre faces noise lawsuit - eeNews Europe",
           "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5Ca1J4dlQyZGRGTHlOSVotbFMxZXFKS0FXOU1WUTdaTlJqeXItYjlNT0Z4d0RqNmMtYy1Cbi05RUp1dW5Tc01NM0ZjUjZZdm5GZ2UzLTk4QWs1ZjJudFlzQ19YcXZkdThuUWdtMHBmU0dGdHMwclFZ?oc=5",
           "source": "eeNews Europe",
           "date": "9. Jul 2026"
-        },
-        {
-          "title": "CONVERGE announce November European tour, new music video for \"It Used to Matter\" streaming - IDIOTEQ.com",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZzdQVFdsYjdhMWl4MmZ0LS1vdi1GYVBRaEE0RHIzZ19GU01kUVNQNUh1bGUxWTUxNUdNTUZDZWotQ1N5Sm9NN19FTkVRLWZUaU9xYl9oWXJJX01DcWFwVkR2NjAybkxFT3Z3M3FzWGZRRnBSekw3M19USFpzNFJnNU5IX3RxSzk3NmdPNnBUaVZ6TTVKM3pfWW9lb3dEMzloQkl5cTR2VDFxTDFCeFE?oc=5",
-          "source": "IDIOTEQ.com",
-          "date": "8. Jul 2026"
         }
       ]
     },
@@ -133,14 +109,8 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Research into low-frequency and infrasound perception dominated recent headlines, with a new study identifying why certain individuals exhibit heightened sensitivity to low-frequency noise, shedding light on the physiological and neurological differences between people. Complementing this, emerging research reveals how infrasound can actually rewire ear mechanics, suggesting that prolonged exposure to very low-frequency sound may induce structural or functional changes in the auditory system.",
+      "summary": "Recent research has shed light on why certain individuals exhibit heightened sensitivity to low-frequency and infrasound, exploring the underlying physiological and neurological mechanisms that differentiate their auditory perception. Studies suggest that structural and functional variations in ear mechanics, potentially rewired by infrasound exposure, may explain these individual differences in sensitivity to sub-bass frequencies.",
       "items": [
-        {
-          "title": "How car-free streets make healthier communities - Canada's National Observer",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYnY1N1RDdV9sYXdDOUs1bmdjREpYYzBUYjE0Wld2TkV0aEFLVUp5RE85amMzdW5ILVhxQ3BELTF0T2lPMTgxdVIyZnJIVVVMOGRhYWhoNnZxc1VYc1FCbmF1UkpSQmZ6WWY4UG9GWW84LUd0LXFHMmxJTGpfTXRpTHNrX2c4WGw2M2lIbHRZZ2FnSUhwQ0t1NDJn?oc=5",
-          "source": "Canada's National Observer",
-          "date": "10. Jul 2026"
-        },
         {
           "title": "New study explains why some people are more sensitive to low-frequency noise - News-Medical",
           "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWGRRNE5VcEt5blBsLUhKR1VYaDN6Vm9pVUdVNjFuTno5czBUWG80YWpuWVhyY1lHMkVub0FvUzBhbE5XTU8wS1A5Q3RUSHZBUldkdVhGSUF3UU1kWlptZDRTYkoxVEFGaEJIWDlNT2ZxTlg4TDZUc1Zqb081ZlREam4taVAzS0d1QVdBamxnZFMtRkFDaVFQd1lTQkVpMHFneXFFSlBSbmpRZThJdENLR2VBanRsalNpTjdtTTFGMDNyUQ?oc=5",
@@ -148,16 +118,16 @@
           "date": "10. Jul 2026"
         },
         {
-          "title": "How Infrasound Rewires Ear Mechanics - Neuroscience News",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9XUmc5bGU5Ry1RTmg5WkJuZGlTajRfSU10VzZzd0dXOXBUWVJxbGJnSUExeWhsZm9Bc0dyWEdTRDhhLWFLWXVwSDFIZ3BrTE9PTnY2ZHVEN1pzUzBvUV9oVlNUeEh3MXpZZmVfckd0UV9WUQ?oc=5",
-          "source": "Neuroscience News",
-          "date": "9. Jul 2026"
-        },
-        {
           "title": "Here’s Why Some Humans Can Hear Super Low-Frequency Sounds - Nautilus | Science",
           "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSXdiZUphREMyanl3TWtMYXdlVVVWcFBIMVN2V3o1V1RhdVJDVXNWTi1Wbm56WldfVEwxUm5WSXotdmxfYXA3Q2NqbTA3aXB2UU5YMmhGU0RjV1pxc0cyNTVlZGUwcmRtTS1SaG5YNEtzdzZYaG01R2sxUnhNVWlRcUhSVFJJUWJHUXJN?oc=5",
           "source": "Nautilus | Science",
           "date": "10. Jul 2026"
+        },
+        {
+          "title": "How Infrasound Rewires Ear Mechanics - Neuroscience News",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9XUmc5bGU5Ry1RTmg5WkJuZGlTajRfSU10VzZzd0dXOXBUWVJxbGJnSUExeWhsZm9Bc0dyWEdTRDhhLWFLWXVwSDFIZ3BrTE9PTnY2ZHVEN1pzUzBvUV9oVlNUeEh3MXpZZmVfckd0UV9WUQ?oc=5",
+          "source": "Neuroscience News",
+          "date": "9. Jul 2026"
         }
       ]
     },
@@ -167,6 +137,12 @@
       "color": "#7b4f12",
       "summary": "Keine relevanten Meldungen gefunden.",
       "items": [
+        {
+          "title": "Wohnungsbau: Wir müssen endlich wieder einfacher bauen! - DIE ZEIT",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdG16djZNWmNiRW1QQmlBNlB0djNJZE03cHVJY3JhWG5ONi1RX0VMeDZMZTR1RkRUVzFEaXNpN25XWi1teUJPRUZBVnA4ZkFaM1gwSzBOblJ0SjhDb3JNVmhMd3djdVZjYUhiN19oYlpMVkZzOUYzWjRrSlRiVmVkRGsycW1ibUE2cS1YVTN0cFBURVk5bGc?oc=5",
+          "source": "DIE ZEIT",
+          "date": "8. Jul 2026"
+        },
         {
           "title": "Tagesansicht / Day view - DEGA - Deutsche Gesellschaft für Akustik",
           "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE84TE1LUUpFSm82MTNwMUY3NHlTUGRvYW5zZnpzZXYtNjVxV1B5eU83dDNQRUZJckt0WHhsM24xWU9oUVdCeWtnTi1HZ2QtLXo2dDhrV1lJTGE1MkVKa0pQcVJPZkFLaF9ERGowVDNhQUZsSDBWZWc?oc=5",
