@@ -1,5 +1,5 @@
 {
-  "generated": "12. July 2026, 06:17 UTC",
+  "generated": "13. July 2026, 06:38 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -25,7 +25,7 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "In Österreich formiert sich überregionaler Widerstand gegen Bahnlärm, wobei Bürgerinitiativen verstärkt gemeinsam gegen die Lärmbelastung durch den Schienenverkehr vorgehen. Ein bemerkenswerter Fall aus dem Bereich Lärmschutz zeigt zudem, dass eine 10-Millionen-Euro-Windkraftanlage aufgrund unzumutbarer Brummton-Emissionen abgerissen werden musste.",
+      "summary": "In Österreich formiert sich überregionaler Widerstand gegen Bahnlärm, während in Wien die gesundheitlichen Folgen von Lärm – von Stress bis hin zu Depressionen – zunehmend in den Fokus rücken. Zudem sorgt ein Fall in Österreich für Aufsehen, bei dem eine Windkraftanlage im Wert von zehn Millionen Euro aufgrund eines störenden Brummtons abgerissen werden muss.",
       "items": [
         {
           "title": "Initiative kämpft überregional gegen Bahnlärm - Merkur",
@@ -34,16 +34,16 @@
           "date": "7. Jul 2026"
         },
         {
+          "title": "Von Stress bis Depression: Was macht der Lärm in Wien mit uns? - MeinBezirk.at",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTDZtSkEtUW9hWW56VHhTSl9IbEFNZldmRFZpRV9JMHJncmhQQmp0RXdUY1doMmNOellfRDZBZHN0azZuaWNTaXp0Nlh4S09TQ185Q3l0YW5RQVRWbWJpVHZIcWVKaTJNMXpwOTIwSmxfek5vcjRvYkJDeUlwTzBFVV9lU0NBSUZ0YThPMmRBR20zZw?oc=5",
+          "source": "MeinBezirk.at",
+          "date": "12. Jul 2026"
+        },
+        {
           "title": "Windrad-Abriss wegen Brummton: 10-Millionen-Euro-Anlage fällt - Börse Express",
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVi1uZUg0VTBuSzZTdkdGd2JOUWhmNi1xOUxETTFQV1h2YzYwQUhLNFE0Uk5TOXZOWVZsc1ZmYWJfdDQ4TTU0SjFqdmZzQmNqRWNSajYyYjNIYjRMdXVjQUVyYThXa1FiU2ltZGZTcUhOcFZtajY0M2lOSkpBMWpFekRpVUN0emg3ckpkVVZUT2dsXzV6RVdwc0s0bU9xVE5ZMkIyOFZycGFKT1RZb1hSTTBpZw?oc=5",
           "source": "Börse Express",
           "date": "6. Jul 2026"
-        },
-        {
-          "title": "Ein Trampolin im Garten kann Ärger bringen: Diese Regeln gelten - CHIP",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNVXRXd2JCd0kyLTJ4RG4wUnExQ0xObWQ2Ti1pQmpHN2daeXBZSEJmdXJmUDEzRElnZVp6QzZObkxySVNULVRXQ013OXJnbXUtMXg4dmo0YVhrc2lfcXJwSjFYZTFxY3pkN3BSb210TXBjSDkzTHFELUZLM05nbmIyODBpMVlhM3ZEM1NRajFkd1drbkJMSEZTTG9Qa0NnNEYxWk5OSTg5Wm1PTkN4aG5senZ1dUpxRTJDa001V2g1VHBSZnp0ellWQmxnUUZoLWZMVFpXNHQzMlhiRGpqb1F3?oc=5",
-          "source": "CHIP",
-          "date": "9. Jul 2026"
         }
       ]
     },
@@ -51,8 +51,14 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "In Deutschland plant die Deutsche Bahn die Installation einer Lärmschutzwand im Hauptbahnhof, während eine Debatte über die Notwendigkeit bestehender Baunormen, darunter auch Lärmschutzvorschriften, entfacht ist. In der Schweiz reagiert die Armee auf zunehmende Lärmklagen, indem sie künftig verstärkt auf sogenannte „Schiesskinos\" als lärmarme Trainingsalternative setzen will.",
+      "summary": "Nächtlicher Umgebungslärm rückt in Deutschland verstärkt in den Fokus, da offene Fenster bei Hitze gesundheitsschädlichen Lärm in Schlafräume lassen und die Bahn am Dresdner Hauptbahnhof eine neue Lärmschutzwand errichtet. In der Schweiz plant die Armee als Reaktion auf Lärmklagen aus der Bevölkerung, ihr Training künftig in sogenannte „Schiesskinos\" zu verlagern.",
       "items": [
+        {
+          "title": "Offenes Fenster bei Hitze: Nächtlicher Lärm macht krank, auch wenn wir schlafen - Berliner Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQU5Da0tHUzZrcFdoQS1UQkRYZjM2V2tYcnhlODRCM25UdWd0ZkFzaVh3bzFaREVyZEZBRWlURmc5SkJ3ZVE4VTJlbkVXNnFaZ0tNSTVFcnlrNGk0SzNteUNhb0c2cFo0MEJUTEphRG1SWks5NFlTRzVpRF9JWE5FYTRITGllR3Jaak9lQkZLQWtoejdvaXRmeGxfTTU4bXp1eFJabWQ2aEg?oc=5",
+          "source": "Berliner Zeitung",
+          "date": "7. Jul 2026"
+        },
         {
           "title": "Rhein: „Frankfurter Flughafen sichert unseren Wohlstand“ - merkurist.de",
           "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQLWVvZVd0WWRIM1oxZ0N5aTUtM3NScEpFcVdyc3h0VU1CUkNBYWsxVkl6TnpIT2c0aXM3R0Z2N3ZSa0xSWVFpTnc4dl9lNEtvaHpWUXVGU3lzTUNLbzd5dVdqb0Iyd0RjaWVXM1hLTWdEdXhwaU9DSEROOHk5ckppZDhkNTgyTWsyX2pzMnVlYmxvRy1vaFAtYzNTR19uYnVZeEdHQkVKSG10X21TLVpLYTNWTFJMcXdvbW9WbXpR?oc=5",
@@ -64,6 +70,12 @@
           "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOM3RFcHBjMUxaeUdFbjIxQktYSER2UkFtWXNDS3FsQVh0ejJDS05VdERZbHhDRzZJVkFuVHVyUVpueG5qUGM4ZGlpZno2MkdUdm9qUGg0ZVAzT1ZSOWdMLTBHaklPUmRtRkNkOENQTnQ2Si1NZUgwbW96am9QUmNRTnVCRDdCMHE2NXhwRXNUdXQ0WDF1eW1CRFZ5elE0aEJhVFBqLWhRSWdRQnRE?oc=5",
           "source": "Die Sachsen News",
           "date": "6. Jul 2026"
+        },
+        {
+          "title": "Klimaanlage: Der Faktencheck zu Stromfressern, Tropennächten und Baurecht - WELT",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWVpydUNoM3FkUHFtV2dtN3Q4Zk1EbVM5REpjbnNMTHJYZmp6S0QySHdoZ3E4SFZLaXVYSXN6dUFBd0hXbW9tMVhwak5WX1lxNWwxdTI2dTV4VHFueG9yanRhX09EN3d6TTVGMTlTNHFzUExodkM4U2VZT2p6NWZlTF9VcHJXcTJkbWt3ckJFSk14MEdlcjFHUUxBWXQtZ3JfeFFYUHRRUE1EbVRaTW5Yb1NxTUFnemlfRDFvZElCdi11OHhJd0N6VXY0NlFxcFJub18w?oc=5",
+          "source": "WELT",
+          "date": "9. Jul 2026"
         },
         {
           "title": "Treppen, Lärmschutz, Abdichtung: Welche Baunormen sind verzichtbar? - MDR.de",
@@ -83,13 +95,25 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Microsoft's data centre in Europe is facing a noise-related lawsuit, highlighting growing legal pressures on large industrial facilities over noise pollution. No further relevant European noise control policy developments were identified among the remaining headlines.",
+      "summary": "A Microsoft data centre in Europe is facing a noise lawsuit, highlighting ongoing tensions between large industrial facilities and noise pollution regulations. Market analyses for noise measurement systems and digital sound level meters suggest growing demand for noise monitoring tools, which are increasingly relevant in the context of European noise control compliance.",
       "items": [
         {
           "title": "Dividend Directive and honorary judges: the EU criticises Italia for failing to implement the legislation - Il Sole 24 ORE",
           "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYUdUZ1ZTR2tWcmxCNDZjTVY3VUE1Z3kwU2NrSUJublg5bUd4eU8wSFF5RjVjMUN5UjdVOVppMTM5aTYwSzB3am1YdjE0UEtzVmFtVWZGb3dlczIzZ196TzZRZFcxakdKMVB5NldfUktpbWk1YUEwSEpIa1g1MGVRbWdnN1VSQTM0N2ZEODc4UlFvdXZmTUtuLXB6YVhxYmEydWJ0a01YVWJDM3RKd1ducVVVVjB6SGRTMV8wcmtMZXRlb2I2OFg5bE40Zl9iY3FTMzZZbFBiM1NmaW8?oc=5",
           "source": "Il Sole 24 ORE",
           "date": "9. Jul 2026"
+        },
+        {
+          "title": "World Noise Measurement System - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTzhOTWdwNGFaalZ4UFpNSEtQdkZncHZLN3VSa1AwbXRDeWJsMUtNQ1dXdUJXaXctNFktMzBnX1JDckdycC1fd2o3ZnAzWXVTc3E4WU1UNDJ1SGM5T195bmxNTjhKNHBJTkhxZEVaNHk4T0U3djhqMml3MEZkV3ZPRlp1SlhwT05iR1FzeWh2TTJMYmFUTXhZdXU3T1VXSEZJN2N0aWVWVHhHRTJFNzQ1QkxRRXdMV1FwVHJrUmFDc2VPNld1enBZQ0toZG50QjVnck9kWjMzbDRzVGpGbXFj?oc=5",
+          "source": "IndexBox",
+          "date": "12. Jul 2026"
+        },
+        {
+          "title": "World Digital Sound Level Meter - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRGxDdnd4bEd2ODM2cmJENVRCTG4xQVZYVldFTUxtOVczd0JmUzdTOWE2ZG00RnZDME5ZdWx2cUppRWU0TFRndUsxc24tWnltbUI1ZDliZ0s4UGtXNGhmZjFFdk1wV3U0WkpVc1RTUDhic2trMXJKUW1PT1JzS2RFT2Z2NXVJUEk3WHBGRkg3a3RCWklMSFIyVUR4M18yOVJZSThocjFkY1N0TnJ1aEpYcXlIX21aNTVFdVJhSU1VYzkzek90b0h4RVRIZmlqS2NzZEt0Wm4yajY4VHZza1RPNg?oc=5",
+          "source": "IndexBox",
+          "date": "13. Jul 2026"
         },
         {
           "title": "Africa Noise Measurement System - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
@@ -109,7 +133,7 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Recent research has shed light on why certain individuals exhibit heightened sensitivity to low-frequency and infrasound, exploring the underlying physiological and neurological mechanisms that differentiate their auditory perception. Studies suggest that structural and functional variations in ear mechanics, potentially rewired by infrasound exposure, may explain these individual differences in sensitivity to sub-bass frequencies.",
+      "summary": "Recent research has shed light on why certain individuals exhibit heightened sensitivity to low-frequency and infrasound, exploring the underlying physiological and neurological mechanisms that differentiate their auditory perception. Studies suggest that structural and functional variations in ear mechanics, potentially rewired by infrasound exposure, may explain these individual differences in sensitivity to very low-frequency noise.",
       "items": [
         {
           "title": "New study explains why some people are more sensitive to low-frequency noise - News-Medical",
@@ -118,9 +142,9 @@
           "date": "10. Jul 2026"
         },
         {
-          "title": "Here’s Why Some Humans Can Hear Super Low-Frequency Sounds - Nautilus | Science",
+          "title": "Here’s Why Some Humans Can Hear Super Low-Frequency Sounds - Nautilus",
           "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSXdiZUphREMyanl3TWtMYXdlVVVWcFBIMVN2V3o1V1RhdVJDVXNWTi1Wbm56WldfVEwxUm5WSXotdmxfYXA3Q2NqbTA3aXB2UU5YMmhGU0RjV1pxc0cyNTVlZGUwcmRtTS1SaG5YNEtzdzZYaG01R2sxUnhNVWlRcUhSVFJJUWJHUXJN?oc=5",
-          "source": "Nautilus | Science",
+          "source": "Nautilus",
           "date": "10. Jul 2026"
         },
         {
