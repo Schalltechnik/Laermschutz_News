@@ -1,5 +1,5 @@
 {
-  "generated": "13. July 2026, 06:38 UTC",
+  "generated": "14. July 2026, 05:53 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -7,12 +7,6 @@
       "color": "#1a5c38",
       "summary": "Keine relevanten Meldungen gefunden.",
       "items": [
-        {
-          "title": "Grazie Roma! So viel Rom steckt in der neuen Pizzeria von Florian Weitzer - Kleine Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSURhWHJtSl81Vk1DdXp6WlFHaHBROEp5N29fdUEzV3JmMFZUZ3RUcnEtR21hZ2Z2Nm1TSU13dFd5N0R5VExlOTU1Skl0WlVCNk9kQjJIYXRXQkRQUVJwS285WFpMTnJOMnNzQnVDOUxjSlhaQVBKVEhSRjd4WXFwWXQ2clM3cElVc2JVQlJYbTBIT2lPV2k4bHhSMGlpT0VHNDg4aVpQQWFlRzZPTjYw?oc=5",
-          "source": "Kleine Zeitung",
-          "date": "6. Jul 2026"
-        },
         {
           "title": "Kulturförderung: Viel Lärm um (fast) nichts - Kleine Zeitung",
           "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1YRWxKMjZSQ1hHb0dkSGgxaGQwWWhmMThLUVZ0cW92QkN2ZFdsRU5FNkZwbzY4TU81U0V5clI4eDlob1RQNGJQbm1KOFMzX3hVOEMtSUhfZi1uVzVxTGtNcVhQejBxekhEalota3d2cGRMcUhPSlRCbnc5UQ?oc=5",
@@ -25,25 +19,19 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "In Österreich formiert sich überregionaler Widerstand gegen Bahnlärm, während in Wien die gesundheitlichen Folgen von Lärm – von Stress bis hin zu Depressionen – zunehmend in den Fokus rücken. Zudem sorgt ein Fall in Österreich für Aufsehen, bei dem eine Windkraftanlage im Wert von zehn Millionen Euro aufgrund eines störenden Brummtons abgerissen werden muss.",
+      "summary": "In Wien werden die gesundheitlichen Auswirkungen von Lärm thematisiert, der bei Betroffenen von Stress bis hin zu Depressionen führen kann. Der Flugplatz Altenrhein, der sein 100-jähriges Bestehen feiert, sorgt seit Jahrzehnten für Lärmschutzdiskussionen in der Region.",
       "items": [
         {
-          "title": "Initiative kämpft überregional gegen Bahnlärm - Merkur",
-          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQRkQwVHNVeC15Qm5MY3k0ZDY5U21rLWJ3NjZNX1NXOWJ4ZVFHTGM1QkdZb3AwaXF3Sk5YZFhZcTBXWEtxbUhzU0h1MzUxWnM5cXg2SHZqeUF5Z0pIS2ROdEZTVDFHMmdrQzRCNW9aWTV5MVd2LU90SU0yRG5GNnRsUl9iaXhKVFlNWmRTSlNTTnMtbHgyRW92bmxyRzFQcDhEWDhRWk1hcjJQUE1WWTlQYjFwS0N0S2NScmk4ZGRxRVUwQTBqeDN3Q2J2TTJsMFJkcDVpLXZTUVdqNnNTMDZ6dlNNUTh6S194X1AxVA?oc=5",
-          "source": "Merkur",
-          "date": "7. Jul 2026"
+          "title": "Der Flugplatz Altenrhein wird 100 – und löst seit Jahrzehnten Diskussionen aus - St. Galler Tagblatt",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1HVDJFYmFEbkR4Qzc1V2tnYmpjM19TcUhfeWFlN0RWdnZpNnZIWFQ1dmJuZmdoak5iNF9IbDJZU0NVT1FXXzVodVBTcDJRMG8tSUR1RXdNbDZESjFwTXVQYzVxcUlpMlBubEttTUFvVQ?oc=5",
+          "source": "St. Galler Tagblatt",
+          "date": "13. Jul 2026"
         },
         {
           "title": "Von Stress bis Depression: Was macht der Lärm in Wien mit uns? - MeinBezirk.at",
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTDZtSkEtUW9hWW56VHhTSl9IbEFNZldmRFZpRV9JMHJncmhQQmp0RXdUY1doMmNOellfRDZBZHN0azZuaWNTaXp0Nlh4S09TQ185Q3l0YW5RQVRWbWJpVHZIcWVKaTJNMXpwOTIwSmxfek5vcjRvYkJDeUlwTzBFVV9lU0NBSUZ0YThPMmRBR20zZw?oc=5",
           "source": "MeinBezirk.at",
           "date": "12. Jul 2026"
-        },
-        {
-          "title": "Windrad-Abriss wegen Brummton: 10-Millionen-Euro-Anlage fällt - Börse Express",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVi1uZUg0VTBuSzZTdkdGd2JOUWhmNi1xOUxETTFQV1h2YzYwQUhLNFE0Uk5TOXZOWVZsc1ZmYWJfdDQ4TTU0SjFqdmZzQmNqRWNSajYyYjNIYjRMdXVjQUVyYThXa1FiU2ltZGZTcUhOcFZtajY0M2lOSkpBMWpFekRpVUN0emg3ckpkVVZUT2dsXzV6RVdwc0s0bU9xVE5ZMkIyOFZycGFKT1RZb1hSTTBpZw?oc=5",
-          "source": "Börse Express",
-          "date": "6. Jul 2026"
         }
       ]
     },
@@ -51,13 +39,19 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Nächtlicher Umgebungslärm rückt in Deutschland verstärkt in den Fokus, da offene Fenster bei Hitze gesundheitsschädlichen Lärm in Schlafräume lassen und die Bahn am Dresdner Hauptbahnhof eine neue Lärmschutzwand errichtet. In der Schweiz plant die Armee als Reaktion auf Lärmklagen aus der Bevölkerung, ihr Training künftig in sogenannte „Schiesskinos\" zu verlagern.",
+      "summary": "In Deutschland sorgen nächtlicher Umgebungslärm bei geöffneten Fenstern für gesundheitliche Bedenken und der Bau einer Lärmschutzwand im Hauptbahnhof für Aufmerksamkeit, während Grenzregionsvertreter Einspruch gegen geplante Pistenverlängerungen einlegen. In der Schweiz plant die Armee als Reaktion auf Lärmklagen, künftig verstärkt in sogenannten „Schiesskinos\" zu trainieren, um Anwohner zu entlasten.",
       "items": [
         {
           "title": "Offenes Fenster bei Hitze: Nächtlicher Lärm macht krank, auch wenn wir schlafen - Berliner Zeitung",
           "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQU5Da0tHUzZrcFdoQS1UQkRYZjM2V2tYcnhlODRCM25UdWd0ZkFzaVh3bzFaREVyZEZBRWlURmc5SkJ3ZVE4VTJlbkVXNnFaZ0tNSTVFcnlrNGk0SzNteUNhb0c2cFo0MEJUTEphRG1SWks5NFlTRzVpRF9JWE5FYTRITGllR3Jaak9lQkZLQWtoejdvaXRmeGxfTTU4bXp1eFJabWQ2aEg?oc=5",
           "source": "Berliner Zeitung",
           "date": "7. Jul 2026"
+        },
+        {
+          "title": "Vertreter der Grenzregion legen Einspruch zu den geplanten Pistenverlängerungen ein - Südkurier",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNRUhiRnZiU3hvTmphcXREYUJ0dW94UnlLaXFONmZWazJGdDV5Y2dReFU5MnlvdVJ0bWZvNllKVFBDbFBJVVNhLURwNUh3VVlHaHF5OXN6Mi02b0lkRzhTbnd0cllTblNnUmR5UjFleGlhX2M2TVhoTk9vU3NkbjlnXzB6UVIyTHZoN05LNm5VLWZUSlVkRzJuaFY0bVRUUXlTUHM1X3cwcFBXRV91M0VWbkpTQmVvU0FIbGR2R2JGR09HUGU1ZEVIcVVSdE1WZ29xV0xGOGJuOVZ4WDd0NUE?oc=5",
+          "source": "Südkurier",
+          "date": "13. Jul 2026"
         },
         {
           "title": "Rhein: „Frankfurter Flughafen sichert unseren Wohlstand“ - merkurist.de",
@@ -69,7 +63,7 @@
           "title": "Mitten im Hauptbahnhof: Warum die Bahn hier eine Lärmschutzwand aufstellt - Die Sachsen News",
           "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOM3RFcHBjMUxaeUdFbjIxQktYSER2UkFtWXNDS3FsQVh0ejJDS05VdERZbHhDRzZJVkFuVHVyUVpueG5qUGM4ZGlpZno2MkdUdm9qUGg0ZVAzT1ZSOWdMLTBHaklPUmRtRkNkOENQTnQ2Si1NZUgwbW96am9QUmNRTnVCRDdCMHE2NXhwRXNUdXQ0WDF1eW1CRFZ5elE0aEJhVFBqLWhRSWdRQnRE?oc=5",
           "source": "Die Sachsen News",
-          "date": "6. Jul 2026"
+          "date": "12. Jul 2026"
         },
         {
           "title": "Klimaanlage: Der Faktencheck zu Stromfressern, Tropennächten und Baurecht - WELT",
@@ -95,7 +89,7 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "A Microsoft data centre in Europe is facing a noise lawsuit, highlighting ongoing tensions between large industrial facilities and noise pollution regulations. Market analyses for noise measurement systems and digital sound level meters suggest growing demand for noise monitoring tools, which are increasingly relevant in the context of European noise control compliance.",
+      "summary": "The Microsoft data centre noise lawsuit in Europe highlights ongoing tensions between industrial infrastructure expansion and local noise regulation enforcement. Market analyses of noise measurement systems and digital sound level meters reflect growing demand for monitoring tools relevant to compliance with European environmental noise standards.",
       "items": [
         {
           "title": "Dividend Directive and honorary judges: the EU criticises Italia for failing to implement the legislation - Il Sole 24 ORE",
@@ -133,7 +127,7 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Recent research has shed light on why certain individuals exhibit heightened sensitivity to low-frequency and infrasound, exploring the underlying physiological and neurological mechanisms that differentiate their auditory perception. Studies suggest that structural and functional variations in ear mechanics, potentially rewired by infrasound exposure, may explain these individual differences in sensitivity to very low-frequency noise.",
+      "summary": "Recent research has shed light on why certain individuals exhibit heightened sensitivity to low-frequency and infrasound, exploring the underlying perceptual and physiological differences between people. Complementary findings reveal that infrasound exposure may actually induce mechanical changes in ear function, suggesting a neurological and structural basis for these sensitivities.",
       "items": [
         {
           "title": "New study explains why some people are more sensitive to low-frequency noise - News-Medical",
