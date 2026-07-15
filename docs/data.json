@@ -1,5 +1,5 @@
 {
-  "generated": "14. July 2026, 05:53 UTC",
+  "generated": "15. July 2026, 05:54 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -19,13 +19,25 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "In Wien werden die gesundheitlichen Auswirkungen von Lärm thematisiert, der bei Betroffenen von Stress bis hin zu Depressionen führen kann. Der Flugplatz Altenrhein, der sein 100-jähriges Bestehen feiert, sorgt seit Jahrzehnten für Lärmschutzdiskussionen in der Region.",
+      "summary": "Windräder und deren mögliche Lärmbelästigung sowie gesundheitliche Auswirkungen werden kritisch beleuchtet, während in Wien die psychischen Folgen von Lärm – von Stress bis hin zu Depressionen – thematisiert werden. Darüber hinaus sorgt der Flugplatz Altenrhein seit Jahrzehnten für Diskussionen rund um Lärmbelästigung in der Region.",
       "items": [
         {
           "title": "Der Flugplatz Altenrhein wird 100 – und löst seit Jahrzehnten Diskussionen aus - St. Galler Tagblatt",
           "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1HVDJFYmFEbkR4Qzc1V2tnYmpjM19TcUhfeWFlN0RWdnZpNnZIWFQ1dmJuZmdoak5iNF9IbDJZU0NVT1FXXzVodVBTcDJRMG8tSUR1RXdNbDZESjFwTXVQYzVxcUlpMlBubEttTUFvVQ?oc=5",
           "source": "St. Galler Tagblatt",
           "date": "13. Jul 2026"
+        },
+        {
+          "title": "Windräder: Sind sie wirklich laut und gesundheitsschädlich? - MOMENT.at",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUURoOVFMY0NEYUtKaHgxR1pjdTY1eGpOMENXQ3M0VEdnMlVyZU41ZUFiaWE1bzY3VFgxbm9BTnJGSm1vTEFPNWdSZkNzUHdjbU9EM3RXSEV1QndVY3ZvNEotZXVCZlJZbDZkQjNjOEx3WWJ2bHhsUFVubUdkSWhwTFpYMVE3VUdGbzBzY2VCUWVJZFV2a294aHFRdndESlk4QXc?oc=5",
+          "source": "MOMENT.at",
+          "date": "15. Jul 2026"
+        },
+        {
+          "title": "Ein Trampolin im Garten kann Ärger bringen: Diese Regeln gelten - CHIP",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNVXRXd2JCd0kyLTJ4RG4wUnExQ0xObWQ2Ti1pQmpHN2daeXBZSEJmdXJmUDEzRElnZVp6QzZObkxySVNULVRXQ013OXJnbXUtMXg4dmo0YVhrc2lfcXJwSjFYZTFxY3pkN3BSb210TXBjSDkzTHFELUZLM05nbmIyODBpMVlhM3ZEM1NRajFkd1drbkJMSEZTTG9Qa0NnNEYxWk5OSTg5Wm1PTkN4aG5senZ1dUpxRTJDa001V2g1VHBSZnp0ellWQmxnUUZoLWZMVFpXNHQzMlhiRGpqb1F3?oc=5",
+          "source": "CHIP",
+          "date": "9. Jul 2026"
         },
         {
           "title": "Von Stress bis Depression: Was macht der Lärm in Wien mit uns? - MeinBezirk.at",
@@ -39,14 +51,8 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "In Deutschland sorgen nächtlicher Umgebungslärm bei geöffneten Fenstern für gesundheitliche Bedenken und der Bau einer Lärmschutzwand im Hauptbahnhof für Aufmerksamkeit, während Grenzregionsvertreter Einspruch gegen geplante Pistenverlängerungen einlegen. In der Schweiz plant die Armee als Reaktion auf Lärmklagen, künftig verstärkt in sogenannten „Schiesskinos\" zu trainieren, um Anwohner zu entlasten.",
+      "summary": "In Deutschland sorgt eine geplante Lärmschutzwand im Dresdner Hauptbahnhof für Aufmerksamkeit, während in der Grenzregion Einsprüche gegen Pistenverlängerungen eingereicht wurden, die offenbar mit Lärmproblemen in Zusammenhang stehen. In der Schweiz plant die Armee als Reaktion auf Lärmklagen, künftig verstärkt in sogenannten „Schiesskinos\" zu trainieren, um Anwohner zu entlasten.",
       "items": [
-        {
-          "title": "Offenes Fenster bei Hitze: Nächtlicher Lärm macht krank, auch wenn wir schlafen - Berliner Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQU5Da0tHUzZrcFdoQS1UQkRYZjM2V2tYcnhlODRCM25UdWd0ZkFzaVh3bzFaREVyZEZBRWlURmc5SkJ3ZVE4VTJlbkVXNnFaZ0tNSTVFcnlrNGk0SzNteUNhb0c2cFo0MEJUTEphRG1SWks5NFlTRzVpRF9JWE5FYTRITGllR3Jaak9lQkZLQWtoejdvaXRmeGxfTTU4bXp1eFJabWQ2aEg?oc=5",
-          "source": "Berliner Zeitung",
-          "date": "7. Jul 2026"
-        },
         {
           "title": "Vertreter der Grenzregion legen Einspruch zu den geplanten Pistenverlängerungen ein - Südkurier",
           "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNRUhiRnZiU3hvTmphcXREYUJ0dW94UnlLaXFONmZWazJGdDV5Y2dReFU5MnlvdVJ0bWZvNllKVFBDbFBJVVNhLURwNUh3VVlHaHF5OXN6Mi02b0lkRzhTbnd0cllTblNnUmR5UjFleGlhX2M2TVhoTk9vU3NkbjlnXzB6UVIyTHZoN05LNm5VLWZUSlVkRzJuaFY0bVRUUXlTUHM1X3cwcFBXRV91M0VWbkpTQmVvU0FIbGR2R2JGR09HUGU1ZEVIcVVSdE1WZ29xV0xGOGJuOVZ4WDd0NUE?oc=5",
@@ -66,16 +72,10 @@
           "date": "12. Jul 2026"
         },
         {
-          "title": "Klimaanlage: Der Faktencheck zu Stromfressern, Tropennächten und Baurecht - WELT",
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWVpydUNoM3FkUHFtV2dtN3Q4Zk1EbVM5REpjbnNMTHJYZmp6S0QySHdoZ3E4SFZLaXVYSXN6dUFBd0hXbW9tMVhwak5WX1lxNWwxdTI2dTV4VHFueG9yanRhX09EN3d6TTVGMTlTNHFzUExodkM4U2VZT2p6NWZlTF9VcHJXcTJkbWt3ckJFSk14MEdlcjFHUUxBWXQtZ3JfeFFYUHRRUE1EbVRaTW5Yb1NxTUFnemlfRDFvZElCdi11OHhJd0N6VXY0NlFxcFJub18w?oc=5",
+          "title": "Klimaanlage: Der Faktencheck zu Stromverbrauch, Baurecht und Nutzen - WELT",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSjVSUzRWMkN1TXNwbzdlNWpuNEVZdExFbGhYY0RqYXVmMm83NFY0Z2FsR1BLNnExYVdEMkNHMkQyNUd3MXNJREFDTHM5NWppYjJDekcyRzVrN25UVEU2Tk5TbWRrZzVyZE1ZemJCREd5RjU3M2NrS3BBck1yQlJuRjloTkZBaDdLNkt5UzE4Mnl3RGFIaTJPeDRQWG5OcnFBOGpGdllZbk5wcEU1OUNWaVE1UEs3cUtEQVViMWhiQm4zTDlBcjFkeG1n?oc=5",
           "source": "WELT",
-          "date": "9. Jul 2026"
-        },
-        {
-          "title": "Treppen, Lärmschutz, Abdichtung: Welche Baunormen sind verzichtbar? - MDR.de",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE52cHhSWTByQTRQNnhGMHJKS21qRDZocnBFQmFjMkJHZHdTNU1PSUxJQlBqV2g0NENtRjktVTNfcXZ3QkhwcVNKWTl5ajhvZ2g3RXVaSDc3T3A4Rmp4dG5jTGtFMXJCNFBoN05ISzlwQ2VSSDdWdUxJZEpOOGQ?oc=5",
-          "source": "MDR.de",
-          "date": "7. Jul 2026"
+          "date": "15. Jul 2026"
         },
         {
           "title": "Wegen Lärmklagen: Schweizer Armee will künftig in «Schiesskinos» trainieren - Tages-Anzeiger",
@@ -89,7 +89,7 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "The Microsoft data centre noise lawsuit in Europe highlights ongoing tensions between industrial infrastructure expansion and local noise regulation enforcement. Market analyses of noise measurement systems and digital sound level meters reflect growing demand for monitoring tools relevant to compliance with European environmental noise standards.",
+      "summary": "Traffic noise has notably decreased according to a regional German-language publication, suggesting positive trends in noise reduction efforts. A Microsoft data centre is facing a noise lawsuit in Europe, highlighting ongoing legal challenges related to industrial noise pollution.",
       "items": [
         {
           "title": "Dividend Directive and honorary judges: the EU criticises Italia for failing to implement the legislation - Il Sole 24 ORE",
@@ -98,22 +98,16 @@
           "date": "9. Jul 2026"
         },
         {
-          "title": "World Noise Measurement System - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTzhOTWdwNGFaalZ4UFpNSEtQdkZncHZLN3VSa1AwbXRDeWJsMUtNQ1dXdUJXaXctNFktMzBnX1JDckdycC1fd2o3ZnAzWXVTc3E4WU1UNDJ1SGM5T195bmxNTjhKNHBJTkhxZEVaNHk4T0U3djhqMml3MEZkV3ZPRlp1SlhwT05iR1FzeWh2TTJMYmFUTXhZdXU3T1VXSEZJN2N0aWVWVHhHRTJFNzQ1QkxRRXdMV1FwVHJrUmFDc2VPNld1enBZQ0toZG50QjVnck9kWjMzbDRzVGpGbXFj?oc=5",
-          "source": "IndexBox",
-          "date": "12. Jul 2026"
-        },
-        {
           "title": "World Digital Sound Level Meter - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
           "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRGxDdnd4bEd2ODM2cmJENVRCTG4xQVZYVldFTUxtOVczd0JmUzdTOWE2ZG00RnZDME5ZdWx2cUppRWU0TFRndUsxc24tWnltbUI1ZDliZ0s4UGtXNGhmZjFFdk1wV3U0WkpVc1RTUDhic2trMXJKUW1PT1JzS2RFT2Z2NXVJUEk3WHBGRkg3a3RCWklMSFIyVUR4M18yOVJZSThocjFkY1N0TnJ1aEpYcXlIX21aNTVFdVJhSU1VYzkzek90b0h4RVRIZmlqS2NzZEt0Wm4yajY4VHZza1RPNg?oc=5",
           "source": "IndexBox",
           "date": "13. Jul 2026"
         },
         {
-          "title": "Africa Noise Measurement System - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVzhvaVUtNjRiZFF6cDBYMmw5bzBJTDZOMFNULU4xQWt3LVVZTXd4VXU0LURiUkx2UkpqTWVUekxXZG5QWFRfaGlXMG1Ua1laQ25fOWRqaWNoXzNEZ20zb0ZpeEVGdmYtdFlDUnFBTDR3TUdEWTJ1ZVZISFJiM0Z5dksyVnZiTDEzRU41UGNJWDlZRWtld0JsMjg2ZFpmRHFfVlVCODh4bjFPbkVfaElfbFpn?oc=5",
-          "source": "IndexBox",
-          "date": "11. Jul 2026"
+          "title": "Verkehrslärm hat merkbar abgenommen - Rundschau | Oberländer Wochenzeitung",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVjNhTEl6R3dpNTRvUXo5TDd4UzZpa2YyY1ByZDBjZ1I4bmR3TWs5b0tqMC1CeXBMSjlUS0UzUFZsU3c2ZmRpbDlCbUtfelZqVUR3Qnk1ZjFHME82UTZZY1h1VXBDY1MzaUpQMVd0N1p5d0RzNUV6Y0lpS2dOQ3JhZHgxRlJVQVRIWmg2WU50bk5aVHVVZzc2MkJ6Uk92dl93dGJMeFRYYXY?oc=5",
+          "source": "Rundschau | Oberländer Wochenzeitung",
+          "date": "13. Jul 2026"
         },
         {
           "title": "Microsoft data centre faces noise lawsuit - eeNews Europe",
@@ -127,7 +121,7 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Recent research has shed light on why certain individuals exhibit heightened sensitivity to low-frequency and infrasound, exploring the underlying perceptual and physiological differences between people. Complementary findings reveal that infrasound exposure may actually induce mechanical changes in ear function, suggesting a neurological and structural basis for these sensitivities.",
+      "summary": "Recent research has shed light on why certain individuals exhibit heightened sensitivity to low-frequency and infrasound, exploring the underlying physiological and neurological mechanisms that differentiate their auditory perception. Studies suggest that structural and functional variations in ear mechanics, potentially rewired by infrasound exposure, may explain these individual differences in sensitivity to very low-frequency noise.",
       "items": [
         {
           "title": "New study explains why some people are more sensitive to low-frequency noise - News-Medical",
@@ -160,12 +154,6 @@
           "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdG16djZNWmNiRW1QQmlBNlB0djNJZE03cHVJY3JhWG5ONi1RX0VMeDZMZTR1RkRUVzFEaXNpN25XWi1teUJPRUZBVnA4ZkFaM1gwSzBOblJ0SjhDb3JNVmhMd3djdVZjYUhiN19oYlpMVkZzOUYzWjRrSlRiVmVkRGsycW1ibUE2cS1YVTN0cFBURVk5bGc?oc=5",
           "source": "DIE ZEIT",
           "date": "8. Jul 2026"
-        },
-        {
-          "title": "Tagesansicht / Day view - DEGA - Deutsche Gesellschaft für Akustik",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE84TE1LUUpFSm82MTNwMUY3NHlTUGRvYW5zZnpzZXYtNjVxV1B5eU83dDNQRUZJckt0WHhsM24xWU9oUVdCeWtnTi1HZ2QtLXo2dDhrV1lJTGE1MkVKa0pQcVJPZkFLaF9ERGowVDNhQUZsSDBWZWc?oc=5",
-          "source": "DEGA - Deutsche Gesellschaft für Akustik",
-          "date": "7. Jul 2026"
         }
       ]
     },
