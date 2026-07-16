@@ -1,5 +1,5 @@
 {
-  "generated": "15. July 2026, 05:54 UTC",
+  "generated": "16. July 2026, 05:59 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -19,8 +19,14 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Windräder und deren mögliche Lärmbelästigung sowie gesundheitliche Auswirkungen werden kritisch beleuchtet, während in Wien die psychischen Folgen von Lärm – von Stress bis hin zu Depressionen – thematisiert werden. Darüber hinaus sorgt der Flugplatz Altenrhein seit Jahrzehnten für Diskussionen rund um Lärmbelästigung in der Region.",
+      "summary": "Windräder werden hinsichtlich ihrer Lärmbelastung und möglicher Gesundheitsschäden kritisch diskutiert, während eine Reportage die psychischen und physischen Auswirkungen von Lärm auf die Wiener Bevölkerung – von Stress bis hin zu Depressionen – beleuchtet. Ergänzend dazu sorgt der 100-jährige Flugplatz Altenrhein seit Jahrzehnten für Lärmschutzdiskussionen in der Region.",
       "items": [
+        {
+          "title": "Vermieter sagt Nein: Warum der Weg zur Klimaanlage so mühsam ist - profil.at",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYkZHNU5EeTR3a094Y0Z0VUppaG1PTWtfcU5tVV9RNHdOVDB3ZUIwZGFnbmtvQXZudy1MUEc4TV82c3ZSN3pRZEFObmxhVFN3b3h3bXhxN0QyVF9oNGpXVGpuOE92NkV6YkRYc0RvNmJxNU01bXRBbEl3ckF4dVpUOWZZeTRuOEhHR3gwZkwxZmozZlZ5ZVl4STZXdFgwM2tRLTRiTGVkUVdsUHlFTE5MN0FmUUZIMml0VXBJ?oc=5",
+          "source": "profil.at",
+          "date": "10. Jul 2026"
+        },
         {
           "title": "Der Flugplatz Altenrhein wird 100 – und löst seit Jahrzehnten Diskussionen aus - St. Galler Tagblatt",
           "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1HVDJFYmFEbkR4Qzc1V2tnYmpjM19TcUhfeWFlN0RWdnZpNnZIWFQ1dmJuZmdoak5iNF9IbDJZU0NVT1FXXzVodVBTcDJRMG8tSUR1RXdNbDZESjFwTXVQYzVxcUlpMlBubEttTUFvVQ?oc=5",
@@ -34,12 +40,6 @@
           "date": "15. Jul 2026"
         },
         {
-          "title": "Ein Trampolin im Garten kann Ärger bringen: Diese Regeln gelten - CHIP",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNVXRXd2JCd0kyLTJ4RG4wUnExQ0xObWQ2Ti1pQmpHN2daeXBZSEJmdXJmUDEzRElnZVp6QzZObkxySVNULVRXQ013OXJnbXUtMXg4dmo0YVhrc2lfcXJwSjFYZTFxY3pkN3BSb210TXBjSDkzTHFELUZLM05nbmIyODBpMVlhM3ZEM1NRajFkd1drbkJMSEZTTG9Qa0NnNEYxWk5OSTg5Wm1PTkN4aG5senZ1dUpxRTJDa001V2g1VHBSZnp0ellWQmxnUUZoLWZMVFpXNHQzMlhiRGpqb1F3?oc=5",
-          "source": "CHIP",
-          "date": "9. Jul 2026"
-        },
-        {
           "title": "Von Stress bis Depression: Was macht der Lärm in Wien mit uns? - MeinBezirk.at",
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTDZtSkEtUW9hWW56VHhTSl9IbEFNZldmRFZpRV9JMHJncmhQQmp0RXdUY1doMmNOellfRDZBZHN0azZuaWNTaXp0Nlh4S09TQ185Q3l0YW5RQVRWbWJpVHZIcWVKaTJNMXpwOTIwSmxfek5vcjRvYkJDeUlwTzBFVV9lU0NBSUZ0YThPMmRBR20zZw?oc=5",
           "source": "MeinBezirk.at",
@@ -51,7 +51,7 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "In Deutschland sorgt eine geplante Lärmschutzwand im Dresdner Hauptbahnhof für Aufmerksamkeit, während in der Grenzregion Einsprüche gegen Pistenverlängerungen eingereicht wurden, die offenbar mit Lärmproblemen in Zusammenhang stehen. In der Schweiz plant die Armee als Reaktion auf Lärmklagen, künftig verstärkt in sogenannten „Schiesskinos\" zu trainieren, um Anwohner zu entlasten.",
+      "summary": "In der Schweiz plant die Armee als Reaktion auf Lärmklagen künftig den Einsatz sogenannter „Schiesskinos\" für das Training, um Anwohner vor Schießlärm zu schützen. Zudem haben Vertreter einer Grenzregion Einspruch gegen geplante Pistenverlängerungen eingelegt, was auf anhaltende Konflikte rund um Fluglärm hindeutet.",
       "items": [
         {
           "title": "Vertreter der Grenzregion legen Einspruch zu den geplanten Pistenverlängerungen ein - Südkurier",
@@ -60,22 +60,10 @@
           "date": "13. Jul 2026"
         },
         {
-          "title": "Rhein: „Frankfurter Flughafen sichert unseren Wohlstand“ - merkurist.de",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQLWVvZVd0WWRIM1oxZ0N5aTUtM3NScEpFcVdyc3h0VU1CUkNBYWsxVkl6TnpIT2c0aXM3R0Z2N3ZSa0xSWVFpTnc4dl9lNEtvaHpWUXVGU3lzTUNLbzd5dVdqb0Iyd0RjaWVXM1hLTWdEdXhwaU9DSEROOHk5ckppZDhkNTgyTWsyX2pzMnVlYmxvRy1vaFAtYzNTR19uYnVZeEdHQkVKSG10X21TLVpLYTNWTFJMcXdvbW9WbXpR?oc=5",
-          "source": "merkurist.de",
-          "date": "8. Jul 2026"
-        },
-        {
-          "title": "Mitten im Hauptbahnhof: Warum die Bahn hier eine Lärmschutzwand aufstellt - Die Sachsen News",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOM3RFcHBjMUxaeUdFbjIxQktYSER2UkFtWXNDS3FsQVh0ejJDS05VdERZbHhDRzZJVkFuVHVyUVpueG5qUGM4ZGlpZno2MkdUdm9qUGg0ZVAzT1ZSOWdMLTBHaklPUmRtRkNkOENQTnQ2Si1NZUgwbW96am9QUmNRTnVCRDdCMHE2NXhwRXNUdXQ0WDF1eW1CRFZ5elE0aEJhVFBqLWhRSWdRQnRE?oc=5",
-          "source": "Die Sachsen News",
-          "date": "12. Jul 2026"
-        },
-        {
           "title": "Klimaanlage: Der Faktencheck zu Stromverbrauch, Baurecht und Nutzen - WELT",
           "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSjVSUzRWMkN1TXNwbzdlNWpuNEVZdExFbGhYY0RqYXVmMm83NFY0Z2FsR1BLNnExYVdEMkNHMkQyNUd3MXNJREFDTHM5NWppYjJDekcyRzVrN25UVEU2Tk5TbWRrZzVyZE1ZemJCREd5RjU3M2NrS3BBck1yQlJuRjloTkZBaDdLNkt5UzE4Mnl3RGFIaTJPeDRQWG5OcnFBOGpGdllZbk5wcEU1OUNWaVE1UEs3cUtEQVViMWhiQm4zTDlBcjFkeG1n?oc=5",
           "source": "WELT",
-          "date": "15. Jul 2026"
+          "date": "16. Jul 2026"
         },
         {
           "title": "Wegen Lärmklagen: Schweizer Armee will künftig in «Schiesskinos» trainieren - Tages-Anzeiger",
@@ -89,20 +77,8 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Traffic noise has notably decreased according to a regional German-language publication, suggesting positive trends in noise reduction efforts. A Microsoft data centre is facing a noise lawsuit in Europe, highlighting ongoing legal challenges related to industrial noise pollution.",
+      "summary": "Traffic noise has noticeably decreased according to a regional German-language publication, suggesting positive developments in noise reduction efforts. A Microsoft data centre is facing a noise-related lawsuit in Europe, highlighting ongoing legal challenges around industrial noise pollution.",
       "items": [
-        {
-          "title": "Dividend Directive and honorary judges: the EU criticises Italia for failing to implement the legislation - Il Sole 24 ORE",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYUdUZ1ZTR2tWcmxCNDZjTVY3VUE1Z3kwU2NrSUJublg5bUd4eU8wSFF5RjVjMUN5UjdVOVppMTM5aTYwSzB3am1YdjE0UEtzVmFtVWZGb3dlczIzZ196TzZRZFcxakdKMVB5NldfUktpbWk1YUEwSEpIa1g1MGVRbWdnN1VSQTM0N2ZEODc4UlFvdXZmTUtuLXB6YVhxYmEydWJ0a01YVWJDM3RKd1ducVVVVjB6SGRTMV8wcmtMZXRlb2I2OFg5bE40Zl9iY3FTMzZZbFBiM1NmaW8?oc=5",
-          "source": "Il Sole 24 ORE",
-          "date": "9. Jul 2026"
-        },
-        {
-          "title": "World Digital Sound Level Meter - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRGxDdnd4bEd2ODM2cmJENVRCTG4xQVZYVldFTUxtOVczd0JmUzdTOWE2ZG00RnZDME5ZdWx2cUppRWU0TFRndUsxc24tWnltbUI1ZDliZ0s4UGtXNGhmZjFFdk1wV3U0WkpVc1RTUDhic2trMXJKUW1PT1JzS2RFT2Z2NXVJUEk3WHBGRkg3a3RCWklMSFIyVUR4M18yOVJZSThocjFkY1N0TnJ1aEpYcXlIX21aNTVFdVJhSU1VYzkzek90b0h4RVRIZmlqS2NzZEt0Wm4yajY4VHZza1RPNg?oc=5",
-          "source": "IndexBox",
-          "date": "13. Jul 2026"
-        },
         {
           "title": "Verkehrslärm hat merkbar abgenommen - Rundschau | Oberländer Wochenzeitung",
           "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVjNhTEl6R3dpNTRvUXo5TDd4UzZpa2YyY1ByZDBjZ1I4bmR3TWs5b0tqMC1CeXBMSjlUS0UzUFZsU3c2ZmRpbDlCbUtfelZqVUR3Qnk1ZjFHME82UTZZY1h1VXBDY1MzaUpQMVd0N1p5d0RzNUV6Y0lpS2dOQ3JhZHgxRlJVQVRIWmg2WU50bk5aVHVVZzc2MkJ6Uk92dl93dGJMeFRYYXY?oc=5",
@@ -121,7 +97,7 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Recent research has shed light on why certain individuals exhibit heightened sensitivity to low-frequency and infrasound, exploring the underlying physiological and neurological mechanisms that differentiate their auditory perception. Studies suggest that structural and functional variations in ear mechanics, potentially rewired by infrasound exposure, may explain these individual differences in sensitivity to very low-frequency noise.",
+      "summary": "Recent research has shed light on why certain individuals exhibit heightened sensitivity to low-frequency and infrasound, exploring the underlying physiological and neurological mechanisms that differentiate their auditory perception. Studies suggest that structural and mechanical variations in the ear, potentially combined with neural rewiring, may explain why some people are more attuned to these sub-bass frequencies than others.",
       "items": [
         {
           "title": "New study explains why some people are more sensitive to low-frequency noise - News-Medical",
@@ -147,15 +123,8 @@
       "label": "Bauakustik",
       "icon": "🏗️",
       "color": "#7b4f12",
-      "summary": "Keine relevanten Meldungen gefunden.",
-      "items": [
-        {
-          "title": "Wohnungsbau: Wir müssen endlich wieder einfacher bauen! - DIE ZEIT",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdG16djZNWmNiRW1QQmlBNlB0djNJZE03cHVJY3JhWG5ONi1RX0VMeDZMZTR1RkRUVzFEaXNpN25XWi1teUJPRUZBVnA4ZkFaM1gwSzBOblJ0SjhDb3JNVmhMd3djdVZjYUhiN19oYlpMVkZzOUYzWjRrSlRiVmVkRGsycW1ibUE2cS1YVTN0cFBURVk5bGc?oc=5",
-          "source": "DIE ZEIT",
-          "date": "8. Jul 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "oal": {
       "label": "ÖAL",
