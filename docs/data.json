@@ -1,31 +1,30 @@
 {
-  "generated": "16. July 2026, 05:59 UTC",
+  "generated": "17. July 2026, 06:00 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Keine relevanten Meldungen gefunden.",
-      "items": [
-        {
-          "title": "Kulturförderung: Viel Lärm um (fast) nichts - Kleine Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1YRWxKMjZSQ1hHb0dkSGgxaGQwWWhmMThLUVZ0cW92QkN2ZFdsRU5FNkZwbzY4TU81U0V5clI4eDlob1RQNGJQbm1KOFMzX3hVOEMtSUhfZi1uVzVxTGtNcVhQejBxekhEalota3d2cGRMcUhPSlRCbnc5UQ?oc=5",
-          "source": "Kleine Zeitung",
-          "date": "10. Jul 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "austria": {
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Windräder werden hinsichtlich ihrer Lärmbelastung und möglicher Gesundheitsschäden kritisch diskutiert, während eine Reportage die psychischen und physischen Auswirkungen von Lärm auf die Wiener Bevölkerung – von Stress bis hin zu Depressionen – beleuchtet. Ergänzend dazu sorgt der 100-jährige Flugplatz Altenrhein seit Jahrzehnten für Lärmschutzdiskussionen in der Region.",
+      "summary": "Windräder und ihre potenziellen Lärmauswirkungen auf die Gesundheit werden aktuell kritisch diskutiert, während eine Reportage beleuchtet, welche psychischen und physischen Folgen – von Stress bis Depression – der alltägliche Lärm in Wien für die Stadtbevölkerung hat. Beide Beiträge verdeutlichen die wachsende gesellschaftliche Auseinandersetzung mit Lärmbelastung als ernstzunehmendes Gesundheitsthema in Österreich.",
       "items": [
         {
           "title": "Vermieter sagt Nein: Warum der Weg zur Klimaanlage so mühsam ist - profil.at",
           "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYkZHNU5EeTR3a094Y0Z0VUppaG1PTWtfcU5tVV9RNHdOVDB3ZUIwZGFnbmtvQXZudy1MUEc4TV82c3ZSN3pRZEFObmxhVFN3b3h3bXhxN0QyVF9oNGpXVGpuOE92NkV6YkRYc0RvNmJxNU01bXRBbEl3ckF4dVpUOWZZeTRuOEhHR3gwZkwxZmozZlZ5ZVl4STZXdFgwM2tRLTRiTGVkUVdsUHlFTE5MN0FmUUZIMml0VXBJ?oc=5",
           "source": "profil.at",
           "date": "10. Jul 2026"
+        },
+        {
+          "title": "Fallschirmspringer trainieren mit speziellem Militär-Flugzeug in Kärnten - 5 Minuten",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTmlDUFdVRFF3NHB1MXRoT2JlMjliY1hsUFF4bm54SFBJdHBvSUNxaklTNGZKRkpIYlpKcXc1Tk43OHFEYjZHbC1jTE9CSXNzRjFSOUJkRVhYU1MtYmlWRi1TaXpjNFRWWktOV0t5eHdoQVRaakZFa2tKWUdLaFpyajQ3ZW1Qdmc0VTJ2UV9rdl9ra3ZBT1ZiVVdJLTgtVThzRG1iUy1OYWUtNE5NOE8wRHZLUGJFeGl4OVE?oc=5",
+          "source": "5 Minuten",
+          "date": "13. Jul 2026"
         },
         {
           "title": "Der Flugplatz Altenrhein wird 100 – und löst seit Jahrzehnten Diskussionen aus - St. Galler Tagblatt",
@@ -51,7 +50,7 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "In der Schweiz plant die Armee als Reaktion auf Lärmklagen künftig den Einsatz sogenannter „Schiesskinos\" für das Training, um Anwohner vor Schießlärm zu schützen. Zudem haben Vertreter einer Grenzregion Einspruch gegen geplante Pistenverlängerungen eingelegt, was auf anhaltende Konflikte rund um Fluglärm hindeutet.",
+      "summary": "Die Schweizer Armee plant als Reaktion auf Lärmklagen, künftig verstärkt in sogenannten „Schiesskinos\" zu trainieren, um Anwohner vor Schießlärm zu schützen. In der deutschen Grenzregion formiert sich zudem Widerstand gegen geplante Pistenverlängerungen, gegen die Vertreter der Region Einspruch eingelegt haben.",
       "items": [
         {
           "title": "Vertreter der Grenzregion legen Einspruch zu den geplanten Pistenverlängerungen ein - Südkurier",
@@ -63,7 +62,7 @@
           "title": "Klimaanlage: Der Faktencheck zu Stromverbrauch, Baurecht und Nutzen - WELT",
           "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSjVSUzRWMkN1TXNwbzdlNWpuNEVZdExFbGhYY0RqYXVmMm83NFY0Z2FsR1BLNnExYVdEMkNHMkQyNUd3MXNJREFDTHM5NWppYjJDekcyRzVrN25UVEU2Tk5TbWRrZzVyZE1ZemJCREd5RjU3M2NrS3BBck1yQlJuRjloTkZBaDdLNkt5UzE4Mnl3RGFIaTJPeDRQWG5OcnFBOGpGdllZbk5wcEU1OUNWaVE1UEs3cUtEQVViMWhiQm4zTDlBcjFkeG1n?oc=5",
           "source": "WELT",
-          "date": "16. Jul 2026"
+          "date": "17. Jul 2026"
         },
         {
           "title": "Wegen Lärmklagen: Schweizer Armee will künftig in «Schiesskinos» trainieren - Tages-Anzeiger",
@@ -77,19 +76,13 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Traffic noise has noticeably decreased according to a regional German-language publication, suggesting positive developments in noise reduction efforts. A Microsoft data centre is facing a noise-related lawsuit in Europe, highlighting ongoing legal challenges around industrial noise pollution.",
+      "summary": "No relevant news found.",
       "items": [
         {
           "title": "Verkehrslärm hat merkbar abgenommen - Rundschau | Oberländer Wochenzeitung",
           "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVjNhTEl6R3dpNTRvUXo5TDd4UzZpa2YyY1ByZDBjZ1I4bmR3TWs5b0tqMC1CeXBMSjlUS0UzUFZsU3c2ZmRpbDlCbUtfelZqVUR3Qnk1ZjFHME82UTZZY1h1VXBDY1MzaUpQMVd0N1p5d0RzNUV6Y0lpS2dOQ3JhZHgxRlJVQVRIWmg2WU50bk5aVHVVZzc2MkJ6Uk92dl93dGJMeFRYYXY?oc=5",
           "source": "Rundschau | Oberländer Wochenzeitung",
           "date": "13. Jul 2026"
-        },
-        {
-          "title": "Microsoft data centre faces noise lawsuit - eeNews Europe",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5Ca1J4dlQyZGRGTHlOSVotbFMxZXFKS0FXOU1WUTdaTlJqeXItYjlNT0Z4d0RqNmMtYy1Cbi05RUp1dW5Tc01NM0ZjUjZZdm5GZ2UzLTk4QWs1ZjJudFlzQ19YcXZkdThuUWdtMHBmU0dGdHMwclFZ?oc=5",
-          "source": "eeNews Europe",
-          "date": "9. Jul 2026"
         }
       ]
     },
@@ -97,25 +90,13 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Recent research has shed light on why certain individuals exhibit heightened sensitivity to low-frequency and infrasound, exploring the underlying physiological and neurological mechanisms that differentiate their auditory perception. Studies suggest that structural and mechanical variations in the ear, potentially combined with neural rewiring, may explain why some people are more attuned to these sub-bass frequencies than others.",
+      "summary": "Some humans possess the ability to perceive infrasound — super low-frequency sounds typically below the threshold of normal human hearing — a finding that has intriguing implications for our understanding of auditory perception. Researchers are investigating the physiological and neurological mechanisms that may explain this rare capability in certain individuals.",
       "items": [
-        {
-          "title": "New study explains why some people are more sensitive to low-frequency noise - News-Medical",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWGRRNE5VcEt5blBsLUhKR1VYaDN6Vm9pVUdVNjFuTno5czBUWG80YWpuWVhyY1lHMkVub0FvUzBhbE5XTU8wS1A5Q3RUSHZBUldkdVhGSUF3UU1kWlptZDRTYkoxVEFGaEJIWDlNT2ZxTlg4TDZUc1Zqb081ZlREam4taVAzS0d1QVdBamxnZFMtRkFDaVFQd1lTQkVpMHFneXFFSlBSbmpRZThJdENLR2VBanRsalNpTjdtTTFGMDNyUQ?oc=5",
-          "source": "News-Medical",
-          "date": "10. Jul 2026"
-        },
         {
           "title": "Here’s Why Some Humans Can Hear Super Low-Frequency Sounds - Nautilus",
           "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSXdiZUphREMyanl3TWtMYXdlVVVWcFBIMVN2V3o1V1RhdVJDVXNWTi1Wbm56WldfVEwxUm5WSXotdmxfYXA3Q2NqbTA3aXB2UU5YMmhGU0RjV1pxc0cyNTVlZGUwcmRtTS1SaG5YNEtzdzZYaG01R2sxUnhNVWlRcUhSVFJJUWJHUXJN?oc=5",
           "source": "Nautilus",
           "date": "10. Jul 2026"
-        },
-        {
-          "title": "How Infrasound Rewires Ear Mechanics - Neuroscience News",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9XUmc5bGU5Ry1RTmg5WkJuZGlTajRfSU10VzZzd0dXOXBUWVJxbGJnSUExeWhsZm9Bc0dyWEdTRDhhLWFLWXVwSDFIZ3BrTE9PTnY2ZHVEN1pzUzBvUV9oVlNUeEh3MXpZZmVfckd0UV9WUQ?oc=5",
-          "source": "Neuroscience News",
-          "date": "9. Jul 2026"
         }
       ]
     },
