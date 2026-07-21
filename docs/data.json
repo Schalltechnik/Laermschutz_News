@@ -1,5 +1,5 @@
 {
-  "generated": "20. July 2026, 06:33 UTC",
+  "generated": "21. July 2026, 06:12 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -12,19 +12,13 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Wien plant konkrete Maßnahmen zur Verbesserung des Lärmschutzes in der Stadt, um die Lebensqualität der Bevölkerung zu erhöhen. Der Flugplatz Altenrhein, der sein 100-jähriges Bestehen feiert, ist seit Jahrzehnten Gegenstand von Lärmschutzdiskussionen, wobei dieser jedoch in der Schweiz liegt und damit nur bedingt für den österreichischen Kontext relevant ist.",
+      "summary": "Keine relevanten Meldungen gefunden.\n\nWarte – Wien plant konkrete Maßnahmen zum Lärmschutz, um die Lebensqualität der Bevölkerung zu verbessern. Details zu den spezifischen Maßnahmen der Stadt Wien im Bereich Lärmreduktion werden dabei in den Fokus gerückt.",
       "items": [
         {
           "title": "Lärmschutz in Wien: Mit diesen Maßnahmen will die Stadt für mehr Ruhe sorgen - MeinBezirk.at",
           "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcDJHbEtmYjJ1UllPT1lrdkk0V3ZoT19SWUhNWTVOT2hTUlQxa1VIMEFiUUM0NktxY1pqMFY4N2pQdzhkYXMzai1Cb05iTmpHZ2tBZjQ4TUtWTE1GYU41RG5HU01Qd2czdlN3OTFjX1YwRzZzZk0xLWRVdUgzWGtvRmtIN0dKUkFzdVRyQjdFakgzUkdzeFRseWs5WHYwRkJjMGRoVjhQVndBbk83?oc=5",
           "source": "MeinBezirk.at",
           "date": "19. Jul 2026"
-        },
-        {
-          "title": "Der Flugplatz Altenrhein wird 100 – und löst seit Jahrzehnten Diskussionen aus - St. Galler Tagblatt",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1HVDJFYmFEbkR4Qzc1V2tnYmpjM19TcUhfeWFlN0RWdnZpNnZIWFQ1dmJuZmdoak5iNF9IbDJZU0NVT1FXXzVodVBTcDJRMG8tSUR1RXdNbDZESjFwTXVQYzVxcUlpMlBubEttTUFvVQ?oc=5",
-          "source": "St. Galler Tagblatt",
-          "date": "13. Jul 2026"
         }
       ]
     },
@@ -46,27 +40,26 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "No relevant news found.",
-      "items": [
-        {
-          "title": "European Union Low-Frequency Data Transmission Cables - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcGF0QUx6YWE3eU1XS1hOQ09JSklVNTB0d29EVkxHTnJKUWtBWXFVYzN0N05ZTXVfVGZwendXUXdYSzd3STBuTG5GNGR2bm5rQWZNZlNtZ3FQbERuTW1OanlHbDdJZEppb2o5UldCVHFkbVFoOXItd0pya25pR243R0psc0pJRWw4Zno0RlR6TWxienpydmVJa0lQekZsc2V3S2ozLW1aalNZb1NvM0FPeUVzbkZzTXhKbExqYnhubjNmWUxzWUFmMnZKZUxfd1k?oc=5",
-          "source": "IndexBox",
-          "date": "18. Jul 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "science": {
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "A new end-to-end deep learning pipeline has been developed for urban noise monitoring, incorporating spatiotemporal analysis as published in Nature. This advancement represents a significant step forward in automated acoustic environmental sensing and urban soundscape characterization.",
+      "summary": "Recent research highlights two significant acoustics developments: a deep learning pipeline has been developed for urban noise monitoring that incorporates spatiotemporal analysis, offering a more sophisticated end-to-end approach to tracking and understanding city soundscapes. Additionally, scientists may have finally identified an explanation for the enigmatic low-frequency hum that has been reported by people across the globe.",
       "items": [
         {
           "title": "An end-to-end deep learning pipeline for urban noise monitoring with spatiotemporal analysis - Nature",
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5DU2x1eHZjaC0yTFFRejZBTkx5a1JwWkEyTWlOMUxDbjlQVkdTanBrdk9ZekVMemUzSmV0LVhwY1dsb2Y5Wnh2cWNhQzdKWk9CR0g0QWNMME50d2xIc253?oc=5",
           "source": "Nature",
           "date": "17. Jul 2026"
+        },
+        {
+          "title": "The mysterious hum heard around the world may finally have an explanation - ScienceDaily",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8zS2M4Q2hjTUp4SHVmVmFMMVI1NTlNOG1sbUpWcjFJVTFOLWhkbENqVUIxSE5iWjlTcklnRkNQbGFZc09iRWp1VTlsTmQ3VHJUV2FJMEx6dF9vNVRzSThiMVZabU1kSVB2SHVEVUVvNA?oc=5",
+          "source": "ScienceDaily",
+          "date": "19. Jul 2026"
         }
       ]
     },
