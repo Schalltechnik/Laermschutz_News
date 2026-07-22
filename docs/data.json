@@ -1,5 +1,5 @@
 {
-  "generated": "21. July 2026, 06:12 UTC",
+  "generated": "22. July 2026, 06:11 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -12,7 +12,7 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Keine relevanten Meldungen gefunden.\n\nWarte – Wien plant konkrete Maßnahmen zum Lärmschutz, um die Lebensqualität der Bevölkerung zu verbessern. Details zu den spezifischen Maßnahmen der Stadt Wien im Bereich Lärmreduktion werden dabei in den Fokus gerückt.",
+      "summary": "Keine relevanten Meldungen gefunden.\n\nWarte – die Meldung ist tatsächlich relevant. Hier die korrekte Antwort:\n\nWien plant konkrete Maßnahmen, um die Lärmbelastung für die Bevölkerung zu reduzieren und mehr Ruhe in der Stadt zu schaffen. Die Initiative zeigt, dass der Lärmschutz auf kommunaler Ebene in Österreich zunehmend an Bedeutung gewinnt.",
       "items": [
         {
           "title": "Lärmschutz in Wien: Mit diesen Maßnahmen will die Stadt für mehr Ruhe sorgen - MeinBezirk.at",
@@ -47,7 +47,7 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Recent research highlights two significant acoustics developments: a deep learning pipeline has been developed for urban noise monitoring that incorporates spatiotemporal analysis, offering a more sophisticated end-to-end approach to tracking and understanding city soundscapes. Additionally, scientists may have finally identified an explanation for the enigmatic low-frequency hum that has been reported by people across the globe.",
+      "summary": "Recent research highlights two significant acoustics developments: a deep learning pipeline has been developed for urban noise monitoring incorporating spatiotemporal analysis, representing a major advance in environmental sound measurement and city noise management. Additionally, scientists may have finally identified the source of the enigmatic low-frequency hum reported by people around the world, a phenomenon that has long puzzled acoustic researchers.",
       "items": [
         {
           "title": "An end-to-end deep learning pipeline for urban noise monitoring with spatiotemporal analysis - Nature",
