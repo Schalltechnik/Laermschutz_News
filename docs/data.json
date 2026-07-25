@@ -1,5 +1,5 @@
 {
-  "generated": "24. July 2026, 06:09 UTC",
+  "generated": "25. July 2026, 06:01 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -12,7 +12,7 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Wien plant konkrete Maßnahmen zur Verbesserung des Lärmschutzes in der Stadt, um die Lebensqualität der Bevölkerung zu erhöhen. Darüber hinaus soll ein Automatenladen in einer Altstadt durch eingeschränkte Öffnungszeiten am Sonntag zur Lärmreduzierung beitragen.",
+      "summary": "Wien plant konkrete Maßnahmen zur Verbesserung des Lärmschutzes in der Stadt, um die Lebensqualität der Bevölkerung zu erhöhen. Der zweite Titel weist keinen direkten Bezug zum Lärmschutz in Österreich auf und ist daher nicht relevant.",
       "items": [
         {
           "title": "Lärmschutz in Wien: Mit diesen Maßnahmen will die Stadt für mehr Ruhe sorgen - MeinBezirk.at",
@@ -32,13 +32,19 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Die Deutsche Bahn hat beim Brenner-Nordzulauf eingelenkt und verbesserte Lärmschutzmaßnahmen zugesagt, darunter ein verlängerter Tunnel. Großangelegte Langzeitstudien liefern zudem neue Erkenntnisse zur umstrittenen Frage, ob Windräder Herzerkrankungen verursachen können.",
+      "summary": "In Deutschland sorgt eine Infoveranstaltung zum Lärmrecht für hitzige Debatten über die Verkehrsrealität, während die Bahn beim Brenner-Nordzulauf einlenkt und einer Teilstrecke verbesserten Lärmschutz sowie einen längeren Tunnel zusichert. Zudem zeigen große Langzeitstudien, dass Herzerkrankungen durch Windräder wissenschaftlich untersucht werden, was die anhaltende Diskussion um Umgebungslärm durch erneuerbare Energien unterstreicht.",
       "items": [
         {
-          "title": "Arbeitsschutz: Kontrollen hinken um 83 Jahre hinterher - Ad-hoc-news.de",
+          "title": "Arbeitsschutz: Kontrollen hinken um 83 Jahre hinterher - AD HOC NEWS",
           "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRmxvQ1JVSFZJaEdJT1RxcGx2ZkJTSG5VdHNDZDFKeWY4MENaVUk4TllJcURKZXNRbFVmUDBsZEpqXzlNaWREOERoNGFWaFE1T1J2Ukhmb1N5UDFMSFdlNURCNDE0TXJPYkkzLWVEVTVvUDdodlZlRDFqQ3hsbUkyZlZ0T3ZjN1I5TmZyNE1ncUF3WFpxSm5nS2Nwd25ydzdhYnc?oc=5",
-          "source": "Ad-hoc-news.de",
+          "source": "AD HOC NEWS",
           "date": "22. Jul 2026"
+        },
+        {
+          "title": "Wenn Lärmrecht auf Verkehrsrealität prallt: Infoveranstaltung wird zu hitziger Debatte - Südkurier",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOXzdiM2k4aWtFX24ydndZLXlId2VEOExjOGRJWm01bGVfdFFvVnh3Mnp5d2dYQWlEc0xONFJWZ3lEVDRKR0YyTms0OVVoeHpMYVAwaHg5N2hmTGduVXRhWDdaUWdBN3IyTktPVFowTlJjUUVQc2VrZ2g1ZFlQSE44T3BYeG1WR0pvNzhzMjhMV2JnMEhRYl9MeEpfVF9Yd0Y1WHloREMxb3JIMVY1TmlHVkpEVQ?oc=5",
+          "source": "Südkurier",
+          "date": "25. Jul 2026"
         },
         {
           "title": "Herzerkrankungen durch Windräder? Was große Langzeitstudien zeigen - Deutschlandfunk",
@@ -67,6 +73,12 @@
           "date": "23. Jul 2026"
         },
         {
+          "title": "The mysterious hum heard around the world may finally have an explanation - ScienceDaily",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8zS2M4Q2hjTUp4SHVmVmFMMVI1NTlNOG1sbUpWcjFJVTFOLWhkbENqVUIxSE5iWjlTcklnRkNQbGFZc09iRWp1VTlsTmQ3VHJUV2FJMEx6dF9vNVRzSThiMVZabU1kSVB2SHVEVUVvNA?oc=5",
+          "source": "ScienceDaily",
+          "date": "19. Jul 2026"
+        },
+        {
           "title": "The Brutal Truth About Europe’s Exploding Wolf Populations a - Lavender Hotel",
           "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSGN4Sk5pSkNEZEhRbnBOalMtNm9FUG4wRUdzc3Y0MTBJMEtWdkRGbFQzRHFtanpURkV0VjJEb1NxeWx5M1B5S1VMVkw5X1dtS1hqa2Q2S2gzTzFHVnY5aVhnNlhmT1VJbzJhUHE4MzhNUlZzNkRYWjFreXVvMXJTbUxmZzM0TW0zcE1rS0JTRmNyMFpnbzRFTmVDS0F1N0dFOHc?oc=5",
           "source": "Lavender Hotel",
@@ -78,19 +90,19 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Recent research highlights advances in urban acoustic monitoring through deep learning pipelines enabling spatiotemporal noise analysis, while a newly proposed explanation has emerged for the long-mysterious low-frequency hum detected globally. Additionally, epidemiological findings suggest that prolonged exposure to road traffic noise may elevate the risk of developing Parkinson's disease.",
+      "summary": "Prolonged exposure to road traffic noise has been linked to an increased risk of Parkinson's disease, highlighting the broader health implications of environmental noise pollution. Additionally, scientists may have finally identified an explanation for the mysterious low-frequency hum heard around the world, a phenomenon that has long intrigued acoustics researchers.",
       "items": [
-        {
-          "title": "An end-to-end deep learning pipeline for urban noise monitoring with spatiotemporal analysis - Nature",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5DU2x1eHZjaC0yTFFRejZBTkx5a1JwWkEyTWlOMUxDbjlQVkdTanBrdk9ZekVMemUzSmV0LVhwY1dsb2Y5Wnh2cWNhQzdKWk9CR0g0QWNMME50d2xIc253?oc=5",
-          "source": "Nature",
-          "date": "17. Jul 2026"
-        },
         {
           "title": "Risk of Parkinson’s disease may increase with prolonged exposure to road traffic noise - The Guardian",
           "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZzR5SkZuQ1FwLXlVSHFJLVJnMm1SOXNnT2Jlb2ZYbk00NUQzYVZWcjV2QnJlQW9LLVdsdnhrWXdYMFk1amcyb1dZcmNZNFBxNEtjLU1FQzUtelhoVjlyUFVtWUUzRVVwQnhnVGZ2dnJQc1pLQTlRMDdXX1E5dVZwZGdIVHpPS29zU1lwT0NvcjY5RXNGTlZfbTc0Wksya2s?oc=5",
           "source": "The Guardian",
           "date": "23. Jul 2026"
+        },
+        {
+          "title": "The Dangers of Data Centers - Environmental Health Project",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcVVKRjgxdk9WSWlNUVpSeWVHWU5CamFuTG9rVXFqWlVFS0NjV3VKbE5BZE9nM0JXT2h2dU1CUmJtbzVyVTUzbHJWb3p5c3FTY0JoQml3ZG5HMjB2all1SjlNa29LbkpqWDE1elUxdnpuZ2VDV1hiME5SVGdIV1lhVw?oc=5",
+          "source": "Environmental Health Project",
+          "date": "25. Jul 2026"
         },
         {
           "title": "The mysterious hum heard around the world may finally have an explanation - ScienceDaily",
@@ -107,9 +119,9 @@
       "summary": "Keine relevanten Meldungen gefunden.",
       "items": [
         {
-          "title": "Das Acoustics Bubble Headliner System von Forvia - Konzern setzt auf leichten Lärmschutz - Ad-hoc-news.de",
+          "title": "Das Acoustics Bubble Headliner System von Forvia - Konzern setzt auf leichten Lärmschutz - AD HOC NEWS",
           "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQY2ZkUDBYWl8wVm9UNElXVkdjOHpzSWpMVW5CR1V6ekkxa2FzNGxuak5IMElHOVZtcW1fVjF4NUw1QmZZeW5XbVZ5TXhkUEFtWDBBemlsZWxjZ3FQdUJBMGlOZ1o2Si1oWVN0dXJJbGVMaGRxNEt6VGlNVS1wVGlJWk5QOGN4d1J2cmpWQzM4NHNxZW1YQ1Q0dGJWWmR5NDF5MXdBZll5MXo2ZDR5M1VISUFud0NiUmtJSDdmZnNLS0sxcGMtSUVB?oc=5",
-          "source": "Ad-hoc-news.de",
+          "source": "AD HOC NEWS",
           "date": "23. Jul 2026"
         }
       ]
