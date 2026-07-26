@@ -1,5 +1,5 @@
 {
-  "generated": "25. July 2026, 06:01 UTC",
+  "generated": "26. July 2026, 06:21 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -12,7 +12,7 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Wien plant konkrete Maßnahmen zur Verbesserung des Lärmschutzes in der Stadt, um die Lebensqualität der Bevölkerung zu erhöhen. Der zweite Titel weist keinen direkten Bezug zum Lärmschutz in Österreich auf und ist daher nicht relevant.",
+      "summary": "Wien plant konkrete Maßnahmen zur Verbesserung des Lärmschutzes in der Stadt, um die Lebensqualität der Bevölkerung zu steigern. Irrelevante Meldungen über Öffnungszeiten von Automatenläden wurden nicht berücksichtigt.",
       "items": [
         {
           "title": "Lärmschutz in Wien: Mit diesen Maßnahmen will die Stadt für mehr Ruhe sorgen - MeinBezirk.at",
@@ -32,7 +32,7 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "In Deutschland sorgt eine Infoveranstaltung zum Lärmrecht für hitzige Debatten über die Verkehrsrealität, während die Bahn beim Brenner-Nordzulauf einlenkt und einer Teilstrecke verbesserten Lärmschutz sowie einen längeren Tunnel zusichert. Zudem zeigen große Langzeitstudien, dass Herzerkrankungen durch Windräder wissenschaftlich untersucht werden, was die anhaltende Diskussion um Umgebungslärm durch erneuerbare Energien unterstreicht.",
+      "summary": "Rund um den Brenner-Nordzulauf lenkt die Bahn ein und sichert Lärmschutzmaßnahmen sowie einen verlängerten Tunnel für eine Teilstrecke zu, während in Lehrte die Anwohner nahe eines Aldi-Logistikzentrums weiter auf wirksamen Lärmschutz warten müssen. Langzeitstudien zum Thema Windradlärm und Herzerkrankungen liefern zudem neue wissenschaftliche Erkenntnisse zur gesundheitlichen Wirkung von Umgebungslärm.",
       "items": [
         {
           "title": "Arbeitsschutz: Kontrollen hinken um 83 Jahre hinterher - AD HOC NEWS",
@@ -41,16 +41,22 @@
           "date": "22. Jul 2026"
         },
         {
-          "title": "Wenn Lärmrecht auf Verkehrsrealität prallt: Infoveranstaltung wird zu hitziger Debatte - Südkurier",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOXzdiM2k4aWtFX24ydndZLXlId2VEOExjOGRJWm01bGVfdFFvVnh3Mnp5d2dYQWlEc0xONFJWZ3lEVDRKR0YyTms0OVVoeHpMYVAwaHg5N2hmTGduVXRhWDdaUWdBN3IyTktPVFowTlJjUUVQc2VrZ2g1ZFlQSE44T3BYeG1WR0pvNzhzMjhMV2JnMEhRYl9MeEpfVF9Yd0Y1WHloREMxb3JIMVY1TmlHVkpEVQ?oc=5",
-          "source": "Südkurier",
-          "date": "25. Jul 2026"
+          "title": "Lärm im Zug: Was Thailand anders macht als Japan, Singapur und Deutschland - Wochenblitz",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSDdLdzk0V1czOXNTZElRdkNOLTlMSHJmUmlCbzhsNkRMemZ6MnFMOW1iazBsUGpfd0tuWHR6UndRV2lTTVhhaWxvejAtYllsMEJ6VEQtMUZ4YllUUEY1SmEtd0hxU0l0VGFUaUpvNGpKZFNSbmtJMnZSNWM4YXpxWlFLemFna1Z4ZVViWWVCRk5sRUlGUlM0T1E2LTZnZlNTMmdxVg?oc=5",
+          "source": "Wochenblitz",
+          "date": "26. Jul 2026"
         },
         {
           "title": "Herzerkrankungen durch Windräder? Was große Langzeitstudien zeigen - Deutschlandfunk",
           "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcVpzdGJUSVd1d090QUp3V0ptU2JkS1lVWENpdWxTZktvX1hRN1VQLVo5bjVfeW5DZy03R1Awdy11YldxbkpuSUlLbUtrcmpzeGJLRTZGTWtnbFFORktEOWxsRWZ3Yzl4aEEzYl9SQnJ6OFFSNnl6d1NfaG1OYWtDaFQ5UUdCQQ?oc=5",
           "source": "Deutschlandfunk",
           "date": "22. Jul 2026"
+        },
+        {
+          "title": "Nahe Aldi-Logistikzentrum in Lehrte: Darum lässt der Lärmschutz auf sich warten - HAZ",
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQd3JhQmlmR3o1a29uYVE1bldMSHhQZUNkS1FYVkFhUjVUOXpoNDVXSzRIQzBMNlZVbVUxRHR6TmRpNzNVS3kwY2M5UFFBWmI3cG9qOUl5YXFNclFQX2ZlN0FCT2RfSmdoLWFONWpXM2phdFZyN3JFaXN3V2VJdV94Rm1ralFyMUZfWUZQaXNTdVktMGVXWXp5UVlyY0I3Y1g4RzduQWhMMjZ1a2FFVlNoVHp5Yml3YWJLdnZ6NkNKN21qZWtLNkRfZmUxYzlnWk41TVl5Z2VzckFuUzZrTkU3NWUtenhRd0030gGEAkFVX3lxTE9aRWh1VGd0OEpIbDNXMWU1bHF0dGs0cDd1dEl5dlNDSjNCRm93c3htaTNMN1pGa0llbllpU3JuamFXVDRUZWNQVVVxdjVjSThkVlFSRTdVWWdoSEJNcjZCZ2w4YWROcENIdHNrQ1F5NEw3MnI5d2hDU1ZxaTAzUFhSTURpUnlUYUxYZEZVb3BMbG4yNWRiUmQxQWhWUUxwcXQ4NlZ5bHp4SEtVOU1DTzVUcEdNUGFTeno5aVE5a1MxN1BRZXBEandTOF9mVnFvWHlmRWdlX3hyNVlpc2pYYlkwcVNhRWpKYTBDMlBPUnptNDY0NmZqNDBfYWw5WVBrcUhCUWJH?oc=5",
+          "source": "HAZ",
+          "date": "25. Jul 2026"
         },
         {
           "title": "Bahn lenkt ein: Teilstrecke des Brenner-Nordzulaufs bekommt Lärmschutz – auch Tunnel wird länger - Merkur",
@@ -90,7 +96,7 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Prolonged exposure to road traffic noise has been linked to an increased risk of Parkinson's disease, highlighting the broader health implications of environmental noise pollution. Additionally, scientists may have finally identified an explanation for the mysterious low-frequency hum heard around the world, a phenomenon that has long intrigued acoustics researchers.",
+      "summary": "Prolonged exposure to road traffic noise has been linked to an increased risk of Parkinson's disease, while researchers may have finally identified the source of a mysterious low-frequency hum heard around the world. These findings highlight both the health implications of environmental noise and new advances in understanding unexplained acoustic phenomena.",
       "items": [
         {
           "title": "Risk of Parkinson’s disease may increase with prolonged exposure to road traffic noise - The Guardian",
