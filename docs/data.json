@@ -1,5 +1,5 @@
 {
-  "generated": "26. July 2026, 06:21 UTC",
+  "generated": "27. July 2026, 06:49 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -12,18 +12,18 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Wien plant konkrete Maßnahmen zur Verbesserung des Lärmschutzes in der Stadt, um die Lebensqualität der Bevölkerung zu steigern. Irrelevante Meldungen über Öffnungszeiten von Automatenläden wurden nicht berücksichtigt.",
+      "summary": "Keine relevanten Meldungen gefunden.",
       "items": [
-        {
-          "title": "Lärmschutz in Wien: Mit diesen Maßnahmen will die Stadt für mehr Ruhe sorgen - MeinBezirk.at",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcDJHbEtmYjJ1UllPT1lrdkk0V3ZoT19SWUhNWTVOT2hTUlQxa1VIMEFiUUM0NktxY1pqMFY4N2pQdzhkYXMzai1Cb05iTmpHZ2tBZjQ4TUtWTE1GYU41RG5HU01Qd2czdlN3OTFjX1YwRzZzZk0xLWRVdUgzWGtvRmtIN0dKUkFzdVRyQjdFakgzUkdzeFRseWs5WHYwRkJjMGRoVjhQVndBbk83?oc=5",
-          "source": "MeinBezirk.at",
-          "date": "19. Jul 2026"
-        },
         {
           "title": "Automatenladen in der Altstadt soll sonntags nur noch acht Stunden öffnen dürfen - Merkur",
           "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNc2ZqUmF3QzMwNUdGdTU0eTJ5MjBjZ09RQTAtalhKOXFKaWRPVE80U2RyQWp0RFE1U3dOdk9pb25iUmFOM21YSGFWclJwLV80SWs4N1JBUEdwYllMX0pPN3dDSDAxS3VwSFN6MEgxdHRGTUFPMXphdWpKYXRGVnFVQjBVYnVlTU9qNndYc3NUbzBrOWpzY3lHRm8tb0NFR0lIMEpRNXJpamh3SXZvZmtjWDM0bGFFRGdPM2ZSTHo3MFQ2cDdmdnBlcEdMU3VaeW5ydE5v?oc=5",
           "source": "Merkur",
+          "date": "23. Jul 2026"
+        },
+        {
+          "title": "Kärntner starb im Urlaub in Italien in den Armen seiner Familie - Kleine Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQkE2NWlDMUI4YVdkWkM5Y1Z1ZkxBQU1FY1NIRVZFR1JHMl9ZSGZ3cC1EXzM5NVA3Y2U5UXpOTllVcW4wdFVZZ3R6WnlYZmxFMXNoZHRXVVpvQnpZNGx3NjdWeUJnVDc1VEUtbzc4XzMydkxXajkxeUM5cW9zMlZEdGR0bng3d1FNTU9raENMc3Z0TlhNRks1di01X28xdi1yd0Q2bjdnc1dWUDBpbTJn?oc=5",
+          "source": "Kleine Zeitung",
           "date": "23. Jul 2026"
         }
       ]
@@ -32,12 +32,12 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Rund um den Brenner-Nordzulauf lenkt die Bahn ein und sichert Lärmschutzmaßnahmen sowie einen verlängerten Tunnel für eine Teilstrecke zu, während in Lehrte die Anwohner nahe eines Aldi-Logistikzentrums weiter auf wirksamen Lärmschutz warten müssen. Langzeitstudien zum Thema Windradlärm und Herzerkrankungen liefern zudem neue wissenschaftliche Erkenntnisse zur gesundheitlichen Wirkung von Umgebungslärm.",
+      "summary": "Beim Brenner-Nordzulauf hat die Bahn Verbesserungen beim Lärmschutz zugesagt, darunter eine Tunnelverlängerung, während in Lehrte der Lärmschutz nahe eines Aldi-Logistikzentrums weiter auf sich warten lässt. Großangelegte Langzeitstudien liefern zudem neue Erkenntnisse zur Frage, ob Windräder Herzerkrankungen verursachen können.",
       "items": [
         {
-          "title": "Arbeitsschutz: Kontrollen hinken um 83 Jahre hinterher - AD HOC NEWS",
+          "title": "Arbeitsschutz: Kontrollen hinken um 83 Jahre hinterher - Ad-hoc-news.de",
           "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRmxvQ1JVSFZJaEdJT1RxcGx2ZkJTSG5VdHNDZDFKeWY4MENaVUk4TllJcURKZXNRbFVmUDBsZEpqXzlNaWREOERoNGFWaFE1T1J2Ukhmb1N5UDFMSFdlNURCNDE0TXJPYkkzLWVEVTVvUDdodlZlRDFqQ3hsbUkyZlZ0T3ZjN1I5TmZyNE1ncUF3WFpxSm5nS2Nwd25ydzdhYnc?oc=5",
-          "source": "AD HOC NEWS",
+          "source": "Ad-hoc-news.de",
           "date": "22. Jul 2026"
         },
         {
@@ -73,18 +73,6 @@
       "summary": "No relevant news found.",
       "items": [
         {
-          "title": "European Union Digital Sound Level Meter - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZktJdWl3NmZpUjlpUGZqVHRHZ1hEckgtTlRFck9xNUhoNW1obzVoQWFFOXlOcEE4S1BzbGQ4bzFaS3hkaXFZTHcyRENaR2J0Mm1yTTRaZHg0RE9WV3VBN1dqU0lBSFhSY1oxUHdWbk1QTnFpeGpPeGFDQTFiRDJlNU9NdEVKQ3JvbE40QzFrbzZ0azZkYnhFSjRHN1hIajBvbGNvQlc0Q1hocm40bWxZZjBMeVg3ZzVVemJpTXFB?oc=5",
-          "source": "IndexBox",
-          "date": "23. Jul 2026"
-        },
-        {
-          "title": "The mysterious hum heard around the world may finally have an explanation - ScienceDaily",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8zS2M4Q2hjTUp4SHVmVmFMMVI1NTlNOG1sbUpWcjFJVTFOLWhkbENqVUIxSE5iWjlTcklnRkNQbGFZc09iRWp1VTlsTmQ3VHJUV2FJMEx6dF9vNVRzSThiMVZabU1kSVB2SHVEVUVvNA?oc=5",
-          "source": "ScienceDaily",
-          "date": "19. Jul 2026"
-        },
-        {
           "title": "The Brutal Truth About Europe’s Exploding Wolf Populations a - Lavender Hotel",
           "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSGN4Sk5pSkNEZEhRbnBOalMtNm9FUG4wRUdzc3Y0MTBJMEtWdkRGbFQzRHFtanpURkV0VjJEb1NxeWx5M1B5S1VMVkw5X1dtS1hqa2Q2S2gzTzFHVnY5aVhnNlhmT1VJbzJhUHE4MzhNUlZzNkRYWjFreXVvMXJTbUxmZzM0TW0zcE1rS0JTRmNyMFpnbzRFTmVDS0F1N0dFOHc?oc=5",
           "source": "Lavender Hotel",
@@ -96,7 +84,7 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Prolonged exposure to road traffic noise has been linked to an increased risk of Parkinson's disease, while researchers may have finally identified the source of a mysterious low-frequency hum heard around the world. These findings highlight both the health implications of environmental noise and new advances in understanding unexplained acoustic phenomena.",
+      "summary": "Prolonged exposure to road traffic noise has been linked to an increased risk of Parkinson's disease, according to reporting in The Guardian. No acoustically relevant information was found in the data center headline.",
       "items": [
         {
           "title": "Risk of Parkinson’s disease may increase with prolonged exposure to road traffic noise - The Guardian",
@@ -108,13 +96,7 @@
           "title": "The Dangers of Data Centers - Environmental Health Project",
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcVVKRjgxdk9WSWlNUVpSeWVHWU5CamFuTG9rVXFqWlVFS0NjV3VKbE5BZE9nM0JXT2h2dU1CUmJtbzVyVTUzbHJWb3p5c3FTY0JoQml3ZG5HMjB2all1SjlNa29LbkpqWDE1elUxdnpuZ2VDV1hiME5SVGdIV1lhVw?oc=5",
           "source": "Environmental Health Project",
-          "date": "25. Jul 2026"
-        },
-        {
-          "title": "The mysterious hum heard around the world may finally have an explanation - ScienceDaily",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8zS2M4Q2hjTUp4SHVmVmFMMVI1NTlNOG1sbUpWcjFJVTFOLWhkbENqVUIxSE5iWjlTcklnRkNQbGFZc09iRWp1VTlsTmQ3VHJUV2FJMEx6dF9vNVRzSThiMVZabU1kSVB2SHVEVUVvNA?oc=5",
-          "source": "ScienceDaily",
-          "date": "19. Jul 2026"
+          "date": "26. Jul 2026"
         }
       ]
     },
@@ -125,9 +107,9 @@
       "summary": "Keine relevanten Meldungen gefunden.",
       "items": [
         {
-          "title": "Das Acoustics Bubble Headliner System von Forvia - Konzern setzt auf leichten Lärmschutz - AD HOC NEWS",
+          "title": "Das Acoustics Bubble Headliner System von Forvia - Konzern setzt auf leichten Lärmschutz - Ad-hoc-news.de",
           "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQY2ZkUDBYWl8wVm9UNElXVkdjOHpzSWpMVW5CR1V6ekkxa2FzNGxuak5IMElHOVZtcW1fVjF4NUw1QmZZeW5XbVZ5TXhkUEFtWDBBemlsZWxjZ3FQdUJBMGlOZ1o2Si1oWVN0dXJJbGVMaGRxNEt6VGlNVS1wVGlJWk5QOGN4d1J2cmpWQzM4NHNxZW1YQ1Q0dGJWWmR5NDF5MXdBZll5MXo2ZDR5M1VISUFud0NiUmtJSDdmZnNLS0sxcGMtSUVB?oc=5",
-          "source": "AD HOC NEWS",
+          "source": "Ad-hoc-news.de",
           "date": "23. Jul 2026"
         }
       ]
