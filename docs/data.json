@@ -1,5 +1,5 @@
 {
-  "generated": "27. July 2026, 06:49 UTC",
+  "generated": "28. July 2026, 06:09 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -12,18 +12,18 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Keine relevanten Meldungen gefunden.",
+      "summary": "Wiens Flugrouten über das Stadtgebiet werden aus Sicherheitsgründen beibehalten, was zu anhaltendem Fluglärm für die Bevölkerung führt. Darüber hinaus plant die Stadt, die Öffnungszeiten eines Automatenladens in der Altstadt am Sonntag auf acht Stunden zu begrenzen, was möglicherweise auch lärmschutzrelevante Aspekte berücksichtigt.",
       "items": [
+        {
+          "title": "\"Sicherheit an erster Stelle\": Deshalb müssen Flugzeuge tief über Wiens Stadtgebiet fliegen - MeinBezirk.at",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWlQzQk5XempyTUJOZzFZQldqRVBZWWJiOUJwTHlVbGtLY2RfYVl3WXB2ZHF0MHRwQkFJTm1nUldWODVheUlJYV8wNHRES09TRGlDM2N1ZWx0bld0TkxLS3h5cHhnQXpZaGwzbUlvWTgzZlByX1FPckt2YkhybExBTHVaSjJ0MmpsQzhDZnh5c3pfRlVNSlh4SFBOWmV0ZXlQOE43UVVaQWpSaU44alBuSVNB?oc=5",
+          "source": "MeinBezirk.at",
+          "date": "27. Jul 2026"
+        },
         {
           "title": "Automatenladen in der Altstadt soll sonntags nur noch acht Stunden öffnen dürfen - Merkur",
           "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNc2ZqUmF3QzMwNUdGdTU0eTJ5MjBjZ09RQTAtalhKOXFKaWRPVE80U2RyQWp0RFE1U3dOdk9pb25iUmFOM21YSGFWclJwLV80SWs4N1JBUEdwYllMX0pPN3dDSDAxS3VwSFN6MEgxdHRGTUFPMXphdWpKYXRGVnFVQjBVYnVlTU9qNndYc3NUbzBrOWpzY3lHRm8tb0NFR0lIMEpRNXJpamh3SXZvZmtjWDM0bGFFRGdPM2ZSTHo3MFQ2cDdmdnBlcEdMU3VaeW5ydE5v?oc=5",
           "source": "Merkur",
-          "date": "23. Jul 2026"
-        },
-        {
-          "title": "Kärntner starb im Urlaub in Italien in den Armen seiner Familie - Kleine Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQkE2NWlDMUI4YVdkWkM5Y1Z1ZkxBQU1FY1NIRVZFR1JHMl9ZSGZ3cC1EXzM5NVA3Y2U5UXpOTllVcW4wdFVZZ3R6WnlYZmxFMXNoZHRXVVpvQnpZNGx3NjdWeUJnVDc1VEUtbzc4XzMydkxXajkxeUM5cW9zMlZEdGR0bng3d1FNTU9raENMc3Z0TlhNRks1di01X28xdi1yd0Q2bjdnc1dWUDBpbTJn?oc=5",
-          "source": "Kleine Zeitung",
           "date": "23. Jul 2026"
         }
       ]
@@ -32,7 +32,7 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Beim Brenner-Nordzulauf hat die Bahn Verbesserungen beim Lärmschutz zugesagt, darunter eine Tunnelverlängerung, während in Lehrte der Lärmschutz nahe eines Aldi-Logistikzentrums weiter auf sich warten lässt. Großangelegte Langzeitstudien liefern zudem neue Erkenntnisse zur Frage, ob Windräder Herzerkrankungen verursachen können.",
+      "summary": "Beim Thema Umgebungslärm sorgt in Deutschland eine hitzige Infoveranstaltung für Aufsehen, bei der Lärmrecht auf die Verkehrsrealität trifft, während die Bahn beim Brenner-Nordzulauf nachgibt und verbesserten Lärmschutz sowie einen längeren Tunnel zusagt. In Sachsen wird zudem ein Windrad nach zweieinhalb Jahren wegen eines störenden Brummtons abgerissen, und aktuelle Langzeitstudien beleuchten die Frage möglicher Herzerkrankungen durch Windradlärm.",
       "items": [
         {
           "title": "Arbeitsschutz: Kontrollen hinken um 83 Jahre hinterher - Ad-hoc-news.de",
@@ -42,9 +42,15 @@
         },
         {
           "title": "Lärm im Zug: Was Thailand anders macht als Japan, Singapur und Deutschland - Wochenblitz",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSDdLdzk0V1czOXNTZElRdkNOLTlMSHJmUmlCbzhsNkRMemZ6MnFMOW1iazBsUGpfd0tuWHR6UndRV2lTTVhhaWxvejAtYllsMEJ6VEQtMUZ4YllUUEY1SmEtd0hxU0l0VGFUaUpvNGpKZFNSbmtJMnZSNWM4YXpxWlFLemFna1Z4ZVViWWVCRk5sRUlGUlM0T1E2LTZnZlNTMmdxVg?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVXpsYjA3VURJbll2Tkw0RjNYM1RnLWpLZGJFbWlWYVYtNzc4eXhoQjZtbVFXQTUwczZrbW9WLXhyUVdmQkl2YzU1eVFlVXRuQXBIbHp3dkxjX3d3dG8xN3I2UU9Tc0txa1dsckhKOFZFS2dsRE83NG5lVkVkOVpCQndlTWxtUE1CVmlIRkRKUllHRlZJRVVuQkxoaEN2M013Q0QybGdpb09QQkVETldYc2lFZGhxMEQ0?oc=5",
           "source": "Wochenblitz",
           "date": "26. Jul 2026"
+        },
+        {
+          "title": "Wenn Lärmrecht auf Verkehrsrealität prallt: Infoveranstaltung wird zu hitziger Debatte - Südkurier",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOXzdiM2k4aWtFX24ydndZLXlId2VEOExjOGRJWm01bGVfdFFvVnh3Mnp5d2dYQWlEc0xONFJWZ3lEVDRKR0YyTms0OVVoeHpMYVAwaHg5N2hmTGduVXRhWDdaUWdBN3IyTktPVFowTlJjUUVQc2VrZ2g1ZFlQSE44T3BYeG1WR0pvNzhzMjhMV2JnMEhRYl9MeEpfVF9Yd0Y1WHloREMxb3JIMVY1TmlHVkpEVQ?oc=5",
+          "source": "Südkurier",
+          "date": "25. Jul 2026"
         },
         {
           "title": "Herzerkrankungen durch Windräder? Was große Langzeitstudien zeigen - Deutschlandfunk",
@@ -53,10 +59,10 @@
           "date": "22. Jul 2026"
         },
         {
-          "title": "Nahe Aldi-Logistikzentrum in Lehrte: Darum lässt der Lärmschutz auf sich warten - HAZ",
-          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQd3JhQmlmR3o1a29uYVE1bldMSHhQZUNkS1FYVkFhUjVUOXpoNDVXSzRIQzBMNlZVbVUxRHR6TmRpNzNVS3kwY2M5UFFBWmI3cG9qOUl5YXFNclFQX2ZlN0FCT2RfSmdoLWFONWpXM2phdFZyN3JFaXN3V2VJdV94Rm1ralFyMUZfWUZQaXNTdVktMGVXWXp5UVlyY0I3Y1g4RzduQWhMMjZ1a2FFVlNoVHp5Yml3YWJLdnZ6NkNKN21qZWtLNkRfZmUxYzlnWk41TVl5Z2VzckFuUzZrTkU3NWUtenhRd0030gGEAkFVX3lxTE9aRWh1VGd0OEpIbDNXMWU1bHF0dGs0cDd1dEl5dlNDSjNCRm93c3htaTNMN1pGa0llbllpU3JuamFXVDRUZWNQVVVxdjVjSThkVlFSRTdVWWdoSEJNcjZCZ2w4YWROcENIdHNrQ1F5NEw3MnI5d2hDU1ZxaTAzUFhSTURpUnlUYUxYZEZVb3BMbG4yNWRiUmQxQWhWUUxwcXQ4NlZ5bHp4SEtVOU1DTzVUcEdNUGFTeno5aVE5a1MxN1BRZXBEandTOF9mVnFvWHlmRWdlX3hyNVlpc2pYYlkwcVNhRWpKYTBDMlBPUnptNDY0NmZqNDBfYWw5WVBrcUhCUWJH?oc=5",
-          "source": "HAZ",
-          "date": "25. Jul 2026"
+          "title": "Sachsen: Wegen permanentem Brummton – Windrad wird nach zweieinhalb Jahren abgerissen - WELT",
+          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQbWNRb0tWLS1oQ3MxTE9mWklRYUk4eVRDV0lvYTd4NjNLNjY5dGh0WHN5a0RLeUpKejZzRW9HbEpSWTY0eDhrcnY5TFh1Wm1hOU1vaFRvcDlZVzlGUTQxNXJIcm45ZUdJQzBzbGRyeWx1NUlid2Q1RUsxNnJJaVhMdmdXUjZtYUlXWmNoa3RWLVlpSUFrdkdBRHp4QWVxVmlpNW1lakhiYVJWampRTHVQWEVzcWdJeTh0LUpNTmFjSk5kLURsdjBScjNyUVFybno0UkhpUjFEMzI4WUhjVkFNa09nbmNNV1hFYnpKVm9NOWE?oc=5",
+          "source": "WELT",
+          "date": "27. Jul 2026"
         },
         {
           "title": "Bahn lenkt ein: Teilstrecke des Brenner-Nordzulaufs bekommt Lärmschutz – auch Tunnel wird länger - Merkur",
@@ -73,10 +79,10 @@
       "summary": "No relevant news found.",
       "items": [
         {
-          "title": "The Brutal Truth About Europe’s Exploding Wolf Populations a - Lavender Hotel",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSGN4Sk5pSkNEZEhRbnBOalMtNm9FUG4wRUdzc3Y0MTBJMEtWdkRGbFQzRHFtanpURkV0VjJEb1NxeWx5M1B5S1VMVkw5X1dtS1hqa2Q2S2gzTzFHVnY5aVhnNlhmT1VJbzJhUHE4MzhNUlZzNkRYWjFreXVvMXJTbUxmZzM0TW0zcE1rS0JTRmNyMFpnbzRFTmVDS0F1N0dFOHc?oc=5",
-          "source": "Lavender Hotel",
-          "date": "22. Jul 2026"
+          "title": "European Beach Regulations 2026: Spain, Portugal, and Italy Impose Heavy Fines for Tourist Misconduct - Nomad Lawyer",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYnZyb2VMQ2NERWlVTWxrNnExQnBjS1hCVE5xRGRrNGxLOTBUcEhxamVNYXRtcWM1WWtlS1hTOFRIcHV5dzJ5bTVkc1dtektaNXp0Z0l5LXJodTYxVlhjd0pNZWpGNHVOa1VLME8tbFdGVTBpQUd3cDdMSWRnTmU2TzY2SzFZTVRhSk9oM0UwMFdEM1FwTEtIbG5PMTBEZldTcTF1RXJ2WjY?oc=5",
+          "source": "Nomad Lawyer",
+          "date": "28. Jul 2026"
         }
       ]
     },
@@ -84,8 +90,14 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Prolonged exposure to road traffic noise has been linked to an increased risk of Parkinson's disease, according to reporting in The Guardian. No acoustically relevant information was found in the data center headline.",
+      "summary": "Architectural soundscape design is gaining attention as a discipline that integrates acoustic principles into spatial planning, while new research suggests that prolonged exposure to road traffic noise may elevate the risk of Parkinson's disease. Additionally, a novel theoretical framework proposes a mechanism by which the human ear may perceive sound at frequencies below the conventional threshold of hearing.",
       "items": [
+        {
+          "title": "Soundscape in Architecture: Designing Through Sound - Parametric Architecture",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5NcThlSjVaQnJYcUFxWksyOWtKdHdFdktmcWcwdC1LWE96cnhFNWN3UzdHTUdoYmNzcS0yak1Hek1IQkNpS3BTVnhpbG05SnhYOTYzeXlUX081S3VXeVBPb2dNMGpQeGhfek9ERXU5aEhvWFlJenpMNFhR?oc=5",
+          "source": "Parametric Architecture",
+          "date": "21. Jul 2026"
+        },
         {
           "title": "Risk of Parkinson’s disease may increase with prolonged exposure to road traffic noise - The Guardian",
           "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZzR5SkZuQ1FwLXlVSHFJLVJnMm1SOXNnT2Jlb2ZYbk00NUQzYVZWcjV2QnJlQW9LLVdsdnhrWXdYMFk1amcyb1dZcmNZNFBxNEtjLU1FQzUtelhoVjlyUFVtWUUzRVVwQnhnVGZ2dnJQc1pLQTlRMDdXX1E5dVZwZGdIVHpPS29zU1lwT0NvcjY5RXNGTlZfbTc0Wksya2s?oc=5",
@@ -93,10 +105,10 @@
           "date": "23. Jul 2026"
         },
         {
-          "title": "The Dangers of Data Centers - Environmental Health Project",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcVVKRjgxdk9WSWlNUVpSeWVHWU5CamFuTG9rVXFqWlVFS0NjV3VKbE5BZE9nM0JXT2h2dU1CUmJtbzVyVTUzbHJWb3p5c3FTY0JoQml3ZG5HMjB2all1SjlNa29LbkpqWDE1elUxdnpuZ2VDV1hiME5SVGdIV1lhVw?oc=5",
-          "source": "Environmental Health Project",
-          "date": "26. Jul 2026"
+          "title": "Theory Proposes How The Ear May Detect Sound Below The Edge Of Hearing - StudyFinds",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE92a0ZDbVpYbHBtRm0xdEJ2Z2NlMTI1eXN0WWRHSkEzRkplVnFUVjczd1RyaENiTVA1S0RKc2xkYlBtMVdnNHZ2V1B4ZmUteklXUmN6WkRNMEhKT2ZtZk4zTHVsMmQyZUdJTVl6SkI3WmZFUQ?oc=5",
+          "source": "StudyFinds",
+          "date": "21. Jul 2026"
         }
       ]
     },
