@@ -1,5 +1,5 @@
 {
-  "generated": "30. July 2026, 06:07 UTC",
+  "generated": "31. July 2026, 06:30 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -12,7 +12,7 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Alltagslärm stellt laut Kleiner Zeitung ein ernstes Gesundheitsproblem für EU-Bürger dar. In Wien sorgen tiefe Überflüge von Flugzeugen über das Stadtgebiet für Diskussionen, wobei Sicherheitsanforderungen als Hauptbegründung für diese Flugrouten angeführt werden.",
+      "summary": "Alltagslärm stellt laut Kleiner Zeitung ein ernstes Gesundheitsproblem für EU-Bürger dar. Darüber hinaus sorgt der Fluglärm über Wiens Stadtgebiet für Diskussionen, wobei Sicherheitsanforderungen als Hauptgrund für die tiefen Überflüge genannt werden.",
       "items": [
         {
           "title": "Wie Alltagslärm nervt und EU-Bürger krank macht - Kleine Zeitung",
@@ -32,19 +32,19 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "In Deutschland sorgen gleich mehrere Lärmschutzthemen für Schlagzeilen: Von einer hitzigen Infoveranstaltung zum Lärmrecht über den Abriss eines Windrads in Sachsen wegen eines störenden Brummtons bis hin zu einem Einlenken der Bahn beim Brenner-Nordzulauf, wo nun zusätzlicher Lärmschutz und ein längerer Tunnel geplant sind. Meldungen aus der Schweiz oder von der DEGA liegen aktuell nicht vor.",
+      "summary": "In Deutschland sorgen gleich mehrere Lärmkonflikte für Aufsehen: Während eine Anwohnerin am Priener Bahnhof unter Lautsprecherlärm leidet und eine Infoveranstaltung zum Lärmrecht in eine hitzige Debatte ausartete, wird in Sachsen ein Windrad nach zweieinhalb Jahren wegen eines anhaltenden Brummtons abgerissen. Meldungen aus der Schweiz oder Österreich sowie Neuigkeiten der DEGA sind unter den vorliegenden Titeln nicht vertreten.",
       "items": [
-        {
-          "title": "Lärm im Zug: Was Thailand anders macht als Japan, Singapur und Deutschland - wochenblitz.com",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVXpsYjA3VURJbll2Tkw0RjNYM1RnLWpLZGJFbWlWYVYtNzc4eXhoQjZtbVFXQTUwczZrbW9WLXhyUVdmQkl2YzU1eVFlVXRuQXBIbHp3dkxjX3d3dG8xN3I2UU9Tc0txa1dsckhKOFZFS2dsRE83NG5lVkVkOVpCQndlTWxtUE1CVmlIRkRKUllHRlZJRVVuQkxoaEN2M013Q0QybGdpb09QQkVETldYc2lFZGhxMEQ0?oc=5",
-          "source": "wochenblitz.com",
-          "date": "26. Jul 2026"
-        },
         {
           "title": "„Psychiatrie“? Lautsprecher-Lärm vom Priener Bahnhof treibt Anwohnerin in den Wahnsinn - Rosenheim24",
           "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOR2lhU1hKVnZUdVF3NWVkcUpOdGdqaklHZjhRQ09OSGh0dUNMTzhkUVJRMWFWcnVDaGVQVVNDa3NhdnBESEZJd1lQMGlOWGh5dkJfSjBJV0ZfblJkUW5YTE9DVHpMNkRQejJwWDJZR2phc0xEbjM3ZTl5WjAtLUJMSk95YmRHLUpuSllVX0dTc3pmaGdpTlBac2ZEanJmdGVoNmJOLWFaY083blZTRnpwR3lJOUs3OWVHOENVRTVETVZOcTdoTEoyTlNhSnEwMXFxM256dmJ1d2NLekU2N0hqWUVuNmZqemU0XzkzMjlzeTlZMHQ1bG01T2FyNmlCWEtnM0hiTWx4eWdVYlU4?oc=5",
           "source": "Rosenheim24",
           "date": "28. Jul 2026"
+        },
+        {
+          "title": "Lärm im Zug: Was Thailand anders macht als Japan, Singapur und Deutschland - Wochenblitz",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSDdLdzk0V1czOXNTZElRdkNOLTlMSHJmUmlCbzhsNkRMemZ6MnFMOW1iazBsUGpfd0tuWHR6UndRV2lTTVhhaWxvejAtYllsMEJ6VEQtMUZ4YllUUEY1SmEtd0hxU0l0VGFUaUpvNGpKZFNSbmtJMnZSNWM4YXpxWlFLemFna1Z4ZVViWWVCRk5sRUlGUlM0T1E2LTZnZlNTMmdxVg?oc=5",
+          "source": "Wochenblitz",
+          "date": "26. Jul 2026"
         },
         {
           "title": "Wenn Lärmrecht auf Verkehrsrealität prallt: Infoveranstaltung wird zu hitziger Debatte - Südkurier",
@@ -56,13 +56,13 @@
           "title": "Sachsen: Wegen permanentem Brummton – Windrad wird nach zweieinhalb Jahren abgerissen - WELT",
           "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQbWNRb0tWLS1oQ3MxTE9mWklRYUk4eVRDV0lvYTd4NjNLNjY5dGh0WHN5a0RLeUpKejZzRW9HbEpSWTY0eDhrcnY5TFh1Wm1hOU1vaFRvcDlZVzlGUTQxNXJIcm45ZUdJQzBzbGRyeWx1NUlid2Q1RUsxNnJJaVhMdmdXUjZtYUlXWmNoa3RWLVlpSUFrdkdBRHp4QWVxVmlpNW1lakhiYVJWampRTHVQWEVzcWdJeTh0LUpNTmFjSk5kLURsdjBScjNyUVFybno0UkhpUjFEMzI4WUhjVkFNa09nbmNNV1hFYnpKVm9NOWE?oc=5",
           "source": "WELT",
-          "date": "30. Jul 2026"
+          "date": "29. Jul 2026"
         },
         {
-          "title": "Bahn lenkt ein: Teilstrecke des Brenner-Nordzulaufs bekommt Lärmschutz – auch Tunnel wird länger - Merkur",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPaWd6RlN6alJYajh4MFhYc2kxOHEyWkFhM0hVaEEzbHZIZUVYa2x5REcwbXFQVGR0U1lSUEFLTlBRTnhLMDlGdExBTWstbURRUmw4VWMxUlBaMjJWQkpmSFJUTmZja0tmWjJOd0tlTDZHVUZ2NVNnbEROdzluY2dwRzZwYW1kcmZtUUFsX1hkdG1YTUNLUkxrODE5VFNOQjB0Y0d0OFRoUlBiQ25fNXlmNDBpZHQ4Uk94LWFtTTJ3SVpOcXZMc0lPaTkzZkM1YkhBTThCZDEyWQ?oc=5",
-          "source": "Merkur",
-          "date": "24. Jul 2026"
+          "title": "RTL lässt es brummen: MotoGP kehrt teilweise zurück ins Free-TV - n-tv.de",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQR2hWM05vUXVzNXZsUk8tUXBiRWVCMEwyNjU5RW5ucjk1Mnd4MjBrWFhVUzVGU3hRbDFNcGxaWFdEZk12a3dwRkhrZy1sX29rTWppaXU0YWtrQ09HRHdpY2N5T2JsdWlubmdiR0UwX0V3UkVsdUFwMTJ0bXc1ejhoS0dpQms1RU1fLU9NZQ?oc=5",
+          "source": "n-tv.de",
+          "date": "30. Jul 2026"
         }
       ]
     },
@@ -77,15 +77,8 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Prolonged exposure to road traffic noise has been linked to an increased risk of Parkinson's disease, according to new research highlighted by The Guardian. This finding underscores growing concerns about the broader neurological health impacts of environmental noise pollution beyond the well-established cardiovascular and auditory effects.",
-      "items": [
-        {
-          "title": "Risk of Parkinson’s disease may increase with prolonged exposure to road traffic noise - The Guardian",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZzR5SkZuQ1FwLXlVSHFJLVJnMm1SOXNnT2Jlb2ZYbk00NUQzYVZWcjV2QnJlQW9LLVdsdnhrWXdYMFk1amcyb1dZcmNZNFBxNEtjLU1FQzUtelhoVjlyUFVtWUUzRVVwQnhnVGZ2dnJQc1pLQTlRMDdXX1E5dVZwZGdIVHpPS29zU1lwT0NvcjY5RXNGTlZfbTc0Wksya2s?oc=5",
-          "source": "The Guardian",
-          "date": "23. Jul 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "bauakustik": {
       "label": "Bauakustik",
