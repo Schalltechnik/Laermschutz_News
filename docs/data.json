@@ -1,5 +1,5 @@
 {
-  "generated": "31. July 2026, 06:30 UTC",
+  "generated": "01. August 2026, 06:14 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -12,7 +12,7 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Alltagslärm stellt laut Kleiner Zeitung ein ernstes Gesundheitsproblem für EU-Bürger dar. Darüber hinaus sorgt der Fluglärm über Wiens Stadtgebiet für Diskussionen, wobei Sicherheitsanforderungen als Hauptgrund für die tiefen Überflüge genannt werden.",
+      "summary": "Alltagslärm stellt laut EU-weiten Erkenntnissen ein ernstes Gesundheitsproblem für die Bevölkerung dar. In Wien sorgen tiefe Überflüge von Flugzeugen über das Stadtgebiet für Diskussionen, wobei Sicherheitsanforderungen als Hauptbegründung für diese Flugrouten angeführt werden.",
       "items": [
         {
           "title": "Wie Alltagslärm nervt und EU-Bürger krank macht - Kleine Zeitung",
@@ -32,13 +32,13 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "In Deutschland sorgen gleich mehrere Lärmkonflikte für Aufsehen: Während eine Anwohnerin am Priener Bahnhof unter Lautsprecherlärm leidet und eine Infoveranstaltung zum Lärmrecht in eine hitzige Debatte ausartete, wird in Sachsen ein Windrad nach zweieinhalb Jahren wegen eines anhaltenden Brummtons abgerissen. Meldungen aus der Schweiz oder Österreich sowie Neuigkeiten der DEGA sind unter den vorliegenden Titeln nicht vertreten.",
+      "summary": "In Deutschland sorgt der massive Lärm durch Kühlsysteme von Rechenzentren für wachsende Aufmerksamkeit, während in Sachsen ein Windrad nach zweieinhalb Jahren aufgrund eines anhaltenden Brummtons abgerissen wird. Beide Fälle verdeutlichen die zunehmende Relevanz von Umgebungslärm durch technische Infrastruktur im deutschen Alltag.",
       "items": [
         {
-          "title": "„Psychiatrie“? Lautsprecher-Lärm vom Priener Bahnhof treibt Anwohnerin in den Wahnsinn - Rosenheim24",
-          "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOR2lhU1hKVnZUdVF3NWVkcUpOdGdqaklHZjhRQ09OSGh0dUNMTzhkUVJRMWFWcnVDaGVQVVNDa3NhdnBESEZJd1lQMGlOWGh5dkJfSjBJV0ZfblJkUW5YTE9DVHpMNkRQejJwWDJZR2phc0xEbjM3ZTl5WjAtLUJMSk95YmRHLUpuSllVX0dTc3pmaGdpTlBac2ZEanJmdGVoNmJOLWFaY083blZTRnpwR3lJOUs3OWVHOENVRTVETVZOcTdoTEoyTlNhSnEwMXFxM256dmJ1d2NLekU2N0hqWUVuNmZqemU0XzkzMjlzeTlZMHQ1bG01T2FyNmlCWEtnM0hiTWx4eWdVYlU4?oc=5",
-          "source": "Rosenheim24",
-          "date": "28. Jul 2026"
+          "title": "Rechenzentren: Massiver Lärm durch Kühlung – Bald auch in Deutschland - BILD",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMmlHODZMUmlWQjZwRzl0cXUtcm5vZVYtZWFldVUzRW5yZ3RkX01IMWVmckV3eHhzNi1MYzFEQlZtOEd3U29WODJ3d3p6LTJEbUhSdkY2MXUwZGRJVnRRZGl4YXdLVEhiekh5NG5weENqU1NDREsxem9DRHJpOVFJbnJDS1Z3bWxJZVhsMHBQdkhnU1RpWklNd3BMR2dua3BrWUlzSVFKcHVqYzM3RFFhVkFUb3B0dzJNSkE?oc=5",
+          "source": "BILD",
+          "date": "31. Jul 2026"
         },
         {
           "title": "Lärm im Zug: Was Thailand anders macht als Japan, Singapur und Deutschland - Wochenblitz",
@@ -47,15 +47,9 @@
           "date": "26. Jul 2026"
         },
         {
-          "title": "Wenn Lärmrecht auf Verkehrsrealität prallt: Infoveranstaltung wird zu hitziger Debatte - Südkurier",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOXzdiM2k4aWtFX24ydndZLXlId2VEOExjOGRJWm01bGVfdFFvVnh3Mnp5d2dYQWlEc0xONFJWZ3lEVDRKR0YyTms0OVVoeHpMYVAwaHg5N2hmTGduVXRhWDdaUWdBN3IyTktPVFowTlJjUUVQc2VrZ2g1ZFlQSE44T3BYeG1WR0pvNzhzMjhMV2JnMEhRYl9MeEpfVF9Yd0Y1WHloREMxb3JIMVY1TmlHVkpEVQ?oc=5",
-          "source": "Südkurier",
-          "date": "25. Jul 2026"
-        },
-        {
-          "title": "Sachsen: Wegen permanentem Brummton – Windrad wird nach zweieinhalb Jahren abgerissen - WELT",
+          "title": "Sachsen: Wegen permanentem Brummton – Windrad wird nach zweieinhalb Jahren abgerissen - welt.de",
           "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQbWNRb0tWLS1oQ3MxTE9mWklRYUk4eVRDV0lvYTd4NjNLNjY5dGh0WHN5a0RLeUpKejZzRW9HbEpSWTY0eDhrcnY5TFh1Wm1hOU1vaFRvcDlZVzlGUTQxNXJIcm45ZUdJQzBzbGRyeWx1NUlid2Q1RUsxNnJJaVhMdmdXUjZtYUlXWmNoa3RWLVlpSUFrdkdBRHp4QWVxVmlpNW1lakhiYVJWampRTHVQWEVzcWdJeTh0LUpNTmFjSk5kLURsdjBScjNyUVFybno0UkhpUjFEMzI4WUhjVkFNa09nbmNNV1hFYnpKVm9NOWE?oc=5",
-          "source": "WELT",
+          "source": "welt.de",
           "date": "29. Jul 2026"
         },
         {
@@ -84,8 +78,15 @@
       "label": "Bauakustik",
       "icon": "🏗️",
       "color": "#7b4f12",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "Keine relevanten Meldungen gefunden.",
+      "items": [
+        {
+          "title": "3D-gedruckte Akustikstrukturen steuern Mikroroboter und dämpfen Schall - 3Druck.com",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNUhTc0x4dWVJUTdNQU5GOTZuMkRsVjZ1dUhwOEtWWHJ6Qzd2aTRZSVlMVXpRLUtFZDcwU0l5N1RvaDZBNjVLWUpna0lnaXlYdWlZREl0OGFfY0t2dXBBUXBxUGJrSWIxWnJNbFNOU2pHNnRkNXdQUmdNbTlFMF9lZDMxajE1SjN3NVlIYWRReUhMOXlFaUY5VEFVNUNCQ2RBWlBIUUFhYVlNVVR0MFBB?oc=5",
+          "source": "3Druck.com",
+          "date": "31. Jul 2026"
+        }
+      ]
     },
     "oal": {
       "label": "ÖAL",
