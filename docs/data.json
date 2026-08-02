@@ -1,24 +1,31 @@
 {
-  "generated": "01. August 2026, 06:14 UTC",
+  "generated": "02. August 2026, 06:18 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "Keine relevanten Meldungen gefunden.",
+      "items": [
+        {
+          "title": "Mit 57 Jahren in Pension: Arbeiter erhält 14.000 Euro - 5 Minuten",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbzZYeDBhdnZqemRJeEVBemphSllPMGJ3TWJtcmx3RmpMbWtzbzVuV1J2Um5xa3lyVmNOVnItcnJWUEh2V2E4YW4yTEhGX3BUUE1EdVRVMVU2UjhBcnBUTWNNRTl4VC10TmZ2dE1JZVg3S1dwNjFLWUlSNmpyRVRIeHRzYWtqckxuSEJoZm5QMHoySWhoM0JMZ2ppb21JZEJy?oc=5",
+          "source": "5 Minuten",
+          "date": "1. Aug 2026"
+        }
+      ]
     },
     "austria": {
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Alltagslärm stellt laut EU-weiten Erkenntnissen ein ernstes Gesundheitsproblem für die Bevölkerung dar. In Wien sorgen tiefe Überflüge von Flugzeugen über das Stadtgebiet für Diskussionen, wobei Sicherheitsanforderungen als Hauptbegründung für diese Flugrouten angeführt werden.",
+      "summary": "Nachbarschaftslärm und die gesetzlich erlaubten Lärmgrenzen im Wohnbereich sind ein aktuelles Thema in Österreich. Darüber hinaus wird in Wien die Frage des Fluglärms thematisiert, wobei Sicherheitsanforderungen als Begründung für tiefe Überflüge über das Stadtgebiet angeführt werden.",
       "items": [
         {
-          "title": "Wie Alltagslärm nervt und EU-Bürger krank macht - Kleine Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWXFMcWN2d2w5Ti1Ld1NBODljQjNKU0NQdjBMQmxVd0x3LW1FV2xBMWlMS2VjNlQyRXNubkN1N09yd1RTSXFzLVNEZjZuSGdDNXpCMFFKc292TGo5NzVYRXR1MEhrckNqR1IwRGlHYzlTVWYyVDVEaTE3Z1hyeGVndGJLb0U3NDV3SWR3amJpMnZyVkZ1NGdwM2VMczNFU2w2dVVyUlJ5NG40R191elMw?oc=5",
-          "source": "Kleine Zeitung",
-          "date": "25. Jul 2026"
+          "title": "Lärm in der Nachbarschaft: Wie laut darf der Alltag in den eigenen vier Wänden sein? - MeinBezirk.at",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZTRfQ3Z0dDZGTDZLTUw1S1RPT3lMMlhFTFIyb0NqSUlGUUxsZDBCT1BBc2ktZG9kN1FvRUZSd3ZPNkl3d3M1ZjdKdkNkdER1ZURqUTBUcnRJbkF6a0dLanRjdElXMjZOZ2FQcmRxVlZNYTB1QTNueWR0bi1YS3p4ampQdEkwQ0JaTzVfNEdCaW85YTZ4dU15RVJESzhIMS1Gc0U5Qi10NzBTS1U?oc=5",
+          "source": "MeinBezirk.at",
+          "date": "2. Aug 2026"
         },
         {
           "title": "\"Sicherheit an erster Stelle\": Deshalb müssen Flugzeuge tief über Wiens Stadtgebiet fliegen - MeinBezirk.at",
@@ -32,24 +39,18 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "In Deutschland sorgt der massive Lärm durch Kühlsysteme von Rechenzentren für wachsende Aufmerksamkeit, während in Sachsen ein Windrad nach zweieinhalb Jahren aufgrund eines anhaltenden Brummtons abgerissen wird. Beide Fälle verdeutlichen die zunehmende Relevanz von Umgebungslärm durch technische Infrastruktur im deutschen Alltag.",
+      "summary": "In Deutschland sorgt ein dauerhafter Brummton einer Windkraftanlage in Sachsen für Schlagzeilen, da das Windrad nach zweieinhalb Jahren aufgrund von Lärmbelästigung abgerissen wird, während zudem vor massivem Kühlungslärm durch den wachsenden Ausbau von Rechenzentren gewarnt wird.",
       "items": [
         {
           "title": "Rechenzentren: Massiver Lärm durch Kühlung – Bald auch in Deutschland - BILD",
           "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMmlHODZMUmlWQjZwRzl0cXUtcm5vZVYtZWFldVUzRW5yZ3RkX01IMWVmckV3eHhzNi1MYzFEQlZtOEd3U29WODJ3d3p6LTJEbUhSdkY2MXUwZGRJVnRRZGl4YXdLVEhiekh5NG5weENqU1NDREsxem9DRHJpOVFJbnJDS1Z3bWxJZVhsMHBQdkhnU1RpWklNd3BMR2dua3BrWUlzSVFKcHVqYzM3RFFhVkFUb3B0dzJNSkE?oc=5",
           "source": "BILD",
-          "date": "31. Jul 2026"
+          "date": "1. Aug 2026"
         },
         {
-          "title": "Lärm im Zug: Was Thailand anders macht als Japan, Singapur und Deutschland - Wochenblitz",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSDdLdzk0V1czOXNTZElRdkNOLTlMSHJmUmlCbzhsNkRMemZ6MnFMOW1iazBsUGpfd0tuWHR6UndRV2lTTVhhaWxvejAtYllsMEJ6VEQtMUZ4YllUUEY1SmEtd0hxU0l0VGFUaUpvNGpKZFNSbmtJMnZSNWM4YXpxWlFLemFna1Z4ZVViWWVCRk5sRUlGUlM0T1E2LTZnZlNTMmdxVg?oc=5",
-          "source": "Wochenblitz",
-          "date": "26. Jul 2026"
-        },
-        {
-          "title": "Sachsen: Wegen permanentem Brummton – Windrad wird nach zweieinhalb Jahren abgerissen - welt.de",
+          "title": "Sachsen: Wegen permanentem Brummton – Windrad wird nach zweieinhalb Jahren abgerissen - WELT",
           "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQbWNRb0tWLS1oQ3MxTE9mWklRYUk4eVRDV0lvYTd4NjNLNjY5dGh0WHN5a0RLeUpKejZzRW9HbEpSWTY0eDhrcnY5TFh1Wm1hOU1vaFRvcDlZVzlGUTQxNXJIcm45ZUdJQzBzbGRyeWx1NUlid2Q1RUsxNnJJaVhMdmdXUjZtYUlXWmNoa3RWLVlpSUFrdkdBRHp4QWVxVmlpNW1lakhiYVJWampRTHVQWEVzcWdJeTh0LUpNTmFjSk5kLURsdjBScjNyUVFybno0UkhpUjFEMzI4WUhjVkFNa09nbmNNV1hFYnpKVm9NOWE?oc=5",
-          "source": "welt.de",
+          "source": "WELT",
           "date": "29. Jul 2026"
         },
         {
@@ -64,8 +65,21 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "No relevant news found.",
+      "items": [
+        {
+          "title": "Ćulafić: Four new pillars in environmental protection - vijesti.me",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObVI4MFp2eWxUb0xlR0F3dnRHTEFkS3pjVmZPM3NKWEI4ai0zWUh1LXZ3WmtuLUplZGotWlFKdjI4UVdoSGRlYmMwZ2F2UzFjdmUwUXhjUkp6WXJua1pMOGZUalNjS3ZNeEVkSTVOX2FtdjlyS1hVSFoxdGpQMHFxNUFSdVRVWFFrN3kxRlV30gGOAUFVX3lxTE5tUjgwWnZ5bFRvTGVHQXd2dEdMQWRLemNWZk8zc0pYQjhqLTNZSHUtdndaa24tSmVkai1aUUp2MjhRV2hIZGViYzBnYXZTMWN2ZTBReGNSSnpZcm5rWkw4ZlRqU2NLdk14RWRJNU5fYW12OXJLWFVIWjF0alAwcXE1QVJ1VFVYUWs3eTFGVXc?oc=5",
+          "source": "vijesti.me",
+          "date": "1. Aug 2026"
+        },
+        {
+          "title": "The Value of Silence in Finland: Visit Finland's Don't Waste Campaign - Non Sprecare",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdnhBV0pDU0ZkV3h6V0lPbEFoTkgzazhwYTg3RllKVE1RNWt3SkJhTldJNFNIMFZOLVlabU9QMmRHLVE3OEhwNWkxY2RqZXdhTVpjVkJlUFl3aHV1LWtNNW53NFRnTGh2NXlUQ3RNM1hWYmVJYTdJeEJEamZLdHFqOGtlbEhBMkUtMjJOdGtrZWVoWW82ZVJHYjdoQU4wTG55MUo3ZTRETE1TRFFFUzNBWHhNUQ?oc=5",
+          "source": "Non Sprecare",
+          "date": "29. Jul 2026"
+        }
+      ]
     },
     "science": {
       "label": "Wissenschaft",
