@@ -1,5 +1,5 @@
 {
-  "generated": "02. August 2026, 06:18 UTC",
+  "generated": "03. August 2026, 06:44 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -19,7 +19,7 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Nachbarschaftslärm und die gesetzlich erlaubten Lärmgrenzen im Wohnbereich sind ein aktuelles Thema in Österreich. Darüber hinaus wird in Wien die Frage des Fluglärms thematisiert, wobei Sicherheitsanforderungen als Begründung für tiefe Überflüge über das Stadtgebiet angeführt werden.",
+      "summary": "Nachbarschaftslärm und die gesetzlich zulässigen Lautstärkegrenzen in Wohnbereichen sind ein aktuelles Thema in Österreich. Darüber hinaus wird der Fluglärm über Wiens Stadtgebiet thematisiert, wobei Sicherheitsanforderungen als Hauptgrund für die niedrigen Flugrouten über bewohnten Gebieten angeführt werden.",
       "items": [
         {
           "title": "Lärm in der Nachbarschaft: Wie laut darf der Alltag in den eigenen vier Wänden sein? - MeinBezirk.at",
@@ -39,7 +39,7 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "In Deutschland sorgt ein dauerhafter Brummton einer Windkraftanlage in Sachsen für Schlagzeilen, da das Windrad nach zweieinhalb Jahren aufgrund von Lärmbelästigung abgerissen wird, während zudem vor massivem Kühlungslärm durch den wachsenden Ausbau von Rechenzentren gewarnt wird.",
+      "summary": "In Deutschland sorgen Rechenzentren zunehmend für Lärmbelastung durch ihre Kühlsysteme, während in Sachsen ein Windrad nach zweieinhalb Jahren wegen eines anhaltenden Brummtons abgerissen wird. Weitere relevante Meldungen aus der Schweiz oder der DEGA liegen aktuell nicht vor.",
       "items": [
         {
           "title": "Rechenzentren: Massiver Lärm durch Kühlung – Bald auch in Deutschland - BILD",
@@ -72,12 +72,6 @@
           "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObVI4MFp2eWxUb0xlR0F3dnRHTEFkS3pjVmZPM3NKWEI4ai0zWUh1LXZ3WmtuLUplZGotWlFKdjI4UVdoSGRlYmMwZ2F2UzFjdmUwUXhjUkp6WXJua1pMOGZUalNjS3ZNeEVkSTVOX2FtdjlyS1hVSFoxdGpQMHFxNUFSdVRVWFFrN3kxRlV30gGOAUFVX3lxTE5tUjgwWnZ5bFRvTGVHQXd2dEdMQWRLemNWZk8zc0pYQjhqLTNZSHUtdndaa24tSmVkai1aUUp2MjhRV2hIZGViYzBnYXZTMWN2ZTBReGNSSnpZcm5rWkw4ZlRqU2NLdk14RWRJNU5fYW12OXJLWFVIWjF0alAwcXE1QVJ1VFVYUWs3eTFGVXc?oc=5",
           "source": "vijesti.me",
           "date": "1. Aug 2026"
-        },
-        {
-          "title": "The Value of Silence in Finland: Visit Finland's Don't Waste Campaign - Non Sprecare",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdnhBV0pDU0ZkV3h6V0lPbEFoTkgzazhwYTg3RllKVE1RNWt3SkJhTldJNFNIMFZOLVlabU9QMmRHLVE3OEhwNWkxY2RqZXdhTVpjVkJlUFl3aHV1LWtNNW53NFRnTGh2NXlUQ3RNM1hWYmVJYTdJeEJEamZLdHFqOGtlbEhBMkUtMjJOdGtrZWVoWW82ZVJHYjdoQU4wTG55MUo3ZTRETE1TRFFFUzNBWHhNUQ?oc=5",
-          "source": "Non Sprecare",
-          "date": "29. Jul 2026"
         }
       ]
     },
