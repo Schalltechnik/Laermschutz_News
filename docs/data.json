@@ -1,5 +1,5 @@
 {
-  "generated": "09. August 2026, 04:48 UTC",
+  "generated": "10. August 2026, 05:06 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -12,13 +12,31 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Keine relevanten Meldungen gefunden.",
+      "summary": "Eine Lärmschutzwand auf einer Autobahn geriet in Brand und erforderte den Einsatz von vier Feuerwehren. Darüber hinaus thematisiert eine Petition Sofortmaßnahmen gegen tieffrequenten Schall und Infraschall im Wohnumfeld, während ein Meinungsbeitrag die subjektive Wahrnehmung von Lärmgrenzen beleuchtet.",
       "items": [
         {
-          "title": "Meinung: Wann Lärm die Grenze des Zumutbaren überschreitet, ist Ansichtssache - MeinBezirk.at",
+          "title": "Vier Wehren im Einsatz - Lärmschutzwand auf Autobahn stand in Flammen - Kronen Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1QcXpRNHh4UzFZd2RDelp0NUxIdUtRaURBUVNDT3BpS2hpczJTSG13Ul9ST2h4RTlma25oMXlkejlWQQ?oc=5",
+          "source": "Kronen Zeitung",
+          "date": "9. Aug 2026"
+        },
+        {
+          "title": "Meinung: Wann Lärm die Grenze des Zumutbaren überschreitet, ist Ansichtssache - meinbezirk.at",
           "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTUd4Z0RmZWRTVkF0eXdzdWp1dTZIV1J6RGF4enRFazI2bk9jc3lXc090Z1Blc0h5emhPTUpzN0NiNXI0QnpZY29jdG9nakwtR00yWmlkR0NjcUt3SE05V29HbkhaV0xGMFJ0SHFZQy1wMmF4WTAwOElCQzFGRm9yT1lSdTRycFp3a2p6TkI1Rk1WbWhSYm4xZDVDb2FHblVyaG5TMXJvd2NoSjlYZHF4N2tRdk1xSHZuczFPVw?oc=5",
-          "source": "MeinBezirk.at",
+          "source": "meinbezirk.at",
           "date": "3. Aug 2026"
+        },
+        {
+          "title": "„Gemeinsam gegen Lärm – (Sofort)Maßnahmen gegen tieffrequenten Schall und Infraschall im Wohnumfeld“ - openpetition.eu",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPcFMzX0ZNUS1uVG5acldGQ2EwdDN2VTVIQ3RsUkRDUUdJNWVQdUZOLVczc1lKMUZEN2ZDRmJQOHN2OV9QTDIwR1Q0YVhWVi1ZS1BmVnlTeFZMa3NldHZkODlVY1JsVjRoaUljZXdSTHRrdEk2aXhnOVZEVy1VRXNwSUVuNlFPNGhqTG9kZmMxNUFVMGxSb0lxRGJ5RHFYRExYaUFuV2hrWENTSm5RWTBIaXNqckFYQmxkeEV0Z1pKTUwwcld0RTRBclRjZWhidTVfQTQtMkF3anZUdDQxOVE?oc=5",
+          "source": "openpetition.eu",
+          "date": "5. Aug 2026"
+        },
+        {
+          "title": "Perseiden erreichen Höhepunkt über Österreich - asatunews.co.id",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRGpPUzJsV1p5UFRBVUJqcUpFYWhwaUVzU2MxUnVReXFrYTBtNUM1UnI4WFhHdjlrcmhQX2RLRmsyLWRDRzRFTHYwTkh0eXRYVkJsVGJnSmJhZVc3TE02WkhiX1hVc3JUUXNxM04tWW1ORkFTUjJnZnNDN1E2ZFpFVmZxelZsSXM?oc=5",
+          "source": "asatunews.co.id",
+          "date": "9. Aug 2026"
         }
       ]
     },
@@ -26,12 +44,12 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "In Deutschland plant die Bahn ein Großprojekt mit neuen Lärmschutzwänden entlang der Gleise in Magdeburg, um den Zuglärm für Anwohner zu reduzieren, während eine Gemeinde im Südkurier-Bericht eigeninitiativ eine Lärmkartierung zur Verbesserung der Wohnqualität in Auftrag gegeben hat.",
+      "summary": "In Deutschland plant die Bahn ein Großprojekt mit neuen Lärmschutzwänden entlang der Gleise in Magdeburg, während eine Gemeinde im Südkurier-Gebiet eigeninitiativ eine Lärmkartierung zur Verbesserung der Wohnqualität in Auftrag gegeben hat. Meldungen aus der Schweiz oder Österreich sowie Neuigkeiten der DEGA liegen aktuell nicht vor.",
       "items": [
         {
-          "title": "Weniger Lärm durch Züge: Neue Lärmschutzwände für Magdeburg: Bahn plant Großprojekt an den Gleisen - volksstimme.de",
+          "title": "Weniger Lärm durch Züge: Neue Lärmschutzwände für Magdeburg: Bahn plant Großprojekt an den Gleisen - Volksstimme",
           "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMFNKbUtxcW5mRXQ4OWZMaFRibGN4OTU4Z20ybmJSZzlNbkdhN3EtUEJBYlB0NW80c1RjRGo4Y0YtZ2xOdHh5NzlabjlfTUhsazVjemtRckpKTFRjSXB2SXd6LXI3dkFhY2RLaFV0TmJaMVNoZk5PcUZ4TlFCZzhuZmZxRXp5RDlxOGplUVVIZ0ZOclFYaGZWRWRBZjJMNWdnelVIZ0R4cU9sazdpamtFV2dvamhJdkdKY2xKUnktMDdTQQ?oc=5",
-          "source": "volksstimme.de",
+          "source": "Volksstimme",
           "date": "8. Aug 2026"
         },
         {
@@ -46,7 +64,7 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Data centres are increasingly being required to address noise pollution concerns as part of their construction planning processes. This reflects a broader European trend of integrating noise control considerations into infrastructure development regulations and approvals.",
+      "summary": "Data centres are increasingly being required to address noise pollution concerns as part of their construction planning processes. This reflects a broader European trend of integrating noise control considerations into infrastructure development approvals.",
       "items": [
         {
           "title": "Data centres must factor noise pollution backlash into construction plans - Consultancy.uk",
@@ -60,15 +78,8 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Research into consumer hearing protection continues to gain attention, with evaluations of earplugs optimized for sleep environments highlighting the importance of noise attenuation for rest quality. Such reviews reflect broader public interest in passive acoustic isolation solutions for low-frequency and broadband noise reduction in everyday settings.",
-      "items": [
-        {
-          "title": "Best Earplugs for Sleeping of 2026 - sleepfoundation.org",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPS2JpcnU0eWtFZGxpNk5pNWNqSmxQQ0J2dWxCejJsQ0ZHV2VYMW9rSWNfWHZxcVJ1bjh5em8wZU9lSEFWWHc0R25nNHNQb0FBRkNZbFg1V1NPNDNwWldPUmo0dGY4WVl4YVM0MjVuV3hSdFdhazZZUThRMmJybFVkRA?oc=5",
-          "source": "sleepfoundation.org",
-          "date": "3. Aug 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "bauakustik": {
       "label": "Bauakustik",
