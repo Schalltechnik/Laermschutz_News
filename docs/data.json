@@ -1,19 +1,44 @@
 {
-  "generated": "10. August 2026, 05:06 UTC",
+  "generated": "11. August 2026, 04:50 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "Das OMV-Geothermie-Projekt im Grazer Umland sieht spezifische Lärmschutzmaßnahmen sowie Drainagenlösungen für die Bohrarbeiten vor. Zudem macht eine Petition auf die Problematik von tieffrequentem Schall und Infraschall im Wohnumfeld aufmerksam und fordert sofortige Gegenmaßnahmen.",
+      "items": [
+        {
+          "title": "Geothermie-Projekt: Lärmschutz und Drainagen – so bohrt die OMV im Grazer Umland - Kleine Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYkVoWHFkbXdBRlVWZEs3OEFLcEduWDNGRTNvRy1PZUV1Yy1RWUtHZnhFejhmdGlIdFJRNGNndWlZZDRuRW5janNUM3FXRkFFQWxuOG1xaUpRenZKSG9yMGdwLS1xOFFEbVFua1ZPRjBRMk9zNEtLZ055YTdRSndzMk5VMFEzQVdpTHJQZ21SY2lGMjluOWllbFBPaTI4OTNnNGJmaWI0ZWc?oc=5",
+          "source": "Kleine Zeitung",
+          "date": "10. Aug 2026"
+        },
+        {
+          "title": "„Gemeinsam gegen Lärm – (Sofort)Maßnahmen gegen tieffrequenten Schall und Infraschall im Wohnumfeld“ - openpetition.eu",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPcFMzX0ZNUS1uVG5acldGQ2EwdDN2VTVIQ3RsUkRDUUdJNWVQdUZOLVczc1lKMUZEN2ZDRmJQOHN2OV9QTDIwR1Q0YVhWVi1ZS1BmVnlTeFZMa3NldHZkODlVY1JsVjRoaUljZXdSTHRrdEk2aXhnOVZEVy1VRXNwSUVuNlFPNGhqTG9kZmMxNUFVMGxSb0lxRGJ5RHFYRExYaUFuV2hrWENTSm5RWTBIaXNqckFYQmxkeEV0Z1pKTUwwcld0RTRBclRjZWhidTVfQTQtMkF3anZUdDQxOVE?oc=5",
+          "source": "openpetition.eu",
+          "date": "5. Aug 2026"
+        }
+      ]
     },
     "austria": {
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Eine Lärmschutzwand auf einer Autobahn geriet in Brand und erforderte den Einsatz von vier Feuerwehren. Darüber hinaus thematisiert eine Petition Sofortmaßnahmen gegen tieffrequenten Schall und Infraschall im Wohnumfeld, während ein Meinungsbeitrag die subjektive Wahrnehmung von Lärmgrenzen beleuchtet.",
+      "summary": "An der Westautobahn A1 bei der Abfahrt Asten in Oberösterreich kam es zu einem Brand einer Lärmschutzwand, bei dem vier Feuerwehren im Einsatz waren und der zu einem langen Stau führte. Zudem wurde eine Petition gestartet, die Sofortmaßnahmen gegen tieffrequenten Schall und Infraschall im Wohnumfeld fordert.",
       "items": [
+        {
+          "title": "Langer Stau nach Brand an Lärmschutzwand - ooe.orf.at",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5uR3ZfcW9UVHFXcEUxZUNfVkl1Z2pnbHJGUENXLUtRdUZvWE9mZ0NSUVQ3R0lvdUFjMFNmN29PRDR3Yi15R1BDazRWRQ?oc=5",
+          "source": "ooe.orf.at",
+          "date": "10. Aug 2026"
+        },
+        {
+          "title": "Brand bei A1-Abfahrt Asten: Lärmschutzwand stand in Flammen - Oberösterreichische Nachrichten",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYnpERW1rZmhMdmlwRk1aVnl2bGd1a1dVZHJ4SGRjaU1VZ0xUN256dHk0VkpBbnRaajdIOWx0MldxWGZaa1RVeXFBcDFaTnF6MzNBeE96ZGpqRHEzMklsVnZBcjFETV82QW1UOU54NHpIUHpQRlFqQjJ3Vm9qV2RubVM1NmdQZ3pRb1A2OUxHTWowbDFJbUxqSzRfek1kWXdtRC1mQzY1YUVSaGZkNXY2NG9XcEJ6QQ?oc=5",
+          "source": "Oberösterreichische Nachrichten",
+          "date": "9. Aug 2026"
+        },
         {
           "title": "Vier Wehren im Einsatz - Lärmschutzwand auf Autobahn stand in Flammen - Kronen Zeitung",
           "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1QcXpRNHh4UzFZd2RDelp0NUxIdUtRaURBUVNDT3BpS2hpczJTSG13Ul9ST2h4RTlma25oMXlkejlWQQ?oc=5",
@@ -21,10 +46,16 @@
           "date": "9. Aug 2026"
         },
         {
-          "title": "Meinung: Wann Lärm die Grenze des Zumutbaren überschreitet, ist Ansichtssache - meinbezirk.at",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTUd4Z0RmZWRTVkF0eXdzdWp1dTZIV1J6RGF4enRFazI2bk9jc3lXc090Z1Blc0h5emhPTUpzN0NiNXI0QnpZY29jdG9nakwtR00yWmlkR0NjcUt3SE05V29HbkhaV0xGMFJ0SHFZQy1wMmF4WTAwOElCQzFGRm9yT1lSdTRycFp3a2p6TkI1Rk1WbWhSYm4xZDVDb2FHblVyaG5TMXJvd2NoSjlYZHF4N2tRdk1xSHZuczFPVw?oc=5",
-          "source": "meinbezirk.at",
-          "date": "3. Aug 2026"
+          "title": "Auch Feld brannte – Lärmschutzwand in Flammen – Mega-Stau auf Westautobahn - heute.at",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNN2tHSTdXbXo1aDNUTlR1N3gxd0dQUlZ0VldiekE3ZU1VV3M0TjM5VTBXOFdROEdITnhKRGhraXBfdU5qMnpZOEtlYXBUQ0dWUXJaTU1fSVgxMDNmenhyQlE0OGs3dHJvZWc0UEJ0bERVTXpkTFhHQjhIZTVFMDRwZENLRTFhVWRzTU5kM3Vwbw?oc=5",
+          "source": "heute.at",
+          "date": "10. Aug 2026"
+        },
+        {
+          "title": "Brand an Lärmschutzwand legte Westautobahn lahm - oe24",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdmdCSVZfanhFa1BvRUNObmZibm1idXFTS1RDd2syejFCZ3hDTlVNZWYwOTVHSDZrcmNLSmttTUxiMlBiRlpFUFhUSXhuR3ZzNjh1NHhiLUtEN0NzSnQzTG1Zb3dIU2p3RFUzT3FLZDVCLTd0aFRrY1gwQTBucjBfM21NeW92WXdiYktuatIBjAFBVV95cUxOdmdCSVZfanhFa1BvRUNObmZibm1idXFTS1RDd2syejFCZ3hDTlVNZWYwOTVHSDZrcmNLSmttTUxiMlBiRlpFUFhUSXhuR3ZzNjh1NHhiLUtEN0NzSnQzTG1Zb3dIU2p3RFUzT3FLZDVCLTd0aFRrY1gwQTBucjBfM21NeW92WXdiYktuag?oc=5",
+          "source": "oe24",
+          "date": "10. Aug 2026"
         },
         {
           "title": "„Gemeinsam gegen Lärm – (Sofort)Maßnahmen gegen tieffrequenten Schall und Infraschall im Wohnumfeld“ - openpetition.eu",
@@ -44,7 +75,7 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "In Deutschland plant die Bahn ein Großprojekt mit neuen Lärmschutzwänden entlang der Gleise in Magdeburg, während eine Gemeinde im Südkurier-Gebiet eigeninitiativ eine Lärmkartierung zur Verbesserung der Wohnqualität in Auftrag gegeben hat. Meldungen aus der Schweiz oder Österreich sowie Neuigkeiten der DEGA liegen aktuell nicht vor.",
+      "summary": "In Deutschland plant die Bahn ein Großprojekt mit neuen Lärmschutzwänden entlang der Gleise in Magdeburg, um die Lärmbelastung durch Züge zu reduzieren, während eine Gemeinde im Südwesten eigeninitiativ eine Lärmkartierung zur Verbesserung der Wohnqualität in Auftrag gegeben hat.",
       "items": [
         {
           "title": "Weniger Lärm durch Züge: Neue Lärmschutzwände für Magdeburg: Bahn plant Großprojekt an den Gleisen - Volksstimme",
@@ -64,7 +95,7 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Data centres are increasingly being required to address noise pollution concerns as part of their construction planning processes. This reflects a broader European trend of integrating noise control considerations into infrastructure development approvals.",
+      "summary": "Data centres are increasingly facing scrutiny over noise pollution, with construction plans now required to account for potential community backlash related to acoustic impacts. This reflects a broader European trend of tightening noise control considerations for large infrastructure projects in residential and urban areas.",
       "items": [
         {
           "title": "Data centres must factor noise pollution backlash into construction plans - Consultancy.uk",
@@ -78,8 +109,15 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "No relevant news found.",
+      "items": [
+        {
+          "title": "Putting rubber mats under car carpets: Why more people are doing it and its benefits - The Economic Times",
+          "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNYmRTUEhVaE5oZWJPWGdDT2t3Z0RuOFpua1FJOG15WTl5U0I4bmVzRTZOOWxBOUY3VUtjVlpqMVZrNXdZak04a0ZTWGNDbFc4VDRvUHoxZlB6ZHQ5U05sRFRvRGI5b3JnUVM3Q1lqM3p2VVdLNnJZV2pVYUJYVVBCMUFEdVhrWi1VLXRnS3JTeVR1SWhaVzVzQ3JnYjlyZllJUEswVm5BTEFSODFYTHh5a3Z6ckhJR1VBUkNEbWpTQzZCXzRzUFU0UGJraEtJTkRuQTdwYmRsVWpRN2FZWG9FdXlBenpaMktTUGZHd0l0SG5KalZwVG1KeUVhX2huSC1hTVdHbG5TcUpQMXhDQUhLbmlaMlZXZXBIUmNn?oc=5",
+          "source": "The Economic Times",
+          "date": "7. Aug 2026"
+        }
+      ]
     },
     "bauakustik": {
       "label": "Bauakustik",
