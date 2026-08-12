@@ -1,23 +1,17 @@
 {
-  "generated": "11. August 2026, 04:50 UTC",
+  "generated": "12. August 2026, 05:15 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Das OMV-Geothermie-Projekt im Grazer Umland sieht spezifische Lärmschutzmaßnahmen sowie Drainagenlösungen für die Bohrarbeiten vor. Zudem macht eine Petition auf die Problematik von tieffrequentem Schall und Infraschall im Wohnumfeld aufmerksam und fordert sofortige Gegenmaßnahmen.",
+      "summary": "Beim Geothermie-Projekt der OMV im Grazer Umland werden spezifische Lärmschutzmaßnahmen sowie Drainagesysteme eingesetzt, um die Bohrarbeiten möglichst umwelt- und anwohnerverträglich zu gestalten. Das Projekt verdeutlicht, dass bei Energiegewinnungsprojekten in der Steiermark Lärmschutz als integraler Bestandteil der Planung berücksichtigt wird.",
       "items": [
         {
           "title": "Geothermie-Projekt: Lärmschutz und Drainagen – so bohrt die OMV im Grazer Umland - Kleine Zeitung",
           "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYkVoWHFkbXdBRlVWZEs3OEFLcEduWDNGRTNvRy1PZUV1Yy1RWUtHZnhFejhmdGlIdFJRNGNndWlZZDRuRW5janNUM3FXRkFFQWxuOG1xaUpRenZKSG9yMGdwLS1xOFFEbVFua1ZPRjBRMk9zNEtLZ055YTdRSndzMk5VMFEzQVdpTHJQZ21SY2lGMjluOWllbFBPaTI4OTNnNGJmaWI0ZWc?oc=5",
           "source": "Kleine Zeitung",
           "date": "10. Aug 2026"
-        },
-        {
-          "title": "„Gemeinsam gegen Lärm – (Sofort)Maßnahmen gegen tieffrequenten Schall und Infraschall im Wohnumfeld“ - openpetition.eu",
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPcFMzX0ZNUS1uVG5acldGQ2EwdDN2VTVIQ3RsUkRDUUdJNWVQdUZOLVczc1lKMUZEN2ZDRmJQOHN2OV9QTDIwR1Q0YVhWVi1ZS1BmVnlTeFZMa3NldHZkODlVY1JsVjRoaUljZXdSTHRrdEk2aXhnOVZEVy1VRXNwSUVuNlFPNGhqTG9kZmMxNUFVMGxSb0lxRGJ5RHFYRExYaUFuV2hrWENTSm5RWTBIaXNqckFYQmxkeEV0Z1pKTUwwcld0RTRBclRjZWhidTVfQTQtMkF3anZUdDQxOVE?oc=5",
-          "source": "openpetition.eu",
-          "date": "5. Aug 2026"
         }
       ]
     },
@@ -25,12 +19,12 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "An der Westautobahn A1 bei der Abfahrt Asten in Oberösterreich kam es zu einem Brand einer Lärmschutzwand, bei dem vier Feuerwehren im Einsatz waren und der zu einem langen Stau führte. Zudem wurde eine Petition gestartet, die Sofortmaßnahmen gegen tieffrequenten Schall und Infraschall im Wohnumfeld fordert.",
+      "summary": "Ein Brand an einer Lärmschutzwand im Bereich der A1-Abfahrt Asten legte die Westautobahn in Oberösterreich lahm und erforderte den Einsatz von vier Feuerwehren. Das Feuer an der Lärmschutzwand verursachte zudem einen langen Stau auf der betroffenen Strecke.",
       "items": [
         {
-          "title": "Langer Stau nach Brand an Lärmschutzwand - ooe.orf.at",
+          "title": "Langer Stau nach Brand an Lärmschutzwand - ooe.ORF.at",
           "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5uR3ZfcW9UVHFXcEUxZUNfVkl1Z2pnbHJGUENXLUtRdUZvWE9mZ0NSUVQ3R0lvdUFjMFNmN29PRDR3Yi15R1BDazRWRQ?oc=5",
-          "source": "ooe.orf.at",
+          "source": "ooe.ORF.at",
           "date": "10. Aug 2026"
         },
         {
@@ -46,22 +40,10 @@
           "date": "9. Aug 2026"
         },
         {
-          "title": "Auch Feld brannte – Lärmschutzwand in Flammen – Mega-Stau auf Westautobahn - heute.at",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNN2tHSTdXbXo1aDNUTlR1N3gxd0dQUlZ0VldiekE3ZU1VV3M0TjM5VTBXOFdROEdITnhKRGhraXBfdU5qMnpZOEtlYXBUQ0dWUXJaTU1fSVgxMDNmenhyQlE0OGs3dHJvZWc0UEJ0bERVTXpkTFhHQjhIZTVFMDRwZENLRTFhVWRzTU5kM3Vwbw?oc=5",
-          "source": "heute.at",
-          "date": "10. Aug 2026"
-        },
-        {
           "title": "Brand an Lärmschutzwand legte Westautobahn lahm - oe24",
           "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdmdCSVZfanhFa1BvRUNObmZibm1idXFTS1RDd2syejFCZ3hDTlVNZWYwOTVHSDZrcmNLSmttTUxiMlBiRlpFUFhUSXhuR3ZzNjh1NHhiLUtEN0NzSnQzTG1Zb3dIU2p3RFUzT3FLZDVCLTd0aFRrY1gwQTBucjBfM21NeW92WXdiYktuatIBjAFBVV95cUxOdmdCSVZfanhFa1BvRUNObmZibm1idXFTS1RDd2syejFCZ3hDTlVNZWYwOTVHSDZrcmNLSmttTUxiMlBiRlpFUFhUSXhuR3ZzNjh1NHhiLUtEN0NzSnQzTG1Zb3dIU2p3RFUzT3FLZDVCLTd0aFRrY1gwQTBucjBfM21NeW92WXdiYktuag?oc=5",
           "source": "oe24",
           "date": "10. Aug 2026"
-        },
-        {
-          "title": "„Gemeinsam gegen Lärm – (Sofort)Maßnahmen gegen tieffrequenten Schall und Infraschall im Wohnumfeld“ - openpetition.eu",
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPcFMzX0ZNUS1uVG5acldGQ2EwdDN2VTVIQ3RsUkRDUUdJNWVQdUZOLVczc1lKMUZEN2ZDRmJQOHN2OV9QTDIwR1Q0YVhWVi1ZS1BmVnlTeFZMa3NldHZkODlVY1JsVjRoaUljZXdSTHRrdEk2aXhnOVZEVy1VRXNwSUVuNlFPNGhqTG9kZmMxNUFVMGxSb0lxRGJ5RHFYRExYaUFuV2hrWENTSm5RWTBIaXNqckFYQmxkeEV0Z1pKTUwwcld0RTRBclRjZWhidTVfQTQtMkF3anZUdDQxOVE?oc=5",
-          "source": "openpetition.eu",
-          "date": "5. Aug 2026"
         },
         {
           "title": "Perseiden erreichen Höhepunkt über Österreich - asatunews.co.id",
@@ -75,7 +57,7 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "In Deutschland plant die Bahn ein Großprojekt mit neuen Lärmschutzwänden entlang der Gleise in Magdeburg, um die Lärmbelastung durch Züge zu reduzieren, während eine Gemeinde im Südwesten eigeninitiativ eine Lärmkartierung zur Verbesserung der Wohnqualität in Auftrag gegeben hat.",
+      "summary": "In Deutschland plant die Bahn ein Großprojekt mit neuen Lärmschutzwänden entlang der Gleise in Magdeburg, um die Lärmbelastung durch den Zugverkehr zu reduzieren, während eine Gemeinde im Südwesten eigeninitiativ eine Lärmkartierung zur Verbesserung der Wohnqualität in Auftrag gegeben hat.",
       "items": [
         {
           "title": "Weniger Lärm durch Züge: Neue Lärmschutzwände für Magdeburg: Bahn plant Großprojekt an den Gleisen - Volksstimme",
@@ -95,13 +77,13 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Data centres are increasingly facing scrutiny over noise pollution, with construction plans now required to account for potential community backlash related to acoustic impacts. This reflects a broader European trend of tightening noise control considerations for large infrastructure projects in residential and urban areas.",
+      "summary": "No relevant news found.",
       "items": [
         {
-          "title": "Data centres must factor noise pollution backlash into construction plans - Consultancy.uk",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQU1AydTR2eEJmaUs2MEZfanNXY3JOWW13dVZRUkpLQXdZR1dnQWJfbDZIRDFlTVEyTnFRLUpIVHFjSk9XMDVTRzlMdldVb2hpR05TcmJncDY1WFlkWWF2XzdsVTFTdi1EYW9PajNUOEFhcVljNk9Ec1QyYkZmT1BmbUZ4UjJxZkNOU0JYOTMzbkdZVUxQZ1JtNFBPMjlLamZBMzR2SHNnSkJyM0tFenhfWNIBtgFBVV95cUxPaEhfMnlLVzFjUzhpTHZiSjJ5V3MyZUlkZmM5WXUtYlItdFBVY3dmbkU2cThsZ3Ffenlld2JJOVluejVLWmVpSlk0YWI5YkFpdWp4MS1SaV83T3FEb0JaRDhsYVNEMWxQWWU5SEdDRlNHTDB1UUFIV2Y1VVNWUXdWWkVsVmROVEJQQ3h6elFDNmZOUTZuMGZHTnZfZWlka09jLThlOWQ2Q0xQYURjZG5EOGc2eGRZQQ?oc=5",
-          "source": "Consultancy.uk",
-          "date": "4. Aug 2026"
+          "title": "Scotland Tourism Climbs As Wester Ross Touted Europe’s Calm Retreat - thetraveler.org",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPR2pIR3hjYU1YMU1uN0tYTXJ3eXdjeFJubFNZRTJBbUd3UHlUWmwwZzlETjFfVlNMQTJNWnVldzBvT3VPMzNpSHYzMEZBUzNIR05YSXo3SUVrSlpPSU5hUFc1QXNfY0Z6NWZfOU40bGNETWs3RWFTQUdFNlZ4Q1ExWHpCMmlRYlg3V3Bjc3lzRnhuNU5iV1VSYzBQOA?oc=5",
+          "source": "thetraveler.org",
+          "date": "11. Aug 2026"
         }
       ]
     },
@@ -109,13 +91,13 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "No relevant news found.",
+      "summary": "The industrial noise control market is showing notable strategic growth opportunities, signaling increased investment and innovation in acoustic engineering solutions. This development is relevant to applied acoustics research, particularly in the areas of noise mitigation and environmental sound management.",
       "items": [
         {
-          "title": "Putting rubber mats under car carpets: Why more people are doing it and its benefits - The Economic Times",
-          "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNYmRTUEhVaE5oZWJPWGdDT2t3Z0RuOFpua1FJOG15WTl5U0I4bmVzRTZOOWxBOUY3VUtjVlpqMVZrNXdZak04a0ZTWGNDbFc4VDRvUHoxZlB6ZHQ5U05sRFRvRGI5b3JnUVM3Q1lqM3p2VVdLNnJZV2pVYUJYVVBCMUFEdVhrWi1VLXRnS3JTeVR1SWhaVzVzQ3JnYjlyZllJUEswVm5BTEFSODFYTHh5a3Z6ckhJR1VBUkNEbWpTQzZCXzRzUFU0UGJraEtJTkRuQTdwYmRsVWpRN2FZWG9FdXlBenpaMktTUGZHd0l0SG5KalZwVG1KeUVhX2huSC1hTVdHbG5TcUpQMXhDQUhLbmlaMlZXZXBIUmNn?oc=5",
-          "source": "The Economic Times",
-          "date": "7. Aug 2026"
+          "title": "Industrial Noise Control Market Outlook Highlights Strategic Opportunities Across The Industry - openPR.com",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPT2Y0Tlo1Y01TNDY2TjhBY3pPMTgtNVZZbWtWOTZHOVpsVlhlY0dVR0k0NzF3ajNKMFFzWHRfSXd4VWg1cFloaHVheVIyOHRyeWdEWk4yb3c4Y3N4YXAtSnlocllnRzBLQ0RPZzVZTElsVWpSVG9nemJsdTBIQTY1c3h2UDFwNzZHSVBCQkplanJYd3YzUlpKaHFFWi0?oc=5",
+          "source": "openPR.com",
+          "date": "11. Aug 2026"
         }
       ]
     },
