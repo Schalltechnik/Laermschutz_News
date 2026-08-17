@@ -1,11 +1,11 @@
 {
-  "generated": "16. August 2026, 04:08 UTC",
+  "generated": "17. August 2026, 04:19 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Beim Geothermie-Projekt der OMV im Grazer Umland werden spezifische Lärmschutzmaßnahmen sowie Drainagensysteme eingesetzt, um die Bohrarbeiten möglichst verträglich für die Umgebung zu gestalten. Das Projekt zeigt, wie bei Energiegewinnungsvorhaben in der Region aktiv auf den Schutz der Anwohner vor Lärm geachtet wird.",
+      "summary": "Beim Geothermie-Projekt der OMV im Grazer Umland werden spezifische Lärmschutzmaßnahmen sowie Drainagensysteme eingesetzt, um die Bohrarbeiten möglichst verträglich für die Umgebung zu gestalten. Das Projekt verdeutlicht, dass bei Energiegewinnungsvorhaben in der Region Graz Lärmschutz als wesentlicher Bestandteil der Planung berücksichtigt wird.",
       "items": [
         {
           "title": "Geothermie-Projekt: Lärmschutz und Drainagen – so bohrt die OMV im Grazer Umland - Kleine Zeitung",
@@ -19,7 +19,7 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "An der Westautobahn in Oberösterreich kam es zu einem Brand an einer Lärmschutzwand im Bereich der A1-Abfahrt Asten, bei dem mehrere Feuerwehren im Einsatz waren. Das Feuer legte die Autobahn vorübergehend lahm und verursachte einen langen Stau.",
+      "summary": "Ein Brand an einer Lärmschutzwand auf der A1-Westautobahn in Oberösterreich erforderte einen Großeinsatz von vier Feuerwehren und verursachte einen langen Stau. Das Feuer an der Lärmschutzwand legte die Westautobahn vorübergehend lahm.",
       "items": [
         {
           "title": "Sono Earplugs & ohrheld: 118 Jahre nach Ohropax erfinden Startups die Ohrstöpsel neu - trendingtopics.eu",
@@ -28,27 +28,21 @@
           "date": "14. Aug 2026"
         },
         {
-          "title": "Langer Stau nach Brand an Lärmschutzwand - ooe.ORF.at",
+          "title": "Langer Stau nach Brand an Lärmschutzwand - ooe.orf.at",
           "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5uR3ZfcW9UVHFXcEUxZUNfVkl1Z2pnbHJGUENXLUtRdUZvWE9mZ0NSUVQ3R0lvdUFjMFNmN29PRDR3Yi15R1BDazRWRQ?oc=5",
-          "source": "ooe.ORF.at",
+          "source": "ooe.orf.at",
           "date": "10. Aug 2026"
         },
         {
-          "title": "Brand bei A1-Abfahrt Asten: Lärmschutzwand stand in Flammen - Oberösterreichische Nachrichten",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYnpERW1rZmhMdmlwRk1aVnl2bGd1a1dVZHJ4SGRjaU1VZ0xUN256dHk0VkpBbnRaajdIOWx0MldxWGZaa1RVeXFBcDFaTnF6MzNBeE96ZGpqRHEzMklsVnZBcjFETV82QW1UOU54NHpIUHpQRlFqQjJ3Vm9qV2RubVM1NmdQZ3pRb1A2OUxHTWowbDFJbUxqSzRfek1kWXdtRC1mQzY1YUVSaGZkNXY2NG9XcEJ6QQ?oc=5",
-          "source": "Oberösterreichische Nachrichten",
-          "date": "9. Aug 2026"
+          "title": "Feuerwehr-Großeinsatz: Vier Feuerwehren kämpften gegen Flammen an der A1-Lärmschutzwand - MeinBezirk.at",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZlNhS1ZOVU5ySzBsRV9mWjE2RGlFV0tDd1lCQ25uVDZDLXZyVXlyeVRSZjRrVmdNT3NlcDhJZmtuY0FaUFN6czFvZnBZS3hIWDgwaXc3RWFwMTNaazYzOWhQWTRSZXZ3WmVzbG9LcHc1MUJ1ZGxyWDNnNGtjVng2WHdlYXN1dnBPZnVvYmxkek5BVVoxVHlwOHBSNnh0ZHlxM1JUOVRsTXhJdjc5M2VZTndCSGFxN29jVXpleHlR?oc=5",
+          "source": "MeinBezirk.at",
+          "date": "10. Aug 2026"
         },
         {
-          "title": "Vier Wehren im Einsatz - Lärmschutzwand auf Autobahn stand in Flammen - Kronen Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1QcXpRNHh4UzFZd2RDelp0NUxIdUtRaURBUVNDT3BpS2hpczJTSG13Ul9ST2h4RTlma25oMXlkejlWQQ?oc=5",
-          "source": "Kronen Zeitung",
-          "date": "9. Aug 2026"
-        },
-        {
-          "title": "Brand an Lärmschutzwand legte Westautobahn lahm - oe24.at",
+          "title": "Brand an Lärmschutzwand legte Westautobahn lahm - oe24",
           "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbnA4UnFmRlhFaU8tWklCYlpIcmRWX2NFTDAwcVQ2TGl4ZlV0Qy1KRGFDejU0T013M1lrS1FaNUZ2cVh6MTlVdUFmYjIxNGJzMDFYUVRRSjRqM04yQnpyTGp5WDJnQTFoZF9LWUlIOXFVazJLUTFQVjhIWGxlcGY1RnZGb1BuZEXSAYwBQVVfeXFMTnZnQklWX2p4RWtQb0VDTm5mYm5tYnVxU0tUQ3drMnoxQmd4Q05VTWVmMDk1R0g2a3JjS0prbU1MYjJQYkZaRVBYVEl4bkd2czY4dTR4Yi1LRDdDc0p0M0xtWW93SFNqd0RVM09xS2Q1Qi03dGhUa2NYMEEwbnIwXzNtTXlvdll3YmJLbmo?oc=5",
-          "source": "oe24.at",
+          "source": "oe24",
           "date": "10. Aug 2026"
         },
         {
@@ -56,12 +50,6 @@
           "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNV9tS3Y0SmdPb1ZUUElHYVJWSlpLWFMxTHJqWkVUdktoZlE1cklTZS1jelFsNF9mdDF2RXdNT3NSbWNHVm5CNlVnMm12SG1ubTlxeGhUeVRkWHdicXNib19SWTZleHQ1cGNOSDJWZDdab2ZXT1dJUV9JTUNtcVhuT1hkSEJEQlBBRmhFTXNZaG1uTkVoUDI3QW4wTDM?oc=5",
           "source": "exxpress",
           "date": "12. Aug 2026"
-        },
-        {
-          "title": "Perseiden erreichen Höhepunkt über Österreich - asatunews.co.id",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRGpPUzJsV1p5UFRBVUJqcUpFYWhwaUVzU2MxUnVReXFrYTBtNUM1UnI4WFhHdjlrcmhQX2RLRmsyLWRDRzRFTHYwTkh0eXRYVkJsVGJnSmJhZVc3TE02WkhiX1hVc3JUUXNxM04tWW1ORkFTUjJnZnNDN1E2ZFpFVmZxelZsSXM?oc=5",
-          "source": "asatunews.co.id",
-          "date": "9. Aug 2026"
         }
       ]
     },
@@ -76,7 +64,7 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Estonia has been recognized as one of the quietest countries in Europe, highlighting the Baltic region's success in maintaining low noise pollution levels. This recognition underscores the broader European focus on noise control and quality of life as key policy priorities.",
+      "summary": "The Baltic region has gained recognition in the European noise control landscape, with one of the 'Baltic Sisters' being acknowledged as the quietest country in Europe. This distinction highlights the effectiveness of noise management policies and urban planning strategies implemented in that nation.",
       "items": [
         {
           "title": "One of the 'Baltic Sisters' Recognized as the Quietest in Europe - Inbox.lv",
@@ -90,18 +78,12 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "The industrial noise control market is seeing notable strategic growth opportunities, while urban noise pollution continues to pose serious public health concerns, as highlighted by alarming reports from Ahmedabad linking excessive noise levels — particularly from two-wheelers — to widespread health impacts.",
+      "summary": "A recent report highlights alarming noise pollution levels in Ahmedabad, with two-wheelers identified as a major contributor to the city's increasingly unbearable urban soundscape. Additionally, an exploration of breaking the sound barrier in hydrogen vehicles examines the aeroacoustic mechanics and physical limits involved in achieving supersonic speeds with alternative fuel technology.",
       "items": [
         {
-          "title": "Industrial Noise Control Market Outlook Highlights Strategic Opportunities Across The Industry - openPR.com",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPT2Y0Tlo1Y01TNDY2TjhBY3pPMTgtNVZZbWtWOTZHOVpsVlhlY0dVR0k0NzF3ajNKMFFzWHRfSXd4VWg1cFloaHVheVIyOHRyeWdEWk4yb3c4Y3N4YXAtSnlocllnRzBLQ0RPZzVZTElsVWpSVG9nemJsdTBIQTY1c3h2UDFwNzZHSVBCQkplanJYd3YzUlpKaHFFWi0?oc=5",
-          "source": "openPR.com",
-          "date": "11. Aug 2026"
-        },
-        {
-          "title": "Breaking the Sound Barrier in a Hydrogen Vehicle Mechanics and Limits - Lavender Hotel",
+          "title": "Breaking the Sound Barrier in a Hydrogen Vehicle Mechanics and Limits - weddings.lavenderhotels.co.uk",
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVFJEbFFNNGlJUzRlWEpMSVNEUjdzRVJTQzVsaVBFNGZmLWxrektXbm5ZN2M1bl8tem53YjR0ZVlaTWNOXzNIeVlGdjdocFFCMExxLUVlRmpNWThidENiazBCX3FJWkRoWTNsR01YUEgwUkJOb2tpU2VGU3hiSDQwaE1wZ1lORlg4aWZ4WktVR2JwYlpjMEhEekF3?oc=5",
-          "source": "Lavender Hotel",
+          "source": "weddings.lavenderhotels.co.uk",
           "date": "11. Aug 2026"
         },
         {
@@ -119,9 +101,9 @@
       "summary": "Keine relevanten Meldungen gefunden.",
       "items": [
         {
-          "title": "Aldi wird abgerissen und neu gebaut - Gemeinde fordert Dachbegrünung - merkur.de",
+          "title": "Aldi wird abgerissen und neu gebaut - Gemeinde fordert Dachbegrünung - Merkur",
           "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNWQwZXZUbWtXYTlSSUNKV1A2eVpXdk5pRTFMNzNrcGkwQU1Pd3BzNFV4U2JMM256NmNjUGpHa3BkSy13TGpiSEotOWxiVUlDVjl2bWhJSE5vUHdJVjh4eWNldkUyQ2xnQ2s1Z0NaQW9TNVl3Wlp6eWE2TnlIMWYtUkVVUkhsMkM5TTZxcmw2X0Z3aEhsZTBobnRnajJ4bHF1bUZxM3B6cVIzRHVRLXF4NVdZMEh5ZVQ0MFJzaEFxaDdhRWVJbXVFLV9SNjVyTEdjSFNsVg?oc=5",
-          "source": "merkur.de",
+          "source": "Merkur",
           "date": "15. Aug 2026"
         }
       ]
