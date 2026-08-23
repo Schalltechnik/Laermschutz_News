@@ -1,5 +1,5 @@
 {
-  "generated": "22. August 2026, 04:07 UTC",
+  "generated": "23. August 2026, 04:10 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -12,8 +12,15 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "Keine relevanten Meldungen gefunden.",
+      "items": [
+        {
+          "title": "Ruheoasen in Wien: Schallforscher erklären, was Ruhe eigentlich ausmacht - MeinBezirk.at",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNURNVkkzQWs0SmNhRXhWVHRDN09fWFNDVmtvMXlyWmxSVU1zTnNSTU5sZzRoQm5vQW5waTRVRzlDSzQ3WnNSaks4T1RTV2UtM3FGOWE5cUxsZnkxY18xMUhPMHNERlRjaHRwRVBxSl8zdEt1V3FUc3p3dXBHRWhGdW5uZ0h5MEphT21iSXkyMkRNZHFwb0hGWGlIQnJNQ0l4SW9zb0NR?oc=5",
+          "source": "MeinBezirk.at",
+          "date": "23. Aug 2026"
+        }
+      ]
     },
     "dach": {
       "label": "DACH",
