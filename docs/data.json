@@ -1,5 +1,5 @@
 {
-  "generated": "23. August 2026, 04:10 UTC",
+  "generated": "24. August 2026, 04:22 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -26,8 +26,21 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "Keine relevanten Meldungen gefunden.",
+      "items": [
+        {
+          "title": "Grosser Lärm um russische Drohnen und Waffen in Deutschland. Betretenes Schweigen über ukrainische Sprengkommandos an der Nord-Stream-Pipeline. Überrascht das noch? - weltwoche.ch",
+          "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNX0dfR2JfTkxvSUl0Zzh3S3hLelFLb1lmdF95eXIyVmNUQTZMeGtVWVhrSTdWamtDUnBXMWs2X1JlUE1DRDFNenRSZEE0eGdnb2dLUkNuSjhxLTNYeG1ZWmdxTDBlYUxSaExYdlZkYXBUZXZDZWFUaEtwQzJqUkNSNWE1cE9XMUFPdXliLTdmVmROREVjYVI4SkFzVUlYcGM2N0k0Y05WTzRVQl9qNEFHVmNVNnU1SzN0cWU1Ym9pTlFBRWEtT0ppYXZSS2dqU2N6bGhZaTQ3WWpoOWI0SGJfYXpkRWNydnN1TFdNS05HQjA1YUU0OTlRTXRVaWJRaHc1eEMtYWJGdmcxNlRaVkppNlB0VW91Qjc2ZGUxMg?oc=5",
+          "source": "weltwoche.ch",
+          "date": "24. Aug 2026"
+        },
+        {
+          "title": "Zwischen Luxus, Lärm und Skandalen: Warum Sylt Deutschlands umstrittenstes Urlaubsziel ist - moin.de",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOeDNGc3RRNmtYNDZ3V0NSX3B6NnlJU0hSbTNYRVNBWXRqTkNqOU1VUU1wR2hYTnZUOUt1c05pMENST2ZEaTUyVkNXTVFCU3c0WVZLajhCLTZKaHVZOFNUMjI0MWloUS1XaDBaUmxhcG1scnAwVGhwQWV1aVFwcE5Vc29xTmdkeEdjTEhsUHhmNkp0X2V3NlU1bU1ROW0tb0FzZTcwTFJnNDd5T0c4RWhZbU1zZ3gzcWdnQXBYb0V0WmE5TWlR?oc=5",
+          "source": "moin.de",
+          "date": "22. Aug 2026"
+        }
+      ]
     },
     "europe": {
       "label": "Europa",
@@ -45,6 +58,12 @@
           "title": "Top 25 Quietest Islands in the World for a Peaceful Escape (2026) - News and Statistics - IndexBox",
           "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbllaajdVaEJ5VXhfMndfUTBOem1ra3pySmpqVk5qQWVFR2pjMjdwTE5IT1FoNE5GcjJPdmxuM1NSRXdhckdHbHAyR0VIV1hmVzBfTlp6VFZiQVplWGZZa3NTaEJmZVp0LWlNd3l6X1BfOGFGTF9lUVBQMWR6SG1HRTZJU3k?oc=5",
           "source": "IndexBox",
+          "date": "19. Aug 2026"
+        },
+        {
+          "title": "The Value of Silence in Finland: Visit Finland's Don't Waste Campaign - Non Sprecare",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdnhBV0pDU0ZkV3h6V0lPbEFoTkgzazhwYTg3RllKVE1RNWt3SkJhTldJNFNIMFZOLVlabU9QMmRHLVE3OEhwNWkxY2RqZXdhTVpjVkJlUFl3aHV1LWtNNW53NFRnTGh2NXlUQ3RNM1hWYmVJYTdJeEJEamZLdHFqOGtlbEhBMkUtMjJOdGtrZWVoWW82ZVJHYjdoQU4wTG55MUo3ZTRETE1TRFFFUzNBWHhNUQ?oc=5",
+          "source": "Non Sprecare",
           "date": "19. Aug 2026"
         }
       ]
