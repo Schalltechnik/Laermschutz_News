@@ -1,5 +1,5 @@
 {
-  "generated": "24. August 2026, 04:22 UTC",
+  "generated": "25. August 2026, 04:09 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -32,7 +32,7 @@
           "title": "Grosser Lärm um russische Drohnen und Waffen in Deutschland. Betretenes Schweigen über ukrainische Sprengkommandos an der Nord-Stream-Pipeline. Überrascht das noch? - weltwoche.ch",
           "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNX0dfR2JfTkxvSUl0Zzh3S3hLelFLb1lmdF95eXIyVmNUQTZMeGtVWVhrSTdWamtDUnBXMWs2X1JlUE1DRDFNenRSZEE0eGdnb2dLUkNuSjhxLTNYeG1ZWmdxTDBlYUxSaExYdlZkYXBUZXZDZWFUaEtwQzJqUkNSNWE1cE9XMUFPdXliLTdmVmROREVjYVI4SkFzVUlYcGM2N0k0Y05WTzRVQl9qNEFHVmNVNnU1SzN0cWU1Ym9pTlFBRWEtT0ppYXZSS2dqU2N6bGhZaTQ3WWpoOWI0SGJfYXpkRWNydnN1TFdNS05HQjA1YUU0OTlRTXRVaWJRaHc1eEMtYWJGdmcxNlRaVkppNlB0VW91Qjc2ZGUxMg?oc=5",
           "source": "weltwoche.ch",
-          "date": "24. Aug 2026"
+          "date": "23. Aug 2026"
         },
         {
           "title": "Zwischen Luxus, Lärm und Skandalen: Warum Sylt Deutschlands umstrittenstes Urlaubsziel ist - moin.de",
@@ -72,8 +72,15 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "Research into wind turbine infrasound remains contested, as a Swedish scientist cited by anti-wind activists has failed to scientifically demonstrate harmful effects of low-frequency sound emissions from turbines. The case highlights ongoing debates within the acoustics community regarding the evidence base for infrasound health claims related to wind energy infrastructure.",
+      "items": [
+        {
+          "title": "Swedish scientist is an idol of the Czech anti-wind movement, but has not proven the harmfulness of wind turbine infrasound - oEnergetice.cz",
+          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQQ3Q2dVp3cG8wek04M0FQeURjRFQybW5xUHVndGQ3QXN4M2VFMFQ2Q1h5UVhYQlQ3RWd2c0FBRkZ6dWEwdTVTTWhIN0dfWEItZ212VUhiN3VYYk1uXzZvMHoxZGl1elotb2Q5X2hMM1MzSWtvdHRoOUhtLWxZWERGX2d4NnJGWkstRE5ZXzUtMzlaSkRqb2t4SzNDcUJaSWJGUXhkc0hMWDNFRVFZbmtzV1VMRVF6Zmg0SUJpajN0VmRTeENBYnhaUkxvMkdhTHZRSmNfbUNqX1FjUG1SZDgyODloTllScUdNWlN5dC1jdFY?oc=5",
+          "source": "oEnergetice.cz",
+          "date": "24. Aug 2026"
+        }
+      ]
     },
     "bauakustik": {
       "label": "Bauakustik",
