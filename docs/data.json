@@ -1,5 +1,5 @@
 {
-  "generated": "25. August 2026, 04:09 UTC",
+  "generated": "26. August 2026, 04:10 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -26,7 +26,7 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Keine relevanten Meldungen gefunden.",
+      "summary": "Rund um den Flughafen BER sorgt Fluglärm weiterhin für Diskussionen, da Flugverfahren über den Berliner Bezirk Marzahn-Hellersdorf thematisiert werden. Weitere relevante Entwicklungen aus der DACH-Region oder Neuigkeiten der DEGA liegen auf Basis der vorliegenden Titel nicht vor.",
       "items": [
         {
           "title": "Grosser Lärm um russische Drohnen und Waffen in Deutschland. Betretenes Schweigen über ukrainische Sprengkommandos an der Nord-Stream-Pipeline. Überrascht das noch? - weltwoche.ch",
@@ -35,10 +35,10 @@
           "date": "23. Aug 2026"
         },
         {
-          "title": "Zwischen Luxus, Lärm und Skandalen: Warum Sylt Deutschlands umstrittenstes Urlaubsziel ist - moin.de",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOeDNGc3RRNmtYNDZ3V0NSX3B6NnlJU0hSbTNYRVNBWXRqTkNqOU1VUU1wR2hYTnZUOUt1c05pMENST2ZEaTUyVkNXTVFCU3c0WVZLajhCLTZKaHVZOFNUMjI0MWloUS1XaDBaUmxhcG1scnAwVGhwQWV1aVFwcE5Vc29xTmdkeEdjTEhsUHhmNkp0X2V3NlU1bU1ROW0tb0FzZTcwTFJnNDd5T0c4RWhZbU1zZ3gzcWdnQXBYb0V0WmE5TWlR?oc=5",
-          "source": "moin.de",
-          "date": "22. Aug 2026"
+          "title": "Fluglärm BER: Flugverfahren über Marzahn-Hellersdorf - t.co",
+          "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5kcm9ydDBHcmNneFVWMklrd1RyVmNvYzN0eFkzbkpsVzVLMTZndy1STUhDTVlpWVJJYXY0?oc=5",
+          "source": "t.co",
+          "date": "25. Aug 2026"
         }
       ]
     },
@@ -46,13 +46,19 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "No relevant news found.",
+      "summary": "Road traffic noise has been found to stunt children's emotional development, according to new Lancet research, while noise from trains and aircraft does not produce the same effect. The European vibration damping materials market is also projected to see significant growth through 2030, reflecting increasing industrial and regulatory demand for noise and vibration control solutions.",
       "items": [
         {
           "title": "Europe Vibration Damping Materials Market Size, Share,Trends, Growth Analysis Report, 2030 - MarketsandMarkets",
           "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRFRKSFMxdENOdXl4dnpIOEtaWEEyUk5EUkZVM0d3V1o4WmU3NTdTNXF1a3pTeDJCQ1dPeWRZbHhVcGtTblVRaG03UHNvYTN5ekFSSHk4X1BJSVZrc3N3Q0tYaDFlUHlVR1lsQk5kTnpQRWVLTVdoSkNINnc1b3VEdm1HUjcwNXNQbVAyUUw3VVdkX1NlRG9mdV9wcmdPaFhRU3c?oc=5",
           "source": "MarketsandMarkets",
           "date": "19. Aug 2026"
+        },
+        {
+          "title": "Road Traffic Noise Stunts Children's Emotional Growth; Trains and Planes Do Not, Lancet Finds - Tech Times",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQM2RGazBHSVl1Mk0xM3dpNmxOdmhLNmYyYXZUZnU2T1dRSXJsS0VWQk1ybFJXcWdlOFNlOFZlaTA2V1B0ZFRiOXl5cjNKREpCU2xpQ0U4WU1HN0ZVck5VQzJhaURieEtRYld4cDBxalo5ZS1FNS1xa2oxQmtYMFNnT01HTlphN3BlNnFVMU5rQlA2b0ZFWjhiQnktS3pkajRNb003VWhwcWpKeHhUNnlPNDNXdXRQMmhCRXZHdTNHRDJqMkJWR1Jsa1IzaXZQbTh4M21lbkJxaXA?oc=5",
+          "source": "Tech Times",
+          "date": "25. Aug 2026"
         },
         {
           "title": "Top 25 Quietest Islands in the World for a Peaceful Escape (2026) - News and Statistics - IndexBox",
@@ -72,15 +78,8 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Research into wind turbine infrasound remains contested, as a Swedish scientist cited by anti-wind activists has failed to scientifically demonstrate harmful effects of low-frequency sound emissions from turbines. The case highlights ongoing debates within the acoustics community regarding the evidence base for infrasound health claims related to wind energy infrastructure.",
-      "items": [
-        {
-          "title": "Swedish scientist is an idol of the Czech anti-wind movement, but has not proven the harmfulness of wind turbine infrasound - oEnergetice.cz",
-          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQQ3Q2dVp3cG8wek04M0FQeURjRFQybW5xUHVndGQ3QXN4M2VFMFQ2Q1h5UVhYQlQ3RWd2c0FBRkZ6dWEwdTVTTWhIN0dfWEItZ212VUhiN3VYYk1uXzZvMHoxZGl1elotb2Q5X2hMM1MzSWtvdHRoOUhtLWxZWERGX2d4NnJGWkstRE5ZXzUtMzlaSkRqb2t4SzNDcUJaSWJGUXhkc0hMWDNFRVFZbmtzV1VMRVF6Zmg0SUJpajN0VmRTeENBYnhaUkxvMkdhTHZRSmNfbUNqX1FjUG1SZDgyODloTllScUdNWlN5dC1jdFY?oc=5",
-          "source": "oEnergetice.cz",
-          "date": "24. Aug 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "bauakustik": {
       "label": "Bauakustik",
@@ -89,10 +88,10 @@
       "summary": "Keine relevanten Meldungen gefunden.",
       "items": [
         {
-          "title": "Deutsche Botschaft in Wien Schulz und Schulz - World-Architects",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQeUVyWmFiVnREWjgteGVLanpPLWZNYVFIY2FfRUhmQkRVNVBHZC1QcEp1WjVPcmNpbkhobnFzVF9YbHM1RTU2aDd4UkdGRmNQSHpsVXJZT04tWHFBVWJEQ2pNOGVVbjJkSU9pblF6YnpiQjRleXhjNGw1d28zWnFILWpn?oc=5",
-          "source": "World-Architects",
-          "date": "20. Aug 2026"
+          "title": "IN EXTREMO haben Akustiksongs für „Tranquilo II“ aufgenommen - vampster.com",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZFc1OVpibEYyVlRjVWRKT05ITnMtaTJ0aUk3VWptdTcyNXNNNXk0M3MwMjZsekk4RkZ3ZHhQUXNzNmZXS2ltT1hGN192cUNqNlBrR1RGSmJHOWVvV2doOFZGN2ZpODlOWWwyM2N5Nzk4T0M2cnN3RW9XU0xNV2FwbjZtSDJVTUlhSzc4U2pWWQ?oc=5",
+          "source": "vampster.com",
+          "date": "25. Aug 2026"
         }
       ]
     },
