@@ -1,17 +1,23 @@
 {
-  "generated": "27. August 2026, 14:32 UTC",
+  "generated": "28. August 2026, 15:36 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Keine relevanten Meldungen gefunden.",
+      "summary": "In Feldbach werden entlang der B 66 Lärmschutzwände erneuert, wie das Land Steiermark berichtet. Zudem macht eine Petition auf die Problematik von tieffrequentem Schall und Infraschall im Wohnumfeld aufmerksam und fordert sofortige Gegenmaßnahmen.",
       "items": [
         {
           "title": "„Gemeinsam gegen Lärm – (Sofort)Maßnahmen gegen tieffrequenten Schall und Infraschall im Wohnumfeld“ - openpetition.eu",
           "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOdFBLWTZFcXJTNmJCMkt5MmxzNFgydHQ2MVZ0Y1FVX0c0cVc4UnJEWVVsRlJCVDFhdldWUDUybmdxVEVVVU13ZUhUVHdQcTFESmIwMHphRi1ITDlVbzB3MXlNUjVTUGJHdno4MFlMQUh2REhQaV91RTZ4Y0xNQWtBSXBrLXFveGJpdE1ZdTU4cDhiMHd3RzdWNDNHOHdDdWZGUTFKZ1Q2anNPczlQa2ZyVV9qcG5NX00wTnNoM2RsTHhVZXlCQnNuM290VDdtQjhodGtna0NzQlBpb1lRSXdR?oc=5",
           "source": "openpetition.eu",
           "date": "25. Aug 2026"
+        },
+        {
+          "title": "B 66: In Feldbach werden Lärmschutzwände erneuert - Land Steiermark News Portal",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBOaWRJOUpES3VucXlVV04ycEdmeDYzSDNRZ3NabkVzay0yV1N0M0FUcWpwMGY2WVZ4U3gzQUUwY3MxT3BwWlZEVmNZejlpMllkNVpyc1BRaGpERUpHXzJUMDVkOUt1ZmpsVmFRVU1IVQ?oc=5",
+          "source": "Land Steiermark News Portal",
+          "date": "28. Aug 2026"
         }
       ]
     },
@@ -19,7 +25,7 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "In Wien untersuchen Schallforscher, was akustische Ruhe in städtischen Oasen ausmacht. Zudem richtet sich eine Petition gegen tieffrequenten Schall und Infraschall im Wohnumfeld und fordert Sofortmaßnahmen zum Schutz der Bevölkerung.",
+      "summary": "In Wien untersuchen Schallforscher, was akustische Ruhe in städtischen Oasen ausmacht und welche Faktoren dazu beitragen. Zudem fordert eine Petition konkrete Sofortmaßnahmen gegen tieffrequenten Schall und Infraschall im Wohnumfeld.",
       "items": [
         {
           "title": "Ruheoasen in Wien: Schallforscher erklären, was Ruhe eigentlich ausmacht - MeinBezirk.at",
@@ -54,10 +60,10 @@
           "date": "23. Aug 2026"
         },
         {
-          "title": "Konjunktur Deutschland: Erholt sich die Wirtschaft nun nach langer Flaute? - WiWo",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZDQ1V0pFOTVoVTZSV1FVRUppalZVWE5QbDJqajQ0dFhYMnVTTW5PLW5iaDdJVWthcFg3Q01PVXJIZGVUMWdGejZiWnpFX0J0UDZ2MXE1RW9GM25IWjVNTUllN25NdFQxbzN3UFlfZUs0eTJpTnZacXBraFhzREFBTmRmQlFTUTNXSlFjemMtTTNGVTExVEhVUnE4OXlpcmpWanlMTERRVl9Dbk8xRnd4QmZOWEdtcVRnakN2ZEQ1WjJiTnd6?oc=5",
+          "title": "Konjunktur Deutschland: Erholt sich jetzt die Wirtschaft nach der Flaute? - WiWo",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMFBNYloyZEMyUkdGNU1LV0lUWDE5QUpZbFpLWm1vU0JDc09yTE9GYkFmQXRkQ0NndkFENnREdWlBVGhoSjFCWDlwbldmNGtJUnFNamY5X3hTMGJxMnZqckxjanJlRlVTN0t4TTYxcU5tVU5udkl5NkxIZTJ3ZEtUbDcyT25VOVZCWlZvMWpxOXFqVk8xTFhvdXdwSHVLQ2NXa1J1VEZ1b2FIQ2lRZU9qdTFFc3c5dzRDWS1kRXRwTk5qLW8?oc=5",
           "source": "WiWo",
-          "date": "26. Aug 2026"
+          "date": "27. Aug 2026"
         },
         {
           "title": "Bedrohlich wirkender Brummer immer häufiger in Deutschland anzutreffen - CHIP",
@@ -71,13 +77,19 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Road traffic noise has been found to impair children's emotional development, according to a Lancet study, while railway and aircraft noise do not produce the same effect. This finding carries significant implications for European noise control policy, particularly regarding urban road traffic management and the prioritisation of noise mitigation measures under frameworks such as the Environmental Noise Directive.",
+      "summary": "Road traffic noise has been found to stunt children's emotional development, while train and plane noise do not share the same effect, according to a Lancet study with implications for urban noise policy. An EU-backed study has additionally highlighted the role of urban greenery as a nature-based solution for mitigating transport noise in cities.",
       "items": [
         {
           "title": "Road Traffic Noise Stunts Children's Emotional Growth; Trains and Planes Do Not, Lancet Finds - Tech Times",
           "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQM2RGazBHSVl1Mk0xM3dpNmxOdmhLNmYyYXZUZnU2T1dRSXJsS0VWQk1ybFJXcWdlOFNlOFZlaTA2V1B0ZFRiOXl5cjNKREpCU2xpQ0U4WU1HN0ZVck5VQzJhaURieEtRYld4cDBxalo5ZS1FNS1xa2oxQmtYMFNnT01HTlphN3BlNnFVMU5rQlA2b0ZFWjhiQnktS3pkajRNb003VWhwcWpKeHhUNnlPNDNXdXRQMmhCRXZHdTNHRDJqMkJWR1Jsa1IzaXZQbTh4M21lbkJxaXA?oc=5",
           "source": "Tech Times",
           "date": "25. Aug 2026"
+        },
+        {
+          "title": "EU-backed study reveals urban greenery reshapes transport noise - The Brussels Times",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMGlZZTNhTkZlLTFlLTFrZ1hrbm4wUkRTZU4wWUI5OXBGaERtcllIcGRSTUNMV2lLdENDLXl6dTFyVGhUMDhfVGZ4Q1RmQlZXaUtWQmpfRF82SldJZ1piYVpCaHZWRW1PcXlGYVZYUzhIaXhoT0Z6c3NLZjdwUnItVTBiWXBORzJmRTdPTGQzZlRZbHBLTUxZV1lxZFliS0ZLak5ZSXFrZkI5bDBTWjRkam9B?oc=5",
+          "source": "The Brussels Times",
+          "date": "24. Aug 2026"
         }
       ]
     },
@@ -85,8 +97,15 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "Research into wind turbine infrasound remains contested, as a Swedish scientist cited by anti-wind activists has yet to provide conclusive evidence that low-frequency sound emissions from turbines are harmful to human health.",
+      "items": [
+        {
+          "title": "Swedish scientist is an idol of the Czech anti-wind movement, but has not proven the harmfulness of wind turbine infrasound - oEnergetice.cz",
+          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQQ3Q2dVp3cG8wek04M0FQeURjRFQybW5xUHVndGQ3QXN4M2VFMFQ2Q1h5UVhYQlQ3RWd2c0FBRkZ6dWEwdTVTTWhIN0dfWEItZ212VUhiN3VYYk1uXzZvMHoxZGl1elotb2Q5X2hMM1MzSWtvdHRoOUhtLWxZWERGX2d4NnJGWkstRE5ZXzUtMzlaSkRqb2t4SzNDcUJaSWJGUXhkc0hMWDNFRVFZbmtzV1VMRVF6Zmg0SUJpajN0VmRTeENBYnhaUkxvMkdhTHZRSmNfbUNqX1FjUG1SZDgyODloTllScUdNWlN5dC1jdFY?oc=5",
+          "source": "oEnergetice.cz",
+          "date": "24. Aug 2026"
+        }
+      ]
     },
     "bauakustik": {
       "label": "Bauakustik",
