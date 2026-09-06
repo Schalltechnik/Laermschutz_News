@@ -1,47 +1,125 @@
 {
-  "generated": "05. September 2026, 07:49 UTC",
+  "generated": "06. September 2026, 08:04 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "Das Land Steiermark investiert 1,4 Millionen Euro in Lärmschutzmaßnahmen in Feldbach, von denen die dortigen Anrainer direkt profitieren werden. Ergänzend dazu thematisiert Antenne Steiermark in einem Beitrag den Übergang von alltäglichen Geräuschen zu störendem Lärm.",
+      "items": [
+        {
+          "title": "Land investiert: 1,4 Millionen Euro für Lärmschutz in Feldbach, so profitieren Anrainer - MeinBezirk.at",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSTFLX09YZm5CakZrMVZOQlJ6M3VhTmFxU1N2dVdONXJBVEhjR2prTDdERjlPSTltaHhoVHo4ZjBwVUZtRjBRVm4xeWNrVk80QWdXM054RWE1VEdDMDUwdzJFalNrMUNBRk9GUE5xcUlYNXJxUU1VTWdjelNlNWhwWENBN09heUpUX0ItM0tYQjZ3aHFDX2dHSUNzUXUtTy1uanRMdUNpdzJtZk1QVFNKTDFFb0lSZ20xUjRPZUVra1BpcDd2SGNsdVJnMWlqQQ?oc=5",
+          "source": "MeinBezirk.at",
+          "date": "3. Sep 2026"
+        },
+        {
+          "title": "Axi on Air - vom Geräusch zum Lärm - Antenne Steiermark",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPN0tZa3ZLSUJxaHU4ZXViOFlaY09iaWRON2Jqem5YWUFKTW1OVHAtU1JfV3B6Wm1lSUlKaUlDdHNvaDlObzF0czA4WlVTNEdvaHBrQ2xyd2FFZ19yVnluWVNpQkh1NVJJTllNdTZXZzNYem9ST09kbk5fblVkd3VucnR3QQ?oc=5",
+          "source": "Antenne Steiermark",
+          "date": "3. Sep 2026"
+        }
+      ]
     },
     "austria": {
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "Ein neuer kostenloser österreichischer Schallrechner für Wärmepumpen wurde entwickelt, der Fachleuten präzise Berechnungen zur Schallentwicklung ermöglicht. Das Tool ist über die GET-Produktdatenbank in Kooperation mit dem VÖK verfügbar und richtet sich speziell an Experten aus dem Handwerk und der Gebäudetechnik.",
+      "items": [
+        {
+          "title": "Neuer Schallrechner für Wärmepumpen - handwerkundbau.at",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVWtMSzFkWGVNU0Nkc0I1WUZBakhXWEN0MF9UcEpjX1ZIZ0ZZa2lTeFVzWWJBSGlJeXMyNlZSRlFNek5lU3lFTG4xQ0cwbmNBc3UxUHlNbXp3aUFSNC1UVWF0NWp4TEdUVHMwQ2lGU08zZkpiRlVud2ZNT0ZpNGt0Q2h1Y3k?oc=5",
+          "source": "handwerkundbau.at",
+          "date": "3. Sep 2026"
+        },
+        {
+          "title": "GET-Produktdatenbank & VÖK: Schall & Wärmepumpen: Kostenloses Berechnungstool für alle - tga.at",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOU1CZm96TmZSZXJDVlg5OGk3MHFRLXRSZklUZ0JOLVB5S1g2WXJjVlBMUHpZYXZJOGZpaHJ6RnpqX3pBUy1sNVUzYnFFZWRBcnU3SDQ2Q25xMWJaN2FkWDY2ek4xOXg3SVcxM0dPRU5DOHhvMkRvSl9md25pTTFQd2g4TXdlREtDRDB3?oc=5",
+          "source": "tga.at",
+          "date": "1. Sep 2026"
+        },
+        {
+          "title": "Kostenlose Wärmepumpen-Berechnungen für Fachleute: Neuer österreichischer Schallrechner - hlk.co.at",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE40UTZBRU51dHNTNUxwdWVqbGJURndZTS1qbkpCdDB2elZUeXRadlJ1dHhXanBhMjJKYTRaQ1ZxQVlmcG15VUc3R0o4czdVem9WdVczUDBrVVZXLVF0cWVRT3B5S2NwZXJrMzJvelpmaUtfdw?oc=5",
+          "source": "hlk.co.at",
+          "date": "1. Sep 2026"
+        }
+      ]
     },
     "dach": {
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "Die Deutsche Bahn plant in Hagen den Bau von 5.400 Metern Schallschutzwänden, um Anwohner vor Schienenverkehrslärm zu schützen. Weitere relevante Entwicklungen aus der Schweiz oder Meldungen der DEGA liegen aktuell nicht vor.",
+      "items": [
+        {
+          "title": "5400 Meter Schallschutzwände: Das plant die Deutsche Bahn in Hagen - Westfalenpost",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQalRPbmM0RFEzd2J1UG1TUkxVRjVFMDd1YmFJaU83cFVkVHBmLV95RXBtdEtiUXk1SGVfWkxVU0lMeEpXZ0dxY3RGR0s2Sm0yeDNjMVVQRUVTNFlaZlpRVDByanAxOE1EU0VRNVQzemk2ZEcxdHI0TTB1WjlqVXJUbEpqQ25ScGVRVXNsb3hfUHdrSkE2RnhyYmttdnYxeUZQc1RnTERkdjhOSFVsME9ZdGtETkM?oc=5",
+          "source": "Westfalenpost",
+          "date": "1. Sep 2026"
+        },
+        {
+          "title": "Sirenen heulen, Apps brummen: Halle beteiligt sich um 10. September am bundesweiten Warntag - Du bist Halle",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOG15SGdsQVZ2QlZVZlhRVVMycjFOeXVqM2dlUF94RFB4SFlyNGVLaE5KZUFVTUFVMlU1X2xyS2hZSkMzbGM0TFg3d2k4czE2VHlXS3NhZXpWNTlDQkcwZWJraVhrdEo2TTlEMGV3ZU4xc1llTi1FX0dlcmt2dFJZdmEwQUQ0WWpUTDE5QTR5LUpwN0F1Mm9KUy1nWVlweElTSzFRUWpLbTNGcWVhRnFlcHl3?oc=5",
+          "source": "Du bist Halle",
+          "date": "4. Sep 2026"
+        }
+      ]
     },
     "europe": {
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "No relevant news found.",
+      "items": [
+        {
+          "title": "Europe Acoustic Insulation Market Size, Share,Trends, Growth Analysis Report, 2030 - MarketsandMarkets",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNT290emR5TS1pU1FmS3dKeGFPUC1aZEFXYTJCVVdxOC1sckV2VzJYYVJjeHAwMmxRdmRadm9MVXllWVZwU2JwVG1QMUFYOG9Nd3JuV2l1OEwxbnh4Y0xCX21TT1k0VkdJcTR6R2ZOZEQ0SFpJVnlKdWM5ckpnbFp5M3JqQlZMc3VNV3FUU2Y3RWVVQTVaZVI4?oc=5",
+          "source": "MarketsandMarkets",
+          "date": "31. Aug 2026"
+        },
+        {
+          "title": "Ireland's policy on data centres was under the microscope today at the EU's climate committee - The Journal",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE93aFBaN3dUOFFyVlkza3ZkS2NYYTNLdXdvYlVJZ1lZQkhQc1V1cl9DSzdIRzZoTXFDa2JNTzR5U0Q4OFRWaFFoUXZwbUczSVhCcFVUOEFNTjNGcWtUTHBTLXpzUFhhVnpaTmxtZmR1RnE4TFI0?oc=5",
+          "source": "The Journal",
+          "date": "1. Sep 2026"
+        },
+        {
+          "title": "The world’s quietest island has been revealed – with local birds outnumbering humans 40 to one - Time Out Worldwide",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBkSmhBMU1ta0lXQlJBdUtwTzZ2a0cxc0lvOUxhcTlvdzR3dE1IWHkxdmVDYTNfN3JqZ0lyWHVOZ2hITXdTVi1QVThfSU1PQUpCVzdISklkU2xMOWN2bkJZZEgzOUM0cC1mWG5UeDRZa3JqUVFhcU9WMGdfQjJSZw?oc=5",
+          "source": "Time Out Worldwide",
+          "date": "3. Sep 2026"
+        }
+      ]
     },
     "science": {
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "Recycled wind-turbine blades have been repurposed into a 60-metre highway noise barrier by Dutch designers in 2025, with acoustic tests confirming its sound-dampening effectiveness. This innovative approach demonstrates a promising intersection of sustainable materials engineering and noise pollution mitigation in transportation infrastructure.",
+      "items": [
+        {
+          "title": "In 2025, Dutch designers built a 60-metre highway noise barrier from retired wind-turbine blades; tests f - The Times of India",
+          "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxNbFg0TE5mem1KV0ZPenZnNktxdnB3TlRId1BfVWlGTHRMWnJhTEZxSm1NOUdGRzEwOWhha0U5UnJpRUMtenpLYkZFeXpLNmdiNEFsdEY0Yks1YUxHbTBCbkNnbl8tLVdFdVZYU2VrYmd4cWVWQkdvNUZmVl81Qm1udDlXYnBYRjRCRHBNR0FGbWh4RzMyS2l1UWxtbC04VngwanJWN1dYblFaR2loMHAwTlFRd3djVkZLRndlSzV2NTdmdXFMdm1xaXhmblhWUWNOU0NQYWh3TTZuZnhiUVNSZ0p4SlpEVFVmbGk3bVJHSjdjM0xnX1dvNktiZk9lLWxNSFM4dVVBSGNPYlVJeFQ0X2Q2UHlLVEVsdWJRZ3RxUUdEWEFreEZnTGt2dEdwRE9zX1FNWdIBugJBVV95cUxNazdYMmFCNnI4dVppT3dua3h3czA1dUJIc2lYYjd1MHVWMUlwLVVjMXZnMEJhV01UUS0tYlRUMmlFY2tpWXRfVTVELUNvaFk4SnM2bUNWWnZUYVZqbW5LZHR5WHNGeldtT0o1bU40VXhQZjFvSjdDajZCRXdxcGZvM3R3d2RvN1NIS2R6TVl5RFhIMWdNck9qTDlZMzJza0xBN1NBb2IzeFo5Mm0wdXI0WktjeU9lWVJweFBPZnJMYWl0LUVSRlZlMExySTRGNnpHRktmYXlGY1EweEpRZUpNRkNCbFhWejAyUUw2MndKekJUUE9FWlFjM2ZNU1dxdXYyRmZaaC1qSFB6Z0o1NVZ5UVVtQklBanZOWDE3M3Y3SG5rbVpFRmFvNlVkb3ZGS05TRVBGNEZ2cXpRZw?oc=5",
+          "source": "The Times of India",
+          "date": "2. Sep 2026"
+        }
+      ]
     },
     "bauakustik": {
       "label": "Bauakustik",
       "icon": "🏗️",
       "color": "#7b4f12",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "Keine relevanten Meldungen gefunden.",
+      "items": [
+        {
+          "title": "Deutsche Botschaft in Wien Schulz und Schulz - world-architects.com",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQYUJCdW1TVHdMNnpySW9OT0tMZTM3Q0E3TkFKUjVMX1hPMzBIc1FFcDlJU3R2Z0FBNjFlZzkzd0NTcVdlN2FadW9Yc2pySktoNU5rYWFkLXdVcFdMNjlDVGE0QUN5ZHJFQXQ0U2pETVRnRVVVdHJXVVlFWGc5ckFJcjJ3?oc=5",
+          "source": "world-architects.com",
+          "date": "1. Sep 2026"
+        }
+      ]
     },
     "oal": {
       "label": "ÖAL",
