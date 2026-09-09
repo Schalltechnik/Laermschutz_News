@@ -1,11 +1,11 @@
 {
-  "generated": "08. September 2026, 08:17 UTC",
+  "generated": "09. September 2026, 08:20 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Das Land Steiermark investiert 1,4 Millionen Euro in Lärmschutzmaßnahmen in Feldbach, von denen die dortigen Anrainer direkt profitieren werden. Ergänzend dazu thematisiert Antenne Steiermark in einem Beitrag den Übergang von alltäglichen Geräuschen zu störendem Lärm.",
+      "summary": "Das Land Steiermark investiert 1,4 Millionen Euro in Lärmschutzmaßnahmen in Feldbach, von denen die dortigen Anrainer direkt profitieren werden. Ergänzend dazu thematisiert Antenne Steiermark in einem Beitrag den Übergang von Geräuschen zu Lärm und sensibilisiert damit die Öffentlichkeit für das Thema Lärmbelastung.",
       "items": [
         {
           "title": "Land investiert: 1,4 Millionen Euro für Lärmschutz in Feldbach, so profitieren Anrainer - MeinBezirk.at",
@@ -25,7 +25,7 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "In Österreich wurde ein neuer kostenloser Schallrechner speziell für Wärmepumpen eingeführt, der Fachleuten präzise Berechnungen ermöglicht und über die GET-Produktdatenbank sowie den VÖK zugänglich ist. Der Österreichische Arbeitsring für Lärmbekämpfung hat zudem ergänzende Hinweise zur Modellbildung veröffentlicht, die für die Lärmschutzpraxis relevant sind.",
+      "summary": "Eine Lärmschutzwand auf einer Autobahn stand in Flammen und erforderte den Einsatz von vier Feuerwehren. Darüber hinaus gibt es neue Entwicklungen im Bereich Lärmschutz, darunter einen neuen Schallrechner für Wärmepumpen sowie ergänzende Hinweise zur Modellbildung vom Österreichischen Arbeitsring für Lärmbekämpfung.",
       "items": [
         {
           "title": "Vier Wehren im Einsatz - Lärmschutzwand auf Autobahn stand in Flammen - Kronen Zeitung",
@@ -34,22 +34,16 @@
           "date": "7. Sep 2026"
         },
         {
+          "title": "Kicken ohne Lärm-Frust für Anrainer - oe24",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1UazVUckl3M2NUSUZJWk5nbU9wZHN3S29SQm5GV25rWVZTdVNBVUtsMV8yUnBVN2FRVUI1R2dLaXBZTG9mdVdZUUpkM2pjOUdCQVJPYWIxX29Hc1BmeVlSUnlDdEtRa3BEbXhsWFMwUWtZdlMydDA5U9IBfkFVX3lxTFBYVFZxN0w3OW8wUmYwNHVoNWplWm5raDhudzNybzdTRXY3Y3FPVlFfc1ZxXzFRekl4SEpISV9rT1ZhNUEtaE1YTEI3YmV0YUJ6R0VyZzRYNExMdEV4VllGSGYzc3I1OWx4QnRWdkl3b0pEOXpxVTBYeVE4aWdCZw?oc=5",
+          "source": "oe24",
+          "date": "8. Sep 2026"
+        },
+        {
           "title": "Neuer Schallrechner für Wärmepumpen - Handwerk und Bau",
           "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVWtMSzFkWGVNU0Nkc0I1WUZBakhXWEN0MF9UcEpjX1ZIZ0ZZa2lTeFVzWWJBSGlJeXMyNlZSRlFNek5lU3lFTG4xQ0cwbmNBc3UxUHlNbXp3aUFSNC1UVWF0NWp4TEdUVHMwQ2lGU08zZkpiRlVud2ZNT0ZpNGt0Q2h1Y3k?oc=5",
           "source": "Handwerk und Bau",
           "date": "3. Sep 2026"
-        },
-        {
-          "title": "GET-Produktdatenbank & VÖK: Schall & Wärmepumpen: Kostenloses Berechnungstool für alle - tga.at",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOU1CZm96TmZSZXJDVlg5OGk3MHFRLXRSZklUZ0JOLVB5S1g2WXJjVlBMUHpZYXZJOGZpaHJ6RnpqX3pBUy1sNVUzYnFFZWRBcnU3SDQ2Q25xMWJaN2FkWDY2ek4xOXg3SVcxM0dPRU5DOHhvMkRvSl9md25pTTFQd2g4TXdlREtDRDB3?oc=5",
-          "source": "tga.at",
-          "date": "1. Sep 2026"
-        },
-        {
-          "title": "Kostenlose Wärmepumpen-Berechnungen für Fachleute: Neuer österreichischer Schallrechner - hlk.co.at",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE40UTZBRU51dHNTNUxwdWVqbGJURndZTS1qbkpCdDB2elZUeXRadlJ1dHhXanBhMjJKYTRaQ1ZxQVlmcG15VUc3R0o4czdVem9WdVczUDBrVVZXLVF0cWVRT3B5S2NwZXJrMzJvelpmaUtfdw?oc=5",
-          "source": "hlk.co.at",
-          "date": "1. Sep 2026"
         },
         {
           "title": "Ergänzende Hinweise zur Modellbildung 06/2026 - Österreichischer Arbeitsring für Lärmbekämpfung",
@@ -63,8 +57,14 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Keine relevanten Meldungen gefunden.",
+      "summary": "Fraport plant neue Maßnahmen am Frankfurter Flughafen, die in Flörsheim erneut Proteste wegen Fluglärms auslösen. Zudem bereitet sich Halle auf den bundesweiten Warntag am 10. September vor, bei dem Sirenen und Warn-Apps getestet werden.",
       "items": [
+        {
+          "title": "Fluglärm-Streit in Flörsheim: Warum neue Fraport-Pläne für Unmut sorgen - Main-Spitze",
+          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxObXdESGRyWW1tcDM0Z0x4SU54TEFWV3hGVzNla0UtNUFaa0ktanpqN2tYVHNDSXIta2JtY0tYWUx6eHdWcHEyOGhNNHY0Z2JDN3lHN0M5UUlXQzJZUWF3MzF5ekRySmFlRnREVTJXbTNmSEd0YVpodnR2V1lld3VmazdLNjA2QVUtRlZVZjNYRWxkSm5VdGxHTjdKVm9hdGhhZWdkVjVHaGxVU29qUUNoT2x0eHpnLVZDLTFRUHV0cFFRTHlfdjJVeEpmbHFaSXNJYlZLOWpCaUhpOEtUZkg3YVE3UW1fWHdyMEJQaDJLMTk?oc=5",
+          "source": "Main-Spitze",
+          "date": "9. Sep 2026"
+        },
         {
           "title": "Sirenen heulen, Apps brummen: Halle beteiligt sich um 10. September am bundesweiten Warntag - Du bist Halle",
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOG15SGdsQVZ2QlZVZlhRVVMycjFOeXVqM2dlUF94RFB4SFlyNGVLaE5KZUFVTUFVMlU1X2xyS2hZSkMzbGM0TFg3d2k4czE2VHlXS3NhZXpWNTlDQkcwZWJraVhrdEo2TTlEMGV3ZU4xc1llTi1FX0dlcmt2dFJZdmEwQUQ0WWpUTDE5QTR5LUpwN0F1Mm9KUy1nWVlweElTSzFRUWpLbTNGcWVhRnFlcHl3?oc=5",
@@ -77,7 +77,7 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Environmental noise pollution continues to draw public attention, as highlighted by a Times of Malta editorial addressing the significant societal costs of persistent noise exposure. Meanwhile, broader interest in quiet environments is reflected in a newly published global index identifying the world's most peaceful islands.",
+      "summary": "No relevant news found.",
       "items": [
         {
           "title": "Editorial: The high price of endless noise - Times of Malta",
@@ -86,7 +86,7 @@
           "date": "8. Sep 2026"
         },
         {
-          "title": "The world’s quietest island for a peaceful break has been revealed by a new Index - Time Out Worldwide",
+          "title": "The world’s quietest island has been revealed – with local birds outnumbering humans 40 to one - Time Out Worldwide",
           "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBkSmhBMU1ta0lXQlJBdUtwTzZ2a0cxc0lvOUxhcTlvdzR3dE1IWHkxdmVDYTNfN3JqZ0lyWHVOZ2hITXdTVi1QVThfSU1PQUpCVzdISklkU2xMOWN2bkJZZEgzOUM0cC1mWG5UeDRZa3JqUVFhcU9WMGdfQjJSZw?oc=5",
           "source": "Time Out Worldwide",
           "date": "3. Sep 2026"
@@ -97,7 +97,7 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Recycled wind-turbine blades have found a novel second life as highway noise barriers in the Netherlands, with a 60-metre structure built by Dutch designers in 2025 demonstrating effective sound attenuation. This innovative approach addresses both acoustic engineering needs and the growing challenge of composite blade waste disposal simultaneously.",
+      "summary": "Recycled wind-turbine blades have been repurposed into a 60-metre highway noise barrier in the Netherlands, with acoustic tests confirming effective sound attenuation performance.",
       "items": [
         {
           "title": "In 2025, Dutch designers built a 60-metre highway noise barrier from retired wind-turbine blades; tests f - The Times of India",
@@ -111,21 +111,8 @@
       "label": "Bauakustik",
       "icon": "🏗️",
       "color": "#7b4f12",
-      "summary": "Keine relevanten Meldungen gefunden.",
-      "items": [
-        {
-          "title": "Deutsche Botschaft in Wien Schulz und Schulz - World-Architects",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZ2FRUkpZUndpN0ZfbDZhSzhzQXNUQVVCdWVLcDNOaVdTckZZdDhHa3dDNUdqS09GVWVzY3h2ckxtQXJROGFQenBPQ3hHTW55SDRaSHF1MlZOSE5VbDlqdU9hMFBfRkNtWEpQOVFOalFSNm9WRmFlZUtmenFEckdxT1F3?oc=5",
-          "source": "World-Architects",
-          "date": "2. Sep 2026"
-        },
-        {
-          "title": "Ursa Purefloc: Neuer Name, neue Verpackung, gleiche Eigenschaften - Baulinks",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE04Mm5ZLUYySUZvVEdtNlBtS29XX2R0MnJvdDFTSldYemJoQi1kYmJoSTF0eEZYZTNmOS1zMW8tT3dnY1d5M2lzOF91akxuenV5QmMxNjVHU19wOUFn?oc=5",
-          "source": "Baulinks",
-          "date": "7. Sep 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "oal": {
       "label": "ÖAL",
