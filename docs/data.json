@@ -1,5 +1,5 @@
 {
-  "generated": "13. September 2026, 08:30 UTC",
+  "generated": "14. September 2026, 09:12 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -25,7 +25,7 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "In Wien sorgt der Lärm rund um die russische Botschaft für Aufregung, wobei die zuständige Behörde laut Berichten nur begrenzte Handlungsmöglichkeiten hat, obwohl der Lärmpegel als gesundheitsgefährdend eingestuft wird. Zudem hat der Österreichische Arbeitsring für Lärmbekämpfung ergänzende Hinweise zur Modellbildung 06/2026 veröffentlicht, die für die fachliche Lärmschutzpraxis relevant sind.",
+      "summary": "In Wien sorgt ein als gesundheitsgefährdend eingestufter Lärm bei der russischen Botschaft für Aufregung, wobei die zuständigen Behörden offenbar nur begrenzte Handlungsmöglichkeiten haben. Die Herkunft und Art des Störgeräusches ist dabei noch unklar.",
       "items": [
         {
           "title": "Lärm bei Botschaft „gesundheitsgefährdend“ - wien.ORF.at",
@@ -40,10 +40,10 @@
           "date": "11. Sep 2026"
         },
         {
-          "title": "Ergänzende Hinweise zur Modellbildung 06/2026 - Österreichischer Arbeitsring für Lärmbekämpfung",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUFJnWEV6VlV1QjhzaEVkdlRJdGJUbEtNMmZWMnR1U2ZsSm44c1lkWFJLZ01LaHZacGNQMS03ZEw2TmJKZGhrWVZEcGlsSWpuZTZCRDdxV3M4RTF4LV9BZEdMZDNVeHJWU0t2UmZ2STVRSVdRdWg3eGNBZXJrUmp5dDlHZWtSZHFzU1hseGxISjBvTUI0N2NWdmtCYWFsWmZHbTB5ZG9renRVXzQ?oc=5",
-          "source": "Österreichischer Arbeitsring für Lärmbekämpfung",
-          "date": "6. Sep 2026"
+          "title": "Verwirrung um Störgeräusch bei russischer Botschaft - wien.ORF.at",
+          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE15ZEVBbWxxYVRPaGVEaGVkRDNqVktkQ21FZ2dLTmRTLXN1WjM3ekpTTEMzcU1QSzFFajV2bHlIRjluVVRVQ3ZlRWx2NDg?oc=5",
+          "source": "wien.ORF.at",
+          "date": "13. Sep 2026"
         }
       ]
     },
@@ -51,13 +51,37 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Keine relevanten Meldungen gefunden.",
+      "summary": "In Deutschland fordert die rot-grüne Hamburger Koalition ein Verbot von künstlichem Lärm bei E-Autos, während in Nürnberg zunehmende Nachtflüge für Kritik sorgen und Gegner strengere Regelungen verlangen. In der Schweiz kämpfen Aktivisten in Zürich für Lärmschutz an der Rosengartenstrasse, und ein Verein beklagt zu viele Flüge nach 23 Uhr am Flughafen Zürich.",
       "items": [
         {
-          "title": "Rosengartenstrasse Zürich: Aktivisten fordern Lärmschutz - limmattalerzeitung.ch",
+          "title": "Rot-Grün in Hamburg will Verbot von künstlichem Lärm bei E-Autos - UNTERNEHMEN-HEUTE.de",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1BTmVJVUpCcllxVHRqNlZMQzVRNzJYRmJsTGtIV0Fud3VjaXhGc0dLRVdyQXZGQkRDbWdSM1FIRmJwMzVqRG9UOHJUYzM1ZnhlWWdNWm9jNW53b3VuRDdseGpR?oc=5",
+          "source": "UNTERNEHMEN-HEUTE.de",
+          "date": "13. Sep 2026"
+        },
+        {
+          "title": "Nachtflüge am Flughafen Nürnberg nehmen deutlich zu – Gegner fordern strengere Regeln - nadr.de",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQ2p5eE0tNnk5dDVleGxSVkppSnZoenV5T2dub3hNN29ONDF2VDUzN0FOaWxNTUxaTXlLbGhFMUdiT3FyaXBIdEdYQkc4TUg2LUdhc2NGMW05cHAtUzRkOTB0QVpIMWs0MUxPeHlEbTRHZzlXWnhoTTE5RmplNFlzRV9HRlkwaTZx?oc=5",
+          "source": "nadr.de",
+          "date": "10. Sep 2026"
+        },
+        {
+          "title": "„Konflikte sichtbar“: Wasser, Strom, Dauerbrummen – Karte zeigt jetzt Rechenzentrums-Projekte in Deutschland - Frankfurter Rundschau",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPR25yY3RLb2t2blJiV0ZtMVFvTjNFcVhNd256ZlRrWk5RLVZlVndUdFNOUnFlM1V2REt4V3d4bXlja0ZISkRjQ1k2MEx0WkNrUlNBR1JBdXVRbHpqRklHWFJIdUVYcUdVaHFxeV83bDh5TDBpa1AwSG8zN0NuQzkyaXVyYlF4bGJrRXhwd2pram5uaWtJNlRrY1R2c3Ffdmc4bi1sWWlQRQ?oc=5",
+          "source": "Frankfurter Rundschau",
+          "date": "13. Sep 2026"
+        },
+        {
+          "title": "Rosengartenstrasse Zürich: Aktivisten fordern Lärmschutz - Limmattaler Zeitung",
           "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWjEzZXZXVjhnbW03VUZsZC13M1YtTXB5R0JJaUZuWjlfLWRiWTctbzdhMXRYY3NhN1JDZXk5d2RpZWUzbVlNVzBqSnZEN2hyaGNBektMblZ5bGkxeFpQZXFXV3FmT2VtRmUzSFBLeUszMDVkenpfM1dXaG9KcUpWNVotczdJOUtlZm1Ba3BfbVBFcG14aEhaQXhjRkVwY05IWThSR3NBUE1JOUZXUUFQVUVldjhaSHU3RWpDMw?oc=5",
-          "source": "limmattalerzeitung.ch",
+          "source": "Limmattaler Zeitung",
           "date": "11. Sep 2026"
+        },
+        {
+          "title": "Verein: Deutlich zu viele Flüge nach 23 Uhr an Flughafen Zürich - Watson",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNU3V1dFdUUnV6RTd3dmFhZEFiSlR6Q25zS25MVXE3Y2hLbmhFaFNLWlpxM0FxREtWSkQtdi1QNldMRU9fdHlmQW44cDJiWlJwbmdfQUpxM2lUQ3dENW9hOERZVUpqNFlad0Q0bVlIUGM5WjY4SUltcnZsaHY4WUpwcm84QnNHTWJMNHhQc1FXWE9RcVhKVXRSdVBVZFVhR0VJTXhOOHgxRU9ENDc4SUNHSElWaGN6allB?oc=5",
+          "source": "Watson",
+          "date": "14. Sep 2026"
         }
       ]
     },
@@ -72,13 +96,19 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "No relevant news found.",
+      "summary": "The noise barrier system market is projected to reach US$6.4 billion by 2033, reflecting growing global demand for acoustic mitigation solutions. Data centers are increasingly being scrutinized for their health impacts, which likely includes concerns about noise pollution generated by their cooling and ventilation systems.",
       "items": [
         {
           "title": "After Denmark dismantled the world’s first offshore wind farm in 2017, some blades were cut up and reused - The Times of India",
           "link": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxOTXVLbElKNTJzTmZ2bmhjRjFqQjFxQWVRak5fWER6N2ZPQVl2cmN6UW1IQlNJblRUdFlpRGtLYnk1Y3FVRHlaYmg5WnI2M0o2Vkp0eXVGczRUaWVaU0FQVlA4NllaVzFOdmx5WkZKMVZPX3N4RTdsQ2JIMEFjS2tkMHQ5d05BWDlJTzM1WWdRYk43S19sZDdpYkJDTldxeS1SVlRzVU1kc3JieVhHWHV3QXI3YmN1ZFNmekRiZExDYTRGV1JDNHQ1RUEwTTNYRXRFa0cxRVB4WW0tRW1ldjNWQ1V6TVZfWURVdHBtYWNDc3VRMlZPZUNMSGs1clJtTjA0eEI4WkRNbGZHWklZUGNUNEJRR3kwZmhSRnNjZDNOdkhXTzBIN3dxUVpCYW5EZGxIZVZpSXRNRVNESWlVMExVb3ZITFc1dEVxdzEycERDcmxuNWZqeWhnUWZ4MkU3Rm5C0gHmAkFVX3lxTE44ZUxVZlprNFF0UzhVVkFjOU5rZmpwQ2c3dzNXZnU5TEZjLXEyTWlnOVk1elRJQmJ3dldzS1pLVmtSSFJRVTRqS3g4TE9IenVndW10WWJiWnlxUng1YnlLb3g1dUFXOXBvaGRHdkFDMDdhTzRzV2ZoUWRXOWczeFNsZ2F2eUdranNDdEtFc05TN1Y2NDBvRHI1SWpNdzdNd3RMQk50TVFXVFo3UVlPYnd1QnN6d1RsNXZDZDhjcFRzWGtQbk4wX1MyNDZqbnFnVzNoeWt6elN2LXdxUmNvV1V5TFNCWWo1dUdUV3pHUmM3V0Q3SkVZbzdnT1BlZTVqTHVyTXpEeGg1U0xqVnpXdVN3OG5VSnpMcXlHd0ZXMk14MHM4ZmxZZE9XZGhLZjZwMWtEWm11ek5pSVBtUkl1OEpmV3VsMXV6VHJTX1ZJaUZabnc0WWY5cWx6Q1JfcUk2Mk5NU2M3SlE?oc=5",
           "source": "The Times of India",
           "date": "12. Sep 2026"
+        },
+        {
+          "title": "Noise Barrier System Market Set to Hit US$6.4 Billion by 2033 | Persistence Market Research - openPR.com",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcmJFcUttVDE4dVV6bDBnLVJDY3htOGxuYVEwNWxYLXZoWnF5QW1sUTgtcWt4X0d2TUt2ZlltdUxXeHQ2ekNlSXIxTERCZzBRd1JiclQ5MnJ0RnZ2SU9LWnVfQ0h3a1NZNWxYN2NHZ3BOQlVTUlc4d3hnTmNlYTJodDFyT2FMZTBlMVZCVDNTTHk1WEQ0SXFpSUN1SWhkdw?oc=5",
+          "source": "openPR.com",
+          "date": "14. Sep 2026"
         },
         {
           "title": "How Are Data Centers Impacting Health? - UConn Today",
