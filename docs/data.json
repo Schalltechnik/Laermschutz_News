@@ -1,34 +1,22 @@
 {
-  "generated": "17. September 2026, 08:51 UTC",
+  "generated": "18. September 2026, 08:26 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Keine relevanten Meldungen gefunden.",
+      "summary": "Die ÖBB führen Nachtarbeiten in Kalsdorf durch, wodurch Anrainer mit erhöhter Lärmbelastung rechnen müssen. Weitere relevante Lärmschutzmeldungen aus der Steiermark oder Graz liegen derzeit nicht vor.",
       "items": [
         {
-          "title": "MotoGP in Spielberg: Die Polizei geht mit einem Großaufgebot auf Nummer sicher - meinbezirk.at",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNajFEUzhIbG1nTk1zdWtXQWR1djUwN1lqZ1g4RUx4RTZLN3V4czRvTTZFOUtIVnJEbWVuTVNEWFl0QjdsWVg3Yzk1Zy1PMUZTWU9rVE1rRi15TDlsMkQxUWJqWHJUdjZtVUM0Z2dQbWJZYjd1ZnlfbU8tbmoxbHlXSWc4YnBxcDFSckJLWFpHRTNzTUpkaFE2U1ZCZHZZSGFQbHJkS1hYLUF6OThyeTZF?oc=5",
-          "source": "meinbezirk.at",
-          "date": "15. Sep 2026"
-        },
-        {
-          "title": "MotoGP am Red Bull Ring: Polizei bereitet sich vor - 5 Minuten",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMHdzUFVVNktJZWVXUGNnZjJfNVQ1NzJObDJUT3ViUlFBSHlwN1FmM05WaWN3aTNfVE9yc0I4SjBYVUpod29CZXZyTExoWXFtdG00d1hCN2M4cEYxRGdXXzBvSThnSzJWZmc1bV9CQzZSV0lMYi16S0Vuckp4TzhBejk3eG9tR21kcGhCSndTUnotdVdFMlptRXhuZw?oc=5",
+          "title": "ÖBB arbeiten nachts in Kalsdorf: Anrainer müssen mit Lärm rechnen - 5 Minuten",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSlNpZWFVTEZrRFFSUk9Fa1VTb294ejlkN3hDR1JxanlsQVBKVkhDREJrV3I4aDktUmdxOGNMbHpiTFlFa0pfMHBkTW42aTg4dEYxdE4xcU1Ed0E2LXhNdy1pb2RGRVExSk03Y1FsQTdFaWlCaW5yWWZ0ZW5aalpsYm9sQnB2M3hCdEFQYWc4cE9xYXBVX0pZM0FNalZrb3BNTkxab2dtNmZtWnY1WndnYnFyOA?oc=5",
           "source": "5 Minuten",
-          "date": "14. Sep 2026"
+          "date": "17. Sep 2026"
         },
         {
-          "title": "Die MotoGP am Ring hat an Zugkraft verloren - kleinezeitung.at",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOOTNYdnQ3c1JUd2g4SGhUdVhsdzZ0bGlDY3lsTkx0aUNXc2NsSkVHbXl1cllIT3pxOEZxOHN1dlJTT2RpVmVmSFRiREVCQk9zck1pRk5DdWw3emlkZTZ2VllMWmwyVlRyV29TYW5aX2hkYS1DOUUwYkpZeFc3WnpWWlRHNjZ4N1dsQ0c4UDZ2UzZJUmc?oc=5",
-          "source": "kleinezeitung.at",
-          "date": "10. Sep 2026"
-        },
-        {
-          "title": "Unfallgefahr und viel Lärm um den Lärm: Die neue Formel-1-Strecke in Madrid hat es in sich - watson.ch",
+          "title": "Unfallgefahr und viel Lärm um den Lärm: Die neue Formel-1-Strecke in Madrid hat es in sich - Watson",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSGwtR1BwWmlWYzVaY3pJRThOSTlMVzdTNzd5N1RfLThZb0VzN0hmMU9WLU5oZkE3VjJubVpoVy05NzM3NHFXdFRHVFpIYVdnZUwxNnlreWtRczZneGFoc2poQmp4ZjFpQXBZSklzSnJwUHBnVFMydU1yaWRtSWF0cndNZlRYVnNYVGFmcm05RmFwS1dnRzg4V21qNGlWRzhhdmxxQmRpUHJCUlFqVVE4QjhtTzV5Zw?oc=5",
-          "source": "watson.ch",
+          "source": "Watson",
           "date": "12. Sep 2026"
         },
         {
@@ -43,7 +31,7 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "In Wien sorgt ein als gesundheitsgefährdend eingestufter Lärm bei der russischen Botschaft für Aufsehen. Die Herkunft des Störgeräusches ist dabei noch unklar und sorgt für Verwirrung.",
+      "summary": "Der Lärm bei der russischen Botschaft in Wien wurde als gesundheitsgefährdend eingestuft, wobei die Ursache mittlerweile bekannt ist. Die russische Botschaft hat sich offiziell für die verursachten Störgeräusche entschuldigt.",
       "items": [
         {
           "title": "Lärm bei Botschaft „gesundheitsgefährdend“ - wien.ORF.at",
@@ -52,10 +40,22 @@
           "date": "11. Sep 2026"
         },
         {
+          "title": "Ursache jetzt bekannt - Russische Botschaft entschuldigt sich für Lärm - Kronen Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5oN0VtN25vN01wa3VFMzhlSGFYU1J6MFRKOE1mS3RXdWlRWnIxX3dydktfRzNKdTRWaEY0U3lsSE5HQQ?oc=5",
+          "source": "Kronen Zeitung",
+          "date": "18. Sep 2026"
+        },
+        {
           "title": "Verwirrung um Störgeräusch bei russischer Botschaft - wien.ORF.at",
           "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE15ZEVBbWxxYVRPaGVEaGVkRDNqVktkQ21FZ2dLTmRTLXN1WjM3ekpTTEMzcU1QSzFFajV2bHlIRjluVVRVQ3ZlRWx2NDg?oc=5",
           "source": "wien.ORF.at",
           "date": "13. Sep 2026"
+        },
+        {
+          "title": "Russische Botschaft entschuldigt sich - wien.ORF.at",
+          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9WNElhWTJLSk5XcVhqRUZoMXZsUC13VHY3ay1Od0pDcVFYT3ZUNnZTMnVBdW9hVmxHdUFKMExGYmU1OHI1eWRqbmxYckI?oc=5",
+          "source": "wien.ORF.at",
+          "date": "18. Sep 2026"
         }
       ]
     },
@@ -63,12 +63,12 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "In Hamburg plant die rot-grüne Koalition ein Verbot von künstlichem Lärm bei Elektrofahrzeugen, während in der Schweiz Aktivisten an der Zürcher Rosengartenstrasse verstärkten Lärmschutz fordern und ein Verein übermäßige Nachtflüge am Flughafen Zürich nach 23 Uhr kritisiert. Darüber hinaus rückt eine neue Karte zu Rechenzentrumsstandorten in Deutschland das Problem des Dauerlärms durch diese Anlagen in den öffentlichen Fokus.",
+      "summary": "In der Schweiz sorgen gleich mehrere Lärmthemen für Aufmerksamkeit: Aktivisten fordern Lärmschutz an der Rosengartenstrasse in Zürich, während am Flughafen Zürich zu viele Nachtflüge nach 23 Uhr kritisiert werden und der Fluglärm in der Nidwaldner Zeitung thematisiert wird. Aus Deutschland meldet Hamburg eine Initiative von Rot-Grün zum Verbot von künstlichem Lärm bei E-Autos, was die anhaltende politische Debatte um Fahrzeuggeräusche unterstreicht.",
       "items": [
         {
-          "title": "Rot-Grün in Hamburg will Verbot von künstlichem Lärm bei E-Autos - UNTERNEHMEN-HEUTE.de",
+          "title": "Rot-Grün in Hamburg will Verbot von künstlichem Lärm bei E-Autos - unternehmen-heute.de",
           "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1BTmVJVUpCcllxVHRqNlZMQzVRNzJYRmJsTGtIV0Fud3VjaXhGc0dLRVdyQXZGQkRDbWdSM1FIRmJwMzVqRG9UOHJUYzM1ZnhlWWdNWm9jNW53b3VuRDdseGpR?oc=5",
-          "source": "UNTERNEHMEN-HEUTE.de",
+          "source": "unternehmen-heute.de",
           "date": "13. Sep 2026"
         },
         {
@@ -88,6 +88,12 @@
           "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNU3V1dFdUUnV6RTd3dmFhZEFiSlR6Q25zS25MVXE3Y2hLbmhFaFNLWlpxM0FxREtWSkQtdi1QNldMRU9fdHlmQW44cDJiWlJwbmdfQUpxM2lUQ3dENW9hOERZVUpqNFlad0Q0bVlIUGM5WjY4SUltcnZsaHY4WUpwcm84QnNHTWJMNHhQc1FXWE9RcVhKVXRSdVBVZFVhR0VJTXhOOHgxRU9ENDc4SUNHSElWaGN6allB?oc=5",
           "source": "Watson",
           "date": "14. Sep 2026"
+        },
+        {
+          "title": "Viel Lärm um den Fluglärm - Nidwaldner Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUkJZQjNLNlRnaHYxbEhTUW1WUS1vclprdS11SU5OemQ0QUw5dnpsY2hxdjBUTnB2TjhRV1RNNzhWaGswVUVwbmpfUzdhdThWbERkRXFWMS12WDRYN2c4QXpVaHoyWE1YZHRQUlVReTVscmd0RFRuSlBQYkFXZHNOWC1QYW8?oc=5",
+          "source": "Nidwaldner Zeitung",
+          "date": "17. Sep 2026"
         }
       ]
     },
@@ -95,8 +101,14 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "No relevant news found.",
+      "summary": "Hamburg is pushing for a European-wide prohibition on artificial engine sounds fitted to electric vehicles. No further relevant European noise control policy developments were identified among the remaining headlines.",
       "items": [
+        {
+          "title": "Hamburg wants Europe to ban fake engine noise on electric cars - AutoNext.co",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQnU5UnNfV3FIa3FMWXpOcnNLRXlnX3V0SDBRTHZndmJvYnJ6ZEJHSk02b3NFUFM4TWZkaE1EQW8wY3MzOXlHRGljLUhoS3VCY2NhRlpUX25KV2w2SHhtTUtmSEx1aXg5MU1aVXlmbXdyQU9QVmtPZFRLNHNPQlQxQjhVQ3Q5djlvV3FBM28ybzNVR3ktX21XUUtn?oc=5",
+          "source": "AutoNext.co",
+          "date": "14. Sep 2026"
+        },
         {
           "title": "Vent Stack Silencer Units Market to Accelerate on Noise Compliance, Reaching 2035 Growth - IndexBox",
           "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaHhqMHNXaThBMGJ5SllXdDVrcTJLVnRabGQwdWJYeGZfU3kxZDlIWHJzMWpOaUhGaWhxZFF3MDRBQnJSdVE4Z01OOTJpeThaT3JFUDJCX2FjUG5kQ1BwRC1JYjhfd2ZuTERkSmpFb0ZJTHN2SXkxUzVsZlozb18tNlphZU92ZDBCdmZEWDFfNW5MVkRlZHVrUk9BNEdyRmpadlRadHpreHlyaG5fc3lBYVVlVGJpbGVM?oc=5",
@@ -115,7 +127,7 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "The Netherlands has repurposed retired wind-turbine blades into a 60-metre highway noise barrier in 2025, demonstrating an innovative approach to both acoustic engineering and sustainable material reuse. This development highlights the growing intersection of renewable energy decommissioning and noise mitigation infrastructure.",
+      "summary": "In 2025, the Netherlands repurposed retired wind-turbine blades into a 60-metre highway noise barrier, demonstrating an innovative approach to both acoustic management and sustainable material reuse. Research has also revealed that noise pollution disproportionately impacts the lowest-income populations, highlighting a critical environmental justice concern within the field of acoustics.",
       "items": [
         {
           "title": "After Denmark dismantled the world’s first offshore wind farm in 2017, some blades were cut up and reused - The Times of India",
@@ -128,6 +140,12 @@
           "link": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxQTk1sX2Q2VHlEY0JEdWFWdDdZQzdPamJzMG1zV3NvSk1qSzIyWTRJZ2dmUWhDOWFsTjdZNnRHNHVkN25tVFZzR0FWSWNkaGNrdjhKclIyckdxYXVYa0VzWi14WGZubHJmdlJ6YzRqdUU1eUhITFlGV3VnRkMxS1JkV1g3ZTFCaUpySGNGMFc5ZjFTYlRoUXBLQ2paQlZCeXlnTVI2eGtUZVFFcGJFXzBYSDVjNHRyb291YmxDVG5HWGVWbmZQSHdqU3FRMU9pd3F3ZjlwNE9GYnlFRnFyQUtlemwzcGIxRGJfRENCaGpFeURhLVFCaDNPcUNNbTlQMzV4djBJTEdhOE40NUxvVTA5WnVSMDNjTEZyUFVrR3lQdmN4UlRRbmNicWh5M1ZWLTVyWTlkLXZCZ3hVWXh3bHhTX2hJUXQwanVCVDFFUFA1bEthUGp2cm9oMXRFaHpJTGNOemfSAeICQVVfeXFMUE5NbF9kNlR5RGNCRHVhVnQ3WUM3T2piczBtc1dzb0pNaksyMlk0SWdnZlFoQzlhbE43WTZ0RzR1ZDdubVRWc0dBVkljZGhja3Y4SnJSMnJHcWF1WGtFc1oteFhmbmxyZnZSemM0anVFNXlISExZRld1Z0ZDMUtSZFdYN2UxQmlKckhjRjBXOWYxU2JUaFFwS0NqWkJWQnl5Z01SNnhrVGVRRXBiRV8wWEg1YzR0cm9vdWJsQ1RuR1hlVm5mUEh3alNxUTFPaXdxd2Y5cDRPRmJ5RUZxckFLZXpsM3BiMURiX0RDQmhqRXlEYS1RQmgzT3FDTW05UDM1eHYwSUxHYThONDVMb1UwOVp1UjAzY0xGclBVa0d5UHZjeFJUUW5jYnFoeTNWVi01clk5ZC12Qmd4VVl4d2x4U19oSVF0MGp1QlQxRVBQNWxLYVBqdnJvaDF0RWh6SUxjTnpn?oc=5",
           "source": "The Economic Times",
           "date": "15. Sep 2026"
+        },
+        {
+          "title": "Lowest income people hit hardest by noise pollution, research reveals - HQN",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVdGQjFaM29KcGlUdWhGVlRLU2ZCTm9OREtIYWlVWHNuVTB4UTJjWGFuQm1hU2ZNRnpmRUM5a1NxRTVFMGtKU0M4MHB2WG9ScF95SThkXzgzV19zQUZlMVJCREZQNjlUVlZNNF9GWHZRbDh3dUw4SDBTajZHVnR6aG9IeXhoc2d6U0owS3cwZUNYVTJITTJZRlJHOEZfeVE?oc=5",
+          "source": "HQN",
+          "date": "17. Sep 2026"
         }
       ]
     },
