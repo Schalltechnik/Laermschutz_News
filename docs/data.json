@@ -1,11 +1,11 @@
 {
-  "generated": "20. September 2026, 08:47 UTC",
+  "generated": "21. September 2026, 09:14 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Die ÖBB führen nächtliche Bauarbeiten in Kalsdorf durch, weshalb Anrainer mit erhöhter Lärmbelastung rechnen müssen. Rund um die MotoGP in Spielberg sorgt Partylärm für rechtliche Auseinandersetzungen, wobei steirische Fans sogar vor Gericht ziehen und die Lärmkontrolle bei der Veranstaltung verstärkt im Fokus steht.",
+      "summary": "Rund um die MotoGP in Spielberg sorgte Partylärm für rechtliche Konsequenzen, wobei einige steirische Fans sogar vor Gericht zogen und Anzeigen sowie Strafen verhängt wurden. Zudem müssen Anrainer in Kalsdorf aufgrund nächtlicher ÖBB-Arbeiten mit erheblichen Lärmbelästigungen rechnen.",
       "items": [
         {
           "title": "ÖBB arbeiten nachts in Kalsdorf: Anrainer müssen mit Lärm rechnen - 5 Minuten",
@@ -26,22 +26,28 @@
           "date": "19. Sep 2026"
         },
         {
+          "title": "Ruhige MotoGP, aber einige Anzeigen, Festnahmen & Strafen für Fans - Kleine Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORVZYaEJjOFBNWHZsUjRaM0hNazNRQWYtWFdXZzBHR2dZbDFGbjNnYVo0ZnNJZWN4bUQ5U0lqSllqS3BGZW9NMGNKM2dmLTZpTWpMOTNXN0pGWHBuc1JRUUVBdmE4V3pyWlFfTEtIYWhrdmhJWmlKRTBLaTRrQWVvOGFfYXNEMVU2VS01WS1pSlJoU180RjVOZ1lLOWhGVkVOTElRdlVEcVY0YzhwS25zcHZTWQ?oc=5",
+          "source": "Kleine Zeitung",
+          "date": "20. Sep 2026"
+        },
+        {
           "title": "So gewinnt Spielberg keine MotoGP-Fans zurück - LAOLA1",
           "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQ3c5SHJSU25na283UW1MUTBZMTk4MndyVFNFVFBJaWkxY2hHQkc1NWdWV3hSZHJ0R1gzU0w5ck9sVEI2eGFfQ3lBRTd4aFJNTGdxVkRXdlFRLTlmWEFPV2FDV1VZV2lVc1FETHVpbEpjS2dHVWVUeE1VaDd6SW5Fa1BaVVQ2WENCTDRrZ0toajRXa0lTN2x6eFZNbHp4VmJYZnlvM0tYUHB6Ymcz?oc=5",
           "source": "LAOLA1",
           "date": "18. Sep 2026"
         },
         {
+          "title": "Negativrekord in Spielberg, 2027 findet das Rennen wieder im August statt - Kleine Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaVRZRnhaRzBoNlo0M2dlaTFEMHY2WGx4X0ZGcnA5TV9KSFRXUF9kNGViYnMtVFJJT2VZa0FENElSa2dLNlQzNnk4Zlh5UXplSWFCUllMRjNmUk5mb0tZLW1hR21xUXJESUg4ZkdHdlBJcmhXaXB4akFIU3NLdzBTYmFKb3RVOUp2NUdaYUkwaVczUS1DSkhKbXVpZXQxNGc2cjdEY3p4dXZCRW8?oc=5",
+          "source": "Kleine Zeitung",
+          "date": "20. Sep 2026"
+        },
+        {
           "title": "KTM-Pilot Acosta mit Trainingsbestzeit in Spielberg - Kleine Zeitung",
           "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdjhpdVJVajYwNDdVMjMyVG94VmlST0FJeVZBd2ctNUdvZWl4Wm83VFZIRlpSYlhjSGVUajhVQzQtVm92a3V4enJFMWxXa1E3VTlQR3NsQzVuWm81cFUtMnkzSEZLYjJkbktFWUhhanZMWU4tZExLYm96Wlh4NVJTc0dTaTk5aGlrTEphS2g3Zl9JSWNYNXYteGZHbEFfZw?oc=5",
           "source": "Kleine Zeitung",
           "date": "18. Sep 2026"
-        },
-        {
-          "title": "Spielberg – Einsatzkräfte sind bereit für MotoGP-Wochenende - polizeiticker.at",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQmVKVThkaXR2ZGhiSzJXMU1rYzhlczNDeUUtbUN4Qnd2Y0ZGN0RleWlkemtIeERyTThXaVo3S0VZVGRIbl9VbjB4aTdmeTNvVkZMZDl4dDV5VzhRTHM3Yl9LQVY0bzFDOVV5X3JmdkpYdS1sdkFDY2szMXNGaHJxY2hHR0hGeThFeVdVdHNoc3pBMTljOUowREQyb091VW0t?oc=5",
-          "source": "polizeiticker.at",
-          "date": "14. Sep 2026"
         }
       ]
     },
@@ -56,12 +62,6 @@
           "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5oN0VtN25vN01wa3VFMzhlSGFYU1J6MFRKOE1mS3RXdWlRWnIxX3dydktfRzNKdTRWaEY0U3lsSE5HQQ?oc=5",
           "source": "Kronen Zeitung",
           "date": "18. Sep 2026"
-        },
-        {
-          "title": "Verwirrung um Störgeräusch bei russischer Botschaft - wien.ORF.at",
-          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE15ZEVBbWxxYVRPaGVEaGVkRDNqVktkQ21FZ2dLTmRTLXN1WjM3ekpTTEMzcU1QSzFFajV2bHlIRjluVVRVQ3ZlRWx2NDg?oc=5",
-          "source": "wien.ORF.at",
-          "date": "13. Sep 2026"
         }
       ]
     },
@@ -69,7 +69,7 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "In der Schweiz dominiert das Thema Fluglärm die Berichterstattung, mit Diskussionen um den Lärmschutz beim F-35-Kampfjet in Emmen sowie Kritik an zu vielen Nachtflügen nach 23 Uhr am Flughafen Zürich. Meldungen der DEGA oder relevante Entwicklungen aus Deutschland liegen aktuell nicht vor.",
+      "summary": "In der Schweiz sorgt der geplante Einsatz des Kampfjets F-35 am Militärflugplatz Emmen für Diskussionen, wobei der Lärmschutz für die umliegenden Gemeinden im Mittelpunkt des Streits steht. Der Fluglärm bleibt damit ein zentrales politisches und gesellschaftliches Thema in der Region Zentralschweiz.",
       "items": [
         {
           "title": "F-35 in Emmen LU: Streit um Lärmschutz - srf.ch",
@@ -78,15 +78,9 @@
           "date": "15. Sep 2026"
         },
         {
-          "title": "Verein: Deutlich zu viele Flüge nach 23 Uhr an Flughafen Zürich - watson.ch",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNU3V1dFdUUnV6RTd3dmFhZEFiSlR6Q25zS25MVXE3Y2hLbmhFaFNLWlpxM0FxREtWSkQtdi1QNldMRU9fdHlmQW44cDJiWlJwbmdfQUpxM2lUQ3dENW9hOERZVUpqNFlad0Q0bVlIUGM5WjY4SUltcnZsaHY4WUpwcm84QnNHTWJMNHhQc1FXWE9RcVhKVXRSdVBVZFVhR0VJTXhOOHgxRU9ENDc4SUNHSElWaGN6allB?oc=5",
-          "source": "watson.ch",
-          "date": "14. Sep 2026"
-        },
-        {
-          "title": "Viel Lärm um den Fluglärm - Nidwaldner Zeitung",
+          "title": "Viel Lärm um den Fluglärm - nidwaldnerzeitung.ch",
           "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUkJZQjNLNlRnaHYxbEhTUW1WUS1vclprdS11SU5OemQ0QUw5dnpsY2hxdjBUTnB2TjhRV1RNNzhWaGswVUVwbmpfUzdhdThWbERkRXFWMS12WDRYN2c4QXpVaHoyWE1YZHRQUlVReTVscmd0RFRuSlBQYkFXZHNOWC1QYW8?oc=5",
-          "source": "Nidwaldner Zeitung",
+          "source": "nidwaldnerzeitung.ch",
           "date": "17. Sep 2026"
         }
       ]
@@ -115,14 +109,8 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "The noise barrier system market is projected to reach US$6.4 billion by 2033, reflecting growing global investment in acoustic mitigation infrastructure. Research also highlights a pressing social dimension to noise pollution, revealing that the lowest-income populations bear a disproportionately heavy burden from its harmful effects.",
+      "summary": "Low-income populations bear a disproportionate burden of noise pollution, according to newly published research highlighting the intersection of environmental acoustics and social inequality. No further acoustically relevant findings were identified among the provided headlines.",
       "items": [
-        {
-          "title": "Noise Barrier System Market Set to Hit US$6.4 Billion by 2033 | - openPR.com",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcmJFcUttVDE4dVV6bDBnLVJDY3htOGxuYVEwNWxYLXZoWnF5QW1sUTgtcWt4X0d2TUt2ZlltdUxXeHQ2ekNlSXIxTERCZzBRd1JiclQ5MnJ0RnZ2SU9LWnVfQ0h3a1NZNWxYN2NHZ3BOQlVTUlc4d3hnTmNlYTJodDFyT2FMZTBlMVZCVDNTTHk1WEQ0SXFpSUN1SWhkdw?oc=5",
-          "source": "openPR.com",
-          "date": "14. Sep 2026"
-        },
         {
           "title": "Lowest income people hit hardest by noise pollution, research reveals - HQN",
           "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVdGQjFaM29KcGlUdWhGVlRLU2ZCTm9OREtIYWlVWHNuVTB4UTJjWGFuQm1hU2ZNRnpmRUM5a1NxRTVFMGtKU0M4MHB2WG9ScF95SThkXzgzV19zQUZlMVJCREZQNjlUVlZNNF9GWHZRbDh3dUw4SDBTajZHVnR6aG9IeXhoc2d6U0owS3cwZUNYVTJITTJZRlJHOEZfeVE?oc=5",
