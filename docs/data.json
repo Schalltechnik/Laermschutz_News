@@ -1,16 +1,16 @@
 {
-  "generated": "21. September 2026, 09:14 UTC",
+  "generated": "22. September 2026, 08:45 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Rund um die MotoGP in Spielberg sorgte Partylärm für rechtliche Konsequenzen, wobei einige steirische Fans sogar vor Gericht zogen und Anzeigen sowie Strafen verhängt wurden. Zudem müssen Anrainer in Kalsdorf aufgrund nächtlicher ÖBB-Arbeiten mit erheblichen Lärmbelästigungen rechnen.",
+      "summary": "Die ÖBB führen nächtliche Bauarbeiten in Kalsdorf durch, weshalb Anrainer mit erhöhter Lärmbelastung rechnen müssen. Rund um die MotoGP in Spielberg wurde der Partylärm der Fans behördlich kontrolliert, was zu Anzeigen und rechtlichen Auseinandersetzungen führte.",
       "items": [
         {
-          "title": "ÖBB arbeiten nachts in Kalsdorf: Anrainer müssen mit Lärm rechnen - 5 Minuten",
+          "title": "ÖBB arbeiten nachts in Kalsdorf: Anrainer müssen mit Lärm rechnen - 5min.at",
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSlNpZWFVTEZrRFFSUk9Fa1VTb294ejlkN3hDR1JxanlsQVBKVkhDREJrV3I4aDktUmdxOGNMbHpiTFlFa0pfMHBkTW42aTg4dEYxdE4xcU1Ed0E2LXhNdy1pb2RGRVExSk03Y1FsQTdFaWlCaW5yWWZ0ZW5aalpsYm9sQnB2M3hCdEFQYWc4cE9xYXBVX0pZM0FNalZrb3BNTkxab2dtNmZtWnY1WndnYnFyOA?oc=5",
-          "source": "5 Minuten",
+          "source": "5min.at",
           "date": "17. Sep 2026"
         },
         {
@@ -30,6 +30,12 @@
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORVZYaEJjOFBNWHZsUjRaM0hNazNRQWYtWFdXZzBHR2dZbDFGbjNnYVo0ZnNJZWN4bUQ5U0lqSllqS3BGZW9NMGNKM2dmLTZpTWpMOTNXN0pGWHBuc1JRUUVBdmE4V3pyWlFfTEtIYWhrdmhJWmlKRTBLaTRrQWVvOGFfYXNEMVU2VS01WS1pSlJoU180RjVOZ1lLOWhGVkVOTElRdlVEcVY0YzhwS25zcHZTWQ?oc=5",
           "source": "Kleine Zeitung",
           "date": "20. Sep 2026"
+        },
+        {
+          "title": "Formel-1-Rücktritt? Weltmeister bestätigt neue Option für 2027 - F1-Insider.com",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1mUjFJM2pGMDM1MG5WTENscW0yblFkeVJtdll0S0I4azJtSERPOTBVRTFtb3AzWHZjN09XYWF5MG9EMkJtY0V3M0xCUjVCUGcwVzNlTWZzV2M3ZGdwblk4Q0daOHpoQkh1N2o0ZVdnaUJUYmVZRmFGaUFvYUMtQQ?oc=5",
+          "source": "F1-Insider.com",
+          "date": "21. Sep 2026"
         },
         {
           "title": "So gewinnt Spielberg keine MotoGP-Fans zurück - LAOLA1",
@@ -69,12 +75,18 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "In der Schweiz sorgt der geplante Einsatz des Kampfjets F-35 am Militärflugplatz Emmen für Diskussionen, wobei der Lärmschutz für die umliegenden Gemeinden im Mittelpunkt des Streits steht. Der Fluglärm bleibt damit ein zentrales politisches und gesellschaftliches Thema in der Region Zentralschweiz.",
+      "summary": "Neue Forschungsergebnisse zeigen, dass bereits nächtlicher Straßenlärm ab 41 dB das Herz-Kreislauf-System schädigen kann. In der Schweiz sorgt der geplante Einsatz von F-35-Kampfjets für anhaltende Lärmschutzdebatten, wobei sowohl in Emmen als auch in Meiringen Konflikte um Lärmmessungen und Schutzauflagen bestehen.",
       "items": [
         {
-          "title": "F-35 in Emmen LU: Streit um Lärmschutz - srf.ch",
+          "title": "Straßenlärm in der Nacht: Bereits 41 dB schädigen Herz-Kreislauf - AD HOC NEWS",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQnZBRjh2dU1MeVZFcE5MWlhpcnZid1hVRVFITkxHeFMxYmNIbUozaWxheWFKUjNfMGg3d1RMTTVfZ0d6SWluMzhGcnlaVW1vZHIzUHNFMmczS3JjWWIwV0Exb2M2V1dITm5XaVFxWTlGWjY3NDViTGJjWWMyUHdVOEkxX2gtLV9uS3R6N1ZvYVN0RnJSeTJSa0pVanNUdGtBdDMzeGdlUFpiM3E1aDV0Q016MXZCUQ?oc=5",
+          "source": "AD HOC NEWS",
+          "date": "21. Sep 2026"
+        },
+        {
+          "title": "F-35 in Emmen LU: Streit um Lärmschutz - SRF",
           "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPQzB5OXhwZFdMcUJJY1dveEk2Nmozbkdoa3laN3RZUjg4bVpmQ3RBYUV0bjBqVml0cmZRd2ZSSFdtNjZUUVRfdmoweDNRdTVTT2tkWlVJYXlGREZnYTlYU2FjLXVCdldYb2JiTzAyY05WcnpZWlg2WG5tdVBqQ2ZNTDJzMVY5R25ZYkxHclNNR3FZd0pEa0dSMWVhTEloOUhoQ2pqbVdKT3RlbEZDNzJtSzB5Z1JZNFd5SldacktQZEJqNTZ0RURINllWUUZNeWRqblNFTFh3RGZyUQ?oc=5",
-          "source": "srf.ch",
+          "source": "SRF",
           "date": "15. Sep 2026"
         },
         {
@@ -82,6 +94,12 @@
           "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUkJZQjNLNlRnaHYxbEhTUW1WUS1vclprdS11SU5OemQ0QUw5dnpsY2hxdjBUTnB2TjhRV1RNNzhWaGswVUVwbmpfUzdhdThWbERkRXFWMS12WDRYN2c4QXpVaHoyWE1YZHRQUlVReTVscmd0RFRuSlBQYkFXZHNOWC1QYW8?oc=5",
           "source": "nidwaldnerzeitung.ch",
           "date": "17. Sep 2026"
+        },
+        {
+          "title": "F-35: Lärmtest in Meiringen scheitert erneut an Sicherheitsauflage - SRF",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNclhkeDQ1WDJLTFBIRUJsS1gzSDJRcGZHZnZPRWMwaUZPOXR2QmtIaGlaQVdNdHlCT19QVTJ3c0V1bXQwdDR1MnEzR1hjZERWb3FGOWUxakhTODYzR3Z1aGRVQTlvQTZiTl95NmtIQkRUVjJQUEFuQ3lQUndocU10Yk9FUFAwUzhsb3JJeVdzemtjMlphdnNETWhlLUdzUUtoTVdvV2RjeFhRSXhGNkFjSGpuSkV0TDh2?oc=5",
+          "source": "SRF",
+          "date": "21. Sep 2026"
         }
       ]
     },
@@ -96,12 +114,6 @@
           "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcDZPU0xBamV4WFdhYlg3TENfX1FUblhfR2V6NkkzS0lpRVl0S0psR2RzdVJPTXRDOGNvTDBjeXNMNVFtWjU4ZmdKOGstLThEdkN2ejdtTkkyT2dONHZJTmRSRVYyQVFiNFNZM0tuQk1NZWo1WHJYNGJlWWxvQVlYeTJjMldnNzBlTlJYTTNjQk0xcEhtMlZJZXFLQjJtQQ?oc=5",
           "source": "The Conversation",
           "date": "16. Sep 2026"
-        },
-        {
-          "title": "Vent Stack Silencer Units Market to Accelerate on Noise Compliance, Reaching 2035 Growth - IndexBox",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaHhqMHNXaThBMGJ5SllXdDVrcTJLVnRabGQwdWJYeGZfU3kxZDlIWHJzMWpOaUhGaWhxZFF3MDRBQnJSdVE4Z01OOTJpeThaT3JFUDJCX2FjUG5kQ1BwRC1JYjhfd2ZuTERkSmpFb0ZJTHN2SXkxUzVsZlozb18tNlphZU92ZDBCdmZEWDFfNW5MVkRlZHVrUk9BNEdyRmpadlRadHpreHlyaG5fc3lBYVVlVGJpbGVM?oc=5",
-          "source": "IndexBox",
-          "date": "14. Sep 2026"
         }
       ]
     },
@@ -109,8 +121,14 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Low-income populations bear a disproportionate burden of noise pollution, according to newly published research highlighting the intersection of environmental acoustics and social inequality. No further acoustically relevant findings were identified among the provided headlines.",
+      "summary": "Low-income populations bear a disproportionate burden of noise pollution, according to new research highlighting the intersection of socioeconomic inequality and acoustic environmental health. Meanwhile, the Netherlands has found an innovative repurposing solution for retired wind turbines, which may have implications for noise reduction and sustainable acoustic material development.",
       "items": [
+        {
+          "title": "In 2025, Netherlands turned retired wind-turbine… - inkl",
+          "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNSGFWeTZfZldHb2M2YTJjbkFYZnc0Wm5HSGp3RDhtWEotTmtVUjVaam01R3FDMjhmaW1XSmdFcFRlRTdXaDlseGEzWUJqRjd6LUctVzdaMjBNQ2N4YjZmVkJ6aGhhdFl4cldaWjZHVVV2TVZUQzFRQmFTTWk1ak9SbTV5cUZFQUdGc0ZpSnlqcHNZampmLWNEcmotSUt4dlFScEYtUVc1RmhkbElhTmYwd0tmdTFZQ0FULXRLcFlnYVJmZUNmTi1laFdaaVpRWU1WeUk4VC1OQU52cDJENkJwaGV5MEtrR3VtM2FXR3lVTnlXZ284Z05wUDdFeThXU1l6MC1xTDlqMHE?oc=5",
+          "source": "inkl",
+          "date": "15. Sep 2026"
+        },
         {
           "title": "Lowest income people hit hardest by noise pollution, research reveals - HQN",
           "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVdGQjFaM29KcGlUdWhGVlRLU2ZCTm9OREtIYWlVWHNuVTB4UTJjWGFuQm1hU2ZNRnpmRUM5a1NxRTVFMGtKU0M4MHB2WG9ScF95SThkXzgzV19zQUZlMVJCREZQNjlUVlZNNF9GWHZRbDh3dUw4SDBTajZHVnR6aG9IeXhoc2d6U0owS3cwZUNYVTJITTJZRlJHOEZfeVE?oc=5",
