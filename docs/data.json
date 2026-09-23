@@ -1,16 +1,16 @@
 {
-  "generated": "22. September 2026, 08:45 UTC",
+  "generated": "23. September 2026, 08:47 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Die ÖBB führen nächtliche Bauarbeiten in Kalsdorf durch, weshalb Anrainer mit erhöhter Lärmbelastung rechnen müssen. Rund um die MotoGP in Spielberg wurde der Partylärm der Fans behördlich kontrolliert, was zu Anzeigen und rechtlichen Auseinandersetzungen führte.",
+      "summary": "Die ÖBB führen nächtliche Bauarbeiten in Kalsdorf durch, weshalb Anrainer mit erhöhter Lärmbelastung rechnen müssen. Rund um die MotoGP in Spielberg sorgte Partylärm für behördliche Kontrollen und rechtliche Konsequenzen für steirische Fans, wobei einige Fälle sogar vor Gericht landeten.",
       "items": [
         {
-          "title": "ÖBB arbeiten nachts in Kalsdorf: Anrainer müssen mit Lärm rechnen - 5min.at",
+          "title": "ÖBB arbeiten nachts in Kalsdorf: Anrainer müssen mit Lärm rechnen - 5 Minuten",
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSlNpZWFVTEZrRFFSUk9Fa1VTb294ejlkN3hDR1JxanlsQVBKVkhDREJrV3I4aDktUmdxOGNMbHpiTFlFa0pfMHBkTW42aTg4dEYxdE4xcU1Ed0E2LXhNdy1pb2RGRVExSk03Y1FsQTdFaWlCaW5yWWZ0ZW5aalpsYm9sQnB2M3hCdEFQYWc4cE9xYXBVX0pZM0FNalZrb3BNTkxab2dtNmZtWnY1WndnYnFyOA?oc=5",
-          "source": "5min.at",
+          "source": "5 Minuten",
           "date": "17. Sep 2026"
         },
         {
@@ -61,13 +61,19 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Keine relevanten Meldungen gefunden.",
+      "summary": "Zehn Jahre nach dem Wiener Fluglärm-Ausschuss fällt die Bilanz für die betroffene Region Freilassing ernüchternd aus. Die russische Botschaft entschuldigte sich unterdessen für verursachten Lärm, nachdem dessen Ursache bekannt wurde.",
       "items": [
         {
           "title": "Ursache jetzt bekannt - Russische Botschaft entschuldigt sich für Lärm - Kronen Zeitung",
           "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5oN0VtN25vN01wa3VFMzhlSGFYU1J6MFRKOE1mS3RXdWlRWnIxX3dydktfRzNKdTRWaEY0U3lsSE5HQQ?oc=5",
           "source": "Kronen Zeitung",
           "date": "18. Sep 2026"
+        },
+        {
+          "title": "Zehn Jahre nach Fluglärm-Ausschuss in Wien: Eine ernüchternde Bilanz für Freilassing - pnp.de",
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNNVJjSlNuRUdCNmNKbXlYRTVPVnllSzMxaWV3R2tlVkFDSGxuMTZmXzhNTTR4b29PMUd1bTN4LVlxNEd3ZXQxTFJONnRvZ003b096NTlGNTBNZXNqNmNudENyM0ZxWmRELVprY01JeDI5bWYxRFdNdGlZMnB5b1BTRllwaXZnaEk0SUxVMk5SampQejlfUTRrREZXZU1BbEt1U3ROU1VnaGJxLWFEbWR3NXZ3SVpudl9zLTllZDhJM2hkM1pXcUQzRS1hOHlybkI4eGhYSTVlcE13YXM3am0yRk1TNlF1XzNn?oc=5",
+          "source": "pnp.de",
+          "date": "22. Sep 2026"
         }
       ]
     },
@@ -75,24 +81,12 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Neue Forschungsergebnisse zeigen, dass bereits nächtlicher Straßenlärm ab 41 dB das Herz-Kreislauf-System schädigen kann. In der Schweiz sorgt der geplante Einsatz von F-35-Kampfjets für anhaltende Lärmschutzdebatten, wobei sowohl in Emmen als auch in Meiringen Konflikte um Lärmmessungen und Schutzauflagen bestehen.",
+      "summary": "In der Schweiz sorgt der Fluglärm gleich doppelt für Schlagzeilen: Einerseits wird in Nidwalden intensiv über Fluglärm diskutiert, andererseits scheitert der Lärmtest des F-35-Kampfjets in Meiringen erneut an einer Sicherheitsauflage. Beide Entwicklungen verdeutlichen die anhaltenden Herausforderungen im Umgang mit militärischem und zivilem Fluglärm in der Schweiz.",
       "items": [
         {
-          "title": "Straßenlärm in der Nacht: Bereits 41 dB schädigen Herz-Kreislauf - AD HOC NEWS",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQnZBRjh2dU1MeVZFcE5MWlhpcnZid1hVRVFITkxHeFMxYmNIbUozaWxheWFKUjNfMGg3d1RMTTVfZ0d6SWluMzhGcnlaVW1vZHIzUHNFMmczS3JjWWIwV0Exb2M2V1dITm5XaVFxWTlGWjY3NDViTGJjWWMyUHdVOEkxX2gtLV9uS3R6N1ZvYVN0RnJSeTJSa0pVanNUdGtBdDMzeGdlUFpiM3E1aDV0Q016MXZCUQ?oc=5",
-          "source": "AD HOC NEWS",
-          "date": "21. Sep 2026"
-        },
-        {
-          "title": "F-35 in Emmen LU: Streit um Lärmschutz - SRF",
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPQzB5OXhwZFdMcUJJY1dveEk2Nmozbkdoa3laN3RZUjg4bVpmQ3RBYUV0bjBqVml0cmZRd2ZSSFdtNjZUUVRfdmoweDNRdTVTT2tkWlVJYXlGREZnYTlYU2FjLXVCdldYb2JiTzAyY05WcnpZWlg2WG5tdVBqQ2ZNTDJzMVY5R25ZYkxHclNNR3FZd0pEa0dSMWVhTEloOUhoQ2pqbVdKT3RlbEZDNzJtSzB5Z1JZNFd5SldacktQZEJqNTZ0RURINllWUUZNeWRqblNFTFh3RGZyUQ?oc=5",
-          "source": "SRF",
-          "date": "15. Sep 2026"
-        },
-        {
-          "title": "Viel Lärm um den Fluglärm - nidwaldnerzeitung.ch",
+          "title": "Viel Lärm um den Fluglärm - Nidwaldner Zeitung",
           "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUkJZQjNLNlRnaHYxbEhTUW1WUS1vclprdS11SU5OemQ0QUw5dnpsY2hxdjBUTnB2TjhRV1RNNzhWaGswVUVwbmpfUzdhdThWbERkRXFWMS12WDRYN2c4QXpVaHoyWE1YZHRQUlVReTVscmd0RFRuSlBQYkFXZHNOWC1QYW8?oc=5",
-          "source": "nidwaldnerzeitung.ch",
+          "source": "Nidwaldner Zeitung",
           "date": "17. Sep 2026"
         },
         {
@@ -110,10 +104,22 @@
       "summary": "No relevant news found.",
       "items": [
         {
+          "title": "Funding Call for Research on Underwater Noise Impacts on Marine Ecosystems - fundsforNGOs",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZXBWWWJ0MXBvQ3J0SnhxSmVUbnN1MFJDMmU4VVJqcEhILW51dXZZWlNuRzhjVDZLVkxDQ1pub3lhdS1yRlM2TFhzcnpjQXdNX3dRallOUXBzYlVod1BQRzFqaWFSaThGS2ZQNE5Rck9HZ1BUczRXanZLWjhsVjdYREJvTHhnOGFqS19nV056djRQZ3BFSVV0aENGR1dXZW9lQjF4dGtTcjljRVlWZmJqdkZFU0ctdVHSAbwBQVVfeXFMT0lxTS1jZWI1TS1nTURITnRrb1NPaDN4el91X001NWhvQ0FXQlJaUzJIcU9QWGlYbW0zcWZwRFliNlZCR1hXanNsWXNwR1BkSk4xR1dzM3JGZ3J4OW1HZ0NtbWNyRUJBaURqQkY2emFmMkJHUDVsUlZERl9XeGxEVXB1NENMMUgyQlpSSmgxbUdCejNUTmhHX1lGY0dUTWdOUmdFc3FpQ3g2NlhoQllwbWdxd0M4LUI1bGdKd2Q?oc=5",
+          "source": "fundsforNGOs",
+          "date": "17. Sep 2026"
+        },
+        {
           "title": "Are data centres actually noisy, and is this bad for our health? - The Conversation",
           "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcDZPU0xBamV4WFdhYlg3TENfX1FUblhfR2V6NkkzS0lpRVl0S0psR2RzdVJPTXRDOGNvTDBjeXNMNVFtWjU4ZmdKOGstLThEdkN2ejdtTkkyT2dONHZJTmRSRVYyQVFiNFNZM0tuQk1NZWo1WHJYNGJlWWxvQVlYeTJjMldnNzBlTlJYTTNjQk0xcEhtMlZJZXFLQjJtQQ?oc=5",
           "source": "The Conversation",
           "date": "16. Sep 2026"
+        },
+        {
+          "title": "Who Invented the Double Bass? | Origins, Physics, Sound, & Facts - Britannica",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5OQThjSG13LXpzSHlqcVJxS083U0xMU29XcTdST1V1R2lDcy1YaHF0dzVyVW55QUc3d0ZkWXU1ck40X2ZCdlBhMGRaT3NpYWoySl9hXzlNdHR5TzJKMm0yS1NZT09IUnB4SndnYVZn?oc=5",
+          "source": "Britannica",
+          "date": "18. Sep 2026"
         }
       ]
     },
@@ -121,27 +127,8 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Low-income populations bear a disproportionate burden of noise pollution, according to new research highlighting the intersection of socioeconomic inequality and acoustic environmental health. Meanwhile, the Netherlands has found an innovative repurposing solution for retired wind turbines, which may have implications for noise reduction and sustainable acoustic material development.",
-      "items": [
-        {
-          "title": "In 2025, Netherlands turned retired wind-turbine… - inkl",
-          "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNSGFWeTZfZldHb2M2YTJjbkFYZnc0Wm5HSGp3RDhtWEotTmtVUjVaam01R3FDMjhmaW1XSmdFcFRlRTdXaDlseGEzWUJqRjd6LUctVzdaMjBNQ2N4YjZmVkJ6aGhhdFl4cldaWjZHVVV2TVZUQzFRQmFTTWk1ak9SbTV5cUZFQUdGc0ZpSnlqcHNZampmLWNEcmotSUt4dlFScEYtUVc1RmhkbElhTmYwd0tmdTFZQ0FULXRLcFlnYVJmZUNmTi1laFdaaVpRWU1WeUk4VC1OQU52cDJENkJwaGV5MEtrR3VtM2FXR3lVTnlXZ284Z05wUDdFeThXU1l6MC1xTDlqMHE?oc=5",
-          "source": "inkl",
-          "date": "15. Sep 2026"
-        },
-        {
-          "title": "Lowest income people hit hardest by noise pollution, research reveals - HQN",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVdGQjFaM29KcGlUdWhGVlRLU2ZCTm9OREtIYWlVWHNuVTB4UTJjWGFuQm1hU2ZNRnpmRUM5a1NxRTVFMGtKU0M4MHB2WG9ScF95SThkXzgzV19zQUZlMVJCREZQNjlUVlZNNF9GWHZRbDh3dUw4SDBTajZHVnR6aG9IeXhoc2d6U0owS3cwZUNYVTJITTJZRlJHOEZfeVE?oc=5",
-          "source": "HQN",
-          "date": "17. Sep 2026"
-        },
-        {
-          "title": "Air pollution linked to higher suicide risk, international research suggests - The Guardian",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNb2VjSE1tUk1UT0YyLUxiaVJJNmV4RU53WDN5c0NlcURaYjlCYUtHM0lNSUFkS3lvSndMOHo5N3ZKRUsxaDg0S0NGYWp6VklhaDBRenFTRF9qM1hBVXlyVGlwSXNtcDJtWURUY3YyN1N5UnRGWGRyYnh3Z201RkFQd0ZwMlZCNGVYMzNzSzFEcGE4OUFxOEl3RHdYd0VvWHNRRHpFemVvSjgyRDhpQXQ5a0Y1MA?oc=5",
-          "source": "The Guardian",
-          "date": "15. Sep 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "bauakustik": {
       "label": "Bauakustik",
