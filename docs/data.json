@@ -1,11 +1,11 @@
 {
-  "generated": "23. September 2026, 08:47 UTC",
+  "generated": "24. September 2026, 08:42 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Die ÖBB führen nächtliche Bauarbeiten in Kalsdorf durch, weshalb Anrainer mit erhöhter Lärmbelastung rechnen müssen. Rund um die MotoGP in Spielberg sorgte Partylärm für behördliche Kontrollen und rechtliche Konsequenzen für steirische Fans, wobei einige Fälle sogar vor Gericht landeten.",
+      "summary": "Die ÖBB führen nächtliche Bauarbeiten in Kalsdorf durch, weshalb Anrainer mit erhöhter Lärmbelastung rechnen müssen. Rund um die MotoGP in Spielberg wurde der Partylärm behördlich kontrolliert, was zu Anzeigen und Gerichtsverfahren gegen steirische Fans führte.",
       "items": [
         {
           "title": "ÖBB arbeiten nachts in Kalsdorf: Anrainer müssen mit Lärm rechnen - 5 Minuten",
@@ -44,16 +44,16 @@
           "date": "18. Sep 2026"
         },
         {
-          "title": "Negativrekord in Spielberg, 2027 findet das Rennen wieder im August statt - Kleine Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaVRZRnhaRzBoNlo0M2dlaTFEMHY2WGx4X0ZGcnA5TV9KSFRXUF9kNGViYnMtVFJJT2VZa0FENElSa2dLNlQzNnk4Zlh5UXplSWFCUllMRjNmUk5mb0tZLW1hR21xUXJESUg4ZkdHdlBJcmhXaXB4akFIU3NLdzBTYmFKb3RVOUp2NUdaYUkwaVczUS1DSkhKbXVpZXQxNGc2cjdEY3p4dXZCRW8?oc=5",
-          "source": "Kleine Zeitung",
-          "date": "20. Sep 2026"
-        },
-        {
           "title": "KTM-Pilot Acosta mit Trainingsbestzeit in Spielberg - Kleine Zeitung",
           "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdjhpdVJVajYwNDdVMjMyVG94VmlST0FJeVZBd2ctNUdvZWl4Wm83VFZIRlpSYlhjSGVUajhVQzQtVm92a3V4enJFMWxXa1E3VTlQR3NsQzVuWm81cFUtMnkzSEZLYjJkbktFWUhhanZMWU4tZExLYm96Wlh4NVJTc0dTaTk5aGlrTEphS2g3Zl9JSWNYNXYteGZHbEFfZw?oc=5",
           "source": "Kleine Zeitung",
           "date": "18. Sep 2026"
+        },
+        {
+          "title": "Negativrekord in Spielberg, 2027 findet das Rennen wieder im August statt - Kleine Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaVRZRnhaRzBoNlo0M2dlaTFEMHY2WGx4X0ZGcnA5TV9KSFRXUF9kNGViYnMtVFJJT2VZa0FENElSa2dLNlQzNnk4Zlh5UXplSWFCUllMRjNmUk5mb0tZLW1hR21xUXJESUg4ZkdHdlBJcmhXaXB4akFIU3NLdzBTYmFKb3RVOUp2NUdaYUkwaVczUS1DSkhKbXVpZXQxNGc2cjdEY3p4dXZCRW8?oc=5",
+          "source": "Kleine Zeitung",
+          "date": "20. Sep 2026"
         }
       ]
     },
@@ -61,7 +61,7 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Zehn Jahre nach dem Wiener Fluglärm-Ausschuss fällt die Bilanz für die betroffene Region Freilassing ernüchternd aus. Die russische Botschaft entschuldigte sich unterdessen für verursachten Lärm, nachdem dessen Ursache bekannt wurde.",
+      "summary": "Zehn Jahre nach dem Fluglärm-Ausschuss in Wien fällt die Bilanz für die betroffene Stadt Freilassing ernüchternd aus. Mit dem neuen Schallrechner von buildingTIMES steht zudem ein aktuelles digitales Werkzeug zur Verfügung, das im Bereich Lärmschutz und Schallberechnung eingesetzt werden kann.",
       "items": [
         {
           "title": "Ursache jetzt bekannt - Russische Botschaft entschuldigt sich für Lärm - Kronen Zeitung",
@@ -70,10 +70,16 @@
           "date": "18. Sep 2026"
         },
         {
-          "title": "Zehn Jahre nach Fluglärm-Ausschuss in Wien: Eine ernüchternde Bilanz für Freilassing - pnp.de",
+          "title": "Zehn Jahre nach Fluglärm-Ausschuss in Wien: Eine ernüchternde Bilanz für Freilassing - Pnp.de",
           "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNNVJjSlNuRUdCNmNKbXlYRTVPVnllSzMxaWV3R2tlVkFDSGxuMTZmXzhNTTR4b29PMUd1bTN4LVlxNEd3ZXQxTFJONnRvZ003b096NTlGNTBNZXNqNmNudENyM0ZxWmRELVprY01JeDI5bWYxRFdNdGlZMnB5b1BTRllwaXZnaEk0SUxVMk5SampQejlfUTRrREZXZU1BbEt1U3ROU1VnaGJxLWFEbWR3NXZ3SVpudl9zLTllZDhJM2hkM1pXcUQzRS1hOHlybkI4eGhYSTVlcE13YXM3am0yRk1TNlF1XzNn?oc=5",
-          "source": "pnp.de",
+          "source": "Pnp.de",
           "date": "22. Sep 2026"
+        },
+        {
+          "title": "Neuer Schallrechner - buildingTIMES",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE01NjlPaU5rQ0VPdExtbzNvV3NqSVJoaTZqSWJfUU5HWHRTdnRHRG1VdXR5OUh3Nnd0SkZyam96dU1rX1RfOFhaWE1raHNVb01STVozaWJacnZ5UmFCbEs2aWxacXdESnA5cW0w?oc=5",
+          "source": "buildingTIMES",
+          "date": "24. Sep 2026"
         }
       ]
     },
@@ -81,13 +87,13 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "In der Schweiz sorgt der Fluglärm gleich doppelt für Schlagzeilen: Einerseits wird in Nidwalden intensiv über Fluglärm diskutiert, andererseits scheitert der Lärmtest des F-35-Kampfjets in Meiringen erneut an einer Sicherheitsauflage. Beide Entwicklungen verdeutlichen die anhaltenden Herausforderungen im Umgang mit militärischem und zivilem Fluglärm in der Schweiz.",
+      "summary": "Bereits nächtlicher Straßenlärm ab 41 dB kann laut aktuellen Erkenntnissen das Herz-Kreislauf-System schädigen. In der Schweiz scheitert der Lärmtest des Kampfjets F-35 in Meiringen erneut an Sicherheitsauflagen.",
       "items": [
         {
-          "title": "Viel Lärm um den Fluglärm - Nidwaldner Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUkJZQjNLNlRnaHYxbEhTUW1WUS1vclprdS11SU5OemQ0QUw5dnpsY2hxdjBUTnB2TjhRV1RNNzhWaGswVUVwbmpfUzdhdThWbERkRXFWMS12WDRYN2c4QXpVaHoyWE1YZHRQUlVReTVscmd0RFRuSlBQYkFXZHNOWC1QYW8?oc=5",
-          "source": "Nidwaldner Zeitung",
-          "date": "17. Sep 2026"
+          "title": "Straßenlärm in der Nacht: Bereits 41 dB schädigen Herz-Kreislauf - AD HOC NEWS",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQnZBRjh2dU1MeVZFcE5MWlhpcnZid1hVRVFITkxHeFMxYmNIbUozaWxheWFKUjNfMGg3d1RMTTVfZ0d6SWluMzhGcnlaVW1vZHIzUHNFMmczS3JjWWIwV0Exb2M2V1dITm5XaVFxWTlGWjY3NDViTGJjWWMyUHdVOEkxX2gtLV9uS3R6N1ZvYVN0RnJSeTJSa0pVanNUdGtBdDMzeGdlUFpiM3E1aDV0Q016MXZCUQ?oc=5",
+          "source": "AD HOC NEWS",
+          "date": "21. Sep 2026"
         },
         {
           "title": "F-35: Lärmtest in Meiringen scheitert erneut an Sicherheitsauflage - SRF",
@@ -104,21 +110,9 @@
       "summary": "No relevant news found.",
       "items": [
         {
-          "title": "Funding Call for Research on Underwater Noise Impacts on Marine Ecosystems - fundsforNGOs",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZXBWWWJ0MXBvQ3J0SnhxSmVUbnN1MFJDMmU4VVJqcEhILW51dXZZWlNuRzhjVDZLVkxDQ1pub3lhdS1yRlM2TFhzcnpjQXdNX3dRallOUXBzYlVod1BQRzFqaWFSaThGS2ZQNE5Rck9HZ1BUczRXanZLWjhsVjdYREJvTHhnOGFqS19nV056djRQZ3BFSVV0aENGR1dXZW9lQjF4dGtTcjljRVlWZmJqdkZFU0ctdVHSAbwBQVVfeXFMT0lxTS1jZWI1TS1nTURITnRrb1NPaDN4el91X001NWhvQ0FXQlJaUzJIcU9QWGlYbW0zcWZwRFliNlZCR1hXanNsWXNwR1BkSk4xR1dzM3JGZ3J4OW1HZ0NtbWNyRUJBaURqQkY2emFmMkJHUDVsUlZERl9XeGxEVXB1NENMMUgyQlpSSmgxbUdCejNUTmhHX1lGY0dUTWdOUmdFc3FpQ3g2NlhoQllwbWdxd0M4LUI1bGdKd2Q?oc=5",
-          "source": "fundsforNGOs",
-          "date": "17. Sep 2026"
-        },
-        {
-          "title": "Are data centres actually noisy, and is this bad for our health? - The Conversation",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcDZPU0xBamV4WFdhYlg3TENfX1FUblhfR2V6NkkzS0lpRVl0S0psR2RzdVJPTXRDOGNvTDBjeXNMNVFtWjU4ZmdKOGstLThEdkN2ejdtTkkyT2dONHZJTmRSRVYyQVFiNFNZM0tuQk1NZWo1WHJYNGJlWWxvQVlYeTJjMldnNzBlTlJYTTNjQk0xcEhtMlZJZXFLQjJtQQ?oc=5",
-          "source": "The Conversation",
-          "date": "16. Sep 2026"
-        },
-        {
-          "title": "Who Invented the Double Bass? | Origins, Physics, Sound, & Facts - Britannica",
+          "title": "Who Invented the Double Bass? | Origins, Physics, Sound, & Facts - britannica.com",
           "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5OQThjSG13LXpzSHlqcVJxS083U0xMU29XcTdST1V1R2lDcy1YaHF0dzVyVW55QUc3d0ZkWXU1ck40X2ZCdlBhMGRaT3NpYWoySl9hXzlNdHR5TzJKMm0yS1NZT09IUnB4SndnYVZn?oc=5",
-          "source": "Britannica",
+          "source": "britannica.com",
           "date": "18. Sep 2026"
         }
       ]
