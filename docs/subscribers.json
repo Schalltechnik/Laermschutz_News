@@ -20,6 +20,13 @@
     "monthly": true,
     "active": true
   },
+  {
+    "email": "helfried.gartner@bmluk.gv.at",
+    "name": "Helfried Gartner",
+    "weekly": true,
+    "monthly": true,
+    "active": true
+  },
 {
     "email": "lackner_florian@gmx.at",
     "name": "Florian Lackner",
@@ -29,7 +36,7 @@
   },
     {
     "email": "christian.lammer@stmk.gv.at",
-    "name": "Florian Lackner",
+    "name": "Christian Lammer",
     "weekly": true,
     "monthly": true,
     "active": true
@@ -43,14 +50,21 @@
   },
       {
     "email": "marco.perdacher@stmk.gv.at",
-    "name": "Florian Lackner",
+    "name": "Marco Perdacher",
     "weekly": true,
     "monthly": true,
     "active": true
   },
       {
     "email": "manuel.lienhart@stmk.gv.at",
-    "name": "Florian Lackner",
+    "name": "Manuel Lienhart",
+    "weekly": true,
+    "monthly": true,
+    "active": true
+  },
+  {
+    "email": "andreas.langer@ktn.gv.at",
+    "name": "Andreas Langer",
     "weekly": true,
     "monthly": true,
     "active": true
