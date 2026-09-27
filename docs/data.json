@@ -1,29 +1,17 @@
 {
-  "generated": "26. September 2026, 08:47 UTC",
+  "generated": "27. September 2026, 09:28 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Steirische MotoGP-Fans wehren sich juristisch gegen Lärmbeschränkungen rund um den Spielberg-Grand-Prix, während die Veranstaltung selbst trotz einiger Anzeigen und Festnahmen vergleichsweise ruhig verlief. Der Spielberg-Kurs verzeichnete zudem einen Negativrekord, wobei das Rennen ab 2027 wieder in den August verlegt wird.",
+      "summary": "Keine relevanten Meldungen gefunden.",
       "items": [
         {
-          "title": "Für ihren „Party-Lärm“ ziehen steirische MotoGP-Fans sogar vor Gericht - Kleine Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMEVyd2xrczRkU2pYY3JkNkdIQnpwSXRycUJKOFpEMXg2Sk5xLUNCSG9tTE8yV2NiTFlZZ3dteFZPYjJ0YURRbWxwdEtIdFpjREgwc3VTaFZKRkN4WDVCblZpSkNiN09xbFdHaHlaVGNzNFZDT1BJbGpuSE1lRmRBRURCeXFBdVZHaGFodzJNM0lfV09CbU1TTjlFOU04cDVyaWFnTDgzeXh0Q2NYa20zYmJ1R3hoVEk?oc=5",
-          "source": "Kleine Zeitung",
-          "date": "19. Sep 2026"
-        },
-        {
           "title": "POV: Willkommen im Wahnsinn von Misano - motogp.com",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQeWFVZzRrTFM4bXJXZDlZQjVJVlJ0TzBaLXlJdjRoaWV0a2thR3ZNMGd4X05KeTliLTJZdEZscjZCbmpRNGlUanVsd2l0TWU1T1VTR283MTZxb3ExMzNFamJiUHVsMkdDaHhSS2xFWmVyUldiekxvb0Y3ZVVjTENzbUoxWFlRWUdLd2JVSHpJRkdFdVNzTV9HWUFJY1ZucTBZSmpFVC1HRzhKNW8?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNkZMaVhOSWNRRHJ2UzBXakNndEpWR0xCUXpZYkFpeU9CQ092U0szTURMS0s0UFhvUE1xRWQ0RVFfYkNrTGV0YnRNR0thU013NzRwUnZ5YnMwYnMwdkhoZkZDc1NMM2EwMmRheG14Q2dBWkdJbDdZZzFYRnAzVVR6ZGc5Z0cyMkNSYUkzczdRTlBMYWpUVk4tbDRmSUpkTW5wd0FHNVdmUDR3UQ?oc=5",
           "source": "motogp.com",
           "date": "26. Sep 2026"
-        },
-        {
-          "title": "Formel-1-Rücktritt? Weltmeister bestätigt neue Option für 2027 - F1-Insider.com",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1mUjFJM2pGMDM1MG5WTENscW0yblFkeVJtdll0S0I4azJtSERPOTBVRTFtb3AzWHZjN09XYWF5MG9EMkJtY0V3M0xCUjVCUGcwVzNlTWZzV2M3ZGdwblk4Q0daOHpoQkh1N2o0ZVdnaUJUYmVZRmFGaUFvYUMtQQ?oc=5",
-          "source": "F1-Insider.com",
-          "date": "21. Sep 2026"
         },
         {
           "title": "Ruhige MotoGP, aber einige Anzeigen, Festnahmen & Strafen für Fans - Kleine Zeitung",
@@ -43,13 +31,19 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Zehn Jahre nach Einrichtung des Fluglärm-Ausschusses in Wien fällt die Bilanz für die betroffene Region Freilassing ernüchternd aus, was auf weiterhin ungelöste Lärmschutzprobleme im Bereich des Flugverkehrs hindeutet. Ergänzend dazu wurde ein neuer Schallrechner vorgestellt, der offenbar als digitales Werkzeug zur Berechnung und Bewertung von Schallschutzmaßnahmen im Bauwesen dienen soll.",
+      "summary": "In Wien zieht der Fluglärm-Ausschuss nach zehn Jahren eine ernüchternde Bilanz für die betroffene Region Freilassing, während im Wiener Bezirk Brigittenau konkrete Lärmschutzprojekte geplant und umgesetzt werden sollen. Ergänzend dazu steht mit dem neuen Schallrechner ein digitales Tool zur Verfügung, das die akustische Planung im Bauwesen unterstützen soll.",
       "items": [
         {
-          "title": "Zehn Jahre nach Fluglärm-Ausschuss in Wien: Eine ernüchternde Bilanz für Freilassing - pnp.de",
+          "title": "Zehn Jahre nach Fluglärm-Ausschuss in Wien: Eine ernüchternde Bilanz für Freilassing - Pnp.de",
           "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNNVJjSlNuRUdCNmNKbXlYRTVPVnllSzMxaWV3R2tlVkFDSGxuMTZmXzhNTTR4b29PMUd1bTN4LVlxNEd3ZXQxTFJONnRvZ003b096NTlGNTBNZXNqNmNudENyM0ZxWmRELVprY01JeDI5bWYxRFdNdGlZMnB5b1BTRllwaXZnaEk0SUxVMk5SampQejlfUTRrREZXZU1BbEt1U3ROU1VnaGJxLWFEbWR3NXZ3SVpudl9zLTllZDhJM2hkM1pXcUQzRS1hOHlybkI4eGhYSTVlcE13YXM3am0yRk1TNlF1XzNn?oc=5",
-          "source": "pnp.de",
+          "source": "Pnp.de",
           "date": "22. Sep 2026"
+        },
+        {
+          "title": "Von Baum- bis Lärmschutz: Diese Projekte kommen auf die Brigittenau zu - MeinBezirk.at",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcHg3VGZBeXN6Wmhoem40eG9oSVRSSU8zUnprYS0zdk1IZXcyeVpxcEhZM1k2eXctSWoza3VUeFdjQlUxZXQ5eHdTWWxCc0h1bzd1UlR2VnNZMFI3UldKc0RIdElZNXB3Z19WNW5nRTU3d2daZVNqWC1TU0ppVXRFWjlKM1ZPZ3Mxbmlob0d5SXpKNmFjRUt5OGZSTU5YQkE3dUtV?oc=5",
+          "source": "MeinBezirk.at",
+          "date": "24. Sep 2026"
         },
         {
           "title": "Neuer Schallrechner - buildingTIMES",
@@ -66,9 +60,9 @@
       "summary": "Keine relevanten Meldungen gefunden.",
       "items": [
         {
-          "title": "Faido TI: Lärmschutz-Bau auf A2 bringt Tempo 80 - Unfallmeldungen.ch",
+          "title": "Faido TI: Lärmschutz-Bau auf A2 bringt Tempo 80 - unfallmeldungen.ch",
           "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNQ2lNSVVQcjQ0N09iOFZJa0FzSFJoSExGTjJJR3ZJS3pyM1hxaGlnZl93MnBwY3ZXbS1mZWpVWXNSdmFKckR5Q3lURUJfc0lUM1BWcEJGZ01zTkV4ZUtERTdKY082RXVnQVhlVEFyc2c2a2huVncxbjI1and2SEFMWndzMEk3TXhuYjY3UzA2eW5sSE9vYTlJeEprRDdrMnhkQjUzdHY4ZHdMUTRveHgxNWphTXVEUkVtYmFkX0VQTXloZ1k2X1FEbWRsdW13R0J3SnBsYWNwZTFCQQ?oc=5",
-          "source": "Unfallmeldungen.ch",
+          "source": "unfallmeldungen.ch",
           "date": "24. Sep 2026"
         }
       ]
