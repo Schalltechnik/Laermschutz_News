@@ -1,5 +1,5 @@
 {
-  "generated": "27. September 2026, 09:28 UTC",
+  "generated": "28. September 2026, 10:06 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -12,18 +12,6 @@
           "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNkZMaVhOSWNRRHJ2UzBXakNndEpWR0xCUXpZYkFpeU9CQ092U0szTURMS0s0UFhvUE1xRWQ0RVFfYkNrTGV0YnRNR0thU013NzRwUnZ5YnMwYnMwdkhoZkZDc1NMM2EwMmRheG14Q2dBWkdJbDdZZzFYRnAzVVR6ZGc5Z0cyMkNSYUkzczdRTlBMYWpUVk4tbDRmSUpkTW5wd0FHNVdmUDR3UQ?oc=5",
           "source": "motogp.com",
           "date": "26. Sep 2026"
-        },
-        {
-          "title": "Ruhige MotoGP, aber einige Anzeigen, Festnahmen & Strafen für Fans - Kleine Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORVZYaEJjOFBNWHZsUjRaM0hNazNRQWYtWFdXZzBHR2dZbDFGbjNnYVo0ZnNJZWN4bUQ5U0lqSllqS3BGZW9NMGNKM2dmLTZpTWpMOTNXN0pGWHBuc1JRUUVBdmE4V3pyWlFfTEtIYWhrdmhJWmlKRTBLaTRrQWVvOGFfYXNEMVU2VS01WS1pSlJoU180RjVOZ1lLOWhGVkVOTElRdlVEcVY0YzhwS25zcHZTWQ?oc=5",
-          "source": "Kleine Zeitung",
-          "date": "20. Sep 2026"
-        },
-        {
-          "title": "Negativrekord in Spielberg, 2027 findet das Rennen wieder im August statt - Kleine Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaVRZRnhaRzBoNlo0M2dlaTFEMHY2WGx4X0ZGcnA5TV9KSFRXUF9kNGViYnMtVFJJT2VZa0FENElSa2dLNlQzNnk4Zlh5UXplSWFCUllMRjNmUk5mb0tZLW1hR21xUXJESUg4ZkdHdlBJcmhXaXB4akFIU3NLdzBTYmFKb3RVOUp2NUdaYUkwaVczUS1DSkhKbXVpZXQxNGc2cjdEY3p4dXZCRW8?oc=5",
-          "source": "Kleine Zeitung",
-          "date": "20. Sep 2026"
         }
       ]
     },
@@ -31,13 +19,25 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "In Wien zieht der Fluglärm-Ausschuss nach zehn Jahren eine ernüchternde Bilanz für die betroffene Region Freilassing, während im Wiener Bezirk Brigittenau konkrete Lärmschutzprojekte geplant und umgesetzt werden sollen. Ergänzend dazu steht mit dem neuen Schallrechner ein digitales Tool zur Verfügung, das die akustische Planung im Bauwesen unterstützen soll.",
+      "summary": "In Österreich werden derzeit verstärkt Lärmschutzwände errichtet, wobei aktuelle Projekte etwa im Wiener Bezirk Brigittenau geplant sind. Zudem steht mit einem neuen Schallrechner ein digitales Werkzeug zur Verfügung, das die Lärmschutzplanung unterstützen soll.",
       "items": [
+        {
+          "title": "Bis zu neun Meter hoch: Warum gerade so viele Lärmschutzwände gebaut werden - Oberösterreichische Nachrichten",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbUVSLW5QY0RYLTNlWTBaSDZwdU5qbjk3cHdKNk1UanNGbnk4WXpibGlldmZYeTQ4dUhjUE1SR2VXeXZMbHFTRGplWV9fRUZrVzJsUFdHVFlnNEhkemFCY3FJd2ZiM1VVTWwzRHZoMm1GRnc0WUxSV0dvRUJJcjJ2UTNaMVdCMVh1R2QzZHFhSVBSaE9qYnJCdTZNX0ZYUQ?oc=5",
+          "source": "Oberösterreichische Nachrichten",
+          "date": "28. Sep 2026"
+        },
         {
           "title": "Zehn Jahre nach Fluglärm-Ausschuss in Wien: Eine ernüchternde Bilanz für Freilassing - Pnp.de",
           "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNNVJjSlNuRUdCNmNKbXlYRTVPVnllSzMxaWV3R2tlVkFDSGxuMTZmXzhNTTR4b29PMUd1bTN4LVlxNEd3ZXQxTFJONnRvZ003b096NTlGNTBNZXNqNmNudENyM0ZxWmRELVprY01JeDI5bWYxRFdNdGlZMnB5b1BTRllwaXZnaEk0SUxVMk5SampQejlfUTRrREZXZU1BbEt1U3ROU1VnaGJxLWFEbWR3NXZ3SVpudl9zLTllZDhJM2hkM1pXcUQzRS1hOHlybkI4eGhYSTVlcE13YXM3am0yRk1TNlF1XzNn?oc=5",
           "source": "Pnp.de",
           "date": "22. Sep 2026"
+        },
+        {
+          "title": "In Österreich: Parken Sie mit der deutschen Parkscheibe, kann das teuer werden - CHIP",
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNWjY3ZXl0YUdEV2Y5b0tYT2ZTcGpDVnlQalAwLW5PMUhRczg5Qi1kNC15dWQ0TUVYU1FhVXZlQ3ZPakU2QUo1Zkh5Wm1MRlFmTFI3N1F4bFpXQlRLMFVfc19FM0V3THZMSFdMTElDeDA5YjBPeWVLdGVNME9uR0RFdFhXckxFVWFXdnNIVUNMc2ZTZG1MVzZiZ2haTkZocDIyZ3RwMkVvT2tvRFR2RXlVc1hKNXZXQWNFekxlQXgxTU1tZUdYV21VSU50aGJPWVBuTlVIQ2JTcExQWk1iLUV2VEpQdE5tb1pidFZ2WHVB?oc=5",
+          "source": "CHIP",
+          "date": "25. Sep 2026"
         },
         {
           "title": "Von Baum- bis Lärmschutz: Diese Projekte kommen auf die Brigittenau zu - MeinBezirk.at",
@@ -57,15 +57,8 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Keine relevanten Meldungen gefunden.",
-      "items": [
-        {
-          "title": "Faido TI: Lärmschutz-Bau auf A2 bringt Tempo 80 - unfallmeldungen.ch",
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNQ2lNSVVQcjQ0N09iOFZJa0FzSFJoSExGTjJJR3ZJS3pyM1hxaGlnZl93MnBwY3ZXbS1mZWpVWXNSdmFKckR5Q3lURUJfc0lUM1BWcEJGZ01zTkV4ZUtERTdKY082RXVnQVhlVEFyc2c2a2huVncxbjI1and2SEFMWndzMEk3TXhuYjY3UzA2eW5sSE9vYTlJeEprRDdrMnhkQjUzdHY4ZHdMUTRveHgxNWphTXVEUkVtYmFkX0VQTXloZ1k2X1FEbWRsdW13R0J3SnBsYWNwZTFCQQ?oc=5",
-          "source": "unfallmeldungen.ch",
-          "date": "24. Sep 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "europe": {
       "label": "Europa",
