@@ -1,5 +1,5 @@
 {
-  "generated": "01. October 2026, 10:24 UTC",
+  "generated": "02. October 2026, 09:59 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -25,34 +25,15 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "In Österreich werden derzeit verstärkt Lärmschutzwände errichtet, die bis zu neun Meter Höhe erreichen können. Die Gründe für diesen Bauboom werden aktuell in den Oberösterreichischen Nachrichten thematisiert.",
-      "items": [
-        {
-          "title": "Bis zu neun Meter hoch: Warum gerade so viele Lärmschutzwände gebaut werden - Oberösterreichische Nachrichten",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbUVSLW5QY0RYLTNlWTBaSDZwdU5qbjk3cHdKNk1UanNGbnk4WXpibGlldmZYeTQ4dUhjUE1SR2VXeXZMbHFTRGplWV9fRUZrVzJsUFdHVFlnNEhkemFCY3FJd2ZiM1VVTWwzRHZoMm1GRnc0WUxSV0dvRUJJcjJ2UTNaMVdCMVh1R2QzZHFhSVBSaE9qYnJCdTZNX0ZYUQ?oc=5",
-          "source": "Oberösterreichische Nachrichten",
-          "date": "28. Sep 2026"
-        },
-        {
-          "title": "In Österreich: Parken Sie mit der deutschen Parkscheibe, kann das teuer werden - CHIP",
-          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNWjY3ZXl0YUdEV2Y5b0tYT2ZTcGpDVnlQalAwLW5PMUhRczg5Qi1kNC15dWQ0TUVYU1FhVXZlQ3ZPakU2QUo1Zkh5Wm1MRlFmTFI3N1F4bFpXQlRLMFVfc19FM0V3THZMSFdMTElDeDA5YjBPeWVLdGVNME9uR0RFdFhXckxFVWFXdnNIVUNMc2ZTZG1MVzZiZ2haTkZocDIyZ3RwMkVvT2tvRFR2RXlVc1hKNXZXQWNFekxlQXgxTU1tZUdYV21VSU50aGJPWVBuTlVIQ2JTcExQWk1iLUV2VEpQdE5tb1pidFZ2WHVB?oc=5",
-          "source": "CHIP",
-          "date": "25. Sep 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "dach": {
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Am Flughafen Hamburg ist die Zahl der Fluglärmbeschwerden gestiegen, wobei diese von einer kleineren Gruppe von Menschen eingereicht werden. Die Deutsche Bahn arbeitet unterdessen an leiseren Bremssystemen, um den Schienenverkehrslärm zu reduzieren.",
+      "summary": "Keine relevanten Meldungen gefunden.",
       "items": [
-        {
-          "title": "Flughafen Hamburg - Fluglärm: Mehr Beschwerden von weniger Menschen - Wirtschaft - SZ.de - SZ.de",
-          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOWlRWTmNmLUZ0NVVkS2dVdFYtX1pITlBiUDctNHRwSFNKUjg1YTZpMm0yT25VaWxDOWsxMTh3ZXFvdndXYkZIOG9OX2wzSU1EMmkyanhiRDltT3JRRElwUnNTRjY1NDdsSDVrVGlINUZ2TFk0X2RYX3J0SXZrYkJXNlV6aDBuN1BUM2xTR1JkR0RSOXJRY3hKZmhVbjd0MHFhR2gwUUM5T000N2IwbElSVXFBcWtDX3QxMXpadEJUa181QXpiZXNUMlFsaHp6V3JBVEdqSW1hbF9FYjhvY3NrU1VXbkJjN29VWWc?oc=5",
-          "source": "SZ.de",
-          "date": "29. Sep 2026"
-        },
         {
           "title": "Leise Bremsen bei der Deutschen Bahn - DB Konzern",
           "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE95US1IcTEyTWF0ZkwzLVIxN0lUNEpsQ1VtdEdtNU10RTFtVzRiNkxPT0dtZmlWNGE0T0ZDdWZLZHBhUnU3T29DZVpKOHZ0RnJSWkduaTdaM0doT0hFMkpUaFkzMGVnZVhncjgyT29LTnhpbWNNa2Q4REZjRVE?oc=5",
@@ -65,7 +46,7 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Noise pollution continues to be flagged as a significant public health concern, as highlighted by Il Sole 24 ORE, while residents near data centres in Slough are raising health fears linked to noise disturbance, pointing to growing pressure on European regulators to address emerging urban noise sources. Meanwhile, a German-language report notes a measurable reduction in traffic noise, suggesting that some European noise mitigation measures may be yielding positive results.",
+      "summary": "Noise pollution continues to pose significant threats to public health across Europe, as highlighted by reporting from Il Sole 24 Ore, while residents near data centres in Slough are raising concerns about the health impacts of noise from this rapidly expanding infrastructure sector. Meanwhile, traffic noise levels have reportedly decreased noticeably in some areas, suggesting that certain noise mitigation measures may be yielding positive results.",
       "items": [
         {
           "title": "Noise pollution poses a threat to health - Il Sole 24 ORE",
@@ -84,12 +65,6 @@
           "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeWxSQVNGVXQyV2V5N3FGNUhjcDJaRERSWlBPX29kZ1V5UEU4TEtZVHVSSzFtd1FnSFBqM1lrdDg2cFlFTDV5UW1DbjdGdVlOMEdsVXhJUmFGRWdvczgwb3dFTnQ2SHI3dkxSSUFvNGptUHI2Z3JIcXkxUVJkMFo5a2hOWHFpOF8tWmZzaDVZRW5vY1ZiT0dKdg?oc=5",
           "source": "The Nerve",
           "date": "29. Sep 2026"
-        },
-        {
-          "title": "Florida Atlantic University Finds Blacktip Sharks Detect Low-Frequency Sounds Up to 74 Meters Away - inkorr.com",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOaF9wZ1V2N0VZRFN1ZnRpb3hpLXpjdkU3RnNDbURETHE4Q2pGQk03UU8zcTVnb2JDNXFQN3pLYnNSaXNFQ3p2YjR0VlZTR3FjRVFPU094QjA5OTZwU2ppaG9kVXhpUVJGczRyM1NHNWgtMFB1bGVzRTVacUFILV96WnB3di1rMG5WbVhOLVRYcURsRzhFR09Sa2xUdk1LNnNSWlB1M1VBNTJpOGtkQjNqM09QaGdOZ0x0RGRwWlJNQWtLYkhvM2pGdmp5YXo1VGtSTnNVak1DVdIB3AFBVV95cUxQNl9WUkF2Y2RhVE5EbHJLNDBkRFNzSWRNT21ub2wzdGplbmhKZkEzX3FNWDc0Z2E1LWlTc0pWdFRKcHhNYy12RjhjZ0xKMG1rbTVscFVQaXE2S051TjRXSUsxczVKZHItX25UVnNGZXhjelpZRmlseExVcDY3VG43T3hWa1YwUGs4MzlsSzhqZEZXM1ZrMkxqMFlER3pRTjI1d0toWDZKcVJmZzFWLS0yVi0tbDVfeElNZmJ0eXZkYkVTcktaTHZhNUlRS3RlVlMyc3FkSTh1UVNYdDNQ?oc=5",
-          "source": "inkorr.com",
-          "date": "1. Oct 2026"
         }
       ]
     },
@@ -97,13 +72,19 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "A market study highlights the expanding road noise prevention materials industry, projected to reach $0.44 billion, reflecting growing demand for acoustic insulation solutions. Ongoing research and discussion are also being directed toward regulating sound levels and low-frequency noise, signaling increased scientific and regulatory attention to noise control.",
+      "summary": "Research into road noise prevention materials highlights a growing industry projected to reach $0.44 billion, while the acoustic camera market is forecast to expand dramatically to USD 190.81 billion by 2031. Ongoing research and discussion surrounding the limitation of sound levels and low-frequency noise further underscores the increasing scientific and regulatory attention being directed toward acoustics and noise control.",
       "items": [
         {
-          "title": "Study on Road Noise Prevention Materials Examines Industry Expansion to $0.44 Billion - openpr.com",
+          "title": "Study on Road Noise Prevention Materials Examines Industry Expansion to $0.44 Billion - openPR.com",
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaU1kVlJTcVoxYzVOYzRRckNHcVVldDlZaERlQmxIV3VxcnFER21jRzBkNktBZy1LNWF3LWlqOEd3NHRINC1TSFoyWmg2XzdWUUJ2bDVaa3lEbExUNzRoYXB0U1ZVcGx0dnVHdmV0dklQZkRlMUdQNWJES3lNVHRDd0pDRHFUM0s0TndUN0hLd3VrVGdVVEtTa1NR?oc=5",
-          "source": "openpr.com",
+          "source": "openPR.com",
           "date": "30. Sep 2026"
+        },
+        {
+          "title": "Acoustic Camera Market to Reach USD 190.81 Billion by 2031 as - openPR.com",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUlJVNGp2OUxTc1Rad0hDS1pCQ0k1UVVtR245VFE0d2hiM1pwLWVaSzV3N1FNejgyX0NtTXFJVjljUkxHQVZIcTJsOW9yQkFwcE9vU0ZrRUx4WmFza1M5TWtQR0N3ZmR5NmJLWV9UdTBNcURlV0IyOEpPa2c2S0VIRENWTmdWc3Bxak9RQlZWbTVHTjdwVmVoV1lSZHpIUQ?oc=5",
+          "source": "openPR.com",
+          "date": "29. Sep 2026"
         },
         {
           "title": "Research, Discussion to Continue on Limiting Sound Levels, Low-Frequency Noise - Ad Astra Radio",
