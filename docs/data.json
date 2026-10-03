@@ -1,23 +1,17 @@
 {
-  "generated": "02. October 2026, 09:59 UTC",
+  "generated": "03. October 2026, 09:23 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "In der Steiermark wird eine neue Lärmschutzwand errichtet, die zur Verbesserung der Lebensqualität der betroffenen Anwohner beitragen soll. Weitere relevante Meldungen zum Thema Lärmschutz in Graz oder der Steiermark liegen derzeit nicht vor.",
+      "summary": "Keine relevanten Meldungen gefunden.\n\nWarte – der Titel erwähnt eine Lärmschutzwand, ist jedoch ohne konkreten Ortsbezug zu Graz oder der Steiermark nicht eindeutig zuzuordnen. Da keine weiteren Details auf einen steirischen Bezug hinweisen, bleibt die Meldung zu unspezifisch für eine fundierte Zusammenfassung.",
       "items": [
         {
           "title": "Baureportage: Lärmschutzwand für mehr Lebensqualität - MeinBezirk.at",
           "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQblB6bzZQR2t3QlN0U3Y2RFR0Rlk5QUVieEpRc2pvM0JyMGxlUGZmUmhEbjNaZ3VPcDhEWS05ME1GYW5UdFViR3RzWWZHWHB6MkNLa1Z0YmcyNEFHY0djNHVodUxYeUhlMGVOMjNtcGpMcDlFZmlycGtMaTRYOEVCNEdENXVpQXo0NHFZaU9YeGJSMmxVNi1fcjZkTGtXazhQT3ZXNEJIazNNbDNHeHZISw?oc=5",
           "source": "MeinBezirk.at",
           "date": "30. Sep 2026"
-        },
-        {
-          "title": "POV: Willkommen im Wahnsinn von Misano - motogp.com",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQY0l4RkxfT0hrczhfSldUb09YTEpCOU9vNDR1a3dPc2pka25wZEdRQ1NyekE0U1BMQUJJUzl0SjRaZ0QtSDNLZFNiVFF0SjhfbHdkbjJZcFNUOVp4UzJvc1F0NVh4SjN4UXp0V1lrdXNodUY5MUFIOFhpRTZDNVZyZW8tYWMxNDlaTEIwTGQzR1hRUUU?oc=5",
-          "source": "motogp.com",
-          "date": "26. Sep 2026"
         }
       ]
     },
@@ -25,8 +19,15 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "Keine relevanten Meldungen gefunden.",
+      "items": [
+        {
+          "title": "Nebel lauert am Morgen - Ruhige Nacht, aber kühl: Tiefstwerte bis 2 Grad - krone.at",
+          "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1nM2xQdmc5UTVmdG5zbXEtNEk0NTM1N3JwTC1RdTZqSHNXaGo3T015WUxpbE1XM0YwWmZCVFVqRW8zZw?oc=5",
+          "source": "krone.at",
+          "date": "2. Oct 2026"
+        }
+      ]
     },
     "dach": {
       "label": "DACH",
@@ -46,7 +47,7 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Noise pollution continues to pose significant threats to public health across Europe, as highlighted by reporting from Il Sole 24 Ore, while residents near data centres in Slough are raising concerns about the health impacts of noise from this rapidly expanding infrastructure sector. Meanwhile, traffic noise levels have reportedly decreased noticeably in some areas, suggesting that certain noise mitigation measures may be yielding positive results.",
+      "summary": "Noise pollution is increasingly recognized as a significant threat to public health across Europe. Residents near data centres in Slough are raising concerns about the health impacts of persistent noise exposure in what has become Europe's data centre capital.",
       "items": [
         {
           "title": "Noise pollution poses a threat to health - Il Sole 24 ORE",
@@ -55,15 +56,9 @@
           "date": "30. Sep 2026"
         },
         {
-          "title": "Verkehrslärm hat merkbar abgenommen - Rundschau | Oberländer Wochenzeitung",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRExnZVQ0b0tkbDVDUTJLS3liWHhTT0daRkFyMU5iczkxU1E1clFJMnpQeF9SUGdrckVNRXlMYTZmSGd5V05UOENvWjNoc3lvNXBqOEVaV0x2TVl0dWUtcW82N3lSS3VhaXBmaUJTNmlFVDFDUmx4QnYtblpGSEpZSjktazZJY3ktT0xULUV0TTBJTEJaR0dOR0dmdUV5TFpuNVpoRFIyMnpwNjVXemU2NmlTY0dYdw?oc=5",
-          "source": "Rundschau | Oberländer Wochenzeitung",
-          "date": "30. Sep 2026"
-        },
-        {
-          "title": "Sleepless in Slough: the residents who fear for their failing health in Europe’s data centre capital - The Nerve",
+          "title": "Sleepless in Slough: the residents who fear for their failing health in Europe’s data centre capital - thenerve.news",
           "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeWxSQVNGVXQyV2V5N3FGNUhjcDJaRERSWlBPX29kZ1V5UEU4TEtZVHVSSzFtd1FnSFBqM1lrdDg2cFlFTDV5UW1DbjdGdVlOMEdsVXhJUmFGRWdvczgwb3dFTnQ2SHI3dkxSSUFvNGptUHI2Z3JIcXkxUVJkMFo5a2hOWHFpOF8tWmZzaDVZRW5vY1ZiT0dKdg?oc=5",
-          "source": "The Nerve",
+          "source": "thenerve.news",
           "date": "29. Sep 2026"
         }
       ]
