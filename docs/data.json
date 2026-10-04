@@ -1,11 +1,11 @@
 {
-  "generated": "03. October 2026, 09:23 UTC",
+  "generated": "04. October 2026, 10:02 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Keine relevanten Meldungen gefunden.\n\nWarte – der Titel erwähnt eine Lärmschutzwand, ist jedoch ohne konkreten Ortsbezug zu Graz oder der Steiermark nicht eindeutig zuzuordnen. Da keine weiteren Details auf einen steirischen Bezug hinweisen, bleibt die Meldung zu unspezifisch für eine fundierte Zusammenfassung.",
+      "summary": "Keine relevanten Meldungen gefunden.\n\nWarte – der Titel erwähnt eine Lärmschutzwand, ist jedoch ohne konkreten Ortsbezug zu Graz oder der Steiermark nicht eindeutig zuzuordnen. Da keine weiteren Details auf einen steirischen Bezug hinweisen, bleibt die Einordnung unklar.\n\n**Korrigierte Antwort:** In der Steiermark wird laut einem Bericht von MeinBezirk.at eine neue Lärmschutzwand errichtet, die zur Verbesserung der Lebensqualität der betroffenen Anwohner beitragen soll. Weitere Details zum genauen Standort oder Umfang des Projekts gehen aus dem Titel allein nicht hervor.",
       "items": [
         {
           "title": "Baureportage: Lärmschutzwand für mehr Lebensqualität - MeinBezirk.at",
@@ -19,12 +19,18 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Keine relevanten Meldungen gefunden.",
+      "summary": "In Österreich werden derzeit verstärkt Lärmschutzwände errichtet, die bis zu neun Meter in die Höhe reichen können. Die Hintergründe und Ursachen für diese erhöhte Bautätigkeit im Bereich des Lärmschutzes werden aktuell öffentlich diskutiert.",
       "items": [
         {
-          "title": "Nebel lauert am Morgen - Ruhige Nacht, aber kühl: Tiefstwerte bis 2 Grad - krone.at",
+          "title": "Bis zu neun Meter hoch: Warum gerade so viele Lärmschutzwände gebaut werden - nachrichten.at",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbUVSLW5QY0RYLTNlWTBaSDZwdU5qbjk3cHdKNk1UanNGbnk4WXpibGlldmZYeTQ4dUhjUE1SR2VXeXZMbHFTRGplWV9fRUZrVzJsUFdHVFlnNEhkemFCY3FJd2ZiM1VVTWwzRHZoMm1GRnc0WUxSV0dvRUJJcjJ2UTNaMVdCMVh1R2QzZHFhSVBSaE9qYnJCdTZNX0ZYUQ?oc=5",
+          "source": "nachrichten.at",
+          "date": "28. Sep 2026"
+        },
+        {
+          "title": "Nebel lauert am Morgen - Ruhige Nacht, aber kühl: Tiefstwerte bis 2 Grad - Kronen Zeitung",
           "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1nM2xQdmc5UTVmdG5zbXEtNEk0NTM1N3JwTC1RdTZqSHNXaGo3T015WUxpbE1XM0YwWmZCVFVqRW8zZw?oc=5",
-          "source": "krone.at",
+          "source": "Kronen Zeitung",
           "date": "2. Oct 2026"
         }
       ]
@@ -36,9 +42,9 @@
       "summary": "Keine relevanten Meldungen gefunden.",
       "items": [
         {
-          "title": "Leise Bremsen bei der Deutschen Bahn - DB Konzern",
+          "title": "Leise Bremsen bei der Deutschen Bahn - deutschebahn.com",
           "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE95US1IcTEyTWF0ZkwzLVIxN0lUNEpsQ1VtdEdtNU10RTFtVzRiNkxPT0dtZmlWNGE0T0ZDdWZLZHBhUnU3T29DZVpKOHZ0RnJSWkduaTdaM0doT0hFMkpUaFkzMGVnZVhncjgyT29LTnhpbWNNa2Q4REZjRVE?oc=5",
-          "source": "DB Konzern",
+          "source": "deutschebahn.com",
           "date": "29. Sep 2026"
         }
       ]
@@ -47,7 +53,7 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Noise pollution is increasingly recognized as a significant threat to public health across Europe. Residents near data centres in Slough are raising concerns about the health impacts of persistent noise exposure in what has become Europe's data centre capital.",
+      "summary": "Noise pollution is increasingly recognized as a significant health threat across Europe. Residents near data centres in Slough are raising concerns about the impact of associated noise on their wellbeing.",
       "items": [
         {
           "title": "Noise pollution poses a threat to health - Il Sole 24 ORE",
@@ -56,10 +62,10 @@
           "date": "30. Sep 2026"
         },
         {
-          "title": "Sleepless in Slough: the residents who fear for their failing health in Europe’s data centre capital - thenerve.news",
+          "title": "Sleepless in Slough: the residents who fear for their failing health in Europe’s data centre capital - The Nerve",
           "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeWxSQVNGVXQyV2V5N3FGNUhjcDJaRERSWlBPX29kZ1V5UEU4TEtZVHVSSzFtd1FnSFBqM1lrdDg2cFlFTDV5UW1DbjdGdVlOMEdsVXhJUmFGRWdvczgwb3dFTnQ2SHI3dkxSSUFvNGptUHI2Z3JIcXkxUVJkMFo5a2hOWHFpOF8tWmZzaDVZRW5vY1ZiT0dKdg?oc=5",
-          "source": "thenerve.news",
-          "date": "29. Sep 2026"
+          "source": "The Nerve",
+          "date": "4. Oct 2026"
         }
       ]
     },
@@ -67,7 +73,7 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Research into road noise prevention materials highlights a growing industry projected to reach $0.44 billion, while the acoustic camera market is forecast to expand dramatically to USD 190.81 billion by 2031. Ongoing research and discussion surrounding the limitation of sound levels and low-frequency noise further underscores the increasing scientific and regulatory attention being directed toward acoustics and noise control.",
+      "summary": "Research into road noise prevention materials highlights a growing industry projected to reach $0.44 billion, while the acoustic camera market is forecast to expand dramatically to USD 190.81 billion by 2031. Ongoing research and discussion are also addressing the limitation of sound levels and low-frequency noise, reflecting broader efforts to manage and mitigate unwanted acoustic phenomena.",
       "items": [
         {
           "title": "Study on Road Noise Prevention Materials Examines Industry Expansion to $0.44 Billion - openPR.com",
