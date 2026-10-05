@@ -1,16 +1,16 @@
 {
-  "generated": "04. October 2026, 10:02 UTC",
+  "generated": "05. October 2026, 10:47 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Keine relevanten Meldungen gefunden.\n\nWarte – der Titel erwähnt eine Lärmschutzwand, ist jedoch ohne konkreten Ortsbezug zu Graz oder der Steiermark nicht eindeutig zuzuordnen. Da keine weiteren Details auf einen steirischen Bezug hinweisen, bleibt die Einordnung unklar.\n\n**Korrigierte Antwort:** In der Steiermark wird laut einem Bericht von MeinBezirk.at eine neue Lärmschutzwand errichtet, die zur Verbesserung der Lebensqualität der betroffenen Anwohner beitragen soll. Weitere Details zum genauen Standort oder Umfang des Projekts gehen aus dem Titel allein nicht hervor.",
+      "summary": "Entlang einer nicht näher genannten Strecke in der Region wurde eine neue Lärmschutzwand errichtet, die die Lebensqualität der Anwohnerinnen und Anwohner verbessern soll. Damit setzt die zuständige Stelle ein weiteres Zeichen für aktiven Lärmschutz im Bereich des Wohnumfelds.",
       "items": [
         {
-          "title": "Baureportage: Lärmschutzwand für mehr Lebensqualität - MeinBezirk.at",
+          "title": "Baureportage: Lärmschutzwand für mehr Lebensqualität - meinbezirk.at",
           "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQblB6bzZQR2t3QlN0U3Y2RFR0Rlk5QUVieEpRc2pvM0JyMGxlUGZmUmhEbjNaZ3VPcDhEWS05ME1GYW5UdFViR3RzWWZHWHB6MkNLa1Z0YmcyNEFHY0djNHVodUxYeUhlMGVOMjNtcGpMcDlFZmlycGtMaTRYOEVCNEdENXVpQXo0NHFZaU9YeGJSMmxVNi1fcjZkTGtXazhQT3ZXNEJIazNNbDNHeHZISw?oc=5",
-          "source": "MeinBezirk.at",
+          "source": "meinbezirk.at",
           "date": "30. Sep 2026"
         }
       ]
@@ -19,13 +19,25 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "In Österreich werden derzeit verstärkt Lärmschutzwände errichtet, die bis zu neun Meter in die Höhe reichen können. Die Hintergründe und Ursachen für diese erhöhte Bautätigkeit im Bereich des Lärmschutzes werden aktuell öffentlich diskutiert.",
+      "summary": "In Wien wird der Fluglärm zunehmend als Belastung wahrgenommen und öffentlich diskutiert. Zudem plant die Stadt strengere Regelungen für Partys, was auf eine verschärfte Lärmschutzpolitik im urbanen Raum hindeutet.",
       "items": [
         {
-          "title": "Bis zu neun Meter hoch: Warum gerade so viele Lärmschutzwände gebaut werden - nachrichten.at",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbUVSLW5QY0RYLTNlWTBaSDZwdU5qbjk3cHdKNk1UanNGbnk4WXpibGlldmZYeTQ4dUhjUE1SR2VXeXZMbHFTRGplWV9fRUZrVzJsUFdHVFlnNEhkemFCY3FJd2ZiM1VVTWwzRHZoMm1GRnc0WUxSV0dvRUJJcjJ2UTNaMVdCMVh1R2QzZHFhSVBSaE9qYnJCdTZNX0ZYUQ?oc=5",
-          "source": "nachrichten.at",
-          "date": "28. Sep 2026"
+          "title": "Wie empfindet ihr den Fluglärm über Wien? - Der Standard",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWUh0ZGlVM3BjamxTazd0bkZIMlZnUjZkVEpuYkR6QWhqbjJkem5kTUpfTGJhRlA3dktxZjhNZFhOdFFjcG1yU1BSWVota2NjcjdlcnpUcnhpRUU0b1loTjRLVWFrcG9hRzNkWXZ2Q3R4ZVBZT3JRZzlOOFB3OWZRM1J5NVdFb0Ixc3BIUkZn?oc=5",
+          "source": "Der Standard",
+          "date": "5. Oct 2026"
+        },
+        {
+          "title": "Erdbeben Heute: jüngste Beben weltweit letzte 24 Stunden - volcanodiscovery.com",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ha0NFZUUzVUM0eTM5a3d2X3dpX243d25BdWZOd1EweXJ3T05WWFJDNjRSNXlJSXF4a2huSUZ1clVvaGRfaloxM1JaSkVud09jS1l3ckVSbnpieFNVN3I2aGR2TVlYUQ?oc=5",
+          "source": "volcanodiscovery.com",
+          "date": "5. Oct 2026"
+        },
+        {
+          "title": "Wien bekommt strengere Party-Regeln - oe24",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5mc3kwczY0M0NmT0thNXhpbHA5NzVzNXBOWVRETm1vV3NzSzJ0UG9acjFUcEQtNFVZcldKQjh5bjVmR2VYZ2J0WGpVQnlsVGZxNFlEMmd0ZU1mZERLaHUtckIzYmJSam9hYmFRcEF5WjdCOHo2V1HSAXtBVV95cUxPakJPRWNVLThGMEVXMzRhSHdHbDdGVlNlSzlienJXLXFmM3c0blR0dzlVRHo0OUJFVXl1VDljclpfRXNaQ1JmcGlQSkp1ZlR3b2FFYThBbHhGUkVCRDU3NE9jZ05ha0pHa3Q2SEZOak92azh5bU9OakNDUjA?oc=5",
+          "source": "oe24",
+          "date": "4. Oct 2026"
         },
         {
           "title": "Nebel lauert am Morgen - Ruhige Nacht, aber kühl: Tiefstwerte bis 2 Grad - Kronen Zeitung",
@@ -42,9 +54,9 @@
       "summary": "Keine relevanten Meldungen gefunden.",
       "items": [
         {
-          "title": "Leise Bremsen bei der Deutschen Bahn - deutschebahn.com",
+          "title": "Leise Bremsen bei der Deutschen Bahn - DB Konzern",
           "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE95US1IcTEyTWF0ZkwzLVIxN0lUNEpsQ1VtdEdtNU10RTFtVzRiNkxPT0dtZmlWNGE0T0ZDdWZLZHBhUnU3T29DZVpKOHZ0RnJSWkduaTdaM0doT0hFMkpUaFkzMGVnZVhncjgyT29LTnhpbWNNa2Q4REZjRVE?oc=5",
-          "source": "deutschebahn.com",
+          "source": "DB Konzern",
           "date": "29. Sep 2026"
         }
       ]
@@ -53,7 +65,7 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Noise pollution is increasingly recognized as a significant health threat across Europe. Residents near data centres in Slough are raising concerns about the impact of associated noise on their wellbeing.",
+      "summary": "Noise pollution is increasingly recognized as a significant health threat across Europe. Residents near data centres in Slough are raising concerns about the impact of noise on their wellbeing, highlighting the growing challenges European policymakers face in regulating noise from expanding digital infrastructure.",
       "items": [
         {
           "title": "Noise pollution poses a threat to health - Il Sole 24 ORE",
@@ -73,7 +85,7 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Research into road noise prevention materials highlights a growing industry projected to reach $0.44 billion, while the acoustic camera market is forecast to expand dramatically to USD 190.81 billion by 2031. Ongoing research and discussion are also addressing the limitation of sound levels and low-frequency noise, reflecting broader efforts to manage and mitigate unwanted acoustic phenomena.",
+      "summary": "Research into road noise prevention materials highlights a growing industry valued at $0.44 billion, while the acoustic camera market is projected to reach USD 190.81 billion by 2031. Ongoing research and discussion are also focused on limiting sound levels and low-frequency noise, reflecting broader efforts to address acoustic challenges across multiple sectors.",
       "items": [
         {
           "title": "Study on Road Noise Prevention Materials Examines Industry Expansion to $0.44 Billion - openPR.com",
@@ -88,9 +100,9 @@
           "date": "29. Sep 2026"
         },
         {
-          "title": "Research, Discussion to Continue on Limiting Sound Levels, Low-Frequency Noise - Ad Astra Radio",
+          "title": "Research, Discussion to Continue on Limiting Sound Levels, Low-Frequency Noise - adastraradio.com",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMnBUWkZJYkd5RFRpZ0hRUXY3c01WckplQWVOY29yMVZJbjVTYzZTdjlFZzBJQzZuYVVCQXNGMkJMZHh1eDV0c0Zab3RMcXBEVmhGV1djOHJvbm92UkdXc0hTWS1USVRNanFkZmZjYmFZZFlHUUVSb0pBTUtHdEVSVlJ2VjE1aHBOWU90aWFvMkZrLWRSdmt1OFpuYkY1OVdBV2JlaDV6WC1DZ01qR1BCQ0plRjhFZw?oc=5",
-          "source": "Ad Astra Radio",
+          "source": "adastraradio.com",
           "date": "30. Sep 2026"
         }
       ]
