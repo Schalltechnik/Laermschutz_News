@@ -1,42 +1,29 @@
 {
-  "generated": "06. October 2026, 10:42 UTC",
+  "generated": "07. October 2026, 10:30 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Keine relevanten Meldungen gefunden.\n\nWarte – der Titel erwähnt eine Lärmschutzwand, ist jedoch ohne konkreten Ortsbezug zu Graz oder der Steiermark nicht eindeutig zuzuordnen. Da keine weiteren Details auf einen steirischen Bezug hinweisen, bleibt die Einordnung unklar.\n\n**Korrigierte Antwort:** In der Steiermark wurde laut MeinBezirk.at eine Lärmschutzwand errichtet, die zur Verbesserung der Lebensqualität der Anwohner beitragen soll. Nähere Details zum genauen Standort oder Umfang des Projekts gehen aus dem Titel allein nicht hervor.",
-      "items": [
-        {
-          "title": "Baureportage: Lärmschutzwand für mehr Lebensqualität - MeinBezirk.at",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQblB6bzZQR2t3QlN0U3Y2RFR0Rlk5QUVieEpRc2pvM0JyMGxlUGZmUmhEbjNaZ3VPcDhEWS05ME1GYW5UdFViR3RzWWZHWHB6MkNLa1Z0YmcyNEFHY0djNHVodUxYeUhlMGVOMjNtcGpMcDlFZmlycGtMaTRYOEVCNEdENXVpQXo0NHFZaU9YeGJSMmxVNi1fcjZkTGtXazhQT3ZXNEJIazNNbDNHeHZISw?oc=5",
-          "source": "MeinBezirk.at",
-          "date": "30. Sep 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "austria": {
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Ein Autofahrer kollidierte in Kärnten mit einer Lärmschutzwand, während in Wien die Diskussion über Fluglärm und dessen Wahrnehmung durch die Bevölkerung an Bedeutung gewinnt. Zudem plant Wien strengere Regelungen für Partylärm, was auf ein wachsendes Bewusstsein für Lärmbelästigung im urbanen Raum hindeutet.",
+      "summary": "Über Wien wird der Fluglärm aktuell öffentlich diskutiert. Zudem plant Wien strengere Regelungen für Partys, was auf verschärfte Lärmschutzmaßnahmen im städtischen Bereich hindeutet.",
       "items": [
         {
-          "title": "Autofahrer prallte gegen Lärmschutzwand - kaernten.ORF.at",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE10N01QLXgzbHRUeVdSWXI2UF9RM1lDTmVJQVoxNHNqX1pVWEFnWUF4NFNzQy1TNExlSFJWMDI4azYtczZYV3Fsa1VCM2ZVWFppbXc?oc=5",
-          "source": "kaernten.ORF.at",
-          "date": "5. Oct 2026"
-        },
-        {
           "title": "Wie empfindet ihr den Fluglärm über Wien? - Der Standard",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWUh0ZGlVM3BjamxTazd0bkZIMlZnUjZkVEpuYkR6QWhqbjJkem5kTUpfTGJhRlA3dktxZjhNZFhOdFFjcG1yU1BSWVota2NjcjdlcnpUcnhpRUU0b1loTjRLVWFrcG9hRzNkWXZ2Q3R4ZVBZT3JRZzlOOFB3OWZRM1J5NVdFb0Ixc3BIUkZn?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMVVlRVJ4NmQ2S09SaFRURUtwR0ctcjhHVWRkYjhhOUNzUTRFM1pRcGF4bk14UTAyZXI0TXlXSGxUNUw5NlpYZDNvdDdKVEtKWXd2OEhlQTBDOF9hZW5uWEJsc2V4UjZZQ3FYTTRObTNkU29wdUwtV1lvbU5XQmFWd3dLRUZtY1B5Zmg1azQtWk9WWVk?oc=5",
           "source": "Der Standard",
           "date": "5. Oct 2026"
         },
         {
-          "title": "Wien bekommt strengere Party-Regeln - oe24.at",
+          "title": "Wien bekommt strengere Party-Regeln - oe24",
           "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5mc3kwczY0M0NmT0thNXhpbHA5NzVzNXBOWVRETm1vV3NzSzJ0UG9acjFUcEQtNFVZcldKQjh5bjVmR2VYZ2J0WGpVQnlsVGZxNFlEMmd0ZU1mZERLaHUtckIzYmJSam9hYmFRcEF5WjdCOHo2V1HSAXtBVV95cUxPakJPRWNVLThGMEVXMzRhSHdHbDdGVlNlSzlienJXLXFmM3c0blR0dzlVRHo0OUJFVXl1VDljclpfRXNaQ1JmcGlQSkp1ZlR3b2FFYThBbHhGUkVCRDU3NE9jZ05ha0pHa3Q2SEZOak92azh5bU9OakNDUjA?oc=5",
-          "source": "oe24.at",
+          "source": "oe24",
           "date": "4. Oct 2026"
         },
         {
@@ -58,7 +45,7 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Noise pollution is increasingly recognized as a significant health threat across Europe, highlighting the ongoing need for robust noise control measures. Concerns raised by residents in Slough over the noise impacts of data centres further underscore the growing challenge of regulating emerging sources of environmental noise in European communities.",
+      "summary": "Noise pollution is increasingly recognized as a significant health threat in Europe, with growing concern over its impacts on residents. Communities near major infrastructure, such as data centres in Slough, are raising alarms about noise-related health consequences, highlighting the need for stronger noise control measures.",
       "items": [
         {
           "title": "Noise pollution poses a threat to health - Il Sole 24 ORE",
@@ -78,25 +65,19 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Research into road noise prevention materials highlights a growing industry projected to reach $0.44 billion, while the acoustic camera market is forecast to expand dramatically to USD 190.81 billion by 2031. Ongoing research and discussion are also addressing the limitation of sound levels and low-frequency noise, reflecting broader efforts to understand and mitigate unwanted acoustic phenomena.",
+      "summary": "Two new studies highlight the growing importance of acoustic environments on human wellbeing: one investigates how traffic speed and soundscapes influence perception and cognitive workload in virtual reality settings, while the other demonstrates that natural soundscaping interventions in noisy urban areas can meaningfully improve sleep quality in working adults on the same night of exposure.",
       "items": [
         {
-          "title": "Study on Road Noise Prevention Materials Examines Industry Expansion to $0.44 Billion - openPR.com",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaU1kVlJTcVoxYzVOYzRRckNHcVVldDlZaERlQmxIV3VxcnFER21jRzBkNktBZy1LNWF3LWlqOEd3NHRINC1TSFoyWmg2XzdWUUJ2bDVaa3lEbExUNzRoYXB0U1ZVcGx0dnVHdmV0dklQZkRlMUdQNWJES3lNVHRDd0pDRHFUM0s0TndUN0hLd3VrVGdVVEtTa1NR?oc=5",
-          "source": "openPR.com",
-          "date": "30. Sep 2026"
+          "title": "Influence of traffic speed and acoustic environment on perception and perceived workload in virtual reality - Nature",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFByMmp2Q3RuckZLQUs0aTdjZVV5ODhyNjE0aU1YMHV2djlXWEFNVnR4LWxMRHFHUURhUEhQTUhBYksyRFMxaXBRMUx5OHNmVE0ycTFjaUlONk04RTJabEQ0?oc=5",
+          "source": "Nature",
+          "date": "6. Oct 2026"
         },
         {
-          "title": "Acoustic Camera Market to Reach USD 190.81 Billion by 2031 as - openPR.com",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUlJVNGp2OUxTc1Rad0hDS1pCQ0k1UVVtR245VFE0d2hiM1pwLWVaSzV3N1FNejgyX0NtTXFJVjljUkxHQVZIcTJsOW9yQkFwcE9vU0ZrRUx4WmFza1M5TWtQR0N3ZmR5NmJLWV9UdTBNcURlV0IyOEpPa2c2S0VIRENWTmdWc3Bxak9RQlZWbTVHTjdwVmVoV1lSZHpIUQ?oc=5",
-          "source": "openPR.com",
-          "date": "29. Sep 2026"
-        },
-        {
-          "title": "Research, Discussion to Continue on Limiting Sound Levels, Low-Frequency Noise - Ad Astra Radio",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMnBUWkZJYkd5RFRpZ0hRUXY3c01WckplQWVOY29yMVZJbjVTYzZTdjlFZzBJQzZuYVVCQXNGMkJMZHh1eDV0c0Zab3RMcXBEVmhGV1djOHJvbm92UkdXc0hTWS1USVRNanFkZmZjYmFZZFlHUUVSb0pBTUtHdEVSVlJ2VjE1aHBOWU90aWFvMkZrLWRSdmt1OFpuYkY1OVdBV2JlaDV6WC1DZ01qR1BCQ0plRjhFZw?oc=5",
-          "source": "Ad Astra Radio",
-          "date": "30. Sep 2026"
+          "title": "The positive impact of naturally soundscaping a noisy urban space on same-night sleep in working adults - Nature",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE01bDF2ejhrZTVvaU1yVDBqRE9SNnp4UUgtRF84dXRxdldQWjhoemgxdENrQzlhdnRDTG5OQm1HXzRTMDEtM3JVZGZZYVBFeXltR29VLXBUZnBBT25iaWJZ?oc=5",
+          "source": "Nature",
+          "date": "6. Oct 2026"
         }
       ]
     },
