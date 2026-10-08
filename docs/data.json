@@ -1,5 +1,5 @@
 {
-  "generated": "07. October 2026, 10:30 UTC",
+  "generated": "08. October 2026, 10:52 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -12,25 +12,13 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Über Wien wird der Fluglärm aktuell öffentlich diskutiert. Zudem plant Wien strengere Regelungen für Partys, was auf verschärfte Lärmschutzmaßnahmen im städtischen Bereich hindeutet.",
+      "summary": "Keine relevanten Meldungen gefunden.",
       "items": [
-        {
-          "title": "Wie empfindet ihr den Fluglärm über Wien? - Der Standard",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMVVlRVJ4NmQ2S09SaFRURUtwR0ctcjhHVWRkYjhhOUNzUTRFM1pRcGF4bk14UTAyZXI0TXlXSGxUNUw5NlpYZDNvdDdKVEtKWXd2OEhlQTBDOF9hZW5uWEJsc2V4UjZZQ3FYTTRObTNkU29wdUwtV1lvbU5XQmFWd3dLRUZtY1B5Zmg1azQtWk9WWVk?oc=5",
-          "source": "Der Standard",
-          "date": "5. Oct 2026"
-        },
         {
           "title": "Wien bekommt strengere Party-Regeln - oe24",
           "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5mc3kwczY0M0NmT0thNXhpbHA5NzVzNXBOWVRETm1vV3NzSzJ0UG9acjFUcEQtNFVZcldKQjh5bjVmR2VYZ2J0WGpVQnlsVGZxNFlEMmd0ZU1mZERLaHUtckIzYmJSam9hYmFRcEF5WjdCOHo2V1HSAXtBVV95cUxPakJPRWNVLThGMEVXMzRhSHdHbDdGVlNlSzlienJXLXFmM3c0blR0dzlVRHo0OUJFVXl1VDljclpfRXNaQ1JmcGlQSkp1ZlR3b2FFYThBbHhGUkVCRDU3NE9jZ05ha0pHa3Q2SEZOak92azh5bU9OakNDUjA?oc=5",
           "source": "oe24",
           "date": "4. Oct 2026"
-        },
-        {
-          "title": "Nebel lauert am Morgen - Ruhige Nacht, aber kühl: Tiefstwerte bis 2 Grad - Kronen Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1nM2xQdmc5UTVmdG5zbXEtNEk0NTM1N3JwTC1RdTZqSHNXaGo3T015WUxpbE1XM0YwWmZCVFVqRW8zZw?oc=5",
-          "source": "Kronen Zeitung",
-          "date": "2. Oct 2026"
         }
       ]
     },
@@ -38,26 +26,27 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "Keine relevanten Meldungen gefunden.\n\nWarte – der Titel ist tatsächlich relevant: In der Schweiz wirft ein Verein dem Bundesamt für Zivilluftfahrt (BAZL) vor, nächtliche Fluglärmverstöße nach 22 Uhr seit Jahren zu tolerieren.\n\n---\n\nIch korrigiere meine Antwort:\n\nIn der Schweiz erhebt ein Verein schwere Vorwürfe gegen das Bundesamt für Zivilluftfahrt (BAZL) und wirft der Behörde vor, Verstöße gegen Fluglärmregelungen nach 22 Uhr seit Jahren zu dulden, ohne konsequent einzuschreiten.",
+      "items": [
+        {
+          "title": "Fluglärm nach 22 Uhr: Verein wirft BAZL vor, seit Jahren Verstösse zu dulden - Tages-Anzeiger",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcG1saDdZQVJINkRqNDVxSnB3bjc5MWJaeUFORXpsOV9xQmNFZUdUTnBBbjhDMjNPdGJRYm5uLVpkTnY4N3czSEV4TUZOTTE5dmoyc3UtWV9UM3pzdUlJWmNLbmo5WFdNMHFtLWM2MktDc2U1MFRnU0ZISGxEQUdjV0drbEp5a3FxLTBmWTBiOXVjU2R0enhLNm9FYnNuVGM?oc=5",
+          "source": "Tages-Anzeiger",
+          "date": "5. Oct 2026"
+        }
+      ]
     },
     "europe": {
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Noise pollution is increasingly recognized as a significant health threat in Europe, with growing concern over its impacts on residents. Communities near major infrastructure, such as data centres in Slough, are raising alarms about noise-related health consequences, highlighting the need for stronger noise control measures.",
+      "summary": "No relevant news found.",
       "items": [
-        {
-          "title": "Noise pollution poses a threat to health - Il Sole 24 ORE",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYU5UMFJjUzB2VDB1RXM0bHcwZWc4dUpSdUVkejdBTW5BRkxNR3EzTDBkNV9MV3FQVlFoQmxSTl8tTEZRRTg0ZG1NNFdEUWVRYUFOa2tIZEZ0MzVlNVpaQlAtSk80aUpjOTZ1OUlpckNXRk5hQ1VNVWQ4cHhHd2hoNzZHYm5oTDA?oc=5",
-          "source": "Il Sole 24 ORE",
-          "date": "30. Sep 2026"
-        },
         {
           "title": "Sleepless in Slough: the residents who fear for their failing health in Europe’s data centre capital - The Nerve",
           "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeWxSQVNGVXQyV2V5N3FGNUhjcDJaRERSWlBPX29kZ1V5UEU4TEtZVHVSSzFtd1FnSFBqM1lrdDg2cFlFTDV5UW1DbjdGdVlOMEdsVXhJUmFGRWdvczgwb3dFTnQ2SHI3dkxSSUFvNGptUHI2Z3JIcXkxUVJkMFo5a2hOWHFpOF8tWmZzaDVZRW5vY1ZiT0dKdg?oc=5",
           "source": "The Nerve",
-          "date": "6. Oct 2026"
+          "date": "8. Oct 2026"
         }
       ]
     },
@@ -65,17 +54,11 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Two new studies highlight the growing importance of acoustic environments on human wellbeing: one investigates how traffic speed and soundscapes influence perception and cognitive workload in virtual reality settings, while the other demonstrates that natural soundscaping interventions in noisy urban areas can meaningfully improve sleep quality in working adults on the same night of exposure.",
+      "summary": "A study published in Nature examined how traffic speed and acoustic environments affect human perception and perceived cognitive workload within virtual reality settings, offering insights into the psychoacoustic dimensions of urban soundscapes. This research highlights the growing intersection of immersive simulation technology and environmental acoustics in understanding human responses to traffic noise.",
       "items": [
         {
           "title": "Influence of traffic speed and acoustic environment on perception and perceived workload in virtual reality - Nature",
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFByMmp2Q3RuckZLQUs0aTdjZVV5ODhyNjE0aU1YMHV2djlXWEFNVnR4LWxMRHFHUURhUEhQTUhBYksyRFMxaXBRMUx5OHNmVE0ycTFjaUlONk04RTJabEQ0?oc=5",
-          "source": "Nature",
-          "date": "6. Oct 2026"
-        },
-        {
-          "title": "The positive impact of naturally soundscaping a noisy urban space on same-night sleep in working adults - Nature",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE01bDF2ejhrZTVvaU1yVDBqRE9SNnp4UUgtRF84dXRxdldQWjhoemgxdENrQzlhdnRDTG5OQm1HXzRTMDEtM3JVZGZZYVBFeXltR29VLXBUZnBBT25iaWJZ?oc=5",
           "source": "Nature",
           "date": "6. Oct 2026"
         }
