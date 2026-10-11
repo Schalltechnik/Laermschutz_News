@@ -1,5 +1,5 @@
 {
-  "generated": "10. October 2026, 10:05 UTC",
+  "generated": "11. October 2026, 10:15 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -19,7 +19,7 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "In Salzburg wurden seit 2018 rund 8,9 Millionen Euro in Lärmschutzmaßnahmen investiert. Wien plant zudem strengere Regelungen im Bereich der Lärmbelästigung durch Veranstaltungen.",
+      "summary": "In Salzburg wurden seit 2018 rund 8,9 Millionen Euro in Lärmschutzmaßnahmen investiert. Wien plant zudem strengere Regelungen für Veranstaltungen, was ebenfalls Auswirkungen auf den Lärmschutz in der Stadt haben dürfte.",
       "items": [
         {
           "title": "Wien bekommt strengere Party-Regeln - oe24",
@@ -39,7 +39,7 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Die Deutsche Bahn setzt ihre Nachtarbeiten fort, um eine Lärmschutzwand an der Bitterfelder Strecke fertigzustellen, was für Anwohner eine deutliche Lärmminderung bedeuten soll. Weitere relevante Meldungen zum Umgebungslärm aus der DACH-Region oder von der DEGA liegen aktuell nicht vor.",
+      "summary": "In Deutschland schreitet der Lärmschutz an der Bahnstrecke in Bitterfeld voran, da die Deutsche Bahn die Nachtarbeiten verlängert, um die Lärmschutzwand fertigzustellen. Weitere relevante Meldungen aus der Schweiz oder von der DEGA liegen aktuell nicht vor.",
       "items": [
         {
           "title": "Deutsche Bahn verlängert Nachtarbeiten - Lärmschutzwand an Bitterfelder Strecke steht bald - Mitteldeutsche Zeitung",
@@ -54,9 +54,9 @@
           "date": "9. Oct 2026"
         },
         {
-          "title": "Verstoß gegen Ad-hoc-Pflicht: Aufseher brummen Volkswagen Millionenstrafe auf - Allgäuer Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUlUxZXdIVzR4YTdmd1VBNTByb0dQaWRrVl9aalc1SGVpd3lSS0c2emV0RjhhZWlRbDhlLVJZUUE1QzFNV3A3VGJQQUtGSG0yWEVsVGFPdi14RWQ0N2xMV1l5SDNLMDNDZmdzNzZOaTNlQjZNTjFoOFdtZXcyY2c0aTVER2hjTmlFYjQ4Tm9XNlExYUhKbXhoMDQ3ZE9yYmRUMk0tM0JramxKR1hwOFVUZzlSUDBrQWM?oc=5",
-          "source": "Allgäuer Zeitung",
+          "title": "Aufseher brummen Volkswagen Millionenstrafe auf - Yahoo Nachrichten",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUGsyZm5vXzV0Z1R0bnR6RzUzUkFhZ05OVkJzWWhsVFZVbFVkX0FJQS1EMnBYbTlsV0FjdzVxLWIxZnZBQVh2VnVKa3N0T0YwMW5EVjdvWDBlZmE0ZGljakVlLWVPcUFIeHJSR2MwWnA5NXhpZm1nN3BhRFEyZUgzX0xFVXpBZTc2NmdFRXRkal9aSzdjZFE?oc=5",
+          "source": "Yahoo Nachrichten",
           "date": "9. Oct 2026"
         },
         {
@@ -71,7 +71,7 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "London and Copenhagen are taking divergent approaches to acceptable noise thresholds, highlighting the lack of a unified European standard for noise tolerance. Residents near data centres in Slough are raising health concerns linked to noise disturbance, underscoring growing pressure on policymakers to strengthen noise control regulations across Europe.",
+      "summary": "London and Copenhagen are taking divergent approaches to acceptable urban noise levels, highlighting broader debates across Europe about noise tolerance thresholds and public health policy. Residents near data centres in Slough are raising health concerns linked to noise disturbance, underscoring growing pressure on European regulators to address industrial noise pollution affecting local communities.",
       "items": [
         {
           "title": "How much noise should we put up with? London and Copenhagen have different answers - The Conversation",
@@ -97,17 +97,17 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Two new studies highlight the growing importance of acoustic environments on human wellbeing: one investigates how traffic speed and soundscapes influence perception and cognitive workload in virtual reality settings, while the other demonstrates that natural soundscaping interventions in noisy urban areas can meaningfully improve sleep quality in working adults on the same night of exposure.",
+      "summary": "Two new studies published in Nature explore how acoustic environments affect human wellbeing: one finding that natural soundscaping in noisy urban areas can improve same-night sleep quality in working adults, and another examining how traffic speed and surrounding acoustic conditions influence perception and perceived cognitive workload in virtual reality settings.",
       "items": [
         {
-          "title": "Influence of traffic speed and acoustic environment on perception and perceived workload in virtual reality - Nature",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFByMmp2Q3RuckZLQUs0aTdjZVV5ODhyNjE0aU1YMHV2djlXWEFNVnR4LWxMRHFHUURhUEhQTUhBYksyRFMxaXBRMUx5OHNmVE0ycTFjaUlONk04RTJabEQ0?oc=5",
+          "title": "The positive impact of naturally soundscaping a noisy urban space on same-night sleep in working adults - Nature",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE01bDF2ejhrZTVvaU1yVDBqRE9SNnp4UUgtRF84dXRxdldQWjhoemgxdENrQzlhdnRDTG5OQm1HXzRTMDEtM3JVZGZZYVBFeXltR29VLXBUZnBBT25iaWJZ?oc=5",
           "source": "Nature",
           "date": "6. Oct 2026"
         },
         {
-          "title": "The positive impact of naturally soundscaping a noisy urban space on same-night sleep in working adults - Nature",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE01bDF2ejhrZTVvaU1yVDBqRE9SNnp4UUgtRF84dXRxdldQWjhoemgxdENrQzlhdnRDTG5OQm1HXzRTMDEtM3JVZGZZYVBFeXltR29VLXBUZnBBT25iaWJZ?oc=5",
+          "title": "Influence of traffic speed and acoustic environment on perception and perceived workload in virtual reality - Nature",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFByMmp2Q3RuckZLQUs0aTdjZVV5ODhyNjE0aU1YMHV2djlXWEFNVnR4LWxMRHFHUURhUEhQTUhBYksyRFMxaXBRMUx5OHNmVE0ycTFjaUlONk04RTJabEQ0?oc=5",
           "source": "Nature",
           "date": "6. Oct 2026"
         }
