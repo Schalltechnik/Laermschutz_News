@@ -1,40 +1,105 @@
 {
-  "generated": "12. October 2026, 11:15 UTC",
+  "generated": "13. October 2026, 10:57 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "Keine relevanten Meldungen gefunden.",
+      "items": [
+        {
+          "title": "Salzburg gibt seit 2018 rund 8,9 Millionen Euro für Lärmschutz aus - Welt Stimme",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa2NqVnRVekJDYXV4WTRnU3llZDc4LTJJRHVfRjB6dFJ2Qnoxd3lLT3Nuckh3Y2ZReGJBQ2xnYWpDSDNmY01oV0RkOTkxU1B6dGdlYWY1ODZzYkUyM0hoU091UEdrNU9leGh4djBYX19KV2dUc0ZlTV9RckxTYl84d2c1WkVlVFJHbGQxeVA5U1RodDJSdkhZamNlMjlyOWhfR2Qwb05YM1M0c1VBQkJ2NEhTVmlDbGZLUWc?oc=5",
+          "source": "Welt Stimme",
+          "date": "9. Oct 2026"
+        }
+      ]
     },
     "austria": {
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "Keine relevanten Meldungen gefunden.\n\nWarte – tatsächlich ist ein relevanter Titel vorhanden: Das Land Salzburg hat seit 2018 rund 8,9 Millionen Euro in Lärmschutzmaßnahmen investiert. Diese Ausgaben unterstreichen das wachsende Bewusstsein für die Bedeutung des Lärmschutzes als öffentliche Aufgabe in Österreich.",
+      "items": [
+        {
+          "title": "Salzburg gibt seit 2018 rund 8,9 Millionen Euro für Lärmschutz aus - Welt Stimme",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa2NqVnRVekJDYXV4WTRnU3llZDc4LTJJRHVfRjB6dFJ2Qnoxd3lLT3Nuckh3Y2ZReGJBQ2xnYWpDSDNmY01oV0RkOTkxU1B6dGdlYWY1ODZzYkUyM0hoU091UEdrNU9leGh4djBYX19KV2dUc0ZlTV9RckxTYl84d2c1WkVlVFJHbGQxeVA5U1RodDJSdkhZamNlMjlyOWhfR2Qwb05YM1M0c1VBQkJ2NEhTVmlDbGZLUWc?oc=5",
+          "source": "Welt Stimme",
+          "date": "9. Oct 2026"
+        }
+      ]
     },
     "dach": {
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "Die Deutsche Bahn schreitet beim Lärmschutz voran: An der Bitterfelder Strecke wird nach verlängerten Nachtarbeiten bald eine neue Lärmschutzwand fertiggestellt. Weitere relevante Entwicklungen aus der Schweiz oder Meldungen der DEGA liegen unter den genannten Titeln nicht vor.",
+      "items": [
+        {
+          "title": "Deutsche Bahn verlängert Nachtarbeiten - Lärmschutzwand an Bitterfelder Strecke steht bald - Mitteldeutsche Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNOHg4QTNUZzRyX0tFSGE2YUlZWHdsWVJFOTJLbUU3TW4xVGx6RGRvLXJNVGpIUzU5RmtBWkM0SEk2bExOajJZbVl6dkFtRU44UEZzcDl5X1VlTXZ2cXVGQng0RlVtNzRiY3NHMTRiTE01Sm9xRFlxYnkyZzlLU1RRcjloNDNvZG50Y0tFZF9uU3o2UDJVM0QzMTByelVmYm5DcmVzaVNpVXJmWEdZcU1xeGswUGZOYlZsY3B1c3k0djJCdTlEYWZhVEhBcw?oc=5",
+          "source": "Mitteldeutsche Zeitung",
+          "date": "9. Oct 2026"
+        },
+        {
+          "title": "Warum brummen ältere Kühlschränke lauter als neuere? - SWR",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZHIycXVnOW5HSXplNW5QQTZfSWg3NGF0REdHQnhnYWE0WUlIeVQ0czZFX1luSjZWaVV2OTllZGdwTTBsMkQzYzZoUUxaTTE3YzdILVFGemJIMjk2R3pXRWFwaDA1ODNUSVZualhqeHM1SkhYdktyV2c4QUFCMmpVbUFMRURQa1JWSGhjVzhVV284T3JyUlNKUTRsSllwcGZf?oc=5",
+          "source": "SWR",
+          "date": "13. Oct 2026"
+        },
+        {
+          "title": "Aufseher brummen Volkswagen Millionenstrafe auf - T-Online",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYk1pT29UM0pEZTZXeEllQnpDVkUtckRkVFpfVGNQMlhYSjNzRjZFd2Vic19IRFZqLVl3ZUoxYTdXdnZkWndYZzlqcEh3bDdwRl9hT3VrUUZjOTRVMmFaZTc0V2RnR2pUUF9LbHBlV0RNeGZLRDQ2cGViZ3dEZHdON21GelFMQzRISmlQS09lVW5LU09SczZzOU5LNzVNSm9rU0EwSGxPUlJUWWZEYVFtcw?oc=5",
+          "source": "T-Online",
+          "date": "9. Oct 2026"
+        },
+        {
+          "title": "Aufseher brummen Volkswagen Millionenstrafe auf - kfz-betrieb",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONkp3RU1HV1lDUlVkb3Rxb3BGclEzZFZxSHh2dldVREE5VERLVUlIVHFONVpSd3pnOVZ6OVcweWFXS2Z5dWN6R2tqOXVIYktqUXZ4OU5tMWdzYll4bVNGbk1HM0I5Q0NtdVk0TDJrbXNxN2l0SDFQaks0c05HM2tJVDc4SWVpZ2xDVXlMNVBybDhxUDB6WUlWaDJlQmVjQUdHWGN1M0FreFZTTDdWTjZMRk5uMzFZMUU?oc=5",
+          "source": "kfz-betrieb",
+          "date": "9. Oct 2026"
+        },
+        {
+          "title": "Aufseher brummen Volkswagen Millionenstrafe auf - GN-Online",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYVZKWnBtUlpMeFpDclZHSHoyRmJKOTdqMUtwdndPWjVlMExtQ01yOFpHdTVUajBRck1pOHNlalAyb1dSTk5rUnlONkZDTE13WktWbXhrUmVxdjJVTktZN2ZKcS1ydENEb1duWjZkRzhZaVlscVQ1YmpzSFJ0c1ZLb1BORlgtWDE4Rko2ZjdMSUxPYTdtb1lJQVdiSWNFeGFZX1h6UmwtZUU?oc=5",
+          "source": "GN-Online",
+          "date": "9. Oct 2026"
+        }
+      ]
     },
     "europe": {
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "London and Copenhagen are taking divergent approaches to acceptable urban noise levels, highlighting differing policy philosophies across European cities. This contrast underscores the ongoing debate within Europe about how stringently noise pollution should be regulated and what thresholds communities should be expected to tolerate.",
+      "items": [
+        {
+          "title": "How much noise should we put up with? London and Copenhagen have different answers - The Conversation",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTWtiNUpadDZTWndIb2NvVS1RY1l2NGI2NncxYm5PRER6MW05dy1kWU5nVDV6ckxUOGlGTDBTVWxlWVlIWWFMclBxRlZIYjl0T0ZvY3lJQlFzQWIwb2NMYy1waURlT1ppcDdNSmFYUk1kMHBUdUM5N2NKTkJ5cXY2VDhBZHdFUXFkeGtjQ2J3LUlrZVVia3RrZ3puLU5Pb2J4SEJ2bGJDcmRBLVROWFhheTNRNGd2NVE?oc=5",
+          "source": "The Conversation",
+          "date": "9. Oct 2026"
+        },
+        {
+          "title": "Europe’s Carbon Towers Put Two Flux Correction Methods to the Test - Bioengineer.org",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOWNEaVJ2YVZBWGZ2UDdXcXJsMUNVVUVhWXRLWk5Jc19CdlVPTW43bFZZQlI5VzBWbC05YXAxVUVkS2hfaWhZOU9ScHZnMS1zbF9YMnhnd2tHTjJEYm1tbzVhVkoyRmV5V3hIc1JncHpiY2hFenFXajFjQ18tYlRvRzVzZF9WTXFIbzRCeFZDaWJxRk8w?oc=5",
+          "source": "Bioengineer.org",
+          "date": "9. Oct 2026"
+        }
+      ]
     },
     "science": {
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "A study published in Nature investigates how traffic speed and acoustic conditions interact to shape human perception and perceived cognitive workload within virtual reality environments. The findings contribute to our understanding of how soundscapes influence human experience in simulated urban settings.",
+      "items": [
+        {
+          "title": "Influence of traffic speed and acoustic environment on perception and perceived workload in virtual reality - Nature",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFByMmp2Q3RuckZLQUs0aTdjZVV5ODhyNjE0aU1YMHV2djlXWEFNVnR4LWxMRHFHUURhUEhQTUhBYksyRFMxaXBRMUx5OHNmVE0ycTFjaUlONk04RTJabEQ0?oc=5",
+          "source": "Nature",
+          "date": "6. Oct 2026"
+        }
+      ]
     },
     "bauakustik": {
       "label": "Bauakustik",
