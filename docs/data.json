@@ -1,12 +1,19 @@
 {
-  "generated": "16. October 2026, 08:26 UTC",
+  "generated": "17. October 2026, 07:59 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "Keine relevanten Meldungen gefunden.",
+      "items": [
+        {
+          "title": "Windpark Thörl West: Großes Interesse bei Info-Veranstaltung in Etmißl - Welt Stimme",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNM0libmpOR21tekU2Ym9qYnRtVHNYaVNXdGs1N3FjaFJLd2lhTllzVWlIWkFaVkdSQXRwWUo4T29aSDNSTzdkZ2RTQzQ4NjIyckJsaE4yajB5ZnhnUFB5TkUtNkd6Y3JIZXQwTWlGS3FmTUxvZDJ1ZHNoQUM1d1dYb2lJc1lwVDdPd3IwYUdKcEFQa2FhTC05R21TZjRpbk4zRHVzU3NWTTV1SnpBZHNuci1TTlBWZGJGeDFIcUlfM1VVek0?oc=5",
+          "source": "Welt Stimme",
+          "date": "17. Oct 2026"
+        }
+      ]
     },
     "austria": {
       "label": "Österreich",
@@ -26,19 +33,25 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Düsseldorf wurde laut einem aktuellen Stressindex-Ranking zur Stresshauptstadt Deutschlands gekürt, wobei hohe Lärmbelastung und mangelnde Grünflächen als Hauptursachen identifiziert wurden. Weitere relevante Meldungen aus der Schweiz oder von der DEGA lagen nicht vor.",
+      "summary": "Keine relevanten Meldungen gefunden.",
       "items": [
         {
-          "title": "Stressindex-Ranking: Viel Lärm und wenig Grün – Düsseldorf ist die Stresshauptstadt Deutschlands - RP Online",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVjRzV3lpZ0g5aDc4ZUpIektYMm15dDFObjE5b2hLbjZBTjVZVy1xZUN3empvVlVkTWxaclZyM0tZMl80Uk5oaVc2YnlZY2RqWUNzRFljOTItNDh4VGpiNnRSSmtKOTc3OFFJb3ZCcTUyT1oxYktVTmV6YUN5cm9LMWd6QVhGZTUyYUFOaFZpdGctZVEtaWYzYk81cDl0YWc4MEtNQVpsZUFHcUtnbTE2aDJBUjdFNFU?oc=5",
-          "source": "RP Online",
-          "date": "9. Oct 2026"
+          "title": "Warum brummen ältere Kühlschränke lauter als neuere? - SWR",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZHIycXVnOW5HSXplNW5QQTZfSWg3NGF0REdHQnhnYWE0WUlIeVQ0czZFX1luSjZWaVV2OTllZGdwTTBsMkQzYzZoUUxaTTE3YzdILVFGemJIMjk2R3pXRWFwaDA1ODNUSVZualhqeHM1SkhYdktyV2c4QUFCMmpVbUFMRURQa1JWSGhjVzhVV284T3JyUlNKUTRsSllwcGZf?oc=5",
+          "source": "SWR",
+          "date": "13. Oct 2026"
         },
         {
-          "title": "Aufseher brummen Volkswagen Millionenstrafe auf - GN-Online",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYVZKWnBtUlpMeFpDclZHSHoyRmJKOTdqMUtwdndPWjVlMExtQ01yOFpHdTVUajBRck1pOHNlalAyb1dSTk5rUnlONkZDTE13WktWbXhrUmVxdjJVTktZN2ZKcS1ydENEb1duWjZkRzhZaVlscVQ1YmpzSFJ0c1ZLb1BORlgtWDE4Rko2ZjdMSUxPYTdtb1lJQVdiSWNFeGFZX1h6UmwtZUU?oc=5",
-          "source": "GN-Online",
-          "date": "9. Oct 2026"
+          "title": "Akustik Journal 03/26 - Artikel 2 - DEGA - Deutsche Gesellschaft für Akustik",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOekNUWk02V3JzdVFRd3NWRlp5cFAwVlVabWtpUWdyUU1RWjh4RVNaeW16X1ZxWFIxR2FtMDdKcFVuRlUyeHNPZjhCSERTYTF2TE1pTEJPNU1Jaktua0cyQzBuTk9hT0ZyUDhpcXZnTHBvTkRqeXYyeWxudlFTSk5lSA?oc=5",
+          "source": "DEGA - Deutsche Gesellschaft für Akustik",
+          "date": "14. Oct 2026"
+        },
+        {
+          "title": "Akustik Journal 03/26 - Artikel 3 - DEGA - Deutsche Gesellschaft für Akustik",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNOVZ1eHNSVUl2X3JyVXhvZTdKR3hMOVQ2YnY2cUhRQlBYRnVjZ1B2a1lrMUMydmRqVllkS0NHdVF5WjlKMlJyeXFvZThRTUVQR3g1WDVHS2t2Q1BPV3A0d1JRcV9qUzVVQlVVZDFvOGwyQkVBMnMxM01pb3BvYlFxbw?oc=5",
+          "source": "DEGA - Deutsche Gesellschaft für Akustik",
+          "date": "14. Oct 2026"
         }
       ]
     },
@@ -49,10 +62,10 @@
       "summary": "No relevant news found.",
       "items": [
         {
-          "title": "Europe’s Carbon Towers Put Two Flux Correction Methods to the Test - Bioengineer.org",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOWNEaVJ2YVZBWGZ2UDdXcXJsMUNVVUVhWXRLWk5Jc19CdlVPTW43bFZZQlI5VzBWbC05YXAxVUVkS2hfaWhZOU9ScHZnMS1zbF9YMnhnd2tHTjJEYm1tbzVhVkoyRmV5V3hIc1JncHpiY2hFenFXajFjQ18tYlRvRzVzZF9WTXFIbzRCeFZDaWJxRk8w?oc=5",
-          "source": "Bioengineer.org",
-          "date": "9. Oct 2026"
+          "title": "Separating facts from noise in Canada’s gun debate: Noah S. Schwartz for Inside Policy - The Macdonald-Laurier Institute",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaFNrRVI1N3pxNUZnYUZoaGlONk9GdE8yS1dVSHpIeDM0bmlTYllTUzc1Q3dDNXp3UWp1alJBZXNHYURJZy1sdlkyTm5PbEZqUDZSTGVZUENGOGR6N1gyazJjWEtuNGF0ZmkwN2FieDdvUmNjSTdmcU9YRFBiTXB0UjNZb004OHlheV9NYzc3VkRrRGtVMjVHN1lxY1NTX3dQSHZzM0w5dzBDRFBlSExsT0hR?oc=5",
+          "source": "The Macdonald-Laurier Institute",
+          "date": "16. Oct 2026"
         }
       ]
     },
@@ -60,8 +73,14 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Noise pollution poses significant public health risks, yet remains difficult to accurately measure and monitor, highlighting a critical gap in environmental health surveillance.",
+      "summary": "Research into roadside noise barrier markets highlights growing industry interest in mitigating environmental sound exposure, reflecting broader concerns about urban acoustic management. Noise pollution is increasingly recognized as a significant public health threat, though challenges in accurate measurement and monitoring continue to hinder effective mitigation strategies.",
       "items": [
+        {
+          "title": "Roadside Noise Barriers Market Report Analyzes Industry Trends, Key Growth Factors, and Future Prospects - openPR.com",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTWZmRG8ySGFfemtiTUNQNzY0anFvZjREaUp1bGM1VnNUOXFjMjlyWlp3MUV4NWd0QnpGUkZzVFF4X0RmVnJFMEhpU251RnU5VC1RdFpRQmt2UEI2Y19rNW9wQ3BteTR3d3Vpa2dDZ3lCRkEyN1BiR1BFejdncWVVWkdBOE9hT2Q3b0JNMnZNZDZUaDdrdXc?oc=5",
+          "source": "openPR.com",
+          "date": "15. Oct 2026"
+        },
         {
           "title": "Noise pollution is a public health risk that’s hard to measure and monitor - Mongabay India",
           "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPN0xmeGR5Z1VRNURWX3poOEstNlR2cWl3Rk1FLXF1NTQ3UzNFOFEybHJWX0p1Y21qV0JKYnlhRnhlOVY3NmhaVzh2SEl6SmVMSlcxMTZVTjI1MWJIeWxKQlg4RUpBd2ZOUDFfLWJjMVpRQ1FVbVc1aEJfeE9ObkIyY0pLZld3NXBlSUNTUTNEZEluWU5MWHJTaGFWMWMyMzBGelhpcU4tZVV5V1hJbGc?oc=5",
@@ -77,9 +96,9 @@
       "summary": "Keine relevanten Meldungen gefunden.",
       "items": [
         {
-          "title": "Kein Dreck: Neuer Mistplatz für drei West-Bezirke - Wiener Bezirksblatt",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQzR5cFdYMEtwZW15ZkloVWMwSGVha2hTNV81Y3ppVVk2TVpXcVNRSTlBYzRhNEdxWjFLbXB5OEJKOWQwMEtpSGZnZW1tM0d6N0psNHh6Vk5HU0F5a2J3bVlhcUJKNmlWNUpscGpIUGZxRGJIYkNKalNWWXhnT0F1clgxNGJmTGs?oc=5",
-          "source": "Wiener Bezirksblatt",
+          "title": "Akustik Journal 03/26 - Artikel 3 - DEGA - Deutsche Gesellschaft für Akustik",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNOVZ1eHNSVUl2X3JyVXhvZTdKR3hMOVQ2YnY2cUhRQlBYRnVjZ1B2a1lrMUMydmRqVllkS0NHdVF5WjlKMlJyeXFvZThRTUVQR3g1WDVHS2t2Q1BPV3A0d1JRcV9qUzVVQlVVZDFvOGwyQkVBMnMxM01pb3BvYlFxbw?oc=5",
+          "source": "DEGA - Deutsche Gesellschaft für Akustik",
           "date": "14. Oct 2026"
         }
       ]
