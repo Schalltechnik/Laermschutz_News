@@ -1,5 +1,5 @@
 {
-  "generated": "17. October 2026, 07:59 UTC",
+  "generated": "18. October 2026, 08:16 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -36,20 +36,8 @@
       "summary": "Keine relevanten Meldungen gefunden.",
       "items": [
         {
-          "title": "Warum brummen ältere Kühlschränke lauter als neuere? - SWR",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZHIycXVnOW5HSXplNW5QQTZfSWg3NGF0REdHQnhnYWE0WUlIeVQ0czZFX1luSjZWaVV2OTllZGdwTTBsMkQzYzZoUUxaTTE3YzdILVFGemJIMjk2R3pXRWFwaDA1ODNUSVZualhqeHM1SkhYdktyV2c4QUFCMmpVbUFMRURQa1JWSGhjVzhVV284T3JyUlNKUTRsSllwcGZf?oc=5",
-          "source": "SWR",
-          "date": "13. Oct 2026"
-        },
-        {
           "title": "Akustik Journal 03/26 - Artikel 2 - DEGA - Deutsche Gesellschaft für Akustik",
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOekNUWk02V3JzdVFRd3NWRlp5cFAwVlVabWtpUWdyUU1RWjh4RVNaeW16X1ZxWFIxR2FtMDdKcFVuRlUyeHNPZjhCSERTYTF2TE1pTEJPNU1Jaktua0cyQzBuTk9hT0ZyUDhpcXZnTHBvTkRqeXYyeWxudlFTSk5lSA?oc=5",
-          "source": "DEGA - Deutsche Gesellschaft für Akustik",
-          "date": "14. Oct 2026"
-        },
-        {
-          "title": "Akustik Journal 03/26 - Artikel 3 - DEGA - Deutsche Gesellschaft für Akustik",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNOVZ1eHNSVUl2X3JyVXhvZTdKR3hMOVQ2YnY2cUhRQlBYRnVjZ1B2a1lrMUMydmRqVllkS0NHdVF5WjlKMlJyeXFvZThRTUVQR3g1WDVHS2t2Q1BPV3A0d1JRcV9qUzVVQlVVZDFvOGwyQkVBMnMxM01pb3BvYlFxbw?oc=5",
           "source": "DEGA - Deutsche Gesellschaft für Akustik",
           "date": "14. Oct 2026"
         }
@@ -59,15 +47,8 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "No relevant news found.",
-      "items": [
-        {
-          "title": "Separating facts from noise in Canada’s gun debate: Noah S. Schwartz for Inside Policy - The Macdonald-Laurier Institute",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaFNrRVI1N3pxNUZnYUZoaGlONk9GdE8yS1dVSHpIeDM0bmlTYllTUzc1Q3dDNXp3UWp1alJBZXNHYURJZy1sdlkyTm5PbEZqUDZSTGVZUENGOGR6N1gyazJjWEtuNGF0ZmkwN2FieDdvUmNjSTdmcU9YRFBiTXB0UjNZb004OHlheV9NYzc3VkRrRGtVMjVHN1lxY1NTX3dQSHZzM0w5dzBDRFBlSExsT0hR?oc=5",
-          "source": "The Macdonald-Laurier Institute",
-          "date": "16. Oct 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "science": {
       "label": "Wissenschaft",
@@ -93,15 +74,8 @@
       "label": "Bauakustik",
       "icon": "🏗️",
       "color": "#7b4f12",
-      "summary": "Keine relevanten Meldungen gefunden.",
-      "items": [
-        {
-          "title": "Akustik Journal 03/26 - Artikel 3 - DEGA - Deutsche Gesellschaft für Akustik",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNOVZ1eHNSVUl2X3JyVXhvZTdKR3hMOVQ2YnY2cUhRQlBYRnVjZ1B2a1lrMUMydmRqVllkS0NHdVF5WjlKMlJyeXFvZThRTUVQR3g1WDVHS2t2Q1BPV3A0d1JRcV9qUzVVQlVVZDFvOGwyQkVBMnMxM01pb3BvYlFxbw?oc=5",
-          "source": "DEGA - Deutsche Gesellschaft für Akustik",
-          "date": "14. Oct 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "oal": {
       "label": "ÖAL",
