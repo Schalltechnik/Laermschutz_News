@@ -1,5 +1,5 @@
 {
-  "generated": "18. October 2026, 08:16 UTC",
+  "generated": "19. October 2026, 09:14 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -47,14 +47,21 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "No relevant news found.",
+      "items": [
+        {
+          "title": "France - Aviation Laws and Regulations 2026 - ICLG",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1tdVhEZktORHAtM3M1dmhRMFRiczhqYl93LVRyTXNzNUhsQjVWa2VQS01wMFNiVC1yeXQzM0VTMEFxdHd3SFB6NFNGNDN2YmVrYkFobWxKTnAweTZHc2NOY1k1S0ZtZklVMXRXWUJBSk44Q0oxMnYyQg?oc=5",
+          "source": "ICLG",
+          "date": "16. Oct 2026"
+        }
+      ]
     },
     "science": {
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Research into roadside noise barrier markets highlights growing industry interest in mitigating environmental sound exposure, reflecting broader concerns about urban acoustic management. Noise pollution is increasingly recognized as a significant public health threat, though challenges in accurate measurement and monitoring continue to hinder effective mitigation strategies.",
+      "summary": "Research into roadside noise barrier markets highlights growing industry interest in mitigating environmental sound exposure, while concurrent reporting underscores the significant public health implications of noise pollution and the ongoing challenges in accurately measuring and monitoring it.",
       "items": [
         {
           "title": "Roadside Noise Barriers Market Report Analyzes Industry Trends, Key Growth Factors, and Future Prospects - openPR.com",
