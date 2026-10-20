@@ -1,19 +1,12 @@
 {
-  "generated": "19. October 2026, 09:14 UTC",
+  "generated": "20. October 2026, 08:49 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Keine relevanten Meldungen gefunden.",
-      "items": [
-        {
-          "title": "Windpark Thörl West: Großes Interesse bei Info-Veranstaltung in Etmißl - Welt Stimme",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNM0libmpOR21tekU2Ym9qYnRtVHNYaVNXdGs1N3FjaFJLd2lhTllzVWlIWkFaVkdSQXRwWUo4T29aSDNSTzdkZ2RTQzQ4NjIyckJsaE4yajB5ZnhnUFB5TkUtNkd6Y3JIZXQwTWlGS3FmTUxvZDJ1ZHNoQUM1d1dYb2lJc1lwVDdPd3IwYUdKcEFQa2FhTC05R21TZjRpbk4zRHVzU3NWTTV1SnpBZHNuci1TTlBWZGJGeDFIcUlfM1VVek0?oc=5",
-          "source": "Welt Stimme",
-          "date": "17. Oct 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "austria": {
       "label": "Österreich",
@@ -33,8 +26,14 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Keine relevanten Meldungen gefunden.",
+      "summary": "Die Deutsche Umwelthilfe geht juristisch gegen mehrere Städte vor, da diese ihre Pflichten zur Lärmminderung an stark befahrenen Straßen vernachlässigen. Die DEGA hat zudem einen neuen Artikel im Akustik Journal (Ausgabe 03/26) veröffentlicht.",
       "items": [
+        {
+          "title": "Wegen zu viel Straßenlärm - Umwelthilfe verklagt mehrere Städte - SWR",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOS2I4N0puOHkxUW0waWxtckR4MVJrdUU5enlwNEpQcFB2WVRZbmN4WnQ0TnN1U216SmZuNVhCWVlNeThFXzFRT2oxWTYtRVNUamdSaFAxM1FWVGhmWWhrX1Jhbmh4VThEWm1wOTh2dWFndEFBeTRSbmlhemJlWWs3bUxXaU9hcnZXNjhtZDJ1TG9VQ1dnWEVwMGF5RE5HYjlHQkk3N0p3cGdvcV9DaEprMWdHTXZUM0lNN1NiY1JvZFc?oc=5",
+          "source": "SWR",
+          "date": "17. Oct 2026"
+        },
         {
           "title": "Akustik Journal 03/26 - Artikel 2 - DEGA - Deutsche Gesellschaft für Akustik",
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOekNUWk02V3JzdVFRd3NWRlp5cFAwVlVabWtpUWdyUU1RWjh4RVNaeW16X1ZxWFIxR2FtMDdKcFVuRlUyeHNPZjhCSERTYTF2TE1pTEJPNU1Jaktua0cyQzBuTk9hT0ZyUDhpcXZnTHBvTkRqeXYyeWxudlFTSk5lSA?oc=5",
@@ -47,21 +46,14 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "No relevant news found.",
-      "items": [
-        {
-          "title": "France - Aviation Laws and Regulations 2026 - ICLG",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1tdVhEZktORHAtM3M1dmhRMFRiczhqYl93LVRyTXNzNUhsQjVWa2VQS01wMFNiVC1yeXQzM0VTMEFxdHd3SFB6NFNGNDN2YmVrYkFobWxKTnAweTZHc2NOY1k1S0ZtZklVMXRXWUJBSk44Q0oxMnYyQg?oc=5",
-          "source": "ICLG",
-          "date": "16. Oct 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "science": {
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Research into roadside noise barrier markets highlights growing industry interest in mitigating environmental sound exposure, while concurrent reporting underscores the significant public health implications of noise pollution and the ongoing challenges in accurately measuring and monitoring it.",
+      "summary": "Research into roadside noise barrier markets highlights growing industry interest in mitigating environmental sound exposure, while broader discussions around noise pollution emphasize the significant challenges in accurately measuring and monitoring its public health impacts. Together, these developments underscore the increasing urgency within both commercial and scientific communities to address acoustic pollution as a serious environmental and health concern.",
       "items": [
         {
           "title": "Roadside Noise Barriers Market Report Analyzes Industry Trends, Key Growth Factors, and Future Prospects - openPR.com",
@@ -81,8 +73,33 @@
       "label": "Bauakustik",
       "icon": "🏗️",
       "color": "#7b4f12",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "In Deutschland gewinnt die Diskussion um den Gebäudetyp E an Dynamik, wobei Bayern plant, reduzierte Baustandards zum Regelfall zu machen, was auch Auswirkungen auf bestehende Schallschutzanforderungen im Hochbau haben könnte. Zudem thematisiert die Frankfurter Rundschau den Schallschutz von Wärmepumpen als wachsendes Problem für Anwohner, was die Relevanz entsprechender Regelwerke für Luftwärmepumpen unterstreicht.",
+      "items": [
+        {
+          "title": "Gebäudetyp E: Was Niederösterreich in München über leistbares Bauen lernt - a3BAU",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZjRGVGdTYWFROEVzUjZrWF9HdGoxbVBzRWRUV3V3TlBhYkFSR1VxNXRXaFNzOWdXVlNtQzM1QnFDU0ZSWmI3NVg4QlNodWVfSWxEM0F5Sm5RQ3JnYnJfTGFSaWd0blMwWGNBa18tbDRxeWkxR0Q0TXJncVg5VFN4cmZWbjVkY2xzeGRWbVV2MkJZWnRD?oc=5",
+          "source": "a3BAU",
+          "date": "19. Oct 2026"
+        },
+        {
+          "title": "Gebäudetyp-E-Gesetz: Bayern will den Basisstandard zum Normalfall machen - a3BAU",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONUV5MUV6UFRVenZGRVpmMFNIZTBVYm5OOWtmZDk0SWNrdURNSGRqX0ZNS3cwREQ3VlBIcW05eFY5VktFR01NcWhyU3JEX0dnSF9XRkp4T090bU0xcERZUkRNT3ZxeThLaUFocmlwRGpYNEVJT21uSmllTXB1bFNZRWdRd3I0Yk5yMnItdlV6bVRvVnM?oc=5",
+          "source": "a3BAU",
+          "date": "19. Oct 2026"
+        },
+        {
+          "title": "Kein Dreck: Neuer Mistplatz für drei West-Bezirke - Wiener Bezirksblatt",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQzR5cFdYMEtwZW15ZkloVWMwSGVha2hTNV81Y3ppVVk2TVpXcVNRSTlBYzRhNEdxWjFLbXB5OEJKOWQwMEtpSGZnZW1tM0d6N0psNHh6Vk5HU0F5a2J3bVlhcUJKNmlWNUpscGpIUGZxRGJIYkNKalNWWXhnT0F1clgxNGJmTGs?oc=5",
+          "source": "Wiener Bezirksblatt",
+          "date": "14. Oct 2026"
+        },
+        {
+          "title": "Schlaflos in Frankfurt: Schallschutz für Wärmepumpen - Frankfurter Rundschau",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOXgwSlhUa1RqQ2JsS0tITlhiN3NCMHdzMkFqRkFhSzJsVkpLN2FIdVdpc2xONU5HXzk0SXJMZ0JzMl9WU3B4LTJlaVNlWVBCUUJpbUQ4clpaX1Y0dzZOM0ZxQUJESUVlY0pWT0p4cElZNHI3bkVUZVFQSWNSemQwMTVaZDhxMFlmQUVYdThrYTRfVHd6V2JQZGZ6QQ?oc=5",
+          "source": "Frankfurter Rundschau",
+          "date": "19. Oct 2026"
+        }
+      ]
     },
     "oal": {
       "label": "ÖAL",
