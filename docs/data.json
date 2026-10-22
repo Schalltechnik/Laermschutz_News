@@ -1,5 +1,5 @@
 {
-  "generated": "21. October 2026, 08:49 UTC",
+  "generated": "22. October 2026, 08:52 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -12,48 +12,47 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Keine relevanten Meldungen gefunden.",
-      "items": [
-        {
-          "title": "Gegen Lärmschutzwand gedrückt: Gailtaler (36) stirbt bei schrecklichem Unfall - 5 Minuten",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOT1I1eGt1QW12ZUY5LVFpd3hVOTlERnNvQV95bjN3YjRLcDlRRUliLUg4am9pZS1BbzdUZXBqZjNkdVQydC1xb2NFajBEWDAwekY4LUJXdjRHZWxLZ2wxa3hwZVBnMHZkRlEzMklMbTlrWmlrb0FSVTRldG5qN19jWFJjZXUzRDZLell4alVGdnpuMzFMcVY5cHRnU0NGeWxieU4yWVNESEM2bjc0Tm4zSjhJMjdBUjhYejBsY3EtTzBOWTA?oc=5",
-          "source": "5 Minuten",
-          "date": "14. Oct 2026"
-        },
-        {
-          "title": "Erdbeben Heute: jüngste Beben weltweit letzte 24 Stunden - Volcano Discovery",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ha0NFZUUzVUM0eTM5a3d2X3dpX243d25BdWZOd1EweXJ3T05WWFJDNjRSNXlJSXF4a2huSUZ1clVvaGRfaloxM1JaSkVud09jS1l3ckVSbnpieFNVN3I2aGR2TVlYUQ?oc=5",
-          "source": "Volcano Discovery",
-          "date": "21. Oct 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "dach": {
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Keine relevanten Meldungen gefunden.\n\nWait - der Titel ist tatsächlich relevant. Hier die korrekte Zusammenfassung:\n\nDie Deutsche Umwelthilfe hat mehrere deutsche Städte wegen übermäßigen Straßenlärms verklagt, was den wachsenden Druck auf Kommunen zur Lärmreduzierung im öffentlichen Raum verdeutlicht.",
-      "items": [
-        {
-          "title": "Wegen zu viel Straßenlärm - Umwelthilfe verklagt mehrere Städte - SWR",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOS2I4N0puOHkxUW0waWxtckR4MVJrdUU5enlwNEpQcFB2WVRZbmN4WnQ0TnN1U216SmZuNVhCWVlNeThFXzFRT2oxWTYtRVNUamdSaFAxM1FWVGhmWWhrX1Jhbmh4VThEWm1wOTh2dWFndEFBeTRSbmlhemJlWWs3bUxXaU9hcnZXNjhtZDJ1TG9VQ1dnWEVwMGF5RE5HYjlHQkk3N0p3cGdvcV9DaEprMWdHTXZUM0lNN1NiY1JvZFc?oc=5",
-          "source": "SWR",
-          "date": "17. Oct 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "europe": {
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "No relevant news found.",
+      "items": [
+        {
+          "title": "vivo Buds Ultra launch in Europe with 60dB ANC and dual drivers - GSMArena.com news - GSMArena.com",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNnVWaGphQUZmOWNzWWUxdHdsTGdNRjVqdDJodWR5ZWt5dFVkZnEzQThITFJSdWJFZjBXY1EtRVA1MXVlR0c3aFNIWTJFMkd5ckhKMG1EeHBSWnpBZmJmSGRwRFNtX2RLQ1lJVGRWOHA0azF1NjlURUx6cEQ4MWpibE1rTGhaWnVkSlF0VmpnS1pDRXpLdkp4ZlFZNHI5OEgxdXFwRnhn0gGiAUFVX3lxTFA0WUVoMEVFRzB1VjhTS3RmRXBYTlpCNEtKcG9CbE1pUmk1eVpwWHlMVGtCSGtwTVJTNjBNeE4zbVd3OGh0bTFmcXpLYjJ5ckJ1MDlqdmgxaTRLcUhiU1BDdXl1WXEwRkoxR0hzbW1NLUZ5T19RQnp3ejh5Z2pEWFhlTXZtTkZfeFd0R2xJWnVrUzdpblZBR3hORjBXQ0Q4eExSZw?oc=5",
+          "source": "GSMArena.com",
+          "date": "21. Oct 2026"
+        },
+        {
+          "title": "vivo Buds Ultra Launch in Europe With 60dB ANC and Dual Drivers - news.lavx.hu",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTFlKUEdjeDJPNkFtRVZqZHF0RmlHMlY5Q2l5dlNONjNGbFNlUHRQS01DN3VUbW91NWtpM1RQOXpORDZvbVpvcVRBQnZqX2JTZV83TTYxdlhfdE8wR0F1czBOM1hhVFkyaE9JbVc0QjdpMVpUVXJFX2VBbHQwWDFJRVAzdi1DTGZEcmxzd2h1MjNkNXZrOGpZ?oc=5",
+          "source": "news.lavx.hu",
+          "date": "21. Oct 2026"
+        },
+        {
+          "title": "vivo Buds Ultra arrives in Europe: Up to 60dB ANC, Knowles armature + dynamic drivers - GIZGUIDE",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9jdEhhaUhGMlNMczg3dXR2MC1WNjNoNFBSTDhUcS02U3hOT1pBd0cxbnQxWHZCVW1JWm80RkRMZGVSY2tUbGg0QmJqN29FVXFITlg1eU5KbTMxNDl1X0VvWDJMMWc3ZjBzc1M3bA?oc=5",
+          "source": "GIZGUIDE",
+          "date": "22. Oct 2026"
+        }
+      ]
     },
     "science": {
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Recent market analysis highlights growing interest in roadside noise barrier solutions, reflecting broader industry momentum in acoustic mitigation infrastructure. Meanwhile, mounting evidence underscores noise pollution as a significant and underappreciated public health concern, particularly near schools where excessive sound levels are shown to negatively affect both students' wellbeing and academic performance.",
+      "summary": "Recent reports highlight growing attention to noise pollution's societal impacts, with analyses of the roadside noise barriers market examining industry trends and future prospects alongside investigations into how noise near schools adversely affects students' health and educational outcomes. The difficulty of accurately measuring and monitoring noise pollution as a public health risk is also emerging as a key concern for researchers and policymakers alike.",
       "items": [
         {
           "title": "Roadside Noise Barriers Market Report Analyzes Industry Trends, Key Growth Factors, and Future Prospects - openPR.com",
@@ -62,10 +61,10 @@
           "date": "15. Oct 2026"
         },
         {
-          "title": "Noise pollution is a public health risk that’s hard to measure and monitor - Mongabay India",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPN0xmeGR5Z1VRNURWX3poOEstNlR2cWl3Rk1FLXF1NTQ3UzNFOFEybHJWX0p1Y21qV0JKYnlhRnhlOVY3NmhaVzh2SEl6SmVMSlcxMTZVTjI1MWJIeWxKQlg4RUpBd2ZOUDFfLWJjMVpRQ1FVbVc1aEJfeE9ObkIyY0pLZld3NXBlSUNTUTNEZEluWU5MWHJTaGFWMWMyMzBGelhpcU4tZVV5V1hJbGc?oc=5",
-          "source": "Mongabay India",
-          "date": "15. Oct 2026"
+          "title": "Noise pollution is a public health risk that’s hard to measure and monitor - The News Minute",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeHN2ZzYyRWxYVF82MlVoaUxnQ3BKZmVSM0daMEpiV3JjcUlZbnlkVFdreWdxR3ZZeTFXODJvNzBKejNDOXRmLS1nVVdHM3NYQnB1Z3RLY1dtM05CVjIzWVlpdG8zN01ndmQzXzd6a2NMYUZrVEprektRdDU1R2pvN0M0NHE2SFg5aklOZ2ZXaHctVWFCR28zM3B4TjdHWmstZkhkMk9VTWVyS2VU0gG6AUFVX3lxTE9PTk1XTkx5ZV9CT2JmLUxnOWo0X3FCckI2NWRLelc0YlYtVUowR251cXZzSkpNa2djZUlQLWt5ZUVaVmpYRGtHQ0x6MnFJdlN5TmhvY3QtcmhQeVAwMkdOWHNmdzlRRG5XamRwb0x0MjRGY0JRQUpLUDB6ZzBVcDhpMkItYklUM2wyTmhINWZpUk1Od2FxbnUwbkdXN2RVMUNraDA3V3FRWFJhSkRuMmxjS3A0S19WUDRwUQ?oc=5",
+          "source": "The News Minute",
+          "date": "22. Oct 2026"
         },
         {
           "title": "Inside the silence zone: How noise pollution near schools impacts students' health and education - Down To Earth",
@@ -79,7 +78,7 @@
       "label": "Bauakustik",
       "icon": "🏗️",
       "color": "#7b4f12",
-      "summary": "In Deutschland gewinnt die Diskussion um den Gebäudetyp E an Fahrt, wobei Bayern plant, den reduzierten Basisstandard – der auch Schallschutzanforderungen betrifft – zum gesetzlichen Normalfall zu machen, während Niederösterreich entsprechende Erfahrungen aus München zieht. Zudem thematisiert die Frankfurter Rundschau den Schallschutz von Wärmepumpen als wachsendes Problem für Anwohner, was die Relevanz lärmtechnischer Anforderungen an Luftwärmepumpen im urbanen Umfeld unterstreicht.",
+      "summary": "Der Schallschutz von Wärmepumpen rückt in den Fokus, wie ein Bericht der Frankfurter Rundschau über Lärmprobleme durch Wärmepumpen in Frankfurt verdeutlicht. Aus dem DACH-Raum berichten zudem österreichische und bayerische Fachmedien über den Gebäudetyp E und dessen reduzierten Baustandards, was indirekt auch Schallschutzanforderungen im Hochbau betreffen könnte.",
       "items": [
         {
           "title": "Gebäudetyp E: Was Niederösterreich in München über leistbares Bauen lernt - a3BAU",
@@ -92,12 +91,6 @@
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONUV5MUV6UFRVenZGRVpmMFNIZTBVYm5OOWtmZDk0SWNrdURNSGRqX0ZNS3cwREQ3VlBIcW05eFY5VktFR01NcWhyU3JEX0dnSF9XRkp4T090bU0xcERZUkRNT3ZxeThLaUFocmlwRGpYNEVJT21uSmllTXB1bFNZRWdRd3I0Yk5yMnItdlV6bVRvVnM?oc=5",
           "source": "a3BAU",
           "date": "19. Oct 2026"
-        },
-        {
-          "title": "Kein Dreck: Neuer Mistplatz für drei West-Bezirke - Wiener Bezirksblatt",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQzR5cFdYMEtwZW15ZkloVWMwSGVha2hTNV81Y3ppVVk2TVpXcVNRSTlBYzRhNEdxWjFLbXB5OEJKOWQwMEtpSGZnZW1tM0d6N0psNHh6Vk5HU0F5a2J3bVlhcUJKNmlWNUpscGpIUGZxRGJIYkNKalNWWXhnT0F1clgxNGJmTGs?oc=5",
-          "source": "Wiener Bezirksblatt",
-          "date": "14. Oct 2026"
         },
         {
           "title": "Schlaflos in Frankfurt: Schallschutz für Wärmepumpen - Frankfurter Rundschau",
