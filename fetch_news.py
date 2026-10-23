@@ -24,8 +24,8 @@ import xml.etree.ElementTree as ET
 ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
 ANTHROPIC_URL     = "https://api.anthropic.com/v1/messages"
 
-CLAUDE_SONNET = "claude-sonnet-4-6"   # Used for daily and weekly
-CLAUDE_HAIKU  = "claude-haiku-4-5"    # Used for monthly (faster, cheaper)
+CLAUDE_SONNET = "claude-sonnet-5-5"   # Used for daily and weekly
+CLAUDE_HAIKU  = "claude-haiku-5-5"    # Used for monthly (faster, cheaper)
 
 WEEKLY_SUMMARY_ONLY  = os.environ.get("WEEKLY_SUMMARY",  "false").lower() == "true"
 MONTHLY_SUMMARY_ONLY = os.environ.get("MONTHLY_SUMMARY", "false").lower() == "true"
