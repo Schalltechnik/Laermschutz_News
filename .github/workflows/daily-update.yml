@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: "30 3 * * *"        # Daily 03:30 UTC = ~05:00 Graz
     - cron: "0 4 * * 5"         # Weekly Fri 04:00 UTC = ~06:00 Graz (newsletter generated + sent)
-    - cron: "0 10 28-31 * *"    # Monthly last day 10:00 UTC = ~12:00 Graz
+    - cron: "0 10 28-31 * *"    # Fires 28th–31st 10:00 UTC; the job only proceeds on the actual last day (see "Set mode flags")
 
   # Subscribe/unsubscribe events from the website form
   repository_dispatch:
@@ -87,6 +87,22 @@ jobs:
           SEND_W="${{ github.event.inputs.send_weekly }}"
           SEND_M="${{ github.event.inputs.send_monthly }}"
 
+          # The monthly cron fires on the 28th, 29th, 30th and 31st.
+          # Only treat it as the monthly run if tomorrow is the 1st (= today is the last day of the month).
+          # On the other days the whole run is skipped.
+          IS_MONTHLY_RUN=false
+          SKIP_RUN=false
+          if [ "$SCHEDULE" = "0 10 28-31 * *" ]; then
+            if [ "$(date -u -d tomorrow +%d)" = "01" ]; then
+              IS_MONTHLY_RUN=true
+              echo "Today is the last day of the month → monthly newsletter run."
+            else
+              SKIP_RUN=true
+              echo "Monthly cron fired, but today ($(date -u +%Y-%m-%d)) is not the last day of the month → skipping."
+            fi
+          fi
+          echo "SKIP_RUN=$SKIP_RUN" >> $GITHUB_ENV
+
           # Weekly newsletter: Friday 04:00 UTC schedule or manual
           if [ "$SCHEDULE" = "0 4 * * 5" ] || [ "$WEEKLY_IN" = "true" ]; then
             echo "WEEKLY_SUMMARY=true"  >> $GITHUB_ENV
@@ -94,8 +110,8 @@ jobs:
             echo "WEEKLY_SUMMARY=false" >> $GITHUB_ENV
           fi
 
-          # Monthly newsletter: 28-31 schedule or manual
-          if [ "$SCHEDULE" = "0 10 28-31 * *" ] || [ "$MONTHLY_IN" = "true" ]; then
+          # Monthly newsletter: last day of month (via 28-31 schedule) or manual
+          if [ "$IS_MONTHLY_RUN" = "true" ] || [ "$MONTHLY_IN" = "true" ]; then
             echo "MONTHLY_SUMMARY=true"  >> $GITHUB_ENV
           else
             echo "MONTHLY_SUMMARY=false" >> $GITHUB_ENV
@@ -109,19 +125,20 @@ jobs:
           fi
 
           # Send monthly: last-day schedule automatically sends, or manual
-          if [ "$SCHEDULE" = "0 10 28-31 * *" ] || [ "$SEND_M" = "true" ]; then
+          if [ "$IS_MONTHLY_RUN" = "true" ] || [ "$SEND_M" = "true" ]; then
             echo "SEND_MONTHLY=true"  >> $GITHUB_ENV
           else
             echo "SEND_MONTHLY=false" >> $GITHUB_ENV
           fi
 
       - name: Fetch news and generate summaries
+        if: env.SKIP_RUN != 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python fetch_news.py
 
       - name: Send newsletters via Brevo
-        if: env.SEND_WEEKLY == 'true' || env.SEND_MONTHLY == 'true'
+        if: env.SKIP_RUN != 'true' && (env.SEND_WEEKLY == 'true' || env.SEND_MONTHLY == 'true')
         env:
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
           SENDER_EMAIL:  ${{ secrets.SENDER_EMAIL }}
@@ -129,6 +146,7 @@ jobs:
         run: python send_newsletter.py
 
       - name: Commit updated files
+        if: env.SKIP_RUN != 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
