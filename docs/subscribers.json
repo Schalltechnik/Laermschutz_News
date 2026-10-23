@@ -27,6 +27,13 @@
     "monthly": true,
     "active": true
   },
+    {
+    "email": "helfried.gartner@gmx.at",
+    "name": "Helfried Gartner",
+    "weekly": true,
+    "monthly": true,
+    "active": true
+  },
 {
     "email": "lackner_florian@gmx.at",
     "name": "Florian Lackner",
