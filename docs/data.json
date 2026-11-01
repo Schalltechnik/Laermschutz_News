@@ -1,5 +1,5 @@
 {
-  "generated": "31. October 2026, 09:53 UTC",
+  "generated": "01. November 2026, 10:44 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -7,6 +7,12 @@
       "color": "#1a5c38",
       "summary": "Zusammenfassung konnte nicht erstellt werden.",
       "items": [
+        {
+          "title": "Das Baugesetz in der Steiermark wird neu ausgerichtet - Kleine Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcFN2eE1abXNjbFdTNGRKamZHX2R5ZHNhc3FTNldZRE5YNWdGaEJ3bTY4UTAzYW80d1JUdFV0bnRfdUhYaVo2Sk8yZko5YTJNWmZVOWVEWUZEcXZjZzFpVXVBRkM3V3J0THI3YkVLOVAwaHRzcmRUSlc5NThxaEVvelRWd2RaUTJnZFRLMjdUNFU2WndOS2VBTUNxOA?oc=5",
+          "source": "Kleine Zeitung",
+          "date": "30. Oct 2026"
+        },
         {
           "title": "Lärm-Terror am Bahnhof Gösting: NEOS machen Lärm zum Thema im Gemeinderat - 5 Minuten",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQOFBVMmtrTmg4dm4tNU1SQUUwRzhDa05VaFFkdWd0OUo1bFZFTVdEc1ZYLU5UenVNVmdjcTBQSzFnbXFBYlFMczR2bXc2TmwwQTgzSWpnbkM4Q0tNUjFKLUlfUUlQdEVGaFl2TEp2ZzJrZlpzUHBVbUFKMVBPWnRtSFgwM21pUExsbkNhY1ZjVTg5QWFuanU2eFNRS1RsVjZPNWFZN0pxYTFrRjFCMzBoTEkzX29JUQ?oc=5",
@@ -19,8 +25,39 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "Zusammenfassung konnte nicht erstellt werden.",
+      "items": [
+        {
+          "title": "Tirol: Fahrverbote für Motorräder könnten ausgeweitet werden - MOTORRAD",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMlpXcG5RaTJGVWZHUHVTdHYtdi1FTF9kbnJJUENLdjQxRkhoYVEyc2JLUFZJd2wxOEJQWDlkVTd6NGprMy15T0RxcXF5Rl93WFdlckpHb0lCOE5qUjdDbXJ1QUluR0ZYVTM0cnZXRFN3Q1FjNGRNTzZXMkg4b2puNnFrT1dBamhoa2JNN3RwaEpZUHFWeC1tdURfaEN2WWU3RVhNSA?oc=5",
+          "source": "MOTORRAD",
+          "date": "30. Oct 2026"
+        },
+        {
+          "title": "Nordbahnviertel: Bahnlärm sorgt für Unmut - wien.ORF.at",
+          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9nazlaNzFDbUowa1Z6NXZDV1ZPVDNFRDkwVzZCcVZoUTlYdjZNX3VYVS1DVUJZQ3VuMk5fNWR6dC03SWFoRHBreDdEXzQ?oc=5",
+          "source": "wien.ORF.at",
+          "date": "28. Oct 2026"
+        },
+        {
+          "title": "Erste Bank Open: Carlos Alcaraz stört in Wien nur der Lärmpegel - tennisnet.com",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMFFXVDhURVdFMkRyTENIdUFmODBwS2twNW0xaUtrMmxHSkVsX1NTUTdKSXFtbnhpeXpTS0Z6VUczMGVDUU9LQ1BIdERuQ05qaWJPX190NXlJekFUU1pieGtCZGZFV3ZUNmJaSFBMbm9majNvQjh6OEJSWkVlX01ySzdfaTlNMnNLTVNwOW9mRG91ZW9lS1hILU9tdw?oc=5",
+          "source": "tennisnet.com",
+          "date": "29. Oct 2026"
+        },
+        {
+          "title": "Lärmende Autoposer: Warum der Kampf der Stadt Wien so schwierig ist - Kurier",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMDdIMEdaeEVyYzI0MlBxRTR3X3VMQXBpbGtKLV9GZFpTZG03WWl0V25Yc0x4b2dLUVBrV183Z0ptR2dtOWxMQUNNNlhHeXowenNSMUYxbE5HZnFGM0I4OWoxVDNva1Q4QTBLdEJKM0U3Zk1HQmdQQjFlM2pKLXNZZ25nenBCYXBibVBnWTQyWVU?oc=5",
+          "source": "Kurier",
+          "date": "28. Oct 2026"
+        },
+        {
+          "title": "Nach Krawall-Ankündigung – jetzt rüstet sich Polizei - Heute",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeTNHajlIZXVKWUZtWkpjbDQwYlBNUS11eHRuMU9qbEFEVTctdU1uNG8xOGNweHdzUXZDUzkzSmk3eGJGNExaang2VmQwenNOdlhDRVF1U0hZSXczUmIzdXVaaUk5NGdlX1FhN2FWODBydVNrWHpQdDBCbEg0MUZ3Vk91QzhMVGlDQVdycEpB?oc=5",
+          "source": "Heute",
+          "date": "28. Oct 2026"
+        }
+      ]
     },
     "dach": {
       "label": "DACH",
@@ -28,6 +65,12 @@
       "color": "#5a5a5a",
       "summary": "Zusammenfassung konnte nicht erstellt werden.",
       "items": [
+        {
+          "title": "Umweltbericht: Lärm - www.zh.ch",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcG1hZWg1aW9OVGdmWlJHY2lQelZ4bDgwVWx5VU9nWHdRTmR5RmVkTEIxX3hHQ2QyWVMzb2FkZ1FwWFhraHAwMjh1WnJ0Q1I2RzEwQkx4TS1CVjJPU2NKaTBjMmUtaGVXX3hsYjg5aGl4MkNCRUx2Nks3M1kwbVJHeHlMMWhWN3pkbW1ULXRpYUpGd0l0Znk1SGNQcDZrLVVSSWVYS1YyOA?oc=5",
+          "source": "www.zh.ch",
+          "date": "26. Oct 2026"
+        },
         {
           "title": "Tempo 30 und Flüsterbelag kommen auf die Luzernerstrasse in Kriens - Luzerner Zeitung",
           "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMlBUekViZ0lsc2pObUdoSEZxQ19vcUp6SEpyVVB1TVltM3JhdGVzM3YtY3gzOXlyZXpiSkZGWDVpVU5hd3VPelg2aENGYTNka3Zoc09zTU1DdjVtcTl4bWliTDlpNXJ0bnozWEN0U2s3RGlVMjlFc1hscXNCNnB0eTRqNnNWUS1MTzg3ZlhmUHF1QjMzQV9Jb3A4ZHI2ZFlxdlVnMklpOWFuTlR4ajRkYldDUWR1ekhvUDdVbmxFVDBBWUxKQ3RXSE5ma2FWanVlRFkw?oc=5",
@@ -72,15 +115,8 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Zusammenfassung konnte nicht erstellt werden.",
-      "items": [
-        {
-          "title": "Latest Sound Measuring Instrument Market Research by The Business Research Company Highlights Future Trends & Forecasts - EIN News",
-          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNTnd1TlRzM1ctRkxlMWdxSVAzWkNKNGpXRDNRd09yZk50SnpPUm4zeHFlUTRrb21hZDJrNWpXcjVEUGZNbnVoYUNmQjlpWi1aaEo5RHh5ZlRPU0ZKbk0ySk1wQjZnN0FIRnN5TmFxZTByZEZkWkR3NU5XLWV6eWNkSHZxT0tiNnptS0JjVlQ3Q3lRcmdZUS1JWTJSV09KbnZ4b0hYVW1Bc1kyZWtUUldmQmRJU2JDQWo1TkFFbjZFeFlocVRQSG56Y0ZxUFJLN0NxOXVhaTAyS0l3NWt4OTUyd204NzM3a3I5clVVd3BQcnI?oc=5",
-          "source": "EIN News",
-          "date": "28. Oct 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "bauakustik": {
       "label": "Bauakustik",
@@ -95,9 +131,9 @@
           "date": "28. Oct 2026"
         },
         {
-          "title": "Diskussion zur Zukunft des Holzbaus - immomedien.at",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9zbVFXc0NSei10VmV3TWJNdGp6Sk1CU2xybjl2TUJxcTBhWFdVWWJMLXZ5MEVkU25OUTk0WUtIejVtQm40OXMtUVFCVjNoNFdQM2ZpZEV5QWZ5WnlBYi0zcVg1MTFIYlhmVVBkSWdPeE9ld1kxNHpEdTZxdDU?oc=5",
-          "source": "immomedien.at",
+          "title": "Diskussion zur Zukunft des Holzbaus - buildingtimes.at",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVkhMVC1EUllMeWFZMTNSUU1MbW5ZcU5vYmN3am1UM0Y5UEc5SGRKcWZyWFNMRFFwR2syckF4M1lzbkM0X0JaQ082RkZBYXlJRTNfUEFKc201dXBwQ1pNRHplanJxM2xpUlBfcVVEQ29NaWRZWXp3cTVPY0JweXU4Vg?oc=5",
+          "source": "buildingtimes.at",
           "date": "30. Oct 2026"
         }
       ]
