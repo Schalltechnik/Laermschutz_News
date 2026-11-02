@@ -1,25 +1,12 @@
 {
-  "generated": "01. November 2026, 10:44 UTC",
+  "generated": "02. November 2026, 11:36 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Zusammenfassung konnte nicht erstellt werden.",
-      "items": [
-        {
-          "title": "Das Baugesetz in der Steiermark wird neu ausgerichtet - Kleine Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcFN2eE1abXNjbFdTNGRKamZHX2R5ZHNhc3FTNldZRE5YNWdGaEJ3bTY4UTAzYW80d1JUdFV0bnRfdUhYaVo2Sk8yZko5YTJNWmZVOWVEWUZEcXZjZzFpVXVBRkM3V3J0THI3YkVLOVAwaHRzcmRUSlc5NThxaEVvelRWd2RaUTJnZFRLMjdUNFU2WndOS2VBTUNxOA?oc=5",
-          "source": "Kleine Zeitung",
-          "date": "30. Oct 2026"
-        },
-        {
-          "title": "Lärm-Terror am Bahnhof Gösting: NEOS machen Lärm zum Thema im Gemeinderat - 5 Minuten",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQOFBVMmtrTmg4dm4tNU1SQUUwRzhDa05VaFFkdWd0OUo1bFZFTVdEc1ZYLU5UenVNVmdjcTBQSzFnbXFBYlFMczR2bXc2TmwwQTgzSWpnbkM4Q0tNUjFKLUlfUUlQdEVGaFl2TEp2ZzJrZlpzUHBVbUFKMVBPWnRtSFgwM21pUExsbkNhY1ZjVTg5QWFuanU2eFNRS1RsVjZPNWFZN0pxYTFrRjFCMzBoTEkzX29JUQ?oc=5",
-          "source": "5 Minuten",
-          "date": "26. Oct 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "austria": {
       "label": "Österreich",
@@ -27,6 +14,18 @@
       "color": "#c8102e",
       "summary": "Zusammenfassung konnte nicht erstellt werden.",
       "items": [
+        {
+          "title": "Müllkübel-Brand in Zirl: Schaden an Lärmschutzwand - austria.com",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOOVUyNExNS3lHV3ZOczB4REdBb29kclZZbEFDNUlENDlycFM4VVdYdURIa3pFcS0wSUkyc1hxZ2NPYlM2Zmh3ZzZkdFVlZnFZSG04WTc0dDJ6ZUFob1pyQjIzX1ZQYzM5aHNCWWpHM3ZGTmZFUWIxS3Z1VlZUYlRJd2xwSQ?oc=5",
+          "source": "austria.com",
+          "date": "27. Oct 2026"
+        },
+        {
+          "title": "Wiener Startup REEDuce bringt Schilf-Lärmschutzwand auf die A1 - brutkasten",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTFlURllocjJnRVBXVnFxOXVEazA3TGhyOWhrcWNwNUxITUx6WHBITmxrbTZFakdQTHN5THpqT29Oa1E5eG9RUHFabEJGVW9ZVTlJRTVtQmFvVmd3VkRiNVZLM0FmLUU2UFllRTV4d3dqSjFHQkg4WXhUT1lycFNNR2hDNG1TbXBTbEoxWmlhV2MzVWlyS0N6eUR3?oc=5",
+          "source": "brutkasten",
+          "date": "27. Oct 2026"
+        },
         {
           "title": "Tirol: Fahrverbote für Motorräder könnten ausgeweitet werden - MOTORRAD",
           "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMlpXcG5RaTJGVWZHUHVTdHYtdi1FTF9kbnJJUENLdjQxRkhoYVEyc2JLUFZJd2wxOEJQWDlkVTd6NGprMy15T0RxcXF5Rl93WFdlckpHb0lCOE5qUjdDbXJ1QUluR0ZYVTM0cnZXRFN3Q1FjNGRNTzZXMkg4b2puNnFrT1dBamhoa2JNN3RwaEpZUHFWeC1tdURfaEN2WWU3RVhNSA?oc=5",
@@ -52,10 +51,28 @@
           "date": "28. Oct 2026"
         },
         {
+          "title": "EU-Kommission bestätigt erneut Gesundheitsschäden durch Windräder - FPÖ",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeUFvdHpWWFZSbFQtVlNLUFdzMUJvUDdaX282LXN1V3R6dHJmdHJfQzRUbzlrcThYaTJOT19RNm42ZTg4MHZhOVF4MlhEaGoyazhBMWFhS3dfTERDZExRbEVILU40VUx0VHBjR1YweWpZQ1ozeF9pQUxzckZLNTlHaEtzMlE2MDlkWW5IdnNKVkpvdVBCNFBGT3kxWVVfMnc4RHN0SDM4RU12R2ZzT1E1dkl4YWt1MXc3SUE?oc=5",
+          "source": "FPÖ",
+          "date": "2. Nov 2026"
+        },
+        {
+          "title": "\"Unfassbarer Lärm!\" Moped-Rowdys rauben Wienern Schlaf - Heute",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTV9EMmRqdTNidXdMLVlfNWlCWVhtakpFYmZZeW1qREVYYUJDMlA2MndxMXM1MVQzT0F0WUpCR2xrTEVSbkEzSkFoTFJUSEs1dVU1eDhXTjNfLXJMU2xPSTNRSjNqcGhfeGExdDhPOE9JQUlXOUNGZ05MVXhIdGlPVkRDbEpyQ0VNODB1b1FB?oc=5",
+          "source": "Heute",
+          "date": "2. Nov 2026"
+        },
+        {
           "title": "Nach Krawall-Ankündigung – jetzt rüstet sich Polizei - Heute",
           "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeTNHajlIZXVKWUZtWkpjbDQwYlBNUS11eHRuMU9qbEFEVTctdU1uNG8xOGNweHdzUXZDUzkzSmk3eGJGNExaang2VmQwenNOdlhDRVF1U0hZSXczUmIzdXVaaUk5NGdlX1FhN2FWODBydVNrWHpQdDBCbEg0MUZ3Vk91QzhMVGlDQVdycEpB?oc=5",
           "source": "Heute",
           "date": "28. Oct 2026"
+        },
+        {
+          "title": "Österreich: Drei Regionen für einen sanften Winter voller Kultur - Nau",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOY0t2TU1IN0NJMXJzQVRIbmF6c0l5T1ZiRkNDY21hUjVDekxVd1B5RWR0aDRZbWZhNlhDSTNYbHp0TEdwaTdSZW9xVGx0Mng2cnZpbjU1bzlOM01qQkNCRmNxX19lSHFHMkpLbHg5SXA0MDh5NlA4UzR1bndSbUdJMjRZV2psd0V2UzRNUHZaOHBDMkVhRlpuMDc4WFVTMEdPWUU3VnduWF9XQQ?oc=5",
+          "source": "Nau",
+          "date": "2. Nov 2026"
         }
       ]
     },
@@ -66,16 +83,28 @@
       "summary": "Zusammenfassung konnte nicht erstellt werden.",
       "items": [
         {
+          "title": "Mehr Tempo-30-Zonen?: Wegen Verkehrslärm: Saarbrücken droht krachende Niederlage vor Gericht - Saarbrücker Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQckpnUkt6MGdQZHkxcl9aOHdsUS1tM2daMFhtb1RpcmJfVm1vTTJJN0tjeGpiU0ktTzh3M2ozdGV0OFN5VUlrOTBNVi1OWlFER2NlcEpMVUxVM2tXbjFHQi14NEV3bElWcEhoOVRGNExrVUswdFVpUzYwTS05NGg2ZjBfcXZyWnBIWVF2M0xsel9YWFJtcnE1YlRTd3dxUjRFczI1dEZjVTZuRjQ?oc=5",
+          "source": "Saarbrücker Zeitung",
+          "date": "1. Nov 2026"
+        },
+        {
+          "title": "xAI will 418 Häuser kaufen: Lärmstreit Southaven [2026] - tech-insider.org",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRzlNNlVEcUpQbENJY3BWWF9iaGI0T0VaSVlVR0hLaFhCV21HcHVTWjA1OVUzTGFlZWhWQmx3eXU2UjJJQ3NNS1BROEpadTJ5a2FhRXdzT05QbDM1ZFVOZ0p3bXkzZHZ0WXRJWTJBazhJbkhDaHJGOXFtanBtZzQxYmV1YjhnUQ?oc=5",
+          "source": "tech-insider.org",
+          "date": "1. Nov 2026"
+        },
+        {
           "title": "Umweltbericht: Lärm - www.zh.ch",
           "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcG1hZWg1aW9OVGdmWlJHY2lQelZ4bDgwVWx5VU9nWHdRTmR5RmVkTEIxX3hHQ2QyWVMzb2FkZ1FwWFhraHAwMjh1WnJ0Q1I2RzEwQkx4TS1CVjJPU2NKaTBjMmUtaGVXX3hsYjg5aGl4MkNCRUx2Nks3M1kwbVJHeHlMMWhWN3pkbW1ULXRpYUpGd0l0Znk1SGNQcDZrLVVSSWVYS1YyOA?oc=5",
           "source": "www.zh.ch",
           "date": "26. Oct 2026"
         },
         {
-          "title": "Tempo 30 und Flüsterbelag kommen auf die Luzernerstrasse in Kriens - Luzerner Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMlBUekViZ0lsc2pObUdoSEZxQ19vcUp6SEpyVVB1TVltM3JhdGVzM3YtY3gzOXlyZXpiSkZGWDVpVU5hd3VPelg2aENGYTNka3Zoc09zTU1DdjVtcTl4bWliTDlpNXJ0bnozWEN0U2s3RGlVMjlFc1hscXNCNnB0eTRqNnNWUS1MTzg3ZlhmUHF1QjMzQV9Jb3A4ZHI2ZFlxdlVnMklpOWFuTlR4ajRkYldDUWR1ekhvUDdVbmxFVDBBWUxKQ3RXSE5ma2FWanVlRFkw?oc=5",
-          "source": "Luzerner Zeitung",
-          "date": "29. Oct 2026"
+          "title": "Lärm in Hohenrain: Gericht gibt Anwohnern recht, nichts geschieht - SRF",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZ3J0d09HNDJZb1JxRXJ4RWJzYmJuUE5OWV9ic0JOVTBtZHNhZ1owYVk4Z1l5ZXpwRmhnQlhZTlo1aXBzLTg4Y2l5c1gxbzdrWW1NY3lPYjJFcGVLRlQ4WVQ1ZVZVbGkwcnhwWkNsYlhEckowclBudC1JcnNpeWthNnk5aXh2QUwxT0NKSW9kaHpXb0JFSGNfOGJkY0hET1hDakotRUxIeUNXRGRPSGVYSFR1OVE1MkdT?oc=5",
+          "source": "SRF",
+          "date": "31. Oct 2026"
         }
       ]
     },
@@ -92,22 +121,10 @@
           "date": "27. Oct 2026"
         },
         {
-          "title": "Lucia Szabová | ‘The Silent Killer’ Is Ready To Make Some Noise - UFC.com",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2NFZLMHFVLVhxVG53VmdQRS0zRTlXSGRteXFicHh6LUFzVnJnWUV5eGtTYkw2WnF1V0w1Mm9fVjZRcXBnZHdINFh2ZFAzcVFWbGZFeGxXUmJmdFl5QUJ6R2FVOHB5LTBZbGFtTTh5T19mdFhnUF9wanJ5cjlJSmc?oc=5",
-          "source": "UFC.com",
-          "date": "29. Oct 2026"
-        },
-        {
-          "title": "Lausanne’s Sonexos raises €5.4 million to tackle low-frequency noise from fans, compressors and even data centres - EU-Startups",
-          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPeVFGaGhRR00yaDZlQTNoa3hKV01YbEl4RXk3N1RGU2tlb29TMEVubWQtY1hILXk0c3ZhX3FTQ3dMRjktM2RsVkhnV1MtcUhfZEpzMk5YcFVmOGlLdWlfMWdKaG1oWVQwV2pkSzN0emRMYUljSUJQbzlISTNJYnJFYmNWd1lUQjhhTENnMktEejhTc3B2cEdNZ0E1b2pqNVlMLUZDRjNWa0laQ2Q5MzVUVXdGUDlXelEwdThRWElUYXd4UGM1dGdPZEVrelNpUFJzOUFvWGw0NGVrY0x4U19CSEdR?oc=5",
-          "source": "EU-Startups",
-          "date": "26. Oct 2026"
-        },
-        {
-          "title": "Sonexos Raises €5.4M for Solid-State Noise Control - Konsulteer",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPT3FCWkUza1FDam5qdkRUUFNvdDZUenJnTzhjVTFyOVZnaXpkSnpMVF82ZlhkQl9USmhZblZ0OTJDWmRVZWV2NllVNXJjZS1NOENwYmgwanptbXI4WGFjRmM0cWNJaWZtUmstMUNCQ1YwLWwzei1UYl8wLThTeDg2SkpwWVVPMnlOTC1mdHZ3Ml9MV1V1U1Y0VmhYeEVQMkVDaTYteFpiTWJoRDFUcEJ5NTJWdUNRLXZFYmoycmI2R1dRaldzcjFZaHlSYWY?oc=5",
-          "source": "Konsulteer",
-          "date": "26. Oct 2026"
+          "title": "EXCLUSIVE: Pentagon tells Europeans to cool their rhetoric on Russia, sources say - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTEZ5UV9XWUJPdkJDanlwdEFEY1V5T3A3UExxWHoxZFBHbnY1RjFsS0JwWk92TFhqYWpLVTFmMk9VUUhiRzZDVDZsdERfTERlUUZ0cWdKNm9MeUE4Mm5MNWZuaXpNLXVOM3BVczNXVndOOGlBZk9PLXBqT3hGLXpsRGVkREl6cTk5RXNWRThVVkNrem5BQkp0SVFReWY3aEktdGItd0c5bTNQUFVsRGZwczRYSUJVUFE?oc=5",
+          "source": "Reuters",
+          "date": "30. Oct 2026"
         }
       ]
     },
