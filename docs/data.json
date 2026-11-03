@@ -1,12 +1,19 @@
 {
-  "generated": "02. November 2026, 11:36 UTC",
+  "generated": "03. November 2026, 11:14 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "Zusammenfassung konnte nicht erstellt werden.",
+      "items": [
+        {
+          "title": "Das Baugesetz in der Steiermark wird neu ausgerichtet - Kleine Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcFN2eE1abXNjbFdTNGRKamZHX2R5ZHNhc3FTNldZRE5YNWdGaEJ3bTY4UTAzYW80d1JUdFV0bnRfdUhYaVo2Sk8yZko5YTJNWmZVOWVEWUZEcXZjZzFpVXVBRkM3V3J0THI3YkVLOVAwaHRzcmRUSlc5NThxaEVvelRWd2RaUTJnZFRLMjdUNFU2WndOS2VBTUNxOA?oc=5",
+          "source": "Kleine Zeitung",
+          "date": "30. Oct 2026"
+        }
+      ]
     },
     "austria": {
       "label": "Österreich",
@@ -15,21 +22,15 @@
       "summary": "Zusammenfassung konnte nicht erstellt werden.",
       "items": [
         {
-          "title": "Müllkübel-Brand in Zirl: Schaden an Lärmschutzwand - austria.com",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOOVUyNExNS3lHV3ZOczB4REdBb29kclZZbEFDNUlENDlycFM4VVdYdURIa3pFcS0wSUkyc1hxZ2NPYlM2Zmh3ZzZkdFVlZnFZSG04WTc0dDJ6ZUFob1pyQjIzX1ZQYzM5aHNCWWpHM3ZGTmZFUWIxS3Z1VlZUYlRJd2xwSQ?oc=5",
-          "source": "austria.com",
-          "date": "27. Oct 2026"
+          "title": "Eurofighter im Einsatz: Bundesheer startet im November mit Überschalltrainings - MeinBezirk.at",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQT1RiRWV5WldDR2F6WGNKQ19VVUlKVlhLMmN0WGRka2ozRElqU1J4aGVpT2ZUbkhtVGRDbmp3SWJES2YxQkJaU0ktTU95NUtyekVPdVlJeWxaY2t3WEoyYzVFMWFQTzBBVmw2enpYNDh3MUlhYmozYzJGVnBQdWVqNnhFZFRIUXhVcnV2cFVPRGNRZTFCU2MxU2U3dzd5X2FBa3c?oc=5",
+          "source": "MeinBezirk.at",
+          "date": "29. Oct 2026"
         },
         {
-          "title": "Wiener Startup REEDuce bringt Schilf-Lärmschutzwand auf die A1 - brutkasten",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTFlURllocjJnRVBXVnFxOXVEazA3TGhyOWhrcWNwNUxITUx6WHBITmxrbTZFakdQTHN5THpqT29Oa1E5eG9RUHFabEJGVW9ZVTlJRTVtQmFvVmd3VkRiNVZLM0FmLUU2UFllRTV4d3dqSjFHQkg4WXhUT1lycFNNR2hDNG1TbXBTbEoxWmlhV2MzVWlyS0N6eUR3?oc=5",
-          "source": "brutkasten",
-          "date": "27. Oct 2026"
-        },
-        {
-          "title": "Tirol: Fahrverbote für Motorräder könnten ausgeweitet werden - MOTORRAD",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMlpXcG5RaTJGVWZHUHVTdHYtdi1FTF9kbnJJUENLdjQxRkhoYVEyc2JLUFZJd2wxOEJQWDlkVTd6NGprMy15T0RxcXF5Rl93WFdlckpHb0lCOE5qUjdDbXJ1QUluR0ZYVTM0cnZXRFN3Q1FjNGRNTzZXMkg4b2puNnFrT1dBamhoa2JNN3RwaEpZUHFWeC1tdURfaEN2WWU3RVhNSA?oc=5",
-          "source": "MOTORRAD",
+          "title": "Knallgeräusche am Himmel: Bundesheer kündigt Übungsflüge an - 5 Minuten",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbjVvekx3Y3FtT3FOajV0NlNQX1JFM1MyMDViOExJSUxxU3FfUzh5YnpvRTlUZy14Z1lxYlhOMXVsR2R4cXk0V1JvLVlOb1NlY3JCT1pQOUZuZ0Z3ZFlNMDRxM2tLOGE5VnJPM0VHR3RLNWE0NE9BaVJFLUptbHZhR0w5d0xJOU1Zc1lYc1AxMFhZU2NaeXFQR0hxYmxkUk4yc2VVd1ZUOTVrcXBJOEE?oc=5",
+          "source": "5 Minuten",
           "date": "30. Oct 2026"
         },
         {
@@ -39,39 +40,9 @@
           "date": "28. Oct 2026"
         },
         {
-          "title": "Erste Bank Open: Carlos Alcaraz stört in Wien nur der Lärmpegel - tennisnet.com",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMFFXVDhURVdFMkRyTENIdUFmODBwS2twNW0xaUtrMmxHSkVsX1NTUTdKSXFtbnhpeXpTS0Z6VUczMGVDUU9LQ1BIdERuQ05qaWJPX190NXlJekFUU1pieGtCZGZFV3ZUNmJaSFBMbm9majNvQjh6OEJSWkVlX01ySzdfaTlNMnNLTVNwOW9mRG91ZW9lS1hILU9tdw?oc=5",
-          "source": "tennisnet.com",
-          "date": "29. Oct 2026"
-        },
-        {
-          "title": "Lärmende Autoposer: Warum der Kampf der Stadt Wien so schwierig ist - Kurier",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMDdIMEdaeEVyYzI0MlBxRTR3X3VMQXBpbGtKLV9GZFpTZG03WWl0V25Yc0x4b2dLUVBrV183Z0ptR2dtOWxMQUNNNlhHeXowenNSMUYxbE5HZnFGM0I4OWoxVDNva1Q4QTBLdEJKM0U3Zk1HQmdQQjFlM2pKLXNZZ25nenBCYXBibVBnWTQyWVU?oc=5",
-          "source": "Kurier",
-          "date": "28. Oct 2026"
-        },
-        {
-          "title": "EU-Kommission bestätigt erneut Gesundheitsschäden durch Windräder - FPÖ",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeUFvdHpWWFZSbFQtVlNLUFdzMUJvUDdaX282LXN1V3R6dHJmdHJfQzRUbzlrcThYaTJOT19RNm42ZTg4MHZhOVF4MlhEaGoyazhBMWFhS3dfTERDZExRbEVILU40VUx0VHBjR1YweWpZQ1ozeF9pQUxzckZLNTlHaEtzMlE2MDlkWW5IdnNKVkpvdVBCNFBGT3kxWVVfMnc4RHN0SDM4RU12R2ZzT1E1dkl4YWt1MXc3SUE?oc=5",
-          "source": "FPÖ",
-          "date": "2. Nov 2026"
-        },
-        {
           "title": "\"Unfassbarer Lärm!\" Moped-Rowdys rauben Wienern Schlaf - Heute",
           "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTV9EMmRqdTNidXdMLVlfNWlCWVhtakpFYmZZeW1qREVYYUJDMlA2MndxMXM1MVQzT0F0WUpCR2xrTEVSbkEzSkFoTFJUSEs1dVU1eDhXTjNfLXJMU2xPSTNRSjNqcGhfeGExdDhPOE9JQUlXOUNGZ05MVXhIdGlPVkRDbEpyQ0VNODB1b1FB?oc=5",
           "source": "Heute",
-          "date": "2. Nov 2026"
-        },
-        {
-          "title": "Nach Krawall-Ankündigung – jetzt rüstet sich Polizei - Heute",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeTNHajlIZXVKWUZtWkpjbDQwYlBNUS11eHRuMU9qbEFEVTctdU1uNG8xOGNweHdzUXZDUzkzSmk3eGJGNExaang2VmQwenNOdlhDRVF1U0hZSXczUmIzdXVaaUk5NGdlX1FhN2FWODBydVNrWHpQdDBCbEg0MUZ3Vk91QzhMVGlDQVdycEpB?oc=5",
-          "source": "Heute",
-          "date": "28. Oct 2026"
-        },
-        {
-          "title": "Österreich: Drei Regionen für einen sanften Winter voller Kultur - Nau",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOY0t2TU1IN0NJMXJzQVRIbmF6c0l5T1ZiRkNDY21hUjVDekxVd1B5RWR0aDRZbWZhNlhDSTNYbHp0TEdwaTdSZW9xVGx0Mng2cnZpbjU1bzlOM01qQkNCRmNxX19lSHFHMkpLbHg5SXA0MDh5NlA4UzR1bndSbUdJMjRZV2psd0V2UzRNUHZaOHBDMkVhRlpuMDc4WFVTMEdPWUU3VnduWF9XQQ?oc=5",
-          "source": "Nau",
           "date": "2. Nov 2026"
         }
       ]
@@ -89,22 +60,28 @@
           "date": "1. Nov 2026"
         },
         {
+          "title": "Glockenspiel am Alten Rathaus in Lindau zu laut: Messung gibt Anwohner Recht – Stadt reagiert - Merkur",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZ2F0dV8xVmxldDd6dmRXaXZWSFdZb2ZaWDJWd3V2YS1iRXF3Vy1RcE56cURaZjd2ZU9xMGNlMHJTTzFVUmhZLUI0SEg5X3hWNTUzQWtGS1BycF9hVVMxQ3o2WG85THVoVEJGcGlNRUZZSEpYQmdkTnVaaUhGQnlGZElVQVpHZnRZaVJGYm9wQnQyY3dEYzAtTkhjWWYydmt2aXZOXw?oc=5",
+          "source": "Merkur",
+          "date": "1. Nov 2026"
+        },
+        {
           "title": "xAI will 418 Häuser kaufen: Lärmstreit Southaven [2026] - tech-insider.org",
           "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRzlNNlVEcUpQbENJY3BWWF9iaGI0T0VaSVlVR0hLaFhCV21HcHVTWjA1OVUzTGFlZWhWQmx3eXU2UjJJQ3NNS1BROEpadTJ5a2FhRXdzT05QbDM1ZFVOZ0p3bXkzZHZ0WXRJWTJBazhJbkhDaHJGOXFtanBtZzQxYmV1YjhnUQ?oc=5",
           "source": "tech-insider.org",
           "date": "1. Nov 2026"
         },
         {
-          "title": "Umweltbericht: Lärm - www.zh.ch",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcG1hZWg1aW9OVGdmWlJHY2lQelZ4bDgwVWx5VU9nWHdRTmR5RmVkTEIxX3hHQ2QyWVMzb2FkZ1FwWFhraHAwMjh1WnJ0Q1I2RzEwQkx4TS1CVjJPU2NKaTBjMmUtaGVXX3hsYjg5aGl4MkNCRUx2Nks3M1kwbVJHeHlMMWhWN3pkbW1ULXRpYUpGd0l0Znk1SGNQcDZrLVVSSWVYS1YyOA?oc=5",
-          "source": "www.zh.ch",
-          "date": "26. Oct 2026"
+          "title": "Tirol: Fahrverbote für Motorräder könnten ausgeweitet werden - MOTORRAD",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMlpXcG5RaTJGVWZHUHVTdHYtdi1FTF9kbnJJUENLdjQxRkhoYVEyc2JLUFZJd2wxOEJQWDlkVTd6NGprMy15T0RxcXF5Rl93WFdlckpHb0lCOE5qUjdDbXJ1QUluR0ZYVTM0cnZXRFN3Q1FjNGRNTzZXMkg4b2puNnFrT1dBamhoa2JNN3RwaEpZUHFWeC1tdURfaEN2WWU3RVhNSA?oc=5",
+          "source": "MOTORRAD",
+          "date": "30. Oct 2026"
         },
         {
-          "title": "Lärm in Hohenrain: Gericht gibt Anwohnern recht, nichts geschieht - SRF",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZ3J0d09HNDJZb1JxRXJ4RWJzYmJuUE5OWV9ic0JOVTBtZHNhZ1owYVk4Z1l5ZXpwRmhnQlhZTlo1aXBzLTg4Y2l5c1gxbzdrWW1NY3lPYjJFcGVLRlQ4WVQ1ZVZVbGkwcnhwWkNsYlhEckowclBudC1JcnNpeWthNnk5aXh2QUwxT0NKSW9kaHpXb0JFSGNfOGJkY0hET1hDakotRUxIeUNXRGRPSGVYSFR1OVE1MkdT?oc=5",
-          "source": "SRF",
-          "date": "31. Oct 2026"
+          "title": "Tempo 30 und Flüsterbelag kommen auf die Luzernerstrasse in Kriens - Luzerner Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMlBUekViZ0lsc2pObUdoSEZxQ19vcUp6SEpyVVB1TVltM3JhdGVzM3YtY3gzOXlyZXpiSkZGWDVpVU5hd3VPelg2aENGYTNka3Zoc09zTU1DdjVtcTl4bWliTDlpNXJ0bnozWEN0U2s3RGlVMjlFc1hscXNCNnB0eTRqNnNWUS1MTzg3ZlhmUHF1QjMzQV9Jb3A4ZHI2ZFlxdlVnMklpOWFuTlR4ajRkYldDUWR1ekhvUDdVbmxFVDBBWUxKQ3RXSE5ma2FWanVlRFkw?oc=5",
+          "source": "Luzerner Zeitung",
+          "date": "29. Oct 2026"
         }
       ]
     },
@@ -121,10 +98,28 @@
           "date": "27. Oct 2026"
         },
         {
-          "title": "EXCLUSIVE: Pentagon tells Europeans to cool their rhetoric on Russia, sources say - Reuters",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTEZ5UV9XWUJPdkJDanlwdEFEY1V5T3A3UExxWHoxZFBHbnY1RjFsS0JwWk92TFhqYWpLVTFmMk9VUUhiRzZDVDZsdERfTERlUUZ0cWdKNm9MeUE4Mm5MNWZuaXpNLXVOM3BVczNXVndOOGlBZk9PLXBqT3hGLXpsRGVkREl6cTk5RXNWRThVVkNrem5BQkp0SVFReWY3aEktdGItd0c5bTNQUFVsRGZwczRYSUJVUFE?oc=5",
-          "source": "Reuters",
-          "date": "30. Oct 2026"
+          "title": "Living comfort also depends on reducing noise pollution - Il Sole 24 ORE",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAzRHdGcFVzamxOalQwWVI3ampqSG84VjdSbFdGcElzMlZ1anN0YnRkY2JpT3hUZGU5Z2lILUpmU19zWFpCZG9UVmRmTi1fR2owLUttMFVqY0NxaEFiNlRZMmpNUkl1UQ?oc=5",
+          "source": "Il Sole 24 ORE",
+          "date": "2. Nov 2026"
+        },
+        {
+          "title": "Railway Sleeper Pads Market To 2035: High-Speed Rail and Noise Rules Drive Growth - News and Statistics - IndexBox",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPeWRYY0V5Y1VRcVI1VkljS1BNTENzMUNlT2VCa3J3Z19EMGtOb21EY2Z0QWR2OUFPTmJPS3ZBVmtpSEpKelV2REhSQWtHeTRXRFlaZ2M4enUwWG85WEpFV3g1NVBCSEFMYlA5U0tFZnhJbEI5c2xsa2wyTWJmbk5FWkpiWGw2YVZaTFN5ZnM3TXZ0WkZjR0FPdlV4NF91U1ZkaE5KbGxWVmpDYjBDQnR5LTBOaXlTQklxNTNTOFFLRWdCd2I1RlpBcnI3MGtQWnZCaFhndHo0UWJndw?oc=5",
+          "source": "IndexBox",
+          "date": "3. Nov 2026"
+        },
+        {
+          "title": "Lucia Szabová | ‘The Silent Killer’ Is Ready To Make Some Noise - UFC.com",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2NFZLMHFVLVhxVG53VmdQRS0zRTlXSGRteXFicHh6LUFzVnJnWUV5eGtTYkw2WnF1V0w1Mm9fVjZRcXBnZHdINFh2ZFAzcVFWbGZFeGxXUmJmdFl5QUJ6R2FVOHB5LTBZbGFtTTh5T19mdFhnUF9wanJ5cjlJSmc?oc=5",
+          "source": "UFC.com",
+          "date": "29. Oct 2026"
+        },
+        {
+          "title": "17-year-old girl invents sound-powered fire extinguisher that douses flames without water or chemicals, wi - The Economic Times",
+          "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQNndseENxRV9uOWxBRFpMVFpPUUo0Mjk0QnJkUDNGS3dJd2ozZ1BSTjhDMHJST3ZYX2lhQ3E5dW1wN2g2Y2dxMDVhUnR5T3M0dFNoLXJIa1pjWkhpRkMwVDBtYTdYaFk1S3loUlo5ZHB2b1pBVGVkdkVnYnZpTElZV1BPN1JhanFub3Vxc0M2dElZYzQ0dFJyVGZkRzM2dDYxeUVEanc5MkNSMTlzTnI1bEo5ZFRmbTlNUTQxbUJsWDN4NDVEbFpCOWRVM0g1MmpJZkdydDhlSWJyV3kzWXNNeXQ4ZFVwcEVhY2NvaW1YRmJuZmRhSFdOMXdGMkpqQ1ZNd2QzZkYwZGxETXNsUXdiMzdEcGdaakZWczI0UTNPMm1zVVEtWW1CUm45NTBDZTjSAbQCQVVfeXFMTTRMVGtMWVkybFFmX1lVSWhocDRqS2ZTUjV1eFR1Z1RvNUJYbDhMR2k3LUxuRDhWNmJ1RHZHbkxxdVdDZmMwWWttY3hVRXJDeWtnYldlal9zTkVzdW9VX09MOVkzOFprVUFCSnlPSUFXSVFTSTVOZ2l0cVFSUDJXQW1aV3dEYmlEaXp3NHdnR1pRaDdhSE8wUnJyX3J1eUVKcUt5NEVsODl6Mk1Vc2hmTHBFMDlnYVlQWXZYRzBrbVNGRkN6VnR4SjdUYkp6UDc5RjljR0FiWjdzMEp1akpjUWs0QjFpbExPSjI2VmNadUNKOFZ1OHctQWxKUHpJTXNfMVkxMGQ5dVZuSlg5N1c1RmpMcE5tQjEyM0M4SWVFQ2Z2MDEtd0h2YzJDaFFIWjdtaC1maW8?oc=5",
+          "source": "The Economic Times",
+          "date": "28. Oct 2026"
         }
       ]
     },
