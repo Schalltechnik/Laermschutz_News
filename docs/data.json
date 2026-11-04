@@ -1,19 +1,12 @@
 {
-  "generated": "03. November 2026, 11:14 UTC",
+  "generated": "04. November 2026, 11:27 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Zusammenfassung konnte nicht erstellt werden.",
-      "items": [
-        {
-          "title": "Das Baugesetz in der Steiermark wird neu ausgerichtet - Kleine Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcFN2eE1abXNjbFdTNGRKamZHX2R5ZHNhc3FTNldZRE5YNWdGaEJ3bTY4UTAzYW80d1JUdFV0bnRfdUhYaVo2Sk8yZko5YTJNWmZVOWVEWUZEcXZjZzFpVXVBRkM3V3J0THI3YkVLOVAwaHRzcmRUSlc5NThxaEVvelRWd2RaUTJnZFRLMjdUNFU2WndOS2VBTUNxOA?oc=5",
-          "source": "Kleine Zeitung",
-          "date": "30. Oct 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "austria": {
       "label": "Österreich",
@@ -40,6 +33,18 @@
           "date": "28. Oct 2026"
         },
         {
+          "title": "Erste Bank Open: Carlos Alcaraz stört in Wien nur der Lärmpegel - tennisnet.com",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMFFXVDhURVdFMkRyTENIdUFmODBwS2twNW0xaUtrMmxHSkVsX1NTUTdKSXFtbnhpeXpTS0Z6VUczMGVDUU9LQ1BIdERuQ05qaWJPX190NXlJekFUU1pieGtCZGZFV3ZUNmJaSFBMbm9majNvQjh6OEJSWkVlX01ySzdfaTlNMnNLTVNwOW9mRG91ZW9lS1hILU9tdw?oc=5",
+          "source": "tennisnet.com",
+          "date": "29. Oct 2026"
+        },
+        {
+          "title": "Lärmende Autoposer: Warum der Kampf der Stadt Wien so schwierig ist - Kurier",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMDdIMEdaeEVyYzI0MlBxRTR3X3VMQXBpbGtKLV9GZFpTZG03WWl0V25Yc0x4b2dLUVBrV183Z0ptR2dtOWxMQUNNNlhHeXowenNSMUYxbE5HZnFGM0I4OWoxVDNva1Q4QTBLdEJKM0U3Zk1HQmdQQjFlM2pKLXNZZ25nenBCYXBibVBnWTQyWVU?oc=5",
+          "source": "Kurier",
+          "date": "28. Oct 2026"
+        },
+        {
           "title": "\"Unfassbarer Lärm!\" Moped-Rowdys rauben Wienern Schlaf - Heute",
           "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTV9EMmRqdTNidXdMLVlfNWlCWVhtakpFYmZZeW1qREVYYUJDMlA2MndxMXM1MVQzT0F0WUpCR2xrTEVSbkEzSkFoTFJUSEs1dVU1eDhXTjNfLXJMU2xPSTNRSjNqcGhfeGExdDhPOE9JQUlXOUNGZ05MVXhIdGlPVkRDbEpyQ0VNODB1b1FB?oc=5",
           "source": "Heute",
@@ -51,77 +56,15 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Zusammenfassung konnte nicht erstellt werden.",
-      "items": [
-        {
-          "title": "Mehr Tempo-30-Zonen?: Wegen Verkehrslärm: Saarbrücken droht krachende Niederlage vor Gericht - Saarbrücker Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQckpnUkt6MGdQZHkxcl9aOHdsUS1tM2daMFhtb1RpcmJfVm1vTTJJN0tjeGpiU0ktTzh3M2ozdGV0OFN5VUlrOTBNVi1OWlFER2NlcEpMVUxVM2tXbjFHQi14NEV3bElWcEhoOVRGNExrVUswdFVpUzYwTS05NGg2ZjBfcXZyWnBIWVF2M0xsel9YWFJtcnE1YlRTd3dxUjRFczI1dEZjVTZuRjQ?oc=5",
-          "source": "Saarbrücker Zeitung",
-          "date": "1. Nov 2026"
-        },
-        {
-          "title": "Glockenspiel am Alten Rathaus in Lindau zu laut: Messung gibt Anwohner Recht – Stadt reagiert - Merkur",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZ2F0dV8xVmxldDd6dmRXaXZWSFdZb2ZaWDJWd3V2YS1iRXF3Vy1RcE56cURaZjd2ZU9xMGNlMHJTTzFVUmhZLUI0SEg5X3hWNTUzQWtGS1BycF9hVVMxQ3o2WG85THVoVEJGcGlNRUZZSEpYQmdkTnVaaUhGQnlGZElVQVpHZnRZaVJGYm9wQnQyY3dEYzAtTkhjWWYydmt2aXZOXw?oc=5",
-          "source": "Merkur",
-          "date": "1. Nov 2026"
-        },
-        {
-          "title": "xAI will 418 Häuser kaufen: Lärmstreit Southaven [2026] - tech-insider.org",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRzlNNlVEcUpQbENJY3BWWF9iaGI0T0VaSVlVR0hLaFhCV21HcHVTWjA1OVUzTGFlZWhWQmx3eXU2UjJJQ3NNS1BROEpadTJ5a2FhRXdzT05QbDM1ZFVOZ0p3bXkzZHZ0WXRJWTJBazhJbkhDaHJGOXFtanBtZzQxYmV1YjhnUQ?oc=5",
-          "source": "tech-insider.org",
-          "date": "1. Nov 2026"
-        },
-        {
-          "title": "Tirol: Fahrverbote für Motorräder könnten ausgeweitet werden - MOTORRAD",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMlpXcG5RaTJGVWZHUHVTdHYtdi1FTF9kbnJJUENLdjQxRkhoYVEyc2JLUFZJd2wxOEJQWDlkVTd6NGprMy15T0RxcXF5Rl93WFdlckpHb0lCOE5qUjdDbXJ1QUluR0ZYVTM0cnZXRFN3Q1FjNGRNTzZXMkg4b2puNnFrT1dBamhoa2JNN3RwaEpZUHFWeC1tdURfaEN2WWU3RVhNSA?oc=5",
-          "source": "MOTORRAD",
-          "date": "30. Oct 2026"
-        },
-        {
-          "title": "Tempo 30 und Flüsterbelag kommen auf die Luzernerstrasse in Kriens - Luzerner Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMlBUekViZ0lsc2pObUdoSEZxQ19vcUp6SEpyVVB1TVltM3JhdGVzM3YtY3gzOXlyZXpiSkZGWDVpVU5hd3VPelg2aENGYTNka3Zoc09zTU1DdjVtcTl4bWliTDlpNXJ0bnozWEN0U2s3RGlVMjlFc1hscXNCNnB0eTRqNnNWUS1MTzg3ZlhmUHF1QjMzQV9Jb3A4ZHI2ZFlxdlVnMklpOWFuTlR4ajRkYldDUWR1ekhvUDdVbmxFVDBBWUxKQ3RXSE5ma2FWanVlRFkw?oc=5",
-          "source": "Luzerner Zeitung",
-          "date": "29. Oct 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "europe": {
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Zusammenfassung konnte nicht erstellt werden.",
-      "items": [
-        {
-          "title": "Zero Pollution Action Plan - European Commission",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1Ec0V4QTRPTFZkd2ZZSWstWDdXZ0Y4Qmw2c2cxaXRYVU9xcVA3YWZWMkhXVkt0elN0RXFBMFAwWEFSdnZKMGtXTHdlTV9NODdXbGF0ZmJKc1NfWXR2ZjFZOUVDTy1EbXFUbzBQaXhvN2dSVTVQTjlPZU1Mbw?oc=5",
-          "source": "European Commission",
-          "date": "27. Oct 2026"
-        },
-        {
-          "title": "Living comfort also depends on reducing noise pollution - Il Sole 24 ORE",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAzRHdGcFVzamxOalQwWVI3ampqSG84VjdSbFdGcElzMlZ1anN0YnRkY2JpT3hUZGU5Z2lILUpmU19zWFpCZG9UVmRmTi1fR2owLUttMFVqY0NxaEFiNlRZMmpNUkl1UQ?oc=5",
-          "source": "Il Sole 24 ORE",
-          "date": "2. Nov 2026"
-        },
-        {
-          "title": "Railway Sleeper Pads Market To 2035: High-Speed Rail and Noise Rules Drive Growth - News and Statistics - IndexBox",
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPeWRYY0V5Y1VRcVI1VkljS1BNTENzMUNlT2VCa3J3Z19EMGtOb21EY2Z0QWR2OUFPTmJPS3ZBVmtpSEpKelV2REhSQWtHeTRXRFlaZ2M4enUwWG85WEpFV3g1NVBCSEFMYlA5U0tFZnhJbEI5c2xsa2wyTWJmbk5FWkpiWGw2YVZaTFN5ZnM3TXZ0WkZjR0FPdlV4NF91U1ZkaE5KbGxWVmpDYjBDQnR5LTBOaXlTQklxNTNTOFFLRWdCd2I1RlpBcnI3MGtQWnZCaFhndHo0UWJndw?oc=5",
-          "source": "IndexBox",
-          "date": "3. Nov 2026"
-        },
-        {
-          "title": "Lucia Szabová | ‘The Silent Killer’ Is Ready To Make Some Noise - UFC.com",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2NFZLMHFVLVhxVG53VmdQRS0zRTlXSGRteXFicHh6LUFzVnJnWUV5eGtTYkw2WnF1V0w1Mm9fVjZRcXBnZHdINFh2ZFAzcVFWbGZFeGxXUmJmdFl5QUJ6R2FVOHB5LTBZbGFtTTh5T19mdFhnUF9wanJ5cjlJSmc?oc=5",
-          "source": "UFC.com",
-          "date": "29. Oct 2026"
-        },
-        {
-          "title": "17-year-old girl invents sound-powered fire extinguisher that douses flames without water or chemicals, wi - The Economic Times",
-          "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQNndseENxRV9uOWxBRFpMVFpPUUo0Mjk0QnJkUDNGS3dJd2ozZ1BSTjhDMHJST3ZYX2lhQ3E5dW1wN2g2Y2dxMDVhUnR5T3M0dFNoLXJIa1pjWkhpRkMwVDBtYTdYaFk1S3loUlo5ZHB2b1pBVGVkdkVnYnZpTElZV1BPN1JhanFub3Vxc0M2dElZYzQ0dFJyVGZkRzM2dDYxeUVEanc5MkNSMTlzTnI1bEo5ZFRmbTlNUTQxbUJsWDN4NDVEbFpCOWRVM0g1MmpJZkdydDhlSWJyV3kzWXNNeXQ4ZFVwcEVhY2NvaW1YRmJuZmRhSFdOMXdGMkpqQ1ZNd2QzZkYwZGxETXNsUXdiMzdEcGdaakZWczI0UTNPMm1zVVEtWW1CUm45NTBDZTjSAbQCQVVfeXFMTTRMVGtMWVkybFFmX1lVSWhocDRqS2ZTUjV1eFR1Z1RvNUJYbDhMR2k3LUxuRDhWNmJ1RHZHbkxxdVdDZmMwWWttY3hVRXJDeWtnYldlal9zTkVzdW9VX09MOVkzOFprVUFCSnlPSUFXSVFTSTVOZ2l0cVFSUDJXQW1aV3dEYmlEaXp3NHdnR1pRaDdhSE8wUnJyX3J1eUVKcUt5NEVsODl6Mk1Vc2hmTHBFMDlnYVlQWXZYRzBrbVNGRkN6VnR4SjdUYkp6UDc5RjljR0FiWjdzMEp1akpjUWs0QjFpbExPSjI2VmNadUNKOFZ1OHctQWxKUHpJTXNfMVkxMGQ5dVZuSlg5N1c1RmpMcE5tQjEyM0M4SWVFQ2Z2MDEtd0h2YzJDaFFIWjdtaC1maW8?oc=5",
-          "source": "The Economic Times",
-          "date": "28. Oct 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "science": {
       "label": "Wissenschaft",
@@ -134,21 +77,8 @@
       "label": "Bauakustik",
       "icon": "🏗️",
       "color": "#7b4f12",
-      "summary": "Zusammenfassung konnte nicht erstellt werden.",
-      "items": [
-        {
-          "title": "Sprengkraft leistbarer Wohnraum - a3BAU",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBhdDhBeW04OFVvVDBWMjEwUVBsM2hzcnJiRUMzTlYyNlhxVGk5ZUtJNnNmM0Q3dlRzU0Vsd1FsbHZqcWpXdkloYXBEam1aTG95VTlEQ3BDZmhoTS00?oc=5",
-          "source": "a3BAU",
-          "date": "28. Oct 2026"
-        },
-        {
-          "title": "Diskussion zur Zukunft des Holzbaus - buildingtimes.at",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVkhMVC1EUllMeWFZMTNSUU1MbW5ZcU5vYmN3am1UM0Y5UEc5SGRKcWZyWFNMRFFwR2syckF4M1lzbkM0X0JaQ082RkZBYXlJRTNfUEFKc201dXBwQ1pNRHplanJxM2xpUlBfcVVEQ29NaWRZWXp3cTVPY0JweXU4Vg?oc=5",
-          "source": "buildingtimes.at",
-          "date": "30. Oct 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "oal": {
       "label": "ÖAL",
