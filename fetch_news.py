@@ -39,6 +39,7 @@ CLAUDE_PAUSE_SECONDS   = 10
 CLAUDE_RETRY_ATTEMPTS  = 5
 CLAUDE_RETRY_WAIT      = 60
 CLAUDE_HTTP_TIMEOUT    = 180   # seconds — covers slow Sonnet generation on large prompts
+THINKING_HEADROOM_TOKENS = 4000  # extra output budget for adaptive thinking (5.5 models)
 SUMMARY_PRE_PAUSE      = 5
 
 # OIB keyword filters
@@ -505,10 +506,12 @@ def call_claude(prompt: str, max_tokens: int = 1024, model: str = CLAUDE_SONNET)
     import socket
     from urllib.error import URLError
 
+    # NOTE: Sonnet 5.5 / Haiku 5.5 reject sampling parameters (temperature, top_p,
+    # top_k) with HTTP 400 — do NOT send them. These models also think adaptively
+    # by default, which consumes output tokens, so max_tokens gets extra headroom.
     body = _json.dumps({
         "model": model,
-        "max_tokens": max_tokens,
-        "temperature": 0.3,
+        "max_tokens": max_tokens + THINKING_HEADROOM_TOKENS,
         "messages": [{"role": "user", "content": prompt}],
     }).encode()
 
@@ -528,7 +531,18 @@ def call_claude(prompt: str, max_tokens: int = 1024, model: str = CLAUDE_SONNET)
             )
             with urlopen(req, timeout=CLAUDE_HTTP_TIMEOUT) as resp:
                 data = _json.loads(resp.read())
-            text = data["content"][0]["text"].strip()
+            # With adaptive thinking the first content block is usually a
+            # "thinking" block (no "text" key) — collect only the text blocks.
+            text = "\n".join(
+                block.get("text", "")
+                for block in data.get("content", [])
+                if block.get("type") == "text"
+            ).strip()
+            if not text:
+                print(f"  Claude {model_label} returned no text "
+                      f"(stop_reason={data.get('stop_reason')}, "
+                      f"blocks={[b.get('type') for b in data.get('content', [])]})")
+                return "Zusammenfassung konnte nicht erstellt werden."
             print(f"  ✅ Claude {model_label} OK — {len(text)} chars")
             return text
 
@@ -828,7 +842,7 @@ def run_weekly_summary_only():
 
 def run_monthly_summary_only():
     """
-    Monthly newsletter generation uses Claude Haiku 4.5 for both per-category
+    Monthly newsletter generation uses Claude Haiku 5.5 for both per-category
     summaries and the final newsletter assembly. Haiku is much faster than Sonnet
     at this volume of work — eliminating the previous timeout failures — and
     produces high-quality summaries for headline-style content.
