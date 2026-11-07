@@ -1,5 +1,5 @@
 {
-  "generated": "06. November 2026, 11:23 UTC",
+  "generated": "07. November 2026, 10:36 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -12,8 +12,14 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Zusammenfassung konnte nicht erstellt werden.",
+      "summary": "Laut ADAC sind bestimmte Straßen in Tirol wegen zu hoher Lärmbelastung für bestimmte Fahrzeuge gesperrt, und in Niederösterreich befürchten Gemeinden durch neue Nachtanflüge zusätzlichen Fluglärm. Zudem berichtet \"Heute\" über Lärmklagen gegen ein KI-Rechenzentrum, weshalb Elon Musk 418 Häuser aufkaufen will. Dieser Fall liegt zwar nicht in Österreich, zeigt aber, wie stark Lärm Anrainer belasten kann.",
       "items": [
+        {
+          "title": "Zu laut! Für wen diese Straßen in Tirol tabu sind - ADAC",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA0dmRPNTdyVi0wWGZoblZxRTBCQnlsbENUUEttTkJqdHcxaEFaOE5nd3FVeVc3b2Q2THgxSHVTLWlJNEJ4VWRJT0NwczVpN2x1TFZPUjJsdnFoMHRBR0xxS3JLQWhzUQ?oc=5",
+          "source": "ADAC",
+          "date": "2. Nov 2026"
+        },
         {
           "title": "Neue Nachtanflüge: Orte befürchten mehr Lärm - noe.ORF.at",
           "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9OTDdiN25FVWpDbEpRVUYyNy1UY2dnTDg4TzdDdUpjeFp5WTNwZk1DUDdTMWgzZDl2Uk9iYXNieFF0emQxcHdFcHl3WQ?oc=5",
@@ -21,9 +27,9 @@
           "date": "6. Nov 2026"
         },
         {
-          "title": "Zu laut! Für wen diese Straßen in Tirol tabu sind - ADAC",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA0dmRPNTdyVi0wWGZoblZxRTBCQnlsbENUUEttTkJqdHcxaEFaOE5nd3FVeVc3b2Q2THgxSHVTLWlJNEJ4VWRJT0NwczVpN2x1TFZPUjJsdnFoMHRBR0xxS3JLQWhzUQ?oc=5",
-          "source": "ADAC",
+          "title": "KI-Rechenzentrum ist zu laut – Nach Lärm-Klagen: Elon Musk will 418 Häuser kaufen - Heute",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPOXJHeUoxbTh1QTU3TFZFUXhsTEduSHVSenNMdE9STzZneUNtUWhkRUg4b1pfMThQSHpoUlNzTGRrMVFRZUdfaWNzSW9Kc01TTkJhaTdGNjV1WjV2TkZ0b0EyZ19jdWh4cmNlOXloVjBuSTBqaGl4NUlkd1NjRkhOZVdSSkxPUXFnekRUNQ?oc=5",
+          "source": "Heute",
           "date": "2. Nov 2026"
         },
         {
@@ -38,7 +44,7 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Zusammenfassung konnte nicht erstellt werden.",
+      "summary": "Die Volksstimme aus der Schweiz berichtet unter dem Titel „Zwischen Tradition und Lärmschutz“ über einen Konflikt zwischen traditionellen, vermutlich lärmintensiven Bräuchen und den Anforderungen des Lärmschutzes. Der Titel allein lässt keine genaueren Details zu, und Meldungen aus Deutschland oder von der DEGA liegen in dieser Auswahl nicht vor.",
       "items": [
         {
           "title": "Zwischen Tradition und Lärmschutz - Volksstimme.ch",
@@ -52,13 +58,25 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "Zusammenfassung konnte nicht erstellt werden.",
+      "summary": "No relevant news found.",
       "items": [
         {
-          "title": "Democratic sweep adds new twist to markets’ Iran, AI, and debt worries - Philenews",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbkQtSzRtN3E4VGFfWVAtamRLTjVNcVFDak9QVUdGRl9xVFNHOGFVOWpFdzVhQ1RhVzlnYTh5VWJFSlJ1bzFsdnRxcF9wLWJuc2ZQRE03NUlmQklEdXdjSWxxbmFEaHUxQzJRV1JRbUVWQVV3b2lMdjQwamVqUHN2ckNNb0txVzFNSENoc2Y2WUpKaEt3MVp1anlNaWF3VHItTHZteU5JemFack0?oc=5",
-          "source": "Philenews",
-          "date": "4. Nov 2026"
+          "title": "Fast-tracking Big Tech power - Corporate Europe Observatory",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9pbnBXbF9wRG5nN0J5Q3hMaWh4YlNZWW1xUXJGTWFDT3ZENFBya1RFMzNSOXZoYzJjaUZLa1pJOEVwTVZPTGFDTHE4cVVIZGE3RkNYQmkyQjRBRWJybi14VkFJdkNFVlpTeGEySEo0cGphUG5QUUxoTWQ5MA?oc=5",
+          "source": "Corporate Europe Observatory",
+          "date": "5. Nov 2026"
+        },
+        {
+          "title": "Goa Traffic Police urges public to follow safety rules during Narkasur displays - The Goan",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPOWFabXFkNHl2MXdvaTZqc3E3NHV2M2hMYlBxZm5XZWJNV0xMWXd5MnA0THBCcHZTMGdhSFpsRmR0NzlaYmc0UXZXb0p2YXdGV3VGby0zaGp2OXJLcHZOWV8wX3lFWmtyU0hlb2Y4QU9DSFRPR2dhUDR0cWx3dmd1TmlFTFNIYjg2MEtRWHBRc0FiTThnT0FOdmVWMFhpTVZoQ0VxTHc0R0ZQMVkyU2ZOQTlzN2ZTNTIxYXlaV0duamJrdw?oc=5",
+          "source": "The Goan",
+          "date": "7. Nov 2026"
+        },
+        {
+          "title": "‘It’s a real David and Goliath situation’: Meet the ordinary Brits fighting back against data centres - The Independent",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcGNscC1hR19Va3BWWl95Q3pmdzZIQzVZT3VBMFV6eFBueW9HVXZwN2FucDMzQ1hNd2hzWTJPS013YkNuV0xFUmhRZWVxWndzTTJSR09xdnpseEhCNjBKenpIa2kybEJMVTVmVUhXZEcyOTFqSVZXb3Q5M0IzZFd0YU14bDNQdmFsVGZ0VnNpVU9wM21L?oc=5",
+          "source": "The Independent",
+          "date": "7. Nov 2026"
         },
         {
           "title": "Power grids worldwide share a hidden one-minute heartbeat - Bioengineer.org",
