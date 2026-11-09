@@ -1,5 +1,5 @@
 {
-  "generated": "08. November 2026, 10:41 UTC",
+  "generated": "09. November 2026, 11:59 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -12,7 +12,7 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Die geplanten neuen Nachtanflüge in Niederösterreich lassen Anrainer eine Zunahme der Lärmbelastung befürchten. In Wien sorgen zudem nächtliche Moped-Raser für erheblichen Lärm und massive Schlafstörungen bei der Bevölkerung.",
+      "summary": "Neue Nachtanflüge sorgen in niederösterreichischen Gemeinden für Befürchtungen, dass die Lärmbelastung für die Anwohner zunimmt. In Linz wiederum soll eine Kampagne gegen störenden Lärm in öffentlichen Verkehrsmitteln das Bewusstsein für mehr Rücksichtnahme schärfen.",
       "items": [
         {
           "title": "Neue Nachtanflüge: Orte befürchten mehr Lärm - noe.ORF.at",
@@ -21,10 +21,10 @@
           "date": "6. Nov 2026"
         },
         {
-          "title": "\"Unfassbarer Lärm!\" Moped-Rowdys rauben Wienern Schlaf - Heute",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTV9EMmRqdTNidXdMLVlfNWlCWVhtakpFYmZZeW1qREVYYUJDMlA2MndxMXM1MVQzT0F0WUpCR2xrTEVSbkEzSkFoTFJUSEs1dVU1eDhXTjNfLXJMU2xPSTNRSjNqcGhfeGExdDhPOE9JQUlXOUNGZ05MVXhIdGlPVkRDbEpyQ0VNODB1b1FB?oc=5",
+          "title": "\"Kein Genierer?\" Linz setzt Zeichen gegen Lärm in Öffis - Heute",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTzZGdGNzVTN2emVacVQtc0dfczlUTml2QWR6N0tDNXNkd2RqU2FhYmlmYXlYdXU5dUZ5TDFmaHlNcHZVbjFteXk0Y1FxZ2N0dEdJOHBFVDJaYmtDM3VtUUVhMk9jUVlXcHZwVnFnSTNXZDlJbE5hWXBuSkpGbFZETXMwN2EyT3plaDNrUE9OZGU?oc=5",
           "source": "Heute",
-          "date": "2. Nov 2026"
+          "date": "8. Nov 2026"
         }
       ]
     },
@@ -32,7 +32,7 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Eine Schweizer Regionalmeldung der Volksstimme (Baselbiet) thematisiert unter dem Titel „Zwischen Tradition und Lärmschutz“ das Spannungsfeld zwischen traditionsreichen, oft lauten Bräuchen oder Anlässen und den Anforderungen des Lärmschutzes. Aus Deutschland sowie von der DEGA liegen in dieser Auswahl keine relevanten Meldungen oder Veranstaltungshinweise vor, und der Titel allein lässt keine näheren Details zum konkreten Fall erkennen.",
+      "summary": "Die Schweizer Regionalzeitung Volksstimme thematisiert unter dem Titel „Zwischen Tradition und Lärmschutz“ den Spannungsbereich zwischen traditionellen Bräuchen oder Einrichtungen und dem Schutz der Bevölkerung vor Lärm. Aus der Überschrift allein lassen sich keine näheren Details ableiten, und Meldungen aus Deutschland oder von der DEGA liegen in dieser Auswahl nicht vor.",
       "items": [
         {
           "title": "Zwischen Tradition und Lärmschutz - Volksstimme.ch",
@@ -59,6 +59,12 @@
           "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcGNscC1hR19Va3BWWl95Q3pmdzZIQzVZT3VBMFV6eFBueW9HVXZwN2FucDMzQ1hNd2hzWTJPS013YkNuV0xFUmhRZWVxWndzTTJSR09xdnpseEhCNjBKenpIa2kybEJMVTVmVUhXZEcyOTFqSVZXb3Q5M0IzZFd0YU14bDNQdmFsVGZ0VnNpVU9wM21L?oc=5",
           "source": "The Independent",
           "date": "7. Nov 2026"
+        },
+        {
+          "title": "Power grids worldwide share a hidden one-minute heartbeat - Bioengineer.org",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYldDTTVaOUxwVUVCX1lYMGFpWlpFOGN6dUlkWGk1STd4dzJFbWFMX0hsazZBeTRGVlBtUlVQR093eDlEVHdDeGM1RHlTU1d2MFF2Z3FVbTlaNnpmMG5yQWJ2a3FSNkNIdWZtTllLaFBQZVhLZlpmRkFIb1BWYUNoczE0MndyMWNLOHc?oc=5",
+          "source": "Bioengineer.org",
+          "date": "6. Nov 2026"
         }
       ]
     },
@@ -66,8 +72,15 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "Researchers using three-dimensional urban profile analysis have found that building layouts significantly shape residential noise exposure. The findings suggest that the geometry and arrangement of buildings affect how sound propagates and is distributed in urban neighborhoods, which could inform noise-aware urban planning.",
+      "items": [
+        {
+          "title": "Three-Dimensional Urban Profile Analysis Reveals How Building Layouts Reshape Residential Noise - Bioengineer.org",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQXlHUi1LX3ZyODNJWTBJdVBtQVB5bjc1NngxZWZWQ0lUZGpLVThFTE5WdWRYRWJLMW5xZTk4N1RCVlVUbkhjelhaN01OS3hmVEEzRjQxUHpBUElIcGlibkFJZF9mVWdOVFVVS251NWdsMFFmU201UUd5bmkzVG0zOGdJZmJQVWk4dHBHNzZseWJrV05DZ1Q5SVBFd2hTN2xtaG1xSGsxRVhpMGY5OWNSM25DUWt2ZGN4V3ZrUQ?oc=5",
+          "source": "Bioengineer.org",
+          "date": "9. Nov 2026"
+        }
+      ]
     },
     "bauakustik": {
       "label": "Bauakustik",
