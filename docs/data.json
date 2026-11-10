@@ -1,5 +1,5 @@
 {
-  "generated": "09. November 2026, 11:59 UTC",
+  "generated": "10. November 2026, 11:37 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -12,8 +12,20 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Neue Nachtanflüge sorgen in niederösterreichischen Gemeinden für Befürchtungen, dass die Lärmbelastung für die Anwohner zunimmt. In Linz wiederum soll eine Kampagne gegen störenden Lärm in öffentlichen Verkehrsmitteln das Bewusstsein für mehr Rücksichtnahme schärfen.",
+      "summary": "Für den Flughafen Wien-Schwechat sind neue Flugrouten und Nachtanflüge geplant, weshalb Anrainergemeinden in Niederösterreich mehr Lärmbelastung in der Nacht befürchten. In Linz wird zudem mit einer Kampagne gegen Lärmbelästigung in den öffentlichen Verkehrsmitteln vorgegangen, während bei der Lärmbeschwerde rund um die russische Botschaft in Wien die Behörden nur begrenzte Handlungsmöglichkeiten haben.",
       "items": [
+        {
+          "title": "Angst vor Lärm in der Nacht: Neue Flugrouten für Wien-Schwechat - oe24",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbURFQVNwdEhYOFBwaHlfeV9KaU1JTTM2dE1yak1QSzFTdnJyZDdqR2I2aDJaenNwbktienhNbENRVXRhbnZ0dEZBMS15QmFzT3l2c2t3b0Q5ME9GUEswN2RNTnlXeVQtM0J6dHdISTBnWU82bjRQNjVOWHM2NzNhT0xLcWgyejdzd2NTYVVhb2Izd3pZUkY1OUN5WnbSAaIBQVVfeXFMTmZCTzdwSS14VlJFUHBnSXZnc2d4NUZTLUJTUUFuWDhHY3VlQ3JZcUcwOFh3Ujk2RUVScW5kMll6ZnJDVWt0Q3h6SnptZE44UWVWZVN1VWMweTJoVjY0RWVmMnl1d1ZHdXJTN1BVYnNkZGpGVWVKSndCX3JwV3k4aWJtRUh4a08wVExINk1PclY5cnpFdDJMZ3JWQTdFMlJUYmh3?oc=5",
+          "source": "oe24",
+          "date": "6. Nov 2026"
+        },
+        {
+          "title": "Aufregung in Wien - Lärm um Russen-Botschaft: Behörde kann wenig tun - Kronen Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9oTTBNclZLX19CX3BRSXZLb3Bxd2FuemMxS3AwaEtDZWVNZkxqQU12UVJGaGREZFRZaDNFZ0Y3R1VmQQ?oc=5",
+          "source": "Kronen Zeitung",
+          "date": "9. Nov 2026"
+        },
         {
           "title": "Neue Nachtanflüge: Orte befürchten mehr Lärm - noe.ORF.at",
           "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9OTDdiN25FVWpDbEpRVUYyNy1UY2dnTDg4TzdDdUpjeFp5WTNwZk1DUDdTMWgzZDl2Uk9iYXNieFF0emQxcHdFcHl3WQ?oc=5",
@@ -32,7 +44,7 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Die Schweizer Regionalzeitung Volksstimme thematisiert unter dem Titel „Zwischen Tradition und Lärmschutz“ den Spannungsbereich zwischen traditionellen Bräuchen oder Einrichtungen und dem Schutz der Bevölkerung vor Lärm. Aus der Überschrift allein lassen sich keine näheren Details ableiten, und Meldungen aus Deutschland oder von der DEGA liegen in dieser Auswahl nicht vor.",
+      "summary": "Die Schweizer Regionalzeitung Volksstimme.ch berichtet über das Spannungsfeld zwischen gelebter Tradition und den Anforderungen des Lärmschutzes, wie es lokal bei Brauchtum und Veranstaltungen immer wieder auftritt. Aus Deutschland und von der DEGA liegen in dieser Auswahl keine Meldungen vor, und die Überschrift allein verrät keine Details zu konkreten Maßnahmen oder Regelungen.",
       "items": [
         {
           "title": "Zwischen Tradition und Lärmschutz - Volksstimme.ch",
@@ -49,16 +61,16 @@
       "summary": "No relevant news found.",
       "items": [
         {
-          "title": "Goa Traffic Police urges public to follow safety rules during Narkasur displays - The Goan",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPOWFabXFkNHl2MXdvaTZqc3E3NHV2M2hMYlBxZm5XZWJNV0xMWXd5MnA0THBCcHZTMGdhSFpsRmR0NzlaYmc0UXZXb0p2YXdGV3VGby0zaGp2OXJLcHZOWV8wX3lFWmtyU0hlb2Y4QU9DSFRPR2dhUDR0cWx3dmd1TmlFTFNIYjg2MEtRWHBRc0FiTThnT0FOdmVWMFhpTVZoQ0VxTHc0R0ZQMVkyU2ZOQTlzN2ZTNTIxYXlaV0duamJrdw?oc=5",
-          "source": "The Goan",
+          "title": "Microsoft Data Centre Protest: Over 100 Activists Occupy Amsterdam Construction Site As Anti-AI Demonstrations Spread Across Europe - NDTV Profit",
+          "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNaE8wNFNSRmZ0LUZyN0tQbnNOd3ZZNVRKV1o2ZFh2TmN5YmIxdDdYVlJoQ1d5TXJtRmF1eGk3b1hVNmgwa3haXzE4M0RzREpQcm9jNmg4MjY1RVJTUHhuRUJnc3VxZjVPbVVjZzVvSGd2SVZmWXpBV1pGR01DRFA4d1lCbEdqWFQ4N1VQRzV4MWlSNV9KcmxvRDVyLWVoWGxLRENXcTh1TEl1ZGF5Z3pNS1pEamJpY1Z5SmlWaWhPb045SXYzRm9ES3pvYzhJRzJhRFFIQURRTFhXX1d1MW5lLW15RDkxY3IxbU5DZGxJVXVWc1ZfeXdNWENFZVQtZzZCM2fSAYoCQVVfeXFMTzhmcHBETnV1bnhpZkhZTk0zVVBOX0RtQXVjdXZnZmlndlhWcDNnTWtXRDBlbU54VVdFYm4wdE9zTWw5OF9KRUhXMXpjbzNraUJDMlA1UDdTaU9rUks0RUVnMjlqaWNJWDA5YU8taTE5cXJydnpTeWVmUEVUM2dlODBOaWRPaDYybEN0NjhqUS1MOE5HVkxuYmNfV3BNVmxQQ01UR2JuQ1RtOEVJTm92a2V4aXNpZENRdUJFVklhNGFnOWdETktNSlZnMGVnT20yWWVZbWtBTmxUOEJIeTd1ZURFcEhMQ0xLc09Dcnc1SHQ1Qlotak5GZHlFNkFUcVhNcjNmR2o1ZDFTU2c?oc=5",
+          "source": "NDTV Profit",
           "date": "7. Nov 2026"
         },
         {
-          "title": "‘It’s a real David and Goliath situation’: Meet the ordinary Brits fighting back against data centres - The Independent",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcGNscC1hR19Va3BWWl95Q3pmdzZIQzVZT3VBMFV6eFBueW9HVXZwN2FucDMzQ1hNd2hzWTJPS013YkNuV0xFUmhRZWVxWndzTTJSR09xdnpseEhCNjBKenpIa2kybEJMVTVmVUhXZEcyOTFqSVZXb3Q5M0IzZFd0YU14bDNQdmFsVGZ0VnNpVU9wM21L?oc=5",
-          "source": "The Independent",
-          "date": "7. Nov 2026"
+          "title": "Researchers identify 135 sensitive marine and bird species potentially affected by proposed floating wind farms off Spain’s Costa Brava - Energies Media",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5FNGtsVFhqNVBpY19ZeFpwZFBuQ19sNnFhckhLMWtHcU9oX043cl9pcUtZZFdET09VLUNFX2lBTHlRTHRBY2hJSmtuVE1SY0RGcldGUnAteWpGU0k0MjUwSTZzNFFtdGdDWGc1Nl8wRmpBV3laVU1rOWEydw?oc=5",
+          "source": "Energies Media",
+          "date": "9. Nov 2026"
         },
         {
           "title": "Power grids worldwide share a hidden one-minute heartbeat - Bioengineer.org",
@@ -72,12 +84,24 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Researchers using three-dimensional urban profile analysis have found that building layouts significantly shape residential noise exposure. The findings suggest that the geometry and arrangement of buildings affect how sound propagates and is distributed in urban neighborhoods, which could inform noise-aware urban planning.",
+      "summary": "Research is addressing the noise concerns of electric air taxis as they prepare to operate from city rooftops, with coverage in both The Courier-Journal and IndyStar highlighting new work on reducing their acoustic impact on urban communities. Separately, a three-dimensional urban profile analysis reported by Bioengineer.org shows how building layouts reshape residential noise exposure, which is relevant to understanding how sound from sources such as air taxis would propagate through cities.",
       "items": [
+        {
+          "title": "Air taxis are coming to city rooftops, New research tackles the noise - The Courier-Journal",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRm1IbERFa3VLQTZwbVNGVGNPZllJc2RqNVg5MVNTdUxzMGVhRjdVdUhMeEt0V2JXbG9HUjdzVTkxbDBQZUpOWFQ3VHNmZUN5Rm9uSDBsTnprbDVLSFd4T1RDVGFxS21hTDJGX2RDaVFLZ3RkSEJCajBzd3NGMmg3WW9WeURhb0ZXVHEyYXBNRVV3UC1DSFNSX3pHbklRVE1wWkkzdmxQRWlMZXhRMEUxUFo0Z00xa19LTzhjZGdDZ0RIX29NLWtZ?oc=5",
+          "source": "The Courier-Journal",
+          "date": "9. Nov 2026"
+        },
         {
           "title": "Three-Dimensional Urban Profile Analysis Reveals How Building Layouts Reshape Residential Noise - Bioengineer.org",
           "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQXlHUi1LX3ZyODNJWTBJdVBtQVB5bjc1NngxZWZWQ0lUZGpLVThFTE5WdWRYRWJLMW5xZTk4N1RCVlVUbkhjelhaN01OS3hmVEEzRjQxUHpBUElIcGlibkFJZF9mVWdOVFVVS251NWdsMFFmU201UUd5bmkzVG0zOGdJZmJQVWk4dHBHNzZseWJrV05DZ1Q5SVBFd2hTN2xtaG1xSGsxRVhpMGY5OWNSM25DUWt2ZGN4V3ZrUQ?oc=5",
           "source": "Bioengineer.org",
+          "date": "9. Nov 2026"
+        },
+        {
+          "title": "Air taxis are coming to city rooftops, New research tackles the noise - IndyStar",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOblZUY2pxai1VMWpzWFFLdzJ5NXk2T3hhcmJrRnRoTjhYekxBU0pob21mU21uMHVZZmFVVVpCSXJFSjhSZUFJY1RmU3FoS09naHF3NlNEX3Y2X0pSRUZxVTBsUEVwNFdxR0pnUjJOUkNtN2xNRzZVbThmVE56bV9mMzJlVkRyUkZBVTNYV0U2ajdWajFlc0U5VXNtMG9Ld0NyMFowa3V3S1BzaVd1TWw1ZndsX3RUWlctbUFXOGZn?oc=5",
+          "source": "IndyStar",
           "date": "9. Nov 2026"
         }
       ]
