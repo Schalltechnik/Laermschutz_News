@@ -1,5 +1,5 @@
 {
-  "generated": "11. November 2026, 11:23 UTC",
+  "generated": "12. November 2026, 11:43 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -12,7 +12,7 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Neue Flugrouten und zusätzliche Nachtanflüge am Flughafen Wien-Schwechat sorgen in den betroffenen Gemeinden für Sorge vor mehr nächtlicher Lärmbelastung. Zudem setzt Linz mit einer Kampagne ein Zeichen gegen Lärm in öffentlichen Verkehrsmitteln, während die Behörden bei den Lärmbeschwerden rund um die russische Botschaft in Wien offenbar nur begrenzte Handlungsmöglichkeiten haben.",
+      "summary": "Für den Flughafen Wien-Schwechat sind neue Flugrouten und zusätzliche Nachtanflüge geplant, was bei Anrainern Ängste vor mehr Fluglärm in der Nacht auslöst. Besonders Gemeinden in Niederösterreich befürchten eine steigende Lärmbelastung und damit eine Beeinträchtigung der Nachtruhe.",
       "items": [
         {
           "title": "Angst vor Lärm in der Nacht: Neue Flugrouten für Wien-Schwechat - oe24",
@@ -21,22 +21,10 @@
           "date": "6. Nov 2026"
         },
         {
-          "title": "Aufregung in Wien - Lärm um Russen-Botschaft: Behörde kann wenig tun - Kronen Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9oTTBNclZLX19CX3BRSXZLb3Bxd2FuemMxS3AwaEtDZWVNZkxqQU12UVJGaGREZFRZaDNFZ0Y3R1VmQQ?oc=5",
-          "source": "Kronen Zeitung",
-          "date": "9. Nov 2026"
-        },
-        {
           "title": "Neue Nachtanflüge: Orte befürchten mehr Lärm - noe.ORF.at",
           "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9OTDdiN25FVWpDbEpRVUYyNy1UY2dnTDg4TzdDdUpjeFp5WTNwZk1DUDdTMWgzZDl2Uk9iYXNieFF0emQxcHdFcHl3WQ?oc=5",
           "source": "noe.ORF.at",
           "date": "6. Nov 2026"
-        },
-        {
-          "title": "\"Kein Genierer?\" Linz setzt Zeichen gegen Lärm in Öffis - Heute",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTzZGdGNzVTN2emVacVQtc0dfczlUTml2QWR6N0tDNXNkd2RqU2FhYmlmYXlYdXU5dUZ5TDFmaHlNcHZVbjFteXk0Y1FxZ2N0dEdJOHBFVDJaYmtDM3VtUUVhMk9jUVlXcHZwVnFnSTNXZDlJbE5hWXBuSkpGbFZETXMwN2EyT3plaDNrUE9OZGU?oc=5",
-          "source": "Heute",
-          "date": "8. Nov 2026"
         }
       ]
     },
@@ -44,19 +32,13 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Eine große Metastudie, über die der SWR berichtet, zeigt, dass Lärm Tiere deutlich stärker belastet als bisher angenommen, was für den Umgebungslärmschutz in Deutschland und der gesamten DACH-Region von Bedeutung ist. Zudem thematisiert ein Beitrag der Volksstimme.ch das Spannungsfeld zwischen Tradition und Lärmschutz, wobei sich den Titeln keine konkreten Hinweise auf Neuigkeiten oder Veranstaltungen der DEGA entnehmen lassen.",
+      "summary": "Laut einem SWR-Bericht zeigt eine große Metastudie, dass Umgebungslärm Tiere deutlich stärker belastet als bisher angenommen. Das unterstreicht, wie wichtig Lärmminderung auch für den Naturschutz ist, wobei die Meldung keine konkreten Entwicklungen aus der Schweiz oder von der DEGA enthält.",
       "items": [
         {
           "title": "Große Metastudie: Lärm belastet Tiere stärker als gedacht - SWR",
           "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWjI2aV8ybXloVEo5TDI5YllPTnN1T1NaXzhUQVp0dlFiT1ltTnowOU54OTQzaHBWSWpLSUM5U2hjRGNDcW5rQ3N3b0haMC1INnhKTTFYT3ZCWlp0djJPR21VTWx0dmZUdlE4LUJGMWtqQjJYdXRNYzJOdkhkdnZTRmlId2tFR1dhaDlfYTJtYmlCSGw0cDVKSjYwNnJkWDBiY3NxSDZBdw?oc=5",
           "source": "SWR",
           "date": "10. Nov 2026"
-        },
-        {
-          "title": "Zwischen Tradition und Lärmschutz - Volksstimme.ch",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9NakxjSXVGR3pqRFo5aUZMTWk2X3F6UHB4UU9JUWh1eEM4VEl2ay1WWll3VEN1N2JHUEh3aHZnMHVIYlBfUVdma1JfLWdueXJLV09NcVl4SVpFbWFYMDhPaXNBajN6a25YS1dR?oc=5",
-          "source": "Volksstimme.ch",
-          "date": "5. Nov 2026"
         }
       ]
     },
@@ -66,6 +48,12 @@
       "color": "#003399",
       "summary": "No relevant news found.",
       "items": [
+        {
+          "title": "Will community lawsuits defy Europe’s AI build-out? - ENDS Europe",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSkRSOXJHZ2lRNXI2LVRFdjF2UjN6UmV6LWt5d2FLRDRaZjlfT3VSa1cwaUt4bzlKYzFPY1VscE9aZ2NIOGVtdmpYT2kzMm9RdEY2cEw2MURPdVg0VV9KU1lSWXVyUDNwQjBNLVB3WkdEc0ZsOHI0VUhQRURzT2ZoOGh6UFlSWVhJN3dFY2haVlVobnNpam9J?oc=5",
+          "source": "ENDS Europe",
+          "date": "12. Nov 2026"
+        },
         {
           "title": "Power grids worldwide share a hidden one-minute heartbeat - Bioengineer.org",
           "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYldDTTVaOUxwVUVCX1lYMGFpWlpFOGN6dUlkWGk1STd4dzJFbWFMX0hsazZBeTRGVlBtUlVQR093eDlEVHdDeGM1RHlTU1d2MFF2Z3FVbTlaNnpmMG5yQWJ2a3FSNkNIdWZtTllLaFBQZVhLZlpmRkFIb1BWYUNoczE0MndyMWNLOHc?oc=5",
@@ -78,14 +66,8 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Recent studies using three-dimensional urban profile analysis and computer simulation indicate that building layouts and urban block design strongly influence how noise propagates and accumulates in residential areas. Together, the findings suggest that deliberate decisions about building arrangement and block configuration can measurably change street-level and residential noise exposure, offering a design lever for urban noise mitigation.",
+      "summary": "A computer simulation study reports that the design of urban blocks has a measurable influence on street noise levels. The finding is relevant to acoustics because it suggests that building layout and urban form could be used as planning tools to reduce environmental noise exposure.",
       "items": [
-        {
-          "title": "Three-Dimensional Urban Profile Analysis Reveals How Building Layouts Reshape Residential Noise - Bioengineer.org",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQXlHUi1LX3ZyODNJWTBJdVBtQVB5bjc1NngxZWZWQ0lUZGpLVThFTE5WdWRYRWJLMW5xZTk4N1RCVlVUbkhjelhaN01OS3hmVEEzRjQxUHpBUElIcGlibkFJZF9mVWdOVFVVS251NWdsMFFmU201UUd5bmkzVG0zOGdJZmJQVWk4dHBHNzZseWJrV05DZ1Q5SVBFd2hTN2xtaG1xSGsxRVhpMGY5OWNSM25DUWt2ZGN4V3ZrUQ?oc=5",
-          "source": "Bioengineer.org",
-          "date": "9. Nov 2026"
-        },
         {
           "title": "Urban Block Design Shapes Street Noise Levels in Computer Simulation Study - Bioengineer.org",
           "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbzlQUHdxaVVZX2hpdjZuU0w3dTN2UGFaam9yQl9fTnktQ2k5WnIyNTA5NXRuNFJlY0lKYS1rVklrTlJna1V3NllxN1NtQjdDSnRuMXlnc244cXhiYmN2c2x2TDdlYkRuanJ3aXEtRWNzSW5Wanpfa2F5R2xYTEtrY2g4NHQxeXpmblB1aFZFQkVpdWxmUnlNVXFjb2hLSEJl?oc=5",
