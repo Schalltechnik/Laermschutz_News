@@ -1,5 +1,5 @@
 {
-  "generated": "12. November 2026, 11:43 UTC",
+  "generated": "13. November 2026, 11:26 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -12,19 +12,13 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Für den Flughafen Wien-Schwechat sind neue Flugrouten und zusätzliche Nachtanflüge geplant, was bei Anrainern Ängste vor mehr Fluglärm in der Nacht auslöst. Besonders Gemeinden in Niederösterreich befürchten eine steigende Lärmbelastung und damit eine Beeinträchtigung der Nachtruhe.",
+      "summary": "Linz startet eine Kampagne gegen störenden Lärm in öffentlichen Verkehrsmitteln und appelliert dabei an die Rücksichtnahme der Fahrgäste. Ziel ist es, das Bewusstsein für lautes Telefonieren oder Musikhören über Lautsprecher zu schärfen und so das Miteinander in Bus und Bim zu verbessern.",
       "items": [
         {
-          "title": "Angst vor Lärm in der Nacht: Neue Flugrouten für Wien-Schwechat - oe24",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbURFQVNwdEhYOFBwaHlfeV9KaU1JTTM2dE1yak1QSzFTdnJyZDdqR2I2aDJaenNwbktienhNbENRVXRhbnZ0dEZBMS15QmFzT3l2c2t3b0Q5ME9GUEswN2RNTnlXeVQtM0J6dHdISTBnWU82bjRQNjVOWHM2NzNhT0xLcWgyejdzd2NTYVVhb2Izd3pZUkY1OUN5WnbSAaIBQVVfeXFMTmZCTzdwSS14VlJFUHBnSXZnc2d4NUZTLUJTUUFuWDhHY3VlQ3JZcUcwOFh3Ujk2RUVScW5kMll6ZnJDVWt0Q3h6SnptZE44UWVWZVN1VWMweTJoVjY0RWVmMnl1d1ZHdXJTN1BVYnNkZGpGVWVKSndCX3JwV3k4aWJtRUh4a08wVExINk1PclY5cnpFdDJMZ3JWQTdFMlJUYmh3?oc=5",
-          "source": "oe24",
-          "date": "6. Nov 2026"
-        },
-        {
-          "title": "Neue Nachtanflüge: Orte befürchten mehr Lärm - noe.ORF.at",
-          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9OTDdiN25FVWpDbEpRVUYyNy1UY2dnTDg4TzdDdUpjeFp5WTNwZk1DUDdTMWgzZDl2Uk9iYXNieFF0emQxcHdFcHl3WQ?oc=5",
-          "source": "noe.ORF.at",
-          "date": "6. Nov 2026"
+          "title": "\"Kein Genierer?\" Linz setzt Zeichen gegen Lärm in Öffis - Heute",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTzZGdGNzVTN2emVacVQtc0dfczlUTml2QWR6N0tDNXNkd2RqU2FhYmlmYXlYdXU5dUZ5TDFmaHlNcHZVbjFteXk0Y1FxZ2N0dEdJOHBFVDJaYmtDM3VtUUVhMk9jUVlXcHZwVnFnSTNXZDlJbE5hWXBuSkpGbFZETXMwN2EyT3plaDNrUE9OZGU?oc=5",
+          "source": "Heute",
+          "date": "8. Nov 2026"
         }
       ]
     },
@@ -32,13 +26,19 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Laut einem SWR-Bericht zeigt eine große Metastudie, dass Umgebungslärm Tiere deutlich stärker belastet als bisher angenommen. Das unterstreicht, wie wichtig Lärmminderung auch für den Naturschutz ist, wobei die Meldung keine konkreten Entwicklungen aus der Schweiz oder von der DEGA enthält.",
+      "summary": "Eine große Metastudie zeigt, dass Lärm Tiere deutlich stärker belastet als bisher angenommen, was die Bedeutung wirksamer Lärmminderung auch für den Natur- und Artenschutz unterstreicht (SWR). In Deutschland baut die Deutsche Bahn zudem Lärmschutz in Oberhausen-Lirich aus, wobei ein Abschnitt überraschende Entwicklungen aufweist (WAZ); Meldungen aus der Schweiz oder von der DEGA liegen derzeit nicht vor.",
       "items": [
         {
           "title": "Große Metastudie: Lärm belastet Tiere stärker als gedacht - SWR",
           "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWjI2aV8ybXloVEo5TDI5YllPTnN1T1NaXzhUQVp0dlFiT1ltTnowOU54OTQzaHBWSWpLSUM5U2hjRGNDcW5rQ3N3b0haMC1INnhKTTFYT3ZCWlp0djJPR21VTWx0dmZUdlE4LUJGMWtqQjJYdXRNYzJOdkhkdnZTRmlId2tFR1dhaDlfYTJtYmlCSGw0cDVKSjYwNnJkWDBiY3NxSDZBdw?oc=5",
           "source": "SWR",
           "date": "10. Nov 2026"
+        },
+        {
+          "title": "Deutsche Bahn baut Lärmschutz in Oberhausen-Lirich – Abschnitt überrascht - WAZ",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPeXJGTm5IbTh5UnhrRkVyekcyclNVTWgxNHVkOEUzQ3N1QVNjM2Z6V0pCNXZFLVJJMzVpdnFFVWZGVVhXZnMtY0gwSHQ1eTV6RGRTYm9DdWtBQ1FIM2Z6bjVjY2tPMXNROTN4RWRyMU9iSmdqakpCX1ozZXNwN29KdXRrV3FHMnNlYjlEeDlZcHdjUkwxemhWRnFGZmkyRjdDMzVnMnhmZElDemYyNkFMX28wU2ZDMlJOajVreVd1VmNQbVpEdHctM3dpVGhCbGtsMWkw?oc=5",
+          "source": "WAZ",
+          "date": "11. Nov 2026"
         }
       ]
     },
@@ -49,16 +49,10 @@
       "summary": "No relevant news found.",
       "items": [
         {
-          "title": "Will community lawsuits defy Europe’s AI build-out? - ENDS Europe",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSkRSOXJHZ2lRNXI2LVRFdjF2UjN6UmV6LWt5d2FLRDRaZjlfT3VSa1cwaUt4bzlKYzFPY1VscE9aZ2NIOGVtdmpYT2kzMm9RdEY2cEw2MURPdVg0VV9KU1lSWXVyUDNwQjBNLVB3WkdEc0ZsOHI0VUhQRURzT2ZoOGh6UFlSWVhJN3dFY2haVlVobnNpam9J?oc=5",
-          "source": "ENDS Europe",
-          "date": "12. Nov 2026"
-        },
-        {
-          "title": "Power grids worldwide share a hidden one-minute heartbeat - Bioengineer.org",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYldDTTVaOUxwVUVCX1lYMGFpWlpFOGN6dUlkWGk1STd4dzJFbWFMX0hsazZBeTRGVlBtUlVQR093eDlEVHdDeGM1RHlTU1d2MFF2Z3FVbTlaNnpmMG5yQWJ2a3FSNkNIdWZtTllLaFBQZVhLZlpmRkFIb1BWYUNoczE0MndyMWNLOHc?oc=5",
-          "source": "Bioengineer.org",
-          "date": "6. Nov 2026"
+          "title": "Copia de I want to influence: find out which inquiries and public hearings are open in the ministries - Demócrata",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWGZlSS1weFEzelNnQm4zTXg1a3FZS2VvWUs0bEhlc3ZpUXpxV1RpZlNzTmgwWmhBbFdSdzBuMl9aR2VRTWhVT0R3SjJfX0g3bXhRUU5adVRkZlBBMHNwbjRMUHpoMFJLYkl2Z0lqX0E5YndDU0tCOWVQRk05VGY0UG1zVGNrQnRSd2xnc2M1ZHdabW1fNE80OUU3WEdxUVJ6OGxOdXdYREc1OHFEVnRBYmxsZ3N5OVBzcGRTeXN5VV9mRkZrc2dEMmY5WHBnQVJacTY2atIB2gFBVV95cUxNYnNBN1BKY25yM0NDS3VaSmpvWkh1dHBzYUtDTGhrdnA4NDROM1pGOWJRdWtRLTExd1RDNUE3QTJpUnhQZUtoUHdZQ09tQ09INnNITjFRSVROdjdLVVVJUkdIMW1CdGNNQzhrRTdvRFAyX0N1T0NHU3JkMHliemxsVnhMWUJMTDVkS3Y5ZmRNNl92V3BmSWpOU0FGWl9ieGE3d2JDS2ZBVFRQVzB5amdOSEtWSGNVUTd4VUVXWThzcE5vZlFmbTVkaTlZUHVMb3J6QjdESGtCZ0h2Zw?oc=5",
+          "source": "Demócrata",
+          "date": "13. Nov 2026"
         }
       ]
     },
@@ -66,13 +60,31 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "A computer simulation study reports that the design of urban blocks has a measurable influence on street noise levels. The finding is relevant to acoustics because it suggests that building layout and urban form could be used as planning tools to reduce environmental noise exposure.",
+      "summary": "Researchers at Salford are set to investigate the links between noise pollution and climate change, while a related health report highlights how constant traffic noise can strain the heart. Meanwhile, the acoustic foam market is seeing rising demand for soundproofing and noise control, and in Germany a debate over the simplified \"Gebäude Typ E\" building standard is questioning whether sound insulation requirements drive up construction costs.",
       "items": [
         {
-          "title": "Urban Block Design Shapes Street Noise Levels in Computer Simulation Study - Bioengineer.org",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbzlQUHdxaVVZX2hpdjZuU0w3dTN2UGFaam9yQl9fTnktQ2k5WnIyNTA5NXRuNFJlY0lKYS1rVklrTlJna1V3NllxN1NtQjdDSnRuMXlnc244cXhiYmN2c2x2TDdlYkRuanJ3aXEtRWNzSW5Wanpfa2F5R2xYTEtrY2g4NHQxeXpmblB1aFZFQkVpdWxmUnlNVXFjb2hLSEJl?oc=5",
-          "source": "Bioengineer.org",
-          "date": "11. Nov 2026"
+          "title": "Salford researchers to investigate noise pollution and climate change - Salford Now",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYlo2aGRoenZ2ZU0zYWFNYUdKOFhRUlVyNmxjY2gyWWE1UUpWWjcwNEZpM2FTTDF4Y2YzZ2lkSlp6TWZyT2JBTlIyWU9PU2Q3X1hzSkdMOTBXc2twemJJT3NDeGxrNFZvdy00NUlsaEFZQThsMUphbk5aWjl1aFBkT1JUcjVCRFJrR092bUNfbURuVkEyYjIzX2FvMkxDMG1aOXFyN1pqNnYtczI3X3R3?oc=5",
+          "source": "Salford Now",
+          "date": "12. Nov 2026"
+        },
+        {
+          "title": "Acoustic Foam Market Rising Demand for Soundproofing, Noise - openPR.com",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcHhJeERLS3NEQ0pMS1M2Vl9JRzc1d2F5M2ZnS05lQU0yUnl6c28tSVVEM1J5NkkxMXlEVV9IcmtpM2FUekEwYVZnNXdGZHJNTUZQajFDU3A2ejhCeEFJQjhwcjRSQk1vYy1zOGN1QnJfQUZFT2pYNDRoUy0xVEtwamhZeVR3UTJ5QlVIQTB2cm14bElBbE5sa2FB?oc=5",
+          "source": "openPR.com",
+          "date": "13. Nov 2026"
+        },
+        {
+          "title": "How constant traffic noise can put pressure on the heart - samaa tv",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWXhHN3I5OFo4UkNqUGxkUWJQREVhMnRwc0lrTkhqa3NTVGQxN1Fyd0RxMGRIekNrWG8zRmZfYzJzMlZ6cjRHdTVhdFh2anp3SHk0ckNILUVMVlE0eVFwdGJWV3hzZ1kyYzRQTHhhNHR5TmJqRlBjcDg4a2h6Y3NtR25iNXUxQk9tUDFDWWQ0VEFRZw?oc=5",
+          "source": "samaa tv",
+          "date": "13. Nov 2026"
+        },
+        {
+          "title": "Diskussion um Gebäude Typ E: Ist Schallschutz ein Kostentreiber? - ingenieur.de",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYTVNRVpHcTVHLVZoQWFMa2dGc1ZCeXN3TzVuanIzeV9HRmpJRXYyR08yX0JSbUdiaDJtQzBURlhxLUNtcWlLTFNwVWQ5TGlEUUpwMU8yMlpnQmEzNWJtbGNIS1VCSmFMZnJVNDZyRVJ3dmwzaWlZWmNRbjVxUS1Lb3JMSG5pRjZOVEROZWlTNjBzeEQtVVFLa0JYbzZsUQ?oc=5",
+          "source": "ingenieur.de",
+          "date": "12. Nov 2026"
         }
       ]
     },
