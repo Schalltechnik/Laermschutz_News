@@ -1,5 +1,5 @@
 {
-  "generated": "13. November 2026, 11:26 UTC",
+  "generated": "14. November 2026, 10:49 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -12,27 +12,20 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Linz startet eine Kampagne gegen störenden Lärm in öffentlichen Verkehrsmitteln und appelliert dabei an die Rücksichtnahme der Fahrgäste. Ziel ist es, das Bewusstsein für lautes Telefonieren oder Musikhören über Lautsprecher zu schärfen und so das Miteinander in Bus und Bim zu verbessern.",
-      "items": [
-        {
-          "title": "\"Kein Genierer?\" Linz setzt Zeichen gegen Lärm in Öffis - Heute",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTzZGdGNzVTN2emVacVQtc0dfczlUTml2QWR6N0tDNXNkd2RqU2FhYmlmYXlYdXU5dUZ5TDFmaHlNcHZVbjFteXk0Y1FxZ2N0dEdJOHBFVDJaYmtDM3VtUUVhMk9jUVlXcHZwVnFnSTNXZDlJbE5hWXBuSkpGbFZETXMwN2EyT3plaDNrUE9OZGU?oc=5",
-          "source": "Heute",
-          "date": "8. Nov 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "dach": {
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Eine große Metastudie zeigt, dass Lärm Tiere deutlich stärker belastet als bisher angenommen, was die Bedeutung wirksamer Lärmminderung auch für den Natur- und Artenschutz unterstreicht (SWR). In Deutschland baut die Deutsche Bahn zudem Lärmschutz in Oberhausen-Lirich aus, wobei ein Abschnitt überraschende Entwicklungen aufweist (WAZ); Meldungen aus der Schweiz oder von der DEGA liegen derzeit nicht vor.",
+      "summary": "Ein dpa-Faktencheck stellt klar, dass ein im Umlauf befindliches Video zum Thema Infraschall bei Windkraftanlagen den überholten Stand einer Studie wiedergibt, was für die laufende Lärmdebatte in Deutschland relevant ist. Zudem baut die Deutsche Bahn in Oberhausen-Lirich neuen Lärmschutz, wobei ein Abschnitt der Maßnahmen überraschend ausfällt; Meldungen aus der Schweiz oder von der DEGA liegen nicht vor.",
       "items": [
         {
-          "title": "Große Metastudie: Lärm belastet Tiere stärker als gedacht - SWR",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWjI2aV8ybXloVEo5TDI5YllPTnN1T1NaXzhUQVp0dlFiT1ltTnowOU54OTQzaHBWSWpLSUM5U2hjRGNDcW5rQ3N3b0haMC1INnhKTTFYT3ZCWlp0djJPR21VTWx0dmZUdlE4LUJGMWtqQjJYdXRNYzJOdkhkdnZTRmlId2tFR1dhaDlfYTJtYmlCSGw0cDVKSjYwNnJkWDBiY3NxSDZBdw?oc=5",
-          "source": "SWR",
-          "date": "10. Nov 2026"
+          "title": "Windkraft - Video gibt überholten Stand einer Studie zu Infraschall wieder - dpa-factchecking",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE41SFV0Z0ZNaE1LOFVOSThtVEVxVl85RktNYlNvaTBwSjZjak1EbmNUQkE5di16SkFfS0xDbURET0prVmt4NGRGVFRCYlRTZ2xJRVNqckxWVmlkcFBuZndvYTR6a1Q?oc=5",
+          "source": "dpa-factchecking",
+          "date": "13. Nov 2026"
         },
         {
           "title": "Deutsche Bahn baut Lärmschutz in Oberhausen-Lirich – Abschnitt überrascht - WAZ",
@@ -46,12 +39,36 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "No relevant news found.",
+      "summary": "The European Commission's Zero Pollution Action Plan is the only headline directly relevant to European noise control policy, as it frames noise as a pollution issue within the EU's wider environmental agenda. The plan sets a target of cutting the share of people chronically disturbed by transport noise by 30% by 2030 compared with 2017.",
       "items": [
         {
-          "title": "Copia de I want to influence: find out which inquiries and public hearings are open in the ministries - Demócrata",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWGZlSS1weFEzelNnQm4zTXg1a3FZS2VvWUs0bEhlc3ZpUXpxV1RpZlNzTmgwWmhBbFdSdzBuMl9aR2VRTWhVT0R3SjJfX0g3bXhRUU5adVRkZlBBMHNwbjRMUHpoMFJLYkl2Z0lqX0E5YndDU0tCOWVQRk05VGY0UG1zVGNrQnRSd2xnc2M1ZHdabW1fNE80OUU3WEdxUVJ6OGxOdXdYREc1OHFEVnRBYmxsZ3N5OVBzcGRTeXN5VV9mRkZrc2dEMmY5WHBnQVJacTY2atIB2gFBVV95cUxNYnNBN1BKY25yM0NDS3VaSmpvWkh1dHBzYUtDTGhrdnA4NDROM1pGOWJRdWtRLTExd1RDNUE3QTJpUnhQZUtoUHdZQ09tQ09INnNITjFRSVROdjdLVVVJUkdIMW1CdGNNQzhrRTdvRFAyX0N1T0NHU3JkMHliemxsVnhMWUJMTDVkS3Y5ZmRNNl92V3BmSWpOU0FGWl9ieGE3d2JDS2ZBVFRQVzB5amdOSEtWSGNVUTd4VUVXWThzcE5vZlFmbTVkaTlZUHVMb3J6QjdESGtCZ0h2Zw?oc=5",
-          "source": "Demócrata",
+          "title": "Zero Pollution Action Plan - European Commission",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1Ec0V4QTRPTFZkd2ZZSWstWDdXZ0Y4Qmw2c2cxaXRYVU9xcVA3YWZWMkhXVkt0elN0RXFBMFAwWEFSdnZKMGtXTHdlTV9NODdXbGF0ZmJKc1NfWXR2ZjFZOUVDTy1EbXFUbzBQaXhvN2dSVTVQTjlPZU1Mbw?oc=5",
+          "source": "European Commission",
+          "date": "11. Nov 2026"
+        },
+        {
+          "title": "Will community lawsuits defy Europe’s AI build-out? - ENDS Europe",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSkRSOXJHZ2lRNXI2LVRFdjF2UjN6UmV6LWt5d2FLRDRaZjlfT3VSa1cwaUt4bzlKYzFPY1VscE9aZ2NIOGVtdmpYT2kzMm9RdEY2cEw2MURPdVg0VV9KU1lSWXVyUDNwQjBNLVB3WkdEc0ZsOHI0VUhQRURzT2ZoOGh6UFlSWVhJN3dFY2haVlVobnNpam9J?oc=5",
+          "source": "ENDS Europe",
+          "date": "12. Nov 2026"
+        },
+        {
+          "title": "The world's 10 quietest cities to visit – and all are in Europe - Euronews.com",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZDVRTElwdmIwVE9LWXFfVkxUaU5CaWZLMHpfaEE1SlhzdHI5dXBTUG5BRHJxN0ZGeWJEYVVTd3lSaEFNblE5MFlsRWZIODNCaDNWTURoMUZNZDV5YWJ4M2FFb3RlREpRNUtuSHlhcGtnU2xXclo1enF1WWtJRThMXzZtN2RVVV95eklmVktpRldCZGgySGhKUll2bjB0R2dJZF9BUklpQ1FLTlppR1N4Zg?oc=5",
+          "source": "Euronews.com",
+          "date": "12. Nov 2026"
+        },
+        {
+          "title": "10 quietest cities in the world named. All of them are in Europe - Наша Ніва",
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1LZnVBanUtVW5NVENEOWhDQVp2ekR1VEpYd3hjazA0dU1kc2h5VC1JOEFuVnBJVU4wQVdLNHZ2QU9yUWMxVXfSAUtBVV95cUxQWi12eWtEMmVucVlWdWU0MWxvSFVPZVE5dVd6Q09OLUZpZHdBcDhhNmMzbklaWDVqNmc4TW4xYkFiODVtaHpSTnFFMVE?oc=5",
+          "source": "Наша Ніва",
+          "date": "12. Nov 2026"
+        },
+        {
+          "title": "Experience Blissful Silence on These Hikes to Sweden's Quietest Places - Backpacker Magazine",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNME82MkdLQmVORmF3TzljcEE0MHc3VnNuTHNaWVJMN0lva0l5ZWtmNU4tTmpDMjdDbnhJU2hDbG51Z1o4TjdkUk1aZ0hkdjZrWkZQNGtYNWVqVEQtei1HWUZhalJ5Nm9XTEUzSEIxakM1cWQyN2lQWWptWDcxekJPZ010OFhtclc3aWc?oc=5",
+          "source": "Backpacker Magazine",
           "date": "13. Nov 2026"
         }
       ]
@@ -60,7 +77,7 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Researchers at Salford are set to investigate the links between noise pollution and climate change, while a related health report highlights how constant traffic noise can strain the heart. Meanwhile, the acoustic foam market is seeing rising demand for soundproofing and noise control, and in Germany a debate over the simplified \"Gebäude Typ E\" building standard is questioning whether sound insulation requirements drive up construction costs.",
+      "summary": "Researchers are working on several areas of noise control and its effects: Salford researchers will investigate noise pollution in relation to climate change, a decentralized neural network architecture has been reported to improve multi-channel active noise control, and the acoustic foam market is seeing rising demand for soundproofing. Other coverage includes Boeing's retirement of its signature noise-reduction engine design for the 777X, the cardiovascular strain linked to constant traffic noise, and a German debate over whether sound insulation drives up costs under the simplified \"Gebäude Typ E\" building standard.",
       "items": [
         {
           "title": "Salford researchers to investigate noise pollution and climate change - Salford Now",
@@ -69,9 +86,21 @@
           "date": "12. Nov 2026"
         },
         {
+          "title": "Decentralized Neural Network Architecture Enhances Multi-Channel Active Noise Control Performance - Bioengineer.org",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcG1nc2E5RXoxeFNLRUZIQjlzeXFhRkROVmt0TVBDRnRjWGNYMnpIejhzTURnN1JWc2NRQkVsOXV0YWFjeFNlVjBueEFaZ2Z1QV8tcFJpWUVFQS0tbDNXdHE0ZUNPN0JJVWN1elBOdHViWDlGUnk0WUJUUHFnUk83TDg3UzZTUzNScTZVVk9ZbkZxRXFMa0lYTzhObDhnekRvZ2lnT01DaFJpMjF2T0luc25GRVpxUThfbzlyY3p1bw?oc=5",
+          "source": "Bioengineer.org",
+          "date": "13. Nov 2026"
+        },
+        {
           "title": "Acoustic Foam Market Rising Demand for Soundproofing, Noise - openPR.com",
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcHhJeERLS3NEQ0pMS1M2Vl9JRzc1d2F5M2ZnS05lQU0yUnl6c28tSVVEM1J5NkkxMXlEVV9IcmtpM2FUekEwYVZnNXdGZHJNTUZQajFDU3A2ejhCeEFJQjhwcjRSQk1vYy1zOGN1QnJfQUZFT2pYNDRoUy0xVEtwamhZeVR3UTJ5QlVIQTB2cm14bElBbE5sa2FB?oc=5",
           "source": "openPR.com",
+          "date": "13. Nov 2026"
+        },
+        {
+          "title": "Why Boeing Retired Its Signature Noise-Reduction Engine Design For The 777X - Simple Flying",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1RMDZIR2p2NFJnQlRFaGhoN3NRRkNua01nLXZINmpDTVNWeW9xeEVzNW9LenVjeS1qV0c2MXpyLVVuQVpzc0tNOHJfRHloSjlpNmxHNlFlRG1aTDJRQU5Sc1V5VzU1cDlTTmxUUEhDT29KWExidzFrRkh6S3NCS28?oc=5",
+          "source": "Simple Flying",
           "date": "13. Nov 2026"
         },
         {
@@ -92,8 +121,15 @@
       "label": "Bauakustik",
       "icon": "🏗️",
       "color": "#7b4f12",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "Keine relevanten Meldungen gefunden.",
+      "items": [
+        {
+          "title": "Neue Padel-Anlage in Bad Wiessee: Nachbarn wurden nie informiert - Merkur",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNa2JyRHRZdVhaNFNpM05yVVJvd0JBY2dEYnBaTEljU3ZkeTlMc184UUZPa3hCQ255QnQycjdubWIwNzFzVm9yeWFpNzZ2U2FvaDVVMXZpYXZkOHJlZ3gwUW4tUFBlMzk5R005bXFnckNYbWNub1FQaHFlMGtubDNhekxwRG1VZ09BZGhpcnFBZEdZa1Fob2k5SlVTd0s4OEMwOF9UUmNCTG5fbUQ3eGx1ZVh5Y3M3azN2eE1CR0ZKVnFFMDZsb0lNc3FITHpUZG9tSmt4OWt4VnY3RlpLeHc?oc=5",
+          "source": "Merkur",
+          "date": "12. Nov 2026"
+        }
+      ]
     },
     "oal": {
       "label": "ÖAL",
