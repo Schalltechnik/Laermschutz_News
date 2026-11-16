@@ -1,24 +1,31 @@
 {
-  "generated": "15. November 2026, 11:24 UTC",
+  "generated": "16. November 2026, 11:56 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "Auf der Plattform openpetition.eu wird unter dem Titel „Gemeinsam gegen Lärm\" eine Petition geführt, die (Sofort-)Maßnahmen gegen tieffrequenten Schall und Infraschall im Wohnumfeld fordert. Ein direkter Bezug zur Steiermark oder zu Graz geht aus dem Titel nicht hervor, das Thema ist aber auch für Anrainer in städtischen und industriell geprägten Gebieten wie dem Großraum Graz von Bedeutung.",
+      "items": [
+        {
+          "title": "„Gemeinsam gegen Lärm – (Sofort)Maßnahmen gegen tieffrequenten Schall und Infraschall im Wohnumfeld“ - www.openpetition.eu",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPcU52VWU2S1hSVnR4VUhPWU5WUTE5cjhHLTRvbEotOUFBQWJ1TzNVYjFsQXg2ZmFkMlY5QkFsU1YtQUhaTmZxZ3NzUVR2VXpLY29Oa2JmLU9nd3pxekJtMzZPR05GVGFSc0pCM051Zld4c3Y0MnJIaFZVZTlEdF9hNDJ1N01GNkpzQzBPVVRINGVfOFItNzd0RzVzMjYxd3JhMkxzVExEbzJncjBiTUF2T2hJdHV3RHZ5N1VSaVV0ZWlSWDh0WlU4Z0RXNTRBUWw3YlZwYWRGYjJSOEt6?oc=5",
+          "source": "www.openpetition.eu",
+          "date": "12. Nov 2026"
+        }
+      ]
     },
     "austria": {
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Keine relevanten Meldungen gefunden.",
+      "summary": "Eine Online-Petition auf openpetition.eu fordert unter dem Titel „Gemeinsam gegen Lärm\" (Sofort)Maßnahmen gegen tieffrequenten Schall und Infraschall im Wohnumfeld. Sie macht damit auf die gesundheitliche Belastung durch kaum hörbare Lärmquellen aufmerksam und zielt auf strengere Regelungen sowie besseren Schutz für Betroffene ab.",
       "items": [
         {
-          "title": "Familiennachzug – Österreich fordert härtere Regeln - Heute",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUmNuN2l3enF4ODF0YW9SdENISzRTbjhnTVVXWDJNZ1NRNDFYc3lRbXBlUVFsNnRBZVdDeUt1ZURzUzREdFlJQ2dzRVNGWGtaRnIwNUJNcWhBT0o5OG9PdGIxd1c0T291UGVxMmo4UFlvT1dtb0xIbFVCVVRVbzBiYjJEZ3dfMi1HOWNuSw?oc=5",
-          "source": "Heute",
-          "date": "14. Nov 2026"
+          "title": "„Gemeinsam gegen Lärm – (Sofort)Maßnahmen gegen tieffrequenten Schall und Infraschall im Wohnumfeld“ - www.openpetition.eu",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPcU52VWU2S1hSVnR4VUhPWU5WUTE5cjhHLTRvbEotOUFBQWJ1TzNVYjFsQXg2ZmFkMlY5QkFsU1YtQUhaTmZxZ3NzUVR2VXpLY29Oa2JmLU9nd3pxekJtMzZPR05GVGFSc0pCM051Zld4c3Y0MnJIaFZVZTlEdF9hNDJ1N01GNkpzQzBPVVRINGVfOFItNzd0RzVzMjYxd3JhMkxzVExEbzJncjBiTUF2T2hJdHV3RHZ5N1VSaVV0ZWlSWDh0WlU4Z0RXNTRBUWw3YlZwYWRGYjJSOEt6?oc=5",
+          "source": "www.openpetition.eu",
+          "date": "12. Nov 2026"
         }
       ]
     },
@@ -26,13 +33,19 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Eine große Metastudie (SWR) zeigt, dass Lärm Tiere stärker belastet als bisher angenommen, während dpa-Factchecking klarstellt, dass ein Video zur Windkraft einen überholten Stand einer Infraschall-Studie wiedergibt. In Deutschland baut die Deutsche Bahn zudem den Lärmschutz in Oberhausen-Lirich aus (WAZ); Meldungen aus der Schweiz oder von der DEGA liegen nicht vor.",
+      "summary": "Eine große Metastudie (SWR) zeigt, dass Lärm Tiere stärker belastet als bisher angenommen, während in Deutschland die Bahn in Oberhausen-Lirich neuen Lärmschutz errichtet (WAZ) und Anwohner in Mölln wegen der Bahnsanierung 2028 mehr Güterzuglärm befürchten (Lübecker Nachrichten). Zudem stellt dpa-factchecking klar, dass ein Video zu Infraschall von Windkraftanlagen einen überholten Studienstand wiedergibt; Meldungen aus der Schweiz sowie Neuigkeiten oder Veranstaltungen der DEGA liegen nicht vor.",
       "items": [
         {
           "title": "Große Metastudie: Lärm belastet Tiere stärker als gedacht - SWR",
           "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWjI2aV8ybXloVEo5TDI5YllPTnN1T1NaXzhUQVp0dlFiT1ltTnowOU54OTQzaHBWSWpLSUM5U2hjRGNDcW5rQ3N3b0haMC1INnhKTTFYT3ZCWlp0djJPR21VTWx0dmZUdlE4LUJGMWtqQjJYdXRNYzJOdkhkdnZTRmlId2tFR1dhaDlfYTJtYmlCSGw0cDVKSjYwNnJkWDBiY3NxSDZBdw?oc=5",
           "source": "SWR",
           "date": "10. Nov 2026"
+        },
+        {
+          "title": "Bahnsanierung 2028: Möllner fürchten mehr Lärm durch Güterzüge - das sagt die Bahn - Lübecker Nachrichten",
+          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPR0JUWXpyeDRkWGEyeHpBV3ViR2VUem1nS0FsUzFvLUlhRlF5ajRVbVgwdWlBWW44TnVBdEVIM09WWFJSRHV5czFpODhSNXRLRVBKckN3M1pjRjhnNThIRU40ZURfakFpbDVmOFZibFlwek15cW1LLU9EMW5yRkhaZV9WR2NvbzJRcno4SXdGSzdHSWpoSU55MWRUc1RQb0JGNGMzMVIybHFZbVZ5aDN6TmNQRG1vV1dMdWJHSXRPczFPWGJlUkQxeEdPWFJpb2VVOTM0UnM4U3RtWW5mR2x6R3JMdFV0N0g0ZFZVQUFHUFFfblh4MUxJRkpDQ2lBd9IBmgJBVV95cUxQQlpjcHM2SGpPT21KLURBR0xpTnVDVExrbW15Ylo0Qy1UZVl2MWpvX2dNRHVlQld5cTVEY1VKcjhIdURMeVZscV95cFBBMmgycWI4SUl6SE1pam1zcVdQVHUwc1ZpbU1wbDQ0MFl5Z2NCVXNlSGY2V2t3SExUMFczYUNKajFYUFJDOW9fM1laMmpqUVdtYWwwUVRUSEJUYTUzang2T2VXc2dPZXQxNE53OW1aLWlPUWMwZ1VfVk5wdDJYZ3VmcElWRXl1eFFJd3FOMDNCeWFnT1VlaVpCZXZOdWN5NV9BVUVfZWQ4MUlVNS1uM0ZveXJZZVN5OUh3VjRZS243VS0tWmxsQmxLVk9mX2V5eW84VXE2aUE?oc=5",
+          "source": "Lübecker Nachrichten",
+          "date": "14. Nov 2026"
         },
         {
           "title": "Windkraft - Video gibt überholten Stand einer Studie zu Infraschall wieder - dpa-factchecking",
@@ -52,8 +65,14 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "The European Commission's Zero Pollution Action Plan is relevant to European noise policy because it sets the EU's wider pollution-reduction framework, which includes a goal of cutting the share of people chronically disturbed by transport noise by 30% by 2030. The second headline, on community lawsuits over Europe's AI build-out, does not clearly concern noise, so I have left it out.",
+      "summary": "The European Commission's Zero Pollution Action Plan is the only relevant headline, as it is the EU's overarching framework for cutting pollution, including noise. It sets a goal of reducing the share of people chronically disturbed by transport noise by 30% by 2030, which shapes European noise control policy. The other headlines concern Bangladesh, AI infrastructure disputes, and air pollution and health, so they do not bear directly on European noise policy.",
       "items": [
+        {
+          "title": "High Court issues directives to control noise pollution - Dhaka Tribune",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTE0zZzRqQUM0M2pqNnVvQ05hbjF5MWxmOGJZUW1mQl81b0pQR3kxVFVXR2pVMXVRMlBjUUQ0VXF2V2g3NnYyUW9FVEpaQU1NR19lVWhxMk1Ra3dwZU44N044NUh0cXNYbmlFaVJyMkx0UHBKdFd1cWJGM1NESGdtRlBGMllSQmxJQ092RTBJT0xTaWgwSjNV0gGcAUFVX3lxTE1GcnFjSTQ3QWhVQTdSU3dTOUNKb2lKZkd1Q08zUkl3YWhiM1llYTJwaGs3bHRsTGVyazFGam1WMHVoUV9Wb2Y1cC1tbFlXRkVhakprODh5NmNZVzBhWVpPZVEzYjl2NU8tc2VMeTVaVjJ3RTN2Y3NXcG94UGw2NjNXeS1IejUyYmZZOVBZc3RnNXlyZmtTOXplRGo0Yw?oc=5",
+          "source": "Dhaka Tribune",
+          "date": "15. Nov 2026"
+        },
         {
           "title": "Zero Pollution Action Plan - European Commission",
           "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1Ec0V4QTRPTFZkd2ZZSWstWDdXZ0Y4Qmw2c2cxaXRYVU9xcVA3YWZWMkhXVkt0elN0RXFBMFAwWEFSdnZKMGtXTHdlTV9NODdXbGF0ZmJKc1NfWXR2ZjFZOUVDTy1EbXFUbzBQaXhvN2dSVTVQTjlPZU1Mbw?oc=5",
@@ -65,6 +84,12 @@
           "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSkRSOXJHZ2lRNXI2LVRFdjF2UjN6UmV6LWt5d2FLRDRaZjlfT3VSa1cwaUt4bzlKYzFPY1VscE9aZ2NIOGVtdmpYT2kzMm9RdEY2cEw2MURPdVg0VV9KU1lSWXVyUDNwQjBNLVB3WkdEc0ZsOHI0VUhQRURzT2ZoOGh6UFlSWVhJN3dFY2haVlVobnNpam9J?oc=5",
           "source": "ENDS Europe",
           "date": "12. Nov 2026"
+        },
+        {
+          "title": "Air pollution’s link to blood sugar has a surprising temperature twist - Earth.com",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTzZOODNKS1NEQ3hvdlNPUTE1Q29VX3dyTVFaSmdvOFlKSEJyaHNycWVWVFhQUzZrblVfQnVvSkhCN213VFkwYms5OFJfcC1JeUIxVjM3WElCVjROdWs2cmVEelduNy16cWplX1VUaThqVTVHNnBXZ1ZIMDczeElPaXNPcGhsMnRxVGo5M0lkOEYwWGxyUTROVXY2YlpVaFI2ZHNPSGVjMA?oc=5",
+          "source": "Earth.com",
+          "date": "15. Nov 2026"
         }
       ]
     },
@@ -72,25 +97,25 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Researchers at Salford are investigating how noise pollution intersects with climate change, while related reports highlight how constant traffic noise can strain the heart and cardiovascular system. In engineering and industry, Boeing has retired its signature noise-reduction engine design (chevrons) for the 777X, and German debate over the simplified \"Gebäude Typ E\" construction standard questions whether sound insulation requirements are a major cost driver.",
+      "summary": "Recent acoustics-related news highlights research showing that human-generated noise is quietly harming wildlife, alongside engineering solutions such as aesthetic Indaten® steel sound barriers along Italy's Autostrada Adriatica and a German wind farm that reuses old turbine blades as noise barriers while replacing six turbines with four far more productive ones. In building acoustics, there is also an ongoing debate in Germany over whether sound insulation requirements drive up construction costs in the context of the simplified \"Gebäudetyp E\" building standard.",
       "items": [
         {
-          "title": "Salford researchers to investigate noise pollution and climate change - Salford Now",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYlo2aGRoenZ2ZU0zYWFNYUdKOFhRUlVyNmxjY2gyWWE1UUpWWjcwNEZpM2FTTDF4Y2YzZ2lkSlp6TWZyT2JBTlIyWU9PU2Q3X1hzSkdMOTBXc2twemJJT3NDeGxrNFZvdy00NUlsaEFZQThsMUphbk5aWjl1aFBkT1JUcjVCRFJrR092bUNfbURuVkEyYjIzX2FvMkxDMG1aOXFyN1pqNnYtczI3X3R3?oc=5",
-          "source": "Salford Now",
-          "date": "12. Nov 2026"
+          "title": "The research is loud and clear. Human noise is quietly killing wildlife - Anthropocene Magazine",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWU1tVmdRa0NydTlVTjdPQkdLWHBWSjZSNFJjSE9kQjdldkEtV3ZLcHI4WV94R1o3RXdwRzRDZjRZc3FsWE83OUNtelVOZEJoWEdCS3Q5ZDZLeE9rN3RCRTM5MUpGNzZZR0M3Yldrb04wX1BvbzB0WWZoUWtZVW03WWRzVERBWEhoSFFjajBEb1V5c01LWDlfYmdSRzBtalhGU3lMRVMzUzEyajJVbndJNFR3WmNhUGc?oc=5",
+          "source": "Anthropocene Magazine",
+          "date": "11. Nov 2026"
         },
         {
-          "title": "Why Boeing Retired Its Signature Noise-Reduction Engine Design For The 777X - Simple Flying",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1RMDZIR2p2NFJnQlRFaGhoN3NRRkNua01nLXZINmpDTVNWeW9xeEVzNW9LenVjeS1qV0c2MXpyLVVuQVpzc0tNOHJfRHloSjlpNmxHNlFlRG1aTDJRQU5Sc1V5VzU1cDlTTmxUUEhDT29KWExidzFrRkh6S3NCS28?oc=5",
-          "source": "Simple Flying",
-          "date": "13. Nov 2026"
+          "title": "Aesthetic noise protection thanks to Indaten® sound barriers along Italy's Autostrada Adriatica - Constructalia – ArcelorMittal",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZXVNSUdPWk1NYTd1NlZnMUk3Z3VMNEZROS1LSUliNEtjWWc4RHkyV1hIOHE5SzJWSVlrMXdKVmc3UXo4c3R2MGVPMVN5T19WMUlXTm1odkRWMlFvREdVbm1KMzd5N2dCLXJyNVRCWHVxaXZDMmsyZThNcTZDbk4xTTRWWWZLLWpmSThlMmcxTURPZXhjcnJuVkx0R2pyc0hJb3c?oc=5",
+          "source": "Constructalia – ArcelorMittal",
+          "date": "15. Nov 2026"
         },
         {
-          "title": "How constant traffic noise can put pressure on the heart - samaa tv",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWXhHN3I5OFo4UkNqUGxkUWJQREVhMnRwc0lrTkhqa3NTVGQxN1Fyd0RxMGRIekNrWG8zRmZfYzJzMlZ6cjRHdTVhdFh2anp3SHk0ckNILUVMVlE0eVFwdGJWV3hzZ1kyYzRQTHhhNHR5TmJqRlBjcDg4a2h6Y3NtR25iNXUxQk9tUDFDWWQ0VEFRZw?oc=5",
-          "source": "samaa tv",
-          "date": "13. Nov 2026"
+          "title": "German wind farm replaces six turbines with four designed to generate five times more electricity, repurposing old blades as noise barriers - EcoPortal.net",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE51YkNpd01yZ3FqVV9rcUdueVlmRkxxZUY1aWd0R1ViNjRXc2lvRG5uVmdKY0dsc0M2NExjclUtY0k4OXFJVldrMUp0U0QxX01GQjBhR285cU5fVWJCUFZaT0Z2YUxPbUpXbUtobmtGUmhuc0xKVUM0ZC1OSUVGVDA?oc=5",
+          "source": "EcoPortal.net",
+          "date": "15. Nov 2026"
         },
         {
           "title": "Diskussion um Gebäude Typ E: Ist Schallschutz ein Kostentreiber? - ingenieur.de",
