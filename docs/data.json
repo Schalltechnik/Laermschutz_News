@@ -1,11 +1,11 @@
 {
-  "generated": "16. November 2026, 11:56 UTC",
+  "generated": "17. November 2026, 12:20 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Auf der Plattform openpetition.eu wird unter dem Titel „Gemeinsam gegen Lärm\" eine Petition geführt, die (Sofort-)Maßnahmen gegen tieffrequenten Schall und Infraschall im Wohnumfeld fordert. Ein direkter Bezug zur Steiermark oder zu Graz geht aus dem Titel nicht hervor, das Thema ist aber auch für Anrainer in städtischen und industriell geprägten Gebieten wie dem Großraum Graz von Bedeutung.",
+      "summary": "Eine auf openpetition.eu veröffentlichte Petition fordert unter dem Titel „Gemeinsam gegen Lärm“ (Sofort-)Maßnahmen gegen tieffrequenten Schall und Infraschall im Wohnumfeld. Ein konkreter Bezug zur Steiermark oder zu Graz geht aus dem Titel nicht hervor, das Thema ist für den Lärmschutz im Wohnbereich aber grundsätzlich auch dort von Interesse.",
       "items": [
         {
           "title": "„Gemeinsam gegen Lärm – (Sofort)Maßnahmen gegen tieffrequenten Schall und Infraschall im Wohnumfeld“ - www.openpetition.eu",
@@ -19,13 +19,19 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Eine Online-Petition auf openpetition.eu fordert unter dem Titel „Gemeinsam gegen Lärm\" (Sofort)Maßnahmen gegen tieffrequenten Schall und Infraschall im Wohnumfeld. Sie macht damit auf die gesundheitliche Belastung durch kaum hörbare Lärmquellen aufmerksam und zielt auf strengere Regelungen sowie besseren Schutz für Betroffene ab.",
+      "summary": "Eine Petition auf openpetition.eu fordert (Sofort-)Maßnahmen gegen tieffrequenten Schall und Infraschall im Wohnumfeld und macht damit auf eine oft unterschätzte Lärmbelastung aufmerksam. Der zweite Titel zum Familiennachzug hat keinen Bezug zum Lärmschutz und bleibt daher unberücksichtigt.",
       "items": [
         {
           "title": "„Gemeinsam gegen Lärm – (Sofort)Maßnahmen gegen tieffrequenten Schall und Infraschall im Wohnumfeld“ - www.openpetition.eu",
           "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPcU52VWU2S1hSVnR4VUhPWU5WUTE5cjhHLTRvbEotOUFBQWJ1TzNVYjFsQXg2ZmFkMlY5QkFsU1YtQUhaTmZxZ3NzUVR2VXpLY29Oa2JmLU9nd3pxekJtMzZPR05GVGFSc0pCM051Zld4c3Y0MnJIaFZVZTlEdF9hNDJ1N01GNkpzQzBPVVRINGVfOFItNzd0RzVzMjYxd3JhMkxzVExEbzJncjBiTUF2T2hJdHV3RHZ5N1VSaVV0ZWlSWDh0WlU4Z0RXNTRBUWw3YlZwYWRGYjJSOEt6?oc=5",
           "source": "www.openpetition.eu",
           "date": "12. Nov 2026"
+        },
+        {
+          "title": "Familiennachzug – Österreich fordert härtere Regeln - Heute",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUmNuN2l3enF4ODF0YW9SdENISzRTbjhnTVVXWDJNZ1NRNDFYc3lRbXBlUVFsNnRBZVdDeUt1ZURzUzREdFlJQ2dzRVNGWGtaRnIwNUJNcWhBT0o5OG9PdGIxd1c0T291UGVxMmo4UFlvT1dtb0xIbFVCVVRVbzBiYjJEZ3dfMi1HOWNuSw?oc=5",
+          "source": "Heute",
+          "date": "14. Nov 2026"
         }
       ]
     },
@@ -33,20 +39,8 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Eine große Metastudie (SWR) zeigt, dass Lärm Tiere stärker belastet als bisher angenommen, während in Deutschland die Bahn in Oberhausen-Lirich neuen Lärmschutz errichtet (WAZ) und Anwohner in Mölln wegen der Bahnsanierung 2028 mehr Güterzuglärm befürchten (Lübecker Nachrichten). Zudem stellt dpa-factchecking klar, dass ein Video zu Infraschall von Windkraftanlagen einen überholten Studienstand wiedergibt; Meldungen aus der Schweiz sowie Neuigkeiten oder Veranstaltungen der DEGA liegen nicht vor.",
+      "summary": "Ein Faktencheck der dpa stellt klar, dass ein im Umlauf befindliches Video zu Infraschall von Windkraftanlagen den überholten Stand einer Studie wiedergibt, was für die Versachlichung der Lärmdebatte in Deutschland relevant ist. Zudem baut die Deutsche Bahn in Oberhausen-Lirich neuen Lärmschutz an der Strecke, wobei ein Abschnitt laut WAZ überraschend ausfällt; Meldungen aus der Schweiz oder der DEGA liegen nicht vor.",
       "items": [
-        {
-          "title": "Große Metastudie: Lärm belastet Tiere stärker als gedacht - SWR",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWjI2aV8ybXloVEo5TDI5YllPTnN1T1NaXzhUQVp0dlFiT1ltTnowOU54OTQzaHBWSWpLSUM5U2hjRGNDcW5rQ3N3b0haMC1INnhKTTFYT3ZCWlp0djJPR21VTWx0dmZUdlE4LUJGMWtqQjJYdXRNYzJOdkhkdnZTRmlId2tFR1dhaDlfYTJtYmlCSGw0cDVKSjYwNnJkWDBiY3NxSDZBdw?oc=5",
-          "source": "SWR",
-          "date": "10. Nov 2026"
-        },
-        {
-          "title": "Bahnsanierung 2028: Möllner fürchten mehr Lärm durch Güterzüge - das sagt die Bahn - Lübecker Nachrichten",
-          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPR0JUWXpyeDRkWGEyeHpBV3ViR2VUem1nS0FsUzFvLUlhRlF5ajRVbVgwdWlBWW44TnVBdEVIM09WWFJSRHV5czFpODhSNXRLRVBKckN3M1pjRjhnNThIRU40ZURfakFpbDVmOFZibFlwek15cW1LLU9EMW5yRkhaZV9WR2NvbzJRcno4SXdGSzdHSWpoSU55MWRUc1RQb0JGNGMzMVIybHFZbVZ5aDN6TmNQRG1vV1dMdWJHSXRPczFPWGJlUkQxeEdPWFJpb2VVOTM0UnM4U3RtWW5mR2x6R3JMdFV0N0g0ZFZVQUFHUFFfblh4MUxJRkpDQ2lBd9IBmgJBVV95cUxQQlpjcHM2SGpPT21KLURBR0xpTnVDVExrbW15Ylo0Qy1UZVl2MWpvX2dNRHVlQld5cTVEY1VKcjhIdURMeVZscV95cFBBMmgycWI4SUl6SE1pam1zcVdQVHUwc1ZpbU1wbDQ0MFl5Z2NCVXNlSGY2V2t3SExUMFczYUNKajFYUFJDOW9fM1laMmpqUVdtYWwwUVRUSEJUYTUzang2T2VXc2dPZXQxNE53OW1aLWlPUWMwZ1VfVk5wdDJYZ3VmcElWRXl1eFFJd3FOMDNCeWFnT1VlaVpCZXZOdWN5NV9BVUVfZWQ4MUlVNS1uM0ZveXJZZVN5OUh3VjRZS243VS0tWmxsQmxLVk9mX2V5eW84VXE2aUE?oc=5",
-          "source": "Lübecker Nachrichten",
-          "date": "14. Nov 2026"
-        },
         {
           "title": "Windkraft - Video gibt überholten Stand einer Studie zu Infraschall wieder - dpa-factchecking",
           "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE41SFV0Z0ZNaE1LOFVOSThtVEVxVl85RktNYlNvaTBwSjZjak1EbmNUQkE5di16SkFfS0xDbURET0prVmt4NGRGVFRCYlRTZ2xJRVNqckxWVmlkcFBuZndvYTR6a1Q?oc=5",
@@ -65,19 +59,19 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "The European Commission's Zero Pollution Action Plan is the only relevant headline, as it is the EU's overarching framework for cutting pollution, including noise. It sets a goal of reducing the share of people chronically disturbed by transport noise by 30% by 2030, which shapes European noise control policy. The other headlines concern Bangladesh, AI infrastructure disputes, and air pollution and health, so they do not bear directly on European noise policy.",
+      "summary": "The European Commission's Zero Pollution Action Plan is the central policy framework relevant to noise, as it includes the 2030 goal of cutting the share of people chronically disturbed by transport noise by 30% compared with 2017. The European Environment Agency's pages on health and environmental health impacts are also relevant, since the agency tracks noise alongside air pollution and other environmental stressors as a burden on public health and as a basis for evaluating progress toward these targets.",
       "items": [
-        {
-          "title": "High Court issues directives to control noise pollution - Dhaka Tribune",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTE0zZzRqQUM0M2pqNnVvQ05hbjF5MWxmOGJZUW1mQl81b0pQR3kxVFVXR2pVMXVRMlBjUUQ0VXF2V2g3NnYyUW9FVEpaQU1NR19lVWhxMk1Ra3dwZU44N044NUh0cXNYbmlFaVJyMkx0UHBKdFd1cWJGM1NESGdtRlBGMllSQmxJQ092RTBJT0xTaWgwSjNV0gGcAUFVX3lxTE1GcnFjSTQ3QWhVQTdSU3dTOUNKb2lKZkd1Q08zUkl3YWhiM1llYTJwaGs3bHRsTGVyazFGam1WMHVoUV9Wb2Y1cC1tbFlXRkVhakprODh5NmNZVzBhWVpPZVEzYjl2NU8tc2VMeTVaVjJ3RTN2Y3NXcG94UGw2NjNXeS1IejUyYmZZOVBZc3RnNXlyZmtTOXplRGo0Yw?oc=5",
-          "source": "Dhaka Tribune",
-          "date": "15. Nov 2026"
-        },
         {
           "title": "Zero Pollution Action Plan - European Commission",
           "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1Ec0V4QTRPTFZkd2ZZSWstWDdXZ0Y4Qmw2c2cxaXRYVU9xcVA3YWZWMkhXVkt0elN0RXFBMFAwWEFSdnZKMGtXTHdlTV9NODdXbGF0ZmJKc1NfWXR2ZjFZOUVDTy1EbXFUbzBQaXhvN2dSVTVQTjlPZU1Mbw?oc=5",
           "source": "European Commission",
           "date": "11. Nov 2026"
+        },
+        {
+          "title": "Health - European Environment Agency (EEA)",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Xa2J5Z2gyUzVIMTVFaURFRmJUaFNtMVNwUVdSZHJLRHdzNG1PNUwtd3JWM1lySmJkNXJ2eUJRY0RKZDhoSEFfay1pOWdSU2VYMkRyN0FQb1ZQUVViRFhQclBZcnQ?oc=5",
+          "source": "European Environment Agency (EEA)",
+          "date": "12. Nov 2026"
         },
         {
           "title": "Will community lawsuits defy Europe’s AI build-out? - ENDS Europe",
@@ -86,10 +80,10 @@
           "date": "12. Nov 2026"
         },
         {
-          "title": "Air pollution’s link to blood sugar has a surprising temperature twist - Earth.com",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTzZOODNKS1NEQ3hvdlNPUTE1Q29VX3dyTVFaSmdvOFlKSEJyaHNycWVWVFhQUzZrblVfQnVvSkhCN213VFkwYms5OFJfcC1JeUIxVjM3WElCVjROdWs2cmVEelduNy16cWplX1VUaThqVTVHNnBXZ1ZIMDczeElPaXNPcGhsMnRxVGo5M0lkOEYwWGxyUTROVXY2YlpVaFI2ZHNPSGVjMA?oc=5",
-          "source": "Earth.com",
-          "date": "15. Nov 2026"
+          "title": "Environmental health impacts - European Environment Agency (EEA)",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1henIxYmJkYTJFRXQyTmdMS1pwRHl5bGNUSGxhNUlIbmFQbjhOekpINjJwYjhfSTFWR0kwZFZnMFZRUUZVSVpNQ0hqaEREcmQ5THhMNVVvcDYyUkZrel9TNmlLejZVRHFfM0VKdWFZOEVPZVJ0dlBsREdCWE1iZw?oc=5",
+          "source": "European Environment Agency (EEA)",
+          "date": "12. Nov 2026"
         }
       ]
     },
@@ -97,7 +91,7 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Recent acoustics-related news highlights research showing that human-generated noise is quietly harming wildlife, alongside engineering solutions such as aesthetic Indaten® steel sound barriers along Italy's Autostrada Adriatica and a German wind farm that reuses old turbine blades as noise barriers while replacing six turbines with four far more productive ones. In building acoustics, there is also an ongoing debate in Germany over whether sound insulation requirements drive up construction costs in the context of the simplified \"Gebäudetyp E\" building standard.",
+      "summary": "Recent acoustics-related news highlights research showing that human-generated noise is a serious, largely unseen threat to wildlife, alongside engineering developments in noise control such as aesthetically designed Indaten® steel sound barriers along Italy's Autostrada Adriatica and a German wind farm repurposing old turbine blades as noise barriers while upgrading to fewer, more powerful turbines. There is also an ongoing German debate over whether sound insulation requirements drive up construction costs in the context of the simplified \"Gebäudetyp E\" building standard.",
       "items": [
         {
           "title": "The research is loud and clear. Human noise is quietly killing wildlife - Anthropocene Magazine",
@@ -129,7 +123,7 @@
       "label": "Bauakustik",
       "icon": "🏗️",
       "color": "#7b4f12",
-      "summary": "Keine relevanten Meldungen gefunden.",
+      "summary": "Die Deutsche Gesellschaft für Akustik (DEGA) hat eine Stellungnahme zum Gesetzentwurf „Gebäudetyp E“ veröffentlicht, der vereinfachtes und kostengünstigeres Bauen ermöglichen soll. Für den Schallschutz im Hochbau ist sie relevant, weil sich damit die Frage stellt, wie sich Abweichungen von anerkannten Regeln der Technik auf den Schallschutz und die Nutzerqualität auswirken.",
       "items": [
         {
           "title": "Trocken beweist Innovation - Report Verlag",
@@ -142,6 +136,12 @@
           "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNa2JyRHRZdVhaNFNpM05yVVJvd0JBY2dEYnBaTEljU3ZkeTlMc184UUZPa3hCQ255QnQycjdubWIwNzFzVm9yeWFpNzZ2U2FvaDVVMXZpYXZkOHJlZ3gwUW4tUFBlMzk5R005bXFnckNYbWNub1FQaHFlMGtubDNhekxwRG1VZ09BZGhpcnFBZEdZa1Fob2k5SlVTd0s4OEMwOF9UUmNCTG5fbUQ3eGx1ZVh5Y3M3azN2eE1CR0ZKVnFFMDZsb0lNc3FITHpUZG9tSmt4OWt4VnY3RlpLeHc?oc=5",
           "source": "Merkur",
           "date": "12. Nov 2026"
+        },
+        {
+          "title": "Stellungnahme der DEGA zum Gesetzentwurf \"Gebäudetyp E\" - Deutsche Gesellschaft für Akustik e.V.: DEGA",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9MeFF2QWNobXk1aU9FNGZSOFp2Vkl3N1J1THZwNkVDd0VXVmJkakNUV1NlVTlka2x4Z0ZPREphYkUxMno0cWk4Tk1pbHZ0TmdkM2xobE92X19NZDIwN3VNNUgtRk1BRmVqWUFpaVc0b2ZaT21UbmdyRTJZUQ?oc=5",
+          "source": "Deutsche Gesellschaft für Akustik e.V.: DEGA",
+          "date": "11. Nov 2026"
         }
       ]
     },
