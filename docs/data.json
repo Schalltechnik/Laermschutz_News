@@ -1,16 +1,22 @@
 {
-  "generated": "19. November 2026, 12:01 UTC",
+  "generated": "20. November 2026, 12:03 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Keine relevanten Meldungen gefunden.",
+      "summary": "Die Großbaustelle auf der A9 Pyhrnautobahn zwischen Gratkorn und Deutschfeistritz nördlich von Graz ist abgeschlossen, was für Anrainer ein Ende der Belastungen durch Baustellenverkehr und Bauarbeiten bedeutet. Im Murtal läuft für die geplante Reststoffdeponie eine Umweltverträglichkeitsprüfung, in der auch mögliche Lärmauswirkungen auf die Umgebung zu beurteilen sein werden.",
       "items": [
         {
           "title": "Die lästigste Baustelle nördlich von Graz ist abgeschlossen - Kleine Zeitung",
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeDNmNzhuX3pDaS1fQWRtY3p3djg0Nm5aZUJhVjB0cVpPVWRBUllnY25aX3FnRTAwWVJscWtzbjBfN05rNkg2TDdNaUlUMHNHTG9QdEl0aXhkY2ppcVhXRnh6Q1lqLTdseVJselNqX0VxaEY0Qk9uQUNMeFQxTVZxT1NwZGMweXJpRk53Q0NWbVpETHJwekxnX1NaelZtcUFodzZqWFVjdjBXS1E?oc=5",
           "source": "Kleine Zeitung",
+          "date": "18. Nov 2026"
+        },
+        {
+          "title": "Auf A9 Pyhrnautobahn: Großbaustelle zwischen Gratkorn und Deutschfeistritz abgeschlossen - MeinBezirk.at",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOeXFkaHBpS2dFbENEZXBxc1ptbU5iZk01NXhkUktuYTVwaTNWZW0yQ0U4Q2gtUFhVYms1OXRXVU56d2JKeWJyUWRLV0ZfeW1BcjZ3anN1TEZlRThCNnBKT3NmcVctWDFfRlY1X2ppbzlXNHlfLTlYNGNZbmZDbDB5ZXU5dUxFaE1MMVM1UE92eE1yWllld2MyNWtHaHJQU2dobk1xb3RDTmVGbzRqQWtJbnBMMHpBOHRGNmZpUlJzd21aOHpE?oc=5",
+          "source": "MeinBezirk.at",
           "date": "18. Nov 2026"
         },
         {
@@ -32,8 +38,15 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "Ein dpa-Faktencheck stellt fest, dass ein im Netz kursierendes Video zum Thema Infraschall von Windkraftanlagen einen überholten Stand einer Studie wiedergibt und somit irreführend ist. Meldungen aus der Schweiz sowie Veranstaltungen oder Neuigkeiten der DEGA liegen in den vorliegenden Titeln nicht vor.",
+      "items": [
+        {
+          "title": "Windkraft - Video gibt überholten Stand einer Studie zu Infraschall wieder - dpa-factchecking",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE41SFV0Z0ZNaE1LOFVOSThtVEVxVl85RktNYlNvaTBwSjZjak1EbmNUQkE5di16SkFfS0xDbURET0prVmt4NGRGVFRCYlRTZ2xJRVNqckxWVmlkcFBuZndvYTR6a1Q?oc=5",
+          "source": "dpa-factchecking",
+          "date": "13. Nov 2026"
+        }
+      ]
     },
     "europe": {
       "label": "Europa",
@@ -42,16 +55,22 @@
       "summary": "No relevant news found.",
       "items": [
         {
-          "title": "Health - European Environment Agency (EEA)",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Xa2J5Z2gyUzVIMTVFaURFRmJUaFNtMVNwUVdSZHJLRHdzNG1PNUwtd3JWM1lySmJkNXJ2eUJRY0RKZDhoSEFfay1pOWdSU2VYMkRyN0FQb1ZQUVViRFhQclBZcnQ?oc=5",
+          "title": "Air pollution - European Environment Agency (EEA)",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBLLXc1aVp0Y0dua0RtdkJHakJMRkxzejlxM3g0d3I3N2hReVhhUkhJc3h5eFpsd1pySXZKcy1veXVPVnhjbVRUTGZYeTZmZk02YjMwakZ6TWhnZnRSa2VnamE4alYyRTU0ZXc?oc=5",
           "source": "European Environment Agency (EEA)",
-          "date": "12. Nov 2026"
+          "date": "17. Nov 2026"
         },
         {
-          "title": "Noise Barrier System Market Size, Share & Forecast 2036 - Fact.MR",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE53YjVmdDVSXzhzelZIQW51OUNVMnpHRWwxUTdzVDV1S2F4RGdwNlJZVlhjczlKbFpQVkxVVy1pU0NsNGlOTlZ0MGxPOWZvcm1FSHh6SDJQWDEtSFdCVFdQY3JQYk1rT2FR?oc=5",
-          "source": "Fact.MR",
-          "date": "18. Nov 2026"
+          "title": "I want to influence: find out which inquiries and public hearings are open in the ministries - Demócrata",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNazBRMUQzaFBOcWREcW16eTRQSjV0WlJtYzJxN3pnS1ZDZEpBUVEya2xpZEJ0NTdJXzVIQzV3N0VJaG8yT0EwejlqMEZoUGVvdXh3M3JSVno2Tk9UbFh3aF9PREF1VHhRbnRBNTRfR2kxRjloWVMwaFVZRENFcTRXSWw1TU94M05SeTdPQXgya204MGtCSUZYNzM0bVR6dmdWNjA4RWRfVlF0Z2M0WDYwR1g0WDRRcWROSXphY1hHdTRFNTZJRXF3YmJSNENObzRWYl9oNXdEYjVuVVhrYTAwMdIB5gFBVV95cUxNTEhfUEVvbnBRQmtMV2RGenoxZHlnczFQcjFJMjlhQlJEaDFseEtzbGk3V0hTRmtKSTBfVUMwOWgxV3ZRTEloenVBUG0xeUp2QmZfX0R2cVBmLUl3SXFrOHY1TUVkdGtnMmRVWmgzOGNMY2lUajZPUGQ5SGhmVzk0VlpXWmtxbjVRMHVFM0MwZ1kyMmIxQ0JFSkZfZkdCTmJyYkN6Q3F6SzJ3cnNIb1MycncwRnpBeXJDU0NvOTM1TENGQ1p4S2pPQXNVNFl2UnJKZTNZa3JsdmpRVzFpTWlJNm92ZkFNQQ?oc=5",
+          "source": "Demócrata",
+          "date": "20. Nov 2026"
+        },
+        {
+          "title": "Meyer Sound Brings Germany’s First TIGRA System To Alte Oper Frankfurt - Live Design Online",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNDVtQ2JxQVFHRUR2U1A0S05PcE1DUC0wXzctSUM5YmY3TUQ2Ym5OczZKUVlfQjFEVF9FX0J0UDJQNks1eHNPSHRoWDVpRnJMZ1BhcXVldkZ1UURkYk1ZOWlwalkwUmdaSFNIdUdKTHk5Sk1TdFhqXzRUU0lOd2xmZFlBRDlCdVowdlJvOXN5TW94WHc3OGNvaGZxeGt3WXhFZXR0OHFESQ?oc=5",
+          "source": "Live Design Online",
+          "date": "19. Nov 2026"
         }
       ]
     },
@@ -59,13 +78,19 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "The acoustic foam market is seeing rising demand, driven largely by growing interest in soundproofing and noise reduction. This suggests expanding commercial and residential adoption of sound-absorbing materials for managing unwanted noise.",
+      "summary": "Two headlines are relevant to acoustics. A Fact.MR report projects market size, share, and growth for noise barrier systems through 2036, indicating sustained demand for noise mitigation infrastructure. Separately, Constructalia (ArcelorMittal) describes Indaten® weathering-steel sound barriers installed along Italy's Autostrada Adriatica, which combine effective highway noise protection with aesthetic integration into the landscape.",
       "items": [
         {
-          "title": "Acoustic Foam Market Rising Demand for Soundproofing, Noise - openPR.com",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcHhJeERLS3NEQ0pMS1M2Vl9JRzc1d2F5M2ZnS05lQU0yUnl6c28tSVVEM1J5NkkxMXlEVV9IcmtpM2FUekEwYVZnNXdGZHJNTUZQajFDU3A2ejhCeEFJQjhwcjRSQk1vYy1zOGN1QnJfQUZFT2pYNDRoUy0xVEtwamhZeVR3UTJ5QlVIQTB2cm14bElBbE5sa2FB?oc=5",
-          "source": "openPR.com",
-          "date": "13. Nov 2026"
+          "title": "Noise Barrier System Market Size, Share & Forecast 2036 - Fact.MR",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE53YjVmdDVSXzhzelZIQW51OUNVMnpHRWwxUTdzVDV1S2F4RGdwNlJZVlhjczlKbFpQVkxVVy1pU0NsNGlOTlZ0MGxPOWZvcm1FSHh6SDJQWDEtSFdCVFdQY3JQYk1rT2FR?oc=5",
+          "source": "Fact.MR",
+          "date": "18. Nov 2026"
+        },
+        {
+          "title": "Aesthetic noise protection thanks to Indaten® sound barriers along Italy's Autostrada Adriatica - Constructalia – ArcelorMittal",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZXVNSUdPWk1NYTd1NlZnMUk3Z3VMNEZROS1LSUliNEtjWWc4RHkyV1hIOHE5SzJWSVlrMXdKVmc3UXo4c3R2MGVPMVN5T19WMUlXTm1odkRWMlFvREdVbm1KMzd5N2dCLXJyNVRCWHVxaXZDMmsyZThNcTZDbk4xTTRWWWZLLWpmSThlMmcxTURPZXhjcnJuVkx0R2pyc0hJb3c?oc=5",
+          "source": "Constructalia – ArcelorMittal",
+          "date": "15. Nov 2026"
         }
       ]
     },
