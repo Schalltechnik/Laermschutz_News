@@ -1,11 +1,11 @@
 {
-  "generated": "22. November 2026, 11:52 UTC",
+  "generated": "23. November 2026, 13:31 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Nördlich von Graz ist die laut Kleiner Zeitung lästigste Baustelle abgeschlossen, womit für Anrainer die Belastung durch Baulärm und Verkehrsbehinderungen endet. Im Murtal plant Porr im Steinbruch Preg eine Reststoffdeponie, für die derzeit eine Umweltverträglichkeitsprüfung (UVP) läuft, in der auch mögliche Lärmauswirkungen etwa durch Betrieb und Transportverkehr zu beurteilen sein werden.",
+      "summary": "Nördlich von Graz ist laut Kleiner Zeitung die lästigste Baustelle abgeschlossen, was für Anrainer eine Entlastung von Bau- und Verkehrslärm bedeuten dürfte. Im Murtal plant Porr im Steinbruch Preg eine Reststoffdeponie, für die derzeit eine Umweltverträglichkeitsprüfung läuft, bei der auch mögliche Lärmbelastungen durch Betrieb und Anlieferverkehr zu beurteilen sein werden.",
       "items": [
         {
           "title": "Die lästigste Baustelle nördlich von Graz ist abgeschlossen - Kleine Zeitung",
@@ -31,14 +31,21 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "Ein ADAC-Beitrag informiert über die in Österreich geltenden Vorschriften für Motorradfahrer, wozu erfahrungsgemäß auch Lärmgrenzwerte, Standgeräuschvorgaben und regionale Fahrverbote für laute Motorräder wie in Tirol zählen. Der Titel selbst nennt den Lärmschutz allerdings nicht ausdrücklich, daher ist der Bezug zum Thema nur mittelbar und sollte im Volltext geprüft werden.",
+      "items": [
+        {
+          "title": "Motorrad-Regeln in Österreich: Diese Vorschriften sollten Sie beachten - ADAC",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVk9DU0RGR043RTlZZDNPMEdTNS1pUGFuUmlKVDNqZUhMdjBqRG1QT1ZVM0x5b09Ud0NoemxHMTgxVUktamtrRGVocjlSVEpPRGNCZVF1bjNVX19BN3RJaHdvX2FRUVowR25GdjJDRWJNWGV0WnBtRGNGLXQtTVdZZTdwYXFyOHc?oc=5",
+          "source": "ADAC",
+          "date": "19. Nov 2026"
+        }
+      ]
     },
     "dach": {
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "In Deutschland befriedet der Freistaat Bayern laut Onetz den Streit um Lärmschutzzonen am Flughafen, was für den Fluglärmschutz und die Siedlungsplanung im Umfeld von Bedeutung ist. Zudem berichtet das Hamburger Abendblatt über Lärm und Zugausfälle durch Bauarbeiten der Deutschen Bahn auf der Strecke Hamburg–Hannover; Meldungen aus der Schweiz oder von der DEGA liegen nicht vor.",
+      "summary": "Beim Fluglärm am Flughafen München soll die Lärmschutzzone 2027 kommen, jedoch ohne generelle Bauverbote, während die Deutsche Bahn in Saarbrücken-Ost zur Halbzeit der Lärmschutzmaßnahmen Fortschritte vermeldet. Auch auf der Strecke Hamburg–Hannover sorgen Bauarbeiten der Bahn für Lärm und Zugausfälle; Meldungen aus der Schweiz oder von der DEGA liegen nicht vor.",
       "items": [
         {
           "title": "Lärm und Zugausfälle: Deutsche Bahn baut auf der Strecke Hamburg–Hannover - Hamburger Abendblatt",
@@ -47,10 +54,16 @@
           "date": "17. Nov 2026"
         },
         {
-          "title": "Freistaat befriedet Zwist um Lärmschutzzonen am Flughafen - Onetz",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQ2FMdFV6ODI3eG04MS1mOFk0VXg2bUV4SjFLMzlFWjBOc1Y4a1dfTEVvSkx5UTB2QUNDeDVoY19oSXhjOXlISjFEQ0M3Z3dNaXV3aUpwZXpvUXM3T2NXVDgxRjlvT2FNQ0RrN3A2bm16a2ZBbzZ2SzJUanRBYnVnNTNGMGZsQkN1WXlUTVpmUGR0OF9FOFdtMmhTc09CcE0wYmxBcG5sc1dfRnY2V3V0WWhPZnRtTGRx?oc=5",
-          "source": "Onetz",
-          "date": "19. Nov 2026"
+          "title": "Fluglärm am Flughafen München: Lärmschutzzone kommt 2027 – aber ohne generelle Bauverbote - SZ.de",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSDFCOGRMYjhrbnpMWk9QNVBiaVc5SUlpOEVuYmRMelN6ZTVwU2psY0dORXNsaGJ0emxuNERHR1oybk9LdXJYUjl5aGhxTkxzQzV0Nl9va2sxMjBaZGlnWnVqWGFJZ3BXMnRQZllxWkxFcVFaWVFXU3RmOS12UnFTYzRVdkNjcW8tME1ieE92M3ItNDIyR0J2TkRHT0piajRsSVg3UDVteVNicHdnWlV4OWFzWU15YUg1UkotWkJwRlktRFR5?oc=5",
+          "source": "SZ.de",
+          "date": "22. Nov 2026"
+        },
+        {
+          "title": "Mehr Ruhe für die Stadt?: Halbzeit beim Lärmschutz in Saarbrücken-Ost – Deutsche Bahn zeigt Fortschritte - Saarbrücker Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPM0thY3RHaWRWS0s0R1ZQWmtoYnVXVE1UNmt0aEk0Q3A1VHZvaHJ5ZlczeXBnT0xkWjlacVNxNGFoYVhzOUVHY0VON3hId0NYLW12eUxoX2Fod2hyQ0V6eVVFZzFLWXdHU19TaUFLR3F2WUZGVHI5TC1hcGtLYjhfTWRXSFkwMDdIanFjbXp4VS13N1dwUFF5T1R2RWJ5ZWVnTUxaYTViLUFRdHBKQ2pWUGNnbkhaUjNaZ21JMm9wbS1jalhhMTRHSGFCQmgxMDBsekhYZkhzbw?oc=5",
+          "source": "Saarbrücker Zeitung",
+          "date": "20. Nov 2026"
         }
       ]
     },
@@ -58,25 +71,13 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "The European Commission's Zero Pollution Action Plan is the only relevant item, as it sets the EU's integrated pollution-reduction framework, which includes the 2030 goal of cutting the share of people chronically disturbed by transport noise by 30% compared with 2017. The other headlines concern air pollution, marine ecosystem projects and a concert-hall sound installation, so they have no clear bearing on European noise control policy.",
+      "summary": "No relevant news found.",
       "items": [
-        {
-          "title": "Zero Pollution Action Plan - European Commission",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1Ec0V4QTRPTFZkd2ZZSWstWDdXZ0Y4Qmw2c2cxaXRYVU9xcVA3YWZWMkhXVkt0elN0RXFBMFAwWEFSdnZKMGtXTHdlTV9NODdXbGF0ZmJKc1NfWXR2ZjFZOUVDTy1EbXFUbzBQaXhvN2dSVTVQTjlPZU1Mbw?oc=5",
-          "source": "European Commission",
-          "date": "19. Nov 2026"
-        },
         {
           "title": "Air pollution - European Environment Agency (EEA)",
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBLLXc1aVp0Y0dua0RtdkJHakJMRkxzejlxM3g0d3I3N2hReVhhUkhJc3h5eFpsd1pySXZKcy1veXVPVnhjbVRUTGZYeTZmZk02YjMwakZ6TWhnZnRSa2VnamE4alYyRTU0ZXc?oc=5",
           "source": "European Environment Agency (EEA)",
           "date": "17. Nov 2026"
-        },
-        {
-          "title": "Your EU – Your projects in Ireland: protecting marine ecosystems - European Climate, Infrastructure and Environment Executive Agency",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNjJhVGZUdUVGT3NWdmM3b2dZSV9RRkZFbEljbGVNdExfNjlKZjFOTWhjOWFLQ21ZZ3FnMDN2Q21Rb1p3VmxiOEg4eFZmNFk0S2N3NjlfeHh1dkpYU0lWOEZNWUV2eWY4MTFQREctV0RocGxKT016WGYxOTVGOUp2aVh4QmQtMV9UNkt6ek9mZm5LS1otSXo2V2Rqd2lCSk1HVXZGNl96ZThuZFk5LWFHbHRWR0ZGbWM?oc=5",
-          "source": "European Climate, Infrastructure and Environment Executive Agency",
-          "date": "20. Nov 2026"
         },
         {
           "title": "Meyer Sound Brings Germany’s First TIGRA System To Alte Oper Frankfurt - Live Design Online",
@@ -90,41 +91,15 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Recent acoustics research includes an Attenborough model that optimizes sound absorption in packed spherical noise control beds, along with work showing that magnetorheological materials could provide tunable low-frequency sound absorption. In applied noise control, Indaten® sound barriers are being used along Italy's Autostrada Adriatica to provide aesthetically integrated highway noise protection.",
-      "items": [
-        {
-          "title": "Attenborough Model Optimizes Sound Absorption in Packed Spherical Noise Control Beds - Bioengineer.org",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQc28yOGpTX3g4MkswNVVHUG8zRWFQMGgyaWlJUldMcFNNaDRqLVo4bXhYNkl6cEV4MnFjTlhNRTBjNUx6RWpxZEFwQzdGckdmN2ZfbVZLcGJWWVFKcWZJUVlpYVMyemNHdkxlcVpPWDFyb2pOdjJkRGRvaTBiVlhUWTFUQmU2Q2JUbE5xVHNFU1B3NW9sT29fNVNqYjdRR2NOa0xFWER5NE5Xb1hMSEE?oc=5",
-          "source": "Bioengineer.org",
-          "date": "21. Nov 2026"
-        },
-        {
-          "title": "Aesthetic noise protection thanks to Indaten® sound barriers along Italy's Autostrada Adriatica - Constructalia – ArcelorMittal",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZXVNSUdPWk1NYTd1NlZnMUk3Z3VMNEZROS1LSUliNEtjWWc4RHkyV1hIOHE5SzJWSVlrMXdKVmc3UXo4c3R2MGVPMVN5T19WMUlXTm1odkRWMlFvREdVbm1KMzd5N2dCLXJyNVRCWHVxaXZDMmsyZThNcTZDbk4xTTRWWWZLLWpmSThlMmcxTURPZXhjcnJuVkx0R2pyc0hJb3c?oc=5",
-          "source": "Constructalia – ArcelorMittal",
-          "date": "15. Nov 2026"
-        },
-        {
-          "title": "Magnetorheological Materials Offer Potential for Tunable Low-Frequency Sound Absorption - Bioengineer.org",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZ3ZndWx5NjA2Z0Q4WkhiTUEwNS1XZFcxWjcxckFBcF9DYldzai1zdHJEWVlSYnI5WmV2OC1FSzJpclNaVVRvQWttMXR0NEtLY1BDa1FyTm9NMUdxZHRGNG9XZkxGV2pfcUY0VnN0ZUs3NURRcWlOYVB5aVV5MHZGSVJHdVdTSVRBWG5tZ3FOOFlyQ0ViZDBvMlhmN1pacFAtUHNRbTMzZk5KSFM4c01WUlBB?oc=5",
-          "source": "Bioengineer.org",
-          "date": "21. Nov 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "bauakustik": {
       "label": "Bauakustik",
       "icon": "🏗️",
       "color": "#7b4f12",
-      "summary": "Ein Beitrag von DETAIL beleuchtet, dass sich mit Holzdecken ein hervorragender Schallschutz erreichen lässt, was für den mehrgeschossigen Holzbau besonders relevant ist. Entscheidend sind dafür der konstruktive Deckenaufbau mit schwerer Schüttung, schwimmendem Estrich und entkoppelten Bauteilen sowie eine saubere Flankenübertragungsplanung, um die Anforderungen an Trittschall- und Luftschalldämmung zu erfüllen.",
-      "items": [
-        {
-          "title": "Hervorragender Schallschutz bei Holzdecken - DETAIL",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5zTnZiT055US10ZkJPSWdHQVUzVExtWVpBeVVxUjBHUDFNekhPLTk5SFdVak5QTVVmcUx6RWplbS1fZl9QQkp3eEN5UUFBVnNaeEdfd1A5QUNuclBfZnJzZER4U0ZTZDQ0aExoMW1WLU1USzYweTNRUEtOaw?oc=5",
-          "source": "DETAIL",
-          "date": "17. Nov 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "oal": {
       "label": "ÖAL",
