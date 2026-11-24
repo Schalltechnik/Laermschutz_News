@@ -1,11 +1,11 @@
 {
-  "generated": "23. November 2026, 13:31 UTC",
+  "generated": "24. November 2026, 14:09 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Nördlich von Graz ist laut Kleiner Zeitung die lästigste Baustelle abgeschlossen, was für Anrainer eine Entlastung von Bau- und Verkehrslärm bedeuten dürfte. Im Murtal plant Porr im Steinbruch Preg eine Reststoffdeponie, für die derzeit eine Umweltverträglichkeitsprüfung läuft, bei der auch mögliche Lärmbelastungen durch Betrieb und Anlieferverkehr zu beurteilen sein werden.",
+      "summary": "Nördlich von Graz ist die als besonders lästig empfundene Baustelle abgeschlossen, womit für die Anrainer eine Belastung durch Baulärm und Verkehrsbehinderungen endet. Im Murtal plant Porr im Steinbruch Preg eine Reststoffdeponie als Millionen-Investment, wobei die laufende Umweltverträglichkeitsprüfung (UVP) auch klären wird, welche Lärmbelastungen durch Betrieb und Transportverkehr für die Anrainer zu erwarten sind.",
       "items": [
         {
           "title": "Die lästigste Baustelle nördlich von Graz ist abgeschlossen - Kleine Zeitung",
@@ -31,13 +31,19 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Ein ADAC-Beitrag informiert über die in Österreich geltenden Vorschriften für Motorradfahrer, wozu erfahrungsgemäß auch Lärmgrenzwerte, Standgeräuschvorgaben und regionale Fahrverbote für laute Motorräder wie in Tirol zählen. Der Titel selbst nennt den Lärmschutz allerdings nicht ausdrücklich, daher ist der Bezug zum Thema nur mittelbar und sollte im Volltext geprüft werden.",
+      "summary": "Für Österreich sind zwei Meldungen relevant: Der Report Verlag berichtet über rund 46.000 m² Schallschutzwände entlang der meistbefahrenen Bahnachse des Landes, wodurch die Lärmbelastung für Anrainer deutlich sinken soll. Der ADAC-Beitrag zu den Motorrad-Regeln in Österreich ist ebenfalls einschlägig, weil darin vermutlich auch Vorschriften zu Lärmgrenzen und Fahrverboten für laute Motorräder behandelt werden.",
       "items": [
         {
           "title": "Motorrad-Regeln in Österreich: Diese Vorschriften sollten Sie beachten - ADAC",
           "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVk9DU0RGR043RTlZZDNPMEdTNS1pUGFuUmlKVDNqZUhMdjBqRG1QT1ZVM0x5b09Ud0NoemxHMTgxVUktamtrRGVocjlSVEpPRGNCZVF1bjNVX19BN3RJaHdvX2FRUVowR25GdjJDRWJNWGV0WnBtRGNGLXQtTVdZZTdwYXFyOHc?oc=5",
           "source": "ADAC",
           "date": "19. Nov 2026"
+        },
+        {
+          "title": "46.000 m2 Schallschutz für Österreichs meistbefahrene Bahnachse - Report Verlag",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNzJvNUxBR1BDSzdhOXdMdDY2b1RFLVhhbXU3OF9XTHRPVGFhdUIxY05nZ0JtdU1QNGhtaXl1MjFxMzk3ME5aYmMtYjdGdnNnc2IzbTFJVkcyYkRxNUM3UXhDNGhqNUQwMVlseDdwQ245TFE5NDhyUGQtY3Nfa2Z4bHJkS1VuUnp1VUd1Y1FMLVp6TEo1aXc?oc=5",
+          "source": "Report Verlag",
+          "date": "18. Nov 2026"
         }
       ]
     },
@@ -45,18 +51,18 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Beim Fluglärm am Flughafen München soll die Lärmschutzzone 2027 kommen, jedoch ohne generelle Bauverbote, während die Deutsche Bahn in Saarbrücken-Ost zur Halbzeit der Lärmschutzmaßnahmen Fortschritte vermeldet. Auch auf der Strecke Hamburg–Hannover sorgen Bauarbeiten der Bahn für Lärm und Zugausfälle; Meldungen aus der Schweiz oder von der DEGA liegen nicht vor.",
+      "summary": "Der MDR beleuchtet, wie Verkehrslärm die Gesundheit beeinträchtigen kann, und in Saarbrücken-Ost zeigt die Deutsche Bahn zur Halbzeit der Lärmschutzmaßnahmen sichtbare Fortschritte für mehr Ruhe in der Stadt. Zudem wird laut Augsburger Allgemeine in einem Video ein überholter Stand einer Infraschall-Studie wiedergegeben; Meldungen aus der Schweiz oder von der DEGA liegen derzeit nicht vor.",
       "items": [
         {
-          "title": "Lärm und Zugausfälle: Deutsche Bahn baut auf der Strecke Hamburg–Hannover - Hamburger Abendblatt",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMUc5X2hCWDJiTDRxUVg3X1N3WC1WeC1pcGVJOEJweGltRjVLNGNKaXNjc01oa1dPb09SZWtHSDlJLWRCbHpCTzRXWWowVGFIaExQSWt5RVByM3RPTjk1UlhwbHM3dmNGVzk0NGtOaC0wSXl1MGtjcEVBbnZqQ0JDQWVyRG1mbVZ5MTJWM1hlTHp5VXI1TWVCajJfQzJmbzNvd0Y4YmtIa3plSnBaNHhQZTliYjkwQmt2THZMR0NycHpiNTJ5TUpxeVdXSUM?oc=5",
-          "source": "Hamburger Abendblatt",
-          "date": "17. Nov 2026"
+          "title": "Wie der Verkehr uns krank machen kann - MDR.de",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPM3F5SXJoaUZBbXRxdVVtVDIwLU1mbUt0SGRqMnRqck5TTWljNjJGZ0tPemh0OTl1ZzdGQ2VaQWtPT3pJQk95UDdyRFpvV3kzUm1DVzdfQlhJOUgyUThmUEFtam5mLVlsczJDaWZGMURrekt0dGMzT1JrWVM5OUlaaXhnZmNBc3pyeHBZTkZpRFRwejU4dDdxZjFLdE1BOFhlLUc3QVJOZ3owSHA1SXpGekVVWk1LcGtkWG16Zk5SNA?oc=5",
+          "source": "MDR.de",
+          "date": "22. Nov 2026"
         },
         {
-          "title": "Fluglärm am Flughafen München: Lärmschutzzone kommt 2027 – aber ohne generelle Bauverbote - SZ.de",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSDFCOGRMYjhrbnpMWk9QNVBiaVc5SUlpOEVuYmRMelN6ZTVwU2psY0dORXNsaGJ0emxuNERHR1oybk9LdXJYUjl5aGhxTkxzQzV0Nl9va2sxMjBaZGlnWnVqWGFJZ3BXMnRQZllxWkxFcVFaWVFXU3RmOS12UnFTYzRVdkNjcW8tME1ieE92M3ItNDIyR0J2TkRHT0piajRsSVg3UDVteVNicHdnWlV4OWFzWU15YUg1UkotWkJwRlktRFR5?oc=5",
-          "source": "SZ.de",
+          "title": "Video gibt überholten Stand einer Studie zu Infraschall wieder - Augsburger Allgemeine",
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQczFKTm00T3lsT2lhTUJnM29weTcyNkUxYVJQSEp6UEdUSXlHUUo2WnZITkhUQTJuWkhGWHprNmlXb1pOZkRLNTUybXBNanVKMnNiS2FPLWpFM1Q3NFNZbjA1Q2h2WkpaTUtpTGN1UmZDaXFSX3NPNmIzajhTX1BQanprLUlaSHktY1drSG5TVURybUUzU042RlhiZFRxd0RKZ2dLaWhmTFBfYlRsN1NMcUc1UlhpY0tIOU5iN1pYZDFXTzBMUjAtNjJoVHpHV1hQRHk4dUVkUF9ZRVY0UmtqTTg2bFZDTnB2?oc=5",
+          "source": "Augsburger Allgemeine",
           "date": "22. Nov 2026"
         },
         {
@@ -80,6 +86,12 @@
           "date": "17. Nov 2026"
         },
         {
+          "title": "New EU Bureaucracy Index: EU law has more than doubled since 2010 - idw - Informationsdienst Wissenschaft",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8xSUZpa3drY2NzUWh2WHExWUE2Nk5BbENXTTJQXzBDTjUxSnRaOWJIazRXekR2eFp0ai01QkVBVTh5T1A0X21mRnRvcw?oc=5",
+          "source": "idw - Informationsdienst Wissenschaft",
+          "date": "24. Nov 2026"
+        },
+        {
           "title": "Meyer Sound Brings Germany’s First TIGRA System To Alte Oper Frankfurt - Live Design Online",
           "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNDVtQ2JxQVFHRUR2U1A0S05PcE1DUC0wXzctSUM5YmY3TUQ2Ym5OczZKUVlfQjFEVF9FX0J0UDJQNks1eHNPSHRoWDVpRnJMZ1BhcXVldkZ1UURkYk1ZOWlwalkwUmdaSFNIdUdKTHk5Sk1TdFhqXzRUU0lOd2xmZFlBRDlCdVowdlJvOXN5TW94WHc3OGNvaGZxeGt3WXhFZXR0OHFESQ?oc=5",
           "source": "Live Design Online",
@@ -91,8 +103,15 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Keine aktuellen Meldungen gefunden.",
-      "items": []
+      "summary": "A newly published review examines the potential risks that low-frequency sound and infrasound pose to the central nervous system. For acoustics researchers, it highlights the biological and health implications of exposure to sound at the lowest end of the frequency spectrum.",
+      "items": [
+        {
+          "title": "Review Examines Central Nervous System Risks From Low-Frequency Sound and Infrasound - Bioengineer.org",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONkVESEtJU0VFczhsT1p6ZEZPR1RCdHpad0U3WGZiV0d5dTdoZXlGQXZCa212b1FLTU1JWmFxbEhWTWZibG1hYlJOVW5ySjlCek81VTlYRWp0dnNBdjhUZFI3Y0UxS3E3MHk1NmNmSFV4ejRkVlBCdEJPWndub2hjaGQ3ZjhsdEFfNDJ4RDNHNXpiUEVmNW13WDRVQUpETWl1c0Q1bnBoSGRodkxCR3c?oc=5",
+          "source": "Bioengineer.org",
+          "date": "19. Nov 2026"
+        }
+      ]
     },
     "bauakustik": {
       "label": "Bauakustik",
