@@ -1,24 +1,12 @@
 {
-  "generated": "24. November 2026, 14:09 UTC",
+  "generated": "25. November 2026, 13:22 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Nördlich von Graz ist die als besonders lästig empfundene Baustelle abgeschlossen, womit für die Anrainer eine Belastung durch Baulärm und Verkehrsbehinderungen endet. Im Murtal plant Porr im Steinbruch Preg eine Reststoffdeponie als Millionen-Investment, wobei die laufende Umweltverträglichkeitsprüfung (UVP) auch klären wird, welche Lärmbelastungen durch Betrieb und Transportverkehr für die Anrainer zu erwarten sind.",
+      "summary": "Keine relevanten Meldungen gefunden.",
       "items": [
-        {
-          "title": "Die lästigste Baustelle nördlich von Graz ist abgeschlossen - Kleine Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeDNmNzhuX3pDaS1fQWRtY3p3djg0Nm5aZUJhVjB0cVpPVWRBUllnY25aX3FnRTAwWVJscWtzbjBfN05rNkg2TDdNaUlUMHNHTG9QdEl0aXhkY2ppcVhXRnh6Q1lqLTdseVJselNqX0VxaEY0Qk9uQUNMeFQxTVZxT1NwZGMweXJpRk53Q0NWbVpETHJwekxnX1NaelZtcUFodzZqWFVjdjBXS1E?oc=5",
-          "source": "Kleine Zeitung",
-          "date": "18. Nov 2026"
-        },
-        {
-          "title": "Millionen-Investment: Reststoffdeponie im Murtal geplant, UVP läuft - MeinBezirk.at",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRlE4WXU2VGVpNFM3Y0xlWHRucV9pOGF4MDFhMkpHQ2F6d3NsUldlRktsc01tWTR1UF9ZbmZzcG9DVlJESE5oQkpVZ3hCLVhRN2NIRC1ZUjFLUGlpWUhHajZyTGZaZHAwaUttYllVTm5rajdvVjJhUDRBd2lXTTdIN3VGZE1TcDlIYzhCakJCUHFLMWgyYVBBWFNjclU5Vm0zcFE?oc=5",
-          "source": "MeinBezirk.at",
-          "date": "17. Nov 2026"
-        },
         {
           "title": "Porr plant Reststoffdeponie im Steinbruch Preg im Murtal - Welt Stimme",
           "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaGdvYjZodFdoM0E0V2JOMVBrZ0JxU0VUYUdMbjhSeGFRN2dzSHhfN2hOcXE5eFpCRmdkamx6aFlqQzk3WTRHZkRIdTV6eUZjNWMxLUR2R1QtVnZfLXB1RVFtbmpNMkxxWWVoaWp5OGlqZEM4Y2Q5b0NXRXI2MXBhRUJCQXhSSVMwNmg5U1Z3VGVjWFlYUURnRGNoMUVUUnRHVXc?oc=5",
@@ -31,7 +19,7 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Für Österreich sind zwei Meldungen relevant: Der Report Verlag berichtet über rund 46.000 m² Schallschutzwände entlang der meistbefahrenen Bahnachse des Landes, wodurch die Lärmbelastung für Anrainer deutlich sinken soll. Der ADAC-Beitrag zu den Motorrad-Regeln in Österreich ist ebenfalls einschlägig, weil darin vermutlich auch Vorschriften zu Lärmgrenzen und Fahrverboten für laute Motorräder behandelt werden.",
+      "summary": "Für den Lärmschutz in Österreich sind zwei Meldungen relevant: An Österreichs meistbefahrener Bahnachse werden 46.000 m² Schallschutz errichtet, um Anrainer vom Schienenlärm zu entlasten. In Wien fordert die SPÖ wegen der Lärmbelastung durch Autoposer eine nächtliche Sperre der Innenstadt für den Verkehr.",
       "items": [
         {
           "title": "Motorrad-Regeln in Österreich: Diese Vorschriften sollten Sie beachten - ADAC",
@@ -44,6 +32,12 @@
           "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNzJvNUxBR1BDSzdhOXdMdDY2b1RFLVhhbXU3OF9XTHRPVGFhdUIxY05nZ0JtdU1QNGhtaXl1MjFxMzk3ME5aYmMtYjdGdnNnc2IzbTFJVkcyYkRxNUM3UXhDNGhqNUQwMVlseDdwQ245TFE5NDhyUGQtY3Nfa2Z4bHJkS1VuUnp1VUd1Y1FMLVp6TEo1aXc?oc=5",
           "source": "Report Verlag",
           "date": "18. Nov 2026"
+        },
+        {
+          "title": "Anrainer leiden unter Lärm – Autoposer: SPÖ will Wiener City in der Nacht sperren - Heute",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONWo1QnZEMzhQYUFmTDRtSlExY0hvbkJSSzlKOHU4blVhaDNfT0hKSFF4eDUwSnhRZVBXRGpnR2JFZjNwWDZlU25neXNreWFSUWdqa29CN1Rmc09xNmFXbWZiVm85QVlmX0JSX3U4SnEwZDJGa1dZdGR5OTVsNk5MQ2JjVDF3RnZYcVZ3dE93?oc=5",
+          "source": "Heute",
+          "date": "25. Nov 2026"
         }
       ]
     },
@@ -51,25 +45,31 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Der MDR beleuchtet, wie Verkehrslärm die Gesundheit beeinträchtigen kann, und in Saarbrücken-Ost zeigt die Deutsche Bahn zur Halbzeit der Lärmschutzmaßnahmen sichtbare Fortschritte für mehr Ruhe in der Stadt. Zudem wird laut Augsburger Allgemeine in einem Video ein überholter Stand einer Infraschall-Studie wiedergegeben; Meldungen aus der Schweiz oder von der DEGA liegen derzeit nicht vor.",
+      "summary": "Die Meldungen aus Deutschland befassen sich mit den Gesundheitsfolgen von Verkehrslärm (MDR), mit anhaltender Kampfjet-Lärmbelastung im Norden trotz Feiertagen (Nordkurier) und mit der Halbzeit beim Lärmschutzprojekt der Deutschen Bahn in Saarbrücken-Ost, wo die Bauarbeiten Fortschritte zeigen (Saarbrücker Zeitung). Zudem wird berichtigt, dass ein Video zum Thema Infraschall einen überholten Studienstand wiedergibt (Augsburger Allgemeine); Meldungen aus der Schweiz oder von der DEGA liegen nicht vor.",
       "items": [
         {
           "title": "Wie der Verkehr uns krank machen kann - MDR.de",
           "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPM3F5SXJoaUZBbXRxdVVtVDIwLU1mbUt0SGRqMnRqck5TTWljNjJGZ0tPemh0OTl1ZzdGQ2VaQWtPT3pJQk95UDdyRFpvV3kzUm1DVzdfQlhJOUgyUThmUEFtam5mLVlsczJDaWZGMURrekt0dGMzT1JrWVM5OUlaaXhnZmNBc3pyeHBZTkZpRFRwejU4dDdxZjFLdE1BOFhlLUc3QVJOZ3owSHA1SXpGekVVWk1LcGtkWG16Zk5SNA?oc=5",
           "source": "MDR.de",
-          "date": "22. Nov 2026"
+          "date": "24. Nov 2026"
         },
         {
-          "title": "Video gibt überholten Stand einer Studie zu Infraschall wieder - Augsburger Allgemeine",
-          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQczFKTm00T3lsT2lhTUJnM29weTcyNkUxYVJQSEp6UEdUSXlHUUo2WnZITkhUQTJuWkhGWHprNmlXb1pOZkRLNTUybXBNanVKMnNiS2FPLWpFM1Q3NFNZbjA1Q2h2WkpaTUtpTGN1UmZDaXFSX3NPNmIzajhTX1BQanprLUlaSHktY1drSG5TVURybUUzU042RlhiZFRxd0RKZ2dLaWhmTFBfYlRsN1NMcUc1UlhpY0tIOU5iN1pYZDFXTzBMUjAtNjJoVHpHV1hQRHk4dUVkUF9ZRVY0UmtqTTg2bFZDTnB2?oc=5",
-          "source": "Augsburger Allgemeine",
-          "date": "22. Nov 2026"
+          "title": "200 Flugzeuge im Anflug auf den Norden: Kampfjet-Lärm sogar an Feiertagen - Nordkurier",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOODk2MmZxOFFYMnk2dEFBWlVfOGd0MWotblJfRTdmanBOVnE3WWlETUh0UVR2Q1RsSUNBcXl4NXdVX3pKZ2JraW1SZW9BQV9IcGh6a25jdGg0cWdFQW1qSDR3T3p0STFIS2xWTFNHR0VseXJoV0xSS29QNUlYc1UycFZWajZmS1BXcEp6Q1owMEhGUlljOVJIdkZLWFlSY2dLZEZlaFdNZk55YWZsUFpMRWFZZF9HSXdXNDEtdmlmdDBrYlhLdWVWVE84WQ?oc=5",
+          "source": "Nordkurier",
+          "date": "20. Nov 2026"
         },
         {
           "title": "Mehr Ruhe für die Stadt?: Halbzeit beim Lärmschutz in Saarbrücken-Ost – Deutsche Bahn zeigt Fortschritte - Saarbrücker Zeitung",
           "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPM0thY3RHaWRWS0s0R1ZQWmtoYnVXVE1UNmt0aEk0Q3A1VHZvaHJ5ZlczeXBnT0xkWjlacVNxNGFoYVhzOUVHY0VON3hId0NYLW12eUxoX2Fod2hyQ0V6eVVFZzFLWXdHU19TaUFLR3F2WUZGVHI5TC1hcGtLYjhfTWRXSFkwMDdIanFjbXp4VS13N1dwUFF5T1R2RWJ5ZWVnTUxaYTViLUFRdHBKQ2pWUGNnbkhaUjNaZ21JMm9wbS1jalhhMTRHSGFCQmgxMDBsekhYZkhzbw?oc=5",
           "source": "Saarbrücker Zeitung",
           "date": "20. Nov 2026"
+        },
+        {
+          "title": "Video gibt überholten Stand einer Studie zu Infraschall wieder - Augsburger Allgemeine",
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQczFKTm00T3lsT2lhTUJnM29weTcyNkUxYVJQSEp6UEdUSXlHUUo2WnZITkhUQTJuWkhGWHprNmlXb1pOZkRLNTUybXBNanVKMnNiS2FPLWpFM1Q3NFNZbjA1Q2h2WkpaTUtpTGN1UmZDaXFSX3NPNmIzajhTX1BQanprLUlaSHktY1drSG5TVURybUUzU042RlhiZFRxd0RKZ2dLaWhmTFBfYlRsN1NMcUc1UlhpY0tIOU5iN1pYZDFXTzBMUjAtNjJoVHpHV1hQRHk4dUVkUF9ZRVY0UmtqTTg2bFZDTnB2?oc=5",
+          "source": "Augsburger Allgemeine",
+          "date": "22. Nov 2026"
         }
       ]
     },
@@ -77,25 +77,25 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "No relevant news found.",
+      "summary": "A Fact.MR market report forecasts the noise barrier system market through 2036, pointing to continued demand for noise mitigation infrastructure such as that used along roads and railways. It is an industry outlook rather than a policy announcement, so it suggests ongoing regulatory and investment drivers for noise control without detailing any specific European measures.",
       "items": [
+        {
+          "title": "Noise Barrier System Market Size, Share & Forecast 2036 - Fact.MR",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE53YjVmdDVSXzhzelZIQW51OUNVMnpHRWwxUTdzVDV1S2F4RGdwNlJZVlhjczlKbFpQVkxVVy1pU0NsNGlOTlZ0MGxPOWZvcm1FSHh6SDJQWDEtSFdCVFdQY3JQYk1rT2FR?oc=5",
+          "source": "Fact.MR",
+          "date": "18. Nov 2026"
+        },
         {
           "title": "Air pollution - European Environment Agency (EEA)",
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBLLXc1aVp0Y0dua0RtdkJHakJMRkxzejlxM3g0d3I3N2hReVhhUkhJc3h5eFpsd1pySXZKcy1veXVPVnhjbVRUTGZYeTZmZk02YjMwakZ6TWhnZnRSa2VnamE4alYyRTU0ZXc?oc=5",
           "source": "European Environment Agency (EEA)",
-          "date": "17. Nov 2026"
+          "date": "20. Nov 2026"
         },
         {
-          "title": "New EU Bureaucracy Index: EU law has more than doubled since 2010 - idw - Informationsdienst Wissenschaft",
-          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8xSUZpa3drY2NzUWh2WHExWUE2Nk5BbENXTTJQXzBDTjUxSnRaOWJIazRXekR2eFp0ai01QkVBVTh5T1A0X21mRnRvcw?oc=5",
-          "source": "idw - Informationsdienst Wissenschaft",
-          "date": "24. Nov 2026"
-        },
-        {
-          "title": "Meyer Sound Brings Germany’s First TIGRA System To Alte Oper Frankfurt - Live Design Online",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNDVtQ2JxQVFHRUR2U1A0S05PcE1DUC0wXzctSUM5YmY3TUQ2Ym5OczZKUVlfQjFEVF9FX0J0UDJQNks1eHNPSHRoWDVpRnJMZ1BhcXVldkZ1UURkYk1ZOWlwalkwUmdaSFNIdUdKTHk5Sk1TdFhqXzRUU0lOd2xmZFlBRDlCdVowdlJvOXN5TW94WHc3OGNvaGZxeGt3WXhFZXR0OHFESQ?oc=5",
-          "source": "Live Design Online",
-          "date": "19. Nov 2026"
+          "title": "Hidden in plain sight: Inside Slough, the quiet town powering Europe’s AI boom - Anadolu Ajansı",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOEJiY29pRUJkNVVEVkRxWlo4bkd6ekhvTWNnS21iRWJNdktWSm1fU25DSXlUV184ME0yaHQtTnJzWVVRbVh0cVhtc2dES3dlN29lUlF0VEIwbERfR1FqZnVDX3hITlRvM2k3azNfRld6cFh6Q0RmUFRFdHhLQ1NjekIyZkpFVDROTVg0ZldBUXI5VkRkcFdlbnh0N3Z3bDB0TWM2YzFFY0hqcEhFM0E0TnBBdDdsZW9CWmc?oc=5",
+          "source": "Anadolu Ajansı",
+          "date": "25. Nov 2026"
         }
       ]
     },
@@ -103,13 +103,31 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "A newly published review examines the potential risks that low-frequency sound and infrasound pose to the central nervous system. For acoustics researchers, it highlights the biological and health implications of exposure to sound at the lowest end of the frequency spectrum.",
+      "summary": "A new Attenborough model reportedly optimizes sound absorption in packed spherical noise-control beds, which advances the modeling of porous absorbers. Market reports also project continued growth in noise barrier systems and sound barriers (the latter reaching about USD 10.1 billion by 2036), along with expansion in aircraft noise reduction components.",
       "items": [
         {
-          "title": "Review Examines Central Nervous System Risks From Low-Frequency Sound and Infrasound - Bioengineer.org",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONkVESEtJU0VFczhsT1p6ZEZPR1RCdHpad0U3WGZiV0d5dTdoZXlGQXZCa212b1FLTU1JWmFxbEhWTWZibG1hYlJOVW5ySjlCek81VTlYRWp0dnNBdjhUZFI3Y0UxS3E3MHk1NmNmSFV4ejRkVlBCdEJPWndub2hjaGQ3ZjhsdEFfNDJ4RDNHNXpiUEVmNW13WDRVQUpETWl1c0Q1bnBoSGRodkxCR3c?oc=5",
+          "title": "Attenborough Model Optimizes Sound Absorption in Packed Spherical Noise Control Beds - Bioengineer.org",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQc28yOGpTX3g4MkswNVVHUG8zRWFQMGgyaWlJUldMcFNNaDRqLVo4bXhYNkl6cEV4MnFjTlhNRTBjNUx6RWpxZEFwQzdGckdmN2ZfbVZLcGJWWVFKcWZJUVlpYVMyemNHdkxlcVpPWDFyb2pOdjJkRGRvaTBiVlhUWTFUQmU2Q2JUbE5xVHNFU1B3NW9sT29fNVNqYjdRR2NOa0xFWER5NE5Xb1hMSEE?oc=5",
           "source": "Bioengineer.org",
-          "date": "19. Nov 2026"
+          "date": "21. Nov 2026"
+        },
+        {
+          "title": "Noise Barrier System Market Size, Share & Forecast 2036 - Fact.MR",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE53YjVmdDVSXzhzelZIQW51OUNVMnpHRWwxUTdzVDV1S2F4RGdwNlJZVlhjczlKbFpQVkxVVy1pU0NsNGlOTlZ0MGxPOWZvcm1FSHh6SDJQWDEtSFdCVFdQY3JQYk1rT2FR?oc=5",
+          "source": "Fact.MR",
+          "date": "18. Nov 2026"
+        },
+        {
+          "title": "Sound Barrier Market to Reach USD 10.10 Billion by 2036, - openPR.com",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPYXRhVE9OYkl3cmh4WEF5aThseXg3dnl3U2V4WFdWTXludU4xMDB4UnJ3QVpHSHdvNVA0WEdOcTlGeHpyRHFyR05uLUVrUmV1RU5zQy1NWnY5c2x1bS1BZDhOdl9FSzc4YlM4Nzgwb2REVXoyOEE0TkRyd2hHd0RMWkk4Y0ZWYVpqekMtNDdDWjF2Ti1aYWc?oc=5",
+          "source": "openPR.com",
+          "date": "24. Nov 2026"
+        },
+        {
+          "title": "Insights into the Aircraft Noise Reduction Components Market Emphasize Key Segments and Regional Expansion - openPR.com",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNU3c0SkdXNXF4aE44aDJWWGV1M0JVNkZOTVVFOXRLUTZBM3MzQ2FKWnNoMTVQRG1XQldURWNFMmp0SW40Qk9CTzQxTFhhemh2WDU1MHRWcFU5RXVmVXY4ZW94SGc1d2w1bVU4VkVVejh6OUpudTJHamZWeVh5b2dQeHFvellEQnhOQmpnazYtWnVrZE45WjNXdVpsU1k?oc=5",
+          "source": "openPR.com",
+          "date": "24. Nov 2026"
         }
       ]
     },
