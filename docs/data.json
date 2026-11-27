@@ -1,5 +1,5 @@
 {
-  "generated": "26. November 2026, 13:01 UTC",
+  "generated": "27. November 2026, 12:59 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
@@ -19,19 +19,19 @@
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Für die Weststrecke zwischen Linz und Wels ist laut Meldung ein Schallschutz aus Holzbeton vorgesehen, der den Bahnlärm für Anrainer verringern soll. In Wien will die SPÖ wegen der Lärmbelästigung durch Autoposer die Innenstadt nachts für den Verkehr sperren.",
+      "summary": "Im Dezember starten in Mühlbach die Vermessungsarbeiten für eine geplante Lärmschutzwand, die als Vorbereitung für den weiteren Bau dient. Zudem setzt man an der Weststrecke zwischen Linz und Wels auf Holzbeton-Schallschutzelemente, um die Lärmbelastung für die Anrainer entlang der Bahntrasse zu verringern.",
       "items": [
+        {
+          "title": "Mühlbach: Vermessungsarbeiten für Lärmschutzwand im Dezember - austria.com",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPb0JsbE5KWmRhNHVVaWZXZzViaGQ0d0M5ZE5yb2ptOGdtLVcwUVA0SzQtU2lER3JuZllOMjluUGFMbjNlcXFMOFEyTEZ3aGNoMzJBQXloUFd3aVFTRkVRVWpPMGRRUGpNMlVwWTZrSmtxRmdjTV9Yb01IRC1pcUstNE1GSk43S0ZSWXp3cWh6S0txdXFoRjVSTzE2NWFFUGZud1prLXlVOA?oc=5",
+          "source": "austria.com",
+          "date": "26. Nov 2026"
+        },
         {
           "title": "Holzbeton-Schallschutz für die Weststrecke Linz–Wels - a3BAU",
           "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5VTEZld2J4WFo1UW5LWVJhMERvRnZzT1NNaWtyemVfV1VFdThnVGswZW83SXJVeXc5aFh3YmJ5ME1rMUdJUExDUWdCY1hId3o4cHNaQ1BZWDlITnJuTlFfbGFTSXBKQ2RxQi1kUF8tQ3luekNlVENBSS1n?oc=5",
           "source": "a3BAU",
           "date": "24. Nov 2026"
-        },
-        {
-          "title": "Anrainer leiden unter Lärm – Autoposer: SPÖ will Wiener City in der Nacht sperren - Heute",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONWo1QnZEMzhQYUFmTDRtSlExY0hvbkJSSzlKOHU4blVhaDNfT0hKSFF4eDUwSnhRZVBXRGpnR2JFZjNwWDZlU25neXNreWFSUWdqa29CN1Rmc09xNmFXbWZiVm85QVlmX0JSX3U4SnEwZDJGa1dZdGR5OTVsNk5MQ2JjVDF3RnZYcVZ3dE93?oc=5",
-          "source": "Heute",
-          "date": "25. Nov 2026"
         }
       ]
     },
@@ -39,7 +39,7 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Der Fluglärmschutz und der Verkehrslärm stehen in Deutschland im Fokus: Am Flughafen München kommt 2027 eine Lärmschutzzone, jedoch ohne generelle Bauverbote, und in Saarbrücken-Ost meldet die Deutsche Bahn Fortschritte bei der Halbzeit der Lärmschutzmaßnahmen. Ergänzend beleuchten Berichte die gesundheitlichen Folgen von Verkehrslärm sowie eine Richtigstellung zu einem überholten Studienstand beim Thema Infraschall; Meldungen aus der Schweiz oder von der DEGA liegen nicht vor.",
+      "summary": "Aktuelle Meldungen aus Deutschland befassen sich mit den gesundheitlichen Folgen von Verkehrslärm (MDR) sowie mit einer Bürgerbefragung der Deutschen Bahn zur Akzeptanz und Gestaltung fünf Meter hoher Lärmschutzwände (Volksstimme). Zudem wird ein Video zu Infraschall kritisiert, weil es einen überholten Studienstand wiedergibt (Augsburger Allgemeine); Meldungen aus der Schweiz oder Neuigkeiten und Veranstaltungen der DEGA liegen nicht vor.",
       "items": [
         {
           "title": "Wie der Verkehr uns krank machen kann - MDR.de",
@@ -48,22 +48,16 @@
           "date": "24. Nov 2026"
         },
         {
-          "title": "Fluglärm am Flughafen München: Lärmschutzzone kommt 2027 – aber ohne generelle Bauverbote - SZ.de",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSDFCOGRMYjhrbnpMWk9QNVBiaVc5SUlpOEVuYmRMelN6ZTVwU2psY0dORXNsaGJ0emxuNERHR1oybk9LdXJYUjl5aGhxTkxzQzV0Nl9va2sxMjBaZGlnWnVqWGFJZ3BXMnRQZllxWkxFcVFaWVFXU3RmOS12UnFTYzRVdkNjcW8tME1ieE92M3ItNDIyR0J2TkRHT0piajRsSVg3UDVteVNicHdnWlV4OWFzWU15YUg1UkotWkJwRlktRFR5?oc=5",
-          "source": "SZ.de",
-          "date": "22. Nov 2026"
+          "title": "Deutsche Bahn fragt Bürger: Fünf Meter hohe Lärmschutzwände - ist das schön? - Volksstimme",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdzl3TDh4cmVTTU1FRkprQ2M4TVYzUnd5V1JRQktBLVZXdTN1d3piZHA1Z0ZFVkNGckdVRFJTN1RyY24yQVZvNUx4U1Y3bFQ3b0gzN3FKVFlLbld2Uy1wd0VVM3RRNXY5V0pfeXFYWnhKVVpGZGZjRzNBRFQzS0psa2hjd2phOVRiRVVRbEJjX0dodTVkemlyQm05ZTNkY1k?oc=5",
+          "source": "Volksstimme",
+          "date": "26. Nov 2026"
         },
         {
           "title": "Video gibt überholten Stand einer Studie zu Infraschall wieder - Augsburger Allgemeine",
           "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQczFKTm00T3lsT2lhTUJnM29weTcyNkUxYVJQSEp6UEdUSXlHUUo2WnZITkhUQTJuWkhGWHprNmlXb1pOZkRLNTUybXBNanVKMnNiS2FPLWpFM1Q3NFNZbjA1Q2h2WkpaTUtpTGN1UmZDaXFSX3NPNmIzajhTX1BQanprLUlaSHktY1drSG5TVURybUUzU042RlhiZFRxd0RKZ2dLaWhmTFBfYlRsN1NMcUc1UlhpY0tIOU5iN1pYZDFXTzBMUjAtNjJoVHpHV1hQRHk4dUVkUF9ZRVY0UmtqTTg2bFZDTnB2?oc=5",
           "source": "Augsburger Allgemeine",
           "date": "22. Nov 2026"
-        },
-        {
-          "title": "Mehr Ruhe für die Stadt?: Halbzeit beim Lärmschutz in Saarbrücken-Ost – Deutsche Bahn zeigt Fortschritte - Saarbrücker Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPM0thY3RHaWRWS0s0R1ZQWmtoYnVXVE1UNmt0aEk0Q3A1VHZvaHJ5ZlczeXBnT0xkWjlacVNxNGFoYVhzOUVHY0VON3hId0NYLW12eUxoX2Fod2hyQ0V6eVVFZzFLWXdHU19TaUFLR3F2WUZGVHI5TC1hcGtLYjhfTWRXSFkwMDdIanFjbXp4VS13N1dwUFF5T1R2RWJ5ZWVnTUxaYTViLUFRdHBKQ2pWUGNnbkhaUjNaZ21JMm9wbS1jalhhMTRHSGFCQmgxMDBsekhYZkhzbw?oc=5",
-          "source": "Saarbrücker Zeitung",
-          "date": "20. Nov 2026"
         }
       ]
     },
@@ -71,13 +65,13 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "No relevant news found.",
+      "summary": "An EU-focused report, as reflected in the headline from Wisevoter, recognizes noise pollution as a significant risk to public health. This acknowledgment signals that noise exposure is increasingly viewed as a priority within European environmental and health policy, which may support stronger noise control measures.",
       "items": [
         {
-          "title": "Hidden in plain sight: Inside Slough, the quiet town powering Europe’s AI boom - Anadolu Ajansı",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOEJiY29pRUJkNVVEVkRxWlo4bkd6ekhvTWNnS21iRWJNdktWSm1fU25DSXlUV184ME0yaHQtTnJzWVVRbVh0cVhtc2dES3dlN29lUlF0VEIwbERfR1FqZnVDX3hITlRvM2k3azNfRld6cFh6Q0RmUFRFdHhLQ1NjekIyZkpFVDROTVg0ZldBUXI5VkRkcFdlbnh0N3Z3bDB0TWM2YzFFY0hqcEhFM0E0TnBBdDdsZW9CWmc?oc=5",
-          "source": "Anadolu Ajansı",
-          "date": "25. Nov 2026"
+          "title": "EU Recognizes Noise Pollution as Health Risk - Wisevoter",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ3NrTzQzb1FFYkd1cnR5UkZ6TDVEUWo4S21STXd1Vm1PQzdqZ05ZVHVQWlhTYTJCam5zZGRjeGx4TTMzNThYWGMwM09GQlYzdDhzbWFjRlBaUjBTNjNTQWhoQWJhNTdpLWJLNG5EYlh5V3FzcTN4bHVmNnAtVk55R19YV2pkVVU?oc=5",
+          "source": "Wisevoter",
+          "date": "27. Nov 2026"
         }
       ]
     },
@@ -85,7 +79,7 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Recent acoustics news includes an Attenborough model for optimizing sound absorption in packed spherical noise-control beds, and a review of central nervous system risks from low-frequency sound and infrasound. Related coverage also highlights the broader health impacts of noise pollution, how noise is altering wildlife in the Anthropocene, and a forecast that the automotive acoustic materials market will reach US$7.5 billion.",
+      "summary": "Researchers report that the Attenborough model can be used to optimize sound absorption in packed beds of spherical particles for noise control, offering a way to tune material design for better acoustic performance. Separately, market coverage projects the automotive acoustic materials sector will grow to about US$7.5 billion, and a further report highlights the health impacts of noise pollution, underscoring the demand for effective noise mitigation.",
       "items": [
         {
           "title": "Attenborough Model Optimizes Sound Absorption in Packed Spherical Noise Control Beds - Bioengineer.org",
@@ -104,18 +98,6 @@
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5oNXAtM0VEdEtqR2F0bVdYWVZmSWhGNzhEVTM2UmNEa3RpaHlpaTFkMHpscXB2QmYxTWlVbkZOTkhLWF9rMFdaU1oxcm50MkRzOWJDLUdQMUFFLVNjZTg5YU9IZEJkOEFY?oc=5",
           "source": "agendaNi",
           "date": "26. Nov 2026"
-        },
-        {
-          "title": "Review Examines Central Nervous System Risks From Low-Frequency Sound and Infrasound - Bioengineer.org",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONkVESEtJU0VFczhsT1p6ZEZPR1RCdHpad0U3WGZiV0d5dTdoZXlGQXZCa212b1FLTU1JWmFxbEhWTWZibG1hYlJOVW5ySjlCek81VTlYRWp0dnNBdjhUZFI3Y0UxS3E3MHk1NmNmSFV4ejRkVlBCdEJPWndub2hjaGQ3ZjhsdEFfNDJ4RDNHNXpiUEVmNW13WDRVQUpETWl1c0Q1bnBoSGRodkxCR3c?oc=5",
-          "source": "Bioengineer.org",
-          "date": "19. Nov 2026"
-        },
-        {
-          "title": "Wie Lärm die Tierwelt im Anthropozän verändert - RiffReporter",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaC1ZRWJJSDdRdmgtTUliTGdxczI0ZzM3ZjA2TWN4dmo0cHZSSFdWY3JvWEloZDdTSmNGMHl3ZGFTanN4QW5hUlRiUk1NazhOWDRUajJzSTI3cTYzMXF0dTYzbHpLOHdLV0tsaFNFeExGUFNsMTI2eFJJWVVFNm84RFZ3?oc=5",
-          "source": "RiffReporter",
-          "date": "23. Nov 2026"
         }
       ]
     },
@@ -123,7 +105,7 @@
       "label": "Bauakustik",
       "icon": "🏗️",
       "color": "#7b4f12",
-      "summary": "Die Debatte um den vereinfachten Gebäudetyp E betrifft auch den Schallschutz im Hochbau, da eine Absenkung oder Lockerung von Standards wie der DIN 4109 durch eine Abweichung von den anerkannten Regeln der Technik bauakustisch und haftungsrechtlich kritisch zu bewerten ist. Außerdem zeigt das Holzbeton-Schallschutzprojekt für die Weststrecke Linz–Wels in Österreich den Einsatz innovativer Lärmschutzwände im Verkehrslärmschutz, der zwar nicht den Hochbau betrifft, aber für die Bauakustik in der Praxis relevant ist.",
+      "summary": "Relevant ist vor allem die Meldung zum Holzbeton-Schallschutz an der Weststrecke Linz–Wels (a3BAU), die zeigt, dass Holzbeton als Material für Lärmschutzwände im österreichischen Bahnbereich eingesetzt wird. Der Beitrag zum „Gebäudetyp E\" (inFranken.de) betrifft vereinfachte Bauweisen mit möglichen Abstrichen bei Standards und ist für den baulichen Schallschutz im Hochbau insofern relevant, als er die Diskussion über die Absenkung oder Abweichung von Schallschutzanforderungen berührt.",
       "items": [
         {
           "title": "Günstige Häuser mit \"einfacherem\" Gebäudetyp E? Das sagt ein Immobilien-Experte - inFranken.de",
