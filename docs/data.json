@@ -1,25 +1,18 @@
 {
-  "generated": "27. November 2026, 12:59 UTC",
+  "generated": "28. November 2026, 12:11 UTC",
   "categories": {
     "steiermark": {
       "label": "Steiermark",
       "icon": "🏞️",
       "color": "#1a5c38",
-      "summary": "Keine relevanten Meldungen gefunden.",
-      "items": [
-        {
-          "title": "Porr plant Reststoffdeponie im Steinbruch Preg im Murtal - Welt Stimme",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaGdvYjZodFdoM0E0V2JOMVBrZ0JxU0VUYUdMbjhSeGFRN2dzSHhfN2hOcXE5eFpCRmdkamx6aFlqQzk3WTRHZkRIdTV6eUZjNWMxLUR2R1QtVnZfLXB1RVFtbmpNMkxxWWVoaWp5OGlqZEM4Y2Q5b0NXRXI2MXBhRUJCQXhSSVMwNmg5U1Z3VGVjWFlYUURnRGNoMUVUUnRHVXc?oc=5",
-          "source": "Welt Stimme",
-          "date": "21. Nov 2026"
-        }
-      ]
+      "summary": "Keine aktuellen Meldungen gefunden.",
+      "items": []
     },
     "austria": {
       "label": "Österreich",
       "icon": "🇦🇹",
       "color": "#c8102e",
-      "summary": "Im Dezember starten in Mühlbach die Vermessungsarbeiten für eine geplante Lärmschutzwand, die als Vorbereitung für den weiteren Bau dient. Zudem setzt man an der Weststrecke zwischen Linz und Wels auf Holzbeton-Schallschutzelemente, um die Lärmbelastung für die Anrainer entlang der Bahntrasse zu verringern.",
+      "summary": "In Mühlbach beginnen im Dezember die Vermessungsarbeiten für eine geplante Lärmschutzwand, die den Lärmschutz für die Anrainer verbessern soll. In Wien wird wegen nächtlichen Motorenlärms durch Autoposer gefordert, das Nachtfahrverbot rasch umzusetzen.",
       "items": [
         {
           "title": "Mühlbach: Vermessungsarbeiten für Lärmschutzwand im Dezember - austria.com",
@@ -28,10 +21,10 @@
           "date": "26. Nov 2026"
         },
         {
-          "title": "Holzbeton-Schallschutz für die Weststrecke Linz–Wels - a3BAU",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5VTEZld2J4WFo1UW5LWVJhMERvRnZzT1NNaWtyemVfV1VFdThnVGswZW83SXJVeXc5aFh3YmJ5ME1rMUdJUExDUWdCY1hId3o4cHNaQ1BZWDlITnJuTlFfbGFTSXBKQ2RxQi1kUF8tQ3luekNlVENBSS1n?oc=5",
-          "source": "a3BAU",
-          "date": "24. Nov 2026"
+          "title": "Nächtlicher Motorenlärm – Autoposer in Wien: \"Nachtfahrverbot rasch umsetzen\" - Heute",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUlBWU0k3cm9xa1FjU1BkbVg4VElkNHNOZDVhcFkwdlQ1SnVuQ3dZdUdzbHh6T1huZkV2SEtOcmVwVWxqSzVYbmMzb1RsamFfc3VGYkxWRnpKMERPR0E0d19BNFk3OUc3X2xteVFuYmZuZFRhWHdlQWxVV1FoZ1dmb1NScGx4dGg2?oc=5",
+          "source": "Heute",
+          "date": "25. Nov 2026"
         }
       ]
     },
@@ -39,7 +32,7 @@
       "label": "DACH",
       "icon": "🏔️",
       "color": "#5a5a5a",
-      "summary": "Aktuelle Meldungen aus Deutschland befassen sich mit den gesundheitlichen Folgen von Verkehrslärm (MDR) sowie mit einer Bürgerbefragung der Deutschen Bahn zur Akzeptanz und Gestaltung fünf Meter hoher Lärmschutzwände (Volksstimme). Zudem wird ein Video zu Infraschall kritisiert, weil es einen überholten Studienstand wiedergibt (Augsburger Allgemeine); Meldungen aus der Schweiz oder Neuigkeiten und Veranstaltungen der DEGA liegen nicht vor.",
+      "summary": "Aktuelle Meldungen aus Deutschland zeigen die gesundheitlichen Folgen von Verkehrslärm (MDR) sowie eine Bürgerbeteiligung der Deutschen Bahn zur Gestaltung und Akzeptanz fünf Meter hoher Lärmschutzwände (Volksstimme). Zudem wird ein Video kritisiert, das einen überholten Studienstand zu Infraschall wiedergibt (Augsburger Allgemeine); Meldungen aus der Schweiz oder Neuigkeiten und Veranstaltungen der DEGA liegen derzeit nicht vor.",
       "items": [
         {
           "title": "Wie der Verkehr uns krank machen kann - MDR.de",
@@ -65,12 +58,24 @@
       "label": "Europa",
       "icon": "🇪🇺",
       "color": "#003399",
-      "summary": "An EU-focused report, as reflected in the headline from Wisevoter, recognizes noise pollution as a significant risk to public health. This acknowledgment signals that noise exposure is increasingly viewed as a priority within European environmental and health policy, which may support stronger noise control measures.",
+      "summary": "The EU has recognized noise pollution as a health risk, yet it is falling far short of its own transport noise reduction target. The second headline, about EU law growing since 2010, is not relevant to noise control policy.",
       "items": [
         {
           "title": "EU Recognizes Noise Pollution as Health Risk - Wisevoter",
           "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ3NrTzQzb1FFYkd1cnR5UkZ6TDVEUWo4S21STXd1Vm1PQzdqZ05ZVHVQWlhTYTJCam5zZGRjeGx4TTMzNThYWGMwM09GQlYzdDhzbWFjRlBaUjBTNjNTQWhoQWJhNTdpLWJLNG5EYlh5V3FzcTN4bHVmNnAtVk55R19YV2pkVVU?oc=5",
           "source": "Wisevoter",
+          "date": "27. Nov 2026"
+        },
+        {
+          "title": "New EU Bureaucracy Index: EU law has more than doubled since 2010 - idw - Informationsdienst Wissenschaft",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8xSUZpa3drY2NzUWh2WHExWUE2Nk5BbENXTTJQXzBDTjUxSnRaOWJIazRXekR2eFp0ai01QkVBVTh5T1A0X21mRnRvcw?oc=5",
+          "source": "idw - Informationsdienst Wissenschaft",
+          "date": "24. Nov 2026"
+        },
+        {
+          "title": "EU falls far short of its own transport noise target - Brussels Signal",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOam82SlZWUkRqR1NsWjdHRkhJSTJjSGxPQlEzTGxwclZlSlVCd0NPTVFmT0EzdjA0bkVXNXZwQVNCRlV0VENYUFhsdW5oWDUzVWwwNGtvQzg1WlAydk1SbXV3NVpjS2pFVVcwRXczT0pJNjZhVFR1ZFVsUFhmdDhVNERLbkstc1d4enAwZDBLeXM?oc=5",
+          "source": "Brussels Signal",
           "date": "27. Nov 2026"
         }
       ]
@@ -79,19 +84,19 @@
       "label": "Wissenschaft",
       "icon": "🔬",
       "color": "#1a6b3c",
-      "summary": "Researchers report that the Attenborough model can be used to optimize sound absorption in packed beds of spherical particles for noise control, offering a way to tune material design for better acoustic performance. Separately, market coverage projects the automotive acoustic materials sector will grow to about US$7.5 billion, and a further report highlights the health impacts of noise pollution, underscoring the demand for effective noise mitigation.",
+      "summary": "Rolls-Royce and IIT Kanpur have launched a six-month research project focused on aircraft noise, with reports specifying that the work aims to advance noise reduction in aircraft cabins. Separately, a piece on the health impacts of noise pollution highlights the broader public health relevance of acoustic research and noise mitigation.",
       "items": [
         {
-          "title": "Attenborough Model Optimizes Sound Absorption in Packed Spherical Noise Control Beds - Bioengineer.org",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQc28yOGpTX3g4MkswNVVHUG8zRWFQMGgyaWlJUldMcFNNaDRqLVo4bXhYNkl6cEV4MnFjTlhNRTBjNUx6RWpxZEFwQzdGckdmN2ZfbVZLcGJWWVFKcWZJUVlpYVMyemNHdkxlcVpPWDFyb2pOdjJkRGRvaTBiVlhUWTFUQmU2Q2JUbE5xVHNFU1B3NW9sT29fNVNqYjdRR2NOa0xFWER5NE5Xb1hMSEE?oc=5",
-          "source": "Bioengineer.org",
-          "date": "21. Nov 2026"
+          "title": "Rolls-Royce, IIT Kanpur launch 6-month aircraft noise research project - Manufacturing Today India",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQW5tN19ycHJRWkxIQ1JEMXdCU20xbVNDa0hVckhrRzd6T202aXZfVjJ6ajRvdm5BWHh3YmxMYW5hLTNSNHRId18yYVUtS0dva1dteXZUdHpDNzRQTVM4bWN6ZjFQVzdiWDJTT2wtTWZrQi1IUkdnZ1VhUnUyMDhfX0VIRFZiZFJXRGNxUFlXdE5QMm1aRXlaVjBiNlEyOXN6c19QeW1UdzBhZ1FGTVE?oc=5",
+          "source": "Manufacturing Today India",
+          "date": "26. Nov 2026"
         },
         {
-          "title": "Automotive Acoustic Materials Market to Reach US$ 7.5 Billion - openPR.com",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYWJKZkdDRWxqVzZUMkJVSXp0dER4S1RhRFBVcExlUEIzSDVCejhPRl9TSzJqWGxGSHhUUXFNWk41WVo1TUhOeEphU2VyY2VLNEtOYmFVOEdoVzd5cC1HZlAyemJNUW1QYXp6MUwxa3ljSmhKbUtUbW5UOHRSOEJJTENZbHJJYkUwblVzVlFpVEZ2clZvZFlqRGtyUEw?oc=5",
-          "source": "openPR.com",
-          "date": "26. Nov 2026"
+          "title": "IIT-K, Rolls-Royce launch project to advance aircraft cabin noise reduction - The Times of India",
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOa2dtOENkakszTURDS1prNEVlRTU1cmZCa1E4d0g0MnFUT0FNdnB6UnhrVjlNb0VZcTdmLXVndXJxeXhqdktraFJ3WTMxVG40VkNXcEw0Vjg3YmJjUW5VREpRVHpGR0FYM0FDM04zZEpiZDJXMlNpZ1JnLTYySkxTdlk4Q0V5WVhUVGV4dDk5ekUxYl9nQ29LSGZGUU5SYjNUNm1XYzR0T01wc25Vb2FYZ3hSdzFIZkpmY3VTdXZsYTNRYUZMMDl6T0dDLS1takN5RlpmUmpYam4taWdHNHo5SDFB0gHnAUFVX3lxTE1fbzZZR091VDNDVTREZ2hZM3FuZ212M1ppQWN3d0FPaFNFdlZUV1BCMFNqVS1PQW55eHE5RDI5UkRuZVVzQzFQZkdnRVRrMFNueFI1RWdaODZzVHhpWTdGQjZtTFV5YldaZkdERS1BaE9uN1lGd2tNNDd6eGJ4di16cmpKUm9YMGpPd0Q5TGpMQmQwa0lXOFF0eEV6NnI4N1dPSWlXUVNGeHM4V0JESER2c1BWSFJXdXc5Q0lJN0pUR3puelB4MURuY2lJMDI3RnladVFjalYzQnVtNUVra01wU1hMcHJlVQ?oc=5",
+          "source": "The Times of India",
+          "date": "25. Nov 2026"
         },
         {
           "title": "Noise pollution’s health impacts - agendaNi",
@@ -105,7 +110,7 @@
       "label": "Bauakustik",
       "icon": "🏗️",
       "color": "#7b4f12",
-      "summary": "Relevant ist vor allem die Meldung zum Holzbeton-Schallschutz an der Weststrecke Linz–Wels (a3BAU), die zeigt, dass Holzbeton als Material für Lärmschutzwände im österreichischen Bahnbereich eingesetzt wird. Der Beitrag zum „Gebäudetyp E\" (inFranken.de) betrifft vereinfachte Bauweisen mit möglichen Abstrichen bei Standards und ist für den baulichen Schallschutz im Hochbau insofern relevant, als er die Diskussion über die Absenkung oder Abweichung von Schallschutzanforderungen berührt.",
+      "summary": "Der Gebäudetyp E, der durch vereinfachte Standards günstigeres Bauen ermöglichen soll, ist auch für den Schallschutz im Hochbau relevant, da dabei Abweichungen von den anerkannten Regeln der Technik, etwa bei DIN 4109, diskutiert werden. Zudem wird bei der Weststrecke Linz–Wels ein Holzbeton-Schallschutz eingesetzt, der als Lärmschutzlösung im Verkehrsbereich Österreichs von Interesse für die Bauakustik ist.",
       "items": [
         {
           "title": "Günstige Häuser mit \"einfacherem\" Gebäudetyp E? Das sagt ein Immobilien-Experte - inFranken.de",
